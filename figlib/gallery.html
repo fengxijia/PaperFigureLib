@@ -70,7 +70,7 @@ button { font: inherit; color: inherit; }
 
 /* ---------- top bar */
 .top {
-  display: flex; flex-direction: column; gap: 10px;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px 20px;
   padding-block: 12px 10px; border-bottom: 1px solid var(--line);
   position: sticky; top: 0; background: var(--bg); z-index: 5;
 }
@@ -82,7 +82,7 @@ button { font: inherit; color: inherit; }
 .credit a { color: inherit; }
 .brand h1 { margin: 0; font-size: 18px; font-weight: 600; letter-spacing: -0.01em; }
 .bar .stats { color: var(--muted); font-size: 12px; margin-left: auto; }
-.bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }   /* search + filters, on their own line under the title */
+.bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; flex: 1 1 600px; }   /* search + filters share the title line */
 .search { flex: 1 1 260px; min-width: 200px; max-width: 520px; display: flex; }
 .search input {
   width: 100%; padding: 7px 12px; border: 1px solid var(--line); border-radius: 6px;
@@ -98,8 +98,7 @@ button { font: inherit; color: inherit; }
 
 /* ---------- layout */
 .wrap { display: grid; grid-template-columns: 200px 1fr; gap: 20px; padding-block: 14px 40px; }
-@media (max-width: 760px) { .wrap { grid-template-columns: 1fr; } .rail { position: static; } }
-.rail { position: sticky; top: 108px; align-self: start; height: calc(100vh - 156px); display: flex; flex-direction: column; }
+.rail { position: sticky; top: 74px; align-self: start; height: calc(100vh - 124px); display: flex; flex-direction: column; }
 .rail-body { flex: 1; min-height: 0; overflow: auto; }
 .rail-foot { flex: none; padding: 12px 0 6px; border-top: 1px solid var(--line); }
 .rail-foot .gh { color: var(--muted); font-size: 12px; gap: 8px; }
@@ -107,6 +106,17 @@ button { font: inherit; color: inherit; }
 .rail-foot .gh small { display: block; font-size: 10.5px; opacity: .85; }
 .rail-foot .gh:hover { color: var(--ink); }
 .rail-foot .gh svg { width: 18px; height: 18px; }
+.rail-toggle { display: none; }
+/* phones: filters collapse into a button above the figures; the rail is no longer sticky or full-height */
+@media (max-width: 760px) {
+  .wrap { grid-template-columns: 1fr; gap: 8px; }
+  .rail { position: static; height: auto; display: block; }
+  .rail-toggle { display: inline-flex; align-items: center; gap: 6px; margin: 2px 0 4px; }
+  .rail-body { display: none; max-height: 60vh; overflow: auto; padding-bottom: 6px; }
+  .rail.open .rail-body { display: block; }
+  .rail-foot { border-top: 0; padding: 0; margin-left: 12px; display: inline-block; vertical-align: middle; }
+  .rail-foot .gh small { display: none; }
+}
 .rail h2 { margin: 12px 0 6px; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 .tree { list-style: none; margin: 0; padding: 0; }
 .tree li { margin: 0; }
@@ -226,6 +236,7 @@ h3.group:first-child { margin-top: 4px; }
 
 <div class="wrap">
   <aside class="rail">
+   <button class="chip rail-toggle" id="railToggle" type="button" aria-expanded="false">筛选 ▾</button>
    <div class="rail-body">
     <h2 id="h-type">图的类型</h2>
     <ul class="tree" id="tree"></ul>
@@ -295,14 +306,14 @@ const MODE = "__MODE__";
 let LANG = (location.search.includes('lang=en') || (() => { try { return localStorage.getItem('figlib-lang') === 'en'; } catch (e) { return false; } })()) ? 'en' : 'zh';
 const T = {
   zh: { search: '搜图注、论文题目、标签、arXiv 号', venue: '会议', all: '全部', sort: '排序', byPaper: '按论文', byYear: '年份新到旧', wide: '宽图优先', tall: '高图优先',
-        type: '图的类型', source: '来源', draw: '绘制方式', textbox: '文字框', more: '显示更多', empty: '没有符合条件的图。换个关键词或者放宽筛选。',
+        filters: '筛选', type: '图的类型', source: '来源', draw: '绘制方式', textbox: '文字框', more: '显示更多', empty: '没有符合条件的图。换个关键词或者放宽筛选。',
         footer: '图片版权归各论文作者所有，本站仅供学术参考；每张图都标明了论文出处。', credit: '由 <a href="https://github.com/fengxijia" target="_blank" rel="noopener">xixisphere</a> 开发，代码开源在 <a href="https://github.com/fengxijia/PaperFigureLib" target="_blank" rel="noopener">GitHub</a>。', close: '关闭 Esc', num: '图号', kind: '类型', pos: '位置', file: '原图',
         prev: '上一张', next: '下一张', share: '复制链接', copied: '已复制', openPng: '在新窗口打开原图', none: '无', unknown: '未识别', pdf: '论文 PDF',
         award: '获奖论文（Best Paper 等）', seed: '顶会经典（种子清单）', local: '本地论文库', vector: '矢量图（可仿的线条）', raster: '含位图',
         hide: '隐藏提示词和表格截图', show: '显示', heur: '（按图注粗分）', page: '第 {p} 页', bitmap: '含位图', vec: '矢量', full: '通栏', zoom: '点图看原尺寸',
         byWall: '新到旧', byEdition: '按届分组', verified: '{m} 复核过', wholeArea: '所有', stats: '{p} 篇顶会论文 · {f} 张图 · 更新于 {d}', result: '符合条件 <b>{n}</b> 张，显示前 {k} 张', styleH: '同款数据图', oneStyle: '每篇只留一张', allStyle: '全部显示', figure: 'Figure {n}', panel: '，子图 {k}/{n}' },
   en: { search: 'Search captions, titles, tags, arXiv id', venue: 'Venue', all: 'All', sort: 'Sort', byPaper: 'By paper', byYear: 'Newest first', wide: 'Wide first', tall: 'Tall first',
-        type: 'Figure type', source: 'Source', draw: 'Drawing', textbox: 'Text boxes', more: 'Show more', empty: 'No figures match. Try another keyword or loosen the filters.',
+        filters: 'Filters', type: 'Figure type', source: 'Source', draw: 'Drawing', textbox: 'Text boxes', more: 'Show more', empty: 'No figures match. Try another keyword or loosen the filters.',
         footer: 'Figures belong to their papers\' authors; this site is for academic reference and every figure links to its source paper.', credit: 'Built by <a href="https://github.com/fengxijia" target="_blank" rel="noopener">xixisphere</a>. Source on <a href="https://github.com/fengxijia/PaperFigureLib" target="_blank" rel="noopener">GitHub</a>.', close: 'Close Esc', num: 'Figure', kind: 'Type', pos: 'Where', file: 'File',
         prev: 'Previous', next: 'Next', share: 'Copy link', copied: 'Copied', openPng: 'Open full image', none: 'none', unknown: 'unknown', pdf: 'Paper PDF',
         award: 'Award papers (best paper etc.)', seed: 'Classic / high-impact', local: 'Local library', vector: 'Vector (line art)', raster: 'Contains bitmap',
@@ -643,7 +654,7 @@ function applyLang() {
   CAT_ZH = CAT_L[LANG]; CHART_ZH = CHART_L[LANG];
   $('q').placeholder = t('search'); $('l-venue').textContent = t('venue'); $('o-allvenue').textContent = t('all'); $('l-sort').textContent = t('sort');
   $('o-wall').textContent = t('byWall'); $('o-edition').textContent = t('byEdition'); $('o-paper').textContent = t('byPaper'); $('o-year').textContent = t('byYear'); $('o-wide').textContent = t('wide'); $('o-tall').textContent = t('tall');
-  $('h-type').textContent = t('type'); $('h-source').textContent = t('source'); $('h-draw').textContent = t('draw'); $('h-textbox').textContent = t('textbox'); $('h-style').textContent = t('styleH');
+  $('h-type').textContent = t('type'); $('h-source').textContent = t('source'); $('h-draw').textContent = t('draw'); $('h-textbox').textContent = t('textbox'); $('h-style').textContent = t('styleH'); $('railToggle').textContent = t('filters') + ' ▾';
   $('more').textContent = t('more'); $('empty').textContent = t('empty'); $('footer').textContent = t('footer'); $('credit').innerHTML = t('credit'); $('lbClose').textContent = t('close');
   $('k-num').textContent = t('num'); $('k-kind').textContent = t('kind'); $('k-venue').textContent = t('venue'); $('k-pos').textContent = t('pos'); $('k-file').textContent = t('file');
   $('lbPrev').textContent = t('prev'); $('lbNext').textContent = t('next'); $('lbShare').textContent = t('share');
@@ -671,6 +682,7 @@ $('q').addEventListener('input', e => { state.q = e.target.value.trim(); state.s
 $('venue').addEventListener('change', e => { const v = e.target.value; state.area = v.startsWith('area:') ? v.slice(5) : ''; state.venue = v.startsWith('area:') ? '' : v; state.shown = 200; render(); });
 $('sort').addEventListener('change', e => { state.sort = e.target.value; render(); });
 $('more').addEventListener('click', () => { state.shown += 200; render(); });
+$('railToggle').addEventListener('click', () => { const r = document.querySelector('.rail'); const open = r.classList.toggle('open'); $('railToggle').setAttribute('aria-expanded', open ? 'true' : 'false'); $('railToggle').textContent = t('filters') + (open ? ' ▴' : ' ▾'); });
 
 applyLang();
 if (location.search.includes('hoverdemo')) { const st = document.createElement('style'); st.textContent = '.card:nth-child(-n+3) .hover{opacity:1;transform:none}'; document.head.appendChild(st); }
