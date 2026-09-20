@@ -396,9 +396,11 @@ function mixKinds(l) {
   }
   return out;
 }
-// Default order of papers: areas take turns (ML and NLP first in every round), and inside an area the papers
-// come in a fixed pseudo-random order, so the front page mixes fields instead of running venue by venue.
-const AREA_LEAD = ['ml', 'nlp', 'vision', 'ai', 'graphics', 'ir', 'robotics', 'vis'];
+// Default order of papers: the four AI areas (ML, NLP, AI, vision) lead; each round takes LEAD_PER_ROUND papers
+// from every lead area and one paper from the other areas (which take turns), so the first pages are mostly AI
+// figures while every field still shows up. HCI comes last inside a tier. Papers inside an area are in a fixed
+// pseudo-random order, so the front page mixes venues and looks the same on every visit.
+const AREA_LEAD = ['ml', 'nlp', 'ai', 'vision'], LEAD_PER_ROUND = 3;
 const AREA_TAIL = ['hci'];        // CHI / UIST / CSCW figures come after every other area inside a tier
 function hash32(s) { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; }
 let _paperOrder = null;
@@ -406,11 +408,17 @@ function shuffledPapers(l) {
   if (_paperOrder) return _paperOrder;
   const byArea = {};
   for (const f of l) { const a = f.area || 'other'; (byArea[a] = byArea[a] || new Set()).add(f.key); }
-  const areas = [...AREA_LEAD.filter(a => byArea[a]), ...Object.keys(byArea).filter(a => !AREA_LEAD.includes(a) && !AREA_TAIL.includes(a)).sort()];
-  const queues = areas.map(a => [...byArea[a]].sort((x, y) => hash32(x) - hash32(y)));
-  const order = {}; let n = 0, left = queues.reduce((s, q) => s + q.length, 0);
-  while (left > 0) for (const q of queues) if (q.length) { order[q.shift()] = n++; left--; }
-  for (const a of AREA_TAIL) if (byArea[a]) for (const k of [...byArea[a]].sort((x, y) => hash32(x) - hash32(y))) order[k] = n++;
+  const shuffled = a => [...byArea[a]].sort((x, y) => hash32(x) - hash32(y));
+  const lead = AREA_LEAD.filter(a => byArea[a]).map(shuffled);
+  const others = Object.keys(byArea).filter(a => !AREA_LEAD.includes(a) && !AREA_TAIL.includes(a)).sort().map(shuffled);
+  const rest = [];                                   // the other areas interleaved, one paper each in turn
+  for (let left = others.reduce((s, q) => s + q.length, 0); left > 0;) for (const q of others) if (q.length) { rest.push(q.shift()); left--; }
+  const order = {}; let n = 0;
+  for (let left = lead.reduce((s, q) => s + q.length, 0) + rest.length; left > 0;) {
+    for (const q of lead) for (let i = 0; i < LEAD_PER_ROUND && q.length; i++) { order[q.shift()] = n++; left--; }
+    if (rest.length) { order[rest.shift()] = n++; left--; }
+  }
+  for (const a of AREA_TAIL) if (byArea[a]) for (const k of shuffled(a)) order[k] = n++;
   return (_paperOrder = order);
 }
 function sorted(list) {
