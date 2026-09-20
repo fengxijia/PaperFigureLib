@@ -70,8 +70,8 @@ button { font: inherit; color: inherit; }
 
 /* ---------- top bar */
 .top {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px;
-  padding-block: 14px 10px; border-bottom: 1px solid var(--line);
+  display: flex; flex-direction: column; gap: 10px;
+  padding-block: 12px 10px; border-bottom: 1px solid var(--line);
   position: sticky; top: 0; background: var(--bg); z-index: 5;
 }
 .brand { display: flex; align-items: center; gap: 10px; }
@@ -82,6 +82,7 @@ button { font: inherit; color: inherit; }
 .credit a { color: inherit; }
 .brand h1 { margin: 0; font-size: 18px; font-weight: 600; letter-spacing: -0.01em; }
 .brand .stats { color: var(--muted); font-size: 12px; }
+.bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }   /* search + filters, on their own line under the title */
 .search { flex: 1 1 260px; min-width: 200px; max-width: 520px; display: flex; }
 .search input {
   width: 100%; padding: 7px 12px; border: 1px solid var(--line); border-radius: 6px;
@@ -98,7 +99,7 @@ button { font: inherit; color: inherit; }
 /* ---------- layout */
 .wrap { display: grid; grid-template-columns: 200px 1fr; gap: 20px; padding-block: 14px 40px; }
 @media (max-width: 760px) { .wrap { grid-template-columns: 1fr; } .rail { position: static; } }
-.rail { position: sticky; top: 74px; align-self: start; height: calc(100vh - 124px); display: flex; flex-direction: column; }
+.rail { position: sticky; top: 108px; align-self: start; height: calc(100vh - 156px); display: flex; flex-direction: column; }
 .rail-body { flex: 1; min-height: 0; overflow: auto; }
 .rail-foot { flex: none; padding: 12px 0 6px; border-top: 1px solid var(--line); }
 .rail-foot .gh { color: var(--muted); font-size: 12px; gap: 8px; }
@@ -204,6 +205,7 @@ h3.group:first-child { margin-top: 4px; }
     <h1>Paper Figure Library</h1>
     <span class="stats" id="stats"></span>
   </div>
+  <div class="bar">
   <div class="search"><input id="q" type="search" placeholder="搜图注、论文题目、标签、arXiv 号"></div>
   <div class="controls">
     <label for="venue" id="l-venue">会议</label>
@@ -218,6 +220,7 @@ h3.group:first-child { margin-top: 4px; }
       <option value="tall" id="o-tall">高图优先</option>
     </select>
     <button class="chip" id="lang" type="button" aria-label="switch language">EN</button>
+  </div>
   </div>
 </header>
 
