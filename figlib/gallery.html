@@ -81,7 +81,7 @@ button { font: inherit; color: inherit; }
 .credit { margin-top: 6px; }
 .credit a { color: inherit; }
 .brand h1 { margin: 0; font-size: 18px; font-weight: 600; letter-spacing: -0.01em; }
-.brand .stats { color: var(--muted); font-size: 12px; }
+.bar .stats { color: var(--muted); font-size: 12px; margin-left: auto; }
 .bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }   /* search + filters, on their own line under the title */
 .search { flex: 1 1 260px; min-width: 200px; max-width: 520px; display: flex; }
 .search input {
@@ -203,7 +203,6 @@ h3.group:first-child { margin-top: 4px; }
   <div class="brand">
     <img class="logo" src="favicon.svg" alt="" width="26" height="26">
     <h1>Paper Figure Library</h1>
-    <span class="stats" id="stats"></span>
   </div>
   <div class="bar">
   <div class="search"><input id="q" type="search" placeholder="搜图注、论文题目、标签、arXiv 号"></div>
@@ -221,6 +220,7 @@ h3.group:first-child { margin-top: 4px; }
     </select>
     <button class="chip" id="lang" type="button" aria-label="switch language">EN</button>
   </div>
+  <span class="stats" id="stats"></span>
   </div>
 </header>
 
