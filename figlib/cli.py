@@ -504,6 +504,7 @@ def _dedupe_images(data: Path, figs):
             ex = f.setdefault("extra", {})
             ex["tw"], ex["th"] = h[1], h[2]
             ex["density"] = round(h[3] / max(1, h[1] * h[2]) * 1000, 1)   # webp bytes per kilo-pixel: text-heavy figures compress badly
+            ex["v"] = h[0][:8]                                          # content version for cache busting
         out.append(f)
     return out
 
@@ -566,8 +567,10 @@ def load_index(data: Path):
             if v2:
                 base = f.get("vision") or {"tags": [], "summary_zh": ""}
                 f["vision"] = {**base, "category": v2["category"], "chart_type": v2.get("chart_type", ""), "verified": v2["model"]}
-            f["thumb"] = "figs/" + fig_path(data / "figs", f["fig_id"], thumb=True).name
-            f["full"] = "figs/" + fig_path(data / "figs", f["fig_id"]).name
+            ver = f.get("extra", {}).get("v")
+            q = f"?v={ver}" if ver else ""
+            f["thumb"] = "figs/" + fig_path(data / "figs", f["fig_id"], thumb=True).name + q
+            f["full"] = "figs/" + fig_path(data / "figs", f["fig_id"]).name + q
         papers.append({"paper_key": key, "meta": meta, "figures": figs, "dpi": rec.get("dpi", 170)})
     # the local library holds many drafts of the same paper: keep one per title
     # (the copy with the most figures; seeds win ties)
@@ -645,7 +648,9 @@ def cmd_site(args):
                 continue
             dst = figs_out / src.name
             if dst.exists():
-                continue
+                if os.path.samefile(src, dst):
+                    continue
+                dst.unlink()
             try:
                 os.link(src, dst)          # same filesystem: no extra disk
             except OSError:
