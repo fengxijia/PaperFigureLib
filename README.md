@@ -1,12 +1,12 @@
-# paperfigure
+# PaperFigureLib
 
 **Live: <https://paperfigure.net/>**
 
 Asked AI to turn your paper into a figure, only to get a complete mess? Want to learn from the figure styles of top-tier conference papers, but are not sure where to find enough good examples? The ultimate collection of figures from top CS conferences is here!
 
-paperfigure collects and organizes high-quality figures from top computer science conference papers, with categories including method diagrams, model architectures, workflows, data visualizations, and experimental results. Whether you are looking for inspiration, designing a layout, or choosing reference figures for AI generation, you can quickly find examples that meet the visual standards of top-tier conference papers.
+PaperFigureLib collects and organizes high-quality figures from top computer science conference papers, with categories including method diagrams, model architectures, workflows, data visualizations, and experimental results. Whether you are looking for inspiration, designing a layout, or choosing reference figures for AI generation, you can quickly find examples that meet the visual standards of top-tier conference papers.
 
-把论文丢给AI画图，结果画得一团糟？想要参考顶会论文的画图风格，却担心找不全？顶会论文图表大全来啦！paperfigure 收集并整理了计算机科学顶会论文中的优秀图表，按照方法图、模型架构图、流程图、数据图、实验结果图等类别进行归档。无论你是在寻找灵感、设计版式，还是为 AI 绘图挑选参考模板，都可以从这里快速找到真正经得起顶会审美检验的范例。
+把论文丢给AI画图，结果画得一团糟？想要参考顶会论文的画图风格，却担心找不全？顶会论文图表大全来啦！PaperFigureLib 收集并整理了计算机科学顶会论文中的优秀图表，按照方法图、模型架构图、流程图、数据图、实验结果图等类别进行归档。无论你是在寻找灵感、设计版式，还是为 AI 绘图挑选参考模板，都可以从这里快速找到真正经得起顶会审美检验的范例。
 
 ## How it works
 
@@ -18,7 +18,7 @@ paperfigure collects and organizes high-quality figures from top computer scienc
 ## Run it yourself
 
 ```bash
-git clone https://github.com/fengxijia/paperfigure && cd paperfigure
+git clone https://github.com/fengxijia/PaperFigureLib && cd PaperFigureLib
 python3 -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt
 
 python -m figlib.cli extract --pdf-dir ~/papers --jobs 3     # your own PDFs, no API key needed
