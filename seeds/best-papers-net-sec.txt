@@ -1,0 +1,329 @@
+# 网络 / 安全 / 度量 / 移动板块近 5 年 Best / Distinguished Paper（SIGCOMM、NSDI、IEEE S&P、CCS、USENIX Security、NDSS、IMC、SIGMETRICS、MobiCom、MobiSys、SenSys，2021 到 2026）。
+# 2026-09-13 由并行调查产出。USENIX / NDSS / ePrint 直链可下；dl.acm.org 会 403；NOPDF 无开放 PDF。
+https://dl.acm.org/doi/pdf/10.1145/3452296.3472928   # SIGCOMM 2021 Best Paper: Seven Years in the Life of Hypergiants' Off-Nets
+https://dl.acm.org/doi/pdf/10.1145/3544216.3544244   # SIGCOMM 2022 Best Paper: Software-Defined Network Assimilation
+https://dl.acm.org/doi/pdf/10.1145/3544216.3544223   # SIGCOMM 2022 Best Student Paper: Starvation in End-to-End Congestion Control
+https://dl.acm.org/doi/pdf/10.1145/3718958.3750510   # SIGCOMM 2025 Best Paper: Mosaic: Breaking the Optics versus Copper Trade-off with a Wide-and-Slow Architecture and MicroLEDs
+https://dl.acm.org/doi/pdf/10.1145/3718958.3754350   # SIGCOMM 2025 Best Student Paper: Edge Caching as Differentiation
+https://dl.acm.org/doi/pdf/10.1145/3718958.3750480   # SIGCOMM 2025 Best Student Paper Honorable Mention: Revisiting RDMA Reliability for Lossy Fabrics
+https://dl.acm.org/doi/pdf/10.1145/3789240.3829151   # SIGCOMM 2026 Best Paper: A Programming Language for Silicon Photonics
+2504.19058   # SIGCOMM 2026 Best Paper: Presto: A Match-Action TCP Stack for the Terabit Era
+https://www.usenix.org/system/files/nsdi21-lao.pdf   # NSDI 2021 Best Paper: ATP: In-network Aggregation for Multi-tenant Learning
+https://www.usenix.org/system/files/nsdi21-yang.pdf   # NSDI 2021 Community Award: Segcache: a memory-efficient and scalable in-memory key-value cache for small objects
+https://www.usenix.org/system/files/nsdi22-paper-najafi_1.pdf   # NSDI 2022 Best Paper: Graham: Synchronizing Clocks by Leveraging Local Clock Properties
+https://www.usenix.org/system/files/nsdi22-paper-geissdoerfer.pdf   # NSDI 2022 Community Award: Learning to Communicate Effectively Between Battery-free Devices
+https://www.usenix.org/system/files/nsdi22-paper-ghasemirahni.pdf   # NSDI 2022 Community Award: Packet Order Matters! Improving Application Performance by Deliberately Delaying Packets
+https://www.usenix.org/system/files/nsdi23-kludze.pdf   # NSDI 2023 Best Paper: LeakyScatter: A Frequency-Agile Directional Backscatter Network Above 100 GHz
+2201.01811   # NSDI 2023 Best Paper: CausalSim: A Causal Framework for Unbiased Trace-Driven Simulation
+https://www.usenix.org/system/files/nsdi23-perry.pdf   # NSDI 2023 Best Paper: DOTE: Rethinking (Predictive) WAN Traffic Engineering
+2209.10001   # NSDI 2023 Community Award: Building Flexible, Low-Cost Wireless Access Networks With Magma
+2212.12180   # NSDI 2024 Outstanding Paper: Autothrottle: A Practical Bi-Level Approach to Resource Management for SLO-Targeted Microservices
+https://www.usenix.org/system/files/nsdi24-wu-zhanghao.pdf   # NSDI 2024 Outstanding Paper: Can't Be Late: Optimizing Spot Instance Savings under Deadlines
+https://www.usenix.org/system/files/nsdi24-amiri.pdf   # NSDI 2024 Outstanding Paper: The Bedrock of Byzantine Fault Tolerance
+https://www.usenix.org/system/files/nsdi24-liu-lixin.pdf   # NSDI 2024 Outstanding Paper: Democratizing Direct-to-Cell Low Earth Orbit Satellite Networks
+https://www.usenix.org/system/files/nsdi24-yuan.pdf   # NSDI 2024 Outstanding Paper: Sidekick: In-Network Assistance for Secure End-to-End Transport Protocols
+https://www.usenix.org/system/files/nsdi24-zhang-yazhuo.pdf   # NSDI 2024 Community Award: SIEVE is Simpler than LRU: an Efficient Turn-Key Eviction Algorithm for Web Caches
+https://www.usenix.org/system/files/nsdi25-li-zechun.pdf   # NSDI 2025 Outstanding Paper: NDD: A Decision Diagram for Network Verification
+https://www.usenix.org/system/files/nsdi25-sentosa.pdf   # NSDI 2025 Community Award: CellReplay: Towards accurate record-and-replay for cellular networks
+https://www.usenix.org/system/files/nsdi26-zhang-zhaochen.pdf   # NSDI 2026 Outstanding Paper: OSCAR: O(1)-Step Convergence and Readily-deployable Congestion Control
+https://www.usenix.org/system/files/nsdi26-wu-tianyuan.pdf   # NSDI 2026 Outstanding Paper: Attack of the Bubbles: Straggler-Resilient Pipeline Parallelism for Large Model Training
+https://www.usenix.org/system/files/nsdi26-wei.pdf   # NSDI 2026 Outstanding Paper: HyperEdge: An Edge CDN Infrastructure for Cost Efficient Video Streaming
+https://www.usenix.org/system/files/nsdi26-zhu-jingyuan.pdf   # NSDI 2026 Community Award: Detecting and Diagnosing Errors in Serving Archived Web Pages
+https://www.usenix.org/system/files/nsdi26-han.pdf   # NSDI 2026 Community Award: UpFuzz: Detecting Data Format Incompatibility Bugs during Distributed Storage System Upgrade
+https://www.usenix.org/system/files/nsdi26-xia.pdf   # NSDI 2026 Community Award: REAL: Emulating Control Plane at Simulator's Cost
+https://www.usenix.org/system/files/nsdi26-wu-shaofeng.pdf   # NSDI 2026 Community Award: Offloading Cloud Network Services at Production Scale with SONiC DASH SmartSwitch
+2103.08577   # IEEE S&P 2021 Best Paper: Compositional Security for Reentrant Applications
+2006.03841   # IEEE S&P 2021 Best Paper: Hardware-Software Contracts for Secure Speculation
+https://adamdoupe.com/publications/crawlphish-oakland21.pdf   # IEEE S&P 2021 Best Student Paper: CrawlPhish: Large-scale Analysis of Client-side Cloaking Techniques in Phishing
+2006.08249   # IEEE S&P 2021 Best Practical Paper: The EMV Standard: Break, Fix, Verify
+https://eprint.iacr.org/2023/469.pdf   # IEEE S&P 2022 Distinguished Paper: Four Attacks and a Proof for Telegram
+2108.09293   # IEEE S&P 2022 Distinguished Paper: Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions
+2402.02227   # IEEE S&P 2022 Distinguished Paper: Invisible Finger: Practical Electromagnetic Interference Attack on Touchscreen-based Electronic Devices
+https://eprint.iacr.org/2022/959.pdf   # IEEE S&P 2023 Distinguished Paper: MEGA: Malleable Encryption Goes Awry
+https://eprint.iacr.org/2023/485.pdf   # IEEE S&P 2023 Distinguished Paper: Practically-exploitable Cryptographic Vulnerabilities in Matrix
+https://eprint.iacr.org/2023/691.pdf   # IEEE S&P 2023 Distinguished Paper: Weak Fiat-Shamir Attacks on Modern Proof Systems
+https://hal.science/hal-04106448v1/document   # IEEE S&P 2023 Distinguished Paper: Typing High-Speed Cryptography against Spectre v1
+2303.17343   # IEEE S&P 2023 Distinguished Paper: Not Yet Another Digital ID: Privacy-preserving Humanitarian Aid Distribution
+2308.15259   # IEEE S&P 2024 Distinguished Paper: Shedding Light on CVSS Scoring Inconsistencies
+2307.16325   # IEEE S&P 2024 Distinguished Paper: "False negative - that one is going to kill you." Understanding Industry Perspectives of Static Analysis based Security Testing
+2405.10220   # IEEE S&P 2024 Distinguished Paper: SoK: Prudent Evaluation Practices for Fuzzing
+2312.04542   # IEEE S&P 2024 Distinguished Paper: SoK: Unintended Interactions among Machine Learning Defenses and Risks
+2406.01964   # IEEE S&P 2024 Distinguished Paper: From Chatbots to Phishbots?: Phishing Scam Generation in Commercial Large Language Models
+2404.03526   # IEEE S&P 2024 Distinguished Paper: WESEE: Using Malicious #VC Interrupts to Break AMD SEV-SNP
+https://eprint.iacr.org/2025/1849.pdf   # IEEE S&P 2025 Distinguished Paper: COBBL: Dynamic Constraint Generation for SNARKs
+2410.17361   # IEEE S&P 2025 Distinguished Paper: Characterizing Robocalls with Multiple Vantage Points
+2402.14988   # IEEE S&P 2025 Distinguished Paper: Verifiable Boosted Tree Ensembles
+https://comsec.ethz.ch/wp-content/files/ibpb_sp25.pdf   # IEEE S&P 2025 Distinguished Paper: Breaking the Barrier: Post-Barrier Spectre Attacks
+2312.05114   # IEEE S&P 2025 Distinguished Paper: The Inadequacy of Similarity-based Privacy Metrics
+2505.03555   # IEEE S&P 2025 Distinguished Paper: Empc: Effective Path Prioritization for Symbolic Execution with Path Cover
+https://predictors.fail/files/SLAP.pdf   # IEEE S&P 2025 Distinguished Paper: SLAP: Data Speculation Attacks via Load Address Prediction on Apple Silicon
+2504.11358   # IEEE S&P 2025 Distinguished Paper: DataSentinel: A Game-Theoretic Detection of Prompt Injection Attacks
+2507.06039   # IEEE S&P 2026 Distinguished Paper: Enter, Exit, Page Fault, Leak: Testing Isolation Boundaries for Microarchitectural Leaks
+2509.11173   # IEEE S&P 2026 Distinguished Paper: Your Compiler is Backdooring Your Model
+https://comsec-files.ethz.ch/papers/phoenix_sp26.pdf   # IEEE S&P 2026 Distinguished Paper: Phoenix: Rowhammer Attacks on DDR5 with Self-Correcting Synchronization
+https://eprint.iacr.org/2024/1605.pdf   # IEEE S&P 2026 Distinguished Paper: Nebula: Proving machine executions via folding schemes
+2508.18947   # IEEE S&P 2026 Distinguished Paper: LLMs in the SOC: An Empirical Study of Human-AI Collaboration in Security Operations Centres
+2605.21378   # IEEE S&P 2026 Distinguished Paper: Auditing Apple's DifferentialPrivacy.framework
+https://eprint.iacr.org/2025/2115.pdf   # IEEE S&P 2026 Distinguished Paper: Weighted Batched Threshold Encryption with Applications to Mempool Privacy
+2605.03812   # IEEE S&P 2026 Distinguished Paper: GPUBreach: Privilege Escalation Attacks on GPUs using Rowhammer
+https://dl.acm.org/doi/pdf/10.1145/3460120.3484739   # CCS 2021 Best Paper: XSinator.com: From a Formal Model to the Automatic Evaluation of Cross-Site Leaks in Web Browsers
+2108.04575   # CCS 2021 Best Paper: One Glitch to Rule Them All: Fault Injection Attacks Against AMD's Secure Encrypted Virtualization
+2105.05180   # CCS 2021 Best Paper: On the Renyi Differential Privacy of the Shuffle Model
+https://eprint.iacr.org/2021/923.pdf   # CCS 2021 Best Paper: On the (In)Security of ElGamal in OpenPGP
+2110.06452   # CCS 2021 Best Paper Runner-Up: "I need a better description": An Investigation Into User Expectations For Differential Privacy
+2105.00164   # CCS 2021 Best Paper Runner-Up: Hidden Backdoors in Human-Centric Language Models
+2105.11363   # CCS 2021 Best Paper Runner-Up: Learning Security Classifiers with Verified Global Robustness Properties
+https://eprint.iacr.org/2021/076.pdf   # CCS 2021 Best Paper Runner-Up: QuickSilver: Efficient and Affordable Zero-Knowledge Proofs for Circuits and Polynomials over Any Field
+https://eprint.iacr.org/2021/777.pdf   # CCS 2021 Best Paper Runner-Up: Asynchronous Data Dissemination and its Applications
+2008.00146   # CCS 2021 Best Paper Runner-Up: CROSSLINE: Breaking "Security-by-Crash" based Memory Isolation in AMD SEV
+https://dl.acm.org/doi/pdf/10.1145/3460120.3484793   # CCS 2021 Best Paper Runner-Up: On Reengineering the X.509 PKI with Executable Specification for Better Implementation Guarantees
+2010.06785   # CCS 2021 Best Paper Runner-Up: BFT Protocol Forensics
+2109.07441   # CCS 2021 Best Paper Runner-Up: DPGen: Automated Program Synthesis for Differential Privacy
+https://www.research-collection.ethz.ch/bitstream/20.500.11850/545839/1/paper.pdf   # CCS 2022 Distinguished Paper: Victory by KO: Attacking OpenPGP Using Key Overwriting
+https://dl.acm.org/doi/pdf/10.1145/3548606.3559373   # CCS 2022 Distinguished Paper: Proving UNSAT in Zero Knowledge
+2209.01179   # CCS 2022 Distinguished Paper: Automatic Detection of Speculative Execution Combinations
+2109.10074   # CCS 2022 Distinguished Paper: STAR: Secret Sharing for Private Threshold Aggregation Reporting
+https://dl.acm.org/doi/pdf/10.1145/3548606.3559344   # CCS 2022 Best Paper Honorable Mention: CETIS: Retrofitting Intel CET for Generic and Efficient Intra-process Memory Isolation
+https://dl.acm.org/doi/pdf/10.1145/3548606.3559384   # CCS 2022 Best Paper Honorable Mention: Towards Automated Safety Vetting of Smart Contracts in Decentralized Applications
+2202.08080   # CCS 2022 Best Paper Honorable Mention: NeVerMore: Exploiting RDMA Mistakes in NVMe-oF Storage Applications
+https://dl.acm.org/doi/pdf/10.1145/3548606.3560589   # CCS 2022 Best Paper Honorable Mention: Detecting Missing-Permission-Check Vulnerabilities in Distributed Cloud Systems
+https://vtechworks.lib.vt.edu/bitstreams/8c2e9f38-ecbb-4249-86bf-d83a640779cd/download   # CCS 2022 Best Paper Honorable Mention: Hammurabi: A Framework for Pluggable, Logic-based X.509 Certificate Validation Policies
+2209.03463   # CCS 2022 Best Paper Honorable Mention: Why So Toxic? Measuring and Triggering Toxic Behavior in Open-Domain Chatbots
+2209.09557   # CCS 2022 Best Paper Honorable Mention: CANflict: Exploiting Peripheral Conflicts for Data-Link Layer Attacks on Automotive Networks
+2208.14530   # CCS 2022 Best Paper Honorable Mention: MC2: Rigorous and Efficient Directed Greybox Fuzzing
+https://eprint.iacr.org/2022/952.pdf   # CCS 2022 Best Paper Honorable Mention: When Frodo Flips: End-to-End Key Recovery on FrodoKEM via Rowhammer
+2209.06506   # CCS 2022 Best Paper Honorable Mention: Order-Disorder: Imitation Adversarial Attacks for Black-box Neural Ranking Models
+https://dl.acm.org/doi/pdf/10.1145/3576915.3616581   # CCS 2023 Distinguished Paper: Alert Alchemy: SOC Workflows and Decisions in the Management of NIDS Rules
+2305.10867   # CCS 2023 Distinguished Paper: Amplification by Shuffling without Shuffling
+https://dl.acm.org/doi/pdf/10.1145/3576915.3623169   # CCS 2023 Distinguished Paper: Batchman and Robin: Batched and Non-batched Branching for Interactive ZK
+2309.11151   # CCS 2023 Distinguished Paper: Capacity: Cryptographically-Enforced In-process Capabilities for Modern ARM Architectures
+https://dl.acm.org/doi/pdf/10.1145/3576915.3616584   # CCS 2023 Distinguished Paper: CoCo: Efficient Browser Extension Vulnerability Detection via Coverage-guided, Concurrent Abstract Interpretation
+2309.05901   # CCS 2023 Distinguished Paper: Concurrent Composition for Interactive Differential Privacy with Adaptive Privacy-Loss Parameters
+https://dl.acm.org/doi/pdf/10.1145/3576915.3623125   # CCS 2023 Distinguished Paper: FutORAMa: A Concretely Efficient Hierarchical Oblivious RAM
+2310.18596   # CCS 2023 Distinguished Paper: How Hard is Takeover in DPoS Blockchains?
+2302.05319   # CCS 2023 Distinguished Paper: Large Language Models for Code: Security Hardening and Adversarial Testing
+https://dl.acm.org/doi/pdf/10.1145/3576915.3623206   # CCS 2023 Distinguished Paper: PANIC: PAN-assisted Intra-process Memory Isolation on ARM
+2309.00181   # CCS 2023 Distinguished Paper: Security Verification of Low-Trust Architectures
+https://dl.acm.org/doi/pdf/10.1145/3603165.3607438   # CCS 2023 Distinguished Paper: Silence is not Golden: Disrupting the Load Balancing of Authoritative DNS Servers
+2305.06979   # CCS 2023 Distinguished Paper: Specification and Verification of Side-channel Security for Open-source Processors via Leakage Contracts
+https://dl.acm.org/doi/pdf/10.1145/3576915.3623074   # CCS 2023 Distinguished Paper: SpecVerilog: Adapting Information Flow Control for Secure Speculation
+2303.04729   # CCS 2023 Distinguished Paper: Stealing the Decoding Algorithms of Language Models
+https://dl.acm.org/doi/pdf/10.1145/3576915.3616674   # CCS 2023 Distinguished Paper: Uncle Maker: (Time)Stamping Out The Competition in Ethereum
+https://dl.acm.org/doi/pdf/10.1145/3658644.3670325   # CCS 2024 Distinguished Paper: "Better Be Computer or I'm Dumb": A Large-Scale Evaluation of Humans as Audio Deepfake Detectors
+2402.03214   # CCS 2024 Distinguished Paper: Organic or Diffused: Can We Distinguish Human Art from AI-generated Images?
+https://dl.acm.org/doi/pdf/10.1145/3658644.3690333   # CCS 2024 Distinguished Paper: Unmasking the Security and Usability of Password Masking
+2409.01378   # CCS 2024 Distinguished Paper: Content, Nudges and Incentives: A Study on the Effectiveness and Perception of Embedded Phishing Training
+2409.01992   # CCS 2024 Distinguished Paper: QueryCheetah: Fast Automated Discovery of Attribute Inference Attacks Against Query-Based Systems
+2401.16251   # CCS 2024 Distinguished Paper: Cross-silo Federated Learning with Record-level Personalized Differential Privacy
+2310.18042   # CCS 2024 Distinguished Paper: Lutris: A Blockchain Combining Broadcast and Consensus
+https://dl.acm.org/doi/pdf/10.1145/3658644.3690248   # CCS 2024 Distinguished Paper: Atomic and Fair Data Exchange via Blockchain
+https://dl.acm.org/doi/pdf/10.1145/3658644.3690256   # CCS 2024 Distinguished Paper: DoubleUp Roll: Double-spending in Arbitrum by Rolling It Back
+https://dl.acm.org/doi/pdf/10.1145/3658644.3690267   # CCS 2024 Distinguished Paper: ERACAN: Defending Against an Emerging CAN Threat Model
+https://dl.acm.org/doi/pdf/10.1145/3658644.3690313   # CCS 2024 Distinguished Paper: Spec-o-Scope: Cache Probing at Cache Speed
+https://dl.acm.org/doi/pdf/10.1145/3658644.3690183   # CCS 2024 Distinguished Paper: Principled Microarchitectural Isolation on Cloud CPUs
+https://dl.acm.org/doi/pdf/10.1145/3658644.3670341   # CCS 2024 Distinguished Paper: RefleXnoop: Passwords Snooping on NLoS Laptops Leveraging Screen-Induced Sound Reflection
+2409.03743   # CCS 2024 Distinguished Paper: Libra: Architectural Support for Principled, Secure, and Efficient Balanced Execution on High-End Processors
+2402.00641   # CCS 2024 Distinguished Paper: Testing Side-channel Security of Cryptographic Implementations Against Future Microarchitectures
+https://dl.acm.org/doi/pdf/10.1145/3658644.3670269   # CCS 2024 Distinguished Paper: Isolate and Detect the Untrusted Driver with a Virtual Box
+https://dl.acm.org/doi/pdf/10.1145/3658644.3670340   # CCS 2024 Distinguished Paper: ReSym: Harnessing LLMs to Recover Variable and Data Structure Symbols from Stripped Binaries
+https://dl.acm.org/doi/pdf/10.1145/3658644.3690246   # CCS 2024 Distinguished Paper: Manipulative Interference Attacks
+https://dl.acm.org/doi/pdf/10.1145/3658644.3690340   # CCS 2024 Distinguished Paper: uMMU: Securing Data Confidentiality with Unobservable Memory Subsystem
+2409.02839   # CCS 2024 Distinguished Paper: Jager: Automated Telephone Call Traceback
+2406.03133   # CCS 2024 Distinguished Paper: The Harder You Try, The Harder You Fail: The KeyTrap Denial-of-Service Algorithmic Complexity Attacks on DNSSEC
+https://dl.acm.org/doi/pdf/10.1145/3658644.3670278   # CCS 2024 Distinguished Paper: FuzzCache: Optimizing Web Application Fuzzing Through Software-Based Data Cache
+2406.00523   # CCS 2024 Distinguished Paper: Stealing Trust: Unraveling Blind Message Attacks in Web3 Authentication
+https://dl.acm.org/doi/pdf/10.1145/3658644.3670359   # CCS 2024 Distinguished Paper: Practical Key Extraction Attacks in Leading MPC Wallets
+https://dl.acm.org/doi/pdf/10.1145/3658644.3670387   # CCS 2024 Distinguished Paper: Fast Two-party Threshold ECDSA with Proactive Security
+2407.08935   # CCS 2024 Distinguished Paper: Distributed Backdoor Attacks on Federated Graph Learning and Certified Defenses
+2408.07728   # CCS 2024 Distinguished Paper: Moderator: Moderating Text-to-Image Diffusion Models through Fine-grained Context-based Policies
+2308.10422   # CCS 2025 Distinguished Paper: Split Unlearning
+https://dl.acm.org/doi/pdf/10.1145/3719027.3744811   # CCS 2025 Distinguished Paper: SyzSpec: Specification Generation for Linux Kernel Fuzzing via Under-Constrained Symbolic Execution
+https://dl.acm.org/doi/pdf/10.1145/3719027.3744814   # CCS 2025 Distinguished Paper: Jazzline: Composable CryptoLine functional correctness proofs for Jasmin programs
+https://dl.acm.org/doi/pdf/10.1145/3719027.3744852   # CCS 2025 Distinguished Paper: Forking the RANDAO: Manipulating Ethereum's Distributed Randomness Beacon
+2501.06533   # CCS 2025 Distinguished Paper: DivTrackee versus DynTracker: Promoting Diversity in Anti-Facial Recognition against Dynamic FR Strategy
+https://dl.acm.org/doi/pdf/10.1145/3719027.3744824   # CCS 2025 Distinguished Paper: RingSG: Optimal Secure Vertex-Centric Computation for Collaborative Graph Processing
+https://dl.acm.org/doi/pdf/10.1145/3719027.3744884   # CCS 2025 Distinguished Paper: High-Throughput Universally Composable Threshold FHE Decryption
+2509.03821   # CCS 2025 Distinguished Paper: Rethinking Tamper-Evident Logging: A High-Performance, Co-Designed Auditing System
+2509.07757   # CCS 2025 Distinguished Paper: Empirical Security Analysis of Software-based Fault Isolation through Controlled Fault Injection
+https://dl.acm.org/doi/pdf/10.1145/3719027.3765033   # CCS 2025 Distinguished Paper: Leaky Apps: Large-scale Analysis of Secrets Distributed in Android and iOS Apps
+2509.08720   # CCS 2025 Distinguished Paper: PAnDA: Rethinking Metric Differential Privacy Optimization at Scale with Anchor-Based Approximation
+2511.07123   # CCS 2025 Distinguished Paper: Harnessing Sparsification in Federated Learning
+https://dl.acm.org/doi/pdf/10.1145/3719027.3765060   # CCS 2025 Distinguished Paper: Harnessing Vital Sign Vibration Harmonics for Effortless and Inbuilt XR User Authentication
+https://dl.acm.org/doi/pdf/10.1145/3719027.3765063   # CCS 2025 Distinguished Paper: The Odyssey of robots.txt Governance
+2507.05415   # CCS 2025 Distinguished Paper: Layered, Overlapping, and Inconsistent: A Large-Scale Analysis of the Multiple Privacy Policies and Controls of U.S. Banks
+2504.15942   # CCS 2025 Distinguished Paper: Adversarial Observations in Weather Forecasting
+2509.09331   # CCS 2025 Distinguished Paper: On the Security of SSH Client Signatures
+2509.07457   # CCS 2025 Distinguished Paper: A Decade-long Landscape of Advanced Persistent Threats: Longitudinal Analysis and Global Trends
+https://dl.acm.org/doi/pdf/10.1145/3719027.3765123   # CCS 2025 Distinguished Paper: BadAML: Exploiting Legacy Firmware Interfaces to Compromise Confidential Virtual Machines
+https://dl.acm.org/doi/pdf/10.1145/3719027.3765131   # CCS 2025 Distinguished Paper: Looping for Good: Cyclic Proofs for Security Protocols
+https://dl.acm.org/doi/pdf/10.1145/3719027.3765140   # CCS 2025 Distinguished Paper: Exact Robustness Certification of k-Nearest Neighbors
+2411.07441   # CCS 2025 Distinguished Paper: Automatically Detecting Online Deceptive Patterns
+https://dl.acm.org/doi/pdf/10.1145/3719027.3765198   # CCS 2025 Distinguished Paper: Don't Look Up: There Are Sensitive Internal Links in the Clear on GEO Satellites
+https://dl.acm.org/doi/pdf/10.1145/3719027.3765204   # CCS 2025 Distinguished Paper: WireTap: Breaking Server SGX via DRAM Bus Interposition
+2505.02761   # CCS 2025 Distinguished Paper: Optimistic, Signature-Free Reliable Broadcast and Its Applications
+https://dl.acm.org/doi/pdf/10.1145/3719027.3765230   # CCS 2025 Distinguished Paper: CITesting: Systematic Testing of Context Integrity Violations in Cellular Core Networks
+https://eprint.iacr.org/2025/1722.pdf   # CCS 2025 Distinguished Paper: From OT to OLE with Subquadratic Communication
+https://dl.acm.org/doi/pdf/10.1145/3719027.3765224   # CCS 2025 Distinguished Paper: The OCH Authenticated Encryption Scheme
+https://www.usenix.org/system/files/sec21-mcdonald.pdf   # USENIX Security 2021 Distinguished Paper: "It's stressful having all these phones": Investigating Sex Workers' Safety Goals, Risks, and Practices Online
+2106.00236   # USENIX Security 2021 Distinguished Paper: "Why wouldn't someone think of democracy as a target?": Security practices & challenges of people involved with U.S. political campaigns
+https://www.usenix.org/system/files/sec21-ragab.pdf   # USENIX Security 2021 Distinguished Paper: Rage Against the Machine Clear
+2007.02220   # USENIX Security 2021 Distinguished Paper: You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion
+2105.01622   # USENIX Security 2021 Distinguished Paper: Poisoning the Unlabeled Dataset of Semi-Supervised Learning
+2106.15601   # USENIX Security 2021 Distinguished Paper: An Analysis of Speculative Type Confusion Vulnerabilities in the Wild
+https://www.usenix.org/system/files/sec21-bock.pdf   # USENIX Security 2021 Distinguished Paper: Weaponizing Middleboxes for TCP Reflected Amplification
+https://www.usenix.org/system/files/sec22-xue-diwen.pdf   # USENIX Security 2022 Distinguished Paper: OpenVPN is Open to VPN Fingerprinting
+https://www.usenix.org/system/files/sec22-halderman.pdf   # USENIX Security 2022 Distinguished Paper: The Antrim County 2020 Election Incident: An Independent Forensic Investigation
+https://www.usenix.org/system/files/sec22-lepochat.pdf   # USENIX Security 2022 Distinguished Paper: An Audit of Facebook's Political Ad Policy Enforcement
+https://www.usenix.org/system/files/sec22-cherubin.pdf   # USENIX Security 2022 Distinguished Paper: Online Website Fingerprinting: Evaluating Website Fingerprinting Attacks on Tor in the Real World
+2202.13470   # USENIX Security 2022 Distinguished Paper: Attacks on Deidentification's Defenses
+https://www.usenix.org/system/files/sec22-zhang-lei.pdf   # USENIX Security 2022 Distinguished Paper: Identity Confusion in WebView-based Mobile App-in-app Ecosystems
+https://www.usenix.org/system/files/sec22-bosamiya.pdf   # USENIX Security 2022 Distinguished Paper: Provably-Safe Multilingual Software Sandboxing using WebAssembly
+https://www.usenix.org/system/files/sec22-hoang.pdf   # USENIX Security 2022 Distinguished Paper: Faster Yet Safer: Logging System Via Fixed-Key Blockcipher
+https://www.usenix.org/system/files/sec22-madathil.pdf   # USENIX Security 2022 Distinguished Paper: Private Signaling
+https://www.usenix.org/system/files/sec22-zhang-zenong.pdf   # USENIX Security 2022 Distinguished Paper: FIXREVERTER: A Realistic Bug Injection Methodology for Benchmarking Fuzz Testing
+2010.09470   # USENIX Security 2022 Distinguished Paper: Dos and Don'ts of Machine Learning in Computer Security
+2108.06363   # USENIX Security 2022 Distinguished Paper: Augmenting Decompiler Output with Learned Variable Names and Types
+https://www.usenix.org/system/files/usenixsecurity23-choi.pdf   # USENIX Security 2023 Distinguished Paper: BotScreen: Trust Everybody, but Cut the Aimbots Yourself
+https://www.usenix.org/system/files/usenixsecurity23-wallez.pdf   # USENIX Security 2023 Distinguished Paper: TreeSync: Authenticated Group Management for Messaging Layer Security
+2302.07956   # USENIX Security 2023 Distinguished Paper: Tight Auditing of Differentially Private Machine Learning
+https://www.usenix.org/system/files/usenixsecurity23-bars.pdf   # USENIX Security 2023 Distinguished Paper: Fuzztruction: Using Fault Injection-based Fuzzing to Leverage Implicit Domain Knowledge
+2302.04222   # USENIX Security 2023 Distinguished Paper: Glaze: Protecting Artists from Style Mimicry by Text-to-Image Models
+2301.04781   # USENIX Security 2023 Distinguished Paper: Bug Hunters' Perspectives on the Challenges and Benefits of the Bug Bounty Ecosystem
+https://www.usenix.org/system/files/usenixsecurity23-daffalla.pdf   # USENIX Security 2023 Distinguished Paper: Account Security Interfaces: Important, Unintuitive, and Untrustworthy
+https://www.usenix.org/system/files/usenixsecurity23-franken.pdf   # USENIX Security 2023 Distinguished Paper: A Bug's Life: Analyzing the Lifecycle and Mitigation Process of Content Security Policy Bugs
+https://www.usenix.org/system/files/usenixsecurity23-patel.pdf   # USENIX Security 2023 Distinguished Paper: Don't be Dense: Efficient Keyword PIR for Sparse Databases
+https://www.usenix.org/system/files/usenixsecurity23-albayaydh.pdf   # USENIX Security 2023 Distinguished Paper: Examining Power Dynamics and User Privacy in Smart Technology Use Among Jordanian Households
+https://www.usenix.org/system/files/usenixsecurity23-nisenoff-retrospective.pdf   # USENIX Security 2023 Distinguished Paper: A Two-Decade Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords
+2302.14326   # USENIX Security 2023 Distinguished Paper: Ethical Frameworks and Computer Security Trolley Problems
+https://www.usenix.org/system/files/usenixsecurity23-cheval.pdf   # USENIX Security 2023 Distinguished Paper: Hash Gone Bad: Automated discovery of protocol attacks that exploit hash function weaknesses
+https://www.usenix.org/system/files/usenixsecurity23-cremers-protocols.pdf   # USENIX Security 2023 Distinguished Paper: Automated Analysis of Protocols that use Authenticated Encryption
+https://www.usenix.org/system/files/usenixsecurity23-liu-hongyi.pdf   # USENIX Security 2023 Distinguished Paper: Remote Direct Memory Introspection
+https://www.usenix.org/system/files/usenixsecurity23-zhou-guangmeng.pdf   # USENIX Security 2023 Distinguished Paper: An Efficient Design of Intelligent Network Data Plane
+https://www.usenix.org/system/files/usenixsecurity24-wiebing.pdf   # USENIX Security 2024 Distinguished Paper: InSpectre Gadget: Inspecting the Residual Attack Surface of Cross-privilege Spectre v2
+https://www.usenix.org/system/files/usenixsecurity24-bulekov.pdf   # USENIX Security 2024 Distinguished Paper: HYPERPILL: Fuzzing for Hypervisor-bugs by Leveraging the Hardware Virtualization Interface
+https://www.usenix.org/system/files/usenixsecurity24-li-shaofeng.pdf   # USENIX Security 2024 Distinguished Paper: Yes, One-Bit-Flip Matters! Universal DNN Model Inference Depletion with Runtime Code Fault Injection
+https://www.usenix.org/system/files/usenixsecurity24-li-luyi.pdf   # USENIX Security 2024 Distinguished Paper: Indirector: High-Precision Branch Target Injection Attacks Exploiting the Indirect Branch Predictor
+https://www.usenix.org/system/files/usenixsecurity24-wang-mingzhe.pdf   # USENIX Security 2024 Distinguished Paper: Data Coverage for Guided Fuzzing
+2308.11804   # USENIX Security 2024 Distinguished Paper: Adversarial Illusions in Multi-Modal Embeddings
+https://www.usenix.org/system/files/usenixsecurity24-tu.pdf   # USENIX Security 2024 Distinguished Paper: Logic Gone Astray: A Security Analysis Framework for the Control Plane Protocols of 5G Basebands
+https://www.usenix.org/system/files/usenixsecurity24-ablove.pdf   # USENIX Security 2024 Distinguished Paper: Digital Discrimination of Users in Sanctioned States: The Case of the Cuba Embargo
+https://www.usenix.org/system/files/usenixsecurity24-coppola.pdf   # USENIX Security 2024 Distinguished Paper: PURE: Payments with UWB RElay-protection
+https://www.usenix.org/system/files/usenixsecurity24-kondracki.pdf   # USENIX Security 2024 Distinguished Paper: Smudged Fingerprints: Characterizing and Improving the Performance of Web Application Fingerprinting
+2403.17336   # USENIX Security 2024 Distinguished Paper: Don't Listen To Me: Understanding and Exploring Jailbreak Prompts of Large Language Models
+https://www.usenix.org/system/files/usenixsecurity24-lee.pdf   # USENIX Security 2024 Distinguished Paper: Investigating How Practitioners Scope, Motivate, and Conduct Privacy Work When Developing AI Products
+2402.16025   # USENIX Security 2024 Distinguished Paper: Learning with Semantics: Towards a Semantics-Aware Routing Anomaly Detection System
+2402.03704   # USENIX Security 2024 Distinguished Paper: WhisperFuzz: White-Box Fuzzing for Detecting and Locating Timing Vulnerabilities in Processors
+https://www.usenix.org/system/files/usenixsecurity24-zhang-jipeng.pdf   # USENIX Security 2024 Distinguished Paper: ENG25519: Faster TLS 1.3 handshake using optimized X25519 and Ed25519
+https://www.usenix.org/system/files/usenixsecurity24-crimmins.pdf   # USENIX Security 2024 Distinguished Paper: DVSorder: Ballot Randomization Flaws Threaten Voter Privacy
+2502.08467   # USENIX Security 2024 Distinguished Paper: Dancer in the Dark: Synthesizing and Evaluating Polyglots for Blind Cross-Site Scripting
+2312.12422   # USENIX Security 2024 Distinguished Paper: Terrapin Attack: Breaking SSH Channel Integrity By Sequence Number Manipulation
+2406.08084   # USENIX Security 2025 Distinguished Paper: Characterizing and Detecting Propaganda-Spreading Accounts on Telegram
+https://www.usenix.org/system/files/usenixsecurity25-you.pdf   # USENIX Security 2025 Distinguished Paper: My ZIP isn't your ZIP: Identifying and Exploiting Semantic Gaps Between ZIP Parsers
+https://www.usenix.org/system/files/usenixsecurity25-munteanu.pdf   # USENIX Security 2025 Distinguished Paper: Catch-22: Uncovering Compromised Hosts using SSH Public Keys
+https://www.usenix.org/system/files/usenixsecurity25-ruegge.pdf   # USENIX Security 2025 Distinguished Paper: Branch Privilege Injection: Compromising Spectre v2 Hardware Mitigations by Exploiting Branch Predictor Race Conditions
+https://www.usenix.org/system/files/usenixsecurity25-schloegel.pdf   # USENIX Security 2025 Distinguished Paper: Confusing Value with Enumeration: Studying the Use of CVEs in Academia
+2406.10279   # USENIX Security 2025 Distinguished Paper: We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs
+https://www.usenix.org/system/files/usenixsecurity25-klemmer.pdf   # USENIX Security 2025 Distinguished Paper: How Transparent is Usable Privacy and Security Research?
+2410.21713   # USENIX Security 2025 Distinguished Paper: Fuzzing the PHP Interpreter via Dataflow Fusion
+https://www.usenix.org/system/files/usenixsecurity26-merget.pdf   # USENIX Security 2026 Distinguished Paper: Opossum Attack: Application Layer Desynchronization using Opportunistic TLS
+https://www.usenix.org/system/files/usenixsecurity26-zhang-zheng.pdf   # USENIX Security 2026 Distinguished Paper: An Integer Overflow Endgame: Compiler and Architecture Support for Default-On Integer Overflow Mitigation
+https://www.usenix.org/system/files/usenixsecurity26-vlummens.pdf   # USENIX Security 2026 Distinguished Paper: Bridges to Self: Silent Web-to-App Tracking on Mobile via Localhost
+https://www.usenix.org/system/files/usenixsecurity26-shi-quan.pdf   # USENIX Security 2026 Distinguished Paper: LPG: Raise Your Location Privacy Game in Direct-to-Cell LEO Satellite Networks
+https://www.usenix.org/system/files/usenixsecurity26-collins.pdf   # USENIX Security 2026 Distinguished Paper: Download More RAM: Dismantling Windows Operating System Defences with Mischievous Memory
+https://www.usenix.org/system/files/usenixsecurity26-adewusi.pdf   # USENIX Security 2026 Distinguished Paper: Security and Privacy Considerations for Confirming Payments in Rwandan Mobile Money Systems
+2605.29621   # USENIX Security 2026 Distinguished Paper: Information Security in Small-Scale Protests: Surveillance of Ugandan Anti-EACOP Protesters
+https://www.usenix.org/system/files/usenixsecurity26-jannett.pdf   # USENIX Security 2026 Distinguished Paper: The State of Passkeys: Studying the Adoption and Security of Passkeys on the Web
+https://www.usenix.org/system/files/usenixsecurity26-ziazi.pdf   # USENIX Security 2026 Distinguished Paper: Sliding into the Flight Deck's DMs: Practical Message Attacks on CPDLC
+https://www.ndss-symposium.org/wp-content/uploads/ndss2021_1C-2_23104_paper.pdf   # NDSS 2021 Distinguished Paper: Awakening the Web's Sleeper Agents: Misusing Service Workers for Privacy Leakage
+https://www.ndss-symposium.org/wp-content/uploads/2022-26-paper.pdf   # NDSS 2022 Distinguished Paper: Preventing Kernel Hacks with HAKCs
+2210.13088   # NDSS 2023 Distinguished Paper: Your Router Is My Prober: Measuring IPv6 Networks via ICMP Rate Limiting Side Channels
+2210.11783   # NDSS 2023 Distinguished Paper: DARWIN: Survival of the Fittest Fuzzing Mutators
+https://www.ndss-symposium.org/wp-content/uploads/2024-60-paper.pdf   # NDSS 2024 Distinguished Paper: Like, Comment, Get Scammed: Characterizing Comment Scams on Media Platforms
+https://www.ndss-symposium.org/wp-content/uploads/2024-73-paper.pdf   # NDSS 2024 Distinguished Paper: UntrustIDE: Exploiting Weaknesses in VS Code Extensions
+https://www.ndss-symposium.org/wp-content/uploads/2024-100-paper.pdf   # NDSS 2024 Distinguished Paper: Eavesdropping on Controller Acoustic Emanation for Keystroke Inference Attack in Virtual Reality
+2308.13904   # NDSS 2024 Distinguished Paper: LMSanitator: Defending Prompt-Tuning Against Task-Agnostic Backdoors
+2409.17873   # NDSS 2025 Distinguished Paper: ReThink: Reveal the Threat of Electromagnetic Interference on Power Inverters
+https://www.ndss-symposium.org/wp-content/uploads/2025-699-paper.pdf   # NDSS 2025 Distinguished Paper: An Empirical Study on Fingerprint API Misuse with Lifecycle Analysis in Real-world Android Apps
+2501.06650   # NDSS 2025 Distinguished Paper: SafeSplit: A Novel Defense Against Client-Side Backdoor Attacks in Split Learning
+2405.03316   # NDSS 2025 Distinguished Paper: Provably Unlearnable Data Examples
+https://www.ndss-symposium.org/wp-content/uploads/2025-1411-paper.pdf   # NDSS 2025 Distinguished Paper: DUMPLING: Fine-grained Differential JavaScript Engine Fuzzing
+https://www.ndss-symposium.org/wp-content/uploads/2025-53-paper.pdf   # NDSS 2025 Distinguished Paper: type++: Prohibiting Type Confusion with Inline Type Information
+https://www.ndss-symposium.org/wp-content/uploads/2025-1008-paper.pdf   # NDSS 2025 Distinguished Paper: Rethinking Trust in Forge-Based Git Security
+2412.01059   # NDSS 2025 Distinguished Paper: Blindfold: Confidential Memory Management by Untrusted Operating System
+2405.02580   # NDSS 2025 Distinguished Paper: PropertyGPT: LLM-driven Formal Verification of Smart Contracts through Retrieval-Augmented Property Generation
+https://www.ndss-symposium.org/wp-content/uploads/2025-1367-paper.pdf   # NDSS 2025 Distinguished Paper: DiStefano: Decentralized Infrastructure for Sharing Trusted Encrypted Facts and Nothing More
+2410.21984   # NDSS 2025 Distinguished Paper: ReDAN: An Empirical Study on Remote DoS Attacks against NAT Networks
+https://www.ndss-symposium.org/wp-content/uploads/2025-3389-paper.pdf   # NDSS 2025 Distinguished Paper: VoiceRadar: Voice Deepfake Detection using Micro-Frequency and Compositional Analysis
+https://www.ndss-symposium.org/wp-content/uploads/2026-s141-paper.pdf   # NDSS 2026 Best Paper: Peering Inside the Black-Box: Long-Range and Scalable Model Architecture Snooping via GPU Electromagnetic Side-Channel
+https://www.ndss-symposium.org/wp-content/uploads/2026-s148-paper.pdf   # NDSS 2026 Best Paper: One Email, Many Faces: A Deep Dive into Identity Confusion in Email Aliases
+2509.12181   # NDSS 2026 Best Paper: LOKI: Proactively Discovering Online Scam Websites by Mining Toxic Search Queries
+https://www.ndss-symposium.org/wp-content/uploads/2026-s925-paper.pdf   # NDSS 2026 Best Paper: OCCUPY+PROBE: Cross-Privilege Branch Target Buffer Side-Channel Attacks at Instruction Granularity
+2512.23438   # NDSS 2026 Best Paper: Fuzzilicon: A Post-Silicon Microcode-Guided x86 CPU Fuzzer
+https://www.ndss-symposium.org/wp-content/uploads/2026-f330-paper.pdf   # NDSS 2026 Best Paper: Should I Trust You? Rethinking the Principle of Zone-Based Isolation DNS Bailiwick Checking
+https://www.ndss-symposium.org/wp-content/uploads/2026-f380-paper.pdf   # NDSS 2026 Best Paper: Decompiling the Synergy: An Empirical Study of Human-LLM Teaming in Software Reverse Engineering
+https://www.ndss-symposium.org/wp-content/uploads/2026-f694-paper.pdf   # NDSS 2026 Best Paper: Phishing in Wonderland: Evaluating Learning-Based Ethereum Phishing Transaction Detection and Pitfalls
+https://www.ndss-symposium.org/wp-content/uploads/2026-f1869-paper.pdf   # NDSS 2026 Best Paper: Indicator of Benignity: An Industry View of False Positive in Malicious Domain Detection and its Mitigation
+https://www.ndss-symposium.org/wp-content/uploads/2026-f1968-paper.pdf   # NDSS 2026 Best Paper: Small Cell, Big Risk: A Security Assessment of 4G LTE Femtocells in the Wild
+2102.00542   # IMC 2021 Best Paper: Follow the scent: defeating IPv6 prefix rotation privacy
+https://dl.acm.org/doi/pdf/10.1145/3517745.3561441   # IMC 2022 Distinguished Paper: The Importance of Contextualization of Crowdsourced Active Speed Test Measurements
+2309.13495   # IMC 2022 Community Contribution Award: ZDNS: A Fast DNS Toolkit for Internet Measurement
+https://dl.acm.org/doi/pdf/10.1145/3730567.3764494   # IMC 2025 Best Paper: Congestion Patterns in a Large-scale RDMA Datacenter
+2503.20554   # IMC 2025 Best Student Paper: LACeS: an Open, Fast, Responsible and Efficient Longitudinal Anycast Census System
+https://dl.acm.org/doi/pdf/10.1145/3730567.3764462   # IMC 2025 Community Contribution Award: Patchwork: A Traffic Capture and Analysis Platform for Network Experiments on a Federated Testbed
+2106.01492   # SIGMETRICS 2021 Best Paper: Nudge: Stochastically Improving upon FCFS
+2301.03493   # SIGMETRICS 2023 Best Paper: Mean-field Analysis for Load Balancing on Spatial Graphs
+2206.03569   # SIGMETRICS 2023 Outstanding Student Paper: Overcoming the Long Horizon Barrier for Sample-Efficient Reinforcement Learning with Latent Low-Rank Structure
+https://dl.acm.org/doi/pdf/10.1145/3626774   # SIGMETRICS 2024 Best Paper: Agents of Autonomy: A Systematic Study of Robotics on Modern Hardware
+2404.08826   # SIGMETRICS 2024 Best Paper: Strongly Tail-Optimal Scheduling in the Light-Tailed M/G/1
+2402.11285   # SIGMETRICS 2024 Best Student Paper: Fair Resource Allocation in Virtualized O-RAN Platforms
+2302.08681   # SIGMETRICS 2024 Best Student Paper: CarbonScaler: Leveraging Cloud Workload Elasticity for Optimizing Carbon-Efficiency
+2408.16215   # SIGMETRICS 2025 Best Paper: Adversarial Network Optimization under Bandit Feedback
+2410.17075   # SIGMETRICS 2025 Best Paper Runner-Up: Combinatorial Logistic Bandits
+https://dl.acm.org/doi/pdf/10.1145/3727140   # SIGMETRICS 2025 Best Paper Runner-Up: On the Distribution of Sojourn Times in Tandem Queues
+2411.10399   # SIGMETRICS 2025 Best Paper Runner-Up: Game Theoretic Liquidity Provisioning in Concentrated Liquidity Market Makers
+2508.21753   # SIGMETRICS 2026 Best Paper: Sequential Fair Allocation With Replenishments
+https://dl.acm.org/doi/pdf/10.1145/3801489.3806885   # SIGMETRICS 2026 Outstanding Student Paper: Wasserstein-p Central Limit Theorem Rates
+https://dl.acm.org/doi/pdf/10.1145/3771569   # SIGMETRICS 2026 Best Paper Runner-Up: From Measurement to Emissions: Assessing the Carbon Footprint of Traffic Flows
+https://dl.acm.org/doi/pdf/10.1145/3771578   # SIGMETRICS 2026 Best Paper Runner-Up: Shedding Light on Shadows: Automatically Tracing Illicit Money Flows on EVM-Compatible Blockchains
+2510.16132   # SIGMETRICS 2026 Best Paper Runner-Up: A Minimal-Assumption Analysis of Q-Learning with Time-Varying Policies
+https://dl.acm.org/doi/pdf/10.1145/3447993.3448624   # MobiCom 2021 Best Paper Runner-up: HeadFi: Bringing Intelligence to All Headphones
+2112.09852   # MobiCom 2021 Best Community Paper Runner-up: LegoDNN: Block-grained Scaling of Deep Neural Networks for Mobile Vision
+https://dl.acm.org/doi/pdf/10.1145/3495243.3560518   # MobiCom 2022 Best Paper Runner-up: Mobi2Sense: Empowering Wireless Sensing with Mobility
+https://dl.acm.org/doi/pdf/10.1145/3495243.3560546   # MobiCom 2022 Best Community Contribution Runner-up: Experience: Pushing Indoor Localization from Laboratory to the Wild
+https://dl.acm.org/doi/pdf/10.1145/3570361.3613275   # MobiCom 2023 Best Paper: AgriTera: Accurate Non-Invasive Fruit Ripeness Sensing via Sub-Terahertz Wireless Signals
+https://dl.acm.org/doi/pdf/10.1145/3570361.3613265   # MobiCom 2023 Best Paper: The Underwater Backscatter Channel: Theory, Link Budget, and Experimental Validation
+2305.06118   # MobiCom 2023 Best Paper Runner-up: NeRF2: Neural Radio-Frequency Radiance Fields
+https://dl.acm.org/doi/pdf/10.1145/3570361.3613280   # MobiCom 2023 Best Community Contribution: VI-Map: Infrastructure-Assisted Real-Time HD Mapping for Autonomous Driving
+https://dl.acm.org/doi/pdf/10.1145/3570361.3592507   # MobiCom 2023 Best Community Contribution: The Wisdom of 1,170 Teams
+https://dl.acm.org/doi/pdf/10.1145/3636534.3649366   # MobiCom 2024 Best Paper: Exploring the Feasibility of Remote Cardiac Auscultation Using Earphones
+https://dl.acm.org/doi/pdf/10.1145/3680207.3723484   # MobiCom 2025 Best Paper: AquaScan: A Sonar-based Underwater Sensing System for Human Activity Monitoring
+https://dl.acm.org/doi/pdf/10.1145/3680207.3723492   # MobiCom 2025 Best Community Paper: 5G-MAP: Demystifying the Performance Implications of Cloud-Based 5G Core Deployments
+2104.14380   # MobiSys 2021 Best Paper: PPFL: Privacy-preserving Federated Learning with Trusted Execution Environments
+https://dl.acm.org/doi/pdf/10.1145/3581791.3596840   # MobiSys 2023 Best Paper: Mozart: A Mobile ToF System for Sensing in the Dark through Phase Manipulation
+2506.23174   # MobiSys 2025 Best Paper: Data Can Speak for Itself: Quality-guided Utilization of Wireless Synthetic Data
+https://dl.acm.org/doi/pdf/10.1145/3711875.3729161   # MobiSys 2025 Best Paper: ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality
+https://dl.acm.org/doi/pdf/10.1145/3711875.3729138   # MobiSys 2025 Best Paper Nominee: Non-Line-of-Sight 3D Object Reconstruction via mmWave Surface Normal Estimation
+https://dl.acm.org/doi/pdf/10.1145/3711875.3729153   # MobiSys 2025 Best Paper Nominee: Satori: In-band Analog Backscatter for Audio Transmission
+https://dl.acm.org/doi/pdf/10.1145/3745756.3809220   # MobiSys 2026 Best Paper: Insecurity of Lost/Stolen Phone Reporting Services
+https://dl.acm.org/doi/pdf/10.1145/3745756.3809203   # MobiSys 2026 Best Paper Runner-Up: TimelyLLM: Time-sensitive LLM Serving System for Physical-I/O Limited Agents
+2512.06443   # MobiSys 2026 Best Paper Runner-Up: Vec-LUT: Vector Table Lookup for Parallel Ultra-Low-Bit LLM Inference on Edge Devices
+https://dl.acm.org/doi/pdf/10.1145/3560905.3568526   # SenSys 2022 Best Paper: Bracelet+: Harvesting the Leaked RF Energy in VLC with Wearable Bracelet Antenna
+https://dl.acm.org/doi/pdf/10.1145/3560905.3568515   # SenSys 2022 Best Paper Runner-up: MicNest: Long-Range Instant Acoustic Localization of Drones in Precise Landing
+https://dl.acm.org/doi/pdf/10.1145/3625687.3625796   # SenSys 2023 Best Paper Runner-up: Citywide LoRa Network Deployment and Operation
+https://dl.acm.org/doi/pdf/10.1145/3666025.3699333   # SenSys 2024 Best Paper: Processor-Sharing Internet of Things Architecture for Large-scale Deployment
+https://dl.acm.org/doi/pdf/10.1145/3666025.3699344   # SenSys 2024 Best Paper Runner-up: MagicStream: Bandwidth-conserving Immersive Telepresence via Semantic Communication
+2410.24028   # SenSys 2024 Best Paper Runner-up: AdaFlow: Opportunistic Inference on Asynchronous Mobile Data with Generalized Affinity Control
+2410.08256   # SenSys 2024 Best Paper Honorable Mention: AdaShadow: Responsive Test-time Model Adaptation in Non-stationary Mobile Environments
+https://dl.acm.org/doi/pdf/10.1145/3666025.3699348   # SenSys 2024 Best Paper Honorable Mention: DynaSpa: Exploiting Spatial Sparsity for Efficient Dynamic DNN Inference on Devices
+https://dl.acm.org/doi/pdf/10.1145/3666025.3699366   # SenSys 2024 Best Paper Honorable Mention: Eternity in a Second: Quick-pass Continuous Authentication Using Out-ear Microphones
+https://dl.acm.org/doi/pdf/10.1145/3715014.3722055   # SenSys 2025 Best Paper: RAM-Hand: Robust Acoustic Multi-Hand Pose Reconstruction Using a Microphone Array
+https://dl.acm.org/doi/pdf/10.1145/3715014.3722080   # SenSys 2025 Best Paper Runner-Up: Geoduck: Nanosatellite Constellation Scheduling for Low Latency Event Detection
+2502.07053   # SenSys 2025 Best Paper Runner-Up: TOCTOU: Resilient Attestation for IoT Networks
+2411.00419   # SenSys 2025 Best Paper Honorable Mention: Argus: Multi-View Egocentric Human Mesh Reconstruction with Wearable mmWave Add-on
+https://dl.acm.org/doi/pdf/10.1145/3715014.3722072   # SenSys 2025 Best Paper Honorable Mention: RoboTera: Non-Contact Friction Sensing via Wireless Sub-Terahertz Perception
+2511.05482   # SenSys 2026 Best Paper: SoilX: Calibration-Free Comprehensive Soil Sensing Through Contrastive Cross-Component Learning
+https://dl.acm.org/doi/pdf/10.1145/3774906.3800496   # SenSys 2026 Best Paper Runner-up: Bringing All Modulations to Underwater Backscatter via PDM-Synthesis
+https://dl.acm.org/doi/pdf/10.1145/3774906.3802753   # SenSys 2026 Best Paper Runner-up: Longan: Ultra-Low-Power, Long-Range LoRa Receiver for LPWANs
+https://dl.acm.org/doi/pdf/10.1145/3774906.3800473   # SenSys 2026 Best Paper Honorable Mention: mTrack: Enabling Long-term Mouse Social Behavior Analysis through RFID-Vision Hybrid Tracking
+https://dl.acm.org/doi/pdf/10.1145/3774906.3802760   # SenSys 2026 Best Paper Honorable Mention: MoireEar: Moire Can See What You Cannot Hear
+https://dl.acm.org/doi/pdf/10.1145/3774906.3802775   # SenSys 2026 Best Paper Honorable Mention: Cheetah: A New Paradigm for Battery-free Wearable Devices

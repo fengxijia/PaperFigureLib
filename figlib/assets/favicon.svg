@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect x="0" y="0" width="64" height="64" rx="14" fill="#1F5F8B"/>
+  <!-- sheet of paper with a folded corner -->
+  <path d="M19 12 h19 l9 9 v31 a2 2 0 0 1 -2 2 h-26 a2 2 0 0 1 -2 -2 v-38 a2 2 0 0 1 2 -2 z" fill="#FFFFFF"/>
+  <path d="M38 12 v9 h9 z" fill="#CFE0EC"/>
+  <!-- axis -->
+  <path d="M24 44 h18 M24 44 v-16" stroke="#9BB4C6" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+  <!-- two bars -->
+  <rect x="27" y="36" width="4" height="8" rx="1" fill="#2F8F5B"/>
+  <rect x="33" y="31" width="4" height="13" rx="1" fill="#2F8F5B"/>
+  <!-- rising line with end dot -->
+  <path d="M25 40 L30 33 L35 35 L41 26" stroke="#1F5F8B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="41" cy="26" r="2.2" fill="#B9761A"/>
+</svg>

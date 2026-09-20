@@ -1,0 +1,258 @@
+# AI / 理论 / 密码 / 逻辑 / 经济与计算 / 生物信息 / 设计自动化 / 嵌入式板块近 5 年 Best / Distinguished Paper（AAAI、IJCAI、STOC、FOCS、SODA、CRYPTO、EUROCRYPT、CAV、LICS、EC、WINE、ISMB、RECOMB、DAC、ICCAD、EMSOFT、RTAS、RTSS，2021 到 2026）。
+# 2026-09-13 由并行调查产出。IJCAI 会议站 PDF、IACR ePrint、bioRxiv 直链可下；Springer / OUP 的 DOI 链接多半下不到；NOPDF 已剔除。
+2012.07436   # AAAI 2021 Outstanding Paper: Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting
+2012.03083   # AAAI 2021 Outstanding Paper: Exploration-Exploitation in Multi-Agent Learning: Catastrophe Theory Meets Game Theory
+2009.12947   # AAAI 2021 Outstanding Paper Honorable Mention: Learning from eXtreme Bandit Feedback
+2004.11207   # AAAI 2021 Outstanding Paper Honorable Mention: Self-Attention Attribution: Interpreting Information Interactions Inside Transformer
+2104.14795   # AAAI 2021 Outstanding Paper (Special Track on AI for Social Impact): Mitigating Political Bias in Language Models through Reinforced Calibration
+2009.06560   # AAAI 2021 Outstanding Paper Honorable Mention (AI for Social Impact): Dual-Mandate Patrols: Multi-Armed Bandits for Green Security
+https://ojs.aaai.org/index.php/AAAI/article/view/17386/17193   # AAAI 2021 Distinguished Paper: Ethically Compliant Sequential Decision Making
+2009.08634   # AAAI 2021 Distinguished Paper: On the Tractability of SHAP Explanations
+2007.01839   # AAAI 2021 Distinguished Paper: Expected Eligibility Traces
+2012.09679   # AAAI 2021 Distinguished Paper: Polynomial-Time Algorithms for Counting and Sampling Markov Equivalent DAGs
+2104.05374   # AAAI 2021 Distinguished Paper: Self-Supervised Multi-View Stereo via Effective Co-Segmentation and Data-Augmentation
+2104.14527   # AAAI 2022 Outstanding Paper: Online Certification of Preference-based Fairness for Personalized Recommender Systems
+2106.05137   # AAAI 2022 Outstanding Paper Honorable Mention: Bayesian Persuasion in Sequential Decision-Making
+https://ojs.aaai.org/index.php/AAAI/article/view/21210/20959   # AAAI 2022 Outstanding Paper Honorable Mention: Operator-Potential Heuristics for Symbolic Search
+https://ojs.aaai.org/index.php/AAAI/article/view/20394/20153   # AAAI 2022 Distinguished Paper: AlphaHoldem: High-Performance Artificial Intelligence for Heads-Up No-Limit Poker via End-to-End Reinforcement Learning
+2203.12275   # AAAI 2022 Distinguished Paper: Certified Symmetry and Dominance Breaking for Combinatorial Optimisation
+2112.04227   # AAAI 2022 Distinguished Paper: Online Elicitation of Necessarily Optimal Matchings
+2110.12662   # AAAI 2022 Distinguished Paper: Sampling-Based Robust Control of Autonomous Systems with Non-Gaussian Noise
+https://ojs.aaai.org/index.php/AAAI/article/view/21276/21025   # AAAI 2022 Distinguished Paper: Subset Approximation of Pareto Regions with Bi-objective A*
+https://ojs.aaai.org/index.php/AAAI/article/view/20296/20055   # AAAI 2022 Distinguished Paper: The SoftCumulative Constraint with Quadratic Penalty
+2112.01589   # AAAI 2022 Outstanding Student Paper: InfoLM: A New Metric to Evaluate Summarization & Data2Text Generation
+https://ojs.aaai.org/index.php/AAAI/article/view/20527/20286   # AAAI 2022 Outstanding Student Paper Honorable Mention: Compilation of Aggregates in ASP Systems
+https://ojs.aaai.org/index.php/AAAI/article/view/21237/20986   # AAAI 2022 Outstanding Student Paper Honorable Mention: Entropy Estimation via Normalizing Flow
+2212.03201   # AAAI 2023 Outstanding Paper: Misspecification in Inverse Reinforcement Learning
+2204.10037   # AAAI 2023 Distinguished Paper: DropMessage: Unifying Random Dropping for Graph Neural Networks
+https://ojs.aaai.org/index.php/AAAI/article/view/25310/25082   # AAAI 2023 Distinguished Paper: Two Heads are Better than One: Image-Point Cloud Network for Depth-Based 3D Hand Pose Estimation
+https://ojs.aaai.org/index.php/AAAI/article/view/25118/24890   # AAAI 2023 Distinguished Paper: Neural Architecture Search for Wide Spectrum Adversarial Robustness
+2204.06240   # AAAI 2023 Distinguished Paper: CowClip: Reducing CTR Prediction Model Training Time from 12 hours to 10 minutes on 1 GPU
+2303.08358   # AAAI 2023 Distinguished Paper: DICNet: Deep Instance-Level Contrastive Network for Double Incomplete Multi-View Multi-Label Classification
+https://ojs.aaai.org/index.php/AAAI/article/view/25128/24900   # AAAI 2023 Distinguished Paper: Exploring Tuning Characteristics of Ventral Stream's Neurons for Few-Shot Image Classification
+https://ojs.aaai.org/index.php/AAAI/article/view/25481/25253   # AAAI 2023 Distinguished Paper: MaskBooster: End-to-End Self-Training for Sparsely Supervised Instance Segmentation
+2302.09683   # AAAI 2023 Distinguished Paper: SimFair: A Unified Framework for Fairness-Aware Multi-Label Classification
+2212.04454   # AAAI 2023 Distinguished Paper: XRand: Differentially Private Defense against Explanation-Guided Attacks
+2212.00696   # AAAI 2023 Distinguished Paper: Clustering What Matters: Optimal Approximation for Clustering with Outliers
+2301.00858   # AAAI 2023 Distinguished Paper: Robust Average-Reward Markov Decision Processes
+2211.15248   # AAAI 2023 Distinguished Paper: Efficient Answer Enumeration in Description Logics with Functional Roles
+2212.04145   # AAAI 2023 Outstanding Student Paper: Decorate the Newcomers: Visual Domain Prompt for Continual Test Time Adaptation
+https://ojs.aaai.org/index.php/AAAI/article/view/29248/30357   # AAAI 2024 Outstanding Paper: GxVAEs: Two Joint VAEs Generate Hit Molecules from Gene Expression Profiles
+2402.16897   # AAAI 2024 Outstanding Paper: Reliable Conflictive Multi-view Learning
+2306.14858   # AAAI 2024 Outstanding Paper: Proportional Aggregation of Preferences for Sequential Decision Making
+2306.03151   # AAAI 2024 Best Paper (AI for Social Impact track): DISCount: Counting in Large Image Collections with Detector-Based Importance Sampling
+2307.06643   # AAAI 2024 Best Paper Honorable Mention (AI for Social Impact track): Nowcasting Temporal Trends Using Indirect Surveys
+https://ojs.aaai.org/index.php/AAAI/article/view/30210/32151   # AAAI 2024 Best Student Paper (AI for Social Impact track): Scaling Up Pareto Optimization for Tree Structures with Affine Transformations: Evaluating Hybrid Floating Solar-Hydropower Systems in the Amazon
+2301.11562   # AAAI 2024 Best Student Paper Honorable Mention (AI for Social Impact track): Is My Prediction Arbitrary? The Confounding Effects of Variance in Fair Classification Benchmarks
+https://ojs.aaai.org/index.php/AAAI/article/view/33507/35662   # AAAI 2025 Outstanding Paper: Every Bit Helps: Achieving the Optimal Distortion with a Few Queries
+2412.08457   # AAAI 2025 Outstanding Paper: Efficient Rectification of Neuro-Symbolic Reasoning Inconsistencies by Abductive Reflection
+2412.12063   # AAAI 2025 Outstanding Paper: Revelations: A Decidable Class of POMDPs with Omega-Regular Objectives
+2410.19816   # AAAI 2025 Outstanding Paper (AI for Social Alignment track): DivShift: Exploring Domain-Specific Distribution Shifts in Large-Scale, Volunteer-Collected Biodiversity Datasets
+2603.05562   # AAAI 2026 Outstanding Paper: Model Change for Description Logic Concepts
+2512.14361   # AAAI 2026 Outstanding Paper: Causal Structure Learning for Dynamical Systems with Theoretical Score Analysis
+2508.10333   # AAAI 2026 Outstanding Paper: ReconVLA: Reconstructive Vision-Language-Action Model as Effective Robot Perceiver
+https://ojs.aaai.org/index.php/AAAI/article/view/39469/43430   # AAAI 2026 Outstanding Paper: High-Pass Matters: Theoretical Insights and Sheaflet-Based Design for Hypergraph Neural Networks
+2411.04997   # AAAI 2026 Outstanding Paper: LLM2CLIP: Powerful Language Model Unlocks Richer Cross-Modality Representation
+2509.01418   # AAAI 2026 Best Paper (AI Alignment track): On the Alignment of Large Language Models with Global Human Opinion
+2511.06943   # AAAI 2026 Best Paper (AI for Social Impact track): PlantTraitNet: An Uncertainty-Aware Multimodal Framework for Global-Scale Plant Trait Inference from Citizen Science Data
+2511.10300   # AAAI 2026 Best Paper (AI for Social Impact track): Generalizable Slum Detection from Satellite Imagery with Mixture-of-Experts
+https://www.ijcai.org/proceedings/2021/0574.pdf   # IJCAI 2021 Distinguished Paper: Learning Generalized Unsolvability Heuristics for Classical Planning
+https://www.ijcai.org/proceedings/2021/0272.pdf   # IJCAI 2021 Distinguished Paper: On the Relation Between Approximation Fixpoint Theory and Justification Theory
+2105.06669   # IJCAI 2021 Distinguished Paper: Keep Your Distance: Land Division With Separation
+https://www.ijcai.org/proceedings/2021/0260.pdf   # IJCAI 2021 Distinguished Paper Honorable Mention: Actively Learning Concepts and Conjunctive Queries under ELr-Ontologies
+2206.07098   # IJCAI 2022 Distinguished Paper: Plurality Veto: A Simple Voting Rule Achieving Optimal Metric Distortion
+https://www.ijcai.org/proceedings/2022/0248.pdf   # IJCAI 2022 Distinguished Paper: QCDCL with Cube Learning or Pure Literal Elimination - What is Best?
+https://www.ijcai.org/proceedings/2022/0658.pdf   # IJCAI 2022 Distinguished Paper: Completeness and Diversity in Depth-First Proof-Number Search with Applications to Retrosynthesis
+2305.16945   # IJCAI 2023 Distinguished Paper: Levin Tree Search with Context Models
+2305.08511   # IJCAI 2023 Distinguished Paper: SAT-Based PAC Learning of Description Logic Concepts
+2303.03226   # IJCAI 2023 Distinguished Paper: Safe Reinforcement Learning via Probabilistic Logic Shields
+https://www.ijcai.org/proceedings/2024/0044.pdf   # IJCAI 2024 Distinguished Paper: Online Combinatorial Optimization with Group Fairness Constraints (unverified)
+https://www.ijcai.org/proceedings/2024/0366.pdf   # IJCAI 2024 Distinguished Paper: Enhancing Controlled Query Evaluation through Epistemic Policies (unverified)
+https://www.ijcai.org/proceedings/2024/0787.pdf   # IJCAI 2024 Distinguished Paper: Online Learning of Capacity-Based Preference Models (unverified)
+https://www.ijcai.org/proceedings/2025/0514.pdf   # IJCAI 2025 Distinguished Paper: Combining MORL with Restraining Bolts to Learn Normative Behaviour (unverified)
+https://www.ijcai.org/proceedings/2025/0766.pdf   # IJCAI 2025 Distinguished Paper: Boost Embodied AI Models with Robust Compression Boundary (unverified)
+2506.01107   # IJCAI 2025 Distinguished Paper: Speeding Up Hyper-Heuristics With Markov-Chain Operator Selection and the Only-Worsening Acceptance Operator (unverified)
+2007.01409   # STOC 2021 Best Paper: A (Slightly) Improved Approximation Algorithm for Metric TSP
+2011.01929   # STOC 2021 Best Paper: The Complexity of Gradient Descent: CLS = PPAD ∩ PLS
+2008.09317   # STOC 2021 Best Paper: Indistinguishability Obfuscation from Well-Founded Assumptions
+2006.14009   # STOC 2021 Danny Lewin Best Student Paper: Discrepancy Minimization via a Self-Balancing Walk
+2111.04808   # STOC 2022 Best Paper: Locally Testable Codes with constant rate, distance, and locality
+2111.03654   # STOC 2022 Best Paper: Asymptotically Good Quantum and Locally Testable Classical LDPC Codes
+2110.15395   # STOC 2022 Danny Lewin Best Student Paper: The Optimal Error Resilience of Interactive Communication Over Binary Channels
+https://eccc.weizmann.ac.il/report/2021/125/download   # STOC 2022 Danny Lewin Best Student Paper: The Exact Complexity of Pseudorandom Functions and the Black-Box Natural Proof Barrier for Bootstrapping Results
+2211.05753   # STOC 2023 Best Paper: The Randomized k-Server Conjecture is False!
+https://eprint.iacr.org/2022/1703.pdf   # STOC 2023 Best Paper: Doubly Efficient Private Information Retrieval and Fully Homomorphic RAM Computation from Ring LWE
+2302.08661   # STOC 2023 Danny Lewin Best Student Paper: Subsampling Suffices for Adaptive Data Analysis
+2210.07363   # STOC 2023 Danny Lewin Best Student Paper: The Power of Multi-Step Vizing Chains
+2311.02520   # STOC 2024 Best Paper: Single-Source Shortest Paths with Negative Real Weights in Õ(mn^{8/9}) Time
+2404.07441   # STOC 2024 Best Paper: Near Optimal Alphabet-Soundness Tradeoff PCPs
+2311.16587   # STOC 2024 Best Paper: Parameterized Inapproximability Hypothesis under Exponential Time Hypothesis
+2403.20326   # STOC 2024 Danny Lewin Best Student Paper: Shaving Logs via Large Sieve Inequality: Faster Algorithms for Sparse Convolution and More
+2306.17035   # STOC 2024 Danny Lewin Best Student Paper: Relaxed Local Correctability from Local Testing
+2502.17779   # STOC 2025 Best Paper: Simulating Time in (Nearly) Square-Root Space
+2410.05240   # STOC 2025 Best Paper: Vizing's Theorem in Near-Linear Time
+2504.17033   # STOC 2025 Best Paper: Breaking the Sorting Barrier for Directed Single-Source Shortest Paths
+2407.12762   # STOC 2025 Best Paper: Quasi-Linear Size PCPs with Small Soundness from HDX
+2408.15925   # STOC 2025 Danny Lewin Best Student Paper: Explicit Folded Reed-Solomon and Multiplicity Codes Achieve Relaxed Generalized Singleton Bounds
+2511.04558   # STOC 2026 Best Paper: Boolean Function Monotonicity Testing Requires (Almost) n^{1/2} Queries (unverified)
+2511.09551   # STOC 2026 Best Paper: Separating QMA from QCMA with a Classical Oracle (unverified)
+https://eccc.weizmann.ac.il/report/2021/081/download   # FOCS 2021 Best Paper: Superpolynomial Lower Bounds Against Low-Depth Algebraic Circuits
+2106.02026   # FOCS 2021 Machtey Award (Best Student Paper): Breaking the Cubic Barrier for (Unweighted) Tree Edit Distance
+2203.03456   # FOCS 2022 Best Paper: Negative-Weight Single-Source Shortest Paths in Near-Linear Time
+2203.00671   # FOCS 2022 Best Paper: Maximum Flow and Minimum-Cost Flow in Almost-Linear Time
+2208.01078   # FOCS 2022 Machtey Award (Best Student Paper): On Matrix Multiplication and Polynomial Identity Testing
+2302.05537   # FOCS 2023 Best Paper: Strong Bounds for 3-Progressions
+2303.14605   # FOCS 2023 Best Paper: The Subspace Flatness Conjecture and Faster Integer Programming
+2311.11793   # FOCS 2024 Best Paper: Universal Optimality of Dijkstra via Beyond-Worst-Case Heaps
+2410.19516   # FOCS 2024 Best Paper: Near-Optimal Deterministic Network Decomposition and Ruling Set, and Improved MIS
+2404.18902   # FOCS 2024 Machtey Award (Best Student Paper): Capacity Threshold for the Ising Perceptron
+2404.03847   # FOCS 2024 Machtey Award (Best Student Paper): Optimal Quantile Estimation: Beyond the Comparison Model
+2504.15087   # FOCS 2025 Best Paper: Explicit Lossless Vertex Expanders
+2504.07006   # FOCS 2025 Best Paper: Quasipolynomial Bounds for the Corners Theorem
+2504.11398   # FOCS 2025 Best Paper: Breaking a Long-Standing Barrier: 2-ε Approximation for Steiner Forest
+https://eprint.iacr.org/2025/1296.pdf   # FOCS 2025 Machtey Award (Best Student Paper): Gödel in Cryptography: Effectively Zero Knowledge Proofs for NP with No Interaction, No Setup, and Perfect Soundness
+2507.11970   # FOCS 2025 Machtey Award (Best Student Paper): Obfuscation of Unitary Quantum Programs
+2007.10254   # SODA 2021 Best Paper: Solving Sparse Linear Systems Faster than Matrix Multiplication (unverified)
+2111.13240   # SODA 2022 Best Paper: New Diameter-Reducing Shortcuts and Directed Hopsets: Breaking the √n Barrier (unverified)
+2207.07438   # SODA 2023 Best Paper: Dynamic Matching with Better-than-2 Approximation in Polylogarithmic Update Time (unverified)
+2207.07607   # SODA 2023 Best Paper / Best Student Paper: Dynamic Algorithms for Maximum Matching Size (unverified)
+2306.17838   # SODA 2024 Best Paper: Breaking the Metric Voting Distortion Barrier (unverified)
+2401.05627   # SODA 2024 Best Paper: Deterministic Near-linear Time Minimum Cut in Weighted Graphs (unverified)
+2410.09031   # SODA 2025 Best Paper / Best Student Paper: Improved List Size for Folded Reed-Solomon Codes (unverified)
+2408.06475   # SODA 2025 Best Paper: Quasi-Monte Carlo Beyond Hardy-Krause (unverified)
+2507.09544   # SODA 2026 Best Paper / Best Student Paper: Existence of Fair and Efficient Allocation of Indivisible Chores (unverified)
+2511.09763   # SODA 2026 Best Paper: Is Nasty Noise Actually Harder Than Malicious Noise? (unverified)
+https://eprint.iacr.org/2021/535.pdf   # CRYPTO 2021 Best Paper: On the Possibility of Basing Cryptography on EXP ≠ BPP
+https://eprint.iacr.org/2021/815.pdf   # CRYPTO 2021 Best Paper by Early Career Researchers (and Best Paper Honorable Mention): Linear Cryptanalysis of FF3-1 and FEA
+https://eprint.iacr.org/2020/1424.pdf   # CRYPTO 2021 Best Paper Honorable Mention: Efficient Key Recovery for all HFE Signature Variants
+https://eprint.iacr.org/2021/749.pdf   # CRYPTO 2021 Best Paper Honorable Mention: Three Halves Make a Whole? Beating the Half-Gates Lower Bound for Garbled Circuits
+https://eprint.iacr.org/2022/336.pdf   # CRYPTO 2022 Best Paper: Batch Arguments for NP and More from Standard Bilinear Group Assumptions
+https://eprint.iacr.org/2022/214.pdf   # CRYPTO 2022 Best Paper by Early Career Researchers: Breaking Rainbow Takes a Weekend on a Laptop
+https://eprint.iacr.org/2022/709.pdf   # CRYPTO 2022 Best Paper by Early Career Researchers: Some Easy Instances of Ideal-SVP and Implications on the Partial Vandermonde Knapsack Problem
+https://eprint.iacr.org/2023/237.pdf   # CRYPTO 2023 Best Paper: Fast Practical Lattice Reduction through Iterated Compression
+https://eprint.iacr.org/2023/445.pdf   # CRYPTO 2023 Best Early Career Paper: Fully Adaptive Schnorr Threshold Signatures
+https://eprint.iacr.org/2023/1501.pdf   # CRYPTO 2024 Best Paper: Space-Efficient and Noise-Robust Quantum Factoring
+https://eprint.iacr.org/2024/390.pdf   # CRYPTO 2024 Best Paper: STIR: Reed-Solomon Proximity Testing with Fewer Queries
+https://eprint.iacr.org/2024/175.pdf   # CRYPTO 2024 Best Paper by Early Career Researchers: Lossy Cryptography from Code-Based Assumptions
+https://eprint.iacr.org/2025/372.pdf   # CRYPTO 2025 Best Paper: KLPT²: Algebraic Pathfinding in Dimension Two and Applications
+https://eprint.iacr.org/2025/486.pdf   # CRYPTO 2025 Best Paper: On One-Shot Signatures, Quantum vs Classical Binding, and Obfuscating Permutations
+https://eprint.iacr.org/2024/2052.pdf   # CRYPTO 2025 Best Paper and Best Young Researcher Award: Compact Lattice Signatures via Iterative Rejection Sampling
+https://eprint.iacr.org/2026/430.pdf   # CRYPTO 2026 Best Paper: An attack on the CFS scheme and on TII McEliece challenges
+https://eprint.iacr.org/2026/896.pdf   # CRYPTO 2026 Best Paper by Early Career Researchers: CORAL: Faster Isogeny Group Action for Post-Quantum NIKE
+https://eprint.iacr.org/2021/514.pdf   # EUROCRYPT 2021 Best Paper: Non-Interactive Zero Knowledge from Sub-exponential DDH
+https://eprint.iacr.org/2020/945.pdf   # EUROCRYPT 2021 Best Paper: On the (in)security of ROS
+https://eprint.iacr.org/2020/1253.pdf   # EUROCRYPT 2021 Best Paper: New Representations of the AES Key Schedule
+https://eprint.iacr.org/2021/1519.pdf   # EUROCRYPT 2022 Best Paper: EpiGRAM: Practical Garbled RAM
+https://eprint.iacr.org/2022/975.pdf   # EUROCRYPT 2023 Best Paper: An Efficient Key Recovery Attack on SIDH
+https://eprint.iacr.org/2023/640.pdf   # EUROCRYPT 2023 Best Paper Honorable Mention: A Direct Key Recovery Attack on SIDH
+https://eprint.iacr.org/2022/1038.pdf   # EUROCRYPT 2023 Best Paper Honorable Mention: Breaking SIDH in Polynomial Time
+https://eprint.iacr.org/2023/119.pdf   # EUROCRYPT 2023 Early Career Best Paper: Worst-Case Subexponential Attacks on PRGs of Constant Degree or Constant Locality
+https://eprint.iacr.org/2024/338.pdf   # EUROCRYPT 2024 Best Paper: Tight Indistinguishability Bounds for the XOR of Independent Random Permutations by Fourier Analysis
+https://eprint.iacr.org/2023/436.pdf   # EUROCRYPT 2024 Best Paper: SQIsignHD: New Dimensions in Cryptography
+https://eprint.iacr.org/2023/1559.pdf   # EUROCRYPT 2024 Early Career Best Paper: AprèsSQI: Extra Fast Verification for SQIsign Using Extension-Field Signing
+https://eprint.iacr.org/2024/1193.pdf   # EUROCRYPT 2025 Best Paper: The Syzygy Distinguisher
+https://eprint.iacr.org/2024/1580.pdf   # EUROCRYPT 2025 Best Paper: Polynomial Time Cryptanalytic Extraction of Deep Neural Networks in the Hard-Label Setting
+https://eprint.iacr.org/2024/1297.pdf   # EUROCRYPT 2025 Early Career Best Paper: Improved Cryptanalysis of SNOVA
+https://eprint.iacr.org/2026/348.pdf   # EUROCRYPT 2026 Best Paper: Provable Security and Privacy Analysis of WPA3's SAE and SAE-PK Protocols
+https://eprint.iacr.org/2025/1143.pdf   # EUROCRYPT 2026 Best Paper (award talk; best-paper vs early-career category not stated): Wedges, Oil, and Vinegar: An Analysis of UOV in the Exterior Algebra
+2206.03381   # CAV 2022 Distinguished Paper: Software Verification of Hyperproperties Beyond k-Safety
+2106.05421   # CAV 2022 Distinguished Paper: Data-Driven Invariant Learning for Probabilistic Programs
+https://link.springer.com/content/pdf/10.1007/978-3-031-37709-9_14.pdf   # CAV 2023 Distinguished Paper: Automatic Program Instrumentation for Automatic Verification
+2307.02817   # CAV 2023 Distinguished Paper: Exploiting Adjoints in Property Directed Reachability Analysis
+2306.10009   # CAV 2023 Distinguished Paper: Fast Approximations of Quantifier Elimination
+2305.09247   # CAV 2023 Distinguished Paper: Rounding Meets Approximate Model Counting
+https://link.springer.com/content/pdf/10.1007/978-3-031-37703-7_10.pdf   # CAV 2023 Distinguished Paper: The Golem Horn Solver
+https://link.springer.com/content/pdf/10.1007/978-3-031-37703-7_1.pdf   # CAV 2023 Distinguished Paper: Bitwuzla
+2405.03885   # CAV 2024 Distinguished Paper: Playing Games with your PET: Extending the Partial Exploration Tool to Stochastic Games
+https://link.springer.com/content/pdf/10.1007/978-3-031-65627-9_4.pdf   # CAV 2024 Distinguished Paper: Distributed SMT Solving Based on Dynamic Variable-level Partitioning
+2406.11414   # CAV 2024 Distinguished Paper: Formally Certified Approximate Model Counting
+https://link.springer.com/content/pdf/10.1007/978-3-031-65627-9_17.pdf   # CAV 2024 Distinguished Paper: A Framework for Debugging Automated Program Verification Proofs via Proof Actions
+https://link.springer.com/content/pdf/10.1007/978-3-031-65633-0_9.pdf   # CAV 2024 Distinguished Paper: Regular Reinforcement Learning
+https://link.springer.com/content/pdf/10.1007/978-3-031-65627-9_24.pdf   # CAV 2024 Distinguished Paper: Interactive Theorem Proving modulo Fuzzing
+https://link.springer.com/content/pdf/10.1007/978-3-031-98668-0_14.pdf   # CAV 2025 Distinguished Paper: Introducing Certificates to the Hardware Model Checking Competition
+https://link.springer.com/content/pdf/10.1007/978-3-031-98685-7_9.pdf   # CAV 2025 Distinguished Paper: A Misconception-Driven Adaptive Tutor for Linear Temporal Logic
+2506.03030   # CAV 2025 Distinguished Paper: The Vampire Diary
+2502.13605   # CAV 2025 Distinguished Paper: The rIC3 Hardware Model Checker
+2501.08950   # CAV 2025 Distinguished Paper: Approximating Fixpoints of Approximated Functions
+2505.15290   # CAV 2025 Distinguished Paper: Robust Probabilistic Bisimilarity for Labelled Markov Chains
+2605.15143   # CAV 2026 Distinguished Paper: Complete Local Reasoning About Parameterized Programs Over Topologies
+2605.12372   # CAV 2026 Distinguished Paper: Fast Obligation Translation and Synthesis
+2605.16820   # CAV 2026 Distinguished Paper: Satisfiability Modulo Extensional Constant Arrays
+https://link.springer.com/content/pdf/10.1007/978-3-032-32526-6_5.pdf   # CAV 2026 Distinguished Paper: Mallob: Scalable Automated Reasoning On Demand
+https://link.springer.com/content/pdf/10.1007/978-3-032-32526-6_6.pdf   # CAV 2026 Distinguished Paper: Modular Reasoning about Object Relations
+https://link.springer.com/content/pdf/10.1007/978-3-032-32526-6_11.pdf   # CAV 2026 Distinguished Paper: Velvet: A Foundational Multi-Modal Verifier for Imperative Programs in Lean
+https://link.springer.com/content/pdf/10.1007/978-3-032-32537-2_1.pdf   # CAV 2026 Distinguished Paper: Liveness Proofs for Hardware Model Checking
+2605.13246   # CAV 2026 Distinguished Paper: Automatic Detection of Reference Counting Bugs in Linux Kernel Drivers
+2104.12999   # LICS 2021 Kleene Award (Best Student Paper): Separating Rank Logic from Polynomial Time
+2104.04566   # LICS 2021 Kleene Award (Best Student Paper): Inapproximability of Unique Games in Fixed-Point Logic with Counting
+2202.02061   # LICS 2022 Kleene Award (Best Student Paper): Monoidal Streams for Dataflow Programming
+2110.08196   # LICS 2022 Kleene Award (Best Student Paper): The Pebble-Relation Comonad in Finite Model Theory
+2301.09502   # LICS 2023 Kleene Award (Best Student Paper): The Identity Problem in the Special Affine Group of Z^2
+2504.08664   # LICS 2025 Kleene Award (Best Student Paper): The Steenrod Squares via Unordered Joins
+2605.09435   # LICS 2026 Kleene Award (Best Student Paper): Star Complexity of Parikh Images of Languages over Infinite Alphabets
+2603.01595   # LICS 2026 Distinguished Paper: The Logic of Bunched Implications is Undecidable
+2602.01221   # LICS 2026 Distinguished Paper: A Complexity Bound for Determinisation of Min-Plus Weighted Automata
+2601.15890   # LICS 2026 Distinguished Paper: Existential Positive Transductions of Sparse Graphs
+2504.05015   # LICS 2026 Distinguished Paper: PVASS Reachability is Decidable
+2507.10466   # LICS 2026 Distinguished Paper: Quantum Control and General Recursion beyond the Unitary Case
+2604.22365   # LICS 2026 Distinguished Paper: Dynamic Planar Graph Isomorphism is in DynFO
+2605.18496   # LICS 2026 Distinguished Paper: Wiring the Pi-calculus to Denotational Semantics
+https://doi.org/10.4230/LIPIcs.LICS.2026.52   # LICS 2026 Distinguished Paper: The Infinity Category of Infinity Categories in Simplicial Type Theory
+1911.10116   # EC 2021 Best Paper and Best Paper with a Student Lead Author: Aggregative Efficiency of Bayesian Learning in Networks
+2105.12304   # EC 2021 Exemplary Theory Track Paper: Multi-dimensional Screening: Buyer-optimal Learning and Informational Robustness
+2103.05827   # EC 2021 Exemplary Applied Modeling Track Paper: On Modeling Human Perceptions of Allocation Policies with Uncertain Outcomes
+2007.09213   # EC 2021 Exemplary AI and Computation Track Paper: How Flexible is that Functional Form? Measuring the Restrictiveness of Theories
+2202.11776   # EC 2022 Exemplary Applied Modeling Track Paper: The Challenge of Understanding What Users Want: Inconsistent Preferences and Engagement Optimization
+2206.10660   # EC 2023 Exemplary Applied Modeling Track Paper: Welfare-Maximizing Pooled Testing
+2302.09700   # EC 2023 Exemplary AI Track Paper: Leveraging Reviews: Learning to Price with Buyer and Seller Uncertainty
+2308.13496   # EC 2023 Exemplary Empirics Track Paper: Choice Architecture, Privacy Valuations, and Selection Bias
+2406.07428   # EC 2024 Exemplary AI Track Paper: GemNet: Menu-Based, Strategy-Proof Multi-Bidder Auctions Through Deep Learning
+2310.02879   # EC 2024 Exemplary Theory Track Paper: Online Mechanism Design with Predictions
+2502.20229   # EC 2025 Best Paper: Swap Regret and Correlated Equilibria Beyond Normal-Form Games
+2404.11794   # EC 2026 Exemplary Paper: Automated Social Science: Language Models as Scientist and Subjects
+2607.03463   # EC 2026 Exemplary Paper: Random Serial Dictatorship is √2-Envy-Free
+2508.16177   # EC 2026 Exemplary Paper: Proportional Representation in Rank Aggregation
+2109.08644   # WINE 2021 Best Paper: Allocating Indivisible Goods to Strategic Agents: Pure Nash Equilibria and Fairness
+2005.07997   # WINE 2021 Best Student Paper: Funding Public Projects: A Case for the Nash Product Rule
+2206.13119   # WINE 2022 Best Paper Award (best-paper session; best vs best-student not stated): Optimal Private Payoff Manipulation against Commitment in Extensive-form Games
+2204.01962   # WINE 2023 Best Paper Award (best-paper session; best vs best-student not stated): Buy-Many Mechanisms for Many Unit-Demand Buyers
+2305.09549   # WINE 2023 Best Paper Award (best-paper session; best vs best-student not stated): Stable Dinner Party Seating Arrangements
+2410.08127   # WINE 2024 Best Paper: Aggregation of Antagonistic Contingent Preferences: When Is It Possible?
+2406.06023   # WINE 2025 Best Paper: The Limits of Interval-Regulated Price Discrimination
+2510.00965   # WINE 2025 Best Student Paper: Degree-bounded Online Bipartite Matching: OCS vs. Ranking
+2501.15295   # WINE 2025 Outstanding Paper: Constant Inapproximability of Pacing Equilibria in Second-Price Auctions
+2007.08246   # WINE 2025 Outstanding Paper: Bounds on the Revenue Gap of Linear Posted Pricing for Selling a Divisible Item
+https://www.biorxiv.org/content/10.1101/2020.10.21.349605.full.pdf   # ISMB 2021 Ian Lawson Van Toch Award (Outstanding Student Paper): Cuttlefish: Fast, Parallel, and Low-Memory Compaction of de Bruijn Graphs from Large-Scale Genome Collections
+2102.05892   # ISMB 2022 Ian Lawson Van Toch Award (Outstanding Student Paper): Visualizing Hierarchies in scRNA-seq Data Using a Density Tree-Biased Autoencoder
+https://www.biorxiv.org/content/10.1101/2022.01.16.476509.full.pdf   # ISMB 2022 Ian Lawson Van Toch Award Honorable Mention: Phylovar: Towards Scalable Phylogeny-Aware Inference of Single-Nucleotide Variations from Single-Cell DNA Sequencing Data
+https://doi.org/10.1093/bioinformatics/btac222   # ISMB 2022 Ian Lawson Van Toch Award Honorable Mention: MLGL-MP: A Multi-Label Graph Learning Framework Enhanced by Pathway Interdependence for Metabolic Pathway Prediction
+https://doi.org/10.1093/bioinformatics/btad267   # ISMB 2023 Ian Lawson Van Toch Award (Outstanding Student Paper): scKINETICS: Inference of Regulatory Velocity with Single-Cell Transcriptomics Data
+2212.02504   # ISMB 2023 Ian Lawson Van Toch Award Honorable Mention: COmic: Convolutional Kernel Networks for Interpretable End-to-End Learning on (Multi-)Omics Data
+https://doi.org/10.1093/bioinformatics/btae245   # ISMB 2024 Ian Lawson Van Toch Award (Outstanding Student Paper): Deciphering High-order Structures in Spatial Transcriptomes with Graph-guided Tucker Decomposition
+https://doi.org/10.1093/bioinformatics/btaf193   # ISMB 2025 Ian Lawson Van Toch Award (Outstanding Student Paper): Bayesian Inference of Fitness Landscapes via Tree-Structured Branching Processes (unverified)
+https://doi.org/10.1093/bioinformatics/btaf178   # ISMB 2025 Ian Lawson Van Toch Award (Outstanding Student Paper): Locality-Aware Pooling Enhances Protein Language Model Performance Across Varied Applications (unverified)
+https://www.biorxiv.org/content/10.64898/2025.12.09.693237.full.pdf   # ISMB 2026 Ian Lawson Van Toch Award (Outstanding Student Paper): Riemannian Metric Learning for Alignment of Spatial Multiomics
+https://www.biorxiv.org/content/10.1101/2020.05.01.062802.full.pdf   # RECOMB 2021 Best Paper: Robust Inference of Kinase Activity Using Functional Networks
+https://www.biorxiv.org/content/10.1101/2021.06.09.447586.full.pdf   # RECOMB 2021 Best Student Paper: Minimizer-space de Bruijn Graphs: Whole-Genome Assembly of Long Reads in Minutes on a Personal Computer
+https://www.biorxiv.org/content/10.1101/2023.01.09.523288.full.pdf   # RECOMB 2023 Best Paper and Best Student Paper: HOGVAX: Exploiting Peptide Overlaps to Maximize Population Coverage in Vaccine Design with Application to SARS-CoV-2
+https://www.biorxiv.org/content/10.1101/2023.11.15.567129.full.pdf   # RECOMB 2024 Best Paper: Centrifuger: Lossless Compression of Microbial Genomes for Efficient and Accurate Metagenomic Sequence Classification
+https://www.biorxiv.org/content/10.1101/2024.02.16.580613.full.pdf   # RECOMB 2024 Best Student Paper: Secure Discovery of Genetic Relatives across Large-Scale and Distributed Genomic Datasets
+https://www.biorxiv.org/content/10.1101/2025.02.17.638151.full.pdf   # RECOMB 2025 Best Paper: ralphi: A Deep Reinforcement Learning Framework for Haplotype Assembly
+https://www.biorxiv.org/content/10.1101/2024.06.20.599903.full.pdf   # RECOMB 2025 Best Student Paper: TarDis: Achieving Robust and Structured Disentanglement of Multiple Covariates
+1911.09925   # DAC 2021 Best Paper: Gemmini: Enabling Systematic Deep-Learning Architecture Evaluation via Full-Stack Integration
+2303.08256   # DAC 2023 Best Paper: Gamora: Graph Learning based Symbolic Reasoning for Large-Scale Boolean Networks
+2407.15131   # DAC 2024 Best Paper: Token-Picker: Accelerating Attention in Text Generation with Minimized Memory Transfer via Probability Estimation
+2307.15853   # ICCAD 2023 William J. McCalla Best Paper (Back-End): Improving Realistic Worst-Case Performance of NVCiM DNN Accelerators Through Training with Right-Censored Gaussian Noise
+2505.05579   # ICCAD 2025 William J. McCalla Best Paper (Front-End): LaZagna: An Open-Source Framework for Flexible 3D FPGA Architectural Exploration
+2504.10325   # EMSOFT 2025 Best Paper: Cumulative-Time Signal Temporal Logic
+2011.15065   # RTAS 2021 Best Paper: No Crash, No Exploit: Automated Verification of Embedded Kernels
+2101.07327   # RTAS 2021 Outstanding Paper: OpenUVR: An Open-Source System Framework for Untethered Virtual Reality Applications
+2303.11186   # RTAS 2023 Best Student Paper: Shedding Light on Static Partitioning Hypervisors for Arm-based Mixed-Criticality Systems
+2404.06452   # RTAS 2024 Best Paper: PAAM: A Framework for Coordinated and Priority-Driven Accelerator Management in ROS 2
+2503.16588   # RTAS 2025 Best Student Paper: A Unified Framework for Quantitative Cache Analysis
+2603.20146   # RTAS 2026 Outstanding Paper: A Controller Synthesis Framework for Weakly-Hard Control Systems
+2211.08800   # RTSS 2022 Outstanding Paper: Bounding the Response Time of DAG Tasks Using Long Paths
+2310.05306   # RTSS 2023 Best Student Paper: Progressive Neural Compression for Adaptive Image Offloading under Timing Constraints
+2408.13772   # RTSS 2024 Outstanding Paper: FRAP: A Flexible Resource Accessing Protocol for Multiprocessor Real-Time Systems
+2512.21701   # RTSS 2025 Outstanding Paper: LEFT-RS: A Lock-Free Fault-Tolerant Resource Sharing Protocol for Multicore Real-Time Systems
+2507.21276   # RTSS 2025 Outstanding Paper: LeMix: Unified Scheduling for LLM Training and Inference on Multi-GPU Systems

@@ -1,0 +1,148 @@
+# ML 板块近 5 年 Best / Outstanding Paper（NeurIPS、ICLR、ICML，2021 到 2026，含 runner-up 和 honorable mention）。
+# 2026-09-13 由并行调查产出，来源是各会官方获奖公告。
+2105.12806   # NeurIPS 2021 Outstanding Paper: A Universal Law of Robustness via Isoperimetry
+2111.00876   # NeurIPS 2021 Outstanding Paper: On the Expressivity of Markov Reward
+2108.13264   # NeurIPS 2021 Outstanding Paper: Deep Reinforcement Learning at the Edge of the Statistical Precipice
+2102.01454   # NeurIPS 2021 Outstanding Paper: MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers
+2106.07644   # NeurIPS 2021 Outstanding Paper: Continuized Accelerations of Deterministic and Stochastic Gradient Descents, and of Gossip Algorithms
+2108.08052   # NeurIPS 2021 Outstanding Paper: Moser Flow: Divergence-based Generative Modeling on Manifolds
+2112.01716   # NeurIPS 2021 Outstanding Paper (Datasets & Benchmarks): Reduced, Reused and Recycled: The Life of a Dataset in Machine Learning Research
+2012.04035   # NeurIPS 2021 Outstanding Paper (Datasets & Benchmarks): ATOM3D: Tasks on Molecules in Three Dimensions
+2210.14707   # NeurIPS 2022 Outstanding Paper: Is Out-of-distribution Detection Learnable?
+2205.11487   # NeurIPS 2022 Outstanding Paper: Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding
+2206.00364   # NeurIPS 2022 Outstanding Paper: Elucidating the Design Space of Diffusion-Based Generative Models
+2206.06994   # NeurIPS 2022 Outstanding Paper: ProcTHOR: Large-Scale Embodied AI Using Procedural Generation
+2205.11558   # NeurIPS 2022 Outstanding Paper: Using natural language and program abstractions to instill human inductive biases in machines
+2206.02743   # NeurIPS 2022 Outstanding Paper: A Neural Corpus Indexer for Document Retrieval
+2206.04030   # NeurIPS 2022 Outstanding Paper: High-dimensional limit theorems for SGD: Effective dynamics and critical scaling
+1909.13371   # NeurIPS 2022 Outstanding Paper: Gradient Descent: The Ultimate Optimizer
+2202.02763   # NeurIPS 2022 Outstanding Paper: Riemannian Score-Based Generative Modelling
+2202.09497   # NeurIPS 2022 Outstanding Paper: Gradient Estimation with Discrete Stein Operators
+2203.15556   # NeurIPS 2022 Outstanding Paper: An empirical analysis of compute-optimal large language model training
+2206.14486   # NeurIPS 2022 Outstanding Paper: Beyond neural scaling laws: beating power law scaling via data pruning
+2210.12529   # NeurIPS 2022 Outstanding Paper: On-Demand Sampling: Learning Optimally from Multiple Distributions
+2210.08402   # NeurIPS 2022 Outstanding Paper (Datasets & Benchmarks): LAION-5B: An open large-scale dataset for training next generation image-text models
+2206.08853   # NeurIPS 2022 Outstanding Paper (Datasets & Benchmarks): MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge
+2305.08846   # NeurIPS 2023 Outstanding Paper: Privacy Auditing with One (1) Training Run
+2304.15004   # NeurIPS 2023 Outstanding Paper: Are Emergent Abilities of Large Language Models a Mirage?
+2305.16264   # NeurIPS 2023 Outstanding Main Track Runner-Up: Scaling Data-Constrained Language Models
+2305.18290   # NeurIPS 2023 Outstanding Main Track Runner-Up: Direct Preference Optimization: Your Language Model is Secretly a Reward Model
+2306.08754   # NeurIPS 2023 Outstanding Paper (Datasets & Benchmarks): ClimSim: A large multi-scale dataset for hybrid physics-ML climate emulation
+2306.11698   # NeurIPS 2023 Outstanding Paper (Datasets & Benchmarks): DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models
+2404.02905   # NeurIPS 2024 Best Paper: Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction
+2412.00088   # NeurIPS 2024 Best Paper: Stochastic Taylor Derivative Estimator: Efficient amortization for arbitrary differential operators
+2404.07965   # NeurIPS 2024 Best Paper Runner-Up: Not All Tokens Are What You Need for Pretraining
+2406.02507   # NeurIPS 2024 Best Paper Runner-Up: Guiding a Diffusion Model with a Bad Version of Itself
+2404.16019   # NeurIPS 2024 Best Paper (Datasets & Benchmarks): The PRISM Alignment Dataset
+2505.06708   # NeurIPS 2025 Best Paper: Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free
+2503.14858   # NeurIPS 2025 Best Paper: 1000 Layer Networks for Self-Supervised RL: Scaling Depth Can Enable New Goal-Reaching Capabilities
+2505.17638   # NeurIPS 2025 Best Paper: Why Diffusion Models Don't Memorize: The Role of Implicit Dynamical Regularization in Training
+2510.22954   # NeurIPS 2025 Best Paper (Datasets & Benchmarks): Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)
+2504.13837   # NeurIPS 2025 Best Paper Runner-Up: Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?
+2512.12567   # NeurIPS 2025 Best Paper Runner-Up: Optimal Mistake Bounds for Transductive Online Learning
+2505.10465   # NeurIPS 2025 Best Paper Runner-Up: Superposition Yields Robust Neural Scaling
+2102.08597   # ICLR 2021 Outstanding Paper: Beyond Fully-Connected Layers with Quaternions
+2011.03459   # ICLR 2021 Outstanding Paper: Complex Query Answering with Neural Link Predictors
+2010.00554   # ICLR 2021 Outstanding Paper: EigenGame: PCA as a Nash Equilibrium
+2010.03409   # ICLR 2021 Outstanding Paper: Learning Mesh-Based Simulation with Graph Networks
+https://openreview.net/pdf?id=uAX8q61EVRu   # ICLR 2021 Outstanding Paper: Neural Synthesis of Binaural Speech from Mono Audio
+2006.12297   # ICLR 2021 Outstanding Paper: Optimal Rates for Averaged Stochastic Gradient Descent under Neural Tangent Kernel Regime
+2108.04392   # ICLR 2021 Outstanding Paper: Rethinking Architecture Selection in Differentiable NAS
+2011.13456   # ICLR 2021 Outstanding Paper: Score-Based Generative Modeling through Stochastic Differential Equations
+2201.06503   # ICLR 2022 Outstanding Paper: Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models
+2110.03620   # ICLR 2022 Outstanding Paper: Hyperparameter Tuning with Renyi Differential Privacy
+2202.01653   # ICLR 2022 Outstanding Paper: Learning Strides in Convolutional Neural Networks
+2204.04661   # ICLR 2022 Outstanding Paper: Expressiveness and Approximation Properties of Graph Neural Networks
+https://openreview.net/pdf?id=KB5onONJIAU   # ICLR 2022 Outstanding Paper: Comparing Distributions by Measuring Differences that Affect Decision Making
+2106.02073   # ICLR 2022 Outstanding Paper: Neural Collapse Under MSE Loss: Proximity to and Dynamics on the Central Path
+2109.04504   # ICLR 2022 Outstanding Paper: Bootstrapped Meta-Learning
+2111.14522   # ICLR 2022 Outstanding Paper Honorable Mention: Understanding over-squashing and bottlenecks on graphs via curvature
+2111.00396   # ICLR 2022 Outstanding Paper Honorable Mention: Efficiently Modeling Long Sequences with Structured State Spaces
+2201.08984   # ICLR 2022 Outstanding Paper Honorable Mention: PiCO: Contrastive Label Disambiguation for Partial Label Learning
+2303.14969   # ICLR 2023 Outstanding Paper: Universal Few-shot Learning of Dense Prediction Tasks with Visual Token Matching
+2301.09505   # ICLR 2023 Outstanding Paper: Rethinking the Expressive Power of GNNs via Graph Biconnectivity
+2209.14988   # ICLR 2023 Outstanding Paper: DreamFusion: Text-to-3D using 2D Diffusion
+2301.13261   # ICLR 2023 Outstanding Paper: Emergence of Maps in the Memories of Blind Navigation Agents
+2012.09816   # ICLR 2023 Outstanding Paper Honorable Mention: Towards Understanding Ensemble, Knowledge Distillation and Self-Distillation in Deep Learning
+2210.05492   # ICLR 2023 Outstanding Paper Honorable Mention: Mastering the Game of No-Press Diplomacy via Human-Regularized Reinforcement Learning and Planning
+2206.02574   # ICLR 2023 Outstanding Paper Honorable Mention: On the duality between contrastive and non-contrastive self-supervised learning
+2208.06073   # ICLR 2023 Outstanding Paper Honorable Mention: Conditional Antibody Design as 3D Equivariant Graph Translation
+2210.01768   # ICLR 2023 Outstanding Paper Honorable Mention: Disentanglement with Biological Constraints: A Theory of Functional Cell Types
+2310.02557   # ICLR 2024 Outstanding Paper: Generalization in diffusion models arises from geometry-adaptive harmonic representations
+2310.06114   # ICLR 2024 Outstanding Paper: Learning Interactive Real-World Simulators
+2310.02980   # ICLR 2024 Outstanding Paper: Never Train from Scratch: Fair Comparison of Long-Sequence Models Requires Data-Driven Priors
+2306.12360   # ICLR 2024 Outstanding Paper: Protein Discovery with Discrete Walk-Jump Sampling
+2309.16588   # ICLR 2024 Outstanding Paper: Vision Transformers Need Registers
+2310.04363   # ICLR 2024 Outstanding Paper Honorable Mention: Amortizing intractable inference in large language models
+2310.06689   # ICLR 2024 Outstanding Paper Honorable Mention: Approximating Nash Equilibria in Normal-Form Games via Stochastic Optimization
+2401.08514   # ICLR 2024 Outstanding Paper Honorable Mention: Beyond Weisfeiler-Lehman: A Quantitative Framework for GNN Expressiveness
+2302.03660   # ICLR 2024 Outstanding Paper Honorable Mention: Flow Matching on General Geometries
+2310.08584   # ICLR 2024 Outstanding Paper Honorable Mention: Is ImageNet worth 1 video? Learning strong image encoders from 1 long unlabelled video
+https://openreview.net/pdf?id=TpD2aG1h0D   # ICLR 2024 Outstanding Paper Honorable Mention: Meta Continual Learning Revisited
+2310.01801   # ICLR 2024 Outstanding Paper Honorable Mention: Model Tells You What to Discard: Adaptive KV Cache Compression for LLMs
+2310.17623   # ICLR 2024 Outstanding Paper Honorable Mention: Proving Test Set Contamination in Black-Box Language Models
+2402.10877   # ICLR 2024 Outstanding Paper Honorable Mention: Robust agents learn causal world models
+2312.03002   # ICLR 2024 Outstanding Paper Honorable Mention: The mechanistic basis of data dependence and abrupt learning in an in-context classification task
+2309.14563   # ICLR 2024 Outstanding Paper Honorable Mention: Towards a statistical theory of data selection under weak supervision
+2406.05946   # ICLR 2025 Outstanding Paper: Safety Alignment Should be Made More Than Just a Few Tokens Deep
+2407.10490   # ICLR 2025 Outstanding Paper: Learning Dynamics of LLM Finetuning
+2410.02355   # ICLR 2025 Outstanding Paper: AlphaEdit: Null-Space Constrained Model Editing for Language Models
+2406.11011   # ICLR 2025 Outstanding Paper Honorable Mention: Data Shapley in One Training Run
+2408.00714   # ICLR 2025 Outstanding Paper Honorable Mention: SAM 2: Segment Anything in Images and Videos
+2405.19261   # ICLR 2025 Outstanding Paper Honorable Mention: Faster Cascades via Speculative Decoding
+2510.19315   # ICLR 2026 Outstanding Paper: Transformers are Inherently Succinct
+2505.06120   # ICLR 2026 Outstanding Paper: LLMs Get Lost In Multi-Turn Conversation
+2505.16932   # ICLR 2026 Outstanding Paper Honorable Mention: The Polar Express: Optimal Matrix Sign Methods and their Application to the Muon Algorithm
+2112.13835   # ICML 2021 Outstanding Paper: Unbiased Gradient Estimation in Unrolled Computation Graphs with Persistent Evolution Strategies
+2102.06810   # ICML 2021 Outstanding Paper Honorable Mention: Understanding self-supervised learning dynamics without contrastive pairs
+2006.08085   # ICML 2021 Outstanding Paper Honorable Mention: Optimal Complexity in Decentralized Training
+2102.04509   # ICML 2021 Outstanding Paper Honorable Mention: Oops I Took A Gradient: Scalable Sampling for Discrete Distributions
+2102.11830   # ICML 2021 Outstanding Paper Honorable Mention: Solving high-dimensional parabolic PDEs using the tensor train format
+2202.11678   # ICML 2022 Outstanding Paper: Bayesian Model Selection, the Marginal Likelihood, and Generalization
+2201.11211   # ICML 2022 Outstanding Paper: Learning Mixtures of Linear Dynamical Systems
+2202.00817   # ICML 2022 Outstanding Paper: Do Differentiable Simulators Give Better Policy Gradients?
+2202.03060   # ICML 2022 Outstanding Paper: The Importance of Non-Markovianity in Maximum State Entropy Exploration
+2206.02991   # ICML 2022 Outstanding Paper: Solving Stackelberg Prediction Game with Least Squares Loss via Spherically Constrained Least Squares Reformulation
+2112.10224   # ICML 2022 Outstanding Paper: Stable Conformal Prediction Sets
+2207.05302   # ICML 2022 Outstanding Paper: Causal Conceptions of Fairness and their Consequences
+2110.08420   # ICML 2022 Outstanding Paper: Understanding Dataset Difficulty with V-Usable Information
+2206.00240   # ICML 2022 Outstanding Paper: Privacy for Free: How does Dataset Condensation Help Privacy?
+2202.07179   # ICML 2022 Outstanding Paper: G-Mixup: Graph Data Augmentation for Graph Classification
+2206.08450   # ICML 2022 Outstanding Paper Runner-Up: Active fairness auditing
+2204.00595   # ICML 2022 Outstanding Paper Runner-Up: Monarch: Expressive Structured Matrices for Efficient and Accurate Training
+2202.02446   # ICML 2022 Outstanding Paper Runner-Up: Adversarially Trained Actor Critic for Offline Reinforcement Learning
+2205.02232   # ICML 2022 Outstanding Paper Runner-Up: Minimum Cost Intervention Design for Causal Effect Identification
+https://proceedings.mlr.press/v162/hsu22a/hsu22a.pdf   # ICML 2022 Outstanding Paper Runner-Up: Learning inverse folding from millions of predicted structures
+2212.12567   # ICML 2023 Outstanding Paper: Adapting to game trees in zero-sum imperfect information games
+2301.07733   # ICML 2023 Outstanding Paper: Learning-Rate-Free Learning by D-Adaptation
+2301.10226   # ICML 2023 Outstanding Paper: A Watermark for Large Language Models
+2301.13105   # ICML 2023 Outstanding Paper: Generalization on the Unseen, Logic Reasoning and Degree Curriculum
+2305.05097   # ICML 2023 Outstanding Paper: Self-Repellent Random Walks on General Graphs
+2310.00806   # ICML 2023 Outstanding Paper: Bayesian Design Principles for Frequentist Sequential Learning
+2212.06470   # ICML 2024 Best Paper: Position: Considerations for Differentially Private Learning with Large-Scale Public Pretraining
+2402.06782   # ICML 2024 Best Paper: Debating with More Persuasive LLMs Leads to More Truthful Answers
+2310.16834   # ICML 2024 Best Paper: Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution
+2407.08188   # ICML 2024 Best Paper: Position: Measure Dataset Diversity, Don't Just Claim It
+2404.17546   # ICML 2024 Best Paper: Probabilistic Inference in Language Models via Twisted Sequential Monte Carlo
+2312.14125   # ICML 2024 Best Paper: VideoPoet: A Large Language Model for Zero-Shot Video Generation
+2403.03206   # ICML 2024 Best Paper: Scaling Rectified Flow Transformers for High-Resolution Image Synthesis
+2402.09327   # ICML 2024 Best Paper: Information Complexity of Stochastic Convex Optimization
+2402.15391   # ICML 2024 Best Paper: Genie: Generative Interactive Environments
+2403.06634   # ICML 2024 Best Paper: Stealing part of a production language model
+2502.00640   # ICML 2025 Outstanding Paper: CollabLLM: From Passive Responders to Active Collaborators
+2504.15266   # ICML 2025 Outstanding Paper: Roll the dice & look before you leap: Going beyond the creative limits of next-token prediction
+2506.00557   # ICML 2025 Outstanding Paper: Score Matching with Missing Data
+2502.13228   # ICML 2025 Outstanding Paper: Conformal Prediction as Bayesian Quadrature
+2502.06768   # ICML 2025 Outstanding Paper: Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions
+2501.19334   # ICML 2025 Outstanding Paper: The Value of Prediction in Identifying the Worst-Off
+2504.13959   # ICML 2025 Outstanding Position Paper: Position: AI Safety should prioritize the Future of Work
+2505.04966   # ICML 2025 Outstanding Position Paper: Position: The AI Conference Peer Review Crisis Demands Author Feedback and Reviewer Rewards
+2602.01338   # ICML 2026 Outstanding Paper: High-accuracy sampling for diffusion models and log-concave distributions
+2601.15165   # ICML 2026 Outstanding Paper: The Flexibility Trap: Rethinking the Value of Arbitrary Order in Diffusion Language Models
+2602.15515   # ICML 2026 Outstanding Paper Honorable Mention: The Obfuscation Atlas: Mapping Where Honesty Emerges in RLVR with Deception Probes
+2601.19791   # ICML 2026 Outstanding Paper Honorable Mention: To Grok Grokking: Provable Grokking in Ridge Regression
+2505.24832   # ICML 2026 Outstanding Paper Honorable Mention: How much can language models memorize?
+2602.02908   # ICML 2026 Outstanding Paper Honorable Mention: A Random Matrix Perspective on the Consistency of Diffusion Models
+2601.08828   # ICML 2026 Outstanding Paper Honorable Mention: Motion Attribution for Video Generation
+2608.12346   # ICML 2026 Outstanding Position Paper: Position: The Alignment Community is Unintentionally Building a Censor's Toolkit
+2607.18263   # ICML 2026 Outstanding Position Paper Honorable Mention: Position: AI/ML Deepfake Research is Misaligned with AI Generated Non-Consensual Intimate Imagery

@@ -1,0 +1,511 @@
+# HCI / 可视化 / VR / 机器人板块近 5 年 Best Paper（CHI、UIST、IMWUT、IEEE VIS、IEEE VR、ICRA、IROS、RSS，2021 到 2026）。
+# 2026-09-13 由并行调查产出。dl.acm.org 会 403；NOPDF 已剔除。
+https://vbn.aau.dk/files/406122412/CHI2021_Hackathons_Copy_.pdf   # CHI 2021 Best Paper: What Do Hackathons Do? Understanding Participation in Hackathons Through Program Theory Analysis
+2102.01024   # CHI 2021 Best Paper: Falx: Synthesis-Powered Visualization Authoring
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9128312/pdf/nihms-1799762.pdf   # CHI 2021 Best Paper: "Can I Not Be Suicidal on a Sunday?": Understanding Technology-Mediated Pathways to Mental Health Support
+https://static.siplab.org/papers/chi2021-capcontact.pdf   # CHI 2021 Best Paper: CapContact: Super-resolution Contact Areas from Capacitive Touchscreens
+https://dl.acm.org/doi/pdf/10.1145/3411764.3445367   # CHI 2021 Best Paper: RadarNet: Efficient Gesture Recognition Technique Utilizing a Miniaturized Radar Sensor
+2101.04893   # CHI 2021 Best Paper: Screen Recognition: Creating Accessibility Metadata for Mobile Applications from Pixels
+https://dl.acm.org/doi/pdf/10.1145/3411764.3445331   # CHI 2021 Best Paper: LGBTQ Persons' Pregnancy Loss Disclosures to Known Ties on Social Media: Disclosure Decisions and Ideal Disclosure Environments
+https://dl.acm.org/doi/pdf/10.1145/3411764.3445761   # CHI 2021 Best Paper: Increasing Electrical Muscle Stimulation's Dexterity by means of Back of the Hand Actuation
+https://dl.acm.org/doi/pdf/10.1145/3411764.3445471   # CHI 2021 Best Paper: Designing Menstrual Technologies with Adolescents
+https://dl.acm.org/doi/pdf/10.1145/3411764.3445103   # CHI 2021 Best Paper: Getting Ourselves Together: Epistemic Burden and Data-centered Participatory Design Research
+https://dl.acm.org/doi/pdf/10.1145/3411764.3445518   # CHI 2021 Best Paper: "Everyone wants to do the model work, not the data work": Data Cascades in High-Stakes AI
+https://dl.acm.org/doi/pdf/10.1145/3411764.3445153   # CHI 2021 Best Paper: Resisting the Medicalisation of Menopause: Reclaiming the Body through Design
+https://dl.acm.org/doi/pdf/10.1145/3411764.3445334   # CHI 2021 Best Paper: U!Scientist: Designing for People-Powered Research in Museums
+https://nrl.northumbria.ac.uk/id/eprint/45264/1/chi21b_sub7788_cam_i16.pdf   # CHI 2021 Best Paper: "Why lose control?" A Study of Freelancers' Perspectives with Gig Economy Platforms
+https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/f400dc61-1be6-5b72-9192-c90305d7734c/content   # CHI 2021 Best Paper: The Ethics of Multiplayer Game Design and Community Management: Industry Perspectives and Challenges
+https://dl.acm.org/doi/pdf/10.1145/3411764.3445349   # CHI 2021 Best Paper: XRgonomics: Facilitating the Creation of Ergonomic 3D Interfaces
+2103.09224   # CHI 2021 Best Paper: Clandestino or Rifugiato? Anti-immigration Facebook Ad Targeting in Italy
+https://dl.acm.org/doi/pdf/10.1145/3411764.3445261   # CHI 2021 Best Paper: The Landscape and Gaps in Open Source Fairness Toolkits
+https://researchportal.bath.ac.uk/files/221090183/CHI21_Object_Selection_VR.pdf   # CHI 2021 Best Paper: How to Evaluate Object Selection and Manipulation in VR? Guidelines from 20 Years of Studies
+https://dl.acm.org/doi/pdf/10.1145/3491102.3502034   # CHI 2022 Best Paper: AirRacket: Perceptual Design of Ungrounded, Directional Force Feedback to Improve Virtual Racket Sports Experiences
+https://dl.acm.org/doi/pdf/10.1145/3491102.3502038   # CHI 2022 Best Paper: Care Infrastructures for Digital Security in Intimate Partner Violence
+https://dl.acm.org/doi/pdf/10.1145/3491102.3501836   # CHI 2022 Best Paper: Causality-preserving Asynchronous Reality
+https://dl.acm.org/doi/pdf/10.1145/3491102.3501920   # CHI 2022 Best Paper: EmoBalloon - Conveying Emotional Arousal in Text Chats with Speech Balloons
+https://dl.acm.org/doi/pdf/10.1145/3491102.3501867   # CHI 2022 Best Paper: Including the Experiences of Physically Disabled Players in Mainstream Guidelines for Movement-Based Games
+https://dl.acm.org/doi/pdf/10.1145/3491102.3502059   # CHI 2022 Best Paper: Interrupting Merit, Subverting Legibility: Navigating Caste In 'Casteless' Worlds of Computing
+https://dl.acm.org/doi/pdf/10.1145/3491102.3501970   # CHI 2022 Best Paper: Investigating Daily Practices of Self-care to Inform the Design of Supportive Health Technologies for Living and Ageing Well with HIV
+https://dl.acm.org/doi/pdf/10.1145/3491102.3501908   # CHI 2022 Best Paper: Investigating the Tradeoffs of Everyday Text-Entry Collection Methods
+2202.02950   # CHI 2022 Best Paper: Jury Learning: Integrating Dissenting Voices into Machine Learning Models
+https://dl.acm.org/doi/pdf/10.1145/3491102.3501932   # CHI 2022 Best Paper: Math Augmentation: How Authors Enhance the Readability of Formulas using Novel Visual Design Practices
+https://dl.acm.org/doi/pdf/10.1145/3491102.3502119   # CHI 2022 Best Paper: Meander Coil++: A Body-scale Wireless Power Transmission Using Safe-to-body and Energy-efficient Transmitter Coil
+https://dl.acm.org/doi/pdf/10.1145/3491102.3502054   # CHI 2022 Best Paper: Mobile-Friendly Content Design for MOOCs: Challenges, Requirements, and Design Opportunities
+https://dl.acm.org/doi/pdf/10.1145/3491102.3501960   # CHI 2022 Best Paper: Mouth Haptics in VR using a Headset Ultrasound Phased Array
+2110.12536   # CHI 2022 Best Paper: Neo: Generalizing Confusion Matrix Visualization to Hierarchical and Multi-Output Labels
+https://dl.acm.org/doi/pdf/10.1145/3491102.3501981   # CHI 2022 Best Paper: Squeezy-Feely: Investigating Lateral Thumb-Index Pinching as an Input Modality
+https://dl.acm.org/doi/pdf/10.1145/3491102.3502112   # CHI 2022 Best Paper: Still Creepy After All These Years: The Normalization of Affective Discomfort in App Use
+https://dl.acm.org/doi/pdf/10.1145/3491102.3502039   # CHI 2022 Best Paper: The TAC Toolkit: Supporting Design for User Acceptance of Health Technologies from a Macro-Temporal Perspective
+2112.14005   # CHI 2022 Best Paper: Towards Relatable Explainable AI with the Perceptual Process
+https://dl.acm.org/doi/pdf/10.1145/3491102.3501901   # CHI 2022 Best Paper: Weaving Stories: Toward Repertoires for Designing Things
+https://dl.acm.org/doi/pdf/10.1145/3491102.3501967   # CHI 2022 Best Paper: When Confidence Meets Accuracy: Exploring the Effects of Multiple Performance Indicators on Trust in Machine Learning Models
+https://dl.acm.org/doi/pdf/10.1145/3491102.3501973   # CHI 2022 Best Paper: Zoom Obscura: Counterfunctional Design for Video-Conferencing
+https://dl.acm.org/doi/pdf/10.1145/3491102.3502072   # CHI 2022 Best Paper: 3D Printed Street Crossings: Supporting Orientation and Mobility Training with People who are Blind or have Low Vision
+https://dl.acm.org/doi/pdf/10.1145/3491102.3501976   # CHI 2022 Best Paper: "I Wanted to See How Bad It Was": Online Self-screening as a Critical Transition Point Among Young Adults with Common Mental Health Conditions
+https://dl.acm.org/doi/pdf/10.1145/3491102.3501995   # CHI 2022 Best Paper: "It's Kind of Like Code-Switching": Black Older Adults' Experiences with a Voice Assistant for Health Information Seeking
+2301.13431   # CHI 2023 Best Paper: Breaking Out of the Ivory Tower: A Large-scale Analysis of Patent Citations to HCI Research
+https://dl.acm.org/doi/pdf/10.1145/3544548.3580848   # CHI 2023 Best Paper: Changes in Research Ethics, Openness, and Transparency in Empirical Studies between CHI 2017 and CHI 2022
+https://dl.acm.org/doi/pdf/10.1145/3544548.3581113   # CHI 2023 Best Paper: ChartDetective: Easy and Accurate Interactive Data Extraction from Complex Vector Charts
+2302.07302   # CHI 2023 Best Paper: CiteSee: Augmenting Citations in Scientific Papers with Persistent and Personalized Historical Context
+https://dl.acm.org/doi/pdf/10.1145/3544548.3580879   # CHI 2023 Best Paper: Collaborating Across Realities: Analytical Lenses for Understanding Dyadic Collaboration in Transitional Interfaces
+2302.04603   # CHI 2023 Best Paper: Contestable Camera Cars: A Speculative Design Exploration of Public AI That Is Open and Responsive to Dispute
+https://dl.acm.org/doi/pdf/10.1145/3544548.3581472   # CHI 2023 Best Paper: DataParticles: Block-based and Language-oriented Authoring of Animated Unit Visualization
+https://dl.acm.org/doi/pdf/10.1145/3544548.3581258   # CHI 2023 Best Paper: Deceptive Design Patterns in Safety Technologies: A Case Study of the Citizen App
+https://dl.acm.org/doi/pdf/10.1145/3544548.3581161   # CHI 2023 Best Paper: Disentangling Fairness Perceptions in Algorithmic Decision-Making: the Effects of Explanations, Human Oversight, and Contestability
+https://dl.acm.org/doi/pdf/10.1145/3544548.3580936   # CHI 2023 Best Paper: Envisioning the (In)Visibility of Discreet and Wearable AAC Devices
+https://dl.acm.org/doi/pdf/10.1145/3544548.3580688   # CHI 2023 Best Paper: Evaluating Large Language Models in Generating Synthetic HCI Research Data: a Case Study
+2302.07777   # CHI 2023 Best Paper: FIDO2 the Rescue? Platform vs. Roaming Authentication on Smartphones
+https://dl.acm.org/doi/pdf/10.1145/3544548.3581382   # CHI 2023 Best Paper: Full-hand Electro-Tactile Feedback without Obstructing Palmar Side of Hand
+https://dl.acm.org/doi/pdf/10.1145/3544548.3581259   # CHI 2023 Best Paper: Going, Going, Gone: Exploring Intention Communication for Multi-User Locomotion in Virtual Reality
+https://dl.acm.org/doi/pdf/10.1145/3544548.3581040   # CHI 2023 Best Paper: Infrastructuring Care: How Trans and Non-Binary People Meet Health and Well-Being Needs through Technology
+https://dl.acm.org/doi/pdf/10.1145/3544548.3580774   # CHI 2023 Best Paper: Investigating the Role of Context in the Delivery of Text Messages for Supporting Psychological Wellbeing
+https://dl.acm.org/doi/pdf/10.1145/3544548.3581255   # CHI 2023 Best Paper: Kaleidoscope: A Reflective Documentation Tool for a User Interface Design Course
+2302.05907   # CHI 2023 Best Paper: LipLearner: Customizable Silent Speech Interactions on Mobile Devices
+https://dl.acm.org/doi/pdf/10.1145/3544548.3581101   # CHI 2023 Best Paper: Paying the Price: When Intimate Partners Use Technology for Financial Harm
+https://dl.acm.org/doi/pdf/10.1145/3544548.3580662   # CHI 2023 Best Paper: Playing with Feedback: Unpredictability, Immediacy, and Entangled Agency in the No-input Mixing Desk
+https://dl.acm.org/doi/pdf/10.1145/3544548.3581109   # CHI 2023 Best Paper: Probing a Community-Based Conversational Storytelling Agent to Document Digital Stories of Housing Insecurity
+2302.08497   # CHI 2023 Best Paper: Rethinking "Risk" in Algorithmic Systems Through A Computational Narrative Analysis of Casenotes in Child Welfare
+https://dl.acm.org/doi/pdf/10.1145/3544548.3580991   # CHI 2023 Best Paper: SAWSense: Using Surface Acoustic Waves for Surface-bound Event Recognition
+https://dl.acm.org/doi/pdf/10.1145/3544548.3580767   # CHI 2023 Best Paper: Sensorimotor Simulation of Redirected Reaching using Stochastic Optimal Feedback Control
+https://dl.acm.org/doi/pdf/10.1145/3544548.3581415   # CHI 2023 Best Paper: Take My Hand: Automated Hand-Based Spatial Guidance for the Visually Impaired
+https://dl.acm.org/doi/pdf/10.1145/3544548.3581045   # CHI 2023 Best Paper: The Halting problem: Video analysis of self-driving cars in traffic
+https://dl.acm.org/doi/pdf/10.1145/3544548.3581387   # CHI 2023 Best Paper: The Nuanced Nature of Trust and Privacy Control Adoption in the Context of Google
+2302.09864   # CHI 2023 Best Paper: The Walking Talking Stick: Understanding Automated Note-Taking in Walking Meetings
+2301.09492   # CHI 2023 Best Paper: Understanding Context to Capture when Reconstructing Meaningful Spaces for Remote Instruction and Connecting in XR
+2303.09743   # CHI 2023 Best Paper: Understanding Frontline Workers' and Unhoused Individuals' Perspectives on AI Used in Homeless Services
+https://dl.acm.org/doi/pdf/10.1145/3544548.3581503   # CHI 2023 Best Paper: Understanding the Benefits and Challenges of Deploying Conversational AI Leveraging Large Language Models for Public Health Intervention
+2302.03671   # CHI 2023 Best Paper: What Do We Mean When We Talk about Trust in Social Media? A Systematic Review
+https://dl.acm.org/doi/pdf/10.1145/3544548.3581524   # CHI 2023 Best Paper: Who Do We Mean When We Talk About Visualization Novices?
+https://dl.acm.org/doi/pdf/10.1145/3544548.3580933   # CHI 2023 Best Paper: 'Treat me as your friend, not a number in your database': Co-designing with Children to Cope with Datafication Online
+2301.08031   # CHI 2023 Best Paper: "My Zelda Cane": Strategies Used by Blind Players to Play Visual-Centric Digital Games
+https://dl.acm.org/doi/pdf/10.1145/3613904.3642214   # CHI 2024 Best Paper: Designing for Caregiver-facing Values Elicitation Tools
+https://dl.acm.org/doi/pdf/10.1145/3613904.3642463   # CHI 2024 Best Paper: Mindfulness-based Embodied Tangible Interactions for Stroke Rehabilitation at Home
+https://dl.acm.org/doi/pdf/10.1145/3613904.3642895   # CHI 2024 Best Paper: Engaging recently incarcerated and gang affiliated Black and Latino/a young adults in designing social collocated applications for mixed reality smart glasses through community-based participatory design workshops.
+2310.07879   # CHI 2024 Best Paper: Deepfakes, Phrenology, Surveillance, and More! A Taxonomy of AI Privacy Risks
+2310.03976   # CHI 2024 Best Paper: From Text to Self: Users' Perception of AIMC Tools on Interpersonal Communication and Self
+https://dl.acm.org/doi/pdf/10.1145/3613904.3642629   # CHI 2024 Best Paper: SplitBody: Reducing Mental Workload while Multitasking via Muscle Stimulation
+https://dl.acm.org/doi/pdf/10.1145/3613904.3641983   # CHI 2024 Best Paper: PsiNet: Toward Understanding the Design of Brain-to-Brain Interfaces for Augmenting Inter-Brain Synchrony
+2403.02199   # CHI 2024 Best Paper: Piet: Facilitating Color Authoring for Motion Graphics Video
+https://dl.acm.org/doi/pdf/10.1145/3613904.3641890   # CHI 2024 Best Paper: Products of Positionality: How Tech Workers Shape Identity Concepts in Computer Vision
+https://dl.acm.org/doi/pdf/10.1145/3613904.3642183   # CHI 2024 Best Paper: Cooking With Agents: Designing Context-aware Voice Interaction
+2403.00265   # CHI 2024 Best Paper: Designing for Harm Reduction: Communication Repair for Multicultural Users' Voice Interactions
+https://dl.acm.org/doi/pdf/10.1145/3613904.3642459   # CHI 2024 Best Paper: Generative Echo Chamber? Effect of LLM-Powered Search Systems on Diverse Information Seeking
+2402.17847   # CHI 2024 Best Paper: Mitigating Barriers to Public Social Interaction with Meronymous Communication
+2312.10893   # CHI 2024 Best Paper: The Metacognitive Demands and Opportunities of Generative AI
+https://dl.acm.org/doi/pdf/10.1145/3613904.3642075   # CHI 2024 Best Paper: MigraineTracker: Examining Patient Experiences with Goal-Directed Self-Tracking for a Chronic Health Condition
+2402.15431   # CHI 2024 Best Paper: Designing Multispecies Worlds for Robots, Cats, and Humans
+2402.09860   # CHI 2024 Best Paper: From Exploration to End of Life: Unpacking Sustainability in Physicalization Practices
+https://dl.acm.org/doi/pdf/10.1145/3613904.3642543   # CHI 2024 Best Paper: From Disorientation to Harmony: Autoethnographic Insights into Transformative Videogame Experiences
+https://dl.acm.org/doi/pdf/10.1145/3613904.3642395   # CHI 2024 Best Paper: Seated-WIP: Enabling Walking-in-Place Locomotion for Stationary Chairs in Confined Spaces
+https://dl.acm.org/doi/pdf/10.1145/3613904.3642178   # CHI 2024 Best Paper: "This app said I had severe depression, and now I don't know what to do": the unintentional harms of mental health applications
+https://hdl.handle.net/1721.1/155177   # CHI 2024 Best Paper: Throwing Out Conventions: Reimagining Craft-Centered CNC Tool Design through the Digital Pottery Wheel
+https://dl.acm.org/doi/pdf/10.1145/3613904.3642267   # CHI 2024 Best Paper: rTisane: Externalizing conceptual models for data analysis increases engagement with domain knowledge and improves statistical model quality
+2402.15694   # CHI 2024 Best Paper: Touching the Moon: Leveraging Passive Haptics, Embodiment and Presence for Operational Assessments in Virtual Reality
+2402.06790   # CHI 2024 Best Paper: Towards Robotic Companions: Understanding Handler-Guide Dog Interactions for Informed Guide Dog Robot Design
+https://dl.acm.org/doi/pdf/10.1145/3613904.3642755   # CHI 2024 Best Paper: JupyterLab in Retrograde: Contextual Notifications That Highlight Fairness and Bias Issues for Data Scientists
+https://dl.acm.org/doi/pdf/10.1145/3613904.3642314   # CHI 2024 Best Paper: Constrained Highlighting in a Document Reader can Improve Reading Comprehension
+https://dl.acm.org/doi/pdf/10.1145/3613904.3642854   # CHI 2024 Best Paper: What Counts as 'Creative' Work? Articulating Four Epistemic Positions in Creativity-Oriented HCI Research
+https://dl.acm.org/doi/pdf/10.1145/3613904.3642684   # CHI 2024 Best Paper: SketchPath: Using Digital Drawing to Integrate the Gestural Qualities of Craft in CAM-Based Clay 3D Printing
+https://dl.acm.org/doi/pdf/10.1145/3613904.3642598   # CHI 2024 Best Paper: Cosmovision Of Data: An Indigenous Approach to Technologies for Self-Determination
+https://hdl.handle.net/10316/116690   # CHI 2024 Best Paper: Understanding Feedback in Rhythmic Gymnastics Training: An Ethnographic-Informed Study of a Competition Class
+2401.10880   # CHI 2024 Best Paper: DynaVis: Dynamically Synthesized UI Widgets for Visualization Editing
+https://dl.acm.org/doi/pdf/10.1145/3706598.3713547   # CHI 2025 Best Paper: Permission Rationales in the Web Ecosystem: An Exploration of Rationale Text and Design Patterns
+2502.14163   # CHI 2025 Best Paper: "It Brought the Model to Life": Exploring the Embodiment of Multimodal I3Ms for People who are Blind or have Low Vision
+2501.16305   # CHI 2025 Best Paper: Exploring Data-Driven Advocacy in Home Health Care Work
+2503.06098   # CHI 2025 Best Paper: ClueCart: Supporting Game Story Interpretation and Narrative Inference from Fragmented Clues
+https://dl.acm.org/doi/pdf/10.1145/3706598.3714080   # CHI 2025 Best Paper: Enabling Recycling of Multi-Material 3D Printed Objects through Computational Design and Disassembly by Dissolution
+2503.11914   # CHI 2025 Best Paper: Curves Ahead: Enhancing the Steering Law for Complex Curved Trajectories
+2502.08076   # CHI 2025 Best Paper: RouteFlow: Trajectory-Aware Animated Transitions
+https://dl.acm.org/doi/pdf/10.1145/3706598.3713813   # CHI 2025 Best Paper: Tracing Change in Social Media Use: A Qualitative Longitudinal Study
+https://dl.acm.org/doi/pdf/10.1145/3706598.3713757   # CHI 2025 Best Paper: Relational AI: Facilitating Intergroup Cooperation with Socially Aware Conversational Support
+https://dl.acm.org/doi/pdf/10.1145/3706598.3714168   # CHI 2025 Best Paper: How Should We Design Technology With Diverse Stakeholders Who Wish Not to Attend Design Activities Together?
+2412.18940   # CHI 2025 Best Paper: AMUSE: Human-AI Collaborative Songwriting with Multimodal Inspirations
+https://dl.acm.org/doi/pdf/10.1145/3706598.3714022   # CHI 2025 Best Paper: A Qualitative Study on How Usable Security and HCI Researchers Judge the Size and Importance of Odds Ratio and Cohen's d Effect Sizes
+https://dl.acm.org/doi/pdf/10.1145/3706598.3713977   # CHI 2025 Best Paper: Designing Urban Noticing Probes for Community Animals and Cohabitation in Türkiye
+2404.15150   # CHI 2025 Best Paper: Lost in Magnitudes: Exploring Visualization Designs for Large Value Ranges
+https://dl.acm.org/doi/pdf/10.1145/3706598.3713242   # CHI 2025 Best Paper: "I am a Technology Creator": Black Girls as Technosocial Change Agents in a Culturally-Responsive Robotics Camp
+https://dl.acm.org/doi/pdf/10.1145/3706598.3714197   # CHI 2025 Best Paper: Placebo Effect of Control Settings in Feeds Are Not Always Strong
+2409.09641   # CHI 2025 Best Paper: AACessTalk: Fostering Communication between Minimally Verbal Autistic Children and Parents with Contextual Guidance and Card Recommendation
+2409.14137   # CHI 2025 Best Paper: Triangulating on Possible Futures: Conducting User Studies on Several Futures Instead of Only One
+https://dl.acm.org/doi/pdf/10.1145/3706598.3713903   # CHI 2025 Best Paper: What Do We Design for When We Design "Smart Buildings"? - A Scoping Review of Human Experience Design Research in Buildings
+2409.14281   # CHI 2025 Best Paper: Creative Writers' Attitudes on Writing as Training Data for Large Language Models
+https://dl.acm.org/doi/pdf/10.1145/3706598.3713738   # CHI 2025 Best Paper: "It Helps Us Express Our Feelings Without Having To Say Anything": Exploring Accompanying Social Play Things Designed With and For Neurodiverse Groups of Children
+2409.16561   # CHI 2025 Best Paper: Supporting Co-Adaptive Machine Teaching through Human Concept Learning and Cognitive Theories
+2409.04645   # CHI 2025 Best Paper: PAIGE: Examining Learning Outcomes and Experiences with Personalized AI-Generated Educational Podcasts
+https://dl.acm.org/doi/pdf/10.1145/3706598.3713238   # CHI 2025 Best Paper: Speculating Deaf Tech: Reimagining Technologies Centering Deaf People
+https://dl.acm.org/doi/pdf/10.1145/3706598.3714017   # CHI 2025 Best Paper: Conversational Agents on Your Behalf: Opportunities and Challenges of Shared Autonomy in Voice Communication for Multitasking
+2504.00371   # CHI 2025 Best Paper: Traversing Dual Realities: Investigating Techniques for Transitioning 3D Objects between Desktop and Augmented Reality Environments
+https://dl.acm.org/doi/pdf/10.1145/3706598.3713767   # CHI 2025 Best Paper: TelePulse: Enhancing the Teleoperation Experience through Biomechanical Simulation-Based Electrical Muscle Stimulation in Virtual Reality
+https://dl.acm.org/doi/pdf/10.1145/3706598.3713590   # CHI 2025 Best Paper: Evaluating In-Car Tasks' Distraction Effects with Drive-In Lab
+https://dl.acm.org/doi/pdf/10.1145/3706598.3713990   # CHI 2025 Best Paper: Cripping the Co-Design of Pacing Technologies For Energy-Limiting Conditions
+https://dl.acm.org/doi/pdf/10.1145/3706598.3713535   # CHI 2025 Best Paper: (Re)discovering Sexual Pleasure after Cancer: Understanding the Design Space
+2503.21094   # CHI 2025 Best Paper: GazeSwipe: Enhancing Mobile Touchscreen Reachability through Seamless Gaze and Finger-Swipe Integration
+https://dl.acm.org/doi/pdf/10.1145/3706598.3713681   # CHI 2025 Best Paper: Doing the Feminist Work in AI: Reflections from an AI Project in Latin America
+https://dl.acm.org/doi/pdf/10.1145/3706598.3713239   # CHI 2025 Best Paper: What Comes After Noticing?: Reflections on Noticing Solar Energy and What Came Next
+2502.02911   # CHI 2025 Best Paper: The Benefits of Prosociality towards AI Agents: Examining the Effects of Helping AI Agents on Human Well-Being
+https://dl.acm.org/doi/pdf/10.1145/3706598.3714007   # CHI 2025 Best Paper: Moving Beyond the Simulator: Interaction-Based Drunk Driving Detection in a Real Vehicle Using Driver Monitoring Cameras and Real-Time Vehicle Data
+https://dl.acm.org/doi/pdf/10.1145/3706598.3714240   # CHI 2025 Best Paper: Deploying and Examining Beacon for At-Home Patient Self-Monitoring with Critical Flicker Frequency
+2402.17721   # CHI 2025 Best Paper: Prototyping with Prompts: Emerging Approaches and Challenges in Generative AI Design for Collaborative Software Teams
+2504.04355   # CHI 2025 Best Paper: The Fidelity-based Presence Scale (FPS): Modeling the Effects of Fidelity on Sense of Presence
+2502.14592   # CHI 2025 Best Paper: "Don't Forget the Teachers": Towards an Educator-Centered Understanding of Harms from Large Language Models in Education
+2502.18881   # CHI 2025 Best Paper: Letters from Future Self: Augmenting the Letter-Exchange Exercise with LLM-based Agents to Enhance Young Adults' Career Exploration
+2409.08895   # CHI 2025 Best Paper: Synthetic Human Memories: AI-Edited Images and Videos Can Implant False Memories and Distort Recollection
+https://dl.acm.org/doi/pdf/10.1145/3706598.3713878   # CHI 2025 Best Paper: FluidTrack: Investigating Child-Parent Collaborative Tracking for Pediatric Voiding Dysfunction Management
+2502.08848   # CHI 2025 Best Paper: SpeechCompass: Enhancing Mobile Captioning with Diarization and Directional Guidance via Multi-Microphone Localization
+https://dl.acm.org/doi/pdf/10.1145/3706598.3714093   # CHI 2025 Best Paper: Tracking and its Potential for Older Adults with Memory Concerns
+2502.03719   # CHI 2025 Best Paper: Code Shaping: Iterative Code Editing with Free-form AI-Interpreted Sketching
+2410.01791   # CHI 2025 Best Paper: DreamGarden: A Designer Assistant for Growing Games from a Single Prompt
+https://dl.acm.org/doi/pdf/10.1145/3772318.3791239   # CHI 2026 Best Paper: AI That Moves With You: A Review of Interactive Technologies Powered by Large Foundation Models for Mobility Impairment
+2512.05506   # CHI 2026 Best Paper: When Scaffolding Breaks: Investigating Student Interaction with LLM-Based Writing Support in Real-Time K-12 EFL Classrooms
+https://dl.acm.org/doi/pdf/10.1145/3772318.3790369   # CHI 2026 Best Paper: From Using to Infrastructuring: Grassroots VPN-Building in Iran's Women, Life, Freedom Movement
+https://dl.acm.org/doi/pdf/10.1145/3772318.3790874   # CHI 2026 Best Paper: RAG Without the Lag: Enabling "What-If" Analysis for Retrieval-Augmented Generation Pipelines
+https://dl.acm.org/doi/pdf/10.1145/3772318.3791451   # CHI 2026 Best Paper: Promise or Peril? Exploring Black Adults' Perspectives on the Use of Artificial Intelligence in Health Contexts
+https://eprints.gla.ac.uk/384954/1/384954.pdf   # CHI 2026 Best Paper: A decision-theoretic representation of assistive interfaces
+2603.00089   # CHI 2026 Best Paper: Who Controls the Conversation? User Perspectives On Generative AI (LLM) System Prompts
+2603.08889   # CHI 2026 Best Paper: Touching Emotions, Smelling Shapes: Exploring Tactile, Olfactory and Emotional Cross-sensory Correspondences in Preschool-aged Children
+2509.22858   # CHI 2026 Best Paper: "I Don't Think RAI Applies to My Model": Engaging Non-champions with Sticky Stories for Responsible AI Work
+2601.12245   # CHI 2026 Best Paper: Sound2Hap: Learning Audio-to-Vibrotactile Haptic Generation from Human Ratings
+https://dl.acm.org/doi/pdf/10.1145/3772318.3791816   # CHI 2026 Best Paper: MlondaCam: Designing Context-Aware Smart Cameras for Supporting Domestic Security and Privacy in Malawian Homes
+2504.19611   # CHI 2026 Best Paper: Scene2Hap: Generating Scene-Wide Haptics for VR from Scene Context with Multimodal LLMs
+https://dl.acm.org/doi/pdf/10.1145/3772318.3790834   # CHI 2026 Best Paper: "An Experience That Could Not be Found Anywhere Else": Resonance as an Explanatory Concept for Player Experience Research and Game Design
+https://dl.acm.org/doi/pdf/10.1145/3772318.3791184   # CHI 2026 Best Paper: How They Type: Eye and Finger Movement Strategies in Typing of Individuals with Cerebral Palsy
+https://dl.acm.org/doi/pdf/10.1145/3772318.3791414   # CHI 2026 Best Paper: Unit-Less Measurements with StoryStick++: Rethinking Measurement as Interactive Processes
+https://dl.acm.org/doi/pdf/10.1145/3772318.3790423   # CHI 2026 Best Paper: Let's Make a Community [of Practice]: Using Community-Based Participatory Design to Support Interdependence
+https://dl.acm.org/doi/pdf/10.1145/3772318.3791349   # CHI 2026 Best Paper: PerEye: Co-Designing Extended Reality Rendering Attributes for Vision Health Diagnosis and Education
+2602.01918   # CHI 2026 Best Paper: When Workout Buddies Are Virtual: AI Agents and Human Peers in a Longitudinal Physical Activity Study
+2601.20464   # CHI 2026 Best Paper: Chasing Meaning and/or Insight? A Survey on Evaluation Practices at the Intersection of Visualization and the Humanities
+https://dl.acm.org/doi/pdf/10.1145/3772318.3790355   # CHI 2026 Best Paper: Sex after Cancer: Co-Designing Bespoke Care Technologies for Post-Cancer Bodies
+https://dl.acm.org/doi/pdf/10.1145/3772318.3791182   # CHI 2026 Best Paper: From Preference to Performance: Patient-Centered Design of Multimodal Cueing in Parkinson's Disease Gait Training
+https://dl.acm.org/doi/pdf/10.1145/3772318.3791340   # CHI 2026 Best Paper: Stress Mindset Matters: Rethinking Mental Stress Detection with Multimodal Wearable Sensors
+2603.07446   # CHI 2026 Best Paper: GeoVisA11y: An AI-based Geovisualization Question-Answering System for Screen-Reader Users
+2603.13633   # CHI 2026 Best Paper: Towards Fluent Interaction with Cyber-Physical Architecture
+https://dl.acm.org/doi/pdf/10.1145/3772318.3790884   # CHI 2026 Best Paper: Managing Medication Plans When Information Is Scattered: Clinicians' Strategies and Tools
+2510.05449   # CHI 2026 Best Paper: Bloom: Designing for LLM-Augmented Behavior Change Interactions
+https://dl.acm.org/doi/pdf/10.1145/3772318.3791961   # CHI 2026 Best Paper: Reacquainting with Everyday Urban Nature: Exploring Natural Soundscape Restoration with Personal Audio AR
+2602.02048   # CHI 2026 Best Paper: Are Semantic Networks Associated with Idea Originality in Artificial Creativity? A Comparison with Human Agents
+https://hdl.handle.net/1880/124202   # CHI 2026 Best Paper: ThreeTopo: Focused Interactive Navigation for Multi-Pitch Rock Climbing
+2602.23288   # CHI 2026 Best Paper: BRIDGE: Borderless Reconfiguration for Inclusive and Diverse Gameplay Experience via Embodiment Transformation
+https://dl.acm.org/doi/pdf/10.1145/3772318.3791373   # CHI 2026 Best Paper: When Plants Play: Rethinking Plant Materiality in Digital Games
+https://dl.acm.org/doi/pdf/10.1145/3772318.3791813   # CHI 2026 Best Paper: Crafting Remembrance Beyond the Self: Older Adults' Digital and Material Legacies
+2601.13343   # CHI 2026 Best Paper: The Words That Can't Be Shared: Exploring the Design of Unsent Messages
+2603.22766   # CHI 2026 Best Paper: From Overload to Convergence: Supporting Multi-Issue Human-AI Negotiation with Bayesian Visualization
+2603.26520   # CHI 2026 Best Paper: Characterizing Scam-Driven Human Trafficking Across Chinese Borders and Online Community Responses on RedNote
+https://dl.acm.org/doi/pdf/10.1145/3772318.3791519   # CHI 2026 Best Paper: "Social Media Killed Our Generation": Teenagers' Felt Experiences of Harm on Social Media
+https://dl.acm.org/doi/pdf/10.1145/3772318.3790854   # CHI 2026 Best Paper: Localized Imaginaries, Global Assets: Sociotechnical Imaginaries and the Assetization of Data Centers in Singapore
+2602.11074   # CHI 2026 Best Paper: AI Sensing and Intervention in Higher Education: Student Perceptions of Learning Impacts, Affective Responses, and Ethical Priorities
+https://dl.acm.org/doi/pdf/10.1145/3772318.3790407   # CHI 2026 Best Paper: Becoming Watchful on the Trail and at Home: Understanding Experiential Outcomes of Capra in Long-Term Use
+https://dl.acm.org/doi/pdf/10.1145/3772318.3791136   # CHI 2026 Best Paper: Writing with AI Can Reduce Gender Bias in Hiring Evaluations
+https://dl.acm.org/doi/pdf/10.1145/3772318.3790810   # CHI 2026 Best Paper: Interactive Explainable Ranking
+2510.25421   # CHI 2026 Best Paper: Small Talk, Big Impact? LLM-based Conversational Agents to Mitigate Passive Fatigue in Conditional Automated Driving
+https://dl.acm.org/doi/pdf/10.1145/3772318.3791469   # CHI 2026 Best Paper: Novobo: Supporting Teachers' Peer Learning of Instructional Gestures by Teaching a Mentee AI-Agent Together
+2412.10999   # CHI 2026 Best Paper: Cocoa: Co-Planning and Co-Execution with AI Agents
+https://dl.acm.org/doi/pdf/10.1145/3772318.3790945   # CHI 2026 Best Paper: Narratives and Perspectives: How AI Summaries Steer Users' Opinions and Engagement on Social Media
+https://dl.acm.org/doi/pdf/10.1145/3772318.3791939   # CHI 2026 Best Paper: Friend, Foe, or Bot? Exploring Intergroup Dynamics in Hybrid Human-Bot Teams
+https://dl.acm.org/doi/pdf/10.1145/3772318.3790760   # CHI 2026 Best Paper: Mining Player Experience Trends From Game Reviews Using Large Language Models
+https://dl.acm.org/doi/pdf/10.1145/3772318.3790865   # CHI 2026 Best Paper: "Families are messy": From Parent-Child Tensions to Family-Centered Design of Smart Home Technologies
+2509.13588   # CHI 2026 Best Paper: CoBRA: Programming Cognitive Bias in Social Agents Using Classic Social Science Experiments
+2603.01795   # CHI 2026 Best Paper: PleaSQLarify: Visual Pragmatic Repair for Natural Language Database Querying
+https://hal.science/hal-05488387   # CHI 2026 Best Paper: How are Vibrotactile Experiences Visually Represented? A Taxonomy of Illustration Characteristics
+https://dl.acm.org/doi/pdf/10.1145/3772318.3791764   # CHI 2026 Best Paper: Civil Data Disobedience: Navigating Data Interaction Challenges in Human Rights Defense Organizations
+https://dl.acm.org/doi/pdf/10.1145/3772318.3790729   # CHI 2026 Best Paper: µCap: Instrumental Music Captions for Deaf and Hard-of-Hearing Individuals
+https://dl.acm.org/doi/pdf/10.1145/3772318.3790296   # CHI 2026 Best Paper: Trauma-Informed Digital Evidence Collection: A Design Inquiry into Evidence Practices for Technology-Facilitated Abuse in Intimate Partner Violence
+https://dl.acm.org/doi/pdf/10.1145/3772318.3791623   # CHI 2026 Best Paper: With Visual Integrity and Care: A Framework for Mixed Methods Research on Visual Social Data
+https://dl.acm.org/doi/pdf/10.1145/3772318.3791825   # CHI 2026 Best Paper: Starting From Scratch Again and Again: Tracing the Origins of High Schoolers' Negative Perceptions of Block-Based Programming
+2505.10648   # CHI 2026 Best Paper: Generative Muscle Stimulation: Providing Users with Physical Assistance by Constraining Multimodal-AI with Embodied Knowledge
+https://dl.acm.org/doi/pdf/10.1145/3772318.3790784   # CHI 2026 Best Paper: Sensemaking in User-Driven Algorithm Auditing: A Case Study on Gender Bias in an Image Captioning Model
+https://lab.plopes.org/published/2021-UIST-FingerpadFreeSoftness.pdf   # UIST 2021 Best Paper: Altering Perceived Softness of Real Rigid Objects by Restricting Fingerpad Deformation
+https://mkari.de/pubs/kari2021-soundsride.pdf   # UIST 2021 Best Paper: SoundsRide: Affordance-Synchronized Music Mixing for In-Car Audio Augmented Reality
+https://dl.acm.org/doi/pdf/10.1145/3472749.3474819   # UIST 2021 Best Paper: Ten Million Users and Ten Years Later: Python Tutor's Design Guidelines for Building Scalable and Sustainable Research Software in Academia
+https://dl.acm.org/doi/pdf/10.1145/3472749.3474799   # UIST 2021 Honorable Mention: Roadkill: Nesting Laser-Cut Objects for Fast Assembly
+https://dl.acm.org/doi/pdf/10.1145/3472749.3474769   # UIST 2021 Honorable Mention: GesturAR: An Authoring System for Creating Freehand Interactive Augmented Reality Applications
+https://dl.acm.org/doi/pdf/10.1145/3526113.3545623   # UIST 2022 Best Paper: Prototyping Soft Devices with Interactive Bioplastics
+2208.11144   # UIST 2022 Best Paper: CrossA11y: Identifying Video Accessibility Issues via Cross-modal Grounding
+https://ianarawjo.com/docs/Arawjo-Notational-Programming-UIST-2022.pdf   # UIST 2022 Honorable Mention: Notational Programming for Notebook Environments: A Case Study with Quantum Circuits
+https://lab.plopes.org/published/2022-UIST-HarvestingHaptics.pdf   # UIST 2022 Honorable Mention: Prolonging VR Haptic Experiences by Harvesting Kinetic Energy from the User
+2208.04451   # UIST 2022 Honorable Mention: Augmented Chironomia for Presenting Data to Remote Audiences
+2208.05604   # UIST 2023 Best Paper: Going Incognito in the Metaverse: Achieving Theoretically Optimal Privacy-Usability Tradeoffs in VR
+2307.07589   # UIST 2023 Best Paper: GenAssist: Making Image Generation Accessible
+2304.03442   # UIST 2023 Best Paper: Generative Agents: Interactive Simulacra of Human Behavior
+https://lab.plopes.org/published/2023-UIST-ecoEDA.pdf   # UIST 2023 Honorable Mention: ecoEDA: Recycling E-waste During Electronics Design
+https://dl.acm.org/doi/pdf/10.1145/3586183.3606721   # UIST 2023 Honorable Mention: Sustainflatable: Harvesting, Storing and Utilizing Ambient Energy for Pneumatic Morphing Interfaces
+https://dl.acm.org/doi/pdf/10.1145/3586183.3606791   # UIST 2023 Honorable Mention: Living Papers: A Language Toolkit for Augmented Scholarly Communication
+https://mkari.de/pubs/kari2023-scene-responsiveness.pdf   # UIST 2023 Honorable Mention: Scene Responsiveness for Visuotactile Illusions in Mixed Reality
+2405.18614   # UIST 2024 Best Paper: Augmented Physics: Creating Interactive and Embedded Physics Simulations from Static Textbook Diagrams
+https://dl.acm.org/doi/pdf/10.1145/3654777.3676367   # UIST 2024 Best Paper: EarHover: Mid-Air Gesture Recognition for Hearables Using Sound Leakage Signals
+https://dl.acm.org/doi/pdf/10.1145/3654777.3676358   # UIST 2024 Best Paper: What's the Game, then? Opportunities and Challenges for Runtime Behavior Generation
+2408.06627   # UIST 2024 Best Paper: WorldScribe: Towards Context-Aware Live Visual Descriptions
+2407.13515   # UIST 2024 Belonging and Inclusion Best Paper: CookAR: Affordance Augmentations in Wearable AR to Support Kitchen Tool Interactions for People with Low Vision
+2403.13947   # UIST 2024 Honorable Mention: BlendScape: Enabling End-User Customization of Video-Conferencing Environments through Generative AI
+https://dl.acm.org/doi/pdf/10.1145/3654777.3676373   # UIST 2024 Honorable Mention: Can a Smartwatch Move Your Fingers? Compact and Practical Electrical Muscle Stimulation in a Smartwatch
+2408.13166   # UIST 2024 Honorable Mention: Wheeler: A Three-Wheeled Input Device for Usable, Efficient, and Versatile Non-Visual Interaction
+2509.17268   # UIST 2025 Best Paper: Computational Scaffolding of Composition, Value, and Color for Disciplined Drawing
+2507.22193   # UIST 2025 Best Paper: DissolvPCB: Fully Recyclable 3D-Printed Electronics with Liquid Metal Conductors and PVA Substrates
+2508.04889   # UIST 2025 Best Paper: Graffiti: Enabling an Ecosystem of Personalized and Interoperable Social Applications
+https://dl.acm.org/doi/pdf/10.1145/3746059.3747685   # UIST 2025 Best Paper: MorphingSkin: A Skin-like Platform that Integrates Multimodal Hydraulic Actuators Based on Flexible Electroosmotic Pumps
+2507.20933   # UIST 2025 Best Paper: ProForm: Solder-Free Circuit Assembly Using Thermoforming
+https://dl.acm.org/doi/pdf/10.1145/3746059.3747660   # UIST 2025 Best Paper: Reality Promises: Virtual-Physical Decoupling Illusions in Mixed Reality via Invisible Mobile Robots
+2505.10831   # UIST 2025 Honorable Mention: Creating General User Models from Computer Use
+https://dl.acm.org/doi/pdf/10.1145/3746059.3747619   # UIST 2025 Honorable Mention: HeatFlow: A Thermal-Tactile Display for Dynamic 2D Thermal Movements
+https://dl.acm.org/doi/pdf/10.1145/3746059.3747679   # UIST 2025 Honorable Mention: HydroHaptics: High-Fidelity Force-Feedback on Soft Deformable Interfaces using Hydrostatic Transmission
+https://dl.acm.org/doi/pdf/10.1145/3746059.3747631   # UIST 2025 Honorable Mention: ImaginationVellum: Generative-AI Ideation Canvas with Spatial Prompts, Generative Strokes, and Ideation History
+https://dl.acm.org/doi/pdf/10.1145/3746059.3747648   # UIST 2025 Honorable Mention: MagTex: Machine-Knitted Magnetoactive Textiles for Bidirectional Human-Machine Interface
+https://dl.acm.org/doi/pdf/10.1145/3746059.3747649   # UIST 2025 Honorable Mention: Move with Style! Enhancing Avatar Embodiment in Virtual Reality through Proprioceptive Motion Feedback
+2508.02823   # UIST 2025 Honorable Mention: NeuroSync: Intent-Aware Code-Based Problem Solving via Direct LLM Understanding Modification
+2402.06795   # UIST 2025 Honorable Mention: Squidgets: Sketch-based Widget Design for Scene Manipulation
+2504.14764   # UIST 2025 Honorable Mention: Steering Semantic Data Processing With DocWrangler
+https://dl.acm.org/doi/pdf/10.1145/3746059.3747735   # UIST 2025 Honorable Mention: TwinSpin: A Virtual Ball in a VR Controller Enabling In-Hand 3DoF Rotation
+https://dl.acm.org/doi/pdf/10.1145/3746059.3747796   # UIST 2025 Honorable Mention: eTactileKit: A Toolkit for Design Exploration and Rapid Prototyping of Electro-Tactile Interfaces
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9286491/   # IMWUT 2021 Distinguished Paper: FluSense: A Contactless Syndromic Surveillance Platform for Influenza-Like Illness in Hospital Waiting Areas
+https://hal.science/hal-03363358/document   # IMWUT 2021 Distinguished Paper: Exploring LoRa for Long-range Through-wall Sensing
+2007.04831   # IMWUT 2021 Distinguished Paper: N-Gage: Predicting in-class Emotional, Behavioural and Cognitive Engagement in the Wild
+https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=8134&context=sis_research   # IMWUT 2021 Distinguished Paper: HeartQuake: Accurate Low-Cost Non-Invasive ECG Monitoring Using Bed-Mounted Geophones
+https://dl.acm.org/doi/pdf/10.1145/3411839   # IMWUT 2021 Distinguished Paper: Battery-Free Game Boy
+2105.11172   # IMWUT 2022 Distinguished Paper: Every Byte Matters: Traffic Analysis of Bluetooth Wearable Devices
+2011.08302   # IMWUT 2022 Distinguished Paper: Detecting Receptivity for mHealth Interventions in the Natural Environment
+https://dl.acm.org/doi/pdf/10.1145/3478079   # IMWUT 2022 Distinguished Paper: Captivates: A Smart Eyeglass Platform for Across-Context Physiological Measurement
+2107.13847   # IMWUT 2022 Distinguished Paper: SyncUp: Vision-based Practice Support for Synchronized Dancing
+https://dl.acm.org/doi/pdf/10.1145/3494955   # IMWUT 2022 Distinguished Paper: Be Consistent, Work the Program, Be Present Every Day: Exploring Technologies for Self-Tracking in Early Recovery
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11759496/pdf/nihms-2039992.pdf   # IMWUT 2023 Distinguished Paper: Contextual Biases in Microinteraction Ecological Momentary Assessment (μEMA) Non-response
+https://irep.ntu.ac.uk/id/eprint/47375/1/1566446_Sumich.pdf   # IMWUT 2023 Distinguished Paper: Total VREcall: Using Biosignals to Recognize Emotional Autobiographical Memory in Virtual Reality
+https://dl.acm.org/doi/pdf/10.1145/3534578   # IMWUT 2023 Distinguished Paper: Predicting Post-Operative Complications with Wearables: A Case Study with Patients Undergoing Pancreatic Surgery
+https://eprints.lancs.ac.uk/id/eprint/177700/1/Jacdac_19_07_2022.pdf   # IMWUT 2023 Distinguished Paper: Plug-and-play Physical Computing with Jacdac
+https://dl.acm.org/doi/pdf/10.1145/3569479   # IMWUT 2023 Distinguished Paper: RetroSphere: Self-Contained Passive 3D Controller Tracking for Augmented Reality
+2211.03009   # IMWUT 2023 Distinguished Paper: Generalization and Personalization of Mobile Sensing-Based Mood Inference Models: An Analysis of College Students in Eight Countries
+https://dl.acm.org/doi/pdf/10.1145/3569485   # IMWUT 2023 Distinguished Paper: GLOBEM: Cross-Dataset Generalization of Longitudinal Human Behavior Modeling
+https://dl.acm.org/doi/pdf/10.1145/3580865   # IMWUT 2024 Distinguished Paper: Mites: Design and Deployment of a General-Purpose Sensing Infrastructure for Buildings
+2106.11855   # IMWUT 2024 Distinguished Paper: FeverPhone: Accessible Core-Body Temperature Sensing for Fever Monitoring Using Commodity Smartphones
+https://dl.acm.org/doi/pdf/10.1145/3580883   # IMWUT 2024 Distinguished Paper: MoCaPose: Motion Capturing with Textile-integrated Capacitive Sensors in Loose-fitting Smart Garments
+https://www.hybridbody.human.cornell.edu/s/skinlink-pdfsmall.pdf   # IMWUT 2024 Distinguished Paper: SkinLink: On-body Construction and Prototyping of Reconfigurable Epidermal Interfaces
+https://dl.acm.org/doi/pdf/10.1145/3596240   # IMWUT 2024 Distinguished Paper: Understanding Disengagement in Just-in-Time Mobile Health Interventions
+https://dl.acm.org/doi/pdf/10.1145/3610886   # IMWUT 2024 Distinguished Paper: What and When to Explain? On-road Evaluation of Explanations in Highly Automated Vehicles
+2303.15592   # IMWUT 2024 Distinguished Paper: Uncovering Bias in Personal Informatics
+https://dl.acm.org/doi/pdf/10.1145/3631439   # IMWUT 2024 Distinguished Paper: DIPA2: An Image Dataset with Cross-cultural Privacy Perception Annotations
+https://dl.acm.org/doi/pdf/10.1145/3699781   # IMWUT 2025 Distinguished Paper: Contactless Arterial Blood Pressure Waveform Monitoring with mmWave Radar
+https://dl.acm.org/doi/pdf/10.1145/3643501   # IMWUT 2025 Distinguished Paper: Capturing the College Experience: A Four-Year Mobile Sensing Study of Mental Health, Resilience and Behavior of College Students during the Pandemic
+2308.10526   # IMWUT 2025 Distinguished Paper: UbiPhysio: Support Daily Functioning, Fitness, and Rehabilitation with Action Understanding and Feedback in Natural Language
+https://dl.acm.org/doi/pdf/10.1145/3659625   # IMWUT 2025 Distinguished Paper: Talk2Care: An LLM-based Voice Assistant for Communication between Healthcare Providers and Older Adults (unverified)
+2305.09802   # IMWUT 2025 Distinguished Paper: Sasha: Creative Goal-Oriented Reasoning in Smart Homes with Large Language Models (unverified)
+https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=10779&context=sis_research   # IMWUT 2025 Distinguished Paper: LR-Auth: Towards Practical Implementation of Implicit User Authentication on Earbuds (unverified)
+2108.02114   # VIS 2021 Best Paper: Feature Curves and Surfaces of 3D Asymmetric Tensor Fields
+2108.03524   # VIS 2021 Best Paper: Perception! Immersion! Empowerment! Superpowers as Inspiration for Visualization
+2109.12050   # VIS 2021 Best Paper: Simultaneous Matrix Orderings for Graph Collections
+2109.02706   # VIS 2021 Honorable Mention: An Evaluation-Focused Framework for Visualization Recommendation Algorithms
+2306.13491   # VIS 2021 Honorable Mention: Augmenting Sports Videos with VisCommentator
+2107.13485   # VIS 2021 Honorable Mention: Causal Support: Modeling Causal Inferences with Visualizations
+2108.03657   # VIS 2021 Honorable Mention: Communicating Visualizations without Visuals: Investigation of Visualization Alternative Text for People with Visual Impairments
+2108.03685   # VIS 2021 Honorable Mention: Context Matters: A Theory of Semantic Discriminability for Perceptual Encoding Systems
+2107.14013   # VIS 2021 Honorable Mention: Explanatory Journeys: Visualising to Understand and Explain Administrative Justice Paths of Redress
+https://repository.kaust.edu.sa/bitstreams/4c70cb28-ec56-4c64-b390-f8f98fa4a0f2/download   # VIS 2021 Honorable Mention: Interactive Exploration of Physically-Observable Objective Vortices in Unsteady 2D Flow
+2107.12548   # VIS 2021 Honorable Mention: KG4Vis: A Knowledge Graph-Based Approach for Visualization Recommendation
+https://sci.utah.edu/~vdl/papers/2021_vis_loon.pdf   # VIS 2021 Honorable Mention: Loon: Using Exemplars to Visualize Large Scale Microscopy Data
+2107.08264   # VIS 2021 Honorable Mention: M^2Lens: Visualizing and Explaining Multimodal Models for Sentiment Analysis
+2108.03052   # VIS 2021 Honorable Mention: Real-Time Visual Analysis of High-Volume Social Media Posts
+2107.11367   # VIS 2021 Honorable Mention: Rethinking the Ranks of Visual Channels
+2108.01044   # VIS 2021 Honorable Mention: SightBi: Exploring Cross-View Data Relationships with Biclusters
+2108.03529   # VIS 2021 Honorable Mention: spEuler: Semantics-preserving Euler Diagrams
+2108.02550   # VIS 2021 Honorable Mention: VBridge: Connecting the Dots Between Features and Data to Explain Healthcare Models
+https://www.cs.ubc.ca/group/infovis/pubs/2021/vizsnippets/VizSnippets_2021.pdf   # VIS 2021 Honorable Mention: VizSnippets: Compressing Visualization Bundles Into Representative Previews for Browsing Visualization Collections
+2108.05182   # VIS 2021 Best Short Paper: Jurassic Mark: Inattentional Blindness for a Datasaurus Reveals that Visualizations are Explored, not Seen
+2110.12601   # VIS 2021 Short Paper Honorable Mention: Semantic Resizing of Charts Through Generalization: A Case Study with Line Charts
+2107.02708   # VIS 2021 Short Paper Honorable Mention: Exact Analytical Parallel Vectors
+2208.04078   # VIS 2022 Best Paper: Affective Learning Objectives for Communicative Visualizations
+https://osf.io/2sq7j/download   # VIS 2022 Best Paper: Multiple Forecast Visualizations (MFVs): Trade-offs in Trust and Performance in Multiple COVID-19 Forecast Visualizations
+https://ieeexplore.ieee.org/ielx7/2945/4359476/09908526.pdf   # VIS 2022 Best Paper: Uncertainty-Aware Multidimensional Scaling
+2209.15223   # VIS 2022 Honorable Mention: ASTF: Visual Abstractions of Time-Varying Patterns in Radio Signals
+2205.00757   # VIS 2022 Honorable Mention: Dashboard Design Patterns
+https://osf.io/5cy8k/download   # VIS 2022 Honorable Mention: Evaluating the Use of Uncertainty Visualisations for Imputations of Data Missing At Random in Scatterplots
+2208.10603   # VIS 2022 Honorable Mention: Exploring Interactions with Printed Data Visualizations in Augmented Reality
+https://ieeexplore.ieee.org/ielx7/2945/9991003/09916585.pdf   # VIS 2022 Honorable Mention: Extending the Nested Model for User-Centric XAI: A Design Study on GNN-based Drug Repurposing
+2209.09965   # VIS 2022 Honorable Mention: FoVolNet: Fast Volume Rendering using Foveated Deep Neural Networks
+2208.03175   # VIS 2022 Honorable Mention: Medley: Intent-based Recommendations to Support Dashboard Composition
+https://repository.bilkent.edu.tr/bitstreams/3cdfb03f-f307-4495-b583-340764a4a8a9/download   # VIS 2022 Honorable Mention: Quick Clusters: A GPU-Parallel Partitioning for Efficient Path Tracing of Unstructured Volumetric Grids
+2209.00202   # VIS 2022 Honorable Mention: The Quest for Omnioculars: Embedded Visualization for Augmenting Basketball Game Viewing Experiences
+2207.13091   # VIS 2022 Honorable Mention: VDL-Surrogate: A View-Dependent Latent-based Model for Parameter Space Exploration of Ensemble Simulations
+2108.02299   # VIS 2022 Best Short Paper: Exploring D3 Implementation Challenges on Stack Overflow
+2108.04931   # VIS 2022 Short Paper Honorable Mention: Toward Systematic Considerations of Missingness in Visual Analytics
+2207.07643   # VIS 2022 Short Paper Honorable Mention: ARShopping: In-Store Shopping Decision Support Through Augmented Reality and Immersive Visualization
+2308.02831   # VIS 2023 Best Paper: Affective Visualization Design: Leveraging the Emotional Impact of Data
+2308.16619   # VIS 2023 Best Paper: Fast Compressed Segmentation Volumes for Scientific Visualization
+2308.04714   # VIS 2023 Honorable Mention: A Computational Design Process to Fabricate Sensing Network Physicalizations
+2308.06246   # VIS 2023 Honorable Mention: ARGUS: Visualization of AI-assisted Task Guidance in AR
+2308.03903   # VIS 2023 Honorable Mention: Average Estimates in Line Graphs are Biased Towards Areas of Higher Variability
+2308.00284   # VIS 2023 Honorable Mention: CLAMS: Cluster Ambiguity Measure for Estimating Perceptual Variability in Visual Clustering
+2309.10094   # VIS 2023 Honorable Mention: Data Formulator: AI-powered Concept-driven Visualization Authoring
+2308.03964   # VIS 2023 Honorable Mention: Dead or Alive: Continuous Data Profiling for Interactive Data Science
+2304.02941   # VIS 2023 Honorable Mention: Dr. KID: Direct Remeshing and K-set Isometric Decomposition for Scalable Physicalization of Organic Shapes
+https://osf.io/mpq32/download   # VIS 2023 Honorable Mention: Enthusiastic and Grounded, Avoidant and Cautious: Understanding Public Receptivity to Data and Visualizations
+2308.06283   # VIS 2023 Honorable Mention: Extract and Characterize Hairpin Vortices in Turbulent Flows
+2308.02933   # VIS 2023 Honorable Mention: InnovationInsights: A Visual Analytics Approach for Understanding the Dual Frontiers between Science and Technology
+2308.01751   # VIS 2023 Honorable Mention: ManiVault: A Flexible and Extensible Visual Analytics Framework for High-Dimensional Data
+2308.03672   # VIS 2023 Honorable Mention: Merge Tree Geodesics and Barycenters with Path Mappings
+2308.05019   # VIS 2023 Honorable Mention: ProWis: A Visual Approach for Building, Managing, and Analyzing Weather Simulation Ensembles at Runtime
+2308.14247   # VIS 2023 Short Paper Honorable Mention: Draco 2: An Extensible Platform to Model Visualization Design
+https://osf.io/rw35g/download   # VIS 2024 Best Paper: Entanglements for Visualization: Changing Research Outcomes through Feminist Theory
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12143745/pdf/nihms-2083519.pdf   # VIS 2024 Best Paper: Aardvark: Composite Visualizations of Trees Time-Series and Images
+2407.00981   # VIS 2024 Best Paper: VisEval: A Benchmark for Data Visualization in the Era of Large Language Models
+2504.05697   # VIS 2024 Best Paper: VADIS: A Visual Analytics Pipeline for Dynamic Document Representation and Information Seeking
+2404.05879   # VIS 2024 Best Paper: Rapid and Precise Topological Comparison with Merge Tree Neural Networks
+2407.14451   # VIS 2024 Honorable Mention: From Instruction to Insight: Exploring the Semantic and Functional Roles of Text in Interactive Dashboards
+https://osf.io/z4s9d/download   # VIS 2024 Honorable Mention: Touching the Ground: Evaluating the Effectiveness of Data Physicalizations for Spatial Data Analysis Tasks
+2408.16078   # VIS 2024 Honorable Mention: Beyond Correlation: Incorporating Counterfactual Guidance to Better Support Exploratory Visual Analysis
+2407.14908   # VIS 2024 Honorable Mention: PREVis: Perceived Readability Evaluation for Visualizations
+2408.03813   # VIS 2024 Honorable Mention: Talk to the Wall: The Role of Speech Interaction in Collaborative Visual Analytics
+2408.04798   # VIS 2024 Honorable Mention: Manipulable Semantic Components: a Computational Representation of Data Visualization Scenes
+2407.13598   # VIS 2024 Honorable Mention: Guided Health-related Information Seeking from LLMs via Knowledge Graph Integration
+https://ieeexplore.ieee.org/ielx8/2945/10766346/10670517.pdf   # VIS 2024 Honorable Mention: Learnable and Expressive Visualization Authoring Through Blended Interfaces
+2408.04806   # VIS 2024 Honorable Mention: When Refreshable Tactile Displays Meet Conversational Agents: Investigating Accessible Data Presentation and Analysis with Touch and Speech
+2407.11497   # VIS 2024 Honorable Mention: "I Came Across a Junk": Understanding Design Flaws of Data Visualization from the Public's Perspective
+2407.14742   # VIS 2024 Honorable Mention: Dynamic Color Assignment for Hierarchical Data
+2407.20054   # VIS 2024 Honorable Mention: Visual Support for the Loop Grafting Workflow on Proteins
+2406.11637   # VIS 2024 Best Short Paper: PyGWalker: On-the-fly Assistant for Exploratory Visual Data Analysis
+https://osf.io/2fa56/download   # VIS 2024 Short Paper Honorable Mention: Visualizations on Smart Watches while Running: It Actually Helps!
+2508.14289   # VIS 2025 Best Paper: "They Aren't Built For Me": An Exploratory Study of Strategies for Measurement of Graphical Primitives in Tactile Graphics
+2508.03876   # VIS 2025 Best Paper: ReVISit 2: A Full Experiment Life Cycle User Study Framework
+2508.07058   # VIS 2025 Best Paper: Beyond Problem Solving: Framing and Problem-Solution Co-Evolution in Data Visualization Design
+2507.12621   # VIS 2025 Best Paper: NLI4VolVis: Natural Language Interaction for Volume Visualization via LLM Multi-Agents and Editable 3D Gaussian Splatting
+2509.20376   # VIS 2025 Honorable Mention: ConceptViz: A Visual Analytics Approach for Exploring Concepts in Large Language Models
+2507.10024   # VIS 2025 Honorable Mention: Qualitative Study for LLM-assisted Design Study Process: Strategies, Challenges, and Roles
+2508.08173   # VIS 2025 Honorable Mention: CD-TVD: Contrastive Diffusion for 3D Super-Resolution with Scarce High-Resolution Time-Varying Data
+https://osf.io/p3bva/download   # VIS 2025 Honorable Mention: Affective color scales for colormap data visualizations
+2508.06772   # VIS 2025 Honorable Mention: Story Ribbons: Reimagining Storyline Visualizations with Large Language Models
+https://ieeexplore.ieee.org/ielx8/2945/11373125/11262781.pdf   # VIS 2025 Honorable Mention: F^2Stories: A Modular Framework for Multi-Objective Optimization of Storylines with a Focus on Fairness
+2508.17460   # VIS 2025 Honorable Mention: Characterizing Visualization Perception with Psychological Phenomena: Uncovering the Role of Subitizing in Data Visualization
+https://osf.io/dn32z/download   # VIS 2025 Honorable Mention: Here's what you need to know about my data: Exploring Expert Knowledge's Role in Data Analysis
+2508.06786   # VIS 2025 Honorable Mention: Quantifying Visualization Vibes: Measuring Socio-Indexicality at Scale
+2508.06751   # VIS 2025 Best Short Paper: Toward a Logic of Generalization about Visualization as a Decision Aid
+2508.09716   # VIS 2025 Best Short Paper: The Perils of Chart Deception: How Misleading Visualizations Affect Vision-Language Models
+2509.01051   # VIS 2025 Short Paper Honorable Mention: Chronotome: Real-Time Topic Modeling for Streaming Embedding Spaces
+2507.18428   # VIS 2025 Short Paper Honorable Mention: Towards Understanding Decision Problems as a Goal of Visualization Design
+2003.03040   # IEEE VR 2021 Best Journal Paper (TVCG): DeProCams: Simultaneous Relighting, Compensation and Shape Reconstruction for Projector-Camera Systems
+https://ieeexplore.ieee.org/ielx7/2945/9405517/09384477.pdf   # IEEE VR 2021 Best Journal Paper (TVCG): Lenslet VR: Thin, Flat and Wide-FOV Virtual Reality Display Using Fresnel Lens and Lenslet Array
+2101.04912   # IEEE VR 2021 Journal Paper Honorable Mention (TVCG): ARC: Alignment-based Redirection Controller for Redirected Walking in Complex Environments
+2101.11101   # IEEE VR 2021 Best Conference Paper: Text2Gestures: A Transformer-Based Network for Generating Emotive Body Gestures for Virtual Agents
+http://hdl.handle.net/11311/1220429   # IEEE VR 2021 Conference Paper Honorable Mention: Influence of Interactivity and Social Environments on User Experience and Social Acceptability in Virtual Reality
+https://hal.science/hal-03186282/file/Reveam.pdf   # IEEE VR 2021 Conference Paper Honorable Mention: Revealable Volume Displays: 3D Exploration of Mixed-Reality Public Exhibitions
+2112.06730   # IEEE VR 2022 Best Journal Paper (TVCG): VirtualCube: An Immersive 3D Video Communication System
+https://ieeexplore.ieee.org/ielx7/2945/9754282/09714124.pdf   # IEEE VR 2022 Best Journal Paper (TVCG): Video See-Through Mixed Reality with Focus Cues
+2103.13922   # IEEE VR 2022 Best Journal Paper (TVCG): ScanGAN360: A Generative Model of Realistic Scanpaths for 360° Images
+https://ieeexplore.ieee.org/ielx7/2945/9754282/09714047.pdf   # IEEE VR 2022 Journal Paper Honorable Mention (TVCG): Online Projector Deblurring Using a Convolutional Neural Network
+https://www.research-collection.ethz.ch/handle/20.500.11850/544553   # IEEE VR 2022 Best Conference Paper: The Chaotic Behavior of Redirection - Revisiting Simulations in Redirected Walking
+https://arrow.tudublin.ie/cgi/viewcontent.cgi?article=1171&context=creaart   # IEEE VR 2022 Best Conference Paper: Investigating how speech and motion realism influence the perceived personality of virtual characters and agents
+https://vbn.aau.dk/files/465268748/IEEE_VR_2022_preprint.pdf   # IEEE VR 2022 Best Conference Paper: Body Warping Versus Change Blindness Remapping: A Comparison of Two Approaches to Repurposing Haptic Proxies for Virtual Reality
+2201.07367   # IEEE VR 2022 Conference Paper Honorable Mention: Real-Time Gaze Tracking with Event-Driven Eye Segmentation
+2201.01261   # IEEE VR 2022 Conference Paper Honorable Mention: ENI: Quantifying Environment Compatibility for Natural Walking in Virtual Reality
+https://ieeexplore.ieee.org/ielx7/2945/10086958/10049764.pdf   # IEEE VR 2023 Best Paper: Effects of Collaborative Training Using Virtual Co-embodiment on Motor Skill Learning
+https://publications.rwth-aachen.de/record/958400   # IEEE VR 2023 Honorable Mention: Gaining the High Ground: Teleportation to Mid-Air Targets in Immersive Virtual Environments
+https://ieeexplore.ieee.org/ielx7/2945/10086958/10049655.pdf   # IEEE VR 2023 Honorable Mention: Measuring Interpersonal Trust towards Virtual Humans with a Virtual Maze Paradigm
+2303.14255   # IEEE VR 2023 Honorable Mention: PACE: Data-Driven Virtual Agent Interaction in Dense and Cluttered Environments
+https://pure.eur.nl/ws/files/126661085/Evaluation_of_AR_visualization_approaches_for_catheter_insertion_into_the_ventricle_cavity.pdf   # IEEE VR 2023 Honorable Mention: Evaluation of AR visualization approaches for catheter insertion into the ventricle cavity
+https://ieeexplore.ieee.org/ielx7/2945/10086958/10049681.pdf   # IEEE VR 2023 Honorable Mention: CardioGenesis4D: Interactive Morphological Transitions of Embryonic Heart Development in a Virtual Learning Environment
+2306.03381   # IEEE VR 2024 Best Paper: VR.net: A Real-world Large-scale Dataset for Virtual Reality Motion Sickness Research
+2403.02547   # IEEE VR 2024 Best Paper: Projection Mapping under Environmental Lighting by Replacing Room Lights with Heterogeneous Projectors
+2401.14978   # IEEE VR 2024 Honorable Mention: Robust Dual-Modal Speech Keyword Spotting for XR Headsets
+https://ieeexplore.ieee.org/ielx7/2945/4359476/10458391.pdf   # IEEE VR 2024 Honorable Mention: Instant Segmentation and Fitting of Excavations in Subsurface Utility Engineering
+https://zaguan.unizar.es/record/132828/files/texto_completo.pdf   # IEEE VR 2024 Honorable Mention: Modeling the Impact of Head-Body Rotations on Audio-Visual Spatial Perception for Virtual Reality Applications
+2402.03279   # IEEE VR 2024 Honorable Mention: Stepping into the Right Shoes: The Effects of User-Matched Avatar Ethnicity and Gender on Sense of Embodiment in Virtual Reality
+2502.15227   # IEEE VR 2025 Best Paper: Peripheral Teleportation: A Rest Frame Design to Mitigate Cybersickness During Virtual Locomotion
+2502.10088   # IEEE VR 2025 Honorable Mention: Enhancing Patient Acceptance of Robotic Ultrasound through Conversational Virtual Agent and Immersive Visualizations
+2411.05275   # IEEE VR 2025 Honorable Mention: Reaction Time as a Proxy for Presence in Mixed Reality Environments with Break-In Presence
+https://hal.science/hal-05044560v1/file/LAMPA_IEEE_2025_DUFRESNE.pdf   # IEEE VR 2025 Honorable Mention: Am I (Not) a Ghost? Leveraging Affordances to Study the Impact of Avatar/Interaction Coherence on Embodiment and Plausibility in Virtual Reality
+2603.11551   # IEEE VR 2026 Best Paper: Shadowless Projection Mapping for Tabletop Workspaces with Synthetic Aperture Projector
+2601.19484   # IEEE VR 2026 Best Paper: Dynamic Worlds, Dynamic Humans: Generating Virtual Human-Scene Interaction Motion in Dynamic Scenes
+2604.01736   # IEEE VR 2026 Best Paper: Setup-Independent Full Projector Compensation
+2603.11573   # IEEE VR 2026 Honorable Mention: High-Contrast Projection Mapping under Light Field Illumination with LED Display and Aperiodic Lens Array
+2103.08108   # ICRA 2021 Best Conference Paper: Extrinsic Contact Sensing with Relative-Motion Tracking from Distributed Tactile Measurements
+2102.11261   # ICRA 2021 Best Student Paper: Unsupervised Learning of Lidar Features for Use in a Probabilistic Trajectory Estimator
+2106.02445   # ICRA 2021 Best Paper in Cognitive Robotics: How to Select and Use Tools?: Active Perception of Target Objects Using Multimodal Deep Learning
+2011.08961   # ICRA 2021 Best Paper on Human-Robot Interaction: Reactive Human-To-Robot Handovers of Arbitrary Objects
+2011.01619   # ICRA 2021 Best Paper in Medical Robotics: Relational Graph Learning on Visual and Kinematics Embeddings for Accurate Gesture Recognition in Robotic Surgery
+2011.00426   # ICRA 2021 Best Paper on Mechanisms and Design: Soft Hybrid Aerial Vehicle Via Bistable Mechanism
+2110.10236   # ICRA 2021 Best Paper on Multi-Robot Systems: Optimal Sequential Stochastic Deployment of Multiple Passenger Robots
+2105.08154   # ICRA 2021 Best Paper in Robot Manipulation: StRETcH: A Soft to Resistive Elastic Tactile Hand
+2110.00966   # ICRA 2022 Outstanding Paper: Translating Images into Maps
+2203.08037   # ICRA 2022 Outstanding Student Paper: Interactive Robotic Grasping with Attribute-Guided Disambiguation
+2111.06482   # ICRA 2022 Outstanding Deployed Systems Paper: Autonomous Teamed Exploration of Subterranean Environments using Legged and Aerial Robots
+2204.11116   # ICRA 2022 Outstanding Interaction Paper: Human-Robot Shared Control for Surgical Robot Based on Context-Aware Sim-to-Real Adaptation
+2110.03655   # ICRA 2022 Outstanding Learning Paper: Augmenting Reinforcement Learning with Behavior Primitives for Diverse Manipulation Tasks
+2203.01203   # ICRA 2022 Outstanding Manipulation Paper: Manipulation of unknown objects via contact configuration regulation
+2203.15941   # ICRA 2022 Outstanding Mechanisms and Design Paper: Design of a Biomimetic Tactile Sensor for Material Classification
+2203.03038   # ICRA 2022 Outstanding Planning Paper: Non-Gaussian Risk Bounded Trajectory Optimization for Stochastic Nonlinear Systems in Uncertain Environments
+2211.06917   # ICRA 2023 Outstanding Paper: Distributed Data-Driven Predictive Control for Multi-Agent Collaborative Legged Locomotion
+2209.07503   # ICRA 2023 Outstanding Student Paper: Robust Locomotion on Legged Robots through Planning on Motion Primitive Graphs
+2304.02075   # ICRA 2023 Outstanding Deployed Systems Paper: GUTS: Generalized Uncertainty-Aware Thompson Sampling for Multi-Agent Active Search
+2209.11808   # ICRA 2023 Outstanding Dynamics and Control Paper: Nonlinear Model Predictive Control of a 3D Hopping Robot: Leveraging Lie Group Integrators for Dynamically Stable Behaviors
+2210.11973   # ICRA 2023 Outstanding Healthcare and Medical Robotics Paper: Real-Time Constrained 6D Object-Pose Tracking of an In-Hand Suture Needle for Minimally Invasive Robotic Surgery
+2209.08499   # ICRA 2023 Outstanding Locomotion Paper: Multi-Segmented, Adaptive Feet for Versatile Legged Locomotion in Natural Terrain
+2209.12091   # ICRA 2023 Outstanding Multi-Robot Systems Paper: Graph Neural Networks for Multi-Robot Active Information Acquisition
+2203.04951   # ICRA 2023 Outstanding Physical Human-Robot Interaction Paper: Learning from Physical Human Feedback: An Object-Centric One-Shot Adaptation Method
+2602.03418   # ICRA 2023 Outstanding Planning Paper: Learning-Based Initialization of Trajectory Optimization for Path-Following Problems of Redundant Manipulators
+2209.07753   # ICRA 2023 Outstanding Robot Learning Paper: Code as Policies: Language Model Programs for Embodied Control
+2301.08387   # ICRA 2023 Outstanding Sensors and Perception Paper: Occlusion Reasoning for Skeleton Extraction of Self-Occluded Tree Canopies
+2310.08864   # ICRA 2024 Best Conference Paper: Open X-Embodiment: Robotic Learning Datasets and RT-X Models
+2310.07896   # ICRA 2024 Best Conference Paper: Goal Masked Diffusion Policies for Unified Navigation and Exploration
+2310.16985   # ICRA 2024 Best Paper in Automation: TinyMPC: Model-Predictive Control on Resource-Constrained Microcontrollers
+2312.03275   # ICRA 2024 Best Paper in Cognitive Robotics: VLFM: Vision-Language Frontier Maps for Semantic Navigation
+2312.01990   # ICRA 2024 Best Paper in Robot Manipulation: SARA-RT: Scaling up Robotics Transformers with Self-Adaptive Robust Attention
+2402.13442   # ICRA 2024 Best Paper on Human-Robot Interaction: CoFRIDA: Self-Supervised Fine-Tuning for Human-Robot Co-Painting
+2310.06084   # ICRA 2024 Best Paper in Medical Robotics: Exoskeleton-Mediated Physical Human-Human Interaction for a Sit-to-Stand Rehabilitation Task
+2310.11843   # ICRA 2024 Best Paper on Multi-Robot Systems: Do We Run Large-scale Multi-Robot Systems on the Edge? More Evidence for Two-Phase Performance in System Size Scaling
+2403.00187   # ICRA 2024 Best Paper in Service Robotics: Learning to walk in confined spaces using 3D representation
+2311.09525   # ICRA 2024 Best Paper in Robot Vision: NGEL-SLAM: Neural Implicit Representation-based Global Consistent Low-Latency SLAM System
+2309.06837   # ICRA 2024 Best Paper on Unmanned Aerial Vehicles: Time-Optimal Gate-Traversing Planner for Autonomous Drone Racing
+2409.09871   # ICRA 2025 Best Conference Paper: Marginalizing and Conditioning Gaussians Onto Linear Approximations of Smooth Manifolds with Applications in Robotics
+2409.09479   # ICRA 2025 Best Conference Paper (also Best Paper on Robot Perception): MAC-VO: Metrics-Aware Covariance for Learning-Based Stereo Visual Odometry
+2410.21415   # ICRA 2025 Best Student Paper (also Best Paper on Multi-Robot Systems): Deploying Ten Thousand Robots: Scalable Imitation Learning for Lifelong Multi-Agent Path Finding
+2510.08753   # ICRA 2025 Best Student Paper: Point and Go: Intuitive Reference Frame Reallocation in Mode Switching for Assistive Robotics
+2501.03416   # ICRA 2025 Best Student Paper: TinySense: A Lighter Weight and More Power-Efficient Avionics System for Flying Insect-Scale Robots
+2505.15558   # ICRA 2025 Best Paper on Robot Learning: Robo-DM: Data Management For Large Robot Datasets
+2504.19341   # ICRA 2025 Best Paper in Field and Service Robotics: PolyTouch: A Robust Multi-Modal Tactile Sensor for Contact-Rich Manipulation Using Tactile-Diffusion Policies
+2407.00299   # ICRA 2025 Best Paper on Human-Robot Interaction: Human-Agent Joint Learning for Efficient Robot Manipulation Skill Acquisition
+2503.01732   # ICRA 2025 Best Paper on Planning and Control: No Plan but Everything under Control: Robustly Solving Sequential Tasks with Dynamically Composed Gradient Descent
+2410.01702   # ICRA 2025 Best Paper on Robot Manipulation and Locomotion: D(R,O) Grasp: A Unified Representation of Robot and Object Interaction for Cross-Embodiment Dexterous Grasping
+2502.13443   # ICRA 2025 Best Paper in Automation: Physics-Aware Robotic Palletization with Online Masking Inference
+2106.00489   # IROS 2021 Best Paper: Extended Tactile Perception: Vibration Sensing through Tools and Grasped Objects
+2103.06465   # IROS 2021 Best Student Paper: Dynamic Grasping with a "Soft" Drone: From Theory to Practice
+2011.11397   # IROS 2021 Best Paper on Cognitive Robotics: Imagination-enabled Robot Perception
+2110.09153   # IROS 2021 Best Paper on Mobile Manipulation: Probabilistic Inference in Planning for Partially Observable Long Horizon Problems
+2005.02878   # IROS 2021 Best RoboCup Paper: Multi-Resolution POMDP Planning for Multi-Object Search in 3D
+2101.02190   # IROS 2021 Best Paper on Agri-Robotics: A Robust Illumination-Invariant Camera System for Agricultural Applications
+2208.10552   # IROS 2022 Best Paper: SpeedFolding: Learning Efficient Bimanual Folding of Garments
+2110.09460   # IROS 2022 ABB Best Student Paper: FAR Planner: Fast, Attemptable Route Planner using Dynamic Visibility Update
+2210.10821   # IROS 2022 Best RoboCup Paper: RCareWorld: A Human-centric Simulation World for Caregiving Robots
+https://research.rug.nl/files/642506529/Aerial_Grasping_and_the_Velocity_Sufficiency_Region.pdf   # IROS 2022 Best Paper on Robot Mechanisms and Design: Aerial Grasping and the Velocity Sufficiency Region
+2205.12562   # IROS 2022 Best Paper on Safety, Security, and Rescue Robotics: Power-based Safety Layer for Aerial Vehicles in Physical Interaction using Lyapunov Exponents
+2206.13406   # IROS 2022 Best Paper on Agri-Robotics: Explicitly Incorporating Spatial Information to Recurrent Networks for Agriculture
+2203.04051   # IROS 2022 Best Paper on Mobile Manipulation: Robot Learning of Mobile Manipulation with Reachability Behavior Priors
+https://spiral.imperial.ac.uk/bitstreams/06f7f8e4-4cfa-45bb-9bc9-9ac5203b33ae/download   # IROS 2022 Best Application Paper: Soft Tissue Characterisation Using a Novel Robotic Medical Percussion Device with Acoustic Analysis and Neural Networks
+https://research.utwente.nl/files/354722771/Encoder_Motor_AuthorCopy.pdf   # IROS 2022 Best Paper for Industrial Robotics Research for Applications: Absolute Position Detection in 7-Phase Sensorless Electric Stepper Motor
+2304.00959   # IROS 2023 Best Paper: Autonomous Power Line Inspection with Drones via Perception-Aware MPC
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10732262/pdf/nihms-1919777.pdf   # IROS 2023 Best Student Paper: Controlling Powered Prosthesis Kinematics over Continuous Transitions Between Walk and Stair Ascent
+2303.12265   # IROS 2023 Best Application Paper: Autonomous Robotic Drilling System for Mice Cranial Window Creation: An Evaluation with an Egg Model
+2303.05075   # IROS 2023 Best Entertainment and Amusement Paper: DoubleBee: A Hybrid Aerial-Ground Robot with Two Active Wheels
+2310.10548   # IROS 2023 Best Paper on Mobile Manipulation: A perching and tilting aerial robot for precise and versatile power tool work on vertical walls
+2307.03015   # IROS 2023 Best RoboCup Paper: Sequential Neural Barriers for Scalable Dynamic Obstacle Avoidance
+2309.13559   # IROS 2023 Best Paper on Robot Mechanisms and Design: Swashplateless-elevon Actuation for a Dual-rotor Tail-sitter VTOL UAV
+2310.04538   # IROS 2023 Best Paper on Safety, Security, and Rescue Robotics: mCLARI: A Shape-Morphing Insect-Scale Robot Capable of Omnidirectional Terrain-Adaptive Locomotion
+2309.15271   # IROS 2024 Best Paper: On the Modularity of Elementary Dynamic Actions (unverified)
+2403.11761   # IROS 2024 Best Paper on Cognitive Robotics: BEVCar: Camera-Radar Fusion for BEV Map and Object Segmentation (unverified)
+2312.06639   # IROS 2024 Best Paper on Mobile Manipulation: Harmonic Mobile Manipulation (unverified)
+2312.05323   # IROS 2024 Best Paper on Robot Mechanisms and Design: BaRiFlex: A Robotic Gripper with Versatility and Collision Robustness for Robot Learning (unverified)
+2404.03570   # IROS 2024 Best RoboCup Paper: Embodied AI with Two Arms: Zero-shot Learning, Safety and Modularity (unverified)
+2302.04850   # IROS 2024 Best Entertainment and Amusement Paper: Robot Synesthesia: A Sound and Emotion Guided AI Painter (unverified)
+2312.14706   # IROS 2024 Best Paper on Agri-Robotics: BonnBeetClouds3D: A Dataset Towards Point Cloud-based Organ-level Phenotyping of Sugar Beet Plants under Field Conditions (unverified)
+2410.10729   # IROS 2024 Best Industrial Robotics Research for Applications Paper: Harnessing with Twisting: Single-Arm Deformable Linear Object Manipulation for Industrial Harnessing Task (unverified)
+https://www.roboticsproceedings.org/rss17/p018.pdf   # RSS 2021 Best Paper (also Best Systems Paper): TARE: A Hierarchical Framework for Efficiently Exploring Complex 3D Environments
+2106.04315   # RSS 2021 Best Student Paper: Learning Riemannian Manifolds for Geodesic Motion Skills
+2105.12244   # RSS 2021 Best Student Paper: DiSECt: A Differentiable Simulation Engine for Autonomous Robotic Cutting
+2203.00663   # RSS 2022 Best Paper: Iterative Residual Policy for Goal-Conditioned Dynamic Manipulation of Deformable Objects
+2205.06426   # RSS 2022 Best Student Paper: AK: Attentive Kernel for Information Gathering
+2207.07813   # RSS 2022 Best Systems Paper: Autonomously Untangling Long Cables
+2305.11643   # RSS 2023 Best Paper: Time Optimal Ergodic Search
+2303.01497   # RSS 2023 Best Student Paper: Teach a Robot to FISH: Versatile Imitation from One Minute of Demonstrations
+2305.12821   # RSS 2023 Best Systems Paper: FurnitureBench: Reproducible Real-World Benchmark for Long-Horizon Complex Manipulation
+2407.08735   # RSS 2024 Outstanding Paper: Real-Time Anomaly Detection and Reactive Planning with Large Language Models
+2405.08731   # RSS 2024 Outstanding Student Paper: Dynamic On-Palm Manipulation via Controlled Sliding
+2402.13817   # RSS 2024 Outstanding Systems Paper: Khronos: A Unified Approach for Spatio-Temporal Metric-Semantic SLAM in Dynamic Environments
+2506.14968   # RSS 2025 Outstanding Paper: FEAST: A Flexible Mealtime-Assistance System Tackling In-the-Wild Personalization
+2504.15425   # RSS 2025 Outstanding Student Paper: Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL
+2502.04640   # RSS 2025 Outstanding Systems Paper: Building Rome with Convex Optimization
+2604.04539   # RSS 2026 Outstanding Paper: FlashSAC: Fast and Stable Off-Policy Reinforcement Learning for High-Dimensional Robot Control
+2605.09999   # RSS 2026 Outstanding Student Paper: Muninn: Your Trajectory Diffusion Model But Faster
+2607.11734   # RSS 2026 Outstanding Systems Paper: NeuralActuator: Neural Actuation Modeling for Robot Dynamics and External Force Perception

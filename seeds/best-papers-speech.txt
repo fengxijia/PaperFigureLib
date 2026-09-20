@@ -1,0 +1,66 @@
+# 语音与信号处理板块近 5 年 Best Paper（ICASSP 2021 到 2026、INTERSPEECH 2021 到 2025、ICIP 2021 到 2025）。
+# 2026-09-20 由并行调查产出；ICASSP 2021 / 2022 官方页缺失，部分来自官方公告和颁奖照片；NOPDF 已剔除。
+2103.03516   # ICASSP 2021 Outstanding Paper Award: Slow-Fast Auditory Streams For Audio Recognition (unverified)
+2010.10593   # ICASSP 2021 Best Paper Award for Industry: CMIM: Cross-Modal Information Maximization for Medical Imaging
+https://par.nsf.gov/servlets/purl/10290937   # ICASSP 2021 Outstanding Student Paper Award: Convex Neural Autoregressive Models
+https://sigport.org/sites/default/files/docs/Poster_1795_pellaco.pdf   # ICASSP 2021 Outstanding Student Paper Award: Deep Weighted MMSE Downlink Beamforming
+https://par.nsf.gov/servlets/purl/10287705   # ICASSP 2021 Outstanding Student Paper Award: An End-to-End Non-Intrusive Model for Subjective and Objective Real-World Speech Assessment
+2002.12537   # ICASSP 2022 Best Paper Award: Generalized Sliced Probability Metrics
+2110.05745   # ICASSP 2022 Best Paper Award for Industry: VarArray: Array-Geometry-Agnostic Continuous Speech Separation
+2203.00952   # ICASSP 2022 Best Student Paper Award: Sketched RT3D: How to Reconstruct Billions of Photons Per Second
+2110.03479   # ICASSP 2022 Best Student Paper Award: Camera Calibration through Camera Projection Loss
+2110.05085   # ICASSP 2022 Best Student Paper Award: Efficiently and Globally Solving Joint Beamforming and Compression Problem in the Cooperative Cellular Network via Lagrangian Duality
+2210.15143   # ICASSP 2023 Best Paper Award: Audio Signal Enhancement with Learning from Positive and Unlabelled Data
+2306.07744   # ICASSP 2023 Best Industry Paper Award: Contrastive Learning-Based Audio to Lyrics Alignment for Multiple Languages
+2303.05297   # ICASSP 2023 Best Student Paper Award: Perspective Projection-Based 3D CT Reconstruction from Biplanar X-Rays
+https://faculty.sist.shanghaitech.edu.cn/zhao/pubs/WeiZhao-TSP23-Oracle_Covariance.pdf   # ICASSP 2023 Best Student Paper Award: Large Covariance Matrix Estimation with Oracle Statistical Rate
+2212.05008   # ICASSP 2023 Best Student Paper Award: Hyperbolic Audio Source Separation
+2407.18964   # ICASSP 2023 Best Student Paper Award: High-Dimensional Confidence Regions in Sparse MRI
+2210.15228   # ICASSP 2023 Best Student Paper Award: Solving Audio Inverse Problems with a Diffusion Model
+2309.01795   # ICASSP 2024 Best Paper Award: Composite Federated Learning with Heterogeneous Data
+2311.13845   # ICASSP 2024 Best Paper Award for Industry: Touring Samples with Pushforward Maps
+2312.09040   # ICASSP 2024 Best Student Paper Award: STaR: Distilling Speech Temporal Relation for Lightweight Speech Self-Supervised Learning Models
+https://cdn.amazon.science/69/2b/1a4e90f24fac8cc09dbe6f3378b5/significant-asr-error-detection-for-conversational-voice-assistants.pdf   # ICASSP 2024 Best Student Paper Award: Significant ASR Error Detection for Conversational Voice Assistants
+2311.01616   # ICASSP 2024 Best Student Paper Award: Adapting Frechet Audio Distance for Generative Music Evaluation
+https://par.nsf.gov/servlets/purl/10580262   # ICASSP 2025 Best Paper Award: Bayesian Filtering on Graphs
+2410.03752   # ICASSP 2025 Best Industry Paper Award: Efficient Streaming LLM for Speech Recognition
+2410.24095   # ICASSP 2025 Best Student Paper Award: Network Games Induced Prior for Graph Topology Learning
+2405.05636   # ICASSP 2025 Best Student Paper Award: SwapTalk: Audio-Driven Talking Face Generation with One-Shot Customization in Latent Space
+2501.07754   # ICASSP 2025 Best Student Paper Award: Universal Training of Neural Networks to Achieve Bayes Optimal Classification Accuracy
+2409.16766   # ICASSP 2025 Best Student Paper Award: Let There Be Light: Robust Lensless Imaging Under External Illumination With Deep Learning
+https://hal.science/hal-04852579/document   # ICASSP 2025 Best Student Paper Award: Label-constrained Unsupervised Domain Adaptation for Semantic Segmentation with Diffusion Models
+2508.16070   # ICASSP 2026 Best Industry Paper Award: Less Redundancy: Boosting Practicality of Vision Language Model in Walking Assistants (unverified)
+2512.08129   # ICASSP 2026 Best Student Paper Award: Improving Maximum Margin Backdoor Detection by Class Subspace Decorrelation (unverified)
+2107.08337   # INTERSPEECH 2021 Best Student Paper: Exploring the Potential of Lexical Paraphrases for Mitigating Noise-Induced Comprehension Errors
+2107.10394   # INTERSPEECH 2021 Best Student Paper: StarGANv2-VC: A Diverse, Unsupervised, Non-parallel Framework for Natural-Sounding Voice Conversion
+https://www.isca-archive.org/interspeech_2021/vyas21_interspeech.pdf   # INTERSPEECH 2021 Best Student Paper: Optimally Encoding Inductive Biases into the Transformer Improves End-to-End Speech Translation
+2203.15447   # INTERSPEECH 2022 Best Student Paper: Transfer Learning Framework for Low-Resource Text-to-Speech using a Large-Scale Unlabeled Speech Corpus
+2207.00857   # INTERSPEECH 2022 Best Student Paper: Tree-constrained Pointer Generator with Graph Neural Network Encodings for Contextual Speech Recognition
+https://www.isca-archive.org/interspeech_2022/wallbridge22_interspeech.pdf   # INTERSPEECH 2022 Best Student Paper: Investigating perception of spoken dialogue acceptability through surprisal
+2305.16749   # INTERSPEECH 2023 Best Student Paper: Diverse and Expressive Speech Prosody Prediction with Denoising Diffusion Probabilistic Model
+https://www.isca-archive.org/interspeech_2023/kurata23_interspeech.pdf   # INTERSPEECH 2023 Best Student Paper: Multimodal Turn-Taking Model Using Visual Cues for End-of-Utterance Prediction in Spoken Dialogue Systems
+https://www.isca-archive.org/interspeech_2023/steiner23_interspeech.pdf   # INTERSPEECH 2023 Best Student Paper: Sociodemographic and Attitudinal Effects on Dialect Speakers' Articulation of the Standard Language
+https://www.isca-archive.org/interspeech_2024/huang24i_interspeech.pdf   # INTERSPEECH 2024 Best Student Paper: Analysis of articulatory setting for L1 and L2 English speakers using MRI data
+2406.14686   # INTERSPEECH 2024 Best Student Paper: A Contrastive Learning Approach to Mitigate Bias in Speech Models
+2406.02328   # INTERSPEECH 2024 Best Student Paper: SimpleSpeech: Towards Simple and Efficient Text-to-Speech with Scalar Latent Transformer Diffusion Models
+2409.10025   # INTERSPEECH 2024 Best Paper Award: DiffATR: Diffusion-based Generative Modeling for Audio-Text Retrieval
+2310.03938   # INTERSPEECH 2024 Best Paper Award: EFFUSE: Efficient Self-Supervised Feature Fusion for E2E ASR in Low Resource and Multilingual Scenarios
+2507.03149   # INTERSPEECH 2025 Best Student Paper: On the Relationship between Accent Strength and Articulatory Features
+2506.00338   # INTERSPEECH 2025 Best Student Paper: OWSM v4: Improving Open Whisper-Style Speech Models via Data Scaling and Cleaning Models
+https://www.isca-archive.org/interspeech_2025/ofaolain25_interspeech.pdf   # INTERSPEECH 2025 Best Student Paper: Attention Models and Auditory Transduction Features for Noise Robustness
+2506.09653   # INTERSPEECH 2025 Best Theme Paper Award: Recognizing Every Voice: Towards Inclusive ASR for Rural Bhojpuri Women
+2005.08100   # INTERSPEECH 2025 Most Influential Paper (2020-2024): Conformer: Convolution-augmented Transformer for Speech Recognition
+2207.03447   # ICIP 2021 Best Paper Award: Learning to Restore Images Degraded by Atmospheric Turbulence Using Uncertainty (unverified)
+2110.02438   # ICIP 2021 Best Student Paper Award: Hyperspectral Neutron CT with Material Decomposition (unverified)
+https://carloshinojosa.me/files/ICIP2022/paper.pdf   # ICIP 2022 Best Paper Award: Optics Lens Design for Privacy-Preserving Scene Captioning
+2207.03720   # ICIP 2022 Best Paper Award Runner-up: Bounding Box Disparity: 3D Metrics for Object Detection with Full Degree of Freedom
+2203.03553   # ICIP 2022 Best Paper Award Runner-up: Compression of User Generated Content Using Denoised References
+2209.06027   # ICIP 2022 Best Student Paper Award: Two-Step Color-Polarization Demosaicking Network
+2302.13921   # ICIP 2023 Best Student Paper Award: Autonomous Polycrystalline Material Decomposition for Hyperspectral Neutron Tomography
+2311.12821   # ICIP 2023 Best Paper Award for Industry: Advancing the Rate-Distortion-Computation Frontier for Neural Image Compression
+2406.09762   # ICIP 2024 Best Paper Award: Full-Reference Point Cloud Quality Assessment Using Spectral Graph Wavelets
+https://ccia.ugr.es/vip/files/conferences/ICIP_2024_Blind_Image_Deconvolution_using_an_Hyperbolic_Secant_prior-4.pdf   # ICIP 2024 Best Student Paper Award: Bayesian Blind Image Deconvolution Using an Hyperbolic-Secant Prior
+2511.02473   # ICIP 2024 Best Industry Paper Award: MVAFormer: RGB-based Multi-View Spatio-Temporal Action Recognition with Transformer
+2405.12631   # ICIP 2024 Best Paper Award Runner-up: Efficient Learned Wavelet Image and Video Coding (unverified)
+2506.06945   # ICIP 2025 Best Paper Award: Quanta Diffusion
+2505.22978   # ICIP 2025 Best Student Paper Award: Pose-Free 3D Gaussian Splatting via Shape-Ray Estimation

@@ -1,0 +1,466 @@
+# 数据库 / Web 与 IR / 编程语言 / 软件工程板块近 5 年 Best / Distinguished Paper（SIGMOD、VLDB、ICDE、SIGIR、WWW、KDD、PLDI、POPL、ICFP、OOPSLA、ICSE、FSE、ASE、ISSTA，2021 到 2026）。
+# 2026-09-13 由并行调查产出。dl.acm.org 链接对脚本返回 403，下不到会跳过；NOPDF 行没有开放 PDF。
+2004.03814   # SIGMOD 2021 Best Paper: Bao: Making Learned Query Optimization Practical
+https://dl.acm.org/doi/pdf/10.1145/3448016.3452816   # SIGMOD 2021 Best Paper: DFI: The Data Flow Interface for High-Speed Networks
+https://mboehm7.github.io/resources/sigmod2021b_sliceline.pdf   # SIGMOD 2021 Best Paper: SliceLine: Fast, Linear-Algebra-based Slice Finding for ML Model Debugging
+https://www.foundationdb.org/files/fdb-paper.pdf   # SIGMOD 2021 Best Industry Paper: FoundationDB: A Distributed Unbundled Transactional Key Value Store
+https://www-db.cs.tum.edu/~durner/papers/json-tiles-sigmod21.pdf   # SIGMOD 2021 Honorable Mention: JSON Tiles: Fast Analytics on Semi-Structured Data
+https://db.in.tum.de/~bandle/papers/bandle-partitionVsNonPartition.pdf   # SIGMOD 2021 Honorable Mention: To Partition, or Not to Partition, That is the Join Question in a Real System
+https://dl.acm.org/doi/pdf/10.1145/3448016.3452783   # SIGMOD 2021 Honorable Mention: Rethink the Scan in MVCC Databases
+https://parimarjan.github.io/papers/scope_paper.pdf   # SIGMOD 2021 Industry Honorable Mention: Steering Query Optimizers: A Practical Take on Big Data Workloads
+https://juanru-fang.github.io/R2T.pdf   # SIGMOD 2022 Best Paper: R2T: Instance-optimal Truncation for Differentially Private Query Evaluation with Foreign Keys
+https://www.cse.ust.hk/~yike/CQC.pdf   # SIGMOD 2022 Honorable Mention: Conjunctive Queries with Comparisons
+https://dl.acm.org/doi/pdf/10.1145/3514221.3526120   # SIGMOD 2022 Honorable Mention: Ad Hoc Transactions in Web Applications: The Good, the Bad, and the Ugly
+https://shoumik.xyz/static/papers/photon-sigmod22.pdf   # SIGMOD 2022 Best Industry Paper: Photon: A Fast Query Engine for Lakehouse Systems
+2602.21955   # SIGMOD 2023 Best Paper: Detecting Logic Bugs of Join Optimizations in DBMS
+https://www.microsoft.com/en-us/research/wp-content/uploads/2023/05/predicate_pushdown_final.pdf   # SIGMOD 2023 Best Paper: Predicate Pushdown for Data Science Pipelines
+2211.10962   # SIGMOD 2023 Best Industry Paper: PG-Schema: Schemas for Property Graphs
+https://dl.acm.org/doi/pdf/10.1145/3654949   # SIGMOD 2024 Best Paper: Implementation Strategies for Views over Property Graphs
+2404.03194   # SIGMOD 2024 Honorable Mention: Reservoir Sampling over Joins
+2401.04758   # SIGMOD 2024 Honorable Mention: On The Reasonable Effectiveness of Relational Diagrams
+https://mboehm7.github.io/resources/sigmod2024a.pdf   # SIGMOD 2024 Honorable Mention: SAGA: A Scalable Framework for Optimizing Data Cleaning Pipelines for Machine Learning Applications
+https://zhangyingqiang.com/paper/PolarDB_Multi_Primary.pdf   # SIGMOD 2024 Best Industry Paper: PolarDB-MP: A Multi-Primary Cloud-Native Database via Disaggregated Shared Memory
+2502.05912   # SIGMOD 2025 Best Paper: LpBound: Pessimistic Cardinality Estimation Using Lp-Norms of Degree Sequences
+https://par.nsf.gov/servlets/purl/10672205   # SIGMOD 2025 Best Paper: Low-Latency Transaction Scheduling via Userspace Interrupts
+https://dl.acm.org/doi/pdf/10.1145/3709675   # SIGMOD 2025 Honorable Mention: CRDV: Conflict-free Replicated Data Views
+2409.08013   # SIGMOD 2025 Honorable Mention: DPconv: Super-Polynomially Faster Join Ordering
+https://cighao.com/papers/PolarDB_CXL.pdf   # SIGMOD 2025 Best Industry Paper: Unlocking the Potential of CXL for Disaggregated Memory in Cloud-Native Databases
+2509.23834   # SIGMOD 2026 Best Paper: GPM: The Gaussian Pancake Mechanism for Planting Undetectable Backdoors in Differential Privacy
+https://db.cs.cmu.edu/papers/2025/zeng-sigmod2025.pdf   # SIGMOD 2026 Honorable Mention: F3: The Open-Source Data File Format for the Future
+https://dl.acm.org/doi/pdf/10.1145/3769803   # SIGMOD 2026 Honorable Mention: Integrating Vector Databases across Embedding Models
+2603.14190   # SIGMOD 2026 Honorable Mention: Sublime: Sublinear Error & Space for Unbounded Skewed Streams
+https://dl.acm.org/doi/pdf/10.1145/3788853.3803077   # SIGMOD 2026 Best Industry Paper: CoddSpeed: Hardware Accelerated Query Processing in Microsoft Fabric
+2603.27775   # SIGMOD 2026 Industry Honorable Mention: Enzyme: Incremental View Maintenance for Data Engineering
+https://www.vldb.org/pvldb/vol14/p37-yang.pdf   # VLDB 2021 Best Research Paper: Scaling Attributed Network Embedding to Massive Graphs
+2012.06743   # VLDB 2021 Best EA&B Paper: Are We Ready For Learned Cardinality Estimation?
+https://www.vldb.org/pvldb/vol14/p1150-abeywickrama.pdf   # VLDB 2021 Best Scalable Data Science Paper: Optimizing Bipartite Matching in Real-World Applications by Incremental Cost Computation
+https://www.vldb.org/pvldb/vol14/p3014-cheng.pdf   # VLDB 2021 Best Industry Paper: RAMP-TAO: Layering Atomic Transactions on Facebook's Online TAO Data Store
+https://www.vldb.org/pvldb/vol15/p1937-peng.pdf   # VLDB 2022 Best Research Paper: Sancus: Staleness-Aware Communication-Avoiding Full-Graph Decentralized Training in Large-Scale Graph Neural Networks
+2106.15703   # VLDB 2022 Best Research Paper Runner-Up: Threshold Queries in Theory and in the Wild
+https://www.vldb.org/pvldb/vol15/p1173-fuchs.pdf   # VLDB 2022 Best Research Paper Runner-Up: Sortledton: a universal, transactional graph data structure
+2105.08878   # VLDB 2022 Best EA&B Paper: Accurate Summary-based Cardinality Estimation Through the Lens of Cardinality Estimation Graphs
+2112.07221   # VLDB 2022 Best Scalable Data Science Paper: HET: Scaling out Huge Embedding Model Training via Cache-enabled Distributed Framework
+https://www.vldb.org/pvldb/vol15/p3277-chiosa.pdf   # VLDB 2022 Best Industry Paper: Hardware Acceleration of Compression and Encryption in SAP HANA
+2307.14565   # VLDB 2023 Best Research Paper: Auto-Tables: Synthesizing Multi-Step Transformations to Relationalize Tables without Using Examples
+2203.16684   # VLDB 2023 Best Research Paper: DBSP: Automatic Incremental View Maintenance for Rich Query Languages
+2211.10516   # VLDB 2023 Best Research Paper Runner-up: PIM-tree: A Skew-resistant Index for Processing-in-Memory
+https://www.vldb.org/pvldb/vol16/p877-szarnyas.pdf   # VLDB 2023 Best EA&B Paper: The LDBC Social Network Benchmark: Business Intelligence Workload
+2208.12700   # VLDB 2023 Best EA&B Paper Runner-up: Epistemic Parity: Reproducibility as an Evaluation Metric for Differential Privacy
+https://www.vldb.org/pvldb/vol16/p3044-liu.pdf   # VLDB 2023 Best EA&B Paper Runner-up: A Deep Dive into Common Open Formats for Analytical DBMSs
+https://www.vldb.org/pvldb/vol16/p3822-povzner.pdf   # VLDB 2023 Best Industry Paper: Kora: A Cloud-Native Event Streaming Platform For Kafka
+2304.11277   # VLDB 2023 Best Industry Paper Runner-up: PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel
+https://www.vldb.org/pvldb/vol16/p3597-zhou.pdf   # VLDB 2023 Best Industry Paper Runner-up: FEBench: A Benchmark for Real-Time Relational Data Feature Extraction
+https://www.vldb.org/pvldb/vol17/p877-mohr-daurat.pdf   # VLDB 2024 Best Research Paper: BOSS: An Architecture for Database Kernel Composition (unverified)
+2309.06051   # VLDB 2024 Best Research Paper: OmniSketch: Efficient Multi-Dimensional High-Velocity Stream Analytics with Arbitrary Predicates (unverified)
+https://www.vldb.org/pvldb/vol18/p3923-eslami.pdf   # VLDB 2025 Best Research Paper: Diva: Dynamic Range Filter for Var-Length Keys and Queries
+https://www.vldb.org/pvldb/vol18/p4017-gienieczko.pdf   # VLDB 2025 Best Research Paper: AnyBlox: A Framework for Self-Decoding Datasets
+https://www.vldb.org/pvldb/vol18/p1-arch.pdf   # VLDB 2025 Best Research Paper Runner-Up: The Key to Effective UDF Optimization: Before Inlining, First Perform Outlining
+https://www.vldb.org/pvldb/vol18/p5184-merli.pdf   # VLDB 2025 Best Industry Paper: Ursa: A Lakehouse-Native Data Streaming Engine for Kafka
+https://www.vldb.org/pvldb/vol18/p5197-puttaswamy.pdf   # VLDB 2025 Best Industry Paper Runner-Up: Delta Sharing: An Open Protocol for Cross-Platform Data Sharing
+https://www.vldb.org/pvldb/vol18/p2804-foufoulas.pdf   # VLDB 2025 Best EA&B Paper: The UDFBench Benchmark for General-purpose UDF Queries
+2310.09949   # VLDB 2025 Best Scalable Data Science Paper: Chameleon: a Heterogeneous and Disaggregated Accelerator System for Retrieval-Augmented Language Models
+https://www.vldb.org/pvldb/vol19/p224-chandramouli.pdf   # VLDB 2026 Best Research Paper: Garnet: A Next-Generation Cache-Store for Accelerating Applications and Services
+https://www.vldb.org/pvldb/vol19/p1441-rajan.pdf   # VLDB 2026 Best Research Paper Honorable Mention: Scalable GPU Acceleration of Scalar Functions in Analytical Databases
+2603.09927   # VLDB 2026 Best Research Paper Honorable Mention: How to Write to SSDs
+2608.29993   # VLDB 2026 Best Research Paper Honorable Mention: Demystifying and Improving Lazy Promotion in Cache Eviction
+2609.11148   # VLDB 2026 Best Industry Paper: OmniTable: A Unified Wide-Table System for Petabyte-Scale LLM Data Curation and Exploration
+https://www.vldb.org/pvldb/vol19/p3996-govindaraju.pdf   # VLDB 2026 Best Industry Paper Honorable Mention: FastCompose: Eliminating Compilation Cold Starts in Query Execution with Composition
+2202.06021   # ICDE 2022 Best Paper: Jarvis: Large-scale Server Monitoring with Adaptive Near-data Processing
+2101.12305   # ICDE 2022 Best Paper: Evaluating Complex Queries on Streaming Graphs
+2203.12798   # ICDE 2022 Best Paper Honorable Mention: DPar2: Fast and Scalable PARAFAC2 Decomposition for Irregular Dense Tensors
+2401.00865   # ICDE 2024 Best Industry Paper Runner-up: Xorbits: Automating Operator Tiling for Distributed Data Science
+2412.11640   # ICDE 2025 Best Student Paper: SeSeMI: Secure Serverless Model Inference on Sensitive Data
+2105.00855   # SIGIR 2021 Best Paper: Computationally Efficient Optimization of Plackett-Luce Ranking Models for Relevance and Fairness
+2105.06067   # SIGIR 2021 Best Paper Honorable Mention: Causal Intervention for Leveraging Popularity Bias in Recommendation
+https://dl.acm.org/doi/pdf/10.1145/3404835.3462829   # SIGIR 2021 Best Student Paper: Dynamic Modality Interaction Modeling for Image-Text Retrieval
+https://dl.acm.org/doi/pdf/10.1145/3404835.3463073   # SIGIR 2021 Best Short Paper: Contextualized Offline Relevance Weighting for Efficient and Effective Neural Retrieval
+2108.06167   # SIGIR 2021 Best Short Paper Honorable Mention: Follow the Prophet: Accurate Online Conversion Rate Prediction in the Face of Delayed Feedback
+https://dl.acm.org/doi/pdf/10.1145/3404835.3463103   # SIGIR 2021 Best Short Paper Honorable Mention: ReadsRE: Retrieval-Augmented Distantly Supervised Relation Extraction
+https://dl.acm.org/doi/pdf/10.1145/3477495.3531926   # SIGIR 2022 Best Paper: A Non-Factoid Question-Answering Taxonomy
+2204.13679   # SIGIR 2022 Best Short Paper: Curriculum Learning for Dense Retrieval Distillation
+2305.18932   # SIGIR 2023 Best Paper: The Information Retrieval Experiment Platform
+2304.13649   # SIGIR 2023 Best Student Paper: A Symmetric Dual Encoding Dense Retrieval Framework for Knowledge-Intensive Visual Question Answering
+https://dl.acm.org/doi/pdf/10.1145/3539618.3592065   # SIGIR 2023 Best Short Paper: SparseEmbed: Learning Sparse Lexical Representations with Contextual Embeddings for Retrieval
+2403.18684   # SIGIR 2024 Best Paper: Scaling Laws For Dense Retrieval
+2405.13177   # SIGIR 2024 Best Paper: A Workbench for Autograding Retrieve/Generate Systems
+2404.13781   # SIGIR 2024 Best Short Paper: Evaluating Retrieval Quality in Retrieval-Augmented Generation
+2501.17788   # SIGIR 2025 Best Paper: WARP: An Efficient Engine for Multi-Vector Retrieval
+2505.10212   # SIGIR 2025 Best Short Paper: Do LLMs Memorize Recommendation Datasets? A Preliminary Study on MovieLens-1M
+2503.18174   # SIGIR 2025 Best Short Paper: GINGER: Grounded Information Nugget-Based Generation of Responses
+2101.07714   # WWW 2021 Best Paper: Towards Facilitating Empathic Conversations in Online Mental Health Support (unverified)
+2202.00640   # WWW 2022 Best Paper: Rewiring what-to-watch-next Recommendations to Reduce Radicalization Pathways
+2203.00638   # WWW 2022 Best Student Paper: PaSca: a Graph Neural Architecture Search System under the Scalable Paradigm
+2301.07015   # WWW 2023 Best Paper: Simplistic Collection and Labeling Practices Limit the Utility of Benchmark Datasets for Twitter Bot Detection (unverified)
+2310.10826   # WWW 2024 Best Paper: Mechanism Design for Large Language Models
+https://dl.acm.org/doi/pdf/10.1145/3589334.3645581   # WWW 2024 Best Student Paper: Stable-Sketch: A Versatile Sketch for Accurate, Fast, Web-Scale Data Stream Processing
+2502.02943   # WWW 2025 Best Paper: Behavioral Homophily in Social Media via Inverse Reinforcement Learning: A Reddit Case Study (unverified)
+2510.18297   # WWW 2026 Best Paper: From Retrieval to Generation: Unifying External and Parametric Knowledge for Medical Question Answering
+2511.12518   # WWW 2026 Best Short Paper: DualGR: Generative Retrieval with Long and Short-Term Interests Modeling
+https://dl.acm.org/doi/pdf/10.1145/3447548.3467290   # KDD 2021 Best Paper: Fast and Memory-Efficient Tucker Decomposition for Answering Diverse Time Range Queries (unverified)
+2207.04049   # KDD 2022 Best Paper: Learning Causal Effects on Hypergraphs
+https://dl.acm.org/doi/pdf/10.1145/3534678.3539379   # KDD 2022 Best Paper Runner-Up: Partial-Quasi-Newton Methods: Efficient Algorithms for Minimax Optimization Problems with Unbalanced Dimensionality
+2205.09717   # KDD 2022 Best Student Paper: Flexible Modeling and Multitask Learning using Differentiable Tree Ensembles
+2403.07040   # KDD 2023 Best Paper: All in One: Multi-task Prompting for Graph Neural Networks
+2209.13446   # KDD 2023 Best Student Paper: Feature-based Learning for Diverse and Privacy-Preserving Counterfactual Explanations
+2302.09178   # KDD 2023 Best Paper (ADS): Improving Training Stability for Multitask Ranking Models in Recommender Systems
+2406.17931   # KDD 2024 Best Paper: CAT: Interpretable Concept-based Taylor Additive Models
+2405.17795   # KDD 2024 Best Student Paper: Dataset Regeneration for Sequential Recommendation
+2402.11139   # KDD 2024 Best Paper (ADS): LiGNN: Graph Neural Networks at LinkedIn
+2409.05874   # KDD 2024 Best Paper Runner-Up (ADS): Nested Fusion: A Method for Learning High Resolution Latent Structure of Multi-Scale Measurement Data on Mars
+2506.11347   # KDD 2025 Best Paper: Improving Group Robustness on Spurious Correlation via Evidential Alignment
+2506.00496   # KDD 2025 Best Paper Runner-Up: Monitoring Robustness and Individual Fairness
+https://dl.acm.org/doi/pdf/10.1145/3711896.3737128   # KDD 2025 Best Paper Honorable Mention: SIGEM: A Simple Yet Effective Similarity Based Graph Embedding Method
+2505.14310   # KDD 2025 Best Student Paper: Taming Recommendation Bias with Causal Intervention on Evolving Personal Popularity
+2503.11283   # KDD 2025 Best Student Paper Runner-Up: Brain Effective Connectivity Estimation via Fourier Spatiotemporal Attention
+https://dl.acm.org/doi/pdf/10.1145/3711896.3737179   # KDD 2025 Best Student Paper Honorable Mention: Verification of Incomplete Graph Unlearning Through Adversarial Perturbations
+2502.08763   # KDD 2025 Best Paper (ADS): Evaluating Decision Rules Across Many Weak Experiments
+2507.04636   # KDD 2025 Best Paper Runner-Up (ADS): Put Teacher in Student's Shoes: Cross-Distillation for Ultra-compact Model Compression Framework
+2411.06239   # KDD 2025 Best Paper Honorable Mention (ADS): Web Scale Graph Mining for Cyber Threat Intelligence
+2504.14904   # KDD 2025 Best Paper Honorable Mention (ADS): VLM as Policy: Common-Law Content Moderation Framework for Short Video Platform
+2407.10916   # KDD 2025 Best Paper (Datasets): When Heterophily Meets Heterogeneity: Challenges and a New Large-Scale Graph Benchmark
+2411.05060   # KDD 2025 Best Paper Runner-Up (Datasets): A Guide to Misinformation Detection Data and Evaluation
+2506.03954   # KDD 2025 Best Paper Runner-Up (Datasets): HtFLlib: A Comprehensive Heterogeneous Federated Learning Library and Benchmark
+https://dl.acm.org/doi/pdf/10.1145/3453483.3454030   # PLDI 2021 Distinguished Paper: Alive2: Bounded Translation Validation for LLVM
+https://dl.acm.org/doi/pdf/10.1145/3453483.3454049   # PLDI 2021 Distinguished Paper: High Performance Correctly Rounded Math Libraries for 32-bit Floating Point Representations
+https://dl.acm.org/doi/pdf/10.1145/3453483.3454032   # PLDI 2021 Distinguished Paper: Perceus: Garbage Free Reference Counting with Reuse
+https://dl.acm.org/doi/pdf/10.1145/3453483.3454036   # PLDI 2021 Distinguished Paper: RefinedC: Automating the Foundational Verification of C Code with Refined Ownership Types
+https://dl.acm.org/doi/pdf/10.1145/3453483.3454104   # PLDI 2021 Distinguished Paper: Specification Synthesis with Constrained Horn Clauses
+2103.12357   # PLDI 2021 Distinguished Paper: Unleashing the Hidden Power of Compiler Optimization on Binary Code Difference: An Empirical Study
+https://dl.acm.org/doi/pdf/10.1145/3519939.3523427   # PLDI 2022 Distinguished Paper: Finding Typing Compiler Bugs
+https://dl.acm.org/doi/pdf/10.1145/3519939.3523722   # PLDI 2022 Distinguished Paper: Kleene Algebra Modulo Theories: A Framework for Concrete KATs
+2210.17175   # PLDI 2022 Distinguished Paper: Low-Latency, High-Throughput Garbage Collection
+https://dl.acm.org/doi/pdf/10.1145/3519939.3523704   # PLDI 2022 Distinguished Paper: RustHornBelt: A Semantic Foundation for Functional Verification of Rust Programs with Unsafe Code
+2204.07102   # PLDI 2022 Distinguished Paper: Synthesizing Analytical SQL Queries from Computation Demonstration
+https://dl.acm.org/doi/pdf/10.1145/3519939.3523709   # PLDI 2022 Distinguished Paper: Visualization Question Answering Using Introspective Program Synthesis
+https://dl.acm.org/doi/pdf/10.1145/3591236   # PLDI 2023 Distinguished Paper: Mosaic: An Interoperable Compiler for Tensor Algebra
+2211.10665   # PLDI 2023 Distinguished Paper: CryptOpt: Verified Compilation with Randomized Program Search for Cryptographic Primitives
+https://dl.acm.org/doi/pdf/10.1145/3591298   # PLDI 2023 Distinguished Paper: Synthesizing MILP Constraints for Efficient and Robust Optimization
+2301.07747   # PLDI 2023 Distinguished Paper: An Automata-Based Framework for Verification and Bug Hunting in Quantum Circuits
+https://dl.acm.org/doi/pdf/10.1145/3591271   # PLDI 2023 Distinguished Paper: Covering All the Bases: Type-Based Verification of Test Input Generators
+https://dl.acm.org/doi/pdf/10.1145/3591255   # PLDI 2023 Distinguished Paper: Trace-Guided Inductive Synthesis of Recursive Functional Programs
+https://dl.acm.org/doi/pdf/10.1145/3591221   # PLDI 2023 Distinguished Paper: Mostly Automated Proof Repair for Verified Libraries
+https://dl.acm.org/doi/pdf/10.1145/3591286   # PLDI 2023 Distinguished Paper: Extensible Metatheory Mechanization via Family Polymorphism
+2404.04201   # PLDI 2024 Distinguished Paper: V-Star: Learning Visibly Pushdown Grammars from Program Inputs (unverified)
+https://dl.acm.org/doi/pdf/10.1145/3656379   # PLDI 2024 Distinguished Paper: Verified Extraction from Coq to OCaml (unverified)
+https://dl.acm.org/doi/pdf/10.1145/3729284   # PLDI 2025 Distinguished Paper: Destabilizing Iris
+https://dl.acm.org/doi/pdf/10.1145/3735592   # PLDI 2025 Distinguished Paper: Tree Borrows
+https://dl.acm.org/doi/pdf/10.1145/3729308   # PLDI 2025 Distinguished Paper: Principal Type Inference under a Prefix: A Fresh Look at Static Overloading
+https://dl.acm.org/doi/pdf/10.1145/3729246   # PLDI 2025 Distinguished Paper: Verifying General-Purpose RCU for Reclamation in Relaxed Memory Separation Logic
+https://dl.acm.org/doi/pdf/10.1145/3729338   # PLDI 2025 Distinguished Paper: Practical Type Inference with Levels
+2504.06975   # PLDI 2025 Distinguished Paper: AWDIT: An Optimal Weak Database Isolation Tester
+2404.05934   # PLDI 2026 Distinguished Paper: Verification of Recursively Defined Quantum Circuits
+2511.01736   # PLDI 2026 Distinguished Paper: Cobble: Compiling Block Encodings for Quantum Computational Linear Algebra
+https://dl.acm.org/doi/pdf/10.1145/3808277   # PLDI 2026 Distinguished Paper: MatchBox: A Semantic Foundation for Data Plane Portability
+2511.11939   # PLDI 2026 Distinguished Paper: Modular GPU Programming with Typed Perspectives
+https://dl.acm.org/doi/pdf/10.1145/3808250   # PLDI 2026 Distinguished Paper: Towards Removing Undef Values from LLVM IR
+2511.15000   # PLDI 2026 Distinguished Paper: Bonsai: Compiling Queries to Pruned Tree Traversals
+2604.15633   # PLDI 2026 Distinguished Paper: Synthesizing Backward Error Bounds, Backward
+https://dl.acm.org/doi/pdf/10.1145/3808343   # PLDI 2026 Distinguished Paper: Categorical Semantics of Probabilistic Symbolic Execution
+https://dl.acm.org/doi/pdf/10.1145/3808325   # PLDI 2026 Distinguished Paper: VerusBelt: A Semantic Foundation for Verus's Proof-Oriented Extensions to the Rust Type System
+https://dl.acm.org/doi/pdf/10.1145/3808320   # PLDI 2026 Distinguished Paper: Enumerating Ill-Typed Programs for Testing Type Analyzers
+1912.02250   # POPL 2021 Distinguished Paper: A Verified Optimizer for Quantum Circuits
+https://dl.acm.org/doi/pdf/10.1145/3434312   # POPL 2021 Distinguished Paper: An Abstract Interpretation for SPMD Divergence on Reducible Control Flow Graphs
+2005.00294   # POPL 2021 Distinguished Paper: Automatically Eliminating Speculative Leaks from Cryptographic Code with Blade
+2011.04581   # POPL 2021 Distinguished Paper: Context-Bounded Verification of Liveness Properties for Multithreaded Shared-Memory Programs
+2004.03082   # POPL 2021 Distinguished Paper: egg: Fast and Extensible Equality Saturation
+1901.06540   # POPL 2021 Distinguished Paper: A Pre-Expectation Calculus for Probabilistic Sensitivity
+https://dl.acm.org/doi/pdf/10.1145/3434299   # POPL 2021 Distinguished Paper: Provably Space Efficient Parallel Functional Programming
+https://dl.acm.org/doi/pdf/10.1145/3498689   # POPL 2022 Distinguished Paper: Simuliris: A Separation Logic Framework for Verifying Concurrent Program Optimizations
+2111.03484   # POPL 2022 Distinguished Paper: Pirouette: Higher-Order Typed Functional Choreographies
+2201.03504   # POPL 2022 Distinguished Paper: Formal Metatheory of Second-Order Abstract Syntax
+https://dl.acm.org/doi/pdf/10.1145/3498693   # POPL 2022 Distinguished Paper: Observational Equality: Now for Good
+https://dl.acm.org/doi/pdf/10.1145/3498664   # POPL 2022 Distinguished Paper: One Polynomial Approximation to Produce Correctly Rounded Results of an Elementary Function for Multiple Representations and Rounding Modes
+2111.03534   # POPL 2022 Distinguished Paper: Learning Formulas in Finite Variable Logics
+2107.06253   # POPL 2022 Distinguished Paper: Bottom-Up Synthesis of Recursive Functional Programs using Angelic Execution
+https://dl.acm.org/doi/pdf/10.1145/3571229   # POPL 2023 Distinguished Paper: Higher-Order Leak and Deadlock Free Locks
+https://dl.acm.org/doi/pdf/10.1145/3571220   # POPL 2023 Distinguished Paper: DimSum: A Decentralized Approach to Multi-language Semantics and Verification
+https://dl.acm.org/doi/pdf/10.1145/3571258   # POPL 2023 Distinguished Paper: SSA Translation Is an Abstract Interpretation
+2506.20127   # POPL 2023 Distinguished Paper: Dynamic Race Detection with O(1) Samples
+https://dl.acm.org/doi/pdf/10.1145/3571235   # POPL 2023 Distinguished Paper: Admissible Types-to-PERs Relativization in Higher-Order Logic
+2212.06386   # POPL 2023 Distinguished Paper: ADEV: Sound Automatic Differentiation of Expected Values of Probabilistic Programs
+https://dl.acm.org/doi/pdf/10.1145/3571265   # POPL 2023 Distinguished Paper: Modular Primal-Dual Fixpoint Logic Solving for Temporal Verification
+2311.01515   # POPL 2024 Distinguished Paper: Implementation and Synthesis of Math Library Functions
+2307.09383   # POPL 2024 Distinguished Paper: Soundly Handling Linearity
+2310.16762   # POPL 2024 Distinguished Paper: An Infinite Needle in a Finite Haystack: Finding Infinite Counter-Models in Deductive Verification
+2307.08514   # POPL 2024 Distinguished Paper: Modular Denotational Semantics for Effects with Guarded Interaction Trees
+https://dl.acm.org/doi/pdf/10.1145/3632880   # POPL 2024 Distinguished Paper: Automatic Parallelism Management
+https://dl.acm.org/doi/pdf/10.1145/3632928   # POPL 2024 Distinguished Paper: Flan: An Expressive and Efficient Datalog Compiler for Program Analysis
+2307.13661   # POPL 2024 Distinguished Paper: Parametric Subtyping for Structural Parametric Polymorphism
+2301.00894   # POPL 2024 Distinguished Paper: Nominal Recursors as Epi-Recursors
+https://dl.acm.org/doi/pdf/10.1145/3632910   # POPL 2024 Distinguished Paper: Total Type Error Localization and Recovery with Holes
+https://dl.acm.org/doi/pdf/10.1145/3704841   # POPL 2025 Distinguished Paper: Affect: An Affine Type and Effect System
+2501.01512   # POPL 2025 Distinguished Paper: A Primal-Dual Perspective on Program Verification Algorithms
+https://dl.acm.org/doi/pdf/10.1145/3704859   # POPL 2025 Distinguished Paper: Data Race Freedom a la Mode
+2411.10393   # POPL 2025 Distinguished Paper: Guaranteed Bounds on Posterior Distributions of Discrete Probabilistic Programs with Loops
+https://dl.acm.org/doi/pdf/10.1145/3704908   # POPL 2025 Distinguished Paper: Relaxed Memory Concurrency Re-executed
+2511.17838   # POPL 2025 Distinguished Paper: TensorRight: Automated Verification of Tensor Graph Rewrites
+https://dl.acm.org/doi/pdf/10.1145/3704893   # POPL 2025 Distinguished Paper: Barendregt Convenes with Knaster and Tarski: Strong Rule Induction for Syntax with Bindings
+https://dl.acm.org/doi/pdf/10.1145/3776710   # POPL 2026 Distinguished Paper: Formal Verification for JavaScript Regular Expressions
+2511.23283   # POPL 2026 Distinguished Paper: All for One and One for All: Program Logics for Exploiting Internal Determinism in Parallel Programs
+https://dl.acm.org/doi/pdf/10.1145/3776669   # POPL 2026 Distinguished Paper: Security Reasoning via Substructural Dependency Tracking
+2602.05850   # POPL 2026 Distinguished Paper: An Equational Axiomatization of Dynamic Threads via Algebraic Effects
+https://dl.acm.org/doi/pdf/10.1145/3776704   # POPL 2026 Distinguished Paper: Encode the Cake and Eat It Too: Controlling Computation in Type Theory, Locally
+https://dl.acm.org/doi/pdf/10.1145/3776665   # POPL 2026 Distinguished Paper: Quotient Polymorphism
+2411.11662   # POPL 2026 Distinguished Paper: Probabilistic Concurrent Reasoning in Outcome Logic
+https://dl.acm.org/doi/pdf/10.1145/3776645   # POPL 2026 Distinguished Paper: Normalisation for First-Class Universe Levels
+2010.13926   # ICFP 2021 Distinguished Paper: Client-Server Sessions in Linear Logic
+2104.05372   # ICFP 2021 Distinguished Paper: Getting to the Point: Index Sets and Parallelism-Preserving Autodiff for Pointful Array Programming
+https://dl.acm.org/doi/pdf/10.1145/3473569   # ICFP 2021 Distinguished Paper: An Existential Crisis Resolved: Type Inference for First-Class Existential Types
+https://dl.acm.org/doi/pdf/10.1145/3473586   # ICFP 2021 Distinguished Paper: Theorems for Free from Separation Logic Specifications
+2207.08795   # ICFP 2022 Distinguished Paper: Multi Types and Reasonable Space
+https://dl.acm.org/doi/pdf/10.1145/3547646   # ICFP 2022 Distinguished Paper: Entanglement Detection With Near-Zero Cost
+2207.12807   # ICFP 2022 Distinguished Paper: Normalization for Fitch-style Modal Calculi
+2207.05227   # ICFP 2022 Distinguished Paper: Program Adverbs and Tlon Embeddings
+2303.00924   # ICFP 2023 Distinguished Paper: HasChor: Functional Choreographic Programming for All
+https://dl.acm.org/doi/pdf/10.1145/3607845   # ICFP 2023 Distinguished Paper: The Verse Calculus: A Core Calculus for Deterministic Functional Logic Programming
+https://dl.acm.org/doi/pdf/10.1145/3607842   # ICFP 2023 Distinguished Paper: Reflecting on Random Generation
+2404.14223   # ICFP 2024 Distinguished Paper: Error Credits: Resourceful Reasoning about Error Bounds for Higher-Order Probabilistic Programs
+https://dl.acm.org/doi/pdf/10.1145/3674637   # ICFP 2024 Distinguished Paper: Snapshottable Stores
+2406.18304   # ICFP 2024 Distinguished Paper: Example-Based Reasoning about the Realizability of Polymorphic Programs
+https://dl.acm.org/doi/pdf/10.1145/3674634   # ICFP 2024 Distinguished Paper: The Long Way to Deforestation
+https://dl.acm.org/doi/pdf/10.1145/3747539   # ICFP 2025 Distinguished Paper: Call-Guarded Abstract Definitional Interpreters
+https://dl.acm.org/doi/pdf/10.1145/3747523   # ICFP 2025 Distinguished Paper: Effectful Lenses: There and Back with Different Monads
+https://dl.acm.org/doi/pdf/10.1145/3747530   # ICFP 2025 Distinguished Paper: First-Order Laziness
+https://dl.acm.org/doi/pdf/10.1145/3747518   # ICFP 2025 Distinguished Paper: Multi-stage Programming with Splice Variables
+2012.01067   # OOPSLA 2021 Distinguished Paper: Making Weak Memory Models Fair
+2011.13127   # OOPSLA 2021 Distinguished Paper: Copy-and-Patch Compilation: A Fast Compilation Algorithm for High-Level Languages and Bytecode
+2205.01183   # OOPSLA 2022 Distinguished Paper: A Fast In-Place Interpreter for WebAssembly
+https://dl.acm.org/doi/pdf/10.1145/3527312   # OOPSLA 2022 Distinguished Paper: Complexity-guided container replacement synthesis
+2203.13445   # OOPSLA 2022 Distinguished Paper: C to checked C by 3c
+https://dl.acm.org/doi/pdf/10.1145/3527318   # OOPSLA 2022 Distinguished Paper: Le Temps des Cerises: Efficient Temporal Stack Safety on Capability Machines using Directed Capabilities
+https://dl.acm.org/doi/pdf/10.1145/3527325   # OOPSLA 2022 Distinguished Paper: Finding real bugs in big programs with incorrectness logic
+https://dl.acm.org/doi/pdf/10.1145/3563326   # OOPSLA 2022 Distinguished Paper: Fractional Resources in Unbounded Separation Logic
+https://dl.acm.org/doi/pdf/10.1145/3563292   # OOPSLA 2022 Distinguished Paper: CAAT: Consistency as a Theory
+https://dl.acm.org/doi/pdf/10.1145/3527313   # OOPSLA 2022 Distinguished Paper: Linear types for large-scale systems verification
+https://dl.acm.org/doi/pdf/10.1145/3563301   # OOPSLA 2022 Distinguished Paper: Wildcards Need Witness Protection
+2206.15000   # OOPSLA 2023 Distinguished Paper: Grounded Copilot: How Programmers Interact with Code-Generating Models
+2302.05741   # OOPSLA 2023 Distinguished Paper: Languages with Decidable Learning: A Meta-theorem
+https://dl.acm.org/doi/pdf/10.1145/3586052   # OOPSLA 2023 Distinguished Paper: Algebro-geometric Algorithms for Template-Based Synthesis of Polynomial Programs
+https://dl.acm.org/doi/pdf/10.1145/3622872   # OOPSLA 2023 Distinguished Paper: Solving String Constraints with Lengths by Stabilization
+https://dl.acm.org/doi/pdf/10.1145/3622840   # OOPSLA 2023 Distinguished Paper: Bring Your Own Data Structures to Datalog!
+2211.11659   # OOPSLA 2023 Distinguished Paper: Formal Abstractions for Packet Scheduling
+https://dl.acm.org/doi/pdf/10.1145/3622844   # OOPSLA 2023 Distinguished Paper: Initializing Global Objects: Time and Order
+https://dl.acm.org/doi/pdf/10.1145/3586048   # OOPSLA 2023 Distinguished Paper: Live Pattern Matching with Typed Holes
+https://dl.acm.org/doi/pdf/10.1145/3586027   # OOPSLA 2023 Distinguished Paper: Accelerating Fuzzing through Prefix-Guided Execution
+https://dl.acm.org/doi/pdf/10.1145/3586053   # OOPSLA 2023 Distinguished Paper: Randomized Testing of Byzantine Fault Tolerant Algorithms
+https://dl.acm.org/doi/pdf/10.1145/3622820   # OOPSLA 2023 Distinguished Paper: Spirea: A Mechanized Concurrent Separation Logic for Weak Persistent Memory
+https://dl.acm.org/doi/pdf/10.1145/3689801   # OOPSLA 2024 Distinguished Paper: Fast and Optimal Extraction for Sparse Equality Graphs
+https://dl.acm.org/doi/pdf/10.1145/3649823   # OOPSLA 2024 Distinguished Paper: Identifying and Correcting Programming Language Behavior Misconceptions
+2306.00229   # OOPSLA 2024 Distinguished Paper: Minotaur: A SIMD-Oriented Synthesizing Superoptimizer
+https://dl.acm.org/doi/pdf/10.1145/3649854   # OOPSLA 2024 Distinguished Paper: ParDiff: Practical Static Differential Analysis of Network Protocol Parsers
+2401.01257   # OOPSLA 2024 Distinguished Paper: Profiling Programming Language Learning
+https://dl.acm.org/doi/pdf/10.1145/3689746   # OOPSLA 2024 Distinguished Paper: The Ultimate Conditional Syntax
+2403.03193   # OOPSLA 2024 Distinguished Paper: VeriEQL: Bounded Equivalence Verification for Complex SQL Queries with Integrity Constraints
+2504.08946   # OOPSLA 2025 Distinguished Paper: Incremental Bidirectional Typing via Order Maintenance
+2502.19810   # OOPSLA 2025 Distinguished Paper: Automatic Linear Resource Bound Analysis for Rust via Prophecy Potentials
+2102.00826   # ICSE 2021 Distinguished Paper: Automated Query Reformulation for Efficient Search Based on Query Logs from Stack Overflow
+2102.12105   # ICSE 2021 Distinguished Paper: Hero: On the Chaos When PATH Meets Modules
+2101.05877   # ICSE 2021 Distinguished Paper: "How Was Your Weekend?" Software Development Teams Working From Home During COVID-19
+2102.06292   # ICSE 2021 Distinguished Paper: Improving Fault Localization by Integrating Value and Predicate Based Causal Inference Techniques
+2102.07485   # ICSE 2021 Distinguished Paper: Interface Compliance of Inline Assembly: Automatically Check, Patch and Refine
+2102.07498   # ICSE 2021 Distinguished Paper: JEST: N+1-version Differential Testing of Both JavaScript Engines and Specification
+2102.04411   # ICSE 2021 Distinguished Paper: Traceability Transformed: Generating more Accurate Links with Pre-Trained BERT Models
+2102.06251   # ICSE 2021 Distinguished Paper: Why Don't Developers Detect Improper Input Validation?
+2109.09262   # ICSE 2022 Distinguished Paper: TOGA: A Neural Method for Test Oracle Generation
+2110.10234   # ICSE 2022 Distinguished Paper: Collaboration Challenges in Building ML-Enabled Systems
+https://dl.acm.org/doi/pdf/10.1145/3510003.3510188   # ICSE 2022 Distinguished Paper: Efficient Online Testing for DNN-Enabled Systems using Surrogate-Assisted and Many-Objective Optimization
+https://dl.acm.org/doi/pdf/10.1145/3510003.3510138   # ICSE 2022 Distinguished Paper: Diversity-Driven Automated Formal Verification
+2202.02974   # ICSE 2022 Distinguished Paper: What Makes a Good Commit Message?
+https://dl.acm.org/doi/pdf/10.1145/3510003.3510111   # ICSE 2022 Distinguished Paper: "Did You Miss My Comment or What?" Understanding Toxicity in Open Source Discussions
+2301.06437   # ICSE 2023 Distinguished Paper: Do I Belong? Modeling Sense of Virtual Community Among Linux Kernel Contributors
+2301.08434   # ICSE 2023 Distinguished Paper: Compatible Remediation on Vulnerabilities from Third-Party Libraries for Java Projects
+2301.09789   # ICSE 2023 Distinguished Paper: A Qualitative Study on the Implementation Design Decisions of Developers
+2302.03723   # ICSE 2023 Distinguished Paper: "STILL AROUND": Experiences and Survival Strategies of Veteran Women Software Developers
+2312.17510   # ICSE 2023 Distinguished Paper: Testing Database Engines via Query Plan Guidance
+2212.05203   # ICSE 2023 Distinguished Paper: Efficiency Matters: Speeding Up Automated Testing with GUI Rendering Inference
+2301.09258   # ICSE 2024 Distinguished Paper: EDEFuzz: A Web API Fuzzer for Excessive Data Exposures
+2306.09376   # ICSE 2024 Distinguished Paper: Modularizing while Training: a New Paradigm for Modularizing DNN Models
+2309.04828   # ICSE 2024 Distinguished Paper: FAIR: Flow Type-Aware Pre-Training of Compiler Intermediate Representations
+https://dl.acm.org/doi/pdf/10.1145/3597503.3623317   # ICSE 2024 Distinguished Paper: Attention! Your Copied Data is Under Monitoring
+https://dl.acm.org/doi/pdf/10.1145/3597503.3639079   # ICSE 2024 Distinguished Paper: Breaking the Flow: A Study of Interruptions During Software Engineering Activities
+https://dl.acm.org/doi/pdf/10.1145/3597503.3639085   # ICSE 2024 Distinguished Paper: Code Search is All You Need? Improving Code Suggestions with Code Search
+2401.05673   # ICSE 2024 Distinguished Paper: Analyzing and Debugging Normative Requirements via Satisfiability Checking
+https://dl.acm.org/doi/pdf/10.1145/3597503.3639096   # ICSE 2024 Distinguished Paper: Causal Relationships and Programming Outcomes: A Transcranial Magnetic Stimulation Experiment
+https://dl.acm.org/doi/pdf/10.1145/3597503.3639097   # ICSE 2024 Distinguished Paper: GenderMag Improves Discoverability in the Field, Especially for Women
+https://dl.acm.org/doi/pdf/10.1145/3597503.3639101   # ICSE 2024 Distinguished Paper: Hard to Read and Understand Pythonic Idioms?
+https://dl.acm.org/doi/pdf/10.1145/3597503.3639128   # ICSE 2024 Distinguished Paper: Towards Finding Accounting Errors in Smart Contracts
+https://dl.acm.org/doi/pdf/10.1145/3597503.3639158   # ICSE 2024 Distinguished Paper: Semantic-Enhanced Static Vulnerability Detection in Baseband Firmware
+2401.06044   # ICSE 2024 Distinguished Paper: Safeguarding DeFi Smart Contracts against Oracle Deviations
+2401.02268   # ICSE 2024 Distinguished Paper (SEIS): Beyond Self-Promotion: How Software Engineering Research Is Discussed on LinkedIn
+https://dl.acm.org/doi/pdf/10.1145/3639474.3640080   # ICSE 2024 Distinguished Paper (SEET): Video-based Training for Meeting Communication Skills
+https://dl.acm.org/doi/pdf/10.1145/3639477.3639746   # ICSE 2024 Distinguished Paper (SEIP): Resolving Code Review Comments with Machine Learning
+2311.09394   # ICSE 2024 Distinguished Paper (SEIP): GWP-ASan: Sampling-Based Detection of Memory-Safety Bugs in Production
+2311.10516   # ICSE 2024 Distinguished Paper (SEIP): User-Centric Deployment of Automated Program Repair at Bloomberg
+2305.09824   # ICSE 2024 Distinguished Paper (SEIP): On the Costs and Benefits of Adopting Lifelong Learning for Software Analytics
+2411.00634   # ICSE 2025 Distinguished Paper: Does GenAI Make Usability Testing Obsolete?
+2503.12873   # ICSE 2025 Distinguished Paper: SeeAction: Towards Reverse Engineering How-What-Where of HCI Actions from Screencasts for UI Automation
+2412.14063   # ICSE 2025 Distinguished Paper: Rango: Adaptive Retrieval-Augmented Proving for Automated Software Verification
+2408.12159   # ICSE 2025 Distinguished Paper: Search-Based LLMs for Code Optimization
+2412.08109   # ICSE 2025 Distinguished Paper: Unseen Horizons: Unveiling the Real Capability of LLM Code Generation Beyond the Familiar
+2501.06459   # ICSE 2025 Distinguished Paper: Enhancing The Open Network: Definition and Automated Detection of Smart Contract Defects
+2412.01317   # ICSE 2025 Distinguished Paper: The Seeds of the FUTURE Sprout from History: Fuzzing for Unveiling Vulnerabilities in Prospective Deep-Learning Libraries
+2405.01787   # ICSE 2025 Distinguished Paper: Towards Neural Synthesis for SMT-assisted Proof-Oriented Programming
+2409.14541   # ICSE 2025 Distinguished Paper: Tumbling Down the Rabbit Hole: How do Assisting Exploration Strategies Facilitate Grey-box Fuzzing?
+2408.08148   # ICSE 2025 Distinguished Paper: Early Detection of Performance Regressions by Bridging Local Performance Data and Architectural Models
+2408.04939   # ICSE 2025 Distinguished Paper: Demystifying and Detecting Cryptographic Defects in Ethereum Smart Contracts
+2502.15287   # ICSE 2025 Distinguished Paper (SEIP): Time Warp: The Gap Between Developers' Ideal vs Actual Workweeks in an AI-Driven Era
+2409.03093   # ICSE 2025 Distinguished Paper (SEIP): ASTER: Natural and Multi-language Unit Test Generation with LLMs
+2410.06351   # ICSE 2025 Distinguished Paper (SEIP): Moving Faster and Reducing Risk: Using LLMs in Release Deployment
+2512.23745   # ICSE 2026 Distinguished Paper: A Comprehensive Study of Deep Learning Model Fixing Approaches
+https://dl.acm.org/doi/pdf/10.1145/3744916.3764540   # ICSE 2026 Distinguished Paper: An Exploratory Multi-Method Study of Toil
+2503.14838   # ICSE 2026 Distinguished Paper: Think Like Human Developers: Harnessing Community Knowledge for Structured Code Reasoning
+https://dl.acm.org/doi/pdf/10.1145/3744916.3773110   # ICSE 2026 Distinguished Paper: An Empirical Study on Static Application Security Testing (SAST) Tools for Python
+2508.13666   # ICSE 2026 Distinguished Paper: The Hidden Cost of Readability: How Code Formatting Silently Consumes Your LLM Budget
+https://dl.acm.org/doi/pdf/10.1145/3744916.3764562   # ICSE 2026 Distinguished Paper: Synthetic Repo-level Bug Dataset for Training Automated Program Repair Models
+2503.18455   # ICSE 2026 Distinguished Paper: SEAlign: Alignment Training for Software Engineering Agent
+2607.09054   # ICSE 2026 Distinguished Paper: Automating Just-In-Time Python Type Annotation Updating
+https://dl.acm.org/doi/pdf/10.1145/3744916.3764568   # ICSE 2026 Distinguished Paper: Accurate Inference of Termination Conditions
+2507.10906   # ICSE 2026 Distinguished Paper: Evaluating Generated Commit Messages with Large Language Models
+https://dl.acm.org/doi/pdf/10.1145/3744916.3773154   # ICSE 2026 Distinguished Paper: WhisperCatcher: Demystifying Unauthorized and Encrypted Private Data Transmission in Android Applications
+2507.21280   # ICSE 2026 Distinguished Paper: "Maybe We Need Some More Examples:" Individual and Team Drivers of Developer GenAI Tool Use
+https://dl.acm.org/doi/pdf/10.1145/3744916.3773173   # ICSE 2026 Distinguished Paper: PreServe: Intelligent Management for LMaaS Systems via Hierarchical Prediction
+2507.19743   # ICSE 2026 Distinguished Paper: What Makes Code Generation Ethically Sourced?
+2512.10452   # ICSE 2026 Distinguished Paper: UniCoR: Modality Collaboration for Robust Cross-Language Hybrid Code Retrieval
+2503.19599   # ICSE 2026 Distinguished Paper: HoarePrompt: Structural Reasoning About Program Correctness in Natural Language
+2512.20203   # ICSE 2026 Distinguished Paper: Well Begun is Half Done: Location-Aware and Trace-Guided Iterative Automated Vulnerability Repair
+2602.04296   # ICSE 2026 Distinguished Paper: ProxyWar: Dynamic Assessment of LLM Code Generation in Game Arenas
+2601.00627   # ICSE 2026 Distinguished Paper: Towards Understanding and Characterizing Vulnerabilities in Intelligent Connected Vehicles through Real-World Exploits
+https://dl.acm.org/doi/pdf/10.1145/3744916.3773235   # ICSE 2026 Distinguished Paper: Remediating Superfluous Re-Rendering in React Applications
+https://dl.acm.org/doi/pdf/10.1145/3744916.3787819   # ICSE 2026 Distinguished Paper: Accelerating IC3 Verification by Exploiting Unsatisfiable Cores and Satisfying Models
+https://dl.acm.org/doi/pdf/10.1145/3744916.3787823   # ICSE 2026 Distinguished Paper: Can SAT Solvers Keep Up With the Linux Kernel's Feature Model?
+https://dl.acm.org/doi/pdf/10.1145/3786583.3786918   # ICSE 2026 Distinguished Paper (SEIP): Automated Software Test Generation at Industry Scale Using a Multi-Agent Architecture and Workflow Integration
+2601.08734   # ICSE 2026 Distinguished Paper (SEIP): TerraFormer: Automated Infrastructure-as-Code with LLMs Fine-Tuned via Policy-Guided Verifier Feedback
+https://dl.acm.org/doi/pdf/10.1145/3786583.3786862   # ICSE 2026 Distinguished Paper (SEIP): Technical Credit: Industry Views on Benefits and Barriers
+2509.18361   # ICSE 2026 Distinguished Paper (NIER): Reading Between the Lines: Scalable User Feedback via Implicit Sentiment in Developer Prompts
+2506.11176   # ICSE 2026 Distinguished Paper (NIER): Model Discovery and Graph Simulation: A Lightweight Gateway to Chaos Engineering
+https://dl.acm.org/doi/pdf/10.1145/3786580.3786957   # ICSE 2026 Distinguished Paper (SEET): Lessons Learned from Training the Next Generation of Space Software Engineers
+https://dl.acm.org/doi/pdf/10.1145/3786580.3786961   # ICSE 2026 Distinguished Paper (SEET): Beyond the Prompt: How Novices Engage with AI During Code Summarization
+https://dl.acm.org/doi/pdf/10.1145/3786581.3786940   # ICSE 2026 Distinguished Paper (SEIS): Connecting Generations Through Code: GABI
+https://dl.acm.org/doi/pdf/10.1145/3468264.3468574   # FSE 2021 Distinguished Paper: Efficient Module-Level Dynamic Analysis for Dynamic Languages with Module Recontextualization
+https://dl.acm.org/doi/pdf/10.1145/3468264.3468623   # FSE 2021 Distinguished Paper: Semantic Bug Seeding: A Learning-Based Approach for Creating Realistic Bugs
+2105.12195   # FSE 2021 Distinguished Paper: Bias in Machine Learning Software: Why? How? What to Do?
+https://dl.acm.org/doi/pdf/10.1145/3468264.3468551   # FSE 2021 Distinguished Paper: SmartCommit: A Graph-Based Interactive Assistant for Activity-Oriented Commits
+2105.14226   # FSE 2021 Distinguished Paper: A Longitudinal Analysis of Bloated Java Dependencies
+2102.06377   # FSE 2021 Distinguished Paper: Vet: Identifying and Avoiding UI Exploration Tarpits
+https://dl.acm.org/doi/pdf/10.1145/3468264.3468587   # FSE 2021 Distinguished Paper: AlloyMax: Bringing Maximum Satisfaction to Relational Specifications
+https://dl.acm.org/doi/pdf/10.1145/3540250.3549114   # FSE 2022 Distinguished Paper: The Evolution of Type Annotations in Python: An Empirical Study
+https://dl.acm.org/doi/pdf/10.1145/3540250.3549168   # FSE 2022 Distinguished Paper: Asynchronous Technical Interviews
+https://dl.acm.org/doi/pdf/10.1145/3540250.3549144   # FSE 2022 Distinguished Paper: Online Testing of RESTful APIs: Promises and Challenges
+https://dl.acm.org/doi/pdf/10.1145/3540250.3549104   # FSE 2022 Distinguished Paper: Using Nudges to Accelerate Code Reviews at Scale
+2208.04259   # FSE 2022 Distinguished Paper: First Come First Served: The Impact of File Position on Code Review
+https://dl.acm.org/doi/pdf/10.1145/3540250.3549176   # FSE 2022 Distinguished Paper: SPINE: A Scalable Log Parser with Feedback Guidance
+https://dl.acm.org/doi/pdf/10.1145/3540250.3549107   # FSE 2022 Distinguished Paper: Minerva: Browser API Fuzzing with Dynamic Mod-Ref Analysis
+2303.04910   # FSE 2023 Distinguished Paper: Baldur: Whole-Proof Generation and Repair with Large Language Models
+https://dl.acm.org/doi/pdf/10.1145/3611643.3616357   # FSE 2023 Distinguished Paper: Speeding up SMT Solving via Compiler Optimization
+2111.10085   # FSE 2023 Distinguished Paper: Mate! Are You Really Aware? An Explainability-Guided Testing Framework for Robustness of Malware Detectors
+2201.04804   # FSE 2023 Distinguished Paper: A Highly Scalable, Hybrid, Cross-Platform Timing Analysis Framework
+https://dl.acm.org/doi/pdf/10.1145/3611643.3616261   # FSE 2023 Distinguished Paper: An Automated Approach to Extracting Local Variables
+https://dl.acm.org/doi/pdf/10.1145/3611643.3616352   # FSE 2023 Distinguished Paper: Can Machine Learning Pipelines Be Better Configured?
+2302.02261   # FSE 2023 Distinguished Paper: NeuRI: Diversifying DNN Generation via Inductive Rule Inference
+2306.03454   # FSE 2023 Distinguished Paper: Benchmarking Robustness of AI-enabled Multi-sensor Fusion Systems
+https://dl.acm.org/doi/pdf/10.1145/3611643.3616250   # FSE 2023 Distinguished Paper: A Four-Year Study of Student Contributions to OSS vs. OSS4SG
+2302.02343   # FSE 2023 Distinguished Paper: LExecutor: Learning-Guided Execution
+https://dl.acm.org/doi/pdf/10.1145/3611643.3616281   # FSE 2023 Distinguished Paper: TransRacer: Function Dependence-Guided Transaction Race Detection for Smart Contracts
+2308.11422   # FSE 2023 Distinguished Paper: Recommending Analogical APIs via Knowledge Graph Embedding
+https://dl.acm.org/doi/pdf/10.1145/3643760   # FSE 2024 Distinguished Paper: Only diff is Not Enough: Generating Commit Messages Leveraging Reasoning and Action of Large Language Model
+2403.14927   # FSE 2024 Distinguished Paper: "The Law Doesn't Work Like a Computer": Exploring Software Licensing Issues Faced by Legal Practitioners
+https://dl.acm.org/doi/pdf/10.1145/3643750   # FSE 2024 Distinguished Paper: Understanding Developers' Discussions and Perceptions on Non-Functional Requirements
+https://dl.acm.org/doi/pdf/10.1145/3643749   # FSE 2024 Distinguished Paper: Fast Graph Simplification for Path-Sensitive Typestate Analysis
+https://dl.acm.org/doi/pdf/10.1145/3643739   # FSE 2024 Distinguished Paper: Predictive Program Slicing via Execution Knowledge-Guided Dynamic Dependence Learning
+https://dl.acm.org/doi/pdf/10.1145/3643737   # FSE 2024 Distinguished Paper: ProveNFix: Temporal Property guided Program Repair
+https://dl.acm.org/doi/pdf/10.1145/3643748   # FSE 2024 Distinguished Paper: TraStrainer: Adaptive Sampling for Distributed Traces with System Runtime State
+2402.02063   # FSE 2024 Distinguished Paper: Improving the Learning of Code Review Successive Tasks with Cross-Task Knowledge Distillation
+2404.18186   # FSE 2024 Distinguished Paper: Static Application Security Testing (SAST) Tools for Smart Contracts: How Far Are We?
+https://dl.acm.org/doi/pdf/10.1145/3643730   # FSE 2024 Distinguished Paper: Component Security Ten Years Later
+https://dl.acm.org/doi/pdf/10.1145/3715711   # FSE 2025 Distinguished Paper: Gleipner: A Benchmark for Gadget Chain Detection in Java Deserialization Vulnerabilities (unverified)
+https://dl.acm.org/doi/pdf/10.1145/3715718   # FSE 2025 Distinguished Paper: Mystique: Automated Vulnerability Patch Porting with Semantic and Syntactic-Enhanced LLM (unverified)
+https://dl.acm.org/doi/pdf/10.1145/3729362   # FSE 2025 Distinguished Paper: UnitCon: Synthesizing Targeted Unit Tests for Java Runtime Exceptions (unverified)
+2502.02827   # FSE 2025 Distinguished Paper: COFFE: A Code Efficiency Benchmark for Code Generation (unverified)
+2502.06662   # FSE 2025 Distinguished Paper: Pinning Is Futile: You Need More Than Local Dependency Versioning to Defend Against Supply Chain Attacks (unverified)
+2502.15844   # FSE 2025 Distinguished Paper: Hallucination Detection in Large Language Models with Metamorphic Relations (unverified)
+https://dl.acm.org/doi/pdf/10.1145/3715739   # FSE 2025 Distinguished Paper: QSF: Multi-Objective Optimization based Efficient Solving for Floating-Point Constraints (unverified)
+https://dl.acm.org/doi/pdf/10.1145/3729387   # FSE 2025 Distinguished Paper: A Causal Learning Framework for Enhancing Robustness of Source Code Models (unverified)
+https://dl.acm.org/doi/pdf/10.1145/3715754   # FSE 2025 Distinguished Paper: Demystifying LLM-based Software Engineering Agents (unverified)
+https://dl.acm.org/doi/pdf/10.1145/3715756   # FSE 2025 Distinguished Paper: PDCAT: Preference-Driven Compiler Auto-Tuning (unverified)
+https://dl.acm.org/doi/pdf/10.1145/3729391   # FSE 2025 Distinguished Paper: Expressing and Checking Statistical Assumptions (unverified)
+2502.14212   # FSE 2025 Distinguished Paper: Less is More: On the Importance of Data Quality for Unit Test Generation (unverified)
+https://dl.acm.org/doi/pdf/10.1145/3715787   # FSE 2025 Distinguished Paper: Why the Proof Fails in Different Versions of Theorem Provers (unverified)
+2602.11435   # FSE 2026 Distinguished Paper: A Grounded Theory of Debugging in Professional Software Engineering Practice (unverified)
+2505.06177   # FSE 2026 Distinguished Paper: An Empirical Study of Fuzz Harness Degradation (unverified)
+2512.22418   # FSE 2026 Distinguished Paper: Building Software by Rolling the Dice: A Qualitative Study of Vibe Coding (unverified)
+2604.25903   # FSE 2026 Distinguished Paper: Carbon-Taxed Transformers: A Green Compression Pipeline for Overgrown Language Models (unverified)
+2509.17314   # FSE 2026 Distinguished Paper: Clotho: Measuring Task-Specific Pre-Generation Test Adequacy for LLM Inputs (unverified)
+2604.24212   # FSE 2026 Distinguished Paper: Empowering Autonomous Debugging Agents with Efficient Dynamic Analysis (unverified)
+2512.22469   # FSE 2026 Distinguished Paper: GraphLocator: Graph-guided Causal Reasoning for Issue Localization (unverified)
+https://dl.acm.org/doi/pdf/10.1145/3808198   # FSE 2026 Distinguished Paper: One Size Does Fit All: Exploring Model Fusion for Software Engineering Tasks (unverified)
+https://dl.acm.org/doi/pdf/10.1145/3797072   # FSE 2026 Distinguished Paper: Pig: Leveraging Large Language Models for Python Library Migrations (unverified)
+2606.28870   # FSE 2026 Distinguished Paper: Understanding Binary Code Similarity for Real-World Vulnerability Detection (unverified)
+2109.07055   # ASE 2021 Distinguished Paper: ISPY: Automatic Issue-Solution Pair Extraction from Community Live Chats
+2104.12064   # ASE 2021 Distinguished Paper: RULF: Rust Library Fuzzing via API Dependency Graph Traversal
+https://dl.acm.org/doi/pdf/10.1145/3551349.3556908   # ASE 2022 Distinguished Paper: Fuzzle: Making a Puzzle for Fuzzers
+2204.02773   # ASE 2022 Distinguished Paper: Efficient Greybox Fuzzing to Detect Memory Errors
+https://dl.acm.org/doi/pdf/10.1145/3551349.3561154   # ASE 2022 Distinguished Paper: Detecting Blocking Errors in Go Programs using Localized Abstract Interpretation
+https://dl.acm.org/doi/pdf/10.1145/3551349.3556929   # ASE 2022 Distinguished Paper: QATest: A Uniform Fuzzing Framework for Question Answering Systems
+https://dl.acm.org/doi/pdf/10.1145/3551349.3560423   # ASE 2022 Distinguished Paper: HyperAST: Enabling Efficient Analysis of Software Histories at Scale
+2209.00393   # ASE 2022 Distinguished Paper: Has My Release Disobeyed Semantic Versioning? Static Detection Based On Semantic Differencing
+2209.04514   # ASE 2022 Distinguished Paper: Compiler Testing using Template Java Programs
+2207.11784   # ASE 2022 Distinguished Paper: CARGO: AI-Guided Dependency Analysis for Migrating Monolithic Applications to Microservices Architecture
+https://dl.acm.org/doi/pdf/10.1145/3551349.3556919   # ASE 2022 Distinguished Paper: Boosting the Revealing of Detected Violations in Deep Learning Testing
+https://dl.acm.org/doi/pdf/10.1145/3551349.3556949   # ASE 2022 Distinguished Paper: Learning to Construct Better Mutation Faults
+2308.09313   # ASE 2023 Distinguished Paper: Domain Adaptive Code Completion via Language Models and Decoupled Domain Databases
+2312.03335   # ASE 2023 Distinguished Paper: EndWatch: A Practical Method for Detecting Non-Termination in Real-World Software
+2307.09163   # ASE 2023 Distinguished Paper: Generative Type Inference for Python
+2308.08144   # ASE 2023 Distinguished Paper: LeakPair: Proactive Repairing of Memory Leaks in Single Page Web Applications
+2309.00859   # ASE 2023 Distinguished Paper: DeepScaler: Holistic Autoscaling for Microservices Based on Spatiotemporal GNN with Adaptive Graph Learning
+2309.05067   # ASE 2023 Distinguished Paper: Mutation-based Fault Localization of Deep Neural Networks
+2307.10818   # ASE 2023 Distinguished Paper: PHYFU: Fuzzing Modern Physics Simulation Engines
+https://dl.acm.org/doi/pdf/10.1145/3691620.3695554   # ASE 2024 Distinguished Paper: How Does Code Optimization Impact Third-party Library Detection for Android Applications?
+https://dl.acm.org/doi/pdf/10.1145/3691620.3695534   # ASE 2024 Distinguished Paper: MiniChecker: Detecting Data Privacy Risk of Abusive Permission Request Behavior in Mini-Programs
+2408.14357   # ASE 2024 Distinguished Paper: Exploring ChatGPT App Ecosystem: Distribution, Deployment and Security
+https://dl.acm.org/doi/pdf/10.1145/3691620.3695479   # ASE 2024 Distinguished Paper: Do not neglect what's on your hands: localizing software faults with exception trigger stream
+https://dl.acm.org/doi/pdf/10.1145/3691620.3695541   # ASE 2024 Distinguished Paper: Reducing Test Runtime by Transforming Test Fixtures
+https://dl.acm.org/doi/pdf/10.1145/3691620.3695542   # ASE 2024 Distinguished Paper: Combining Coverage and Expert Features with Semantic Representation for Coincidental Correctness Detection
+https://dl.acm.org/doi/pdf/10.1145/3691620.3695014   # ASE 2024 Distinguished Paper: LLM Meets Bounded Model Checking: Neuro-symbolic Loop Invariant Inference
+https://dl.acm.org/doi/pdf/10.1145/3691620.3695512   # ASE 2024 Distinguished Paper: LLM-Generated Invariants for Bounded Model Checking Without Loop Unrolling
+2409.10066   # ASE 2024 Distinguished Paper: LeGEND: A Top-Down Approach to Scenario Generation of Autonomous Driving Systems Assisted by Large Language Models
+2409.07774   # ASE 2024 Distinguished Paper: ROCAS: Root Cause Analysis of Autonomous Driving Accidents via Cyber-Physical Co-mutation
+https://dl.acm.org/doi/pdf/10.1145/3691620.3695540   # ASE 2024 Distinguished Paper: Context-Aware Automated Sprint Plan Generation for Agile Software Development
+https://dl.acm.org/doi/pdf/10.1145/3691620.3695513   # ASE 2024 Distinguished Paper: Towards Understanding the Effectiveness of Large Language Models on Directed Test Input Generation
+https://dl.acm.org/doi/pdf/10.1145/3691620.3694986   # ASE 2024 Distinguished Paper: General and Practical Property-based Testing for Android Apps
+2409.05001   # ASE 2024 Distinguished Paper: A Pair Programming Framework for Code Generation via Multi-Plan Exploration and Feedback-Driven Refinement
+https://dl.acm.org/doi/pdf/10.1145/3691620.3695019   # ASE 2024 Distinguished Paper: DRMiner: Extracting Latent Design Rationale from Jira Issue Logs
+2506.04418   # ASE 2025 Distinguished Paper: Characterizing Multi-Hunk Patches: Divergence, Proximity, and LLM Repair Challenges
+2508.12285   # ASE 2025 Distinguished Paper: "My productivity is boosted, but ..." Demystifying Users' Perception on AI Coding Assistants
+2512.17334   # ASE 2025 Distinguished Paper: Bridging Natural Language and Formal Specification
+2506.18824   # ASE 2025 Distinguished Paper: Understanding Software Engineering Agents: A Study of Thought-Action-Result Trajectories
+2511.14002   # ASE 2025 Distinguished Paper: FlakyGuard: Automatically Fixing Flaky Tests at Industry Scale
+2510.01994   # ASE 2025 Distinguished Paper: Clarifying Semantics of In-Context Examples for Unit Test Generation
+https://dl.acm.org/doi/pdf/10.1145/3460319.3464818   # ISSTA 2021 Distinguished Paper: SAND: A Static Analysis Approach for Detecting SQL Antipatterns
+https://dl.acm.org/doi/pdf/10.1145/3460319.3464826   # ISSTA 2021 Distinguished Paper: Type and Interval Aware Array Constraint Solving for Symbolic Execution
+https://dl.acm.org/doi/pdf/10.1145/3460319.3464810   # ISSTA 2021 Distinguished Paper: Test-Case Prioritization for Configuration Testing
+https://dl.acm.org/doi/pdf/10.1145/3460319.3464804   # ISSTA 2021 Distinguished Paper: A Lightweight Framework for Function Name Reassignment Based on Large-Scale Stripped Binaries
+https://dl.acm.org/doi/pdf/10.1145/3533767.3534399   # ISSTA 2022 Distinguished Paper: Combining Solution Reuse and Bound Tightening for Efficient Analysis of Evolving Systems
+2107.00157   # ISSTA 2022 Distinguished Paper: Cross-Lingual Transfer Learning for Statistical Type Inference
+https://dl.acm.org/doi/pdf/10.1145/3533767.3534400   # ISSTA 2022 Distinguished Paper: The Raise of Machine Learning Hyperparameter Constraints in Python Code
+https://dl.acm.org/doi/pdf/10.1145/3533767.3534410   # ISSTA 2022 Distinguished Paper: NCScope: Hardware-Assisted Analyzer for Native Code in Android Apps
+https://dl.acm.org/doi/pdf/10.1145/3533767.3534372   # ISSTA 2022 Distinguished Paper: Finding Permission Bugs in Smart Contracts with Role Mining
+2306.03234   # ISSTA 2023 Distinguished Paper: CONCORD: Clone-Aware Contrastive Learning for Source Code
+2301.10545   # ISSTA 2023 Distinguished Paper: Beware of the Unexpected: Bimodal Taint Analysis
+2304.07204   # ISSTA 2023 Distinguished Paper: Eunomia: Enabling User-Specified Fine-Grained Search in Symbolically Executing WebAssembly Binaries
+https://dl.acm.org/doi/pdf/10.1145/3597926.3598034   # ISSTA 2023 Distinguished Paper: Improving Bit-Blasting for Nonlinear Integer Constraints
+https://dl.acm.org/doi/pdf/10.1145/3597926.3598138   # ISSTA 2023 Distinguished Paper: An Empirical Study of Functional Bugs in Android Apps
+https://dl.acm.org/doi/pdf/10.1145/3597926.3598107   # ISSTA 2023 Distinguished Paper: Guiding Greybox Fuzzing with Mutation Testing
+https://dl.acm.org/doi/pdf/10.1145/3597926.3598130   # ISSTA 2023 Distinguished Paper: GrayC: Greybox Fuzzing of Compilers and Analysers for C
+https://dl.acm.org/doi/pdf/10.1145/3597926.3598086   # ISSTA 2023 Distinguished Paper: More Precise Regression Test Selection via Reasoning about Semantics-Modifying Changes
+https://dl.acm.org/doi/pdf/10.1145/3597926.3598132   # ISSTA 2023 Distinguished Paper: Automated Generation of Security-Centric Descriptions for Smart Contract Bytecode
+2408.01760   # ISSTA 2024 Distinguished Paper: Large Language Models for Equivalent Mutant Detection: How Far Are We?
+2404.16333   # ISSTA 2024 Distinguished Paper: AI Coders Are among Us: Rethinking Programming Language Grammar towards Efficient Code Generation
+2407.20042   # ISSTA 2024 Distinguished Paper: When to Stop? Towards Efficient Code Generation in LLMs with Excess Token Prevention
+2502.19116   # ISSTA 2024 Distinguished Paper: Policy Testing with MDPFuzz (Replicability Study)
+https://dl.acm.org/doi/pdf/10.1145/3650212.3680345   # ISSTA 2024 Distinguished Paper: AsFuzzer: Differential Testing of Assemblers with Error-Driven Grammar Inference
+https://dl.acm.org/doi/pdf/10.1145/3650212.3680400   # ISSTA 2024 Distinguished Paper: An In-Depth Study of Runtime Verification Overheads during Software Testing
+https://dl.acm.org/doi/pdf/10.1145/3650212.3680381   # ISSTA 2024 Distinguished Paper: One Size Does Not Fit All: Multi-granularity Patch Generation for Better Automated Program Repair
+https://dl.acm.org/doi/pdf/10.1145/3650212.3652110   # ISSTA 2024 Distinguished Paper: Precise Compositional Buffer Overflow Detection via Heap Disjointness
+2407.13271   # ISSTA 2024 Distinguished Paper: Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow
+https://dl.acm.org/doi/pdf/10.1145/3650212.3680331   # ISSTA 2024 Distinguished Paper: Exploration-Driven Reinforcement Learning for Avionic System Fault Detection
+2404.03171   # ISSTA 2024 Distinguished Paper: Multi-modal Learning for WebAssembly Reverse Engineering

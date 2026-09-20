@@ -1,0 +1,6 @@
+pymupdf>=1.25
+pillow>=10
+httpx>=0.27
+fastapi>=0.110
+uvicorn>=0.29
+numpy>=2

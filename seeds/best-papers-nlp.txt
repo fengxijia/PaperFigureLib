@@ -1,0 +1,349 @@
+# NLP 板块近 5 年 Best / Outstanding Paper（ACL、EMNLP、NAACL，2021 到 2026）。
+# 2026-09-13 由并行调查产出。ACL Anthology 直链可下；NOPDF 已剔除。
+2012.15671   # ACL 2021 Best Paper: Vocabulary Learning via Optimal Transport for Neural Machine Translation
+2105.05222   # ACL 2021 Best Theme Paper: Including Signed Languages in Natural Language Processing
+2107.00061   # ACL 2021 Outstanding Paper: All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text
+2012.13255   # ACL 2021 Outstanding Paper: Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning
+2107.02331   # ACL 2021 Outstanding Paper: Mind Your Outliers! Investigating the Negative Impact of Outliers on Active Learning for Visual Question Answering
+2105.11269   # ACL 2021 Outstanding Paper: Neural Machine Translation with Monolingual Translation Memory
+2106.15195   # ACL 2021 Outstanding Paper: Scientific Credibility of Machine Translation Research: A Meta-Evaluation of 769 Papers
+2101.00010   # ACL 2021 Outstanding Paper: UnNatural Language Inference
+https://aclanthology.org/2022.acl-long.220.pdf   # ACL 2022 Best Paper: Learned Incremental Representations for Parsing
+https://aclanthology.org/2022.acl-long.507.pdf   # ACL 2022 Best Special Theme Paper: Requirements and Motivations of Low-Resource Speech Synthesis for Language Revitalization
+https://aclanthology.org/2022.acl-long.298.pdf   # ACL 2022 Best Resource Paper: DiBiMT: A Novel Benchmark for Measuring Word Sense Disambiguation Biases in Machine Translation
+2203.08459   # ACL 2022 Best Linguistic Insight Paper: KinyaBERT: a Morphology-aware Kinyarwanda Language Model
+2204.07562   # ACL 2022 Outstanding Paper: Evaluating Factuality in Text Simplification
+https://aclanthology.org/2022.acl-long.110.pdf   # ACL 2022 Outstanding Paper: Online Semantic Parsing for Latency Reduction in Task-Oriented Dialogue
+2204.06812   # ACL 2022 Outstanding Paper: Learning to Generalize to More: Continuous Semantic Augmentation for Neural Machine Translation
+2104.08786   # ACL 2022 Outstanding Paper: Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity
+2204.02952   # ACL 2022 Outstanding Paper: Inducing Positive Perspectives with Text Reframing
+2112.08812   # ACL 2022 Outstanding Paper: Ditch the Gold Standard: Re-evaluating Conversational Question Answering
+2203.06063   # ACL 2022 Outstanding Paper: Active Evaluation: Efficient NLG Evaluation with Few Pairwise Comparisons
+2203.10705   # ACL 2022 Outstanding Paper: Compression of Generative Pre-trained Language Models via Quantization
+2210.04885   # ACL 2023 Best Paper: What the DAAM: Interpreting Stable Diffusion Using Cross Attention
+2209.06293   # ACL 2023 Best Paper: Do Androids Laugh at Electric Sheep? Humor “Understanding” Benchmarks from The New Yorker Caption Contest
+2305.08283   # ACL 2023 Best Paper: From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trails of Political Biases Leading to Unfair NLP Models
+2109.07446   # ACL 2023 Best Resource Paper: When Does Translation Require Context? A Data-driven, Multilingual Exploration
+2212.09747   # ACL 2023 Best Reproduction Paper: Do CoNLL-2003 Named Entity Taggers Still Work Well in 2023?
+2305.17442   # ACL 2023 Best Theme Paper; Outstanding Paper: Weaker Than You Think: A Critical Look at Weakly Supervised Learning
+2305.18189   # ACL 2023 Best Social Impact Paper: Marked Personas: Using Natural Language Prompts to Measure Stereotypes in Language Models
+2305.14793   # ACL 2023 Outstanding Paper: Faithful Low-Resource Data-to-Text Generation through Cycle Training
+2309.05936   # ACL 2023 Outstanding Paper: Do PLMs Know and Understand Ontological Knowledge?
+2305.05252   # ACL 2023 Outstanding Paper: Distilling Script Knowledge from Large Language Models for Constrained Language Planning
+2307.02047   # ACL 2023 Outstanding Paper: CAME: Confidence-guided Adaptive Memory Efficient Optimization
+2212.09736   # ACL 2023 Outstanding Paper: Don’t Generate, Discriminate: A Proposal for Grounding Language Models to Real-World Environments
+2305.01879   # ACL 2023 Outstanding Paper: SCOTT: Self-Consistent Chain-of-Thought Distillation
+2306.08685   # ACL 2023 Outstanding Paper: World-to-Words: Grounded Open Vocabulary Acquisition through Fast Mapping in Vision-Language Models
+2212.08979   # ACL 2023 Outstanding Paper: Language model acceptability judgements are not always robust to context
+2305.05940   # ACL 2023 Outstanding Paper: Multilingual LLMs are Better Cross-lingual In-context Learners with Alignment
+2305.02364   # ACL 2023 Outstanding Paper: PeaCoK: Persona Commonsense Knowledge for Consistent and Engaging Narratives
+2307.05356   # ACL 2023 Outstanding Paper: VisText: A Benchmark for Semantically Rich Chart Captioning
+https://aclanthology.org/2023.acl-long.417.pdf   # ACL 2023 Outstanding Paper: Towards Zero-Shot Multilingual Transfer for Code-Switched Responses
+2306.01943   # ACL 2023 Outstanding Paper: NLPositionality: Characterizing Design Biases of Datasets and Models
+2305.16765   # ACL 2023 Outstanding Paper: Backpack Language Models
+2305.02466   # ACL 2023 Outstanding Paper: Cognitive Reframing of Negative Thoughts through Human-Language Model Interaction
+2212.10773   # ACL 2023 Outstanding Paper: MultiInstruct: Improving Multi-Modal Zero-Shot Learning via Instruction Tuning
+https://aclanthology.org/2023.acl-long.66.pdf   # ACL 2023 Outstanding Paper: Improving Pretraining Techniques for Code-Switched NLP
+https://aclanthology.org/2023.acl-long.661.pdf   # ACL 2023 Outstanding Paper: Question-Answering in a Low-resourced Language: Benchmark Dataset and Models for Tigrinya
+2305.02459   # ACL 2023 Outstanding Paper: Transfer and Active Learning for Dissonance Detection: Addressing the Rare-Class Challenge
+2307.03056   # ACL 2023 Outstanding Paper: Generalizing Backpropagation for Gradient-Based Interpretability
+2306.09505   # ACL 2023 Outstanding Paper: WikiBio: a Semantic Resource for the Intersectional Analysis of Biographical Events
+2305.03101   # ACL 2023 Outstanding Paper: Hybrid Transducer and Attention based Encoder-Decoder Modeling for Speech-to-Text Tasks
+2305.08414   # ACL 2023 Outstanding Paper: What’s the Meaning of Superhuman Performance in Today’s NLU?
+https://aclanthology.org/2023.acl-long.700.pdf   # ACL 2023 Outstanding Paper: Neural Machine Translation Methods for Translating Text to Sign Language Glosses
+2212.10297   # ACL 2023 Outstanding Paper: Extrinsic Evaluation of Machine Translation Metrics
+2210.07621   # ACL 2023 Outstanding Paper: Dense-ATOMIC: Towards Densely-connected ATOMIC with High Knowledge Coverage and Massive Multi-hop Paths
+2212.10356   # ACL 2023 Outstanding Paper: Dissecting Transformer Length Extrapolation via the Lens of Receptive Field Analysis
+2306.00924   # ACL 2023 Outstanding Paper: Minding Language Models’ (Lack of) Theory of Mind: A Plug-and-Play Multi-Character Belief Tracker
+2305.11694   # ACL 2023 Outstanding Paper: QUEST: A Retrieval Dataset of Entity-Seeking Queries with Implicit Set Operations
+2305.16954   # ACL 2023 Outstanding Paper: Compositional Generalization without Trees using Multiset Tagging and Latent Permutations
+https://aclanthology.org/2023.acl-long.852.pdf   # ACL 2023 Outstanding Paper: Knowledge Transfer in Incremental Learning for Multilingual Neural Machine Translation
+2212.07530   # ACL 2023 Outstanding Paper: Causes and Cures for Interference in Multilingual Translation
+2210.10040   # ACL 2023 Outstanding Paper: The Tail Wagging the Dog: Dataset Construction Biases of Social Bias Benchmarks
+2306.05477   # ACL 2023 Outstanding Paper: Hexatagging: Projective Dependency Parsing as Tagging
+https://aclanthology.org/2023.acl-short.14.pdf   # ACL 2023 Outstanding Paper: Scaling in Cognitive Modelling: a Multilingual Approach to Human Reading Times
+https://aclanthology.org/2023.acl-short.140.pdf   # ACL 2023 Outstanding Paper: The Mechanical Bard: An Interpretable Machine Learning Approach to Shakespearean Sonnet Generation
+2306.07111   # ACL 2023 Outstanding Paper: Linear Classifier: An Often-Forgotten Baseline for Text Classification
+2211.15464   # ACL 2023 Outstanding Paper: Considerations for meaningful sign language machine translation based on glosses
+https://aclanthology.org/2023.acl-long.154.pdf   # ACL 2023 Area Chair Award (Linguistic Diversity): Small Data, Big Impact: Leveraging Minimal Data for Effective Machine Translation
+2305.12501   # ACL 2023 Area Chair Award (Linguistic Theories, Cognitive Modeling, and Psycholinguistics): Exploring How Generative Adversarial Networks Learn Phonological Representations
+2305.02363   # ACL 2023 Area Chair Award (Interpretability and Analysis of Models for NLP); Honorable Mention: Entity Tracking in Language Models
+2201.12926   # ACL 2023 Area Chair Award (Semantics: Lexical): LexSym: Compositionality as Lexical Symmetry
+2305.10036   # ACL 2023 Area Chair Award (NLP Applications): Are You Copying My Model? Protecting the Copyright of Large Language Models for EaaS via Backdoor Watermark
+2305.16585   # ACL 2023 Area Chair Award (Semantics: Sentence-level Semantics, Textual Inference, and Other Areas): ParaAMR: A Large-Scale Syntactically Diverse Paraphrase Dataset by AMR Back-Translation
+2211.05655   # ACL 2023 Area Chair Award (Question Answering): DisentQA: Disentangling Parametric and Contextual Knowledge with Counterfactual Question Answering
+2305.12182   # ACL 2023 Area Chair Award (Multilingualism and Cross-Lingual NLP): Glot500: Scaling Multilingual Corpora and Language Models to 500 Languages
+2212.10933   # ACL 2023 Area Chair Award (Discourse and Pragmatics): Resolving Indirect Referring Expressions for Entity Selection
+2311.15941   # ACL 2023 Area Chair Award (Resources and Evaluation): Tell2Design: A Dataset for Language-Guided Floor Plan Generation
+2208.13423   # ACL 2023 Area Chair Award (Sentiment Analysis, Stylistic Analysis, and Argument Mining): StoryTrans: Non-Parallel Story Author-Style Transfer with Discourse Representations and Content Enhancing
+2306.10563   # ACL 2023 Area Chair Award (Speech and Multimodality): Hearing Lips in Noise: Universal Viseme-Phoneme Mapping and Transfer for Robust Audio-Visual Speech Recognition
+2212.10474   # ACL 2023 Honorable Mention: ByGPT5: End-to-End Style-conditioned Poetry Generation with Token-free Language Models
+2210.14896   # ACL 2023 Honorable Mention: DiffusionDB: A Large-scale Prompt Gallery Dataset for Text-to-Image Generative Models
+2304.00958   # ACL 2023 Honorable Mention: DrBERT: A Robust Pre-trained Model in French for Biomedical and Clinical domains
+2305.18554   # ACL 2023 Honorable Mention: Forgotten Knowledge: Examining the Citational Amnesia in NLP
+2305.14571   # ACL 2023 Honorable Mention: From Characters to Words: Hierarchical Pre-trained Language Model for Open-vocabulary Language Understanding
+2305.09360   # ACL 2023 Honorable Mention: GIFT: Graph-Induced Fine-Tuning for Multi-Party Conversation Understanding
+2307.02615   # ACL 2023 Honorable Mention: Human Inspired Progressive Alignment and Comparative Learning for Grounded Word Acquisition
+2305.13571   # ACL 2023 Honorable Mention: Latent Positional Information is in the Self-Attention Variance of Transformer Language Models Without Positional Embeddings
+2305.15678   # ACL 2023 Honorable Mention: Revisiting non-English Text Simplification: A Unified Multilingual Benchmark
+2210.14348   # ACL 2023 Honorable Mention: Synthetic Text Generation with Differential Privacy: A Simple and Practical Recipe
+https://aclanthology.org/2023.acl-short.136.pdf   # ACL 2023 Honorable Mention: Theory-Grounded Computational Text Analysis
+2212.10001   # ACL 2023 Honorable Mention: Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters
+2307.05355   # ACL 2023 Honorable Mention: UniCoRN: Unified Cognitive Signal ReconstructioN bridging cognitive signals and human language
+2401.06416   # ACL 2024 Best Paper: Mission: Impossible Language Models
+2406.05930   # ACL 2024 Best Paper: Semisupervised Neural Proto-Language Reconstruction
+2402.09963   # ACL 2024 Best Paper; SAC Award (Machine Learning for NLP): Why are Sensitive Functions Hard for Transformers?
+2508.17153   # ACL 2024 Best Paper: Natural Language Satisfiability: Exploring the Problem Distribution and Evaluating Transformer-based Language Models
+2406.00684   # ACL 2024 Best Paper; SAC Award (Computational Social Science and Cultural Analytics): Deciphering Oracle Bone Language with Diffusion Models
+2406.04327   # ACL 2024 Best Paper: Causal Estimation of Memorisation Profiles
+2402.07827   # ACL 2024 Best Paper: Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model
+2401.06373   # ACL 2024 Best Social Impact Paper: How Johnny Can Persuade LLMs to Jailbreak Them: Rethinking Persuasion to Challenge AI Safety by Humanizing LLMs
+2403.11009   # ACL 2024 Best Social Impact Paper: DIALECTBENCH: An NLP Benchmark for Dialects, Varieties, and Closely-Related Languages
+2305.14456   # ACL 2024 Best Social Impact Paper: Having Beer after Prayer? Measuring Cultural Bias in Large Language Models
+2403.20266   # ACL 2024 Best Resource Paper: Latxa: An Open Language Model and Evaluation Suite for Basque
+2402.00159   # ACL 2024 Best Resource Paper: Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research
+2407.18901   # ACL 2024 Best Resource Paper: AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents
+2402.00838   # ACL 2024 Best Theme Paper: OLMo: Accelerating the Science of Language Models
+2401.07159   # ACL 2024 Outstanding Paper: Quantized Side Tuning: Fast and Memory-Efficient Tuning of Quantized Large Language Models
+2307.11088   # ACL 2024 Outstanding Paper: L-Eval: Instituting Standardized Evaluation for Long Context Language Models
+2408.12942   # ACL 2024 Outstanding Paper: Causal-Guided Active Learning for Debiasing Large Language Models
+2402.12560   # ACL 2024 Outstanding Paper; SAC Award (Interpretability and Analysis of Models for NLP): CausalGym: Benchmarking causal interpretability methods on linguistic tasks
+2402.00367   # ACL 2024 Outstanding Paper; SAC Award (Question Answering): Don't Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration
+2402.12025   # ACL 2024 Outstanding Paper; SAC Award (Machine Translation): Speech Translation with Speech Foundation Models and Large Language Models: What is There and What is Missing?
+https://aclanthology.org/2024.acl-long.797.pdf   # ACL 2024 Outstanding Paper: Must NLP be Extractive?
+2403.03894   # ACL 2024 Outstanding Paper: IRCoder: Intermediate Representations Make Language Models Robust Multilingual Code Generators
+2306.02069   # ACL 2024 Outstanding Paper: MultiLegalPile: A 689GB Multilingual Legal Corpus
+2401.11880   # ACL 2024 Outstanding Paper: PsySafe: A Comprehensive Framework for Psychological-based Attack, Defense, and Evaluation of Multi-agent System Safety
+2402.13211   # ACL 2024 Outstanding Paper: Can Large Language Models be Good Emotional Supporter? Mitigating Preference Bias on Emotional Support Conversation
+2402.16786   # ACL 2024 Outstanding Paper: Political Compass or Spinning Arrow? Towards More Meaningful Evaluations for Values and Opinions in Large Language Models
+2402.14848   # ACL 2024 Outstanding Paper: Same Task, More Tokens: the Impact of Input Length on the Reasoning Performance of Large Language Models
+2402.10588   # ACL 2024 Outstanding Paper: Do Llamas Work in English? On the Latent Language of Multilingual Transformers
+2403.00794   # ACL 2024 Outstanding Paper: Getting Serious about Humor: Crafting Humor Datasets with Unfunny Large Language Models
+2405.11282   # ACL 2024 Outstanding Paper: Estimating the Level of Dialectness Predicts Inter-annotator Agreement in Multi-dialect Arabic Datasets
+2405.12915   # ACL 2024 Outstanding Paper: G-DIG: Towards Gradient-based DIverse and hiGh-quality Instruction Data Selection for Machine Translation
+https://aclanthology.org/2024.acl-long.822.pdf   # ACL 2024 Outstanding Paper: Media Framing: A typology and Survey of Computational Approaches Across Disciplines
+https://aclanthology.org/2024.acl-long.823.pdf   # ACL 2024 Outstanding Paper: SPZ: A Semantic Perturbation-based Data Augmentation Method with Zonal-Mixing for Alzheimer's Disease Detection
+2403.01289   # ACL 2024 Outstanding Paper; SAC Award (Phonology, Morphology and Word Segmentation): Greed is All You Need: An Evaluation of Tokenizer Inference Methods
+2406.09202   # ACL 2024 Outstanding Paper; SAC Award (Speech recognition, text-to-speech and spoken language understanding): Language Complexity and Speech Recognition Accuracy: Orthographic Complexity Hurts, Phonological Complexity Doesn't
+2312.06681   # ACL 2024 Outstanding Paper; SAC Award (Ethics, Bias, and Fairness): Steering Llama 2 via Contrastive Activation Addition
+2310.10436   # ACL 2024 Outstanding Paper: EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities
+2310.19240   # ACL 2024 Outstanding Paper: M4LE: A Multi-Ability Multi-Range Multi-Task Multi-Domain Long-Context Evaluation Benchmark for Large Language Models
+2408.10918   # ACL 2024 Outstanding Paper; SAC Award (Sentiment Analysis, Stylistic Analysis, and Argument Mining): CHECKWHY: Causal Fact Verification via Argument Structure
+2405.11919   # ACL 2024 Outstanding Paper: On Efficient and Statistical Quality Estimation for Data Annotation
+2402.12343   # ACL 2024 Outstanding Paper: Emulated Disalignment: Safety Alignment for Large Language Models May Backfire!
+2403.06350   # ACL 2024 Outstanding Paper: IndicLLMSuite: A Blueprint for Creating Pre-training and Fine-Tuning Datasets for Indian Languages
+https://aclanthology.org/2024.acl-long.849.pdf   # ACL 2024 Outstanding Paper: MultiPICo: Multilingual Perspectivist Irony Corpus
+2401.08743   # ACL 2024 Outstanding Paper: MMToM-QA: Multimodal Theory of Mind Question Answering
+2311.08817   # ACL 2024 Outstanding Paper; SAC Award (Generation): MAP's not dead yet: Uncovering true language model modes by conditioning away degeneracy
+https://aclanthology.org/2024.acl-long.857.pdf   # ACL 2024 Outstanding Paper: NounAtlas: Filling the Gap in Nominal Semantic Role Labeling
+2312.09085   # ACL 2024 Outstanding Paper: The Earth is Flat because...: Investigating LLMs' Belief towards Misinformation via Persuasive Conversation
+2406.07867   # ACL 2024 Outstanding Paper: Let's Go Real Talk: Spoken Dialogue Model for Face-to-Face Conversation
+2305.12798   # ACL 2024 Outstanding Paper: Word Embeddings Are Steers for Language Models
+https://aclanthology.org/2024.acl-long.341.pdf   # ACL 2024 SAC Award (Discourse and Pragmatics): Discursive Socratic Questioning: Evaluating the Faithfulness of Language Models' Understanding of Discourse Relations
+2401.14280   # ACL 2024 SAC Award (Efficient/Low-Resource Methods for NLP): RomanSetu: Efficiently unlocking multilingual capabilities of Large Language Models via Romanization
+2404.10496   # ACL 2024 SAC Award (Information Retrieval and Text Mining): Spiral of Silence: How is Large Language Model Killing Information Retrieval? A Case Study on Open Domain Question Answering
+2305.05390   # ACL 2024 SAC Award (Linguistic theories, Cognitive Modeling and Psycholinguistics): COKE: A Cognitive Knowledge Graph for Machine Theory of Mind
+2406.12128   # ACL 2024 SAC Award (Multilinguality and Language Diversity): AI 'News' Content Farms Are Easy to Make and Hard to Detect: A Case Study in Italian
+2401.03149   # ACL 2024 SAC Award (Multimodality and Language Grounding to Vision, Robotics and Beyond): CaMML: Context-Aware Multimodal Learner for Large Models
+2403.01931   # ACL 2024 SAC Award (Resources and Evaluation): VariErr NLI: Separating Annotation Error from Human Label Variation
+2309.08325   # ACL 2024 SAC Award (Semantics: Lexical): Distributional Inclusion Hypothesis and Quantifications: Probing for Hypernymy in Functional Distributional Semantics
+2405.05189   # ACL 2024 SAC Award (Semantics: Sentence-level Semantics, Textual Inference and Other areas): MIDGARD: Self-Consistency Using Minimum Description Length for Structured Commonsense Reasoning
+2402.19457   # ACL 2024 SAC Award (Summarization): COSMIC: Mutual Information for Task-Agnostic Summarization Evaluation
+2403.00143   # ACL 2024 SAC Award (Syntax: Tagging, Chunking and Parsing): Tree-Averaging Algorithms for Ensemble-Based Unsupervised Discontinuous Constituency Parsing
+2502.11089   # ACL 2025 Best Paper: Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention
+2406.06144   # ACL 2025 Best Paper: Language Models Resist Alignment: Evidence From Data Compression
+2402.11005   # ACL 2025 Best Paper: A Theory of Response Sampling in LLMs: Part Descriptive and Part Prescriptive
+2502.01926   # ACL 2025 Best Paper: Fairness through Difference Awareness: Measuring Desired Group Discrimination in LLMs
+2505.12158   # ACL 2025 Best Social Impact Paper: The AI Gap: How Socioeconomic Status Affects Language Technology Interactions
+2411.15640   # ACL 2025 Best Social Impact Paper: AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset
+2503.00151   # ACL 2025 Best Resource Paper: Palm: A Culturally Inclusive and Linguistically Diverse Dataset for Arabic LLMs
+2502.14083   # ACL 2025 Best Resource Paper: Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral
+2502.11926   # ACL 2025 Best Resource Paper: BRIGHTER: BRIdging the Gap in Human-Annotated Textual Emotion Recognition Datasets for 28 Languages
+2410.09103   # ACL 2025 Best Theme Paper: MaCP: Minimal yet Mighty Adaptation via Hierarchical Cosine Projection
+https://aclanthology.org/2025.acl-long.1477.pdf   # ACL 2025 Best Theme Paper: SubLIME: Subset Selection via Rank Correlation Prediction for Data-Efficient LLM Evaluation
+2504.14194   # ACL 2025 Best Theme Paper: Meta-rater: A Multi-dimensional Data Selection Method for Pre-training Language Models
+https://aclanthology.org/2025.acl-long.1059.pdf   # ACL 2025 Outstanding Paper: Typology-Guided Adaptation in Multilingual Models
+https://aclanthology.org/2025.acl-long.1070.pdf   # ACL 2025 Outstanding Paper: IndicSynth: A Large-Scale Multilingual Synthetic Speech Dataset for Low-Resource Indian Languages
+2311.07052   # ACL 2025 Outstanding Paper: Towards the Law of Capacity Gap in Distilling Language Models
+2411.15462   # ACL 2025 Outstanding Paper: HateDay: Insights from a Global Hate Speech Dataset Representative of a Day on Twitter
+2506.13216   # ACL 2025 Outstanding Paper: Capability Salience Vector: Fine-grained Alignment of Loss and Capabilities for Downstream Task Scaling Law
+2502.15612   # ACL 2025 Outstanding Paper: LaTIM: Measuring Latent Token-to-Token Interactions in Mamba Models
+2410.10700   # ACL 2025 Outstanding Paper: LLMs know their vulnerabilities: Uncover Safety Gaps through Natural Distribution Shifts
+2502.16487   # ACL 2025 Outstanding Paper: All That Glitters is Not Novel: Plagiarism in AI Generated Research
+2412.14384   # ACL 2025 Outstanding Paper: I0T: Embedding Standardization Method Towards Zero Modality Gap
+2505.10981   # ACL 2025 Outstanding Paper: Rethinking the Role of Prompting Strategies in LLM Test-Time Scaling: A Perspective of Probability Theory
+https://aclanthology.org/2025.acl-long.1451.pdf   # ACL 2025 Outstanding Paper: PARME: Parallel Corpora for Low-Resourced Middle Eastern Languages
+2506.15629   # ACL 2025 Outstanding Paper: Revisiting Compositional Generalization Capability of Large Language Models Considering Instruction Following Ability
+2502.16173   # ACL 2025 Outstanding Paper: Mapping 1,000+ Language Models via the Log-Likelihood Vector
+2409.14820   # ACL 2025 Outstanding Paper: Past Meets Present: Creating Historical Analogy with Large Language Models
+2410.12462   # ACL 2025 Outstanding Paper: Bridging the Language Gaps in Large Language Models with Inference-Time Cross-Lingual Intervention
+2408.08696   # ACL 2025 Outstanding Paper: Turning Trash into Treasure: Accelerating Inference of Large Language Models with Token Recycling
+https://aclanthology.org/2025.acl-long.451.pdf   # ACL 2025 Outstanding Paper: Toward Automatic Discovery of a Canine Phonetic Alphabet
+2412.09871   # ACL 2025 Outstanding Paper: Byte Latent Transformer: Patches Scale Better Than Tokens
+2502.19249   # ACL 2025 Outstanding Paper: Between Circuits and Chomsky: Pre-pretraining on Formal Languages Imparts Linguistic Biases
+2506.03968   # ACL 2025 Outstanding Paper: From Real to Synthetic: Synthesizing Millions of Diversified and Complicated User Instructions with Attributed Grounding
+2506.03887   # ACL 2025 Outstanding Paper: Pre^3: Enabling Deterministic Pushdown Automata for Faster Structured LLM Generation
+2505.19959   # ACL 2025 Outstanding Paper: MiniLongBench: The Low-cost Long Context Understanding Benchmark for Large Language Models
+2501.08292   # ACL 2025 Outstanding Paper: HALoGEN: Fantastic LLM Hallucinations and Where to Find Them
+https://aclanthology.org/2025.acl-long.744.pdf   # ACL 2025 Outstanding Paper: A New Formulation of Zipf’s Meaning-Frequency Law through Contextual Diversity
+2505.09338   # ACL 2025 Outstanding Paper: Llama See, Llama Do: A Mechanistic Perspective on Contextual Entrainment and Distraction in LLMs
+2507.08342   # ACL 2025 Outstanding Paper: Beyond N-Grams: Rethinking Evaluation Metrics and Strategies for Multilingual Abstractive Summarization
+2601.09373   # ACL 2026 Best Paper: The Imperfective Paradox in Large Language Models
+https://aclanthology.org/2026.acl-long.1550.pdf   # ACL 2026 Best Paper: Memory Efficiency and Resource-Rational Encoding in Sentence Processing
+2605.00768   # ACL 2026 Best Paper: Characterizing the Expressivity of Local Attention in Transformers
+2604.10031   # ACL 2026 Best Theme Paper: CoSToM: Causal-oriented Steering for Intrinsic Theory-of-Mind Alignment in Large Language Models
+2601.06575   # ACL 2026 Best Theme Paper: Mapping the Circumplex of Affect: Geometric Analysis of Emotion Representations via Hyperspherical Contrastive Learning
+2510.19631   # ACL 2026 Best Resource Paper: HSCodeComp: A Realistic and Expert-level Agent Benchmark for Hierarchical Rule Application
+2604.08064   # ACL 2026 Best Resource Paper: ImplicitMemBench: Measuring Unconscious Behavioral Adaptation in Large Language Models
+2512.14865   # ACL 2026 Best Resource Paper: Audio MultiChallenge: A Multi-Turn Evaluation of Spoken Dialogue Systems on Natural Human Interaction
+2601.08611   # ACL 2026 Best Resource Paper: VeriTaS: The First Dynamic Benchmark for Multimodal Automated Fact-Checking
+2604.05318   # ACL 2026 Best Social Impact Paper: DIA-HARM: Dialectal Disparities in Harmful Content Detection Across 50 English Dialects
+2604.23486   # ACL 2026 Best Social Impact Paper: Your Students Don't Use LLMs Like You Wish They Did
+2601.05699   # ACL 2026 Best Social Impact Paper: Afri-MCQA: Multimodal Cultural Question Answering for African Languages
+2512.19612   # ACL 2026 Outstanding Paper: MauBERT: Universal Phonetic Inductive Biases for Few-Shot Acoustic Units Discovery
+2503.02368   # ACL 2026 Outstanding Paper: Evolutionary Guided Decoding: Iterative Value Refinement for LLMs
+2604.04932   # ACL 2026 Outstanding Paper: Beyond the Final Actor: Modeling the Dual Roles of Creator and Editor for Fine-Grained LLM-Generated Text Detection
+2601.01685   # ACL 2026 Outstanding Paper: Lying with Truths: Open-Channel Multi-Agent Collusion for Belief Manipulation via Generative Montage
+2607.06540   # ACL 2026 Outstanding Paper: Hierarchical Acoustic-Semantic Modeling: Modality Separation and Semantic Coherence for Full-Duplex SLMs
+2602.15173   # ACL 2026 Outstanding Paper: Mind the (DH) Gap! A Contrast in Risky Choices Between Reasoning and Conversational LLMs
+2512.20822   # ACL 2026 Outstanding Paper: MediEval: A Unified Medical Benchmark for Patient-Contextual and Knowledge-Grounded Reasoning in LLMs
+2601.03190   # ACL 2026 Outstanding Paper: Maximizing Local Entropy Where It Matters: Prefix-Aware Localized LLM Unlearning
+2601.09361   # ACL 2026 Outstanding Paper: GeoRA: Geometry-Aware Low-Rank Adaptation for RLVR
+https://aclanthology.org/2026.acl-long.1321.pdf   # ACL 2026 Outstanding Paper: CURE: Critique-Driven Unified Reinforcement Learning for Test-Time Self-Improvement
+2601.17181   # ACL 2026 Outstanding Paper: Systematicity between Forms and Meanings across Languages Supports Efficient Communication
+2510.10150   # ACL 2026 Outstanding Paper: Rethinking Entropy Interventions in RLVR: An Entropy Change Perspective
+2510.18030   # ACL 2026 Outstanding Paper: From Local to Global: Revisiting Structured Pruning Paradigms for Large Language Models
+2601.10925   # ACL 2026 Outstanding Paper: Massively Multilingual Joint Segmentation and Glossing
+2601.22027   # ACL 2026 Outstanding Paper: CAR-bench: Evaluating the Consistency and Limit-Awareness of LLM Agents under Real-World Uncertainty
+2604.12148   # ACL 2026 Outstanding Paper: ViLL-E: Video LLM Embeddings for Retrieval
+2602.21978   # ACL 2026 Outstanding Paper: CxMP: A Linguistic Minimal-Pair Benchmark for Evaluating Constructional Understanding in Language Models (unverified)
+2604.15647   # ACL 2026 Outstanding Paper: CIG: Measuring Conversational Information Gain in Deliberative Dialogues with Semantic Memory Dynamics
+2109.13238   # EMNLP 2021 Best Long Paper: Visually Grounded Reasoning across Languages and Cultures
+https://aclanthology.org/2021.emnlp-main.364.pdf   # EMNLP 2021 Best Short Paper: CHoRaL: Collecting Humor Reaction Labels from Millions of Social Media Users
+2109.06275   # EMNLP 2021 Outstanding Paper: MindCraft: Theory of Mind Modeling for Situated Dialogue in Collaborative Tasks
+2109.06157   # EMNLP 2021 Outstanding Paper: SituatedQA: Incorporating Extra-Linguistic Contexts into QA
+2102.12459   # EMNLP 2021 Outstanding Paper: When Attention Meets Fast Recurrence: Training Language Models with Reduced Compute
+https://aclanthology.org/2021.emnlp-main.113.pdf   # EMNLP 2021 Outstanding Paper: Shortcutted Commonsense: Data Spuriousness in Deep Learning of Commonsense Reasoning
+2211.16492   # EMNLP 2022 Best Long Paper: Abstract Visual Reasoning with Tangram Shapes
+https://aclanthology.org/2022.emnlp-main.70.pdf   # EMNLP 2022 Best Short Paper: Topic-Regularized Authorship Representation Learning (unverified)
+2104.04369   # NAACL 2021 Best Long Paper: Video-aided Unsupervised Grammar Induction
+https://aclanthology.org/2021.naacl-main.31.pdf   # NAACL 2021 Outstanding Long Paper: Unifying Cross-Lingual Semantic Role Labeling with Heterogeneous Linguistic Resources
+2009.07118   # NAACL 2021 Outstanding Long Paper: It's Not Just Size That Matters: Small Language Models Are Also Few-Shot Learners
+2104.06599   # NAACL 2021 Best Short Paper: Learning How to Ask: Querying LMs with Mixtures of Soft Prompts
+2103.08493   # NAACL 2021 Outstanding Short Paper: How many data points is a prompt worth?
+2103.06944   # NAACL 2021 Best Thematic Paper: Preregistering NLP research
+2112.08726   # NAACL 2022 Best New Method Paper: NeuroLogic A*esque Decoding: Constrained Text Generation with Lookahead Heuristics
+2206.08593   # NAACL 2022 Best New Task Paper (tied) and Best New Resource Paper; Honorable Mention (human-centered NLP theme): Automatic Correction of Human Translations
+2112.08634   # NAACL 2022 Best New Task Paper (tied): FRUIT: Faithfully Reflecting Updated Information in Text
+2105.03824   # NAACL 2022 Best Efficient NLP Paper: FNet: Mixing Tokens with Fourier Transforms
+2205.02549   # NAACL 2022 Best Paper on Human-Centered NLP Special Theme: User-Driven Research of Medical Note Generation Software
+2205.04086   # NAACL 2022 Outstanding Paper (Honorable Mention, methods): A Balanced Data Approach for Evaluating Cross-Lingual Transfer: Mapping the Linguistic Blood Bank
+2206.07106   # NAACL 2022 Outstanding Paper (Honorable Mention, resources): NewsEdits: A News Article Revision Dataset and a Novel Document-Level Reasoning Challenge
+2305.14160   # EMNLP 2023 Best Paper: Label Words are Anchors: An Information Flow Perspective for Understanding In-Context Learning
+2311.14919   # EMNLP 2023 Best Paper: Faster Minimum Bayes Risk Decoding with Confidence-based Pruning
+2311.16119   # EMNLP 2023 Best Paper: Ignore This Title and HackAPrompt: Exposing Systemic Vulnerabilities of LLMs Through a Global Prompt Hacking Competition
+https://aclanthology.org/2023.emnlp-demo.45.pdf   # EMNLP 2023 Best Paper: PaperMage: A Unified Toolkit for Processing, Representing, and Manipulating Visually-Rich Scientific Documents
+https://aclanthology.org/2023.emnlp-industry.9.pdf   # EMNLP 2023 Best Paper: Personalized Dense Retrieval on Global Index for Voice-enabled Conversational Systems
+2310.15164   # EMNLP 2023 Outstanding Paper: LINC: A Neurosymbolic Approach for Logical Reasoning by Combining Language Models with First-Order Logic Provers
+2310.15302   # EMNLP 2023 Outstanding Paper: Toward a Critical Toponymy Framework for Named Entity Recognition: A Case Study of Airbnb in New York City
+2212.10465   # EMNLP 2023 Outstanding Paper: SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization
+2311.02802   # EMNLP 2023 Outstanding Paper: Incorporating Worker Perspectives into MTurk Annotation Practices for NLP
+2310.16924   # EMNLP 2023 Outstanding Paper: Physician Detection of Clinical Harm in Machine Translation: Quality Estimation Aids in Reliance and Backtranslation Identifies Critical Errors
+2305.13981   # EMNLP 2023 Outstanding Paper: Preserving Knowledge Invariance: Rethinking Robustness Evaluation of Open Information Extraction
+2304.09542   # EMNLP 2023 Outstanding Paper: Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents
+2310.16350   # EMNLP 2023 Outstanding Paper: Unraveling Feature Extraction Mechanisms in Neural Networks
+2310.10543   # EMNLP 2023 Outstanding Paper: ViPE: Visualise Pretty-much Everything
+2312.03897   # EMNLP 2023 Outstanding Paper: Revisiting the Optimality of Word Lengths
+https://aclanthology.org/2023.emnlp-main.466.pdf   # EMNLP 2023 Outstanding Paper: Language Model Quality Correlates with Psychometric Predictive Power in Multiple Languages
+https://aclanthology.org/2023.emnlp-main.529.pdf   # EMNLP 2023 Outstanding Paper: FedID: Federated Interactive Distillation for Large-Scale Pretraining Language Models
+2305.14324   # EMNLP 2023 Outstanding Paper: Ties Matter: Meta-Evaluating Modern Metrics with Pairwise Accuracy and Tie Calibration
+2310.10378   # EMNLP 2023 Outstanding Paper: Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models
+2305.13477   # EMNLP 2023 Outstanding Paper: Look-back Decoding for Open-Ended Text Generation
+2310.06816   # EMNLP 2023 Outstanding Paper: Text Embeddings Reveal (Almost) As Much As Text
+2305.13658   # EMNLP 2023 Outstanding Paper: Understanding Compositional Data Augmentation in Typologically Diverse Morphological Inflection
+2305.14010   # EMNLP 2023 Outstanding Paper: IfQA: A Dataset for Open-domain Question Answering under Counterfactual Presuppositions
+2310.05030   # EMNLP 2023 Outstanding Paper: Counter Turing Test (CT2): AI-Generated Text Detection is Not as Easy as You May Think - Introducing AI Detectability Index (ADI)
+2305.14599   # EMNLP 2023 Outstanding Paper: Bridging Continuous and Discrete Spaces: Interpretable Sentence Representation Learning via Compositional Operations
+2310.12318   # EMNLP 2023 Outstanding Paper: The Sentiment Problem: A Critical Survey towards Deconstructing Sentiment Analysis
+2310.09925   # EMNLP 2023 Outstanding Paper: Homophone Disambiguation Reveals Patterns of Context Mixing in Speech Transformers
+2310.16197   # EMNLP 2023 Outstanding Paper: Background Summarization of Event Timelines
+2305.15057   # EMNLP 2023 Outstanding Paper: Linear-Time Modeling of Linguistic Structure: An Order-Theoretic Perspective
+https://aclanthology.org/2023.emnlp-industry.19.pdf   # EMNLP 2023 Outstanding Paper: Joint Dialogue Topic Segmentation and Categorization: A Case Study on Clinical Spoken Conversations
+2402.00658   # EMNLP 2024 Outstanding Paper: Learning Planning-based Reasoning by Trajectories Collection and Process Reward Synthesizing
+2403.19827   # EMNLP 2024 Outstanding Paper: Language Models Learn Rare Phenomena from Less Rare Phenomena: The Case of the Missing AANNs
+2402.12865   # EMNLP 2024 Best Paper: Backward Lens: Projecting Language Model Gradients into the Vocabulary Space
+2405.01379   # EMNLP 2024 Outstanding Paper: Verification and Refinement of Natural Language Explanations through LLM-Symbolic Theorem Proving
+2406.11149   # EMNLP 2024 Outstanding Paper: GoldCoin: Grounding Large Language Models in Privacy Laws via Contextual Integrity Theory
+2404.13940   # EMNLP 2024 Best Resource Paper: A User-Centric Multi-Intent Benchmark for Evaluating Large Language Models
+2311.09205   # EMNLP 2024 Outstanding Paper: When Is Multilinguality a Curse? Language Modeling for 250 High- and Low-Resource Languages
+2409.13843   # EMNLP 2024 Best Social Impact Paper: STOP! Benchmarking Large Language Models with Sensitivity Testing on Offensive Progressions
+2410.03884   # EMNLP 2024 Best Resource Paper: KidLM: Advancing Language Models for Children – Early Insights and Future Directions
+2409.14781   # EMNLP 2024 Best Paper: Pretraining Data Detection for Large Language Models: A Divergence-based Calibration Method
+2410.04784   # EMNLP 2024 Outstanding Paper: Formality is Favored: Unraveling the Learning Preferences of Large Language Models on Data with Conflicting Knowledge
+2406.08482   # EMNLP 2024 Outstanding Paper: Words Worth a Thousand Pictures: Measuring and Understanding Perceptual Variability in Text-to-Image Generation
+2406.14739   # EMNLP 2024 Outstanding Paper: Learning to Retrieve Iteratively for In-Context Learning
+2407.00837   # EMNLP 2024 Best Paper: Towards Robust Speech Representation Learning for Thousands of Languages
+2404.01247   # EMNLP 2024 Best Paper: An image speaks a thousand words, but can everyone listen? On image transcreation for cultural relevance
+2405.05417   # EMNLP 2024 Outstanding Paper: Fishing for Magikarp: Automatically Detecting Under-trained Tokens in Large Language Models
+2409.07440   # EMNLP 2024 Outstanding Paper: SUPER: Evaluating Agents on Setting Up and Executing Tasks from Research Repositories
+2408.15992   # EMNLP 2024 Best Paper: CoGen: Learning from Feedback with Coupled Comprehension and Generation
+2406.14883   # EMNLP 2024 Outstanding Paper: OATH-Frames: Characterizing Online Attitudes Towards Homelessness with LLM Assistants
+2406.13439   # EMNLP 2024 Outstanding Paper: Finding Blind Spots in Evaluator LLMs with Interpretable Checklists
+2410.14057   # EMNLP 2024 Outstanding Paper: Towards Cross-Cultural Machine Translation with Retrieval-Augmented Generation from Multilingual Knowledge Graphs
+2406.12680   # EMNLP 2024 Outstanding Paper: Measuring Psychological Depth in Language Models
+2407.13248   # EMNLP 2024 Outstanding Paper: Are Large Language Models Capable of Generating Human-Level Narratives?
+2410.20817   # EMNLP 2024 Outstanding Paper: The Zeno’s Paradox of ‘Low-Resource’ Languages
+2410.00545   # EMNLP 2024 Best Social Impact Paper: What the Harm? Quantifying the Tangible Impact of Gender Bias in Machine Translation with a Human-centered Study
+2410.12284   # EMNLP 2024 Outstanding Paper: Fool Me Once? Contrasting Textual and Visual Explanations in a Clinical Decision-Support Setting
+2406.15570   # EMNLP 2024 Best Special Theme Paper: DEM: Distribution Edited Model for Training with Mixed Data Distributions
+https://aclanthology.org/2024.emnlp-main.1101.pdf   # EMNLP 2024 Outstanding Paper: Threshold-driven Pruning with Segmented Maximum Term Weights for Approximate Cluster-based Sparse Retrieval
+2404.10917   # EMNLP 2024 Outstanding Paper: Which questions should I answer? Salience Prediction of Inquisitive Questions
+2402.17954   # EMNLP 2024 Best Social Impact Paper: Twists, Humps, and Pebbles: Multilingual Speech Recognition Models Exhibit Gender Performance Gaps
+https://aclanthology.org/2024.emnlp-main.1216.pdf   # EMNLP 2024 Outstanding Paper: Do LLMs Plan Like Human Writers? Comparing Journalist Coverage of Press Releases with LLMs
+2506.12229   # EMNLP 2025 Best Paper: Infini-gram mini: Exact n-gram Search at the Internet Scale with FM-Index
+2505.16002   # EMNLP 2025 Outstanding Paper: Causal Interventions Reveal Shared Structure Across English Filler–Gap Constructions
+2501.15463   # EMNLP 2025 Outstanding Paper: Mind the Value-Action Gap: Do LLMs Act in Alignment with Their Values?
+2506.15583   # EMNLP 2025 Outstanding Paper: DiscoSG: Towards Discourse-Level Text Scene Graph Parsing through Iterative Graph Refinement
+2506.12181   # EMNLP 2025 Outstanding Paper: Generative or Discriminative? Revisiting Text Classification in the Era of Transformers
+2502.14829   # EMNLP 2025 Outstanding Paper: Measuring Chain of Thought Faithfulness by Unlearning Reasoning Steps
+2511.00343   # EMNLP 2025 Outstanding Paper: LingGym: How Far Are LLMs from Thinking Like Field Linguists?
+2505.24846   # EMNLP 2025 Outstanding Paper: MiCRo: Mixture Modeling and Context-aware Routing for Personalized Preference Learning
+https://aclanthology.org/2025.emnlp-main.1180.pdf   # EMNLP 2025 Best Special Theme Paper: InterIDEAS: Philosophical Intertextuality via LLMs
+2502.12065   # EMNLP 2025 Best Resource Paper: Autoformalization in the Wild: Assessing LLMs on Real-World Mathematical Definitions
+2509.22703   # EMNLP 2025 Best Social Impact Paper: AccessEval: Benchmarking Disability Bias in Large Language Models
+2508.17744   # EMNLP 2025 People's Choice Award: Randomly Removing 50% of Dimensions in Text Embeddings has Minimal Impact on Retrieval and Classification Tasks
+2310.13257   # NAACL 2024 Best Paper: Visual Grounding Helps Learn Word Meanings in Low-Data Regimes
+2309.05452   # NAACL 2024 Best Paper: Evaluating the Deductive Competence of Large Language Models
+2308.16137   # NAACL 2024 Outstanding Paper: LM-Infinite: Zero-Shot Extreme Length Generalization for Large Language Models (unverified)
+2406.07935   # NAACL 2024 Outstanding Paper: Defining and Detecting Vulnerability in Human Evaluation Guidelines: A Preliminary Study Towards Reliable NLG Evaluation (unverified)
+2310.10908   # NAACL 2024 Outstanding Paper: Unlocking Emergent Modularity in Large Language Models (unverified)
+2311.09677   # NAACL 2024 Outstanding Paper: R-Tuning: Instructing Large Language Models to Say 'I Don't Know' (unverified)
+2310.13522   # NAACL 2024 Outstanding Paper: Teaching Language Models to Self-Improve through Interactive Demonstrations (unverified)
+2305.13169   # NAACL 2024 Outstanding Paper: A Pretrainer's Guide to Training Data: Measuring the Effects of Data Age, Domain Coverage, Quality, & Toxicity (unverified)
+https://aclanthology.org/2024.naacl-long.354.pdf   # NAACL 2024 Best Theme Paper: Grammar-based Data Augmentation for Low-Resource Languages: The Case of Guarani-Spanish Neural Machine Translation
+2405.04655   # NAACL 2024 Best Social Impact Paper: Understanding the Capabilities and Limitations of Large Language Models for Cultural Commonsense
+2308.16705   # NAACL 2024 Best Resource Paper: Exploring Cross-Cultural Differences in English Hate Speech Annotations: From Dataset Construction to Analysis (unverified)
+2406.05761   # NAACL 2025 Best Paper: The BiGGen Bench: A Principled Benchmark for Fine-grained Evaluation of Language Models with Language Models
+2407.07950   # NAACL 2025 Best Paper Runner-Up: REL-A.I.: An Interaction-Centered Approach To Measuring Human-LM Reliance
+2408.13585   # NAACL 2025 Best Social Impact Paper: FLEURS-ASL: Including American Sign Language in Massively Multilingual Multitask Evaluation
+2410.12705   # NAACL 2025 Best Theme Paper: WorldCuisines: A Massive-Scale Benchmark for Multilingual and Multicultural Visual Question Answering on Global Cuisines
+2502.02703   # NAACL 2025 Best Theme Paper Runner-Up: Developing multilingual speech synthesis system for Ojibwe, Mi'kmaq, and Maliseet
+2502.13668   # NAACL 2025 Outstanding Paper: PeerQA: A Scientific Question Answering Dataset from Peer Reviews
+2406.16342   # NAACL 2025 Outstanding Paper: Is your benchmark truly adversarial? AdvScore: Evaluating Human-Grounded Adversarialness
+2502.08080   # NAACL 2025 Outstanding Paper: NLI under the Microscope: What Atomic Hypothesis Decomposition Reveals
+2406.03368   # NAACL 2025 Outstanding Paper: IrokoBench: A New Benchmark for African Languages in the Age of Large Language Models
+2406.02804   # NAACL 2025 Outstanding Paper: ACCORD: Closing the Commonsense Measurability Gap
+2501.14877   # NAACL 2025 Outstanding Paper: DrawEduMath: Evaluating Vision Language Models with Expert-Annotated Students' Hand-Drawn Math Images
+2408.03618   # NAACL 2025 Outstanding Paper: A Logical Fallacy-Informed Framework for Argument Generation
+2409.04318   # NAACL 2025 Outstanding Paper: Learning vs Retrieval: The Role of In-Context Examples in Regression with Large Language Models
+2411.03888   # NAACL 2025 Outstanding Paper: Multi3Hate: Multimodal, Multilingual, and Multicultural Hate Speech Detection with Vision-Language Models
+2410.18697   # NAACL 2025 Outstanding Paper: How Good Are LLMs for Literary Translation, Really? Literary Translation Evaluation with Humans and LLMs
+2402.01528   # NAACL 2025 SAC Award (Generation): Decoding Speculative Decoding
+2407.19200   # NAACL 2025 SAC Award (Interpretability and Analysis of Models for NLP): On Behalf of the Stakeholders: Trends in NLP Model Interpretability in the Era of LLMs
+2405.00200   # NAACL 2025 SAC Award (Language Modeling): In-Context Learning with Long-Context Models: An In-Depth Exploration
+2502.05670   # NAACL 2025 SAC Award (Linguistic Theories, Cognitive Modeling and Psycholinguistics): Language Models Largely Exhibit Human-like Constituent Ordering Preferences
+2504.01337   # NAACL 2025 SAC Award (Low-resource Methods for NLP): Advancing MoE Efficiency: A Collaboration-Constrained Routing (C2R) Strategy for Better Expert Parallelism Design
+2412.09416   # NAACL 2025 SAC Award (Resources and Evaluation): Unifying AI Tutor Evaluation: An Evaluation Taxonomy for Pedagogical Ability Assessment of LLM-Powered AI Tutors
+2502.09637   # NAACL 2025 SAC Award (Special Theme): Meta-Cultural Competence: Climbing the Right Hill of Cultural Awareness
+https://aclanthology.org/2025.naacl-long.484.pdf   # NAACL 2025 SAC Award (Speech Processing and Spoken Language Understanding): Behavior-SD: Behaviorally Aware Spoken Dialogue Generation with Large Language Models
+2412.08795   # NAACL 2025 SAC Award (Summarization): Coverage-based Fairness in Multi-document Summarization

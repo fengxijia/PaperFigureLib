@@ -1,0 +1,608 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paper Figure Library</title>
+<meta name="description" content="Figures from award-winning and high-impact computer science papers, cut out and sorted by figure type, venue and year. A reference library for drawing your own.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<meta property="og:title" content="Paper Figure Library">
+<meta property="og:description" content="Figures from award-winning and high-impact CS papers, sorted by type, venue and year.">
+<meta property="og:image" content="icon-512.png">
+<meta name="theme-color" content="#1F5F8B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  --bg: #F4F5F3;
+  --surface: #FFFFFF;
+  --surface-2: #ECEEEA;
+  --line: #D9DCD6;
+  --ink: #1B1F24;
+  --muted: #667079;
+  --accent: #1F5F8B;
+  --accent-ink: #FFFFFF;
+  --thumb-bg: #FFFFFF;
+  --c-background: #B9761A;
+  --c-method: #2E6DB4;
+  --c-data: #2F8F5B;
+  --c-example: #8452B5;
+  --c-prompt: #7A7F85;
+  --c-table: #8C5A3C;
+  --c-other: #9AA0A6;
+  --shadow: 0 1px 2px rgba(20,30,40,.06), 0 8px 24px rgba(20,30,40,.08);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #15181C; --surface: #1E2228; --surface-2: #262B32; --line: #333A42;
+    --ink: #E6E8EB; --muted: #8B949E; --accent: #6FA8DC; --accent-ink: #0F1A24;
+    --thumb-bg: #F7F7F5;
+    --c-background: #D89A45; --c-method: #6FA8DC; --c-data: #5DBB84; --c-example: #B48AE0;
+    --c-prompt: #9AA0A6; --c-table: #C08A68; --c-other: #7D848A;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #15181C; --surface: #1E2228; --surface-2: #262B32; --line: #333A42;
+  --ink: #E6E8EB; --muted: #8B949E; --accent: #6FA8DC; --accent-ink: #0F1A24;
+  --thumb-bg: #F7F7F5;
+  --c-background: #D89A45; --c-method: #6FA8DC; --c-data: #5DBB84; --c-example: #B48AE0;
+  --c-prompt: #9AA0A6; --c-table: #C08A68; --c-other: #7D848A;
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: "IBM Plex Sans", "PingFang SC", "Noto Sans CJK SC", system-ui, sans-serif;
+  font-size: 14px; line-height: 1.5;
+  padding-inline: 16px; padding-block: 0;
+}
+.mono { font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace; font-variant-numeric: tabular-nums; }
+a { color: var(--accent); }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ---------- top bar */
+.top {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px;
+  padding-block: 14px 10px; border-bottom: 1px solid var(--line);
+  position: sticky; top: 0; background: var(--bg); z-index: 5;
+}
+.brand { display: flex; align-items: baseline; gap: 10px; }
+.brand h1 { margin: 0; font-size: 18px; font-weight: 600; letter-spacing: -0.01em; }
+.brand .stats { color: var(--muted); font-size: 12px; }
+.search { flex: 1 1 260px; min-width: 200px; max-width: 520px; display: flex; }
+.search input {
+  width: 100%; padding: 7px 12px; border: 1px solid var(--line); border-radius: 6px;
+  background: var(--surface); color: var(--ink); font: inherit;
+}
+.search input::placeholder { color: var(--muted); }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.controls label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
+.controls select {
+  padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px;
+  background: var(--surface); color: var(--ink); font: inherit;
+}
+
+/* ---------- layout */
+.wrap { display: grid; grid-template-columns: 200px 1fr; gap: 20px; padding-block: 14px 40px; }
+@media (max-width: 760px) { .wrap { grid-template-columns: 1fr; } .rail { position: static; } }
+.rail { position: sticky; top: 74px; align-self: start; max-height: calc(100vh - 90px); overflow: auto; }
+.rail h2 { margin: 12px 0 6px; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.tree { list-style: none; margin: 0; padding: 0; }
+.tree li { margin: 0; }
+.tree button {
+  width: 100%; display: flex; align-items: center; gap: 8px;
+  padding: 5px 8px; border: 0; border-radius: 6px; background: transparent; text-align: left; cursor: pointer;
+}
+.tree button:hover { background: var(--surface-2); }
+.tree button[aria-pressed="true"] { background: var(--surface); box-shadow: inset 0 0 0 1px var(--line); font-weight: 500; }
+.tree .sub button { padding-left: 24px; }
+.tree .n { margin-left: auto; color: var(--muted); font-size: 12px; }
+.dot { width: 9px; height: 9px; border-radius: 50%; flex: none; background: var(--c-other); }
+.dot.background { background: var(--c-background); } .dot.method { background: var(--c-method); }
+.dot.data { background: var(--c-data); } .dot.example { background: var(--c-example); }
+.dot.prompt { background: var(--c-prompt); } .dot.table { background: var(--c-table); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  padding: 3px 9px; border: 1px solid var(--line); border-radius: 999px; background: transparent;
+  font-size: 12px; cursor: pointer;
+}
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+
+/* ---------- grid */
+.main { min-width: 0; }
+.result-line { color: var(--muted); font-size: 12px; margin: 0 0 12px; display: flex; gap: 12px; flex-wrap: wrap; align-items: baseline; }
+.result-line b { color: var(--ink); font-weight: 500; }
+/* justified wall: each card asks for a width proportional to the figure's physical size in the paper;
+   flex then stretches the row to fill, so a full-width figure takes about two slots and a small panel less than one */
+/* justified rows: JS gives every card an explicit width and height so each row spans the page exactly, no holes */
+.grid { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-start; }
+h3.group { margin: 22px 0 4px; font-size: 15px; font-weight: 600; letter-spacing: -0.01em; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+h3.group:first-child { margin-top: 4px; }
+.tier { margin: 8px 0 8px; font-size: 10.5px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.card {
+  margin: 0; background: var(--thumb-bg); border: 1px solid var(--line);
+  border-radius: 8px; overflow: hidden; cursor: pointer; display: block; width: 100%; padding: 0; text-align: left; position: relative;
+}
+.card:hover, .card:focus-visible { box-shadow: var(--shadow); border-color: var(--muted); }
+.stack { display: flex; flex-direction: column; gap: 10px; }
+.stack .card { width: 100% !important; }
+.card .img { display: block; width: 100%; height: 100%; padding: 5px; box-sizing: border-box; }
+.card img { display: block; width: 100%; height: 100%; object-fit: contain; }
+/* hover ribbon: a translucent strip along the bottom edge, sized by its four short lines */
+.card .hover {
+  position: absolute; left: 0; right: 0; bottom: 0; display: block;
+  padding: 6px 9px 7px; color: #fff; font-size: 11px; line-height: 1.3;
+  background: rgba(14,17,21,.78); backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px);
+  opacity: 0; transform: translateY(6px); transition: opacity .18s ease, transform .18s ease; pointer-events: none;
+}
+.card:hover .hover, .card:focus-visible .hover { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .card .hover { transition: none; transform: none; } }
+.card .hover > span { display: block; min-width: 0; }
+.card .hover .line1 { display: flex; gap: 8px; align-items: baseline; margin-bottom: 2px; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 10.5px; letter-spacing: .02em; }
+.card .hover .venue { font-weight: 600; white-space: nowrap; }
+.card .hover .award { opacity: .9; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.card .hover .title { font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.card .hover .authors { opacity: .8; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 10px; }
+.card .hover .kind { display: flex; align-items: center; gap: 5px; opacity: .85; font-size: 10px; margin-top: 1px; }
+.card .hover .kind .dot { width: 7px; height: 7px; flex: none; }
+@media (hover: none) and (pointer: coarse) { .card .hover { opacity: 1; transform: none; } }
+.tag { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; color: var(--muted); }
+.tag .dot { width: 7px; height: 7px; }
+.empty { color: var(--muted); padding: 40px 0; text-align: center; }
+.more { display: block; margin: 8px auto 0; padding: 8px 18px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); cursor: pointer; }
+
+/* ---------- lightbox */
+.lb { position: fixed; inset: 0; background: rgba(10,14,18,.78); z-index: 20; display: grid; place-items: center; padding: 16px; }
+.lb[hidden] { display: none; }
+.lb .box {
+  background: var(--surface); color: var(--ink); border-radius: 10px; max-width: min(1400px, 100%); max-height: 100%;
+  width: 100%; display: grid; grid-template-columns: minmax(0, 1fr) 320px; overflow: hidden; box-shadow: var(--shadow);
+}
+@media (max-width: 860px) { .lb .box { grid-template-columns: 1fr; overflow: auto; } }
+.lb .view { background: var(--thumb-bg); display: grid; place-items: center; padding: 16px; min-height: 240px; overflow: auto; max-height: calc(100vh - 32px); }
+.lb .view img { max-width: 100%; max-height: calc(100vh - 64px); height: auto; display: block; cursor: zoom-in; }
+.lb .view.natural { place-items: start; }
+.lb .view.natural img { max-width: none; max-height: none; cursor: zoom-out; }
+.lb .side { padding: 18px 18px 20px; overflow: auto; max-height: calc(100vh - 32px); display: flex; flex-direction: column; gap: 12px; border-left: 1px solid var(--line); }
+.lb .side h3 { margin: 0; font-size: 15px; font-weight: 600; line-height: 1.35; text-wrap: balance; }
+.lb .kv { display: grid; grid-template-columns: 64px 1fr; gap: 4px 10px; font-size: 12px; }
+.lb .kv dt { color: var(--muted); } .lb .kv dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.lb .caption { font-size: 13px; color: var(--ink); margin: 0; }
+.lb .summary { font-size: 13px; padding: 8px 10px; border-left: 3px solid var(--accent); background: var(--surface-2); margin: 0; }
+.lb .tags { display: flex; flex-wrap: wrap; gap: 5px; }
+.lb .tags span { font-size: 11px; padding: 2px 8px; border-radius: 999px; background: var(--surface-2); color: var(--ink); }
+.lb .nav { display: flex; gap: 8px; margin-top: auto; }
+.lb .nav button, .lb .close { padding: 6px 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); cursor: pointer; }
+.lb .close { position: absolute; top: 24px; right: 24px; }
+@media (prefers-reduced-motion: no-preference) { .card { transition: box-shadow .15s ease, border-color .15s ease; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <h1>Paper Figure Library</h1>
+    <span class="stats" id="stats"></span>
+  </div>
+  <div class="search"><input id="q" type="search" placeholder="搜图注、论文题目、标签、arXiv 号"></div>
+  <div class="controls">
+    <label for="venue" id="l-venue">会议</label>
+    <select id="venue"><option value="" id="o-allvenue">全部</option></select>
+    <label for="sort" id="l-sort">排序</label>
+    <select id="sort">
+      <option value="paper" id="o-paper">按论文</option>
+      <option value="wall" id="o-wall">新到旧</option>
+      <option value="edition" id="o-edition">按届分组</option>
+      <option value="year" id="o-year">年份新到旧</option>
+      <option value="wide" id="o-wide">宽图优先</option>
+      <option value="tall" id="o-tall">高图优先</option>
+    </select>
+    <button class="chip" id="lang" type="button" aria-label="switch language">EN</button>
+  </div>
+</header>
+
+<div class="wrap">
+  <aside class="rail">
+    <h2 id="h-type">图的类型</h2>
+    <ul class="tree" id="tree"></ul>
+    <h2 id="h-source">来源</h2>
+    <div class="chips" id="sources"></div>
+    <h2 id="h-draw">绘制方式</h2>
+    <div class="chips" id="draw"></div>
+    <h2 id="h-style">同款数据图</h2>
+    <div class="chips" id="style"></div>
+    <h2 id="h-textbox">文字框</h2>
+    <div class="chips" id="textbox"></div>
+  </aside>
+  <main class="main">
+    <p class="result-line" id="resultLine"></p>
+    <div id="grid"></div>
+    <button class="more" id="more" hidden>再显示 120 张</button>
+    <p class="empty" id="empty" hidden>没有符合条件的图。换个关键词或者放宽筛选。</p>
+    <p class="result-line" id="footer" style="margin-top:32px">图片版权归各论文作者所有，本站仅供学术参考；每张图都标明了论文出处。</p>
+  </main>
+</div>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="figure detail">
+  <button class="close" id="lbClose" aria-label="close">关闭 Esc</button>
+  <div class="box">
+    <div class="view"><img id="lbImg" alt=""></div>
+    <div class="side">
+      <h3 id="lbTitle"></h3>
+      <p class="caption" id="lbAuthors" style="color:var(--muted);margin-top:-6px"></p>
+      <dl class="kv">
+        <dt id="k-num">图号</dt><dd class="mono" id="lbNum"></dd>
+        <dt id="k-kind">类型</dt><dd id="lbKind"></dd>
+        <dt id="k-venue">会议</dt><dd id="lbVenue"></dd>
+        <dt>arXiv</dt><dd class="mono" id="lbArxiv"></dd>
+        <dt id="k-pos">位置</dt><dd class="mono" id="lbPos"></dd>
+        <dt id="k-file">原图</dt><dd id="lbFile"></dd>
+      </dl>
+      <p class="summary" id="lbSummary"></p>
+      <p class="caption" id="lbCap"></p>
+      <div class="tags" id="lbTags"></div>
+      <div class="nav">
+        <button id="lbPrev">上一张</button>
+        <button id="lbNext">下一张</button>
+        <button id="lbShare">复制链接</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const SITE = window.SITE || {};            // set by `figlib site`: {img_base, shards}
+const IMG = SITE.img_base || '';
+async function loadData() {
+  if (!SITE.shards) return JSON.parse(document.getElementById('data').textContent);
+  const parts = await Promise.all(SITE.shards.map(u => fetch(u).then(r => r.json())));
+  const head = parts[0];
+  return { ...head, papers: parts.flatMap(p => p.papers) };
+}
+(async function main() {
+const DATA = await loadData();
+const MODE = "__MODE__";
+let LANG = (location.search.includes('lang=en') || (() => { try { return localStorage.getItem('figlib-lang') === 'en'; } catch (e) { return false; } })()) ? 'en' : 'zh';
+const T = {
+  zh: { search: '搜图注、论文题目、标签、arXiv 号', venue: '会议', all: '全部', sort: '排序', byPaper: '按论文', byYear: '年份新到旧', wide: '宽图优先', tall: '高图优先',
+        type: '图的类型', source: '来源', draw: '绘制方式', textbox: '文字框', more: '再显示 200 张', empty: '没有符合条件的图。换个关键词或者放宽筛选。',
+        footer: '图片版权归各论文作者所有，本站仅供学术参考；每张图都标明了论文出处。', close: '关闭 Esc', num: '图号', kind: '类型', pos: '位置', file: '原图',
+        prev: '上一张', next: '下一张', share: '复制链接', copied: '已复制', openPng: '在新窗口打开原图', none: '无', unknown: '未识别', pdf: '论文 PDF',
+        award: '获奖论文（Best Paper 等）', seed: '顶会经典（种子清单）', local: '本地论文库', vector: '矢量图（可仿的线条）', raster: '含位图',
+        hide: '隐藏提示词和表格截图', show: '显示', heur: '（按图注粗分）', page: '第 {p} 页', bitmap: '含位图', vec: '矢量', full: '通栏', zoom: '点图看原尺寸',
+        byWall: '新到旧', byEdition: '按届分组', verified: '{m} 复核过', wholeArea: '所有', stats: '{p} 篇顶会论文 · {f} 张图 · 更新于 {d}', result: '符合条件 <b>{n}</b> 张，显示前 {k} 张', styleH: '同款数据图', oneStyle: '每篇只留一张', allStyle: '全部显示', figure: 'Figure {n}', panel: '，子图 {k}/{n}' },
+  en: { search: 'Search captions, titles, tags, arXiv id', venue: 'Venue', all: 'All', sort: 'Sort', byPaper: 'By paper', byYear: 'Newest first', wide: 'Wide first', tall: 'Tall first',
+        type: 'Figure type', source: 'Source', draw: 'Drawing', textbox: 'Text boxes', more: 'Show 200 more', empty: 'No figures match. Try another keyword or loosen the filters.',
+        footer: 'Figures belong to their papers\' authors; this site is for academic reference and every figure links to its source paper.', close: 'Close Esc', num: 'Figure', kind: 'Type', pos: 'Where', file: 'File',
+        prev: 'Previous', next: 'Next', share: 'Copy link', copied: 'Copied', openPng: 'Open full image', none: 'none', unknown: 'unknown', pdf: 'Paper PDF',
+        award: 'Award papers (best paper etc.)', seed: 'Classic / high-impact', local: 'Local library', vector: 'Vector (line art)', raster: 'Contains bitmap',
+        hide: 'Hide prompt and table screenshots', show: 'Show', heur: ' (caption-based guess)', page: 'page {p}', bitmap: 'bitmap', vec: 'vector', full: 'full width', zoom: 'click to zoom',
+        byWall: 'Newest first', byEdition: 'Grouped by edition', verified: 'checked by {m}', wholeArea: 'All', stats: '{p} top-venue papers · {f} figures · updated {d}', result: '<b>{n}</b> figures match, showing {k}', styleH: 'Same-style charts', oneStyle: 'One per paper', allStyle: 'Show all', figure: 'Figure {n}', panel: ', panel {k}/{n}' },
+};
+const t = (k, v = {}) => T[LANG][k].replace(/\{(\w+)\}/g, (_, x) => v[x]);
+const CAT_L = {
+  zh: { background: '背景图', method: '方法图', data: '数据图', example: '样例图', prompt: '提示词', table: '表格', other: '其他' },
+  en: { background: 'Background', method: 'Method', data: 'Data chart', example: 'Example', prompt: 'Prompt', table: 'Table', other: 'Other' } };
+const CHART_L = {
+  zh: { bar: '柱状图', line: '曲线图', scatter: '散点图', pie: '饼图', heatmap: '热力图', box: '箱线图', violin: '小提琴图', radar: '雷达图', histogram: '直方图', area: '面积图', confusion_matrix: '混淆矩阵', mixed: '组合图', other: '其他图表' },
+  en: { bar: 'Bar', line: 'Line', scatter: 'Scatter', pie: 'Pie', heatmap: 'Heatmap', box: 'Box plot', violin: 'Violin', radar: 'Radar', histogram: 'Histogram', area: 'Area', confusion_matrix: 'Confusion matrix', mixed: 'Mixed', other: 'Other chart' } };
+let CAT_ZH = CAT_L[LANG], CHART_ZH = CHART_L[LANG];
+const CAT_ORDER = ['method', 'background', 'data', 'example', 'table', 'prompt', 'other'];
+const CHART_ORDER = ['bar', 'line', 'scatter', 'pie', 'heatmap', 'histogram', 'box', 'violin', 'radar', 'area', 'confusion_matrix', 'other'];
+const HEUR = { teaser: 'background', method: 'method', result: 'data', example: 'example', prompt: 'prompt', other: 'other' };
+
+// flatten
+const FIGS = [];
+for (const p of DATA.papers) {
+  const m = p.meta || {};
+  for (const f of p.figures) {
+    const v = f.vision || null;
+    FIGS.push({
+      id: f.fig_id, num: f.num, page: f.page, caption: f.caption,
+      cat: v ? v.category : (HEUR[f.kind] || 'other'),
+      chart: v ? ((v.chart_type === 'mixed' ? 'other' : v.chart_type) || '') : '',
+      panel: f.panel || 0, nPanels: f.n_panels || 0,
+      tags: v ? v.tags : [], summary: v ? v.summary_zh : '', labeled: !!v, verified: v ? (v.verified || '') : '',
+      raster: f.has_raster, wide: !!f.full_width,
+      w: f.extra && f.extra.px_w || 0, h: f.extra && f.extra.px_h || 0, dpi: f.extra && f.extra.dpi || 170,
+      tw: f.extra && f.extra.tw || 0, density: f.extra && f.extra.density || 0,
+      paper: m.title || p.paper_key, venue: m.venue || '', area: m.area || '', year: m.year || '', arxiv: m.arxiv_id || '',
+      source: m.source || 'local', note: m.note || '', url: m.url || '', key: p.paper_key,
+      rank: m.award_rank == null ? 5 : m.award_rank, awardZh: m.award_zh || '', awardEn: m.award_en || '', authors: m.authors || [],
+      thumb: IMG + (f.thumb || ('figs/' + f.fig_id + '.thumb.png')), full: IMG + (f.full || ('figs/' + f.fig_id + '.png')),
+    });
+  }
+}
+
+// a paper often draws the same style of chart several times with different data; keep the first per style
+{
+  const seen = new Set();
+  for (const f of FIGS) {
+    if (f.cat !== 'data') continue;
+    const k = f.key + '|' + (f.chart || 'u' + Math.round(4 * f.w / Math.max(1, f.h)));  // unlabelled charts: bucket by aspect ratio
+    if (seen.has(k)) f.dupStyle = true; else seen.add(k);
+  }
+}
+
+const state = { q: '', cat: '', chart: '', venue: '', area: '', source: '', draw: '', textbox: 'hide', style: 'one', sort: 'paper', shown: 200 };
+const AREAS = DATA.areas || [];
+const areaLabel = (id) => { const a = AREAS.find(x => x.id === id); return a ? (LANG === 'zh' ? a.zh : a.en) : id; };
+const TEXTBOX_CATS = new Set(['prompt', 'table']);   // prompt templates, algorithm boxes, tables drawn as figures
+const $ = (id) => document.getElementById(id);
+
+function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+
+function matches(f) {
+  // prompt / table boxes are screenshots of text: hidden unless asked for, or unless that type is selected
+  if (state.textbox === 'hide' && TEXTBOX_CATS.has(f.cat) && !TEXTBOX_CATS.has(state.cat)) return false;
+  if (state.style === 'one' && f.dupStyle) return false;
+  if (state.cat && f.cat !== state.cat) return false;
+  if (state.chart && f.chart !== state.chart) return false;
+  if (state.venue && f.venue !== state.venue) return false;
+  if (state.area && f.area !== state.area) return false;
+  if (state.source && f.source !== state.source) return false;
+  if (state.draw === 'vector' && f.raster) return false;
+  if (state.draw === 'raster' && !f.raster) return false;
+  if (state.q) {
+    const hay = (f.caption + ' ' + f.paper + ' ' + f.tags.join(' ') + ' ' + f.summary + ' ' + f.arxiv + ' ' + f.venue).toLowerCase();
+    for (const w of state.q.toLowerCase().split(/\s+/).filter(Boolean)) if (!hay.includes(w)) return false;
+  }
+  return true;
+}
+
+const TIER = { zh: ['最佳论文', '优秀论文', 'Spotlight', 'Oral', '高影响力经典', '其他论文'], en: ['Best paper', 'Outstanding paper', 'Spotlight', 'Oral', 'High-impact classics', 'Other papers'] };
+function groupKey(f) { return `${f.year || '?'}|${f.venue || '?'}`; }
+function groupTitle(f) {
+  const y = f.year || (LANG === 'zh' ? '年份未识别' : 'year unknown');
+  return `${y} · ${f.venue || (LANG === 'zh' ? '会议未识别' : 'venue unknown')}`;
+}
+// merge one stream per figure type so every screenful shows method, background and data figures side by side;
+// each stream keeps paper order and advances in proportion to its length, so a paper's figures stay close together
+function mixKinds(l) {
+  const streams = {}, order = [];
+  for (const f of l) { if (!streams[f.cat]) { streams[f.cat] = []; order.push(f.cat); } streams[f.cat].push(f); }
+  if (order.length < 2) return l;
+  const pos = {}; for (const k of order) pos[k] = 0;
+  const out = [];
+  while (out.length < l.length) {
+    let best = null, bt = 2;
+    for (const k of order) { const s = streams[k]; if (pos[k] >= s.length) continue; const tt = (pos[k] + 0.5) / s.length; if (tt < bt) { bt = tt; best = k; } }
+    out.push(streams[best][pos[best]++]);
+  }
+  return out;
+}
+function sorted(list) {
+  const l = list.slice();
+  if (state.sort === 'paper') {
+    l.sort((a, b) => (a.rank - b.rank) || (b.year || '0').localeCompare(a.year || '0') || a.key.localeCompare(b.key) || (+a.num - +b.num) || (a.panel - b.panel));
+    return state.cat ? l : mixKinds(l);
+  }
+  if (state.sort === 'edition' || state.sort === 'wall') l.sort((a, b) => (b.year || '0').localeCompare(a.year || '0') || (a.venue || '~').localeCompare(b.venue || '~') || (a.rank - b.rank) || a.key.localeCompare(b.key) || (+a.num - +b.num) || (a.panel - b.panel));
+  else if (state.sort === 'year') l.sort((a, b) => (b.year || '').localeCompare(a.year || '') || a.key.localeCompare(b.key) || (+a.num - +b.num));
+  else if (state.sort === 'wide') l.sort((a, b) => (b.w / Math.max(1, b.h)) - (a.w / Math.max(1, a.h)));
+  else if (state.sort === 'tall') l.sort((a, b) => (a.w / Math.max(1, a.h)) - (b.w / Math.max(1, b.h)));
+  return l;
+}
+
+// Justified rows (the Flickr layout): walk the cards in order, close a row when the shared height that makes
+// it span the container falls below the target, then size every card in the row to that height.
+const ROW_GAP = 10;
+function layoutRows(block) {
+  const W = block.clientWidth; if (!W) return;
+  // row height grows with the page so a wide monitor shows about 4 to 5 figures per row instead of 7
+  const ROW_TARGET = Math.max(190, Math.min(380, Math.round(W / 7.5))), ROW_MIN = Math.round(ROW_TARGET * 0.7), ROW_MAX = Math.round(ROW_TARGET * 1.5);
+  const cards = Array.from(block.children);
+  let row = [], ars = 0;
+  const arOf = c => c.classList.contains('stack')
+    ? 1 / Array.from(c.children).reduce((s, k) => s + 1 / +k.dataset.ar, 0) * (1 - ROW_GAP / Math.max(ROW_MIN, ROW_TARGET))
+    : +c.dataset.ar;
+  const flush = (h, justify) => {
+    if (!justify) h = Math.min(h, ROW_TARGET);
+    let used = 0;
+    row.forEach((c, i) => {
+      let w = Math.floor(h * arOf(c));
+      if (justify && i === row.length - 1) w = W - used - ROW_GAP * (row.length - 1);   // absorb rounding
+      c.style.width = w + 'px'; used += w;
+      if (c.classList.contains('stack')) {
+        c.style.height = Math.round(h) + 'px';
+        Array.from(c.children).forEach(k => { k.style.height = Math.round(w / +k.dataset.ar) + 'px'; const im = k.querySelector('img'); if (im.srcset) im.sizes = w + 'px'; });
+      } else { c.style.height = Math.round(h) + 'px'; const im = c.querySelector('img'); if (im.srcset) im.sizes = w + 'px'; }
+    });
+    row = []; ars = 0;
+  };
+  for (const c of cards) {
+    row.push(c); ars += arOf(c);
+    const h = (W - ROW_GAP * (row.length - 1)) / ars;
+    if (h <= ROW_TARGET) flush(Math.max(ROW_MIN, h), true);
+  }
+  if (row.length) {                      // last row: justify only if it would not blow the cards up
+    const h = (W - ROW_GAP * (row.length - 1)) / ars;
+    flush(Math.min(h, ROW_MAX), h <= ROW_MAX);
+  }
+}
+function layoutAll() { document.querySelectorAll('.grid').forEach(layoutRows); }
+{ let tm = 0; window.addEventListener('resize', () => { clearTimeout(tm); tm = setTimeout(layoutAll, 120); }); }
+
+let current = [];
+function render() {
+  current = sorted(FIGS.filter(matches));
+  const grid = $('grid');
+  grid.innerHTML = '';
+  const slice = current.slice(0, state.shown);
+  const frag = document.createDocumentFragment();
+  let lastGroup = null, lastTier = null, block = null, pendingSimple = null;
+  slice.forEach((f, i) => {
+    if (state.sort === 'edition') {
+      const g = groupKey(f);
+      if (g !== lastGroup) {
+        const h = document.createElement('h3'); h.className = 'group'; h.textContent = groupTitle(f); frag.appendChild(h);
+        lastGroup = g; lastTier = null;
+      }
+      if (f.rank !== lastTier) {
+        const s = document.createElement('div'); s.className = 'tier'; s.textContent = TIER[LANG][f.rank]; frag.appendChild(s);
+        block = document.createElement('div'); block.className = 'grid'; frag.appendChild(block); lastTier = f.rank;
+      }
+    } else if (!block) { block = document.createElement('div'); block.className = 'grid'; frag.appendChild(block); }
+    const b = document.createElement('button');
+    b.className = 'card'; b.dataset.i = i;
+    // aspect ratio drives the justified layout; very tall or very wide figures are letterboxed a little
+    b.dataset.ar = f.w && f.h ? Math.max(0.6, Math.min(4, f.w / f.h)).toFixed(3) : '1.4';
+    // a plain chart carries little information: show it at half height, two stacked in one cell
+    const simple = f.cat === 'data' && f.density && f.density < 150 && +b.dataset.ar >= 1.2 && +b.dataset.ar <= 2.6;
+    const award = f.source === 'award' ? (LANG === 'zh' ? f.awardZh : f.awardEn) || TIER[LANG][f.rank] : TIER[LANG][f.rank];
+    const authors = f.authors && f.authors.length ? f.authors.slice(0, 3).join(', ') + (f.authors.length > 3 ? (LANG === 'zh' ? ' 等' : ' et al.') : '') : '';
+    // a figure that is natively small stays small (centered); big ones scale down to the column
+    const natW = f.w ? Math.round(f.w / 2) : 0;      // thumbs are rendered for 2x screens: show at half their pixels at most
+    const srcset = f.tw && f.w > f.tw ? ` srcset="${esc(f.thumb)} ${f.tw}w, ${esc(f.full)} ${f.w}w" sizes="300px"` : '';
+    b.innerHTML = `<span class="img"><img loading="lazy" src="${esc(f.thumb)}"${srcset} alt="${esc(f.caption.slice(0, 80))}"></span>
+      <span class="hover"><span class="line1"><span class="venue">${esc([f.venue, f.year].filter(Boolean).join(' ') || (LANG === 'zh' ? '会议未识别' : 'venue unknown'))}</span><span class="award">· ${esc(award)}</span></span>
+      <span class="title">${esc(f.paper)}</span>${authors ? `<span class="authors">${esc(authors)}</span>` : ''}
+      <span class="kind"><i class="dot ${esc(f.cat)}"></i>${CAT_ZH[f.cat] || f.cat}${f.chart ? ' · ' + (CHART_ZH[f.chart] || f.chart) : ''} · ${t('figure', { n: f.num })}${f.panel ? t('panel', { k: f.panel, n: f.nPanels }) : ''}</span></span>`;
+    if (simple && pendingSimple && pendingSimple.parentNode === block && block.children.length - Array.from(block.children).indexOf(pendingSimple) <= 6) {
+      const st = document.createElement('div'); st.className = 'stack';
+      block.replaceChild(st, pendingSimple); st.appendChild(pendingSimple); st.appendChild(b); pendingSimple = null;
+    } else { block.appendChild(b); if (simple) pendingSimple = b; }
+  });
+  grid.appendChild(frag);
+  layoutAll();
+  $('empty').hidden = current.length > 0;
+  $('more').hidden = current.length <= state.shown;
+  const labeled = FIGS.filter(f => f.labeled).length;
+  $('resultLine').innerHTML = `<span>${t('result', { n: current.length, k: Math.min(state.shown, current.length) })}</span>`;
+}
+
+function buildRail() {
+  const counts = {}, chartCounts = {};
+  for (const f of FIGS) { counts[f.cat] = (counts[f.cat] || 0) + 1; if (f.cat === 'data') chartCounts[f.chart || 'other'] = (chartCounts[f.chart || 'other'] || 0) + 1; }
+  const tree = $('tree');
+  const li = (cat, chart, label, n, sub) => `<li class="${sub ? 'sub' : ''}"><button data-cat="${cat}" data-chart="${chart}" aria-pressed="false"><i class="dot ${cat}"></i>${label}<span class="n mono">${n}</span></button></li>`;
+  let html = `<li><button data-cat="" data-chart="" aria-pressed="${state.cat ? 'false' : 'true'}">${t('all')}<span class="n mono">${FIGS.length}</span></button></li>`;
+  for (const c of CAT_ORDER) {
+    if (!counts[c]) continue;
+    html += li(c, '', CAT_ZH[c], counts[c], false).replace('aria-pressed="false"', `aria-pressed="${state.cat === c && !state.chart ? 'true' : 'false'}"`);
+    if (c === 'data') for (const t of CHART_ORDER) if (chartCounts[t]) html += li('data', t, CHART_ZH[t], chartCounts[t], true);
+  }
+  tree.innerHTML = html;
+  if (tree.dataset.bound) return;
+  tree.dataset.bound = '1';
+  tree.addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    state.cat = b.dataset.cat; state.chart = b.dataset.chart; state.shown = 200;
+    tree.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b ? 'true' : 'false'));
+    render();
+  });
+
+  // venue select: one optgroup per CSRankings area, the group's own option filters the whole area
+  const venues = {}, byArea = {};
+  for (const f of FIGS) if (f.venue) { venues[f.venue] = (venues[f.venue] || 0) + 1; byArea[f.area || ''] = (byArea[f.area || ''] || 0) + 1; }
+  const sel = $('venue');
+  const keep = sel.value;
+  sel.innerHTML = `<option value="">${t('all')}</option>`;
+  const areaOf = {}; for (const f of FIGS) if (f.venue) areaOf[f.venue] = f.area || '';
+  const order = AREAS.map(a => a.id).concat(['']);
+  for (const aid of order) {
+    const top = (AREAS.find(a => a.id === aid) || {}).top || [];
+    const present = Object.keys(venues).filter(v => areaOf[v] === aid);
+    const vs = top.filter(v => present.includes(v)).concat(present.filter(v => !top.includes(v)).sort());
+    if (!vs.length) continue;
+    const g = document.createElement('optgroup'); g.label = aid ? areaLabel(aid) : t('unknown');
+    if (aid) { const o = document.createElement('option'); o.value = 'area:' + aid; o.textContent = `${t('wholeArea')} ${areaLabel(aid)} (${byArea[aid]})`; g.appendChild(o); }
+    vs.forEach(v => { const o = document.createElement('option'); o.value = v; o.textContent = `${v} (${venues[v]})`; g.appendChild(o); });
+    sel.appendChild(g);
+  }
+  sel.value = keep;
+
+  const present = new Set(FIGS.map(f => f.source));
+  const src = Object.fromEntries([['', t('all')], ['award', t('award')], ['seed', t('seed')], ['local', t('local')]].filter(([k]) => !k || present.has(k)));
+  $('sources').innerHTML = Object.entries(src).map(([k, v]) => `<button class="chip" data-k="source" data-v="${k}" aria-pressed="${k === state.source ? 'true' : 'false'}">${v}</button>`).join('');
+  const draw = { '': t('all'), vector: t('vector'), raster: t('raster') };
+  $('draw').innerHTML = Object.entries(draw).map(([k, v]) => `<button class="chip" data-k="draw" data-v="${k}" aria-pressed="${k === state.draw ? 'true' : 'false'}">${v}</button>`).join('');
+  const st = { one: t('oneStyle'), all: t('allStyle') };
+  $('style').innerHTML = Object.entries(st).map(([k, v]) => `<button class="chip" data-k="style" data-v="${k}" aria-pressed="${k === state.style ? 'true' : 'false'}">${v}</button>`).join('');
+  const tb = { hide: t('hide'), show: t('show') };
+  $('textbox').innerHTML = Object.entries(tb).map(([k, v]) => `<button class="chip" data-k="textbox" data-v="${k}" aria-pressed="${k === state.textbox ? 'true' : 'false'}">${v}</button>`).join('');
+  if (document.body.dataset.chipsBound) return;
+  document.body.dataset.chipsBound = '1';
+  document.querySelectorAll('.chips').forEach(box => box.addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    state[b.dataset.k] = b.dataset.v; state.shown = 200;
+    box.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b ? 'true' : 'false'));
+    render();
+  }));
+}
+
+// lightbox
+let lbIndex = -1;
+function openLb(i) {
+  const f = current[i]; if (!f) return;
+  lbIndex = i;
+  $('lbImg').src = f.full; $('lbImg').alt = f.caption.slice(0, 120);
+  $('lbTitle').textContent = f.paper;
+  $('lbAuthors').textContent = (f.authors || []).join(', ');
+  $('lbAuthors').hidden = !(f.authors && f.authors.length);
+  $('lbNum').textContent = t('figure', { n: f.num }) + (f.panel ? t('panel', { k: f.panel, n: f.nPanels }) : '');
+  $('lbKind').textContent = (CAT_ZH[f.cat] || f.cat) + (f.chart ? ' · ' + (CHART_ZH[f.chart] || f.chart) : '') + (f.labeled ? (f.verified ? ' · ' + t('verified', { m: f.verified }) : '') : t('heur'));
+  $('lbVenue').textContent = ([f.venue, f.year].filter(Boolean).join(' ') || t('unknown')) + (f.area ? ' · ' + areaLabel(f.area) : '') + (f.note && f.source === 'award' ? ' · ' + f.note.split(':')[0] : '') + (f.source === 'seed' ? ' · ' + TIER[LANG][4] : '');
+  $('lbArxiv').innerHTML = f.arxiv ? `<a href="https://arxiv.org/abs/${esc(f.arxiv)}" target="_blank" rel="noopener">${esc(f.arxiv)}</a>` : (f.url ? `<a href="${esc(f.url)}" target="_blank" rel="noopener">${t('pdf')}</a>` : t('none'));
+  $('lbPos').textContent = `${t('page', { p: f.page })} · ${f.w}×${f.h}px · ${f.raster ? t('bitmap') : t('vec')}${f.wide ? ' · ' + t('full') : ''} · ${t('zoom')}`;
+  $('lbFile').innerHTML = `<a href="${esc(f.full)}" target="_blank" rel="noopener">${t('openPng')}</a>`;
+  history.replaceState(null, '', '#fig=' + encodeURIComponent(f.id));
+  $('lbSummary').textContent = f.summary || '';
+  $('lbSummary').hidden = !f.summary;
+  $('lbCap').textContent = f.caption;
+  $('lbTags').innerHTML = f.tags.map(t => `<span>${esc(t)}</span>`).join('');
+  $('lbImg').parentElement.classList.remove('natural');
+  $('lb').hidden = false;
+  $('lbPrev').disabled = i <= 0; $('lbNext').disabled = i >= current.length - 1;
+  $('lbClose').focus();
+}
+function closeLb() { $('lb').hidden = true; lbIndex = -1; history.replaceState(null, '', location.pathname + location.search); }
+function applyLang() {
+  CAT_ZH = CAT_L[LANG]; CHART_ZH = CHART_L[LANG];
+  $('q').placeholder = t('search'); $('l-venue').textContent = t('venue'); $('o-allvenue').textContent = t('all'); $('l-sort').textContent = t('sort');
+  $('o-wall').textContent = t('byWall'); $('o-edition').textContent = t('byEdition'); $('o-paper').textContent = t('byPaper'); $('o-year').textContent = t('byYear'); $('o-wide').textContent = t('wide'); $('o-tall').textContent = t('tall');
+  $('h-type').textContent = t('type'); $('h-source').textContent = t('source'); $('h-draw').textContent = t('draw'); $('h-textbox').textContent = t('textbox'); $('h-style').textContent = t('styleH');
+  $('more').textContent = t('more'); $('empty').textContent = t('empty'); $('footer').textContent = t('footer'); $('lbClose').textContent = t('close');
+  $('k-num').textContent = t('num'); $('k-kind').textContent = t('kind'); $('k-venue').textContent = t('venue'); $('k-pos').textContent = t('pos'); $('k-file').textContent = t('file');
+  $('lbPrev').textContent = t('prev'); $('lbNext').textContent = t('next'); $('lbShare').textContent = t('share');
+  $('lang').textContent = LANG === 'zh' ? 'EN' : '中文';
+  document.documentElement.lang = LANG === 'zh' ? 'zh-CN' : 'en';
+  $('stats').textContent = t('stats', { p: DATA.n_papers, f: DATA.n_figures, d: DATA.generated });
+  buildRail(); render();
+}
+
+$('grid').addEventListener('click', e => { const b = e.target.closest('.card'); if (b) openLb(+b.dataset.i); });
+$('lbClose').addEventListener('click', closeLb);
+$('lbImg').addEventListener('click', () => $('lbImg').parentElement.classList.toggle('natural'));
+$('lb').addEventListener('click', e => { if (e.target === $('lb')) closeLb(); });
+$('lbPrev').addEventListener('click', () => openLb(lbIndex - 1));
+$('lbShare').addEventListener('click', async () => { try { await navigator.clipboard.writeText(location.href); $('lbShare').textContent = t('copied'); setTimeout(() => $('lbShare').textContent = t('share'), 1500); } catch (e) {} });
+$('lang').addEventListener('click', () => { LANG = LANG === 'zh' ? 'en' : 'zh'; try { localStorage.setItem('figlib-lang', LANG); } catch (e) {} applyLang(); });
+$('lbNext').addEventListener('click', () => openLb(lbIndex + 1));
+document.addEventListener('keydown', e => {
+  if ($('lb').hidden) return;
+  if (e.key === 'Escape') closeLb();
+  if (e.key === 'ArrowLeft' && lbIndex > 0) openLb(lbIndex - 1);
+  if (e.key === 'ArrowRight' && lbIndex < current.length - 1) openLb(lbIndex + 1);
+});
+$('q').addEventListener('input', e => { state.q = e.target.value.trim(); state.shown = 200; render(); });
+$('venue').addEventListener('change', e => { const v = e.target.value; state.area = v.startsWith('area:') ? v.slice(5) : ''; state.venue = v.startsWith('area:') ? '' : v; state.shown = 200; render(); });
+$('sort').addEventListener('change', e => { state.sort = e.target.value; render(); });
+$('more').addEventListener('click', () => { state.shown += 200; render(); });
+
+applyLang();
+if (location.search.includes('hoverdemo')) { const st = document.createElement('style'); st.textContent = '.card:nth-child(-n+3) .hover{opacity:1;transform:none}'; document.head.appendChild(st); }
+// deep link: #fig=<id> opens that figure
+{ const m = location.hash.match(/^#fig=(.+)$/); if (m) { const id = decodeURIComponent(m[1]); state.textbox = 'show'; state.style = 'all'; render(); const i = current.findIndex(f => f.id === id); if (i >= 0) openLb(i); } }
+})();
+</script>
+</body>
+</html>

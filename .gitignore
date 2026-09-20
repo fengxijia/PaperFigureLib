@@ -1,0 +1,8 @@
+data/
+site/
+.venv/
+__pycache__/
+*.pyc
+site.env
+.wrangler/
+node_modules/

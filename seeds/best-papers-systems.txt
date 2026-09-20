@@ -1,0 +1,87 @@
+# 系统 / 体系结构 / HPC 板块近 5 年 Best / Distinguished Paper（OSDI、SOSP、EuroSys、FAST、USENIX ATC、ASPLOS、ISCA、MICRO、HPCA、SC、HPDC、ICS，2021 到 2026）。
+# 2026-09-13 由并行调查产出。USENIX 直链可下；SOSP / ASPLOS / ISCA 多数只在 ACM DL（NOPDF 已剔除）。
+2008.12260   # OSDI 2021 Best Paper: Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning
+2106.14651   # OSDI 2021 Best Paper: MAGE: Nearly Zero-Cost Virtual Memory for Secure Computation
+https://www.usenix.org/system/files/osdi21-yao.pdf   # OSDI 2021 Best Paper: DistAI: Data-Driven Automated Invariant Learning for Distributed Protocols
+https://www.usenix.org/system/files/osdi22-wang.pdf   # OSDI 2022 Best Paper: MemLiner: Lining up Tracing and Application for a Far-Memory-Friendly Runtime
+https://www.usenix.org/system/files/osdi22-zhong_1.pdf   # OSDI 2022 Best Paper: XRP: In-Kernel Storage Functions with eBPF
+2212.07597   # OSDI 2023 Best Paper: Triangulating Python Performance Issues with SCALENE
+https://www.usenix.org/system/files/osdi23-sadok.pdf   # OSDI 2023 Best Paper: Enso: A Streaming Interface for NIC-Application Communication
+https://www.usenix.org/system/files/osdi24-chow.pdf   # OSDI 2024 Best Paper: ServiceLab: Preventing Tiny Performance Regressions at Hyperscale through Pre-Production Testing
+https://www.usenix.org/system/files/osdi24-zhou.pdf   # OSDI 2024 Best Paper: VeriSMo: A Verified Security Module for Confidential VMs
+https://www.usenix.org/system/files/osdi24-sun-xudong.pdf   # OSDI 2024 Best Paper: Anvil: Verifying Liveness of Cluster Management Controllers
+https://www.usenix.org/system/files/osdi25-zhang-tony.pdf   # OSDI 2025 Best Paper: Basilisk: Using Provenance Invariants to Automate Proofs of Undecidable Protocols
+https://www.usenix.org/system/files/osdi25-schuermann.pdf   # OSDI 2025 Best Paper: Building Bridges: Safe Interactions with Foreign Languages through Omniglot
+https://www.usenix.org/system/files/osdi26-chen-luofan.pdf   # OSDI 2026 Best Paper: Teaching the Old Dog New Tricks: Building Efficient Data Pipelines for Large-Scale LLM Pre-Training
+https://www.usenix.org/system/files/osdi26-lin-li.pdf   # OSDI 2026 Best Paper: ValScope: Value-Semantics-Aware Metamorphic Testing for Detecting Logical Bugs in DBMSs
+https://www.usenix.org/system/files/osdi26-lamprou.pdf   # OSDI 2026 Best Paper: Controlling Opaque-Component Effects with Semisolates and Try
+2007.09436   # EuroSys 2021 Best Paper: Pash: Light-touch Data-Parallel Shell Processing
+2104.12721   # EuroSys 2021 Best Paper: Unikraft: Fast, Specialized Unikernels the Easy Way
+2111.04007   # EuroSys 2022 Best Paper: Varuna: Scalable, Low-cost Training of Massive Deep Learning Models
+2105.11827   # EuroSys 2022 Best Paper: Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus
+2202.01354   # EuroSys 2023 Best Paper: Dissecting BFT Consensus: In Trusted Components we Trust!
+2405.16444   # EuroSys 2025 Best Paper: CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion
+2005.09723   # FAST 2021 Best Paper: High Velocity Kernel File Systems with Bento
+2208.00772   # FAST 2022 Best Paper: Improving the Reliability of Next Generation SSDs using WOM-v Codes
+https://www.usenix.org/system/files/fast23-lu.pdf   # FAST 2023 Best Paper: Perseus: A Fail-Slow Detection Framework for Cloud Storage Systems
+https://www.usenix.org/system/files/fast23-li-pengfei.pdf   # FAST 2023 Best Paper: ROLEX: A Scalable RDMA-oriented Learned Key-Value Store for Disaggregated Memory Systems
+https://www.usenix.org/system/files/fast24-jun.pdf   # FAST 2024 Best Paper: We Ain't Afraid of No File Fragmentation
+https://www.usenix.org/system/files/fast24-zhang-weidong.pdf   # FAST 2024 Best Paper: What's the Story in EBS Glory: Evolutions and Lessons in Building Cloud Block Store
+https://www.usenix.org/system/files/fast25-liu-jing.pdf   # FAST 2025 Best Paper: Fast, Transparent Filesystem Microkernel Recovery with Ananke
+2407.00079   # FAST 2025 Best Paper: Mooncake: Trading More Storage for Less Computation
+https://www.usenix.org/system/files/fast26-yang.pdf   # FAST 2026 Best Paper: Here, There and Everywhere: The Past, the Present and the Future of Local Storage in Cloud
+2512.13047   # FAST 2026 Best Paper: Sharpen the Spec, Cut the Code: A Case for Generative File System with SYSSPEC
+https://www.usenix.org/system/files/atc21-weng.pdf   # USENIX ATC 2021 Best Paper: Argus: Debugging Performance Issues in Modern Desktop Applications with Annotated Causal Tracing
+1905.13348   # USENIX ATC 2021 Best Paper: INFaaS: Automated Model-less Inference Serving
+https://www.usenix.org/system/files/atc21-feng-yihui.pdf   # USENIX ATC 2021 Best Paper: Scaling Large Production Clusters with Partitioned Synchronization
+https://www.usenix.org/system/files/atc22-jansen.pdf   # USENIX ATC 2022 Best Paper: Co-opting Linux Processes for High-Performance Network Simulation
+2108.12469   # USENIX ATC 2022 Best Paper: Riker: Always-Correct and Fast Incremental Builds from Simple Specifications
+https://www.usenix.org/system/files/atc23-yasukata.pdf   # USENIX ATC 2023 Best Paper: zpoline: a system call hook mechanism based on binary rewriting
+2305.13162   # USENIX ATC 2023 Best Paper: On-demand Container Loading in AWS Lambda
+https://www.usenix.org/system/files/atc24-shirwadkar.pdf   # USENIX ATC 2024 Best Paper: FastCommit: resource-efficient, performant and cost-effective file system journaling
+https://www.usenix.org/system/files/atc24-li-hongyu.pdf   # USENIX ATC 2024 Best Paper: An Empirical Study of Rust-for-Linux
+2402.06194   # USENIX ATC 2024 Best Paper: SuperBench: Improving Cloud AI Infrastructure Reliability with Proactive Validation
+https://www.usenix.org/system/files/atc25-lamprou.pdf   # USENIX ATC 2025 Best Paper: The Koala Benchmarks for the Shell: Characterization and Implications
+https://www.usenix.org/system/files/atc25-zur.pdf   # USENIX ATC 2025 Best Paper: Accelerating Nested Virtualization with HyperTurtle
+2011.13994   # ASPLOS 2021 Distinguished Paper: Who's Debugging the Debuggers? Exposing Debug Information Bugs in Optimized Binaries
+2102.06590   # ASPLOS 2021 Distinguished Paper: VSync: Push-Button Verification and Optimization for Synchronization Primitives on Weak Memory Models
+2102.06599   # ASPLOS 2021 Distinguished Paper: Neural Architecture Search as Program Transformation Exploration
+2109.02484   # ASPLOS 2021 Distinguished Paper: Compiler-Driven FPGA Virtualization with SYNERGY
+2201.06325   # ASPLOS 2022 Best Paper: A Tree Clock Data Structure for Causal Orderings in Concurrent Executions
+2203.00241   # ASPLOS 2023 Distinguished Paper: Pond: CXL-Based Memory Pooling Systems for Cloud Platforms
+2110.06870   # ASPLOS 2023 Distinguished Paper: Junkyard Computing: Repurposing Discarded Smartphones to Minimize Carbon
+2211.14647   # ASPLOS 2023 Distinguished Paper: Hacky Racers: Exploiting Instruction-Level Parallelism to Generate Stealthy Fine-Grained Timers
+2403.17818   # ASPLOS 2024 Best Paper: CSSTs: A Dynamic Data Structure for Partial Orders in Concurrent Execution Analysis
+2407.00435   # ASPLOS 2025 Best Paper: MetaSapiens: Real-Time Neural Rendering with Efficiency-Aware Pruning and Accelerated Foveated Rendering
+2311.03470   # ASPLOS 2025 Best Paper: Orion: A Fully Homomorphic Encryption Framework for Deep Learning
+2601.01265   # ASPLOS 2026 Best Paper: CounterPoint: Using Hardware Event Counters to Refute and Refine Microarchitectural Assumptions
+2509.08193   # ASPLOS 2026 Best Paper: Lifetime-Aware Design of Item-Level Intelligence
+2505.23819   # ASPLOS 2026 Best Paper Honorable Mention: Linear Layouts: Robust Code Generation of Efficient Tensor Computation Using F2
+2601.18140   # ASPLOS 2026 Best Paper Honorable Mention: RTeAAL Sim: Using Tensor Algebra to Represent and Accelerate RTL Simulation
+2504.09014   # ASPLOS 2026 Best Paper Honorable Mention: MSCCL++: Rethinking GPU Communication Abstractions for AI Inference
+2601.19213   # ASPLOS 2026 Best Paper Honorable Mention: M2XFP: A Metadata-Augmented Microscaling Data Format for Efficient Low-bit Quantization
+2603.10026   # ASPLOS 2026 Best Paper Honorable Mention: RedFuser: An Automatic Operator Fusion Framework for Cascaded Reductions on AI Accelerators
+2602.17119   # ASPLOS 2026 Best Paper Honorable Mention: A Data-Driven Dynamic Execution Orchestration Architecture
+2509.21271   # ASPLOS 2026 Best Paper Honorable Mention: SuperOffload: Unleashing the Power of Large-Scale LLM Training on Superchips
+2406.18786   # ISCA 2024 Best Paper: Constable: Improving Performance and Power Efficiency by Safely Eliminating Load Execution
+2510.05497   # ISCA 2026 Best Paper: Patterns Behind Chaos: Forecasting Data Movement for Efficient Large-Scale MoE LLM Inference
+2605.02220   # ISCA 2026 Best Paper: Cerberus: Cross-Layer ECC Co-Design for Robust and Efficient Memory Protection
+2209.00188   # MICRO 2022 Best Paper: Hermes: Accelerating Long-Latency Load Requests via Perceptron-Based Off-Chip Load Prediction
+2408.04104   # MICRO 2024 Best Paper Runner-up: Hardware-Assisted Virtualization of Neural Processing Units for Cloud Platforms
+2405.10170   # MICRO 2024 Best Paper Runner-up: A Mess of Memory System Benchmarking, Simulation and Application Profiling
+2505.04567   # MICRO 2025 Best Paper: Flexing RISC-V Instruction Subset Processors to Extreme Edge
+2212.12613   # HPCA 2023 Best Paper: Scalable and Secure Row-Swap: Efficient and Safe Row Hammer Mitigation in Memory Systems
+2308.00846   # HPCA 2024 Best Paper: Pathfinding Future PIM Architectures by Demystifying a Commercial PIM Technology
+2403.06664   # HPCA 2024 Best Paper Honorable Mention: Smart-Infinity: Fast Large Language Model Training using Near-Storage Processing on a Real System
+2104.04473   # SC 2021 Best Student Paper: Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM
+2208.11469   # SC 2022 Best Paper: ProbGraph: High-Performance and High-Accuracy Graph Mining with Probabilistic Set Representations
+2404.14193   # SC 2024 Best Paper: LLAMP: Assessing Network Latency Tolerance of HPC Applications with Linear Programming
+2407.10841   # SC 2024 Best Student Paper: On the Efficacy of Surface Codes in Compensating for Radiation Events in Superconducting Devices
+2505.04802   # SC 2025 Best Paper: ORBIT-2: Scaling Exascale Vision Foundation Models for Weather and Climate Downscaling
+2508.13337   # SC 2025 Best Student Paper: X-MoE: Enabling Scalable Training for Emerging Mixture-of-Experts Architectures on HPC Platforms
+2210.05889   # HPDC 2023 Best Paper: Kairos: Building Cost-Efficient Machine Learning Inference Systems with Heterogeneous Cloud Resources (unverified)
+2307.16693   # HPDC 2026 Best Paper: Pome: Parallelizing I/Os and Computations for LSM-tree Storage
+2205.11622   # ICS 2022 Best Paper: SparseLNR: Accelerating Sparse Tensor Computations Using Loop Nest Restructuring
+2311.09168   # ICS 2024 Best Paper: Arkade: k-Nearest Neighbor Search With Non-Euclidean Distances using GPU Ray Tracing
+2405.06811   # ICS 2024 Best Paper Runner-up: Shared Virtual Memory: Its Design and Performance Implications for Diverse Applications
+2410.14088   # ICS 2025 Best Paper Runner-up: BMQSim: Overcoming Memory Constraints in Quantum Circuit Simulation with a High-Fidelity Compression Framework

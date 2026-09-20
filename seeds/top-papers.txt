@@ -1,0 +1,60 @@
+# 顶会 / 高引论文种子清单。一行一个 arXiv id，井号后面是备注（会议、为什么选它）。
+# 选择标准：图做得好、被大量论文模仿的那种（teaser、方法总览图、结果图）。
+# 用 `figlib fetch --seeds seeds/top-papers.txt` 下载；可以随手往下加。
+
+# ---- 语言模型 / 训练方法
+1706.03762   # NeurIPS 2017  Attention Is All You Need,Transformer 架构图
+1810.04805   # NAACL 2019   BERT,预训练 / 微调两阶段图
+2005.14165   # NeurIPS 2020 GPT-3,few-shot 曲线
+2001.08361   # 2020         Scaling Laws,log-log 幂律曲线
+2203.15556   # NeurIPS 2022 Chinchilla,等算力曲线
+2203.02155   # NeurIPS 2022 InstructGPT,RLHF 三步流程图
+2201.11903   # NeurIPS 2022 Chain-of-Thought,对照样例框图
+2210.03629   # ICLR 2023    ReAct,交错推理 / 行动样例图
+2302.04761   # NeurIPS 2023 Toolformer
+2305.10601   # NeurIPS 2023 Tree of Thoughts,推理树示意
+2303.11366   # NeurIPS 2023 Reflexion
+2305.18290   # NeurIPS 2023 DPO,RLHF vs DPO 对照图
+2212.08073   # 2022         Constitutional AI
+2307.09288   # 2023         Llama 2,训练流程图
+2312.00752   # 2024         Mamba,选择性状态空间框图
+2401.04088   # 2024         Mixtral,MoE 路由图
+2106.09685   # ICLR 2022    LoRA,低秩分解示意
+2205.14135   # NeurIPS 2022 FlashAttention,分块 IO 示意
+1707.06347   # 2017         PPO
+2402.03300   # 2024         DeepSeekMath,GRPO vs PPO 图
+2501.12948   # 2025         DeepSeek-R1,训练流程 / RL 曲线
+2503.14476   # 2025         DAPO
+
+# ---- 多模态
+2103.00020   # ICML 2021    CLIP,对比学习总览图
+2204.14198   # NeurIPS 2022 Flamingo
+2301.12597   # ICML 2023    BLIP-2,Q-Former 图
+2304.08485   # NeurIPS 2023 LLaVA
+
+# ---- 视觉 / 生成
+2010.11929   # ICLR 2021    ViT,patch 切分示意
+2103.14030   # ICCV 2021    Swin Transformer,层级窗口图
+2111.06377   # CVPR 2022    MAE,掩码重建示意
+2304.02643   # ICCV 2023    Segment Anything,任务 / 模型 / 数据三联图
+2304.07193   # 2023         DINOv2
+2006.11239   # NeurIPS 2020 DDPM,前向 / 反向过程图
+2010.02502   # ICLR 2021    DDIM
+2105.05233   # NeurIPS 2021 Diffusion beats GANs
+2112.10752   # CVPR 2022    Latent Diffusion,潜空间架构图
+2208.12242   # CVPR 2023    DreamBooth,样例网格
+2302.05543   # ICCV 2023    ControlNet,零卷积框图
+2211.09800   # CVPR 2023    InstructPix2Pix
+2212.09748   # ICCV 2023    DiT,scaling 图
+2403.03206   # ICML 2024    Stable Diffusion 3,rectified flow
+
+# ---- 3D / 图形
+2003.08934   # ECCV 2020    NeRF,射线采样示意,3D 领域最常被仿的图
+2201.05989   # SIGGRAPH 2022 Instant-NGP,多分辨率哈希编码图
+2209.14988   # ICLR 2023    DreamFusion,SDS 流程图
+2308.04079   # SIGGRAPH 2023 3D Gaussian Splatting,光栅化流程图
+
+# ---- Agent / HCI
+2304.03442   # UIST 2023    Generative Agents,小镇 teaser,HCI 圈最出名的图
+2307.13854   # ICLR 2024    WebArena,环境总览
+2308.08155   # 2023         AutoGen,多 agent 对话框图

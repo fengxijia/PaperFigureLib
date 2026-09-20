@@ -1,0 +1,78 @@
+# CV / 图形板块近 5 年 Best Paper 类获奖论文（CVPR、ICCV、ECCV、SIGGRAPH、SIGGRAPH Asia、Eurographics，2021 到 2026）。
+# 2026-09-13 由并行调查产出，来源是各会官方获奖页；标 (unverified) 的没在官方页上核到。
+# dl.acm.org / diglib.eg.org 链接是论文页不是 PDF 直链，fetch 下不到会跳过。
+2205.02437   # SIGGRAPH 2022 Best Paper: Image Features Influence Reaction Time: A Learned Probabilistic Perceptual Model for Saccade Latency
+2202.05822   # SIGGRAPH 2022 Best Paper: CLIPasso: Semantically-Aware Object Sketching
+2201.05989   # SIGGRAPH 2022 Best Paper: Instant Neural Graphics Primitives with a Multiresolution Hash Encoding
+2202.02444   # SIGGRAPH 2022 Best Paper: Spelunking the Deep: Guaranteed Queries on General Neural Implicit Surfaces
+https://dl.acm.org/doi/pdf/10.1145/3528223.3530178   # SIGGRAPH 2022 Best Paper: DeepPhase: Periodic Autoencoders for Learning Motion Phase Manifolds
+https://dl.acm.org/doi/pdf/10.1145/3592110   # SIGGRAPH 2023 Best Paper: Split-Lohmann Multifocal Displays
+2305.13841   # SIGGRAPH 2023 Best Paper: Differentiable Stripe Patterns for Inverse Design of Structured Surfaces
+2304.11605   # SIGGRAPH 2023 Best Paper: Globally Consistent Normal Orientation for Point Clouds by Regularizing the Winding-Number Field
+2308.04079   # SIGGRAPH 2023 Best Paper: 3D Gaussian Splatting for Real-Time Radiance Field Rendering
+https://dl.acm.org/doi/pdf/10.1145/3592454   # SIGGRAPH 2023 Best Paper: DOC: Differentiable Optimal Control for Retargeting Motions onto Legged Robots
+https://dl.acm.org/doi/pdf/10.1145/3658121   # SIGGRAPH 2024 Best Paper: From Microfacets to Participating Media: A Unified Theory of Light Transport with Stochastic Geometry
+https://dl.acm.org/doi/pdf/10.1145/3658153   # SIGGRAPH 2024 Best Paper: Walkin' Robin: Walk on Stars with Robin Boundary Conditions
+https://dl.acm.org/doi/pdf/10.1145/3658174   # SIGGRAPH 2024 Best Paper: Repulsive Shells
+https://dl.acm.org/doi/pdf/10.1145/3658199   # SIGGRAPH 2024 Best Paper: Lightning-fast Method of Fundamental Solutions
+2403.17371   # SIGGRAPH 2024 Best Paper: Robust Containment Queries over Collections of Rational Parametric Curves via Generalized Winding Numbers
+2408.10099   # SIGGRAPH 2025 Best Paper: Shape Space Spectra
+2502.12894   # SIGGRAPH 2025 Best Paper: CAST: Component-Aligned 3D Scene Reconstruction from an RGB Image
+2501.12224   # SIGGRAPH 2025 Best Paper: TokenVerse: Versatile Multi-concept Personalization in Token Modulation Space
+https://dl.acm.org/doi/pdf/10.1145/3731175   # SIGGRAPH 2025 Best Paper: Vector-Valued Monte Carlo Integration Using Ratio Control Variates
+2506.10580   # SIGGRAPH 2025 Best Paper: Transformer IMU Calibrator: Dynamic On-body IMU Calibration for Inertial Motion Capture
+2601.18585   # SIGGRAPH 2026 Best Paper: GimmBO: Interactive Generative Image Model Merging via Bayesian Optimization
+https://dl.acm.org/doi/pdf/10.1145/3811312   # SIGGRAPH 2026 Best Paper: Mixwell: Sharp 2D Fluid Brushes for Progressive Physics-Based Mixing
+https://dl.acm.org/doi/pdf/10.1145/3811340   # SIGGRAPH 2026 Best Paper: Walk on Decomposed Subdomains: A Hybrid Monte Carlo-Deterministic Solver for Elliptic PDEs
+https://dl.acm.org/doi/pdf/10.1145/3811357   # SIGGRAPH 2026 Best Paper: Robust Planar Maps for 3D Vectorization
+https://dl.acm.org/doi/pdf/10.1145/3811391   # SIGGRAPH 2026 Best Paper: Inverse Rendering for Discrete X-Ray Computed Tomography
+2210.01448   # SIGGRAPH Asia 2022 Best Paper: Rhythmic Gesticulator: Rhythm-Aware Co-Speech Gesture Synthesis with Hierarchical Neural Embeddings
+https://dl.acm.org/doi/pdf/10.1145/3550454.3555496   # SIGGRAPH Asia 2022 Best Paper: Neural James-Stein Combiner for Unbiased and Biased Renderings
+https://dl.acm.org/doi/pdf/10.1145/3550454.3555512   # SIGGRAPH Asia 2022 Best Paper: Constant Time Median Filter using 2D Wavelet Matrix
+https://dl.acm.org/doi/pdf/10.1145/3550454.3555516   # SIGGRAPH Asia 2022 Best Paper: S3-Slicer: A General Slicing Framework for Multi-Axis 3D Printing
+2312.14635   # SIGGRAPH Asia 2023 Best Paper: Fluid Simulation on Neural Flow Maps
+2311.10091   # SIGGRAPH Asia 2023 Best Paper: Adaptive Shells for Efficient Neural Radiance Field Rendering
+2305.18203   # SIGGRAPH Asia 2023 Best Paper: Concept Decomposition for Visual Exploration and Inspiration
+https://dl.acm.org/doi/pdf/10.1145/3618345   # SIGGRAPH Asia 2023 Best Paper: Meshes with Spherical Faces
+https://dl.acm.org/doi/pdf/10.1145/3618330   # SIGGRAPH Asia 2023 Best Paper: Warped-Area Reparameterization of Differential Path Integrals
+https://dl.acm.org/doi/pdf/10.1145/3687764   # SIGGRAPH Asia 2024 Best Paper: Differentiable Owen Scrambling
+2409.00831   # SIGGRAPH Asia 2024 Best Paper: GroomCap: High-Fidelity Prior-Free Hair Capture
+2409.06246   # SIGGRAPH Asia 2024 Best Paper: Particle-Laden Fluid on Flow Maps
+2411.16680   # SIGGRAPH Asia 2024 Best Paper: Quark: Real-time, High-resolution, and General View Synthesis
+https://dl.acm.org/doi/pdf/10.1145/3687983   # SIGGRAPH Asia 2024 Best Paper: Appearance Modeling of Iridescent Feathers with Diverse Nanostructures
+https://dl.acm.org/doi/pdf/10.1145/3687995   # SIGGRAPH Asia 2024 Best Paper: Perspective-Aligned AR Mirror with Under-Display Camera
+2506.00716   # SIGGRAPH Asia 2025 Best Paper: Fovea Stacking: Imaging with Dynamic Localized Aberration Correction
+https://dl.acm.org/doi/pdf/10.1145/3763281   # SIGGRAPH Asia 2025 Best Paper: BSP-OT: Sparse transport plans between discrete measures in loglinear time
+https://dl.acm.org/doi/pdf/10.1145/3763291   # SIGGRAPH Asia 2025 Best Paper: Automatic Sampling for Discontinuities in Differentiable Shaders
+https://dl.acm.org/doi/pdf/10.1145/3763319   # SIGGRAPH Asia 2025 Best Paper: Control Operators for Interactive Character Animation
+2509.00040   # SIGGRAPH Asia 2025 Best Paper: Curve-Based Slicer for Multi-Axis DLP 3D Printing
+https://diglib.eg.org/bitstream/handle/10.1111/cgf142637/v40i2pp297-308.pdf   # Eurographics 2021 Best Paper: Honey, I Shrunk the Domain: Frequency-aware Force Field Reduction for Efficient Fluids Optimization
+https://diglib.eg.org/bitstream/handle/10.1111/cgf14479/v41i2pp355-368.pdf   # Eurographics 2022 Best Paper: Fast and Exact Root Parity for Continuous Collision Detection (unverified)
+https://diglib.eg.org/bitstream/handle/10.1111/cgf14747/v42i2pp103-117.pdf   # Eurographics 2023 Best Paper: Surface Maps via Adaptive Triangulations
+2402.16981   # Eurographics 2024 Best Paper: Non-Euclidean Sliced Optimal Transport Sampling
+https://diglib.eg.org/bitstream/handle/10.1111/cgf70033/cgf70033.pdf   # Eurographics 2025 Best Paper: A unified multi-scale method for simulating immersed bubbles
+2011.12100   # CVPR 2021 Best Paper: GIRAFFE: Representing Scenes as Compositional Generative Neural Feature Fields
+2011.13917   # CVPR 2021 Best Student Paper: Task Programming: Learning Data Efficient Behavior Representations
+2112.03424   # CVPR 2022 Best Paper: Learning to Solve Hard Minimal Problems
+2203.13254   # CVPR 2022 Best Student Paper: EPro-PnP: Generalized End-to-End Probabilistic Perspective-n-Points for Monocular Object Pose Estimation
+2211.11559   # CVPR 2023 Best Paper: Visual Programming: Compositional visual reasoning without training
+2212.10156   # CVPR 2023 Best Paper: Planning-oriented Autonomous Driving
+2305.10854   # CVPR 2023 Best Student Paper: 3D Registration with Maximal Cliques
+2309.07906   # CVPR 2024 Best Paper: Generative Image Dynamics
+2312.10240   # CVPR 2024 Best Paper: Rich Human Feedback for Text-to-Image Generation
+2311.16493   # CVPR 2024 Best Student Paper: Mip-Splatting: Alias-free 3D Gaussian Splatting
+2311.18803   # CVPR 2024 Best Student Paper: BioCLIP: A Vision Foundation Model for the Tree of Life
+2503.11651   # CVPR 2025 Best Paper: VGGT: Visual Geometry Grounded Transformer
+2506.05347   # CVPR 2025 Best Student Paper: Neural Inverse Rendering from Propagating Light
+2512.08924   # CVPR 2026 Best Paper: Efficiently Reconstructing Dynamic Scenes One D4RT at a Time
+2512.14692   # CVPR 2026 Best Student Paper: Native and Compact Structured Latents for 3D Generation
+2103.14030   # ICCV 2021 Best Paper: Swin Transformer: Hierarchical Vision Transformer using Shifted Windows
+2108.08291   # ICCV 2021 Best Student Paper: Pixel-Perfect Structure-from-Motion with Featuremetric Refinement
+https://openaccess.thecvf.com/content/ICCV2023/papers/Wei_Passive_Ultra-Wideband_Single-Photon_Imaging_ICCV_2023_paper.pdf   # ICCV 2023 Best Paper: Passive Ultra-Wideband Single-Photon Imaging
+2302.05543   # ICCV 2023 Best Paper: Adding Conditional Control to Text-to-Image Diffusion Models
+2306.05422   # ICCV 2023 Best Student Paper: Tracking Everything Everywhere All at Once
+2505.05469   # ICCV 2025 Best Paper: Generating Physically Stable and Buildable Brick Structures from Text
+2412.08629   # ICCV 2025 Best Student Paper: FlowEdit: Inversion-Free Text-Based Editing Using Pre-Trained Flow Models
+2207.09684   # ECCV 2022 Best Paper: On the Versatile Uses of Partial Distance Correlation in Deep Learning
+2501.00142   # ECCV 2024 Best Paper: Minimalist Vision with Freeform Pixels
+2609.07557   # ECCV 2026 Best Paper: Heat Kernel Textures: the Geodesic Gaussians That Do Not Splat
