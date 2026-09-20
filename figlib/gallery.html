@@ -98,10 +98,12 @@ button { font: inherit; color: inherit; }
 /* ---------- layout */
 .wrap { display: grid; grid-template-columns: 200px 1fr; gap: 20px; padding-block: 14px 40px; }
 @media (max-width: 760px) { .wrap { grid-template-columns: 1fr; } .rail { position: static; } }
-.rail { position: sticky; top: 74px; align-self: start; height: calc(100vh - 90px); display: flex; flex-direction: column; }
+.rail { position: sticky; top: 74px; align-self: start; height: calc(100vh - 124px); display: flex; flex-direction: column; }
 .rail-body { flex: 1; min-height: 0; overflow: auto; }
-.rail-foot { flex: none; padding: 10px 0 2px; border-top: 1px solid var(--line); }
-.rail-foot .gh { color: var(--muted); font-size: 12px; }
+.rail-foot { flex: none; padding: 12px 0 6px; border-top: 1px solid var(--line); }
+.rail-foot .gh { color: var(--muted); font-size: 12px; gap: 8px; }
+.rail-foot .gh b { font-weight: 600; color: var(--ink); }
+.rail-foot .gh small { display: block; font-size: 10.5px; opacity: .85; }
 .rail-foot .gh:hover { color: var(--ink); }
 .rail-foot .gh svg { width: 18px; height: 18px; }
 .rail h2 { margin: 12px 0 6px; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
@@ -234,7 +236,7 @@ h3.group:first-child { margin-top: 4px; }
     <div class="chips" id="textbox"></div>
    </div>
    <div class="rail-foot">
-    <a class="gh" href="https://github.com/fengxijia/PaperFigureLib" target="_blank" rel="noopener" title="GitHub"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span>GitHub</span></a>
+    <a class="gh" href="https://github.com/fengxijia/PaperFigureLib" target="_blank" rel="noopener" title="GitHub"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span><b>xixisphere</b><small>GitHub</small></span></a>
    </div>
   </aside>
   <main class="main">
@@ -291,14 +293,14 @@ let LANG = (location.search.includes('lang=en') || (() => { try { return localSt
 const T = {
   zh: { search: '搜图注、论文题目、标签、arXiv 号', venue: '会议', all: '全部', sort: '排序', byPaper: '按论文', byYear: '年份新到旧', wide: '宽图优先', tall: '高图优先',
         type: '图的类型', source: '来源', draw: '绘制方式', textbox: '文字框', more: '显示更多', empty: '没有符合条件的图。换个关键词或者放宽筛选。',
-        footer: '图片版权归各论文作者所有，本站仅供学术参考；每张图都标明了论文出处。', credit: '由 <a href="https://github.com/fengxijia" target="_blank" rel="noopener">冯茜嘉 (Xijia Feng)</a> 开发，代码开源在 <a href="https://github.com/fengxijia/PaperFigureLib" target="_blank" rel="noopener">GitHub</a>。', close: '关闭 Esc', num: '图号', kind: '类型', pos: '位置', file: '原图',
+        footer: '图片版权归各论文作者所有，本站仅供学术参考；每张图都标明了论文出处。', credit: '由 <a href="https://github.com/fengxijia" target="_blank" rel="noopener">xixisphere</a> 开发，代码开源在 <a href="https://github.com/fengxijia/PaperFigureLib" target="_blank" rel="noopener">GitHub</a>。', close: '关闭 Esc', num: '图号', kind: '类型', pos: '位置', file: '原图',
         prev: '上一张', next: '下一张', share: '复制链接', copied: '已复制', openPng: '在新窗口打开原图', none: '无', unknown: '未识别', pdf: '论文 PDF',
         award: '获奖论文（Best Paper 等）', seed: '顶会经典（种子清单）', local: '本地论文库', vector: '矢量图（可仿的线条）', raster: '含位图',
         hide: '隐藏提示词和表格截图', show: '显示', heur: '（按图注粗分）', page: '第 {p} 页', bitmap: '含位图', vec: '矢量', full: '通栏', zoom: '点图看原尺寸',
         byWall: '新到旧', byEdition: '按届分组', verified: '{m} 复核过', wholeArea: '所有', stats: '{p} 篇顶会论文 · {f} 张图 · 更新于 {d}', result: '符合条件 <b>{n}</b> 张，显示前 {k} 张', styleH: '同款数据图', oneStyle: '每篇只留一张', allStyle: '全部显示', figure: 'Figure {n}', panel: '，子图 {k}/{n}' },
   en: { search: 'Search captions, titles, tags, arXiv id', venue: 'Venue', all: 'All', sort: 'Sort', byPaper: 'By paper', byYear: 'Newest first', wide: 'Wide first', tall: 'Tall first',
         type: 'Figure type', source: 'Source', draw: 'Drawing', textbox: 'Text boxes', more: 'Show more', empty: 'No figures match. Try another keyword or loosen the filters.',
-        footer: 'Figures belong to their papers\' authors; this site is for academic reference and every figure links to its source paper.', credit: 'Built by <a href="https://github.com/fengxijia" target="_blank" rel="noopener">Xijia Feng</a>. Source on <a href="https://github.com/fengxijia/PaperFigureLib" target="_blank" rel="noopener">GitHub</a>.', close: 'Close Esc', num: 'Figure', kind: 'Type', pos: 'Where', file: 'File',
+        footer: 'Figures belong to their papers\' authors; this site is for academic reference and every figure links to its source paper.', credit: 'Built by <a href="https://github.com/fengxijia" target="_blank" rel="noopener">xixisphere</a>. Source on <a href="https://github.com/fengxijia/PaperFigureLib" target="_blank" rel="noopener">GitHub</a>.', close: 'Close Esc', num: 'Figure', kind: 'Type', pos: 'Where', file: 'File',
         prev: 'Previous', next: 'Next', share: 'Copy link', copied: 'Copied', openPng: 'Open full image', none: 'none', unknown: 'unknown', pdf: 'Paper PDF',
         award: 'Award papers (best paper etc.)', seed: 'Classic / high-impact', local: 'Local library', vector: 'Vector (line art)', raster: 'Contains bitmap',
         hide: 'Hide prompt and table screenshots', show: 'Show', heur: ' (caption-based guess)', page: 'page {p}', bitmap: 'bitmap', vec: 'vector', full: 'full width', zoom: 'click to zoom',
