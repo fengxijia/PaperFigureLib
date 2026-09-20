@@ -636,6 +636,9 @@ def cmd_site(args):
     (out / "robots.txt").write_text("User-agent: *\nAllow: /\n")
     for asset in (HERE / "assets").iterdir():
         shutil.copy2(asset, out / asset.name)
+    # Pages Functions (visit counter); harmless without the D1 binding, see deploy/cf-counter.py
+    (out / "functions" / "api").mkdir(parents=True, exist_ok=True)
+    shutil.copy2(HERE / "functions" / "visits.js", out / "functions" / "api" / "visits.js")
     (out / "_headers").write_text("/figs/*\n  Cache-Control: public, max-age=31536000, immutable\n/data/*\n  Cache-Control: public, max-age=3600\n")
     linked = 0
     if not args.no_figs:

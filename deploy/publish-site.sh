@@ -27,8 +27,8 @@ case "$MODE" in
       --header-upload "Cache-Control: public, max-age=31536000, immutable" --stats 60s --stats-one-line
     # page + data -> Pages (Pages caps a deployment at 20,000 files, so the figures stay on R2)
     rm -rf "$SITE/figs"
-    CLOUDFLARE_API_TOKEN="$CLOUDFLARE_API_TOKEN" CLOUDFLARE_ACCOUNT_ID="$CLOUDFLARE_ACCOUNT_ID" \
-      npx --yes wrangler pages deploy "$SITE" --project-name "${CF_PAGES_PROJECT:?}" --commit-dirty=true
+    (cd "$SITE" && CLOUDFLARE_API_TOKEN="$CLOUDFLARE_API_TOKEN" CLOUDFLARE_ACCOUNT_ID="$CLOUDFLARE_ACCOUNT_ID" \
+      npx --yes wrangler pages deploy . --project-name "${CF_PAGES_PROJECT:?}" --commit-dirty=true)   # inside the site dir so functions/ is picked up
     echo "published: https://${SITE_DOMAIN:-$CF_PAGES_PROJECT.pages.dev}/"
     ;;
   s3)
