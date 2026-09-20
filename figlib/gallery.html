@@ -107,15 +107,36 @@ button { font: inherit; color: inherit; }
 .rail-foot .gh:hover { color: var(--ink); }
 .rail-foot .gh svg { width: 18px; height: 18px; }
 .rail-toggle { display: none; }
-/* phones: filters collapse into a button above the figures; the rail is no longer sticky or full-height */
+/* phones: compact header that scrolls away, a sticky "filters" bar, and the filter panel as a full-screen sheet */
 @media (max-width: 760px) {
-  .wrap { grid-template-columns: 1fr; gap: 8px; }
-  .rail { position: static; height: auto; display: block; }
-  .rail-toggle { display: inline-flex; align-items: center; gap: 6px; margin: 2px 0 4px; }
-  .rail-body { display: none; max-height: 60vh; overflow: auto; padding-bottom: 6px; }
-  .rail.open .rail-body { display: block; }
-  .rail-foot { border-top: 0; padding: 0; margin-left: 12px; display: inline-block; vertical-align: middle; }
+  .top { position: static; padding: 10px 0 8px; gap: 8px 12px; }
+  .brand h1 { font-size: 17px; }
+  .bar { flex: 1 1 100%; gap: 8px; min-width: 0; }
+  html, body { overflow-x: hidden; }
+  .search { flex: 1 1 100%; max-width: none; min-width: 0; }
+  .search input { box-sizing: border-box; }
+  .controls { width: 100%; flex-wrap: nowrap; min-width: 0; }
+  .controls label { display: none; }
+  .controls select { min-width: 0; box-sizing: border-box; }
+  .controls select#venue { flex: 1 1 0; }
+  .controls select#sort { flex: 0 1 34%; }
+  .controls .chip { flex: none; }
+  .bar .stats { display: none; }
+  .wrap { grid-template-columns: 1fr; gap: 6px; padding-block: 8px 40px; }
+  .rail { position: sticky; top: 0; z-index: 6; height: auto; display: flex; flex-direction: row; align-items: center; gap: 10px;
+          background: var(--bg); margin-inline: -16px; padding: 6px 16px; border-bottom: 1px solid var(--line); }
+  .rail-toggle { display: inline-flex; align-items: center; gap: 6px; }
+  .rail-body { display: none; }
+  .rail.open .rail-body { display: block; position: fixed; inset: 0; z-index: 30; background: var(--bg); overflow: auto; padding: 12px 16px 32px; }
+  .rail-close { display: none; }
+  .rail.open .rail-close { display: inline-flex; position: sticky; top: 0; float: right; z-index: 1; }
+  .rail-foot { border-top: 0; padding: 0; margin-left: auto; }
   .rail-foot .gh small { display: none; }
+  .result-line { font-size: 12px; }
+  .card .hover { padding: 4px 7px 5px; font-size: 10px; }
+  .card .hover .authors, .card .hover .kind { display: none; }
+  body.sheet-open { overflow: hidden; }
+}
 }
 .rail h2 { margin: 12px 0 6px; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 .tree { list-style: none; margin: 0; padding: 0; }
@@ -238,6 +259,7 @@ h3.group:first-child { margin-top: 4px; }
   <aside class="rail">
    <button class="chip rail-toggle" id="railToggle" type="button" aria-expanded="false">筛选 ▾</button>
    <div class="rail-body">
+    <button class="chip rail-close" id="railClose" type="button">关闭 ✕</button>
     <h2 id="h-type">图的类型</h2>
     <ul class="tree" id="tree"></ul>
     <h2 id="h-source">来源</h2>
@@ -306,14 +328,14 @@ const MODE = "__MODE__";
 let LANG = (location.search.includes('lang=en') || (() => { try { return localStorage.getItem('figlib-lang') === 'en'; } catch (e) { return false; } })()) ? 'en' : 'zh';
 const T = {
   zh: { search: '搜图注、论文题目、标签、arXiv 号', venue: '会议', all: '全部', sort: '排序', byPaper: '按论文', byYear: '年份新到旧', wide: '宽图优先', tall: '高图优先',
-        filters: '筛选', type: '图的类型', source: '来源', draw: '绘制方式', textbox: '文字框', more: '显示更多', empty: '没有符合条件的图。换个关键词或者放宽筛选。',
+        filters: '筛选', closeSheet: '关闭 ✕', type: '图的类型', source: '来源', draw: '绘制方式', textbox: '文字框', more: '显示更多', empty: '没有符合条件的图。换个关键词或者放宽筛选。',
         footer: '图片版权归各论文作者所有，本站仅供学术参考；每张图都标明了论文出处。', credit: '由 <a href="https://github.com/fengxijia" target="_blank" rel="noopener">xixisphere</a> 开发，代码开源在 <a href="https://github.com/fengxijia/PaperFigureLib" target="_blank" rel="noopener">GitHub</a>。', close: '关闭 Esc', num: '图号', kind: '类型', pos: '位置', file: '原图',
         prev: '上一张', next: '下一张', share: '复制链接', copied: '已复制', openPng: '在新窗口打开原图', none: '无', unknown: '未识别', pdf: '论文 PDF',
         award: '获奖论文（Best Paper 等）', seed: '顶会经典（种子清单）', local: '本地论文库', vector: '矢量图（可仿的线条）', raster: '含位图',
         hide: '隐藏提示词和表格截图', show: '显示', heur: '（按图注粗分）', page: '第 {p} 页', bitmap: '含位图', vec: '矢量', full: '通栏', zoom: '点图看原尺寸',
         byWall: '新到旧', byEdition: '按届分组', verified: '{m} 复核过', wholeArea: '所有', stats: '{p} 篇顶会论文 · {f} 张图 · 更新于 {d}', result: '符合条件 <b>{n}</b> 张，显示前 {k} 张', styleH: '同款数据图', oneStyle: '每篇只留一张', allStyle: '全部显示', figure: 'Figure {n}', panel: '，子图 {k}/{n}' },
   en: { search: 'Search captions, titles, tags, arXiv id', venue: 'Venue', all: 'All', sort: 'Sort', byPaper: 'By paper', byYear: 'Newest first', wide: 'Wide first', tall: 'Tall first',
-        filters: 'Filters', type: 'Figure type', source: 'Source', draw: 'Drawing', textbox: 'Text boxes', more: 'Show more', empty: 'No figures match. Try another keyword or loosen the filters.',
+        filters: 'Filters', closeSheet: 'Close ✕', type: 'Figure type', source: 'Source', draw: 'Drawing', textbox: 'Text boxes', more: 'Show more', empty: 'No figures match. Try another keyword or loosen the filters.',
         footer: 'Figures belong to their papers\' authors; this site is for academic reference and every figure links to its source paper.', credit: 'Built by <a href="https://github.com/fengxijia" target="_blank" rel="noopener">xixisphere</a>. Source on <a href="https://github.com/fengxijia/PaperFigureLib" target="_blank" rel="noopener">GitHub</a>.', close: 'Close Esc', num: 'Figure', kind: 'Type', pos: 'Where', file: 'File',
         prev: 'Previous', next: 'Next', share: 'Copy link', copied: 'Copied', openPng: 'Open full image', none: 'none', unknown: 'unknown', pdf: 'Paper PDF',
         award: 'Award papers (best paper etc.)', seed: 'Classic / high-impact', local: 'Local library', vector: 'Vector (line art)', raster: 'Contains bitmap',
@@ -473,7 +495,7 @@ const ROW_GAP = 10, DPR = Math.min(window.devicePixelRatio || 1, 3);
 function layoutRows(block) {
   const W = block.clientWidth; if (!W) return;
   // row height grows with the page so a wide monitor shows about 4 to 5 figures per row instead of 7
-  const ROW_TARGET = Math.max(190, Math.min(380, Math.round(W / 7.5))), ROW_MIN = Math.round(ROW_TARGET * 0.7), ROW_MAX = Math.round(ROW_TARGET * 1.5);
+  const ROW_TARGET = Math.max(W < 600 ? 130 : 190, Math.min(380, Math.round(W / 7.5))), ROW_MIN = Math.round(ROW_TARGET * 0.7), ROW_MAX = Math.round(ROW_TARGET * 1.5);
   const cards = Array.from(block.children);
   let row = [], ars = 0;
   const arOf = c => c.classList.contains('stack')
@@ -654,7 +676,7 @@ function applyLang() {
   CAT_ZH = CAT_L[LANG]; CHART_ZH = CHART_L[LANG];
   $('q').placeholder = t('search'); $('l-venue').textContent = t('venue'); $('o-allvenue').textContent = t('all'); $('l-sort').textContent = t('sort');
   $('o-wall').textContent = t('byWall'); $('o-edition').textContent = t('byEdition'); $('o-paper').textContent = t('byPaper'); $('o-year').textContent = t('byYear'); $('o-wide').textContent = t('wide'); $('o-tall').textContent = t('tall');
-  $('h-type').textContent = t('type'); $('h-source').textContent = t('source'); $('h-draw').textContent = t('draw'); $('h-textbox').textContent = t('textbox'); $('h-style').textContent = t('styleH'); $('railToggle').textContent = t('filters') + ' ▾';
+  $('h-type').textContent = t('type'); $('h-source').textContent = t('source'); $('h-draw').textContent = t('draw'); $('h-textbox').textContent = t('textbox'); $('h-style').textContent = t('styleH'); $('railToggle').textContent = t('filters') + ' ▾'; $('railClose').textContent = t('closeSheet');
   $('more').textContent = t('more'); $('empty').textContent = t('empty'); $('footer').textContent = t('footer'); $('credit').innerHTML = t('credit'); $('lbClose').textContent = t('close');
   $('k-num').textContent = t('num'); $('k-kind').textContent = t('kind'); $('k-venue').textContent = t('venue'); $('k-pos').textContent = t('pos'); $('k-file').textContent = t('file');
   $('lbPrev').textContent = t('prev'); $('lbNext').textContent = t('next'); $('lbShare').textContent = t('share');
@@ -682,7 +704,14 @@ $('q').addEventListener('input', e => { state.q = e.target.value.trim(); state.s
 $('venue').addEventListener('change', e => { const v = e.target.value; state.area = v.startsWith('area:') ? v.slice(5) : ''; state.venue = v.startsWith('area:') ? '' : v; state.shown = 200; render(); });
 $('sort').addEventListener('change', e => { state.sort = e.target.value; render(); });
 $('more').addEventListener('click', () => { state.shown += 200; render(); });
-$('railToggle').addEventListener('click', () => { const r = document.querySelector('.rail'); const open = r.classList.toggle('open'); $('railToggle').setAttribute('aria-expanded', open ? 'true' : 'false'); $('railToggle').textContent = t('filters') + (open ? ' ▴' : ' ▾'); });
+function setSheet(open) {
+  document.querySelector('.rail').classList.toggle('open', open); document.body.classList.toggle('sheet-open', open);
+  $('railToggle').setAttribute('aria-expanded', open ? 'true' : 'false'); $('railToggle').textContent = t('filters') + (open ? ' ▴' : ' ▾');
+}
+$('railToggle').addEventListener('click', () => setSheet(!document.querySelector('.rail').classList.contains('open')));
+$('railClose').addEventListener('click', () => setSheet(false));
+// picking a filter on a phone closes the sheet so the result is visible at once
+document.querySelector('.rail-body').addEventListener('click', e => { if (e.target.closest('button') && !e.target.closest('#railClose') && window.matchMedia('(max-width: 760px)').matches) setSheet(false); });
 
 applyLang();
 if (location.search.includes('hoverdemo')) { const st = document.createElement('style'); st.textContent = '.card:nth-child(-n+3) .hover{opacity:1;transform:none}'; document.head.appendChild(st); }
