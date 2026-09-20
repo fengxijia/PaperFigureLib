@@ -401,11 +401,10 @@ function mixKinds(l) {
   }
   return out;
 }
-// Default order of papers: the four AI areas (ML, NLP, AI, vision) lead; each round takes LEAD_PER_ROUND papers
-// from every lead area and one paper from the other areas (which take turns), so the first pages are mostly AI
-// figures while every field still shows up. HCI comes last inside a tier. Papers inside an area are in a fixed
+// Default order of papers: the four AI areas lead, one paper each per round in the order NLP, ML, AI, vision, so a
+// screen never fills with one field; the other areas take turns contributing one paper every OTHER_EVERY rounds. HCI comes last inside a tier. Papers inside an area are in a fixed
 // pseudo-random order, so the front page mixes venues and looks the same on every visit.
-const AREA_LEAD = ['ml', 'nlp', 'ai', 'vision'], LEAD_PER_ROUND = 3;
+const AREA_LEAD = ['nlp', 'ml', 'vision', 'ai'], LEAD_PER_ROUND = 1, OTHER_EVERY = 1;   // one paper per lead area per round, then one paper from the other areas in turn
 const AREA_TAIL = ['hci'];        // CHI / UIST / CSCW figures come after every other area inside a tier
 function hash32(s) { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; }
 let _paperOrder = null;
@@ -419,19 +418,36 @@ function shuffledPapers(l) {
   const rest = [];                                   // the other areas interleaved, one paper each in turn
   for (let left = others.reduce((s, q) => s + q.length, 0); left > 0;) for (const q of others) if (q.length) { rest.push(q.shift()); left--; }
   const order = {}; let n = 0;
-  for (let left = lead.reduce((s, q) => s + q.length, 0) + rest.length; left > 0;) {
+  for (let left = lead.reduce((s, q) => s + q.length, 0) + rest.length, round = 0; left > 0; round++) {
     for (const q of lead) for (let i = 0; i < LEAD_PER_ROUND && q.length; i++) { order[q.shift()] = n++; left--; }
-    if (rest.length) { order[rest.shift()] = n++; left--; }
+    if (rest.length && (round % OTHER_EVERY === OTHER_EVERY - 1 || !lead.some(q => q.length))) { order[rest.shift()] = n++; left--; }
   }
   for (const a of AREA_TAIL) if (byArea[a]) for (const k of shuffled(a)) order[k] = n++;
   return (_paperOrder = order);
+}
+// Deal figures out across papers: SPREAD papers are "open" at a time and each contributes one figure in turn, so a
+// screenful shows twenty different papers (and fields) instead of one paper's ten figures in a block.
+const SPREAD = 20;
+function spreadPapers(l) {
+  const queues = [], byKey = {};
+  for (const f of l) { if (!byKey[f.key]) { byKey[f.key] = []; queues.push(byKey[f.key]); } byKey[f.key].push(f); }
+  const out = [], open = [];
+  let next = 0;
+  while (out.length < l.length) {
+    while (open.length < SPREAD && next < queues.length) open.push(queues[next++]);
+    for (let i = 0; i < open.length; i++) {
+      out.push(open[i].shift());
+      if (!open[i].length) { open.splice(i, 1); i--; if (next < queues.length) open.push(queues[next++]); }
+    }
+  }
+  return out;
 }
 function sorted(list) {
   const l = list.slice();
   if (state.sort === 'paper') {
     const o = shuffledPapers(l);
     l.sort((a, b) => (a.rank - b.rank) || (o[a.key] - o[b.key]) || (+a.num - +b.num) || (a.panel - b.panel));
-    return state.cat ? l : mixKinds(l);
+    return state.cat ? l : spreadPapers(l);
   }
   if (state.sort === 'edition' || state.sort === 'wall') l.sort((a, b) => (b.year || '0').localeCompare(a.year || '0') || (a.venue || '~').localeCompare(b.venue || '~') || (a.rank - b.rank) || a.key.localeCompare(b.key) || (+a.num - +b.num) || (a.panel - b.panel));
   else if (state.sort === 'year') l.sort((a, b) => (b.year || '').localeCompare(a.year || '') || a.key.localeCompare(b.key) || (+a.num - +b.num));
