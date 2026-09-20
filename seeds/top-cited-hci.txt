@@ -1,0 +1,223 @@
+# Most cited 2021-2026 papers of the hci venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-20).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2109.06977   # CHI 2021 High-impact (757 citations): Design Guidelines for Prompt Engineering Text-to-Image Generative Models
+2101.04719   # CHI 2021 High-impact (617 citations): Expanding Explainability: Towards Social Transparency in AI systems
+2312.13771   # CHI 2023 High-impact (526 citations): AppAgent: Multimodal Agents as Smartphone Users
+2302.07427   # CHI 2023 High-impact (430 citations): Studying the effect of AI Code Generators on Supporting Novice Learners in Introductory Programming
+2209.14958   # CHI 2022 High-impact (414 citations): Co-Writing Screenplays and Theatre Scripts with Language Models: Evaluation by Industry Professionals
+2302.00560   # CHI 2023 High-impact (414 citations): Co-Writing with Opinionated Language Models Affects Users’ Views
+2101.04843   # CHI 2021 High-impact (363 citations): What Makes a Dark Pattern... Dark?: Design Attributes, Normative Considerations, and Measurement Methods
+2401.11314   # CHI 2024 High-impact (356 citations): CodeAid: Evaluating a Classroom Deployment of an LLM-based Programming Assistant that Balances Student and Educator Needs
+2101.04271   # CHI 2021 High-impact (317 citations): What Do We Mean by “Accessibility Research”?: A Literature Survey of Accessibility Papers in CHI and ASSETS from 1994 to 2019
+2401.14484   # CHI 2024 High-impact (313 citations): Design Principles for Generative AI Applications
+2309.14556   # CHI 2023 High-impact (299 citations): Art or Artifice? Large Language Models and the False Promise of Creativity
+2203.03254   # CHI 2022 High-impact (287 citations): Augmented Reality and Robotics: A Survey and Taxonomy for AR-enhanced Human-Robot Interaction and Robotic Interfaces
+2403.11164   # CHI 2024 High-impact (241 citations): The Effects of Generative AI on Design Fixation and Divergent Thinking
+2309.09128   # CHI 2023 High-impact (239 citations): ChainForge: A Visual Toolkit for Prompt Engineering and LLM Hypothesis Testing
+2403.14117   # CHI 2024 High-impact (229 citations): A Design Space for Intelligent and Interactive Writing Assistants
+2310.12953   # CHI 2023 High-impact (224 citations): Luminate: Structured Generation and Exploration of Design Space with Large Language Models for Human-AI Co-Creation
+2101.01524   # CHI 2021 High-impact (224 citations): “Brilliant AI Doctor” in Rural Clinics: Challenges in AI-Powered Clinical Decision Support System Deployment
+2410.20130   # CHI 2024 High-impact (216 citations): The Dark Side of AI Companionship: A Taxonomy of Harmful Algorithmic Behaviors in Human-AI Relationships
+2309.14459   # CHI 2023 High-impact (213 citations): Bridging the Gulf of Envisioning: Cognitive Challenges in Prompt Based Interactions with LLMs
+2309.11653   # CHI 2023 High-impact (211 citations): “It's a Fair Game”, or Is It? Examining How Users Navigate Disclosure Risks and Benefits When Using LLM-Based Conversational Agents
+2209.08655   # CHI 2022 High-impact (209 citations): Enabling Conversational Interaction with Mobile UI using Large Language Models
+2301.05809   # CHI 2023 High-impact (207 citations): Who Should I Trust: AI or Myself? Leveraging Human and AI Correctness Likelihood to Promote Appropriate Trust in AI-Assisted Decision-Making
+2202.06205   # CHI 2022 High-impact (207 citations): StoryBuddy: A Human-AI Collaborative Chatbot for Parent-Child Interactive Storytelling with Flexible Parental Involvement
+2204.11788   # CHI 2022 High-impact (206 citations): Human-AI Collaboration via Conditional Delegation: A Case Study of Content Moderation
+2210.03735   # CHI 2022 High-impact (205 citations): "Help Me Help the AI": Understanding How Explainability Can Support Human-AI Interaction
+2102.00593   # CHI 2021 High-impact (196 citations): Designing AI for Trust and Collaboration in Time-Constrained Medical Decisions: A Sociotechnical Lens
+2101.11778   # CHI 2021 High-impact (192 citations): How the Design of YouTube Influences User Sense of Agency
+2101.07993   # CHI 2021 High-impact (190 citations): Viral Visualizations: How Coronavirus Skeptics Use Orthodox Data Practices to Promote Unorthodox Science Online
+2402.11723   # CHI 2024 High-impact (188 citations): Shaping Human-AI Collaboration: Varied Scaffolding Levels in Co-writing with Language Models
+2309.15237   # CHI 2023 High-impact (186 citations): User Experience Design Professionals’ Perceptions of Generative Artificial Intelligence
+2403.04014   # CHI 2024 High-impact (185 citations): PromptCharm: Text-to-Image Generation through Multi-modal Prompting and Refinement
+2310.05231   # CHI 2023 High-impact (179 citations): MindfulDiary: Harnessing Large Language Model to Support Psychiatric Patients' Journaling
+2402.14978   # CHI 2024 High-impact (177 citations): AI-Augmented Brainwriting: Investigating the use of LLMs in group ideation
+2101.09824   # CHI 2021 High-impact (167 citations): Beyond Expertise and Roles: A Framework to Characterize the Stakeholders of Interpretable Machine Learning and their Needs
+2312.11949   # CHI 2023 High-impact (165 citations): CreativeConnect: Supporting Reference Recombination for Graphic Design Ideation with Generative AI
+2309.13633   # CHI 2023 High-impact (165 citations): EvalLM: Interactive Evaluation of Large Language Model Prompts on User-Defined Criteria
+2302.00096   # CHI 2023 High-impact (164 citations): Ignore, Trust, or Negotiate: Understanding Clinician Acceptance of AI-Based Treatment Recommendations in Health Care
+2107.13509   # CHI 2021 High-impact (164 citations): The Who in XAI: How AI Background Shapes Perceptions of AI Explanations
+2304.06597   # CHI 2023 High-impact (162 citations): “What It Wants Me To Say”: Bridging the Abstraction Gap Between End-User Programmers and Code-Generating Large Language Models
+2308.02312   # CHI 2023 High-impact (162 citations): Is Stack Overflow Obsolete? An Empirical Study of the Characteristics of ChatGPT Answers to Stack Overflow Questions
+2302.09466   # CHI 2023 High-impact (157 citations): RePrompt: Automatic Prompt Editing to Refine AI-Generative Art Towards Precise Expressions
+2101.08046   # CHI 2021 High-impact (156 citations): Extended Reality (XR) Remote Research: a Survey of Drawbacks and Opportunities
+2102.05216   # CHI 2021 High-impact (155 citations): VINS: Visual Search for Mobile User Interface Design
+2409.11360   # CHI 2024 High-impact (154 citations): AI Suggestions Homogenize Writing Toward Western Styles and Diminish Cultural Nuances
+2204.02310   # CHI 2022 High-impact (151 citations): Improving Human-AI Partnerships in Child Welfare: Understanding Worker Practices, Challenges, and Desires for Algorithmic Decision Support
+2101.11865   # CHI 2021 High-impact (151 citations): Large Scale Analysis of Multitasking Behavior During Remote Meetings
+2304.12518   # CHI 2023 High-impact (150 citations): IMUPoser: Full-Body Pose Estimation using IMUs in Phones, Watches, and Earbuds
+2310.15461   # CHI 2023 High-impact (148 citations): Facilitating Self-Guided Mental Health Interventions Through Human-Language Model Interaction: A Case Study of Cognitive Restructuring
+2301.12490   # CHI 2023 High-impact (148 citations): How does HCI Understand Human Agency and Autonomy?
+2509.21731   # CHI 2024 High-impact (147 citations): When Teams Embrace AI: Human Collaboration Strategies in Generative Prompting in a Creative Design Task
+2404.12259   # CHI 2024 High-impact (147 citations): Concept Induction: Analyzing Unstructured Text with High-Level Concepts Using LLooM
+2309.12276   # CHI 2023 High-impact (146 citations): LLMR: Real-time Prompting of Interactive Worlds using Large Language Models
+2301.11333   # CHI 2023 High-impact (145 citations): Knowing About Knowing: An Illusion of Human Competence Can Hinder Appropriate Reliance on AI Systems
+2309.09640   # CHI 2023 High-impact (143 citations): An Ontology of Dark Patterns Knowledge: Foundations, Definitions, and a Pathway for Shared Knowledge-Building
+2101.09157   # CHI 2021 High-impact (143 citations): The Impact of Multiple Parallel Phrase Suggestions on Email Input and Composition Behaviour of Native and Non-Native English Writers
+2309.14534   # CHI 2023 High-impact (141 citations): Teach AI How to Code: Using Large Language Models as Teachable Agents for Programming Education
+2103.06807   # CHI 2021 High-impact (135 citations): Adapting User Interfaces with Model-based Reinforcement Learning
+2101.11103   # CHI 2021 High-impact (134 citations): Screen2Vec: Semantic Embedding of GUI Screens and GUI Components
+2309.12309   # CHI 2023 High-impact (133 citations): Rehearsal: Simulating Conflict to Teach Conflict Resolution
+2310.06778   # CHI 2023 High-impact (133 citations): How Knowledge Workers Think Generative AI Will (Not) Transform Their Industries
+2303.00192   # CHI 2023 High-impact (132 citations): Exploring Challenges and Opportunities to Support Designers in Learning to Co-create with AI-based Manufacturing Design Tools
+2202.13200   # CHI 2022 High-impact (132 citations): The Dark Side of Perceptual Manipulations in Virtual Reality
+2404.08213   # CHI 2024 High-impact (132 citations): GazePointAR: A Context-Aware Multimodal Voice Assistant for Pronoun Disambiguation in Wearable Augmented Reality
+2101.04035   # CHI 2021 High-impact (131 citations): Machine Learning Uncertainty as a Design Material: A Post-Phenomenological Inquiry
+2401.07312   # CHI 2024 High-impact (130 citations): Understanding Nonlinear Collaboration between Human and AI Agents: A Co-design Framework for Creative Design
+2303.03199   # CHI 2023 High-impact (128 citations): Choice Over Control: How Users Write with Large Language Models using Diegetic and Non-Diegetic Prompting
+2202.09895   # CHI 2022 High-impact (127 citations): UX Research on Conversational Human-AI Interaction: A Literature Review of the ACM Digital Library
+2202.10520   # CHI 2022 High-impact (125 citations): Making Data Tangible: A Cross-disciplinary Design Space for Data Physicalization
+2402.14252   # CHI 2024 High-impact (125 citations): Multimodal Healthcare AI: Identifying and Designing Clinically Relevant Vision-Language Applications for Radiology
+2309.12368   # CHI 2023 High-impact (121 citations): Rethinking Human-AI Collaboration in Complex Medical Decision Making: A Case Study in Sepsis Diagnosis
+2310.03691   # CHI 2023 High-impact (120 citations): DirectGPT: A Direct Manipulation Interface to Interact with Large Language Models
+2403.12004   # CHI 2024 High-impact (119 citations): The Value, Benefits, and Concerns of Generative AI-Powered Assistance in Writing
+2101.04834   # CHI 2021 High-impact (119 citations): Whither AutoML? Understanding the Role of Automation in Machine Learning Workflows
+2101.05300   # CHI 2021 High-impact (117 citations): Proxemics and Social Interactions in an Instrumented Virtual Reality Workshop
+2301.04945   # CHI 2023 High-impact (113 citations): Analyzing User Engagement with TikTok's Short Format Video Recommendations using Data Donations
+2207.04171   # CHI 2022 High-impact (112 citations): A Systematic Review and Thematic Analysis of Community-Collaborative Approaches to Computing Research
+2210.03709   # CHI 2022 High-impact (111 citations): Understanding Practices, Challenges, and Opportunities for User-Engaged Algorithm Auditing in Industry Practice
+2502.08554   # CHI 2025 High-impact (111 citations): Fostering Appropriate Reliance on Large Language Models: The Role of Explanations, Sources, and Inconsistencies
+2401.15232   # CHI 2024 High-impact (110 citations): How Beginning Programmers and Code LLMs (Mis)read Each Other
+2403.16812   # CHI 2024 High-impact (110 citations): Towards Human-AI Deliberation: Design and Evaluation of LLM-Empowered Deliberative AI for AI-Assisted Decision-Making
+2301.11178   # CHI 2023 High-impact (110 citations): On the Design of AI-powered Code Assistants for Notebooks
+2402.01927   # CHI 2024 High-impact (108 citations): Mathemyths: Leveraging Large Language Models to Teach Mathematical Language through Child-AI Co-Creative Storytelling
+2403.05104   # CHI 2024 High-impact (108 citations): How Culture Shapes What People Want From AI
+2302.10395   # CHI 2023 High-impact (107 citations): Designerly Understanding: Information Needs for Model Transparency to Support Design Ideation for AI-Powered User Experience
+2202.08818   # CHI 2022 High-impact (107 citations): Designing Word Filter Tools for Creator-led Comment Moderation
+2301.12243   # CHI 2023 High-impact (107 citations): Investigating How Practitioners Use Human-AI Guidelines: A Case Study on the People + AI Guidebook
+2209.11812   # CHI 2022 High-impact (106 citations): Explanations, Fairness, and Appropriate Reliance in Human-AI Decision-Making
+2301.13280   # CHI 2023 High-impact (106 citations): WebUI: A Dataset for Enhancing Visual UI Understanding with Web Semantics
+2302.05312   # CHI 2023 High-impact (103 citations): Trauma-Informed Social Media: Towards Solutions for Reducing and Healing Online Harm
+2310.06155   # CHI 2023 High-impact (103 citations): How AI Processing Delays Foster Creativity: Exploring Research Question Co-Creation with an LLM-based Agent
+2110.00680   # CHI 2021 High-impact (102 citations): Collecting and Characterizing Natural Language Utterances for Specifying Data Visualizations
+2304.07366   # CHI 2023 High-impact (102 citations): CollabCoder: A Lower-barrier, Rigorous Workflow for Inductive Collaborative Qualitative Analysis with Large Language Models
+2101.05273   # CHI 2021 High-impact (102 citations): AutoDS: Towards Human-Centered Automation of Data Science
+2503.02068   # CHI 2025 High-impact (101 citations): Interactive Debugging and Steering of Multi-Agent AI Systems
+2410.03703   # CHI 2024 High-impact (100 citations): Human Creativity in the Age of LLMs: Randomized Experiments on Divergent and Convergent Thinking
+2203.15044   # CHI 2022 High-impact (100 citations): Are Deepfakes Concerning? Analyzing Conversations of Deepfakes on Reddit and Exploring Societal Implications
+2402.15350   # CHI 2024 High-impact (99 citations): Farsight: Fostering Responsible AI Awareness During AI Application Prototyping
+2302.03714   # CHI 2023 High-impact (99 citations): Short-Form Videos Degrade Our Capacity to Retain Intentions: Effect of Context Switching On Prospective Memory
+2309.12244   # CHI 2023 High-impact (98 citations): ChaCha: Leveraging Large Language Models to Prompt Children to Share Their Emotions about Personal Events
+2203.10748   # CHI 2022 High-impact (97 citations): Whose AI Dream? In search of the aspiration in data annotation.
+2403.09552   # CHI 2024 High-impact (97 citations): “Are You Really Sure?” Understanding the Effects of Human Self-Confidence Calibration in AI-Assisted Decision Making
+2203.15239   # CHI 2022 High-impact (97 citations): Enabling Hand Gesture Customization on Wrist-Worn Devices
+2102.00625   # CHI 2021 High-impact (97 citations): Human Perceptions on Moral Responsibility of AI: A Case Study in AI-Assisted Bail Decision-Making
+2303.16292   # CHI 2023 High-impact (96 citations): XAIR: A Framework of Explainable AI in Augmented Reality
+2403.13139   # CHI 2024 High-impact (95 citations): Generating Automatic Feedback on UI Mockups with Large Language Models
+2310.02424   # CHI 2023 High-impact (95 citations): AXNav: Replaying Accessibility Tests from Natural Language
+2402.01721   # CHI 2024 High-impact (94 citations): Non-Consensual Synthetic Intimate Imagery: Prevalence, Attitudes, and Knowledge in 10 Countries
+2103.04725   # CHI 2021 High-impact (94 citations): Assessing the Impact of Automated Suggestions on Decision Making: Domain Experts Mediate Model Errors but Take Less Initiative
+2401.13726   # CHI 2024 High-impact (93 citations): Supporting Sensemaking of Large Language Model Outputs at Scale
+2102.13508   # CHI 2021 High-impact (92 citations): Eliciting and Analysing Users’ Envisioned Dialogues with Perfect Voice Assistants
+2104.04118   # CHI 2021 High-impact (91 citations): Towards an Understanding of Situated AR Visualization for Basketball Free-Throw Training
+2309.15723   # CHI 2023 High-impact (91 citations): Where Are We So Far? Understanding Data Storytelling Tools from the Perspective of Human-AI Collaboration
+2402.17861   # CHI 2024 High-impact (90 citations): Towards AI Accountability Infrastructure: Gaps and Opportunities in AI Audit Tooling
+2303.00362   # CHI 2023 High-impact (87 citations): How to Communicate Robot Motion Intent: A Scoping Review
+2405.06061   # CHI 2024 High-impact (87 citations): GPTCoach: Towards LLM-Based Physical Activity Coaching
+2301.07184   # CHI 2023 High-impact (87 citations): Practicing Information Sensibility: How Gen Z Engages with Online Information
+2102.01196   # CHI 2021 High-impact (86 citations): Soliciting Stakeholders’ Fairness Notions in Child Maltreatment Predictive Systems
+2403.15604   # CHI 2024 High-impact (85 citations): Investigating Use Cases of AI-Powered Scene Description Applications for Blind and Low Vision People
+2401.17163   # CHI 2024 High-impact (83 citations): Learning Agent-based Modeling with LLM Companions: Experiences of Novices and Experts Using ChatGPT & NetLogo Chat
+2310.09985   # CHI 2023 High-impact (83 citations): Prompting for Discovery: Flexible Sense-Making for AI Art-Making with Dreamsheets
+2401.08572   # CHI 2024 High-impact (83 citations): The Illusion of Artificial Inclusion
+2309.10433   # CHI 2023 High-impact (83 citations): Writer-Defined AI Personas for On-Demand Feedback Generation
+2101.12284   # CHI 2021 High-impact (82 citations): AffectiveSpotlight: Facilitating the Communication of Affective Responses from Audience Members during Online Presentations
+2101.09576   # CHI 2021 High-impact (82 citations): Digital Transformations of Classrooms in Virtual Reality
+2101.06283   # CHI 2021 High-impact (81 citations): Data@Hand: Fostering Visual Exploration of Personal Data on Smartphones Leveraging Speech and Touch Interaction
+2303.00476   # CHI 2023 High-impact (81 citations): About Engaging and Governing Strategies: A Thematic Analysis of Dark Patterns in Social Networking Services
+2102.08235   # CHI 2021 High-impact (80 citations): Significant Otter: Understanding the Role of Biosignals in Communication
+2402.01662   # CHI 2024 High-impact (80 citations): Generative Ghosts: Anticipating Benefits and Risks of AI Afterlives
+2410.04596   # CHI 2024 High-impact (79 citations): Need Help? Designing Proactive AI Assistants for Programming
+2404.12549   # CHI 2024 High-impact (79 citations): "If the Machine Is As Good As Me, Then What Use Am I?" – How the Use of ChatGPT Changes Young Professionals' Perception of Productivity and Accomplishment
+2504.12943   # CHI 2025 High-impact (78 citations): Customizing Emotional Support: How Do Individuals Construct and Interact With LLM-Powered Chatbots
+2401.14915   # CHI 2024 High-impact (78 citations): Charting the Future of AI in Project-Based Learning: A Co-Design Exploration with Students
+2402.11353   # CHI 2024 High-impact (78 citations): Understanding the Impact of Long-Term Memory on Self-Disclosure with Large Language Model-Driven Chatbots for Public Health Intervention
+2501.12557   # CHI 2025 High-impact (78 citations): Understanding the LLM-ification of CHI: Unpacking the Impact of LLMs at CHI through a Systematic Literature Review
+2103.16399   # CHI 2021 High-impact (78 citations): The Development and Validation of the Technology-Supported Reflection Inventory
+2503.04084   # CHI 2025 High-impact (78 citations): Generative and Malleable User Interfaces with Generative and Evolving Task-Driven Data Model
+2101.08235   # CHI 2021 High-impact (77 citations): Towards Understanding How Readers Integrate Charts and Captions: A Case Study with Line Charts
+2502.18658   # CHI 2025 High-impact (77 citations): Assistance or Disruption? Exploring and Evaluating the Design and Trade-offs of Proactive AI Programming Support
+2402.15265   # CHI 2024 High-impact (77 citations): CloChat: Understanding How People Customize, Interact, and Experience Personas in Large Language Models
+2403.03297   # CHI 2024 High-impact (76 citations): “It’s the only thing I can trust”: Envisioning Large Language Model Use by Autistic Workers for Communication Assistance
+2101.10367   # CHI 2021 High-impact (75 citations): Modeling Assumptions Clash with the Real World: Transparency, Equity, and Community Challenges for Student Assignment Algorithms
+2410.07362   # CHI 2024 High-impact (75 citations): Large Language Models in Qualitative Research: Uses, Tensions, and Intentions
+https://arxiv.org/pdf/2010.01662   # CHI 2021 High-impact (75 citations): Learning from Home: A Mixed-Methods Analysis of Live Streaming Based Remote Education Experience in Chinese Colleges during the COVID-19 Pandemic
+2401.11923   # CHI 2024 High-impact (75 citations): VirtuWander: Enhancing Multi-modal Interaction for Virtual Tour Guidance through Large Language Models
+2111.04920   # CHI 2021 High-impact (74 citations): PopBlends: Strategies for Conceptual Blending with Large Language Models
+2203.08420   # CHI 2022 High-impact (73 citations): How do you Converse with an Analytical Chatbot? Revisiting Gricean Maxims for Designing Analytical Conversational Behavior
+2402.09260   # CHI 2024 High-impact (73 citations): Evaluating the Experience of LGBTQ+ People Using Large Language Model Based Chatbots for Mental Health Support
+2402.16795   # CHI 2024 High-impact (73 citations): If in a Crowdsourced Data Annotation Pipeline, a GPT-4
+2410.04025   # CHI 2024 High-impact (73 citations): IdeaSynth: Iterative Research Idea Development Through Evolving and Composing Idea Facets with Literature-Grounded Feedback
+2409.14509   # CHI 2024 High-impact (73 citations): Can AI writing be salvaged? Mitigating Idiosyncrasies and Improving Human-AI Alignment in the Writing Process through Edits
+2102.11824   # UIST 2021 High-impact (749 citations): An Aligned Rank Transform Procedure for Multifactor Contrast Tests
+2404.12272   # UIST 2024 High-impact (288 citations): Who Validates the Validators? Aligning LLM-Assisted Evaluation of LLM Outputs with Human Preferences
+2108.03353   # UIST 2021 High-impact (233 citations): Screen2Words: Automatic Mobile UI Summarization with Multimodal Learning
+2304.09337   # UIST 2023 High-impact (217 citations): Promptify: Text-to-Image Generation through Interactive Prompt Exploration with Large Language Models
+2305.11473   # UIST 2023 High-impact (212 citations): Graphologue: Exploring Large Language Model Responses with Interactive Diagrams
+2305.11483   # UIST 2023 High-impact (184 citations): Sensecape: Enabling Multilevel Exploration and Sensemaking with Large Language Models
+2304.07810   # UIST 2023 High-impact (178 citations): VISAR: A Human-AI Argumentative Writing Assistant with Visual Programming and Rapid Draft Prototyping
+2204.09007   # UIST 2022 High-impact (137 citations): Opal: Multimodal Image Generation for News Illustration
+2308.05184   # UIST 2023 High-impact (132 citations): PromptPaint: Steering Text-to-Image Generation Through Paint Medium-like Interactions
+2208.09323   # UIST 2022 High-impact (125 citations): Beyond Text Generation: Supporting Writers with Continuous Automatic Text Summaries
+2308.03921   # UIST 2023 High-impact (109 citations): Spellburst: A Node-based Interface for Exploratory Creative Coding with Natural Language Prompts
+2109.08763   # UIST 2021 High-impact (103 citations): Screen Parsing: Towards Reverse Engineering of UI Models from Screenshots
+2408.01703   # UIST 2024 High-impact (93 citations): WaitGPT: Monitoring and Steering Conversational LLM Agent in Data Analysis with On-the-Fly Code Visualization
+2108.10829   # UIST 2021 High-impact (91 citations): HapticBots: Distributed Encountered-type Haptics for VR with Multiple Shape-changing Mobile Robots
+2404.13274   # UIST 2024 High-impact (87 citations): Augmented Object Intelligence with XR-Objects
+2407.02651   # UIST 2024 High-impact (83 citations): Improving Steering and Verification in AI-Assisted Data Analysis with Interactive Task Decomposition
+2308.07517   # UIST 2023 High-impact (80 citations): Synergi: A Mixed-Initiative System for Scholarly Synthesis and Sensemaking
+2309.15337   # UIST 2023 High-impact (76 citations): Beyond the Chat: Executable and Verifiable Text-Editing with LLMs
+2408.09382   # UIST 2024 High-impact (72 citations): VRCopilot: Authoring 3D Layouts with Generative AI Models in VR
+2308.01542   # UIST 2023 High-impact (69 citations): Memory Sandbox: Transparent and Interactive Memory Management for Conversational Agents
+2208.03455   # UIST 2022 High-impact (66 citations): Threddy: An Interactive System for Personalized Thread-based Exploration and Organization of Scientific Literature
+2409.12836   # UIST 2024 High-impact (62 citations): SituationAdapt: Contextual UI Optimization in Mixed Reality with Situation Awareness via LLM Reasoning
+2208.06350   # UIST 2022 High-impact (62 citations): RealityTalk: Real-Time Speech-Driven Augmented Presentation for AR Live Storytelling
+2110.04323   # UIST 2021 High-impact (61 citations): Snowy: Recommending Utterances for Conversational Visual Analysis
+2404.04066   # UIST 2024 High-impact (61 citations): VoicePilot: Harnessing LLMs as Speech Interfaces for Physically Assistive Robots
+2308.05898   # UIST 2023 High-impact (61 citations): Unveiling the Tricks: Automated Detection of Dark Patterns in Mobile Applications
+2407.18064   # UIST 2024 High-impact (60 citations): ComPeer: A Generative Conversational Agent for Proactive Peer Support
+2308.13355   # UIST 2023 High-impact (60 citations): WorldSmith: Iterative and Expressive Prompting for World Building with a Generative AI
+2408.04112   # UIST 2024 High-impact (57 citations): Patchview: LLM-powered Worldbuilding with Generative Dust and Magnet Visualization
+2208.06341   # UIST 2022 High-impact (57 citations): Sketched Reality: Sketching Bi-Directional Interactions Between Virtual and Physical Worlds with AR and Actuated Tangible UI
+2312.11190   # UIST 2023 High-impact (54 citations): VisionTasker: Mobile Task Automation Using Vision Based UI Understanding and LLM Task Planning
+2504.12492   # UIST 2024 High-impact (52 citations): MobilePoser: Real-Time Full-Body Pose Estimation and 3D Human Translation from IMUs in Mobile Consumer Devices
+2109.01202   # UIST 2021 High-impact (52 citations): NavStick: Making Video Games Blind-Accessible via the Ability to Look Around
+2208.12981   # UIST 2022 High-impact (51 citations): CodeToon: Story Ideation, Auto Comic Generation, and Structure Mapping for Code-Driven Storytelling
+2309.06379   # UIST 2023 High-impact (49 citations): Style2Fab: Functionality-Aware Segmentation for Fabricating Personalized 3D Models with Generative AI
+2310.09611   # UIST 2023 High-impact (48 citations): VizAbility: Enhancing Chart Accessibility with LLM-based Conversational Interaction
+2407.08850   # UIST 2024 High-impact (48 citations): UICrit: Enhancing Automated Design Evaluation with a UI Critique Dataset
+2404.12500   # UIST 2024 High-impact (46 citations): UIClip: A Data-driven Model for Assessing User Interface Design
+2208.06133   # UIST 2022 High-impact (45 citations): Scholastic: Graphical Human-AI Collaboration for Inductive and Interpretive Text Analysis
+2311.00320   # UIST 2023 High-impact (44 citations): Semantic Hearing: Programming Acoustic Scenes with Binaural Hearables
+2307.16112   # UIST 2023 High-impact (43 citations): Augmented Math: Authoring AR-Based Explorable Explanations by Augmenting Static Math Textbooks
+2307.16114   # UIST 2023 High-impact (43 citations): HoloBots: Augmenting Holographic Telepresence with Mobile Robots for Tangible Remote Collaboration in Mixed Reality
+2404.16054   # UIST 2024 High-impact (42 citations): LlamaTouch: A Faithful and Scalable Testbed for Mobile UI Task Automation
+2509.01786   # UIST 2024 High-impact (40 citations): EgoTouch: On-Body Touch Input Using AR/VR Headset Cameras
+2108.03356   # UIST 2021 High-impact (40 citations): HelpViz: Automatic Generation of Contextual Visual Mobile Tutorials from Text-Based Instructions
+2408.00447   # UIST 2024 High-impact (38 citations): DiscipLink: Unfolding Interdisciplinary Information Seeking Process via Human-AI Co-Exploration
+2308.03864   # UIST 2023 High-impact (37 citations): Storyfier: Exploring Vocabulary Learning Support with Text Generation Models
+2208.14861   # UIST 2022 High-impact (37 citations): Fuse: In-Situ Sensemaking Support in the Browser
+2308.03311   # UIST 2023 High-impact (36 citations): CrossTalk: Intelligent Substrates for Language-Oriented Interaction in Video-Based Communication and Collaboration
+2509.03451   # UIST 2023 High-impact (35 citations): SmartPoser: Arm Pose Estimation with a Smartphone and Smartwatch Using UWB and IMU Data
+2305.10374   # CSCW 2023 High-impact (136 citations): Personalizing Content Moderation on Social Media: User Perspectives on Moderation Choices, Interface Design, and Labor
+2602.07193   # DIS 2026 High-impact (11 citations): "Death" of a Chatbot: Investigating and Designing Toward Psychologically Safe Endings for Human-AI Relationships
+2511.15657   # DIS 2023 High-impact (10 citations): Fantômas: An analysis of parton distributions in a pion with Bézier parametrizations
+2410.20410   # DIS 2024 High-impact (8 citations): Particle Identification with the ePIC detector at the EIC
+2406.10779   # DIS 2024 High-impact (7 citations): Quarkonium fragmentation in a variable-flavor number scheme: Towards NRFF1.0
+2510.03559   # DIS 2025 High-impact (5 citations): PrivacyMotiv: Vulnerability-Centered Persona Journeys for Empathic Privacy Reviews in UX Design
+2408.11075   # DIS 2024 High-impact (5 citations): Calorimetry for the ePIC Experiment
+2501.12182   # DIS 2024 High-impact (5 citations): Inclusive photoproduction of vector quarkonium in ultra-peripheral collisions at the LHC
+2511.15331   # DIS 2025 High-impact (5 citations): DesignerlyLoop: Forming Design Intent through Curated Reasoning for Human-LLM Alignment
+2407.10739   # DIS 2024 High-impact (4 citations): Non-perturbative Collins-Soper kernel: Chiral quarks and Coulomb-gauge-fixed quasi-TMD
+2407.02456   # DIS 2024 High-impact (4 citations): Precision calculations for groomed event shapes at HERA
+2409.18485   # DIS 2024 High-impact (4 citations): Improved modeling of photon-photon processes in ultraperipheral collisions at hadron colliders
+2406.06083   # DIS 2024 High-impact (4 citations): Towards NNPDFpol2.0
+2408.08731   # DIS 2024 High-impact (4 citations): Higgs production at NLL accuracy in the BFKL approach
+2410.18829   # DIS 2024 High-impact (3 citations): Six-jet production from triple parton scatterings in proton-proton collisions at the LHC
+2601.11848   # DIS 2026 High-impact (3 citations): Compass vs Railway Tracks: Unpacking User Mental Models for Communicating Long-Horizon Work to Humans vs. AI
+2409.02811   # DIS 2024 High-impact (3 citations): Physics Perspectives with the ePIC Far-Forward and Far-Backward detectors
+2605.10085   # DIS 2026 High-impact (2 citations): Designing for Collective Access: In Search of a Solution to Accessible Communication in a Mixed-Ability Non-Profit
+2408.11131   # DIS 2024 High-impact (2 citations): The upcoming CTEQ-TEA parton distributions in a nutshell
+2408.12922   # DIS 2024 High-impact (2 citations): A study of systematic uncertainties within the MSHT PDF framework.
+2412.11146   # DIS 2024 High-impact (2 citations): Enhancing Multiagent Genetic Network Programming Performance Using Search Space Reduction

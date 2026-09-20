@@ -206,6 +206,7 @@ def paper_key_for(pdf: Path):
 
 
 EXTRACTOR_VERSION = 5      # bump when extract.py changes what gets cropped
+TABLES_VERSION = 1         # bump when the table locator changes (backfilled by `figlib tables`)
 
 
 def _extract_one(job):
@@ -217,7 +218,7 @@ def _extract_one(job):
         return key, {"error": repr(e), "pdf": str(pdf)}
     rec = {
         "paper_key": key, "pdf": str(pdf), "pdf_mtime": pdf.stat().st_mtime,
-        "extractor_version": EXTRACTOR_VERSION, "dpi": dpi,
+        "extractor_version": EXTRACTOR_VERSION, "dpi": dpi, "tables_version": TABLES_VERSION,
         "meta": meta, "figures": [f.to_dict() for f in figs],
     }
     return key, rec
@@ -555,7 +556,7 @@ def load_index(data: Path):
         figs = _dedupe_images(data, figs)                              # two captions can crop the same picture
         from figlib.extract import fig_path, classify as _kind, Figure as _Fig
         for f in figs:
-            if not f.get("vision"):
+            if not f.get("vision") and f.get("kind") != "table":
                 # caption heuristics may have improved since extraction: recompute the guess
                 try:
                     f["kind"] = _kind(_Fig(fig_id=f["fig_id"], num=f["num"], page=f["page"], caption=f["caption"], bbox=tuple(f["bbox"]),
@@ -662,6 +663,50 @@ def cmd_site(args):
     log(f"site: {len(papers)} papers, {index['n_figures']} figures, {len(shard_urls)} shards, {linked} figure files linked -> {out}")
 
 
+def cmd_tables(args):
+    """Add tables to papers extracted before the table locator existed. Needs the PDFs on disk
+    (run `fetch --refetch` first); updates pdf_mtime so `extract` does not redo the figures."""
+    data = args.data
+    idx_dir, figs_dir, pdf_dir = data / "index", data / "figs", data / "pdf"
+    from figlib.extract import extract_tables_only
+    from figlib.classify import atomic_write_json
+    todo = []
+    for ip in sorted(idx_dir.glob("*.json")):
+        try:
+            rec = json.loads(ip.read_text())
+        except Exception:
+            continue
+        if "error" in rec or (rec.get("tables_version") == TABLES_VERSION and not args.force):
+            continue
+        pdf = Path(rec.get("pdf", ""))
+        if not pdf.exists():
+            alt = pdf_dir / f"{ip.stem}.pdf"
+            if not alt.exists():
+                continue
+            pdf = alt
+        todo.append((ip, rec, pdf))
+    log(f"tables: {len(todo)} papers with a PDF on disk")
+    for i, (ip, rec, pdf) in enumerate(todo, 1):
+        try:
+            tabs = extract_tables_only(str(pdf), figs_dir, ip.stem, dpi=rec.get("dpi", 300))
+        except Exception as e:
+            log(f"  [{i}/{len(todo)}] {ip.stem}: ERROR {e!r}")
+            continue
+        rec["figures"] = [f for f in rec["figures"] if "__tab" not in f["fig_id"]] + [t.to_dict() for t in tabs]
+        rec["tables_version"] = TABLES_VERSION
+        rec["pdf"] = str(pdf)
+        rec["pdf_mtime"] = pdf.stat().st_mtime
+        atomic_write_json(ip, rec)
+        log(f"  [{i}/{len(todo)}] {ip.stem}: {len(tabs)} tables")
+
+
+def cmd_seedgen(args):
+    from figlib.seedgen import run, VENUES
+    if args.area not in VENUES:
+        raise SystemExit(f"unknown area {args.area}; choose from {', '.join(sorted(VENUES))}")
+    run(args.data, args.area, Path(args.out), args.years, log=log)
+
+
 def cmd_build(args):
     data = args.data
     papers = load_index(data)
@@ -726,6 +771,14 @@ def main(argv=None):
     cw = sub.add_parser("convert-webp", help="re-encode existing PNG figures as WebP (one-off migration)")
     cw.set_defaults(fn=cmd_convert_webp)
 
+    tb = sub.add_parser("tables", help="backfill tables for papers extracted before the table locator (PDFs must be on disk)")
+    tb.add_argument("--force", action="store_true")
+    tb.set_defaults(fn=cmd_tables)
+    sg = sub.add_parser("seedgen", help="write a seed list of the most cited open papers of an area's venues (Semantic Scholar)")
+    sg.add_argument("--area", required=True)
+    sg.add_argument("--out", required=True)
+    sg.add_argument("--years", default="2021-2026")
+    sg.set_defaults(fn=cmd_seedgen)
     en = sub.add_parser("enrich", help="fill authors / titles / citations from Semantic Scholar")
     en.add_argument("--force", action="store_true")
     en.set_defaults(fn=cmd_enrich)

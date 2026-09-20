@@ -465,6 +465,143 @@ def _save_rotated(pix, path, angle):
 
 # ---------------------------------------------------------------- driver
 
+# ---------------------------------------------------------------- tables
+
+TABLE_CAP_RE = re.compile(r"^\s*(Figure|Fig\.?|Table|图|表)\s*\d", re.I)
+
+
+def _page_lines(page):
+    """[(rect, max word gap, text)] one entry per text line."""
+    groups = {}
+    for w in page.get_text("words"):            # x0, y0, x1, y1, word, block, line, wordno
+        groups.setdefault((w[5], w[6]), []).append(w)
+    out = []
+    for ws in groups.values():
+        ws.sort(key=lambda w: w[0])
+        r = pymupdf.Rect(ws[0][:4])
+        for w in ws[1:]:
+            r |= pymupdf.Rect(w[:4])
+        gaps = [ws[i + 1][0] - ws[i][2] for i in range(len(ws) - 1)]
+        out.append((r, max(gaps) if gaps else 0.0, " ".join(w[4] for w in ws)))
+    out.sort(key=lambda t: (t[0].y0, t[0].x0))
+    return out
+
+
+def _page_rules(page):
+    """Thin horizontal rules (booktabs) and vertical grid lines."""
+    rules = []
+    for d in page.get_drawings():
+        r = d.get("rect")
+        if r is None:
+            continue
+        if (r.height <= 2.5 and r.width >= 30) or (r.width <= 2.5 and r.height >= 20):
+            rules.append(pymupdf.Rect(r))
+    return rules
+
+
+def locate_table(cap: Caption, band, lines, rules, all_caps):
+    """Body of a 'Table N' caption: the run of table-like text lines (cells with wide gaps, narrow
+    lines, lines between rules) right below or above the caption, plus the rules that frame them.
+    Stops at another caption, a clear gap, a bottom rule followed by space, or a plain paragraph line."""
+    cb = pymupdf.Rect(cap.bbox)
+    bw = band[1] - band[0]
+    others = [pymupdf.Rect(c.bbox) for c in all_caps if c is not cap]
+
+    def in_band(r):
+        return min(r.x1, band[1]) - max(r.x0, band[0]) > 0.3 * min(r.width, bw)
+
+    hr = [r for r in rules if r.height <= 2.5 and in_band(r)]
+
+    def walk(direction):
+        cand = [l for l in lines if in_band(l[0]) and (l[0].y0 >= cb.y1 - 1 if direction > 0 else l[0].y1 <= cb.y0 + 1)]
+        cand.sort(key=lambda l: l[0].y0 * direction)
+        taken, edge = [], (cb.y1 if direction > 0 else cb.y0)
+        for r, maxgap, text in cand:
+            gap = (r.y0 - edge) if direction > 0 else (edge - r.y1)
+            lo, hi = (edge, r.y0) if direction > 0 else (r.y1, edge)
+            between = [x for x in hr if lo - 1 <= x.y0 <= hi + 1]
+            if gap > 30 and not between:
+                break
+            if TABLE_CAP_RE.match(text) or any(o.intersects(r) for o in others):
+                break
+            if taken and between:               # a rule and then clear space: the table ended at that rule
+                far = (r.y0 - max(x.y1 for x in between)) if direction > 0 else (min(x.y0 for x in between) - r.y1)
+                if far > 9:
+                    break
+            tabular = maxgap >= 12 or (r.width < 0.8 * bw and (maxgap >= 6 or re.search(r"\d", text)))
+            if not tabular and r.width >= 0.8 * bw:
+                # a full-width plain line belongs to the table only when rules hug it on both sides
+                near_above = any(r.y0 - 25 <= x.y1 <= r.y0 + 1 for x in hr)
+                near_below = any(r.y1 - 1 <= x.y0 <= r.y1 + 25 for x in hr)
+                if not (near_above and near_below):
+                    break
+            taken.append(r)
+            edge = r.y1 if direction > 0 else r.y0
+        return taken
+
+    best = None
+    for direction in (1, -1):
+        taken = walk(direction)
+        if len(taken) >= 2 and (best is None or len(taken) > len(best)):
+            best = taken
+    if not best:
+        return None
+    box = pymupdf.Rect(best[0])
+    for r in best[1:]:
+        box |= r
+    for r in rules:                                   # frame rules just outside the text
+        if in_band(r) and r.y0 >= box.y0 - 8 and r.y1 <= box.y1 + 8:
+            box |= r
+    box = box + (-3, -3, 3, 3)
+    if box.width < 60 or box.height < 18:
+        return None
+    return box
+
+
+def extract_tables(page, pno, paper_key, caps, blocks, extent, out_dir, dpi, thumb_px, seen):
+    """Render every located 'Table N' on the page; returns [Figure] with kind 'table'."""
+    tab_caps = [c for c in caps if c.kind == "table"]
+    if not tab_caps:
+        return []
+    lines, rules = _page_lines(page), _page_rules(page)
+    out = []
+    for cap in tab_caps:
+        slug = re.sub(r"[^0-9A-Za-z.]+", "", cap.num)
+        if (pno, "tab", slug) in seen:
+            continue
+        band = _band_for(cap, extent, page.rect)
+        box = locate_table(cap, band, lines, rules, caps)
+        if box is None:
+            continue
+        seen.add((pno, "tab", slug))
+        fig_id = f"{paper_key}__p{pno + 1}__tab{slug}"
+        pix = page.get_pixmap(clip=box, dpi=dpi, alpha=False, annots=False)
+        scale = min(1.0, thumb_px / max(1, pix.width))
+        tp = page.get_pixmap(clip=box, dpi=max(36, int(dpi * scale)), alpha=False, annots=False)
+        w, h = save_pix(pix, out_dir / f"{fig_id}{FIG_EXT}")
+        save_pix(tp, out_dir / f"{fig_id}.thumb{FIG_EXT}")
+        fig = Figure(fig_id=fig_id, num=cap.num, page=pno + 1, caption=cap.text,
+                     bbox=tuple(round(v, 1) for v in box), full_width=cap.full_width,
+                     has_raster=False, n_drawings=len(rules), width_pt=round(box.width, 1), height_pt=round(box.height, 1),
+                     kind="table", extra={"px_w": w, "px_h": h, "rotated": 0})
+        out.append(fig)
+    return out
+
+
+def extract_tables_only(path, out_dir, paper_key, dpi=300, thumb_px=960):
+    """Tables of one PDF (used to backfill papers extracted before tables existed)."""
+    doc = pymupdf.open(path)
+    figs, seen = [], set()
+    for pno in range(doc.page_count):
+        page = doc[pno]
+        blocks = _text_blocks(page)
+        extent = _text_extent(blocks)
+        caps = find_captions(page, blocks, extent)
+        figs += extract_tables(page, pno, paper_key, caps, blocks, extent, out_dir, dpi, thumb_px, seen)
+    doc.close()
+    return figs
+
+
 def extract_pdf(path, out_dir, paper_key, dpi=300, thumb_px=960, max_pages=None):
     """Return (meta, [Figure]) and write PNGs into out_dir."""
     doc = pymupdf.open(path)
@@ -477,6 +614,7 @@ def extract_pdf(path, out_dir, paper_key, dpi=300, thumb_px=960, max_pages=None)
         blocks = _text_blocks(page)
         extent = _text_extent(blocks)
         caps = find_captions(page, blocks, extent)
+        figures += extract_tables(page, pno, paper_key, caps, blocks, extent, out_dir, dpi, thumb_px, seen)
         fig_caps = [c for c in caps if c.kind == "figure"]
         if not fig_caps:
             continue

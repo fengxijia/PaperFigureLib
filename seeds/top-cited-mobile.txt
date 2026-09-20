@@ -1,0 +1,137 @@
+# Most cited 2021-2026 papers of the mobile venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-20).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2308.15272   # MobiCom 2023 High-impact (300 citations): AutoDroid: LLM-powered Task Automation in Android
+2404.09140   # MobiCom 2024 High-impact (138 citations): RF-Diffusion: Radio Signal Generation via Time-Frequency Diffusion
+2302.08646   # MobiCom 2023 High-impact (106 citations): AutoFed: Heterogeneity-Aware Federated Multimodal Learning for Robust Autonomous Driving
+2108.12305   # MobiCom 2021 High-impact (96 citations): EarGate: gait-based user identification with in-ear microphones
+2308.10234   # MobiCom 2023 High-impact (93 citations): MUSE-Fi: Contactless MUti-person SEnsing Exploiting Near-field Wi-Fi Channel Variation
+2106.05039   # MobiCom 2021 High-impact (82 citations): AdaptOver: adaptive overshadowing attacks in cellular networks
+2303.07129   # MobiCom 2023 High-impact (78 citations): AdaptiveNet: Post-deployment Neural Architecture Adaptation for Diverse Edge Environments
+2312.03003   # MobiCom 2023 High-impact (75 citations): MobileGPT: Augmenting LLM with Human-like App Memory for Mobile Task Automation
+2603.28787   # MobiCom 2021 High-impact (71 citations): Vi-liquid: unknown liquid identification with your smartphone vibration
+2403.12844   # MobiCom 2024 High-impact (68 citations): MELTing Point: Mobile Evaluation of Language Transformers
+2206.07509   # MobiCom 2022 High-impact (63 citations): Mandheling: mixed-precision on-device DNN training with DSP offloading
+2108.06884   # MobiCom 2021 High-impact (59 citations): Seirios: leveraging multiple channels for LoRaWAN indoor and outdoor localization
+2308.14363   # MobiCom 2023 High-impact (54 citations): Mobile Foundation Model as Firmware
+2401.03435   # MobiCom 2024 High-impact (53 citations): Deciphering the Enigma of Satellite Computing with COTS Devices: Measurement and Analysis
+2312.14229   # MobiCom 2022 High-impact (52 citations): Real-time neural network inference on extremely weak devices: agile offloading with explainable AI
+2310.15301   # MobiCom 2023 High-impact (51 citations): ADMarker: A Multi-Modal Federated Learning System for Monitoring Digital Biomarkers of Alzheimer's Disease
+2408.08015   # MobiCom 2024 High-impact (50 citations): Asteroid: Resource-Efficient Hybrid Pipeline Parallelism for Collaborative DNN Training on Heterogeneous Edge Devices
+2209.15195   # MobiCom 2022 High-impact (50 citations): RF-transformer: a unified backscatter radio hardware abstraction
+2207.07121   # MobiCom 2022 High-impact (49 citations): Designing, building, and characterizing RF switch-based reconfigurable intelligent surfaces
+2110.14279   # MobiCom 2021 High-impact (47 citations): SiWa: see into walls via deep UWB radar
+2503.05346   # MobiCom 2025 High-impact (45 citations): AutoIOT: LLM-Driven Automated Natural Language Programming for AIoT Applications
+2405.19516   # MobiCom 2024 High-impact (42 citations): Enabling Visual Recognition at Radio Frequency
+2103.10561   # MobiCom 2021 High-impact (40 citations): Physics-inspired heuristics for soft MIMO detection in 5G new radio and beyond
+2302.03213   # MobiCom 2023 High-impact (40 citations): LUT-NN: Empower Efficient Neural Network Inference with Centroid Learning and Table Lookup
+2410.12978   # MobiCom 2024 High-impact (36 citations): ORANSlice: An Open Source 5G Network Slicing Platform for O-RAN
+2410.01256   # MobiCom 2024 High-impact (35 citations): ParallelSFL: A Novel Split Federated Learning Framework Tackling Heterogeneity Issues
+2304.07572   # MobiCom 2023 High-impact (35 citations): GPSMirror: Expanding Accurate GPS Positioning to Shadowed and Indoor Regions with Backscatter
+2402.14634   # MobiCom 2024 High-impact (33 citations): GazeTrak: Exploring Acoustic-based Eye Tracking on a Glass Frame
+2212.05974   # MobiCom 2022 High-impact (31 citations): Federated Few-Shot Learning for Mobile NLP
+2302.13501   # MobiCom 2023 High-impact (30 citations): A Handheld Fine-Grained RFID Localization System with Complex-Controlled Polarization
+2404.13786   # MobiCom 2024 High-impact (30 citations): Soar: Design and Deployment of A Smart Roadside Infrastructure System for Autonomous Driving
+2308.06053   # MobiCom 2023 High-impact (28 citations): Cost-effective On-device Continual Learning over Memory Hierarchy with Miro
+2307.11518   # MobiCom 2023 High-impact (26 citations): BatMobility: Towards Flying Without Seeing for Autonomous Drones
+2504.15299   # MobiCom 2025 High-impact (26 citations): D2MoE: Dual Routing and Dynamic Scheduling for Efficient On-Device MoE-based LLM Serving
+2409.18987   # MobiCom 2024 High-impact (24 citations): Efficient and Personalized Mobile Health Event Prediction via Small Language Models
+2503.18492   # MobiCom 2025 High-impact (23 citations): VeriSafe Agent: Safeguarding Mobile GUI Agent via Logic-based Action Verification
+2508.02409   # MobiCom 2024 High-impact (21 citations): Hydra: Accurate Multi-Modal Leaf Wetness Sensing with mm-Wave and Camera Fusion
+2309.06981   # MobiCom 2023 High-impact (20 citations): MASTERKEY: Practical Backdoor Attack Against Speaker Verification Systems
+2503.22567   # MobiCom 2025 High-impact (19 citations): Benchmarking Ultra-Low-Power μNPUs
+2306.08345   # MobiCom 2023 High-impact (18 citations): SWAM: Revisiting Swap and OOMK for Improving Application Responsiveness on Mobile Devices
+2403.14963   # MobiCom 2024 High-impact (16 citations): Enabling Physical Localization of Uncooperative Cellular Devices
+2411.16020   # MobiCom 2024 High-impact (15 citations): TransCompressor: LLM-Powered Multimodal Data Compression for Smart Transportation
+2207.12496   # MobiCom 2022 High-impact (15 citations): NeuriCam: Key-Frame Video Super-Resolution and Colorization for IoT Cameras
+2306.02361   # MobiCom 2023 High-impact (15 citations): Softly, Deftly, Scrolls Unfurl Their Splendor: Rolling Flexible Surfaces for Wideband Wireless
+2409.16754   # MobiCom 2024 High-impact (14 citations): xDevSM: Streamlining xApp Development With a Flexible Framework for O-RAN E2 Service Models
+2505.10593   # MobiCom 2025 High-impact (14 citations): LLM-Explorer: Towards Efficient and Affordable LLM-based Exploration for Mobile Apps
+2407.15614   # MobiCom 2024 High-impact (14 citations): Experimenting with Adaptive Bitrate Algorithms for Virtual Reality Streaming over Wi-Fi
+2411.02553   # MobiCom 2024 High-impact (14 citations): Map++: Towards User-Participatory Visual SLAM Systems with Efficient Map Expansion and Sharing
+2208.00598   # MobiCom 2022 High-impact (13 citations): A real-time edge-AI system for reef surveys
+2410.09963   # MobiCom 2024 High-impact (13 citations): Heterogeneous Graph Neural Network for Cooperative ISAC Beamforming in Cell-Free MIMO Systems
+2201.01601   # MobiSys 2022 High-impact (125 citations): FedBalancer: data and pace control for efficient federated learning on heterogeneous clients
+2112.14947   # MobiSys 2021 High-impact (105 citations): AutoCast: scalable infrastructure-less cooperative perception for distributed collaborative driving
+2106.08607   # MobiSys 2021 High-impact (74 citations): OESense: employing occlusion effect for in-ear human sensing
+2206.13611   # MobiSys 2022 High-impact (45 citations): ClearBuds: wireless binaural earbuds for learning-based speech enhancement
+2301.02402   # MobiSys 2023 High-impact (43 citations): Hawkeye: Hectometer-range Subcentimeter Localization for Large-scale mmWave Backscatter
+2412.18116   # MobiSys 2024 High-impact (42 citations): AutoDroid-V2: Boosting SLM-based GUI Agents via Code Generation
+2504.03355   # MobiSys 2023 High-impact (41 citations): Leggiero: Analog WiFi Backscatter with Payload Transparency
+2312.14227   # MobiSys 2023 High-impact (39 citations): ElasticTrainer: Speeding Up On-Device Training with Runtime Elastic Tensor Selection
+2502.20639   # MobiSys 2024 High-impact (36 citations): FedConv: A Learning-on-Model Paradigm for Heterogeneous Federated Clients
+2201.08812   # MobiSys 2022 High-impact (33 citations): DeepMix: mobility-aware, lightweight, and hybrid 3D object detection for headsets
+2208.10569   # MobiSys 2022 High-impact (28 citations): Underwater messaging using mobile devices
+2407.07510   # MobiSys 2024 High-impact (26 citations): Invisible Optical Adversarial Stripes on Traffic Sign against Autonomous Vehicles
+2212.05435   # MobiSys 2022 High-impact (24 citations): Wireless earbuds for low-cost hearing screening
+2106.15280   # MobiSys 2021 High-impact (23 citations): Xihe: a 3D vision-based lighting estimation framework for mobile augmented reality
+2311.11260   # MobiSys 2023 High-impact (23 citations): Radarize: Enhancing Radar SLAM with Generalizable Doppler-Based Odometry
+2106.04907   # MobiSys 2021 High-impact (21 citations): FastZIP: faster and more secure zero-interaction pairing
+2206.07446   # MobiSys 2022 High-impact (18 citations): Boosting DNN Cold Inference on Edge Devices
+2507.01438   # MobiSys 2025 High-impact (16 citations): EdgeLoRA: An Efficient Multi-Tenant LLM Serving System on Edge Devices
+2504.13938   # MobiSys 2025 High-impact (14 citations): Never Start from Scratch: Expediting On-Device LLM Personalization via Explainable Model Selection
+2504.13736   # MobiSys 2024 High-impact (13 citations): LimitNet: Progressive, Content-Aware Image Offloading for Extremely Weak Devices & Networks
+2512.10371   # MobiSys 2025 High-impact (12 citations): AgentProg: Empowering Long-Horizon GUI Agents with Program-guided Context Management
+2311.18188   # MobiSys 2023 High-impact (9 citations): Speech Understanding on Tiny Devices with A Learning Cache
+2504.06587   # MobiSys 2025 High-impact (9 citations): SigChord: Sniffing Wide Non-sparse Multiband Signals for Terrestrial and Non-terrestrial Networks
+2309.08978   # MobiSys 2023 High-impact (8 citations): Empowering In-Browser Deep Learning Inference on Edge Through Just-In-Time Kernel Optimization
+2305.16445   # MobiSys 2023 High-impact (8 citations): SoundSieve: Seconds-Long Audio Event Recognition on Intermittently-Powered Systems
+2512.07136   # MobiSys 2025 High-impact (5 citations): A Large-Scale Multimodal Dataset and Benchmarks for Human Activity Scene Understanding and Reasoning
+2507.04227   # MobiSys 2025 High-impact (5 citations): Mobile GUI Agents under Real-world Threats: Are We There Yet?
+2412.11272   # MobiSys 2024 High-impact (5 citations): WhisperFlow: speech foundation models in real time
+2105.11999   # MobiSys 2021 High-impact (5 citations): Throughput-fairness tradeoffs in mobility platforms
+2502.10891   # MobiSys 2025 High-impact (4 citations): AquaScope: Reliable Underwater Image Transmission on Mobile Devices
+2403.11759   # MobiSys 2024 High-impact (4 citations): Why E.T. Can’t Phone Home: A Global View on IP-based Geoblocking at VoWiFi
+2508.16703   # MobiSys 2025 High-impact (4 citations): ShadowNPU: System and Algorithm Co-design for NPU-Centric On-Device LLM Inference
+2511.11907   # MobiSys 2025 High-impact (4 citations): KVSwap: Disk-aware KV Cache Offloading for Long-Context On-device Inference
+2502.05362   # MobiSys 2025 High-impact (4 citations): First-principle crosstalk dynamics and Hamiltonian learning via Rabi experiments
+2507.07149   # MobiSys 2025 High-impact (4 citations): DAF: An Efficient End-to-End Dynamic Activation Framework for on-Device DNN Training
+2305.18954   # MobiSys 2023 High-impact (3 citations): Poster: Towards Battery-Free Machine Learning Inference and Model Personalization on MCUs
+2512.10778   # MobiSys 2025 High-impact (3 citations): Building Audio-Visual Digital Twins with Smartphones
+2506.15183   # MobiSys 2025 High-impact (3 citations): You Only Render Once: Enhancing Energy and Computation Efficiency of Mobile Virtual Reality
+2406.18262   # MobiSys 2024 High-impact (3 citations): GlucOS: Security, correctness, and simplicity for automated insulin delivery
+2504.13190   # MobiSys 2025 High-impact (2 citations): Demo: Cellular-X: An LLM-empowered Cellular Agent for Efficient Base Station Operations
+2106.07976   # SenSys 2021 High-impact (168 citations): Federated Learning for Internet of Things
+2111.08195   # SenSys 2021 High-impact (151 citations): MoRe-Fi: Motion-robust and Fine-grained Respiration Monitoring via Deep-Learning UWB Radar
+2301.03773   # SenSys 2022 High-impact (74 citations): SiFall: Practical Online Fall Detection with RF Sensing
+2311.10986   # SenSys 2023 High-impact (48 citations): EdgeFM: Leveraging Foundation Model for Open-set Learning on the Edge
+2110.00068   # SenSys 2021 High-impact (41 citations): Analysis of IFTTT Recipes to Study How Humans Use Internet-of-Things (IoT) Devices
+2207.00172   # SenSys 2022 High-impact (39 citations): Turbo: Opportunistic Enhancement for Edge Video Analytics
+2503.00686   # SenSys 2025 High-impact (32 citations): GPIoT: Tailoring Small Language Models for IoT Program Synthesis and Development
+2312.15507   # SenSys 2023 High-impact (31 citations): Construct 3D Hand Skeleton with Commercial WiFi
+2504.01297   # SenSys 2022 High-impact (30 citations): AIM: Acoustic Inertial Measurement for Indoor Drone Localization and Tracking
+2311.11420   # SenSys 2023 High-impact (29 citations): LifeLearner: Hardware-Aware Meta Continual Learning System for Embedded Computing Platforms
+2110.07542   # SenSys 2021 High-impact (28 citations): ALFRED: Virtual Memory for Intermittent Computing
+2502.14992   # SenSys 2025 High-impact (27 citations): Ultra-High-Frequency Harmony: mmWave Radar and Event Camera Orchestrate Accurate Drone Landing
+2407.03086   # SenSys 2024 High-impact (27 citations): Effective Heterogeneous Federated Learning via Efficient Hypernetwork-based Weight Generation
+2307.04339   # SenSys 2023 High-impact (26 citations): Miriam: Exploiting Elastic Kernels for Real-time Multi-DNN Inference on Edge GPU
+2410.19766   # SenSys 2024 High-impact (26 citations): Large Model for Small Data: Foundation Model for Cross-Modal RF Human Activity Recognition
+2307.12512   # SenSys 2023 High-impact (25 citations): XRLoc: Accurate UWB Localization to Realize XR Deployments
+2504.06311   # SenSys 2023 High-impact (23 citations): BIFROST: Reinventing WiFi Signals Based on Dispersion Effect for Accurate Indoor Localization
+2204.07878   # SenSys 2021 High-impact (22 citations): 3D Human Pose Estimation Using WiFi Signals
+2407.07023   # SenSys 2024 High-impact (22 citations): HiSAC: High-Resolution Sensing with Multiband Communication Signals
+2404.01958   # SenSys 2023 High-impact (21 citations): MESEN: Exploit Multimodal Data to Design Unimodal Human Activity Recognition with Few Labels
+2110.01842   # SenSys 2021 High-impact (19 citations): Large-scale Urban IoT Activity Data for DDoS Attack Emulation
+2212.03377   # SenSys 2022 High-impact (18 citations): GaitVibe+: Enhancing Structural Vibration-Based Footstep Localization Using Temporary Cameras for in-Home Gait Analysis
+2210.08493   # SenSys 2022 High-impact (18 citations): Indoor Smartphone SLAM with Learned Echoic Location Features
+2411.15211   # SenSys 2024 High-impact (15 citations): LightLLM: A Versatile Large Language Model for Predictive Light Sensing
+2211.06716   # SenSys 2022 High-impact (14 citations): PriMask: Cascadable and Collusion-Resilient Data Masking for Mobile Cloud Inference
+2410.14228   # SenSys 2024 High-impact (14 citations): Towards High-Speed Passive Visible Light Communication with Event Cameras and Digital Micro-Mirrors
+2107.03964   # SenSys 2021 High-impact (14 citations): Enhancing Video Analytics Accuracy via Real-time Automated Camera Parameter Tuning
+2411.12126   # SenSys 2024 High-impact (13 citations): MMBind: Unleashing the Potential of Distributed and Heterogeneous Data for Multimodal Learning in IoT
+2212.01716   # SenSys 2022 High-impact (13 citations): Security Analysis of SplitFed Learning
+2501.04974   # SenSys 2025 High-impact (13 citations): SensorQA: A Question Answering Benchmark for Daily-Life Monitoring
+2205.03263   # IPSN 2022 High-impact (33 citations): SPARCS: A Sparse Recovery Approach for Integrated Communication and Human Sensing in mmWave Systems
+2102.10908   # IPSN 2021 High-impact (24 citations): InaudibleKey: Generic Inaudible Acoustic Signal based Key Agreement Protocol for Mobile Devices
+2104.01160   # IPSN 2021 High-impact (19 citations): PhyAug: Physics-Directed Data Augmentation for Deep Sensing Model Transfer in Cyber-Physical Systems
+2111.10726   # IPSN 2021 High-impact (19 citations): The Case for Approximate Intermittent Computing
+2203.03794   # IPSN 2022 High-impact (17 citations): YONO: Modeling Multiple Heterogeneous Neural Networks on Microcontrollers
+2403.04759   # IPSN 2024 High-impact (14 citations): Intelligence Beyond the Edge using Hyperdimensional Computing
+2106.12753   # IPSN 2021 High-impact (12 citations): DeepAuditor: Distributed Online Intrusion Detection System for IoT Devices via Power Side-channel Auditing
+2105.05092   # IPSN 2021 High-impact (12 citations): DeepLight: Robust & Unobtrusive Real-time Screen-Camera Communication for Real-World Displays
+2309.11957   # IPSN 2023 High-impact (12 citations): Continuous Multi-user Activity Tracking via Room-Scale mmWave Sensing
+2303.12798   # IPSN 2023 High-impact (9 citations): Interpersonal Distance Tracking with mmWave Radar and IMUs
+2202.09841   # IPSN 2022 High-impact (9 citations): RFTacho: Non-intrusive RF monitoring of rotating machines
+2206.06171   # IPSN 2022 High-impact (9 citations): Vildehaye: A Family of Versatile, Widely-Applicable, and Field-Proven Lightweight Wildlife Tracking and Sensing Tags
+2112.12985   # IPSN 2021 High-impact (9 citations): DeepGANTT: A Scalable Deep Learning Scheduler for Backscatter Networks
+2104.14618   # IPSN 2021 High-impact (8 citations): Moonshine: An Online Randomness Distiller for Zero-Involvement Authentication
+2504.03654   # IPSN 2023 High-impact (7 citations): PointSplit: Towards On-device 3D Object Detection with Heterogeneous Low-power Accelerators

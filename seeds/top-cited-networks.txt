@@ -1,0 +1,207 @@
+# Most cited 2021-2026 papers of the networks venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-20).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2402.15627   # NSDI 2024 High-impact (398 citations): MegaScale: Scaling Large Language Model Training to More Than 10, 000 GPUs
+2208.06102   # NSDI 2022 High-impact (210 citations): Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training
+2202.00433   # NSDI 2022 High-impact (209 citations): TopoOpt: Co-optimizing Network Topology and Parallelization Strategy for Distributed Training Jobs
+2403.07648   # NSDI 2024 High-impact (186 citations): Characterization of Large Language Model Development in the Datacenter
+2111.04867   # NSDI 2021 High-impact (173 citations): TACCL: Guiding Collective Algorithm Synthesis using Communication Sketches
+2308.00852   # NSDI 2023 High-impact (140 citations): CASSINI: Network-Aware Job Scheduling in Machine Learning Clusters
+2204.12013   # NSDI 2022 High-impact (135 citations): Bamboo: Making Preemptible Instances Resilient for Affordable Training of Large DNNs
+2112.08541   # NSDI 2021 High-impact (122 citations): BGL: GPU-Efficient GNN Training by Optimizing Graph Data I/O and Preprocessing
+2112.14309   # NSDI 2021 High-impact (115 citations): PowerTCP: Pushing the Performance Limits of Datacenter Networks
+2109.13492   # NSDI 2021 High-impact (94 citations): Following the Data, Not the Function: Rethinking Function Orchestration in Serverless Computing
+2209.15348   # NSDI 2022 High-impact (93 citations): Saiyan: Design and Implementation of a Low-power Demodulator for LoRa Backscatter Systems
+2201.07705   # NSDI 2022 High-impact (90 citations): GEMEL: Model Merging for Memory-Efficient, Real-Time Video Analytics at the Edge
+2304.11467   # NSDI 2023 High-impact (84 citations): Collie: Finding Performance Anomalies in RDMA Subsystems
+2210.07259   # NSDI 2022 High-impact (66 citations): Skyplane: Optimizing Transfer Cost and Throughput Using Cloud-Aware Overlays
+2110.10919   # NSDI 2021 High-impact (66 citations): FlexTOE: Flexible TCP Offload with Fine-Grained Parallelism
+2409.13221   # NSDI 2024 High-impact (60 citations): Optimizing RLHF Training for Large Language Models with Stage Fusion
+2403.11090   # NSDI 2024 High-impact (57 citations): Brain-on-Switch: Towards Advanced Intelligent Network Data Plane via NN-Driven Traffic Analysis at Line-Speed
+2210.00093   # NSDI 2022 High-impact (57 citations): Shockwave: Fair and Efficient Cluster Scheduling for Dynamic Adaptation in Machine Learning
+2103.13351   # NSDI 2021 High-impact (55 citations): RDMA is Turing complete, we just did not know it yet!
+2203.09615   # NSDI 2022 High-impact (53 citations): Canvas: Isolated and Adaptive Swapping for Multi-Applications on Remote Memory
+2305.12333   # NSDI 2023 High-impact (52 citations): GRACE: Loss-Resilient Real-Time Video through Neural Codecs
+2505.09999   # NSDI 2025 High-impact (51 citations): ServeGen: Workload Characterization and Generation of Large Language Model Serving in Production
+2211.00272   # NSDI 2022 High-impact (48 citations): RF-Chord: Towards Deployable RFID Localization System for Logistic Networks
+2202.05769   # NSDI 2022 High-impact (48 citations): The Benefit of Hindsight: Tracing Edge-Cases in Distributed Systems
+2403.14097   # NSDI 2024 High-impact (48 citations): Parcae: Proactive, Liveput-Optimized DNN Training on Preemptible Instances
+2401.09356   # NSDI 2024 High-impact (47 citations): Swing: Short-cutting Rings for Higher Bandwidth Allreduce
+2204.12954   # NSDI 2022 High-impact (45 citations): Dashlet: Taming Swipe Uncertainty for Robust Short Video Streaming
+2101.12691   # NSDI 2021 High-impact (44 citations): Isolation Mechanisms for High-Speed Packet-Processing Pipelines
+2302.08545   # NSDI 2023 High-impact (43 citations): THC: Accelerating Distributed Deep Learning Using Tensor Homomorphic Compression
+2407.20143   # NSDI 2024 High-impact (41 citations): ByteCheckpoint: A Unified Checkpointing System for Large Foundation Model Development
+2209.10507   # NSDI 2022 High-impact (37 citations): Gemino: Practical and Robust Neural Compression for Video Conferencing
+2106.12083   # NSDI 2021 High-impact (36 citations): Privid: Practical, Privacy-Preserving Video Analytics Queries
+2108.10464   # NSDI 2021 High-impact (35 citations): A Case for Task Sampling based Learning for Cluster Job Scheduling
+2112.06095   # NSDI 2021 High-impact (33 citations): Unlocking the Power of Inline Floating-Point Operations on Programmable Switches
+2411.01791   # NSDI 2024 High-impact (32 citations): Minder: Faulty Machine Detection for Large-scale Distributed Model Training
+2205.01234   # NSDI 2022 High-impact (30 citations): Scalable Tail Latency Estimation for Data Center Networks
+2304.07349   # NSDI 2023 High-impact (29 citations): Remote Procedure Call as a Managed System Service
+2310.09699   # NSDI 2023 High-impact (28 citations): Solving Max-Min Fair Resource Allocations Quickly on Large Graphs
+2202.03356   # NSDI 2022 High-impact (27 citations): Efficient Direct-Connect Topologies for Collective Communications
+2504.20068   # NSDI 2025 High-impact (24 citations): JITServe: SLO-aware LLM Serving with Imprecise Request Information
+2106.15315   # NSDI 2021 High-impact (24 citations): Boggart: Towards General-Purpose Acceleration of Retrospective Video Analytics
+2212.08362   # NSDI 2022 High-impact (23 citations): NetRPC: Enabling In-Network Computation in Remote Procedure Calls
+2401.02801   # NSDI 2024 High-impact (22 citations): Credence: Augmenting Datacenter Switch Buffer Sharing with ML Predictions
+2202.02071   # NSDI 2022 High-impact (21 citations): Alea-BFT: Practical Asynchronous Byzantine Fault Tolerance
+2402.18789   # NSDI 2024 High-impact (20 citations): FlexLLM: Token-Level Co-Serving of LLM Inference and Finetuning with SLO Guarantees
+2310.06993   # NSDI 2023 High-impact (19 citations): OptiReduce: Resilient and Tail-Optimal AllReduce for Distributed Deep Learning in the Cloud
+2502.15524   # NSDI 2025 High-impact (18 citations): HydraServe: Minimizing Cold Start Latency for Serverless LLM Serving in Public Clouds
+2408.06432   # NSDI 2024 High-impact (17 citations): BFTBrain: Adaptive BFT Consensus with Reinforcement Learning
+2304.02101   # NSDI 2023 High-impact (17 citations): MadEye: Boosting Live Video Analytics Accuracy with Adaptive Camera Configurations
+2311.12779   # NSDI 2023 High-impact (17 citations): Finding Adversarial Inputs for Heuristics using Multi-level Optimization
+2402.06099   # NSDI 2024 High-impact (16 citations): CATO: End-to-End Optimization of ML-Based Traffic Analysis Pipelines
+2111.02719   # NSDI 2021 High-impact (16 citations): SPEEDEX: A Scalable, Parallelizable, and Economically Efficient Decentralized EXchange
+2403.09861   # NSDI 2024 High-impact (15 citations): NN-Defined Modulator: Reconfigurable and Portable Software Modulator on IoT Gateways
+2307.14791   # NSDI 2023 High-impact (14 citations): Automatic Parallelization of Software Network Functions
+2310.03742   # NSDI 2023 High-impact (13 citations): A High-Performance Design, Implementation, Deployment, and Evaluation of The Slim Fly Network
+2501.09020   # NSDI 2025 High-impact (13 citations): Octopus: Enhancing CXL Memory Pods via Sparse Topology
+2305.13792   # NSDI 2023 High-impact (12 citations): Enhancing Network Failure Mitigation with Performance-Aware Ranking
+2407.16990   # NSDI 2024 High-impact (12 citations): Region-based Content Enhancement for Efficient Video Analytics at the Edge
+2312.15403   # NSDI 2023 High-impact (12 citations): SIRD: A Sender-Informed, Receiver-Driven Datacenter Transport Protocol
+2406.17455   # NSDI 2024 High-impact (12 citations): Smart Casual Verification of the Confidential Consortium Framework
+2308.00797   # NSDI 2023 High-impact (11 citations): Everything Matters in Programmable Packet Scheduling
+2403.09967   # NSDI 2024 High-impact (10 citations): NR-Surface: NextG-ready µW-reconfigurable mmWave Metasurface
+2407.21324   # NSDI 2024 High-impact (9 citations): Pushing the Limits of In-Network Caching for Key-Value Stores
+2505.09764   # NSDI 2025 High-impact (9 citations): FAST: An Efficient Scheduler for All-to-All GPU Communication
+2305.05455   # NSDI 2023 High-impact (8 citations): ONCache: A Cache-Based Low-Overhead Container Overlay Network
+2402.06787   # NSDI 2024 High-impact (8 citations): ForestColl: Throughput-Optimal Collective Communications on Heterogeneous Network Fabrics
+2312.06875   # NSDI 2023 High-impact (7 citations): Eywa: Automating Model-Based Testing using LLMs
+2410.03339   # NSDI 2024 High-impact (7 citations): Mowgli: Passively Learned Rate Control for Real-Time Video
+2409.20306   # NSDI 2024 High-impact (7 citations): Diagnosing and Repairing Distributed Routing Configurations Using Selective Symbolic Simulation
+2502.05413   # NSDI 2025 High-impact (6 citations): FLARE: Anomaly Diagnostics for Divergent LLM Training in GPU Clusters of Thousand-Plus Scale
+2310.07240   # SIGCOMM 2023 High-impact (318 citations): CacheGen: KV Cache Compression and Streaming for Fast Large Language Model Serving
+2402.02338   # SIGCOMM 2024 High-impact (244 citations): NetLLM: Adapting Large Language Models for Networking
+2208.05877   # SIGCOMM 2022 High-impact (214 citations): Design and evaluation of IPFS: a storage layer for the decentralized web
+2202.05940   # SIGCOMM 2022 High-impact (152 citations): Genet: automatic curriculum generation for learning adaptation in networking
+2210.13763   # SIGCOMM 2022 High-impact (126 citations): Teal: Learning-Accelerated Optimization of WAN Traffic Engineering
+2305.13479   # SIGCOMM 2023 High-impact (92 citations): Rethinking Machine Learning Collective Communication as a Multi-Commodity Flow Problem
+2107.02244   # SIGCOMM 2021 High-impact (67 citations): Lucid: a language for control in the data plane
+2101.04249   # SIGCOMM 2021 High-impact (60 citations): Two beams are better than one: towards reliable and high throughput mmWave links
+2204.09635   # SIGCOMM 2022 High-impact (48 citations): Lightyear: Using Modularity to Scale BGP Control Plane Verification
+2405.04932   # SIGCOMM 2024 High-impact (47 citations): FIGRET: Fine-Grained Robustness-Enhanced Traffic Engineering
+2201.02577   # SIGCOMM 2021 High-impact (45 citations): Prognosis: closed-box analysis of network protocol implementations
+2103.00022   # SIGCOMM 2021 High-impact (43 citations): Synthesizing safe and efficient kernel extensions for packet processing
+2501.03905   # SIGCOMM 2025 High-impact (43 citations): MixNet: A Runtime Reconfigurable Optical-Electrical Fabric for Distributed Mixture-of-Experts Training
+2307.11359   # SIGCOMM 2023 High-impact (42 citations): ClickINC: In-network Computing as a Service in Heterogeneous Programmable Data-center Networks
+2202.02270   # SIGCOMM 2022 High-impact (37 citations): Direct Telemetry Access
+2307.15057   # SIGCOMM 2023 High-impact (37 citations): IPv6 Hitlists at Scale: Be Careful What You Wish For
+2408.04275   # SIGCOMM 2024 High-impact (37 citations): DistTrain: Addressing Model and Data Heterogeneity with Disaggregated Training for Multimodal Large Language Models
+2303.00895   # SIGCOMM 2022 High-impact (36 citations): Predicting IPv4 services across all ports
+2301.00615   # SIGCOMM 2023 High-impact (36 citations): ChameleMon: Shifting Measurement Attention as Network State Changes
+2211.15300   # SIGCOMM 2022 High-impact (35 citations): P4Testgen: An Extensible Test Oracle For P4
+2407.20045   # SIGCOMM 2024 High-impact (35 citations): NegotiaToR: Towards A Simple Yet Effective On-demand Reconfigurable Datacenter Network
+2502.03885   # SIGCOMM 2025 High-impact (24 citations): InfiniteHBD: Building Datacenter-Scale High-Bandwidth Domain for LLM with Optical Circuit Switching Transceivers
+2205.06085   # SIGCOMM 2021 High-impact (22 citations): From IP to transport and beyond: cross-layer attacks against applications
+2502.21231   # SIGCOMM 2025 High-impact (22 citations): ByteScale: Communication-Efficient Scaling of LLM Training with a 2048K Context Length on 16384 GPUs
+2502.09717   # SIGCOMM 2025 High-impact (21 citations): Carbon- and Precedence-Aware Scheduling for Data Processing Clusters
+2403.17277   # SIGCOMM 2024 High-impact (21 citations): Relational Network Verification
+2402.02668   # SIGCOMM 2024 High-impact (20 citations): Practical Rateless Set Reconciliation
+2506.05779   # SIGCOMM 2025 High-impact (16 citations): Pegasus: A Universal Framework for Scalable Deep Learning Inference on the Dataplane
+2302.14216   # SIGCOMM 2023 High-impact (16 citations): Decoding the Divide: Analyzing Disparities in Broadband Plans Offered by Major US ISPs
+2307.11263   # SIGCOMM 2023 High-impact (15 citations): Underwater 3D positioning on smart devices
+2503.11649   # SIGCOMM 2025 High-impact (15 citations): Scalable Video Conferencing Using SDN Principles
+2208.12596   # SIGCOMM 2022 High-impact (13 citations): Veritas: Answering Causal Queries from Video Streaming Traces
+2405.18657   # SIGCOMM 2024 High-impact (13 citations): The Efficacy of the Connect America Fund in Addressing US Internet Access Inequities
+2502.03589   # SIGCOMM 2025 High-impact (12 citations): HACK: Homomorphic Acceleration via Compression of the Key-Value Cache for Disaggregated LLM Inference
+2203.05072   # SIGCOMM 2022 High-impact (8 citations): Exoshuffle: An Extensible Shuffle Architecture
+2307.13285   # SIGCOMM 2023 High-impact (7 citations): NetClone: Fast, Scalable, and Dynamic Request Cloning for Microsecond-Scale RPCs
+2508.16454   # SIGCOMM 2025 High-impact (7 citations): Towards User-level QoE: Large-scale Practice in Personalized Optimization of Adaptive Video Streaming
+2605.13734   # SIGCOMM 2026 High-impact (5 citations): KVServe: Service-Aware KV Cache Compression for Communication-Efficient Disaggregated LLM Serving
+2407.04845   # SIGCOMM 2024 High-impact (5 citations): Poster: Flexible Scheduling of Network and Computing Resources for Distributed AI Tasks
+2505.11339   # SIGCOMM 2025 High-impact (4 citations): Palladium: A DPU-enabled Multi-Tenant Serverless Cloud over Zero-copy Multi-node RDMA Fabrics
+2602.08923   # SIGCOMM 2026 High-impact (4 citations): DynamiQ: Accelerating Gradient Synchronization using Compressed Multi-hop All-reduce
+2602.17254   # SIGCOMM 2026 High-impact (4 citations): Trivance: Latency-Optimal AllReduce by Shortcutting Multiport Networks
+2309.03551   # SIGCOMM 2023 High-impact (3 citations): Inter-domain Routing with Extensible Criteria
+2602.09188   # SIGCOMM 2026 High-impact (3 citations): Harvest: Adaptive Photonic Switching Schedules for Collective Communication in Scale-up Domains
+2604.27844   # SIGCOMM 2026 High-impact (3 citations): ZipCCL: Efficient Lossless Data Compression of Communication Collectives for Accelerating LLM Training
+2308.09959   # SIGCOMM 2023 High-impact (2 citations): Hummingbird: Fast, Flexible, and Fair Inter-Domain Bandwidth Reservations
+2509.21074   # SIGCOMM 2025 High-impact (1 citations): RepLLM: Toward Automatically Reproducing Network Research Results
+2605.18683   # SIGCOMM 2026 High-impact (1 citations): EPIC: Abstraction and Polymorphism of In-Network Collectives on Ethernet
+2509.00397   # SIGCOMM 2025 High-impact (1 citations): SpliDT: Partitioned Decision Trees for Scalable Stateful Inference at Line Rate
+2605.13942   # SIGCOMM 2026 High-impact (1 citations): EMA: Efficient Model Adaptation for Learning-based Systems
+2602.09725   # SIGCOMM 2026 High-impact (0 citations): Efficient Remote KV Cache Reuse with GPU-native Video Codec
+2602.08296   # SIGCOMM 2026 High-impact (0 citations): MonkeyTree: Near-Minimal Congestion for Multi-tenant Training via Migration
+2608.20494   # SIGCOMM 2026 High-impact (0 citations): Towards Traffic Modelling of Multi-Agent Systems: The Role of Coordination Topology
+2607.05038   # SIGCOMM 2026 High-impact (0 citations): RANPilot: Making AI Functionalities Robust to Dynamic O-RAN Reconfigurations
+2602.12521   # SIGCOMM 2026 High-impact (0 citations): Opus: Photonic Rail-Optimized Fabric in ML Datacenters
+2606.30919   # SIGCOMM 2026 High-impact (0 citations): Budget-Adaptive Routing: Skipping the Weak When the Strong Answers Anyway
+2510.11043   # SIGCOMM 2025 High-impact (0 citations): Gryphon: Scaling Hyperscale Multi-Tenant Gateways Beyond the Petabit-Era via DPU-Augmented Hierarchical Co-Offloading
+2606.22717   # SIGCOMM 2026 High-impact (0 citations): Poster: One-Prompt Censorship Evasion via Generative Diffusion Models
+2605.26930   # SIGCOMM 2026 High-impact (0 citations): Revisiting Bruck: Phase-Efficient All-to-All Collective Communication in Reconfigurable Networks
+2607.06202   # SIGCOMM 2026 High-impact (0 citations): UBEP: Re-architecting Expert Parallelism Communication Library for Production Superpods
+2112.11256   # INFOCOM 2021 High-impact (264 citations): Tackling System and Statistical Heterogeneity for Federated Learning with Adaptive Client Sampling
+2203.07320   # INFOCOM 2022 High-impact (262 citations): The Right to be Forgotten in Federated Learning: An Efficient Realization with Rapid Retraining
+2212.13697   # INFOCOM 2022 High-impact (238 citations): Network Characteristics of LEO Satellite Constellations: A Starlink-Based Measurement from End Users
+2101.00787   # INFOCOM 2021 High-impact (134 citations): Device Sampling for Heterogeneous Federated Learning: Theory, Algorithms, and Implementation
+2110.05183   # INFOCOM 2021 High-impact (123 citations): Dual Attention-Based Federated Learning for Wireless Traffic Prediction
+2201.09538   # INFOCOM 2022 High-impact (123 citations): Backdoor Defense with Machine Unlearning
+2201.05632   # INFOCOM 2022 High-impact (123 citations): OrchestRAN: Network Automation through Orchestrated Intelligence in the Open RAN
+2201.07912   # INFOCOM 2022 High-impact (100 citations): Communication-Efficient Device Scheduling for Federated Learning Using Stochastic Optimization
+2112.11818   # INFOCOM 2021 High-impact (93 citations): Decentralized Task Offloading in Edge Computing: A Multi-User Multi-Armed Bandit Approach
+2205.15501   # INFOCOM 2022 High-impact (82 citations): Multi-Entanglement Routing Design over Quantum Networks
+2101.06582   # INFOCOM 2021 High-impact (79 citations): Tailored Learning-Based Scheduling for Kubernetes-Oriented Edge-Cloud System
+2202.13956   # INFOCOM 2022 High-impact (75 citations): RouteNet-Erlang: A Graph Neural Network for Network Performance Evaluation
+2212.08272   # INFOCOM 2022 High-impact (70 citations): Communication-Efficient Federated Learning for Heterogeneous Edge Devices Based on Adaptive Gradient Quantization
+2104.09801   # INFOCOM 2021 High-impact (66 citations): Leveraging Public-Private Blockchain Interoperability for Closed Consortium Interfacing
+2204.09839   # INFOCOM 2021 High-impact (64 citations): 6GAN: IPv6 Multi-Pattern Target Generation via Generative Adversarial Nets with Reinforcement Learning
+2405.17245   # INFOCOM 2024 High-impact (64 citations): Galaxy: A Resource-Efficient Collaborative Edge AI System for In-situ Transformer Inference
+2205.08479   # INFOCOM 2022 High-impact (64 citations): Opportunistic Routing in Quantum Networks
+2112.06694   # INFOCOM 2021 High-impact (63 citations): Optimal Rate Adaption in Federated Learning with Compressed Communications
+2112.02292   # INFOCOM 2021 High-impact (63 citations): PreGAN: Preemptive Migration Prediction Network for Proactive Fault-Tolerant Edge Computing
+2212.08343   # INFOCOM 2022 High-impact (62 citations): SplitGP: Achieving Both Generalization and Personalization in Federated Learning
+2201.06326   # INFOCOM 2022 High-impact (61 citations): ChARM: NextG Spectrum Sharing Through Data-Driven Real-Time O-RAN Dynamic Control
+2112.01949   # INFOCOM 2021 High-impact (61 citations): MARISA: A Self-configuring Metasurfaces Absorption and Reflection Solution Towards 6G
+2101.05885   # INFOCOM 2021 High-impact (59 citations): Cocktail Edge Caching: Ride Dynamic Trends of Content Popularity with Ensemble Learning
+2112.02273   # INFOCOM 2021 High-impact (54 citations): Fast and Secure Key Generation with Channel Obfuscation in Slowly Varying Environments
+2212.01463   # INFOCOM 2022 High-impact (53 citations): On the Capacity Region of a Quantum Switch with Entanglement Purification
+2212.01694   # INFOCOM 2022 High-impact (50 citations): A Quantum Overlay Network for Efficient Entanglement Distribution
+2301.04632   # INFOCOM 2023 High-impact (49 citations): Federated Learning under Heterogeneous and Correlated Client Availability
+2101.06564   # INFOCOM 2021 High-impact (48 citations): Privacy-Preserving Learning of Human Activity Predictors in Smart Environments
+2302.10417   # INFOCOM 2023 High-impact (47 citations): FedSDG-FS: Efficient and Secure Feature Selection for Vertical Federated Learning
+2102.07972   # INFOCOM 2021 High-impact (47 citations): Federated Learning over Wireless Networks: A Band-limited Coordinated Descent Approach
+2212.02136   # INFOCOM 2022 High-impact (44 citations): Adaptive Configuration for Heterogeneous Participants in Decentralized Federated Learning
+2402.01807   # INFOCOM 2024 High-impact (44 citations): AOC-IDS: Autonomous Online Framework with Contrastive Learning for Intrusion Detection
+2304.08595   # INFOCOM 2023 High-impact (42 citations): Prophet: Conflict-Free Sharding Blockchain via Byzantine-Tolerant Deterministic Ordering
+2312.16813   # INFOCOM 2023 High-impact (41 citations): Monitoring Correlated Sources: AoI-based Scheduling is Nearly Optimal
+2301.04620   # INFOCOM 2023 High-impact (41 citations): AdaptSLAM: Edge-Assisted Adaptive SLAM with Resource Constraints via Uncertainty Minimization
+2504.08242   # INFOCOM 2025 High-impact (40 citations): Jupiter: Fast and Resource-Efficient Collaborative Inference of Generative LLMs on Edge Devices
+2202.01158   # INFOCOM 2022 High-impact (38 citations): GADGET: Online Resource Optimization for Scheduling Ring-All-Reduce Learning Jobs
+2102.00872   # INFOCOM 2021 High-impact (37 citations): A Weak Consensus Algorithm and Its Application to High-Performance Blockchain
+2403.11502   # INFOCOM 2024 High-impact (36 citations): Accelerating Handover in Mobile Satellite Network
+2403.08815   # INFOCOM 2024 High-impact (36 citations): TransformLoc: Transforming MAVs into Mobile Localization Infrastructures in Heterogeneous Swarms
+2106.06389   # IMC 2021 High-impact (155 citations): An empirical study of DeFi liquidations: incentives, risks, and instabilities
+2109.03395   # IMC 2021 High-impact (131 citations): From cloud to edge: a first look at public edge platforms
+2206.04185   # IMC 2022 High-impact (128 citations): A flash(bot) in the pan: measuring maximal extractable value in private pools
+2105.13478   # IMC 2021 High-impact (125 citations): Measuring the performance and network utilization of popular video conferencing applications
+2305.19037   # IMC 2023 High-impact (108 citations): Ethereum's Proposer-Builder Separation: Promises and Realities
+2302.14294   # IMC 2023 High-impact (82 citations): Flocking to Mastodon: Tracking the Great Twitter Migration
+2109.13113   # IMC 2021 High-impact (73 citations): Can you see me now?: a measurement study of Zoom, Webex, and Meet
+2209.09317   # IMC 2022 High-impact (68 citations): Rusty clusters?: dusting an IPv6 research foundation
+2109.13963   # IMC 2021 High-impact (59 citations): Smart at what cost?: characterising mobile deep neural networks in the wild
+2305.00790   # IMC 2022 High-impact (52 citations): DNS privacy with speed?: evaluating DNS over QUIC and its impact on web performance
+2306.01194   # IMC 2023 High-impact (47 citations): Estimating WebRTC Video QoE Metrics Without Using Application Headers
+2204.10920   # IMC 2022 High-impact (43 citations): Tracking, Profiling, and Ad Targeting in the Alexa Echo Smart Speaker Ecosystem
+2109.01104   # IMC 2021 High-impact (41 citations): The far side of DNS amplification: tracing the DDoS attack ecosystem from the internet core
+2109.14794   # IMC 2021 High-impact (32 citations): TopoShot: uncovering Ethereum's network topology leveraging replacement transactions
+2208.10103   # IMC 2022 High-impact (32 citations): Model-based insights on the performance, fairness, and stability of BBR
+2408.12449   # IMC 2024 High-impact (31 citations): Looking AT the Blue Skies of Bluesky
+2405.10422   # IMC 2024 High-impact (30 citations): A First Look at Immersive Telepresence on Apple Vision Pro
+2209.09603   # IMC 2022 High-impact (29 citations): Deep dive into the IoT backend ecosystem
+2109.01106   # IMC 2021 High-impact (28 citations): QUICsand: quantifying QUIC reconnaissance scans and DoS flooding events
+2109.15095   # IMC 2021 High-impact (28 citations): Third time's not a charm: exploiting SNMPv3 for router fingerprinting
+2406.15585   # IMC 2024 High-impact (25 citations): Ten Years of ZMap
+2410.11708   # IMC 2024 High-impact (23 citations): The Age of DDoScovery: An Empirical Comparison of Industry and Academic DDoS Assessments
+2309.13471   # IMC 2023 High-impact (23 citations): Cloud Watching: Understanding Attacks Against Cloud-Hosted Services
+2309.16203   # IMC 2023 High-impact (22 citations): The Cloud Strikes Back: Investigating the Decentralization of IPFS
+2408.13247   # IMC 2024 High-impact (22 citations): An In-Depth Investigation of Data Collection in LLM App Ecosystems
+2307.00402   # CoNEXT 2023 High-impact (105 citations): Making Sense of Constellations: Methodologies for Understanding Starlink's Scheduling Algorithms
+2111.01616   # CoNEXT 2021 High-impact (56 citations): OnSlicing: online end-to-end network slicing with reinforcement learning
+2110.13500   # CoNEXT 2021 High-impact (32 citations): Exploring content moderation in the decentralised web: the pleroma case
+2110.02224   # CoNEXT 2021 High-impact (27 citations): Transparent forwarders: an unnoticed component of the open DNS infrastructure
+2211.02421   # CoNEXT 2022 High-impact (19 citations): On the interplay between TLS certificates and QUIC performance
+2110.14224   # CoNEXT 2021 High-impact (19 citations): SOAR: minimizing network utilization with bounded in-network computing
+2210.16902   # CoNEXT 2022 High-impact (17 citations): Atlas: automate online service configuration in network slicing
+2305.07193   # CoNEXT 2023 High-impact (15 citations): Aggressive Internet-Wide Scanners: Network Impact and Longitudinal Characterization
+2211.05682   # CoNEXT 2022 High-impact (10 citations): FlowDNS: correlating netflow and DNS streams at scale
+2407.01738   # CoNEXT 2024 High-impact (4 citations): SONIC: Connect the Unconnected via FM Radio & SMS

@@ -1,0 +1,337 @@
+# Most cited 2021-2026 papers of the robotics venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-20).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2405.12213   # RSS 2024 High-impact (1822 citations): Octo: An Open-Source Generalist Robot Policy
+2403.12945   # RSS 2024 High-impact (1056 citations): DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset
+2107.04034   # RSS 2021 High-impact (1024 citations): RMA: Rapid Motor Adaptation for Legged Robots
+2402.10329   # RSS 2024 High-impact (689 citations): Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots
+2302.07241   # RSS 2023 High-impact (432 citations): ConceptFusion: Open-set Multimodal 3D Mapping
+2205.02824   # RSS 2022 High-impact (404 citations): Rapid locomotion via reinforcement learning
+2109.13396   # RSS 2021 High-impact (377 citations): Bridge Data: Boosting Generalization of Robotic Skills with Cross-Domain Datasets
+2201.13360   # RSS 2022 High-impact (363 citations): Hydra: A Real-time Spatial Perception System for 3D Scene Graph Construction and Optimization
+2307.04577   # RSS 2023 High-impact (326 citations): AnyTeleop: A General Vision-Based Dexterous Robot Arm-Hand Teleoperation System
+2403.07788   # RSS 2024 High-impact (323 citations): DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation
+2403.17846   # RSS 2024 High-impact (322 citations): Hierarchical Open-Vocabulary 3D Scene Graphs for Language-Grounded Robot Navigation
+2304.02532   # RSS 2023 High-impact (314 citations): Goal-Conditioned Imitation Learning using Score-based Diffusion Policies
+2402.15852   # RSS 2024 High-impact (301 citations): NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation
+2402.16796   # RSS 2024 High-impact (288 citations): Expressive Whole-Body Control for Humanoid Robots
+2401.00025   # RSS 2023 High-impact (273 citations): Any-point Trajectory Modeling for Policy Learning
+2207.09450   # RSS 2022 High-impact (259 citations): Human-to-Robot Imitation in the Wild
+2105.08328   # RSS 2021 High-impact (257 citations): Blind Bipedal Stair Traversal via Sim-to-Real Reinforcement Learning
+2302.11550   # RSS 2023 High-impact (248 citations): Scaling Robot Learning with Semantically Imagined Experience
+2309.06440   # RSS 2023 High-impact (246 citations): LEAP Hand: Low-Cost, Efficient, and Anthropomorphic Hand for Robot Learning
+2403.01823   # RSS 2024 High-impact (246 citations): RT-H: Action Hierarchies Using Language
+2210.05663   # RSS 2022 High-impact (241 citations): CLIP-Fields: Weakly Supervised Semantic Fields for Robotic Memory
+2112.01511   # RSS 2021 High-impact (226 citations): The Surprising Effectiveness of Representation Learning for Visual Imitation
+2302.12766   # RSS 2023 High-impact (226 citations): Language-Driven Representation Learning for Robotics
+2204.02296   # RSS 2022 High-impact (217 citations): iSDF: Real-Time Neural Signed Distance Fields for Robot Perception
+2405.07503   # RSS 2024 High-impact (208 citations): Consistency Policy: Accelerated Visuomotor Policies via Consistency Distillation
+2406.08545   # RSS 2024 High-impact (201 citations): RVT-2: Learning Precise Manipulation from Few Demonstrations
+2403.03949   # RSS 2024 High-impact (200 citations): Reconciling Reality through Simulation: A Real-to-Sim-to-Real Approach for Robust Manipulation
+2103.16817   # RSS 2021 High-impact (192 citations): Learning Generalizable Robotic Reward Functions from "In-The-Wild" Human Videos
+2104.01542   # RSS 2021 High-impact (186 citations): Synergies Between Affordance and Geometry: 6-DoF Grasp Detection via Implicit Representations
+2308.10901   # RSS 2023 High-impact (183 citations): Structured World Models from Human Videos
+2109.14152   # RSS 2021 High-impact (182 citations): Lyapunov-stable neural-network control
+2407.05996   # RSS 2024 High-impact (179 citations): Multimodal Diffusion Transformer: Learning Versatile Behavior from Multimodal Goals
+2303.10880   # RSS 2023 High-impact (170 citations): Rotating without Seeing: Towards In-hand Dexterity through Touch
+2106.08015   # RSS 2021 High-impact (167 citations): NeuroBEM: Hybrid Aerodynamic Quadrotor Model
+2202.10448   # RSS 2022 High-impact (166 citations): Robotic Telekinesis: Learning a Robotic Hand Imitator by Watching Humans on Youtube
+2402.08191   # RSS 2024 High-impact (166 citations): THE COLOSSEUM: A Benchmark for Evaluating Generalization for Robotic Manipulation
+2401.17583   # RSS 2024 High-impact (164 citations): Agile But Safe: Learning Collision-Free High-Speed Legged Locomotion
+2403.03174   # RSS 2024 High-impact (161 citations): MOKA: Open-World Robotic Manipulation through Mark-Based Visual Prompting
+2311.06430   # RSS 2023 High-impact (160 citations): GOAT: GO to Any Thing
+2403.12910   # RSS 2024 High-impact (157 citations): Yell At Your Robot: Improving On-the-Fly from Language Corrections
+2205.04382   # RSS 2022 High-impact (157 citations): FlowBot3D: Learning 3D Articulation Flow to Manipulate Articulated Objects
+2302.06671   # RSS 2023 High-impact (152 citations): GenAug: Retargeting behaviors to unseen situations via Generative Augmentation
+2211.08416   # RSS 2022 High-impact (152 citations): Robot learning on the job: Human-in-the-loop autonomy and learning during deployment
+2403.10506   # RSS 2024 High-impact (148 citations): HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation
+2403.03954   # RSS 2024 High-impact (147 citations): 3D Diffusion Policy
+2201.12716   # RSS 2022 High-impact (142 citations): You Only Demonstrate Once: Category-Level Manipulation from Single Visual Demonstration
+2205.02909   # RSS 2022 High-impact (135 citations): RoboCraft: Learning to see, simulate, and shape elasto-plastic objects in 3D with graph networks
+2408.14472   # RSS 2024 High-impact (133 citations): Advancing Humanoid Locomotion: Mastering Challenging Terrains with Denoising World Model Learning
+2204.05186   # RSS 2022 High-impact (130 citations): Correcting Robot Plans with Natural Language Feedback
+2205.03532   # RSS 2022 High-impact (127 citations): Factory: Fast Contact for Robotic Assembly
+2107.07501   # RSS 2021 High-impact (127 citations): An End-to-End Differentiable Framework for Contact-Aware Robot Design
+2405.11656   # RSS 2024 High-impact (124 citations): URDFormer: A Pipeline for Constructing Articulated Simulation Environments from Real-World Images
+2105.04830   # RSS 2021 High-impact (123 citations): Jerk-limited Real-time Trajectory Generation with Arbitrary Target States
+2305.08510   # RSS 2023 High-impact (120 citations): Fast Traversability Estimation for Wild Visual Navigation
+2305.17110   # RSS 2023 High-impact (117 citations): IndustReal: Transferring Contact-Rich Assembly Tasks from Simulation to Reality
+2402.10828   # RSS 2024 High-impact (114 citations): RAG-Driver: Generalisable Driving Explanations with Retrieval-Augmented In-Context Learning in Multi-Modal Large Language Model
+2305.16925   # RSS 2023 High-impact (112 citations): How To Not Train Your Dragon: Training-free Embodied Object Goal Navigation with Semantic Frontiers
+2406.01967   # RSS 2024 High-impact (112 citations): DrEureka: Language Model Guided Sim-To-Real Transfer
+2202.11271   # RSS 2022 High-impact (111 citations): ViKiNG: Vision-Based Kilometer-Scale Navigation with Geographic Hints
+2403.15941   # RSS 2024 High-impact (110 citations): Explore until Confident: Efficient Exploration for Embodied Question Answering
+2207.05608   # CoRL 2022 High-impact (1570 citations): Inner Monologue: Embodied Reasoning through Planning with Language Models
+2110.06922   # CoRL 2021 High-impact (1180 citations): DETR3D: 3D Object Detection from Multi-view Images via 3D-to-2D Queries
+2307.05973   # CoRL 2023 High-impact (1123 citations): VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models
+2109.11978   # CoRL 2021 High-impact (1090 citations): Learning to Walk in Minutes Using Massively Parallel Deep Reinforcement Learning
+2108.03298   # CoRL 2021 High-impact (1035 citations): What Matters in Learning from Offline Human Demonstrations for Robot Manipulation
+2109.12098   # CoRL 2021 High-impact (1006 citations): CLIPort: What and Where Pathways for Robotic Manipulation
+2203.12601   # CoRL 2022 High-impact (995 citations): R3M: A Universal Visual Representation for Robot Manipulation
+2209.05451   # CoRL 2022 High-impact (909 citations): Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation
+2202.02005   # CoRL 2022 High-impact (852 citations): BC-Z: Zero-Shot Task Generalization with Robotic Imitation Learning
+2308.12952   # CoRL 2023 High-impact (841 citations): BridgeData V2: A Dataset for Robot Learning at Scale
+2207.04429   # CoRL 2022 High-impact (786 citations): LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action
+2109.00137   # CoRL 2021 High-impact (730 citations): Implicit Behavioral Cloning
+2402.12289   # CoRL 2024 High-impact (593 citations): DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models
+2206.14176   # CoRL 2022 High-impact (575 citations): DayDreamer: World Models for Physical Robot Learning
+2405.05941   # CoRL 2024 High-impact (527 citations): Evaluating Real-World Robot Manipulation Policies in Simulation
+2307.06135   # CoRL 2023 High-impact (500 citations): SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Task Planning
+2310.17596   # CoRL 2023 High-impact (458 citations): MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations
+2306.08647   # CoRL 2023 High-impact (448 citations): Language to Rewards for Robotic Skill Synthesis
+2307.01928   # CoRL 2023 High-impact (437 citations): Robots That Ask For Help: Uncertainty Alignment for Large Language Model Planners
+2409.01652   # CoRL 2024 High-impact (429 citations): ReKep: Spatio-Temporal Reasoning of Relational Keypoint Constraints for Robotic Manipulation
+2207.02202   # CoRL 2022 High-impact (427 citations): CoBEVT: Cooperative Bird's Eye View Semantic Segmentation with Sparse Transformers
+2407.08693   # CoRL 2024 High-impact (391 citations): Robotic Control via Embodied Chain-of-Thought Reasoning
+2306.14846   # CoRL 2023 High-impact (387 citations): ViNT: A Foundation Model for Visual Navigation
+2402.10885   # CoRL 2024 High-impact (384 citations): 3D Diffuser Actor: Policy Diffusion with 3D Scene Representations
+2207.14024   # CoRL 2022 High-impact (383 citations): Safety-Enhanced Autonomous Driving Using Interpretable Sensor Fusion Transformer
+2107.14160   # CoRL 2021 High-impact (372 citations): Probabilistic and Geometric Depth: Detecting Objects in Perspective
+2210.03109   # CoRL 2022 High-impact (367 citations): Real-World Robot Learning with Masked Visual Pre-training
+2302.12422   # CoRL 2023 High-impact (363 citations): MimicPlay: Long-Horizon Imitation Learning by Watching Human Play
+2406.08858   # CoRL 2024 High-impact (360 citations): OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning
+2406.10454   # CoRL 2024 High-impact (356 citations): HumanPlus: Humanoid Shadowing and Imitation from Humans
+2211.07638   # CoRL 2022 High-impact (353 citations): Legged Locomotion in Challenging Terrains using Egocentric Vision
+2108.03272   # CoRL 2021 High-impact (341 citations): iGibson 2.0: Object-Centric Simulation for Robot Learning of Everyday Household Tasks
+2306.07962   # CoRL 2023 High-impact (341 citations): Parting with Misconceptions about Learning-based Vehicle Motion Planning
+2306.14896   # CoRL 2023 High-impact (334 citations): RVT: Robotic View Transformer for 3D Object Manipulation
+2111.03043   # CoRL 2021 High-impact (331 citations): A System for General In-Hand Object Re-Orientation
+2309.05665   # CoRL 2023 High-impact (329 citations): Robot Parkour Learning
+2407.01512   # CoRL 2024 High-impact (327 citations): Open-TeleVision: Teleoperation with Immersive Active Visual Feedback
+2212.03238   # CoRL 2022 High-impact (322 citations): Walk These Ways: Tuning Robot Control for Generalization with Multiplicity of Behavior
+2107.00591   # CoRL 2021 High-impact (305 citations): Offline-to-Online Reinforcement Learning via Balanced Replay and Pessimistic Q-Ensemble
+2307.04721   # CoRL 2023 High-impact (303 citations): Large Language Models as General Pattern Machines
+2212.06870   # CoRL 2022 High-impact (298 citations): MegaPose: 6D Pose Estimation of Novel Objects via Render & Compare
+2210.10044   # CoRL 2022 High-impact (292 citations): Deep Whole-Body Control: Learning a Unified Policy for Manipulation and Locomotion
+2108.03332   # CoRL 2021 High-impact (272 citations): BEHAVIOR: Benchmark for Everyday Household Activities in Virtual, Interactive, and Ecological Environments
+2306.15724   # CoRL 2023 High-impact (271 citations): REFLECT: Summarizing Robot Experiences for Failure Explanation and Correction
+2307.14535   # CoRL 2023 High-impact (258 citations): Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition
+2106.15004   # CoRL 2021 High-impact (247 citations): Multimodal Trajectory Prediction Conditioned on Lane-Graph Traversals
+2303.00905   # CoRL 2023 High-impact (245 citations): Open-World Object Manipulation using Pre-trained Vision-Language Models
+2109.06697   # CoRL 2021 High-impact (245 citations): Safe Nonlinear Control Using Robust Neural Lyapunov-Barrier Functions
+2101.01132   # CoRL 2021 High-impact (237 citations): Volumetric Grasping Network: Real-time 6 DOF Grasp Detection in Clutter
+2206.14244   # CoRL 2022 High-impact (227 citations): Masked World Models for Visual Control
+2406.04882   # CoRL 2024 High-impact (226 citations): InstructNav: Zero-shot System for Generic Instruction Navigation in Unexplored Environment
+2105.03655   # CoRL 2021 High-impact (221 citations): FlingBot: The Unreasonable Effectiveness of Dynamic Manipulation for Cloth Unfolding
+2110.14217   # CoRL 2021 High-impact (217 citations): Dex-NeRF: Using a Neural Radiance Field to Grasp Transparent Objects
+2410.13126   # CoRL 2024 High-impact (216 citations): ALOHA Unleashed: A Simple Recipe for Robot Dexterity
+2210.04887   # CoRL 2022 High-impact (212 citations): In-Hand Object Rotation via Rapid Motor Adaptation
+2406.10759   # CoRL 2024 High-impact (200 citations): Humanoid Parkour Learning
+2306.17817   # CoRL 2023 High-impact (196 citations): Act3D: 3D Feature Field Transformers for Multi-Task Robotic Manipulation
+2309.09979   # CoRL 2023 High-impact (194 citations): General In-Hand Object Rotation with Vision and Touch
+2109.01115   # CoRL 2021 High-impact (194 citations): Learning Language-Conditioned Robot Behavior from Offline Data and Crowd-Sourced Annotation
+2109.13333   # CoRL 2021 High-impact (193 citations): Urban Driver: Learning to Drive from Real-world Demonstrations Using Policy Gradients
+2407.15208   # CoRL 2024 High-impact (183 citations): Flow as the Cross-Domain Manipulation Interface
+2309.10150   # CoRL 2023 High-impact (179 citations): Q-Transformer: Scalable Offline Reinforcement Learning via Autoregressive Q-Functions
+2104.13542   # CoRL 2021 High-impact (178 citations): STORM: An Integrated Framework for Fast Joint-Space Model-Predictive Control for Reactive Manipulation
+2110.06558   # CoRL 2021 High-impact (175 citations): LENS: Localization enhanced by NeRF synthesis
+2308.07931   # CoRL 2023 High-impact (175 citations): Distilled Feature Fields Enable Few-Shot Language-Guided Manipulation
+2410.24091   # CoRL 2024 High-impact (175 citations): 3D-ViTac: Learning Fine-Grained Manipulation with Visuo-Tactile Sensing
+2111.01674   # CoRL 2021 High-impact (173 citations): Minimizing Energy Consumption Leads to the Emergence of Gaits in Legged Robots
+2107.05612   # CoRL 2021 High-impact (173 citations): A Persistent Spatial Semantic Representation for High-level Natural Language Instruction Execution
+2210.14222   # CoRL 2022 High-impact (173 citations): PlanT: Explainable Planning Transformers via Object-Level Representations
+2306.06344   # CoRL 2023 High-impact (172 citations): Language-Guided Traffic Simulation via Scene-Level Diffusion
+2205.13542   # ICRA 2022 High-impact (1738 citations): BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation
+2209.11302   # ICRA 2022 High-impact (1096 citations): ProgPrompt: Generating Situated Robot Task Plans using Large Language Models
+2204.11918   # ICRA 2022 High-impact (814 citations): Google Scanned Objects: A High-Quality Dataset of 3D Scanned Household Items
+2109.07644   # ICRA 2021 High-impact (712 citations): OPV2V: An Open Benchmark Dataset and Fusion Pipeline for Perception with Vehicle-to-Vehicle Communication
+2210.05714   # ICRA 2022 High-impact (667 citations): Visual Language Maps for Robot Navigation
+2309.16650   # ICRA 2023 High-impact (595 citations): ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning
+2103.14127   # ICRA 2021 High-impact (556 citations): Contact-GraspNet: Efficient 6-DoF Grasp Generation in Cluttered Scenes
+2104.10831   # ICRA 2021 High-impact (551 citations): LVI-SAM: Tightly-coupled Lidar-Visual-Inertial Odometry via Smoothing and Mapping
+2207.05844   # ICRA 2022 High-impact (480 citations): Wayformer: Motion Forecasting via Simple & Efficient Attention Networks
+2107.06307   # ICRA 2021 High-impact (478 citations): HDMapNet: An Online HD Map Construction and Evaluation Framework
+2111.14973   # ICRA 2021 High-impact (455 citations): MultiPath++: Efficient Information Fusion and Trajectory Aggregation for Behavior Prediction
+2210.03105   # ICRA 2022 High-impact (450 citations): Mask3D: Mask Transformer for 3D Semantic Instance Segmentation
+2109.07982   # ICRA 2021 High-impact (405 citations): R3LIVE: A Robust, Real-time, RGB-colored, LiDAR-Inertial-Visual tightly-coupled state Estimation and mapping package
+2309.14341   # ICRA 2023 High-impact (393 citations): Extreme Parkour with Legged Robots
+2103.00783   # ICRA 2021 High-impact (392 citations): PENet: Towards Precise and Efficient Image Guided Depth Completion
+2310.01957   # ICRA 2023 High-impact (379 citations): Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving
+2112.05124   # ICRA 2021 High-impact (320 citations): Neural Descriptor Fields: SE(3)-Equivariant Object Representations for Manipulation
+2109.01827   # ICRA 2021 High-impact (316 citations): GOHOME: Graph-Oriented Heatmap Output for future Motion Estimation
+2103.14295   # ICRA 2021 High-impact (307 citations): Reinforcement Learning for Robust Parameterized Locomotion Control of Bipedal Robots
+https://arxiv.org/pdf/2006.13164   # ICRA 2021 High-impact (302 citations): Joint Object Detection and Multi-Object Tracking with Graph Neural Networks
+2405.19620   # ICRA 2024 High-impact (297 citations): SparseDrive: End-to-End Autonomous Driving via Sparse Scene Representation
+2307.04738   # ICRA 2023 High-impact (294 citations): RoCo: Dialectic Multi-Robot Collaboration with Large Language Models
+2210.17366   # ICRA 2022 High-impact (294 citations): Guided Conditional Diffusion for Controllable Traffic Simulation
+2210.03370   # ICRA 2022 High-impact (293 citations): GNM: A General Navigation Model to Drive Any Robot
+2109.12979   # ICRA 2021 High-impact (288 citations): CT-ICP: Real-time Elastic LiDAR Odometry with Loop Closure
+2210.02697   # ICRA 2022 High-impact (287 citations): DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation
+2309.02561   # ICRA 2023 High-impact (281 citations): Physically Grounded Vision-Language Models for Robotic Manipulation
+2103.12269   # ICRA 2021 High-impact (271 citations): GelSlim 3.0: High-Resolution Measurement of Shape, Force and Slip in a Compact Tactile-Sensing Finger
+2309.01918   # ICRA 2023 High-impact (270 citations): RoboAgent: Generalization and Efficiency in Robot Manipulation via Semantic Augmentations and Action Chunking
+2209.09874   # ICRA 2022 High-impact (264 citations): Open-vocabulary Queryable Scene Representations for Real World Planning
+2307.00595   # ICRA 2023 High-impact (260 citations): RH20T: A Comprehensive Robotic Dataset for Learning Diverse Skills in One-Shot
+2210.13702   # ICRA 2022 High-impact (255 citations): DeXtreme: Transfer of Agile In-hand Manipulation from Simulation to Reality
+2104.14682   # ICRA 2021 High-impact (244 citations): EagerMOT: 3D Multi-Object Tracking via Sensor Fusion
+2102.03771   # ICRA 2021 High-impact (237 citations): MULLS: Versatile LiDAR SLAM via Multi-metric Linear Least Square
+2410.24221   # ICRA 2024 High-impact (236 citations): EgoMimic: Scaling Imitation Learning via Egocentric Video
+2301.10602   # ICRA 2023 High-impact (233 citations): DreamWaQ: Learning Robust Quadrupedal Locomotion With Implicit Terrain Imagination via Deep Reinforcement Learning
+2211.07214   # ICRA 2022 High-impact (232 citations): Robust Collaborative 3D Object Detection in Presence of Pose Errors
+2203.03749   # ICRA 2022 High-impact (227 citations): Direct LiDAR-Inertial Odometry: Lightweight LIO with Continuous-Time Motion Correction
+2209.03855   # ICRA 2022 High-impact (217 citations): SE(3)-DiffusionFields: Learning smooth cost functions for joint grasp and motion optimization through diffusion
+2206.07959   # ICRA 2022 High-impact (216 citations): Simple-BEV: What Really Matters for Multi-Sensor BEV Perception?
+2406.13642   # ICRA 2024 High-impact (209 citations): SpatialBot: Precise Spatial Understanding with Vision Language Models
+2306.06531   # ICRA 2023 High-impact (207 citations): AutoTAMP: Autoregressive Task and Motion Planning with LLMs as Translators and Checkers
+2309.12311   # ICRA 2023 High-impact (199 citations): LLM-Grounder: Open-Vocabulary 3D Visual Grounding with Large Language Model as an Agent
+2309.15943   # ICRA 2023 High-impact (194 citations): Scalable Multi-Robot Collaboration with Large Language Models: Centralized or Decentralized Systems?
+2309.16393   # ICRA 2023 High-impact (191 citations): HIC-YOLOv5: Improved YOLOv5 For Small Object Detection
+2106.08851   # ICRA 2021 High-impact (190 citations): GelSight Wedge: Measuring High-Resolution 3D Contact Geometry with a Compact Robot Finger
+2410.24185   # ICRA 2024 High-impact (189 citations): DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning
+2401.16013   # ICRA 2024 High-impact (182 citations): SERL: A Software Suite for Sample-Efficient Robotic Reinforcement Learning
+2105.06411   # ICRA 2021 High-impact (181 citations): Coarse-to-Fine Imitation Learning: Robot Manipulation from a Single Demonstration
+2209.13274   # ICRA 2022 High-impact (180 citations): Orbeez-SLAM: A Real-time Monocular Visual SLAM with ORB Features and NeRF-realized Mapping
+2309.09502   # ICRA 2023 High-impact (179 citations): RenderOcc: Vision-Centric 3D Occupancy Prediction with 2D Rendering Supervision
+2410.21229   # ICRA 2024 High-impact (173 citations): HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots
+2210.01911   # ICRA 2022 High-impact (167 citations): Grounding Language with Visual Affordances over Unstructured Data
+2311.00899   # ICRA 2023 High-impact (167 citations): RoboVQA: Multimodal Long-Horizon Reasoning for Robotics
+2109.06446   # ICRA 2021 High-impact (165 citations): Multi-modal Motion Prediction with Transformer-based Neural Network for Autonomous Driving
+2309.11382   # ICRA 2023 High-impact (165 citations): Discuss Before Moving: Visual Language Navigation via Multi-expert Discussions
+2107.05287   # ICRA 2021 High-impact (165 citations): End-to-end Trainable Deep Neural Network for Robotic Grasp Detection and Semantic Segmentation from RGB
+2210.06609   # ICRA 2022 High-impact (164 citations): TrafficGen: Learning to Generate Diverse and Realistic Traffic Scenarios
+2209.08539   # ICRA 2022 High-impact (161 citations): Dynamic Control Barrier Function-based Model Predictive Control to Safety-Critical Obstacle-Avoidance of Mobile Robot
+2104.01167   # ICRA 2021 High-impact (158 citations): Tactile-RL for Insertion: Generalization to Objects of Unknown Geometry
+2110.05457   # ICRA 2021 High-impact (156 citations): Legged Robots that Keep on Learning: Fine-Tuning Locomotion Policies in the Real World
+2404.16823   # ICRA 2024 High-impact (155 citations): Learning Visuotactile Skills With Two Multifingered Hands
+2203.13251   # ICRA 2022 High-impact (152 citations): Dexterous Imitation Made Easy: A Learning-Based Framework for Efficient Dexterous Manipulation
+2210.06575   # ICRA 2022 High-impact (151 citations): GraspNeRF: Multiview-based 6-DoF Grasp Detection for Transparent and Specular Objects Using Generalizable NeRF
+2109.08336   # ICRA 2021 High-impact (151 citations): LoGG3D-Net: Locally Guided Global Descriptor Learning for 3D Place Recognition
+2302.05094   # ICRA 2023 High-impact (149 citations): General, Single-shot, Target-less, and Automatic LiDAR-Camera Extrinsic Calibration Toolbox
+2203.01821   # ICRA 2022 High-impact (148 citations): Intention Aware Robot Crowd Navigation with Attention-Based Interaction Graph
+2103.12292   # ICRA 2021 High-impact (147 citations): NDT-Transformer: Large-Scale 3D Point Cloud Localisation using the Normal Distribution Transform Representation
+2308.13724   # ICRA 2023 High-impact (146 citations): ISR-LLM: Iterative Self-Refined Large Language Model for Long-Horizon Sequential Task Planning
+2105.12121   # ICRA 2021 High-impact (146 citations): Range Image-based LiDAR Localization for Autonomous Vehicles
+2309.10309   # ICRA 2023 High-impact (145 citations): Bridging Zero-shot Object Navigation and Foundation Models through Pixel-Guided Navigation Skill
+2209.12435   # ICRA 2022 High-impact (144 citations): STD: Stable Triangle Descriptor for 3D place recognition
+2403.04133   # ICRA 2024 High-impact (142 citations): Towards learning-based planning: The nuPlan benchmark for real-world autonomous driving
+2103.02184   # ICRA 2021 High-impact (142 citations): RGB Matters: Learning 7-DoF Grasp Poses on Monocular RGBD Images
+2105.12332   # ICRA 2021 High-impact (139 citations): SimNet: Learning Reactive Self-driving Simulations from Real-world Observations
+2104.11203   # ICRA 2021 High-impact (138 citations): Reset-Free Reinforcement Learning via Multi-Task Learning: Learning Dexterous Manipulation Behaviors without Human Intervention
+2110.14573   # ICRA 2021 High-impact (138 citations): Autonomous Exploration Development Environment and the Planning Algorithms
+2210.00722   # ICRA 2022 High-impact (137 citations): GenDexGrasp: Generalizable Dexterous Grasping
+2310.02251   # ICRA 2023 High-impact (137 citations): Talk2BEV: Language-enhanced Bird’s-eye View Maps for Autonomous Driving
+2203.01913   # ICRA 2022 High-impact (136 citations): NeRF-Supervision: Learning Dense Object Descriptors from Neural Radiance Fields
+2503.06669   # IROS 2025 High-impact (469 citations): AgiBot World Colosseo: A Large-Scale Manipulation Platform for Scalable and Intelligent Embodied Systems
+2305.05658   # IROS 2023 High-impact (465 citations): TidyBot: Personalized Robot Assistance with Large Language Models
+2104.05707   # IROS 2021 High-impact (456 citations): LocalViT: Analyzing Locality in Vision Transformers
+2107.00822   # IROS 2021 High-impact (399 citations): F-LOAM : Fast LiDAR Odometry and Mapping
+2210.13641   # IROS 2022 High-impact (394 citations): NeRF-SLAM: Real-Time Dense Monocular SLAM with Neural Radiance Fields
+2309.13037   # IROS 2023 High-impact (385 citations): GELLO: A General, Low-Cost, and Intuitive Teleoperation Framework for Robot Manipulators
+2309.10062   # IROS 2023 High-impact (316 citations): SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models
+2403.04436   # IROS 2024 High-impact (287 citations): Learning Human-to-Humanoid Real-Time Whole-Body Teleoperation
+2308.01557   # IROS 2023 High-impact (272 citations): Motion Planning Diffusion: Learning and Planning of Robot Motions with Diffusion Models
+2304.05501   # IROS 2023 High-impact (271 citations): L3MVN: Leveraging Large Language Models for Visual Target Navigation
+2303.06247   # IROS 2023 High-impact (264 citations): Task and Motion Planning with Large Language Models for Object Rearrangement
+2203.00893   # IROS 2022 High-impact (252 citations): FAST-LIVO: Fast and Tightly-coupled Sparse-Direct LiDAR-Inertial-Visual Odometry
+2103.02142   # IROS 2021 High-impact (252 citations): Learning to Fly—a Gym Environment with PyBullet Physics for Reinforcement Learning of Multi-agent Quadcopter Control
+2101.06653   # IROS 2021 High-impact (244 citations): LaneRCNN: Distributed Representations for Graph-Centric Motion Forecasting
+2104.14938   # IROS 2021 High-impact (225 citations): Super Odometry: IMU-centric LiDAR-Visual-Inertial Estimator for Challenging Environments
+2103.08624   # IROS 2021 High-impact (202 citations): Autonomous Drone Racing with Deep Reinforcement Learning
+2207.11919   # IROS 2022 High-impact (197 citations): Patchwork++: Fast and Robust Ground Segmentation Solving Partial Under-Segmentation Using 3D Point Cloud
+2203.15103   # IROS 2022 High-impact (195 citations): Adversarial Motion Priors Make Good Substitutes for Complex Reward Functions
+2204.12876   # IROS 2022 High-impact (193 citations): Elevation Mapping for Locomotion and Navigation using GPU
+2212.11419   # IROS 2022 High-impact (186 citations): Imitation Is Not Enough: Robustifying Imitation with Reinforcement Learning for Challenging Driving Scenarios
+2108.00516   # IROS 2021 High-impact (172 citations): BundleTrack: 6D Pose Tracking for Novel Objects without Instance or Category-Level 3D Models
+2110.08988   # IROS 2021 High-impact (167 citations): FEANet: Feature-Enhanced Attention Network for RGB-Thermal Real-time Semantic Segmentation
+2203.05701   # IROS 2022 High-impact (164 citations): 6-DoF Pose Estimation of Household Objects for Robotic Manipulation: An Accessible Dataset and Benchmark
+2407.03162   # IROS 2024 High-impact (162 citations): Bunny-VisionPro: Real-Time Bimanual Dexterous Teleoperation for Imitation Learning
+2403.08248   # IROS 2024 High-impact (158 citations): CoPa: General Robotic Manipulation through Spatial Constraints of Parts with Foundation Models
+2106.08816   # IROS 2021 High-impact (153 citations): SiamAPN++: Siamese Attentional Aggregation Network for Real-Time UAV Tracking
+2108.05773   # IROS 2021 High-impact (148 citations): Correlate-and-Excite: Real-Time Stereo Matching via Guided Cost Volume Excitation
+2101.07241   # IROS 2021 High-impact (142 citations): Learning by Watching: Physical Imitation of Manipulation Skills from Human Videos
+2102.12344   # IROS 2021 High-impact (141 citations): Memory-based Deep Reinforcement Learning for POMDPs
+2209.12827   # IROS 2022 High-impact (138 citations): Advanced Skills by Learning Locomotion and Local Navigation End-to-End
+2108.08755   # IROS 2021 High-impact (136 citations): Category-Level 6D Object Pose Estimation via Cascaded Relation and Recurrent Reconstruction Networks
+2205.15299   # IROS 2022 High-impact (131 citations): Adapting Rapid Motor Adaptation for Bipedal Robots
+2107.00382   # IROS 2021 High-impact (129 citations): SSC: Semantic Scan Context for Large-Scale Place Recognition
+2403.11552   # IROS 2024 High-impact (119 citations): LLM3: Large Language Model-based Task and Motion Planning with Motion Failure Reasoning
+2103.00589   # IROS 2021 High-impact (116 citations): Learning Symbolic Operators for Task and Motion Planning
+2103.10534   # IROS 2021 High-impact (115 citations): Articulated Object Interaction in Unknown Scenes with Whole-Body Mobile Manipulation
+2108.13035   # IROS 2021 High-impact (114 citations): SurRoL: An Open-source Reinforcement Learning Centered and dVRK Compatible Platform for Surgical Robot Learning
+2409.14296   # IROS 2024 High-impact (112 citations): HM3D-OVON: A Dataset and Benchmark for Open-Vocabulary Object Goal Navigation
+2108.06455   # IROS 2021 High-impact (111 citations): PTT: Point-Track-Transformer Module for 3D Single Object Tracking in Point Clouds
+2306.09001   # IROS 2023 High-impact (106 citations): SSCBench: A Large-Scale 3D Semantic Scene Completion Benchmark for Autonomous Driving
+2202.12177   # IROS 2022 High-impact (105 citations): Bubble Planner: Planning High-speed Smooth Quadrotor Trajectories using Receding Corridors
+2501.01855   # IROS 2025 High-impact (102 citations): UAV-DETR: Efficient End-to-End Object Detection for Unmanned Aerial Vehicle Imagery
+2109.03787   # IROS 2021 High-impact (99 citations): FIDNet: LiDAR Point Cloud Semantic Segmentation with Fully Interpolation Decoding
+2108.07329   # IROS 2021 High-impact (99 citations): TUM-VIE: The TUM Stereo Visual-Inertial Event Dataset
+2101.05181   # IROS 2021 High-impact (96 citations): Memory-Augmented Reinforcement Learning for Image-Goal Navigation
+2307.00329   # IROS 2023 High-impact (95 citations): DoReMi: Grounding Language Model by Detecting and Recovering from Plan-Execution Misalignment
+2203.04541   # IROS 2022 High-impact (94 citations): PUTN: A Plane-fitting based Uneven Terrain Navigation Framework
+2202.11006   # IROS 2022 High-impact (94 citations): Robust Real-time LiDAR-inertial Initialization
+2303.01284   # IROS 2023 High-impact (92 citations): NeU-NBV: Next Best View Planning Using Uncertainty Estimation in Image-Based Neural Rendering
+2503.02310   # IROS 2025 High-impact (91 citations): PD-VLA: Accelerating Vision-Language-Action Model Integrated with Action Chunking via Parallel Decoding
+2401.03217   # HRI 2024 High-impact (221 citations): Understanding Large-Language Model (LLM)-powered Human-Robot Interaction
+2101.01625   # HRI 2021 High-impact (144 citations): Explainable AI for Robot Failures: Generating Explanations that Improve User Assistance in Fault Recovery
+2301.02555   # HRI 2023 High-impact (137 citations): No, to the Right: Online Language Corrections for Robotic Manipulation via Shared Autonomy
+2104.11365   # HRI 2021 High-impact (96 citations): Can You Trust Your Trust Measure?
+2401.14673   # HRI 2024 High-impact (92 citations): Generative Expressive Robot Behaviors using Large Language Models
+2501.05014   # HRI 2025 High-impact (61 citations): UAV-VLA: Vision-Language-Action System for Large Scale Aerial Mission Generation
+2201.01931   # HRI 2022 High-impact (53 citations): DReye VR: Democratizing Virtual Reality Driving Simulation for Behavioural & Interaction Research
+2101.07679   # HRI 2021 High-impact (50 citations): The Six Hug Commandments: Design and Evaluation of a Human-Sized Hugging Robot with Visual and Haptic Perception
+2401.05302   # HRI 2024 High-impact (48 citations): Theory of Mind Abilities of Large Language Models in Human-Robot Interaction: An Illusion?
+2108.07259   # HRI 2021 High-impact (40 citations): APReL: A Library for Active Preference-based Reward Learning Algorithms
+2403.04067   # HRI 2024 High-impact (39 citations): Feel the Bite: Robot-Assisted Inside-Mouth Bite Transfer using Robust Mouth Perception and Physical Interaction-Aware Control
+2311.16051   # HRI 2023 High-impact (37 citations): Evaluating the Impact of Personalized Value Alignment in Human-Robot Interaction: Insights into Trust and Team Performance Outcomes
+2102.04527   # HRI 2021 High-impact (37 citations): Playing the Blame Game with Robots
+2301.02336   # HRI 2023 High-impact (35 citations): Exploring Levels of Control for a Navigation Assistant for Blind Travelers
+2401.06289   # HRI 2024 High-impact (34 citations): Design and Evaluation of a Socially Assistive Robot Schoolwork Companion for College Students with ADHD
+2312.15071   # HRI 2023 High-impact (32 citations): Independence in the Home: A Wearable Interface for a Person with Quadriplegia to Teleoperate a Mobile Manipulator
+2302.03088   # HRI 2023 High-impact (30 citations): Sketching Robot Programs On the Fly
+2501.07462   # HRI 2025 High-impact (29 citations): The Sense of Agency in Assistive Robotics Using Shared Autonomy
+2401.15159   # HRI 2024 High-impact (29 citations): RABBIT: A Robot-Assisted Bed Bathing System with Multimodal Perception and Integrated Compliance
+2302.01928   # HRI 2023 High-impact (28 citations): Aligning Human and Robot Representations
+2403.04134   # HRI 2024 High-impact (27 citations): An Adaptable, Safe, and Portable Robot-Assisted Feeding System
+2301.00901   # HRI 2023 High-impact (27 citations): Towards Modeling and Influencing the Dynamics of Human Learning
+2401.09388   # HRI 2024 High-impact (27 citations): CognitiveDog: Large Multimodal Model Based System to Translate Vision and Language into Action of Quadruped Robot
+2301.00810   # HRI 2023 High-impact (27 citations): SIRL: Similarity-based Implicit Representation Learning
+2501.08946   # HRI 2025 High-impact (27 citations): Applying General Turn-Taking Models to Conversational Human-Robot Interaction
+2107.06829   # T-RO 2021 High-impact (1810 citations): FAST-LIO2: Fast Direct LiDAR-Inertial Odometry
+2212.08333   # T-RO 2022 High-impact (510 citations): AnyGrasp: Robust and Efficient Grasp Perception in Spatial and Temporal Domains
+2103.00190   # T-RO 2021 High-impact (456 citations): Geometrically Constrained Trajectory Optimization for Multicopters
+2202.11762   # T-RO 2022 High-impact (442 citations): Safe Control With Learned Certificates: A Survey of Neural Lyapunov, Barrier, and Contraction Methods for Robotics and Control
+2103.07899   # T-RO 2021 High-impact (377 citations): GVINS: Tightly Coupled GNSS–Visual–Inertial Fusion for Smooth and Consistent State Estimation
+2207.00254   # T-RO 2022 High-impact (352 citations): A Survey on Active Simultaneous Localization and Mapping: State of the Art and New Frontiers
+2109.13494   # T-RO 2021 High-impact (350 citations): Scan Context++: Structural Place Recognition Robust to Rotation and Lateral Variations in Urban Environments
+2106.14386   # T-RO 2021 High-impact (334 citations): Kimera-Multi: Robust, Distributed, Dense Metric-Semantic SLAM for Multi-Robot Systems
+2112.03645   # T-RO 2021 High-impact (306 citations): Soft Robots Modeling: A Structured Overview
+2301.04317   # T-RO 2023 High-impact (304 citations): Teleoperation of Humanoid Robots: A Survey
+2208.08373   # T-RO 2022 High-impact (303 citations): Perceptive Locomotion Through Nonlinear Model-Predictive Control
+2207.02556   # T-RO 2022 High-impact (300 citations): Deep Learning Approaches to Grasp Synthesis: A Review
+2211.11644   # T-RO 2022 High-impact (298 citations): Optimization-Based Control for Dynamic Legged Robots
+2209.08533   # T-RO 2022 High-impact (270 citations): RACER: Rapid Collaborative Exploration With a Decentralized Multi-UAV System
+2109.01365   # T-RO 2021 High-impact (270 citations): A Comparative Study of Nonlinear MPC and Differential-Flatness-Based Control for Quadrotor Agile Flight
+2103.05056   # T-RO 2021 High-impact (263 citations): LCDNet: Deep Loop Closure Detection and Point Cloud Registration for LiDAR SLAM
+2408.14035   # T-RO 2024 High-impact (255 citations): FAST-LIVO2: Fast, Direct LiDAR–Inertial–Visual Odometry
+2209.10342   # T-RO 2022 High-impact (251 citations): Partially Observable Markov Decision Processes in Robotics: A Survey
+2108.13205   # T-RO 2021 High-impact (241 citations): Model Predictive Contouring Control for Time-Optimal Quadrotor Flight
+2107.07243   # T-RO 2021 High-impact (205 citations): VILENS: Visual, Inertial, Lidar, and Leg Odometry for All-Terrain Legged Robots
+2105.10588   # T-RO 2021 High-impact (199 citations): Soft Robotic Suits: State of the Art, Core Technologies, and Open Challenges
+2206.10787   # T-RO 2022 High-impact (190 citations): Global Planning for Contact-Rich Manipulation via Local Smoothing of Quasi-Dynamic Contact Models
+2103.04131   # T-RO 2021 High-impact (184 citations): Omni-Swarm: A Decentralized Omnidirectional Visual–Inertial–UWB State Estimation System for Aerial Swarms
+2301.06512   # T-RO 2023 High-impact (183 citations): DRL-VO: Learning to Navigate Through Crowded Dynamic Scenes Using Velocity Obstacles
+2301.01755   # T-RO 2023 High-impact (167 citations): Autonomous Drone Racing: A Survey
+2211.07752   # Science Robotics 2022 High-impact (1763 citations): Robot Operating System 2: Design, architecture, and uses in the wild
+2201.08117   # Science Robotics 2022 High-impact (1192 citations): Learning robust perceptive locomotion for quadrupedal robots in the wild
+2110.05113   # Science Robotics 2021 High-impact (492 citations): Learning high-speed flight in the wild
+2306.14874   # Science Robotics 2023 High-impact (459 citations): ANYmal parkour: Learning agile navigation for quadrupedal robots
+2303.03381   # Science Robotics 2023 High-impact (441 citations): Real-world humanoid locomotion with reinforcement learning
+2205.06908   # Science Robotics 2022 High-impact (347 citations): Neural-Fly enables rapid learning for agile flight in strong winds
+2310.10943   # Science Robotics 2023 High-impact (326 citations): Reaching the limit in autonomous racing: Optimal control versus reinforcement learning
+2304.13653   # Science Robotics 2023 High-impact (293 citations): Learning agile soccer skills for a bipedal robot with deep reinforcement learning
+2108.04537   # Science Robotics 2021 High-impact (289 citations): Time-optimal planning for quadrotor waypoint flight
+2205.04422   # Science Robotics 2022 High-impact (284 citations): Motion planning around obstacles with convex optimization
+2508.08241   # Science Robotics 2025 High-impact (270 citations): BeyondMimic: From Motion Tracking to Versatile Humanoid Control via Guided Diffusion
+2211.11744   # Science Robotics 2022 High-impact (229 citations): Visual dexterity: In-hand reorientation of novel and complex object shapes
+2212.00922   # Science Robotics 2022 High-impact (217 citations): Navigating to objects in the real world
+2405.01792   # Science Robotics 2024 High-impact (198 citations): Learning robust autonomous navigation and locomotion for wheeled-legged robots
+2309.15462   # Science Robotics 2023 High-impact (196 citations): DTC: Deep Tracking Control
+2307.06100   # Science Robotics 2022 High-impact (189 citations): Agilicious: Open-source and open-hardware agile quadrotor for vision-based flight
+2105.04328   # Science Robotics 2021 High-impact (174 citations): An autonomous drone for search and rescue in forests using airborne optical sectioning
+2307.10079   # Science Robotics 2023 High-impact (158 citations): Scientific exploration of challenging planetary analog environments with a team of legged robots
+2303.08778   # Science Robotics 2023 High-impact (115 citations): Fully neuromorphic vision and control for autonomous drone flight
+2308.09179   # Science Robotics 2023 High-impact (108 citations): Versatile multicontact planning and control for legged loco-manipulation
+2203.06972   # Science Robotics 2022 High-impact (86 citations): iCub3 avatar system: Enabling remote fully immersive embodiment of humanoid robots
+2409.10333   # Science Robotics 2024 High-impact (81 citations): Stretchable Arduinos embedded in soft robots
+2111.06953   # Science Robotics 2021 High-impact (76 citations): Morphological computation and decentralized learning in a swarm of sterically interacting robots
+2304.08652   # Science Robotics 2023 High-impact (75 citations): Mechanical intelligence simplifies control in terrestrial limbless locomotion
+2304.03125   # Science Robotics 2023 High-impact (58 citations): A self-organizing robotic aggregate using solid and liquid-like collective states

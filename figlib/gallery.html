@@ -333,14 +333,14 @@ const T = {
         footer: '图片版权归各论文作者所有，本站仅供学术参考；每张图都标明了论文出处。', credit: '由 <a href="https://github.com/fengxijia" target="_blank" rel="noopener">xixisphere</a> 开发，代码开源在 <a href="https://github.com/fengxijia/PaperFigureLib" target="_blank" rel="noopener">GitHub</a>。', close: '关闭 Esc', num: '图号', kind: '类型', pos: '位置', file: '原图',
         prev: '上一张', next: '下一张', share: '复制链接', copied: '已复制', openPng: '在新窗口打开原图', none: '无', unknown: '未识别', pdf: '论文 PDF',
         award: '获奖论文（Best Paper 等）', seed: '顶会经典（种子清单）', local: '本地论文库', vector: '矢量图（可仿的线条）', raster: '含位图',
-        hide: '隐藏提示词和表格截图', show: '显示', heur: '（按图注粗分）', page: '第 {p} 页', bitmap: '含位图', vec: '矢量', full: '通栏', zoom: '点图看原尺寸',
+        hide: '隐藏提示词截图', show: '显示', heur: '（按图注粗分）', page: '第 {p} 页', bitmap: '含位图', vec: '矢量', full: '通栏', zoom: '点图看原尺寸',
         byWall: '新到旧', byEdition: '按届分组', verified: '{m} 复核过', wholeArea: '所有', stats: '{p} 篇顶会论文 · {f} 张图 · 更新于 {d}', result: '符合条件 <b>{n}</b> 张，显示前 {k} 张', styleH: '同款数据图', oneStyle: '每篇只留一张', allStyle: '全部显示', figure: 'Figure {n}', panel: '，子图 {k}/{n}' },
   en: { search: 'Search captions, titles, tags, arXiv id', venue: 'Venue', all: 'All', sort: 'Sort', byPaper: 'By paper', byYear: 'Newest first', wide: 'Wide first', tall: 'Tall first',
         filters: 'Filters', closeSheet: 'Close ✕', visits: '{p} visitors · {v} views', type: 'Figure type', source: 'Source', draw: 'Drawing', textbox: 'Text boxes', more: 'Show more', empty: 'No figures match. Try another keyword or loosen the filters.',
         footer: 'Figures belong to their papers\' authors; this site is for academic reference and every figure links to its source paper.', credit: 'Built by <a href="https://github.com/fengxijia" target="_blank" rel="noopener">xixisphere</a>. Source on <a href="https://github.com/fengxijia/PaperFigureLib" target="_blank" rel="noopener">GitHub</a>.', close: 'Close Esc', num: 'Figure', kind: 'Type', pos: 'Where', file: 'File',
         prev: 'Previous', next: 'Next', share: 'Copy link', copied: 'Copied', openPng: 'Open full image', none: 'none', unknown: 'unknown', pdf: 'Paper PDF',
         award: 'Award papers (best paper etc.)', seed: 'Classic / high-impact', local: 'Local library', vector: 'Vector (line art)', raster: 'Contains bitmap',
-        hide: 'Hide prompt and table screenshots', show: 'Show', heur: ' (caption-based guess)', page: 'page {p}', bitmap: 'bitmap', vec: 'vector', full: 'full width', zoom: 'click to zoom',
+        hide: 'Hide prompt screenshots', show: 'Show', heur: ' (caption-based guess)', page: 'page {p}', bitmap: 'bitmap', vec: 'vector', full: 'full width', zoom: 'click to zoom',
         byWall: 'Newest first', byEdition: 'Grouped by edition', verified: 'checked by {m}', wholeArea: 'All', stats: '{p} top-venue papers · {f} figures · updated {d}', result: '<b>{n}</b> figures match, showing {k}', styleH: 'Same-style charts', oneStyle: 'One per paper', allStyle: 'Show all', figure: 'Figure {n}', panel: ', panel {k}/{n}' },
 };
 const t = (k, v = {}) => T[LANG][k].replace(/\{(\w+)\}/g, (_, x) => v[x]);
@@ -353,7 +353,7 @@ const CHART_L = {
 let CAT_ZH = CAT_L[LANG], CHART_ZH = CHART_L[LANG];
 const CAT_ORDER = ['method', 'background', 'data', 'example', 'table', 'prompt', 'other'];
 const CHART_ORDER = ['bar', 'line', 'scatter', 'pie', 'heatmap', 'histogram', 'box', 'violin', 'radar', 'area', 'confusion_matrix', 'other'];
-const HEUR = { teaser: 'background', method: 'method', result: 'data', example: 'example', prompt: 'prompt', other: 'other' };
+const HEUR = { teaser: 'background', method: 'method', result: 'data', example: 'example', prompt: 'prompt', table: 'table', other: 'other' };
 
 // flatten
 const FIGS = [];
@@ -391,7 +391,7 @@ for (const p of DATA.papers) {
 const state = { q: '', cat: '', chart: '', venue: '', area: '', source: '', draw: '', textbox: 'hide', style: 'one', sort: 'paper', shown: 200 };
 const AREAS = DATA.areas || [];
 const areaLabel = (id) => { const a = AREAS.find(x => x.id === id); return a ? (LANG === 'zh' ? a.zh : a.en) : id; };
-const TEXTBOX_CATS = new Set(['prompt', 'table']);   // prompt templates, algorithm boxes, tables drawn as figures
+const TEXTBOX_CATS = new Set(['prompt']);   // prompt templates and algorithm boxes
 const $ = (id) => document.getElementById(id);
 
 function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
