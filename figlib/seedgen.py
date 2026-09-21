@@ -28,6 +28,8 @@ VENUES = {
                ("IPSN", "IPSN", 15)],
     "hci": [("CHI", "CHI", 150), ("UIST", "UIST", 50), ("Proceedings of the ACM on Human-Computer Interaction", "CSCW", 40),
             ("Designing Interactive Systems", "DIS", 20)],
+    "hpc": [("SC", "SC", 80), ("HPDC", "HPDC", 40), ("ICS", "ICS", 40), ("IPDPS", "IPDPS", 40),
+            ("PPoPP", "PPoPP", 40), ("Euro-Par", "Euro-Par", 20)],
     "robotics": [("Robotics: Science and Systems", "RSS", 60), ("Conference on Robot Learning", "CoRL", 70),
                  ("ICRA", "ICRA", 80), ("IROS", "IROS", 50), ("Human-Robot Interaction", "HRI", 25),
                  ("IEEE Transactions on Robotics", "T-RO", 25), ("Science Robotics", "Science Robotics", 25)],

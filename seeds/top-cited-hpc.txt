@@ -1,0 +1,240 @@
+# Most cited 2021-2026 papers of the hpc venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-21).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2504.02211   # SC 2025 High-impact (28 citations): FT-Transformer: Resilient and Reliable Transformer with End-to-End Fault Tolerant Attention
+2408.04312   # SC 2024 High-impact (22 citations): Qonductor: A Cloud Orchestrator for Quantum Computing
+2511.02021   # SC 2025 High-impact (20 citations): Computing the Full Earth System at 1km Resolution
+2504.16344   # SC 2025 High-impact (20 citations): Real-Time Bayesian Inference at Extreme Scale: A Digital Twin for Tsunami Early Warning Applied to the Cascadia Subduction Zone
+2505.07392   # SC 2025 High-impact (20 citations): Simulating many-engine spacecraft: Exceeding 1 quadrillion degrees of freedom via information geometric regularization
+2503.11901   # SC 2025 High-impact (19 citations): Story of Two GPUs: Characterizing the Resilience of Hopper H100 and Ampere A100 GPUs
+2505.08936   # SC 2025 High-impact (19 citations): ATLAHS: An Application-centric Network Simulator Toolchain for AI, HPC, and Distributed Storage
+2509.08309   # SC 2025 High-impact (18 citations): Hetis: Serving LLMs in Heterogeneous GPU Clusters with Fine-grained and Dynamic Parallelism
+2509.13523   # SC 2025 High-impact (15 citations): AERIS: Argonne Earth Systems Model for Reliable and Skillful Predictions
+2410.15621   # SC 2024 High-impact (13 citations): DRIM-ANN: An Approximate Nearest Neighbor Search Engine based on Commercial DRAM-PIMs
+2509.01229   # SC 2025 High-impact (12 citations): LiquidGEMM: Hardware-Efficient W4A8 GEMM Kernel for High-Performance LLM Serving
+2510.05476   # SC 2025 High-impact (12 citations): cMPI: Using CXL Memory Sharing for MPI One-Sided and Two-Sided Inter-Node Communications
+2504.14519   # SC 2025 High-impact (12 citations): SlimPipe: Memory-Thrifty and Efficient Pipeline Parallelism for Long-Context LLM Training
+2504.14775   # SC 2025 High-impact (11 citations): gLLM: Global Balanced Pipeline Parallelism Systems for Distributed LLMs Serving with Token Throttling
+2507.11165   # SC 2025 High-impact (11 citations): Boosting Scientific Error-Bounded Lossy Compression through Optimized Synergistic Lossy-Lossless Orchestration
+2505.05366   # SC 2025 High-impact (11 citations): SDR-RDMA: Software-Defined Reliability Architecture for Planetary Scale RDMA Communication
+2410.23805   # SC 2024 High-impact (10 citations): UpANNS: Enhancing Billion-Scale ANNS Efficiency with Real-World PIM Architecture
+2504.11681   # SC 2025 High-impact (9 citations): TurboFNO: High-Performance Fourier Neural Operator with Fused FFT-GEMM-iFFT on GPU
+2510.00471   # SC 2025 High-impact (9 citations): ThirstyFLOPS: Water Footprint Modeling and Analysis Toward Sustainable HPC Systems
+2510.15802   # SC 2025 High-impact (9 citations): Uno: A One-Stop Solution for Inter- and Intra-Data Center Congestion Control and Reliable Connectivity
+2508.00837   # SC 2025 High-impact (8 citations): QDockBank: A dataset for Ligand Docking on Protein Fragments Predicted on Utility-Level Quantum Computers
+2504.21190   # SC 2025 High-impact (8 citations): TT-LoRA MoE: Using Parameter-Efficient Fine-Tuning and Sparse Mixture-Of-Experts
+2510.03557   # SC 2025 High-impact (8 citations): Cosmological Hydrodynamics at Exascale: A Trillion-Particle Leap in Capability
+2508.19138   # SC 2025 High-impact (7 citations): Ab-initio Quantum Transport with the GW Approximation, 42,240 Atoms, and Sustained Exascale Performance
+2504.16297   # SC 2025 High-impact (7 citations): Augmenting Simulated Noisy Quantum Data Collection by Orders of Magnitude Using Pre-Trajectory Sampling with Batched Execution
+2509.02480   # SC 2025 High-impact (7 citations): MLP-Offload: Multi-Level, Multi-Path Offloading for LLM Pre-training to Break the GPU Memory Wall
+2508.17311   # SC 2025 High-impact (7 citations): Bine Trees: Enhancing Collective Operations by Optimizing Communication Locality
+2504.19365   # SC 2025 High-impact (7 citations): AGILE: Lightweight and Efficient Asynchronous GPU-SSD Integration
+2602.23220   # SC 2025 High-impact (6 citations): STELLAR: Storage Tuning Engine Leveraging LLM Autonomous Reasoning for High Performance Parallel File Systems
+2501.09557   # SC 2025 High-impact (6 citations): Core Hours and Carbon Credits: Incentivizing Sustainability in HPC
+2507.02129   # SC 2025 High-impact (5 citations): Generative Latent Diffusion for Efficient Spatiotemporal Data Reduction
+2509.23018   # SC 2025 High-impact (5 citations): Advancing Quantum Many-Body GW Calculations on Exascale Supercomputing Platforms
+2507.11683   # SC 2025 High-impact (5 citations): PGT-I: Scaling Spatiotemporal GNNs with Memory-Efficient Distributed Training
+2506.22969   # SC 2025 High-impact (5 citations): SparStencil: Retargeting Sparse Tensor Cores to Scientific Stencil Computations via Structured Sparsity Transformation
+2507.04647   # SC 2025 High-impact (5 citations): RAPTOR: Practical Numerical Profiling of Scientific Applications
+2509.01626   # SC 2025 High-impact (5 citations): STZ: A High Quality and High Speed Streaming Lossy Compression Framework for Scientific Data
+2508.21289   # SC 2025 High-impact (5 citations): Addressing Reproducibility Challenges in HPC with Continuous Integration
+2505.04083   # SC 2025 High-impact (5 citations): Plexus: Taming Billion-edge Graphs with 3D Parallel Full-graph GNN Training
+2509.00966   # SC 2025 High-impact (4 citations): Multiscale Light-Matter Dynamics in Quantum Materials: From Electrons to Topological Superlattices
+2505.00227   # SC 2025 High-impact (4 citations): HP-MDR: High-performance and Portable Data Refactoring and Progressive Retrieval with Advanced GPUs
+2509.19836   # SC 2025 High-impact (4 citations): BurstEngine: An efficient distributed framework for training transformers On extremely Long sequences of over 1M tokens
+2507.11512   # SC 2025 High-impact (4 citations): Scaling the memory wall using mixed-precision - HPG-MxP on an exascale machine
+2507.21253   # SC 2025 High-impact (4 citations): Improving SpGEMM Performance Through Matrix-Reordering and Cluster-wise Computation
+2507.06938   # SC 2025 High-impact (4 citations): Accelerated Spatio-Temporal Bayesian Modeling for Multivariate Gaussian Processes
+2505.01864   # SC 2025 High-impact (4 citations): LCI: a Lightweight Communication Interface for Efficient Asynchronous Multithreaded Communication
+2506.21411   # SC 2025 High-impact (3 citations): Distributed Cross-Channel Hierarchical Aggregation for Foundation Models
+2510.23330   # SC 2025 High-impact (3 citations): The First Star-by-star $N$-body/Hydrodynamics Simulation of Our Galaxy Coupling with a Surrogate Model
+2505.14864   # SC 2025 High-impact (3 citations): Balanced and Elastic End-to-end Training of Dynamic LLMs
+2507.01988   # SC 2025 High-impact (3 citations): Scaling Out Chip Interconnect Networks with Implicit Sequence Numbers
+2511.01893   # SC 2025 High-impact (3 citations): mLR: Scalable Laminography Reconstruction based on Memoization
+2505.20719   # SC 2025 High-impact (2 citations): A Nested Krylov Method Using Half-Precision Arithmetic
+2511.03586   # SC 2025 High-impact (2 citations): PerfDojo: Automated ML Library Generation for Heterogeneous Architectures
+2504.21130   # SC 2025 High-impact (2 citations): Numerical Performance of the Implicitly Restarted Arnoldi Method in OFP8, Bfloat16, Posit, and Takum Arithmetics
+2509.21037   # SC 2025 High-impact (2 citations): Utilizing Sparsity in the GPU-accelerated Assembly of Schur Complement Matrices in Domain Decomposition Methods
+2509.17914   # SC 2025 High-impact (2 citations): XaaS Containers: Performance-Portable Representation With Source and IR Containers
+2508.18950   # SC 2025 High-impact (1 citations): SIREN: Software Identification and Recognition in HPC Systems
+2509.07728   # SC 2025 High-impact (1 citations): Bridging the Gap Between Binary and Source Based Package Management in Spack
+2508.18969   # SC 2025 High-impact (1 citations): Deep Learning-Enabled Supercritical Flame Simulation at Detailed Chemistry and Real-Fluid Accuracy Towards Trillion-Cell Scale
+2401.12554   # HPDC 2024 High-impact (72 citations): Can Large Language Models Write Parallel Code?
+2406.10707   # HPDC 2024 High-impact (54 citations): DataStates-LLM: Lazy Asynchronous Checkpointing for Large Language Models
+2202.00057   # HPDC 2022 High-impact (49 citations): Practical Efficient Microservice Autoscaling with QoS Assurance
+2304.12557   # HPDC 2023 High-impact (44 citations): FZ-GPU: A Fast and High-Ratio Lossy Compressor for Scientific Computing Applications on GPUs
+2104.00178   # HPDC 2021 High-impact (37 citations): Adaptive Configuration of In Situ Lossy Compression for Cosmology Simulations via Fine-Grained Rate-Quality Modeling
+2403.16301   # HPDC 2021 High-impact (27 citations): Q-adaptive: A Multi-Agent Reinforcement Learning Based Routing on Dragonfly Network
+2502.14076   # HPDC 2025 High-impact (23 citations): CarbonEdge: Leveraging Mesoscale Spatial Carbon-Intensity Variations for Low Carbon Edge Computing
+2309.13541   # HPDC 2023 High-impact (20 citations): Efficient all-to-all Collective Communication Schedules for Direct-connect Topologies
+2304.12568   # HPDC 2023 High-impact (19 citations): Performance Optimization using Multimodal Modeling and Heterogeneous GNN
+2204.00711   # HPDC 2022 High-impact (17 citations): TAC: Optimizing Error-Bounded Lossy Compression for Three-Dimensional Adaptive Mesh Refinement Simulations
+2404.15888   # HPDC 2024 High-impact (16 citations): Near-Optimal Wafer-Scale Reduce
+2407.03583   # HPDC 2024 High-impact (15 citations): Loki: A System for Serving ML Inference Pipelines with Hardware and Accuracy Scaling
+2404.16812   # HPDC 2024 High-impact (14 citations): ESG: Pipeline-Conscious Efficient Scheduling of DNN Workflows on Serverless Platforms with Shareable GPUs
+2308.08955   # HPDC 2023 High-impact (12 citations): Rapidgzip: Parallel Decompression and Seeking in Gzip Files Using Cache Prefetching
+2502.04093   # HPDC 2025 High-impact (11 citations): IPComp: Interpolation Based Progressive Lossy Compression for Scientific Applications
+2505.03988   # HPDC 2025 High-impact (10 citations): Can Large Language Models Predict Parallel Code Performance?
+2203.14859   # HPDC 2022 High-impact (8 citations): FaaSKeeper: Learning from Building Serverless Services with ZooKeeper as an Example
+2406.09986   # HPDC 2024 High-impact (7 citations): DLHT: A Non-blocking Resizable Hashtable with Fast Deletes and Memory-awareness
+2504.09345   # HPDC 2025 High-impact (6 citations): MoE-Lens: Towards the Hardware Limit of High-Throughput MoE LLM Serving Under Resource Constraints
+2305.02444   # HPDC 2023 High-impact (6 citations): FT-GEMM: A Fault Tolerant High Performance GEMM Implementation on x86 CPUs
+2504.10700   # HPDC 2025 High-impact (5 citations): Optimizing Data Distribution and Kernel Performance for Efficient Training of Chemistry Foundation Models: A Case Study with MACE
+2503.13084   # HPDC 2025 High-impact (5 citations): Qutes: A High-Level Quantum Programming Language for Simplified Quantum Computing
+2411.01109   # HPDC 2024 High-impact (4 citations): Optimization of GNN Training Through Half-precision
+2604.15768   # HPDC 2026 High-impact (3 citations): A Fully GPU-Accelerated Framework for High-Performance Configuration Interaction Selection with Neural Network Quantum States
+2305.10612   # HPDC 2023 High-impact (3 citations): Accelerating MPI Collectives with Process-in-Process-based Multi-object Techniques
+2306.02730   # HPDC 2023 High-impact (3 citations): Streaming Task Graph Scheduling for Dataflow Architectures
+2604.24088   # HPDC 2026 High-impact (3 citations): TACO: Efficient Communication Compression of Intermediate Tensors for Scalable Tensor-Parallel LLM Training
+2506.13730   # HPDC 2025 High-impact (3 citations): BanditWare: A Contextual Bandit-based Framework for Hardware Prediction
+2605.28426   # HPDC 2026 High-impact (2 citations): Fault Tolerance of Accelerated Asynchronous Fixed-Point Iterations on Flexible Computing Infrastructure
+2507.14139   # HPDC 2025 High-impact (2 citations): SpeedLLM: An FPGA Co-design of Large Language Model Inference Accelerator
+2409.10231   # HPDC 2024 High-impact (2 citations): High-level quantum algorithm programming using Silq
+2510.13668   # HPDC 2025 High-impact (1 citations): STAR: Decode-Phase Rescheduling for LLM Inference
+2605.09402   # HPDC 2026 High-impact (1 citations): ATLAS: Efficient Out-of-Core Inference for Billion-Scale Graph Neural Networks
+2604.22126   # HPDC 2026 High-impact (1 citations): GICC: A High-Performance Runtime for GPU-Initiated Communication and Coordination in Modern HPC Systems
+2407.16377   # HPDC 2024 High-impact (1 citations): Reinforcement Learning-based Adaptive Mitigation of Uncorrected DRAM Errors in the Field
+2605.12396   # HPDC 2026 High-impact (1 citations): NCCLZ: Compression-Enabled GPU Collectives with Decoupled Quantization and Entropy Coding
+2607.19893   # HPDC 2026 High-impact (0 citations): Odin: Harnessing Rendering Visibility to Break Global Barriers in Distributed Point-Based Neural Rendering
+2606.25738   # HPDC 2026 High-impact (0 citations): Endeavor: Efficient PairHMM for Detection of DNA Variants in Genome-Scale Datasets
+2606.04955   # HPDC 2026 High-impact (0 citations): Expressibility, Noise, and Error Mitigation in VQE Ansatz Selection
+2604.19337   # HPDC 2026 High-impact (0 citations): POLAR-PIC: A Holistic Framework for Matrixized PIC with Co-Designed Compute, Layout, and Communication
+2303.06318   # ICS 2023 High-impact (88 citations): A Hybrid Tensor-Expert-Data Parallelism Approach to Optimize Mixture-of-Experts Training
+2107.14210   # ICS 2021 High-impact (37 citations): uiCA: accurate throughput prediction of basic blocks on recent intel microarchitectures
+2102.10245   # ICS 2021 High-impact (37 citations): ALTO: adaptive linearized storage of sparse tensors
+2305.18356   # ICS 2023 High-impact (34 citations): RT-kNNS Unbound: Using RT Cores to Accelerate Unrestricted Neighbor Search
+2104.13209   # ICS 2021 High-impact (33 citations): Parallel K-clique counting on GPUs
+2305.08763   # ICS 2023 High-impact (32 citations): FMI: Fast and Cheap Message Passing for Serverless Functions
+2308.05199   # ICS 2023 High-impact (31 citations): gZCCL: Compression-Accelerated Collective Communication Framework for GPU Clusters
+2304.07342   # ICS 2023 High-impact (27 citations): GPULZ: Optimizing LZSS Lossless Compression for Multi-byte Data on Modern GPUs
+2305.01024   # ICS 2023 High-impact (25 citations): Anatomy of High-Performance GEMM with Online Fault Tolerance on GPUs
+2303.03509   # ICS 2023 High-impact (25 citations): SPARTA: Spatial Acceleration for Efficient and Scalable Horizontal Diffusion Weather Stencil Computation
+2106.13306   # ICS 2021 High-impact (19 citations): CEAZ: accelerating parallel I/O via hardware-algorithm co-designed adaptive lossy compression
+2110.10802   # ICS 2021 High-impact (19 citations): A data-centric optimization framework for machine learning
+2205.07610   # ICS 2022 High-impact (18 citations): AnySeq/GPU: a novel approach for faster sequence alignment on GPUs
+2204.02064   # ICS 2022 High-impact (18 citations): PERKS: a Locality-Optimized Execution Model for Iterative Memory-bound GPU Applications
+2402.08950   # ICS 2024 High-impact (17 citations): Taking GPU Programming Models to Task for Performance Portability
+2506.10931   # ICS 2025 High-impact (17 citations): MARS: Processing-In-Memory Acceleration of Raw Signal Genome Analysis Inside the Storage Subsystem
+2305.07390   # ICS 2023 High-impact (16 citations): Revisiting Temporal Blocking Stencil Optimizations
+2209.15040   # ICS 2022 High-impact (16 citations): Wafer-Scale Fast Fourier Transforms
+2501.14336   # ICS 2024 High-impact (15 citations): RadiK: Scalable and Optimized GPU-Parallel Radix Top-K Selection
+2405.07749   # ICS 2024 High-impact (14 citations): DeepHYDRA: A Hybrid Deep Learning and DBSCAN-Based Approach to Time-Series Anomaly Detection in Dynamically-Configured Systems
+2407.18175   # ICS 2024 High-impact (13 citations): Quasar-ViT: Hardware-Oriented Quantization-Aware Architecture Search for Vision Transformers
+2201.12523   # ICS 2022 High-impact (13 citations): Efficient, out-of-memory sparse MTTKRP on massively parallel architectures
+2305.02522   # ICS 2023 High-impact (13 citations): BitGNN: Unleashing the Performance Potential of Binary Graph Neural Networks on GPUs
+2104.11805   # ICS 2021 High-impact (12 citations): Partitioning sparse deep neural networks for scalable training and inference
+2311.18141   # ICS 2023 High-impact (12 citations): RDMA-Based Algorithms for Sparse Matrix Multiplication on GPUs
+2104.00897   # ICS 2021 High-impact (11 citations): FT-BLAS: a high performance BLAS implementation with online fault tolerance
+2411.01075   # ICS 2024 High-impact (10 citations): Cephalo: Harnessing Heterogeneous GPU Clusters for Training Transformer Models
+2201.05884   # ICS 2022 High-impact (9 citations): Calipers: a criticality-aware framework for modeling processor performance
+2401.04669   # ICS 2023 High-impact (8 citations): Transfer-learning-based Autotuning using Gaussian Copula
+2409.05785   # ICS 2024 High-impact (7 citations): NeurLZ: An Online Neural Learning-based Method to Enhance Scientific Lossy Compression
+2412.18008   # ICS 2024 High-impact (7 citations): Parallel Contraction Hierarchies Can Be Efficient and Scalable
+2105.09578   # ICS 2021 High-impact (7 citations): ThundeRiNG: generating multiple independent random number sequences on FPGAs
+2203.02536   # ICS 2022 High-impact (7 citations): Beyond time complexity: data movement complexity analysis for matrix multiplication
+2112.11879   # ICS 2021 High-impact (6 citations): Lifting C semantics for dataflow optimization
+2506.01880   # ICS 2025 High-impact (6 citations): Pearl: Automatic Code Optimization Using Deep Reinforcement Learning
+2509.23638   # ICS 2025 High-impact (6 citations): LayerScope: Predictive Cross-Layer Scheduling for Efficient Multi-Batch MoE Inference on Legacy Servers
+2108.04002   # ICS 2021 High-impact (6 citations): Preparing for performance analysis at exascale
+2501.07056   # ICS 2025 High-impact (5 citations): MAGNUS: Generating Data Locality to Accelerate Sparse Matrix-Matrix Multiplication on CPUs
+2603.26435   # ICS 2026 High-impact (5 citations): Wattchmen: Watching the Wattchers – High Fidelity, Flexible GPU Energy Modeling
+2208.04514   # ICS 2022 High-impact (5 citations): DAWN: Matrix Operation-Optimized Algorithm for Shortest Paths Problem on Unweighted Graphs
+2402.13499   # IPDPS 2024 High-impact (104 citations): Benchmarking and Dissecting the Nvidia Hopper GPU Architecture
+2210.03052   # IPDPS 2022 High-impact (71 citations): ByteTransformer: A High-Performance Transformer Boosted for Variable-Length Inputs
+2102.06243   # IPDPS 2021 High-impact (64 citations): Deep Reinforcement Agent for Scheduling in HPC
+https://arxiv.org/pdf/2104.05343   # IPDPS 2023 High-impact (62 citations): An Efficient 2D Method for Training Super-Large Deep Learning Models
+2202.01699   # IPDPS 2022 High-impact (61 citations): DistrEdge: Speeding up Convolutional Neural Network Inference on Distributed Edge Devices
+2401.08383   # IPDPS 2024 High-impact (43 citations): Exploiting Inter-Layer Expert Affinity for Accelerating Mixture-of-Experts Model Inference
+2405.14209   # IPDPS 2024 High-impact (35 citations): Performance Characterization of CXL Memory and Its Use Cases
+2109.14704   # IPDPS 2021 High-impact (31 citations): Accelerating Encrypted Computing on Intel GPUs
+2103.10452   # IPDPS 2021 High-impact (29 citations): Extending Sparse Tensor Accelerators to Support Multiple Compression Formats
+2203.05095   # IPDPS 2022 High-impact (28 citations): Model-Architecture Co-Design for High Performance Temporal GNN Inference on FPGA
+2106.13859   # IPDPS 2021 High-impact (28 citations): rFaaS: Enabling High Performance Serverless with RDMA and Leases
+2103.16063   # IPDPS 2021 High-impact (27 citations): Automatic Graph Partitioning for Very Large-scale Deep Learning
+2110.13005   # IPDPS 2021 High-impact (27 citations): AxoNN: An asynchronous, message-driven parallel framework for extreme-scale deep learning
+2104.04797   # IPDPS 2021 High-impact (27 citations): Coupling streaming AI and HPC ensembles to achieve 100–1000× faster biomolecular simulations
+2505.05428   # IPDPS 2025 High-impact (26 citations): Empowering Scientific Workflows with Federated Agents
+2109.05412   # IPDPS 2021 High-impact (25 citations): Hybrid Workload Scheduling on HPC Systems
+2103.07977   # IPDPS 2021 High-impact (24 citations): Understanding the Design-Space of Sparse/Dense Multiphase GNN dataflows on Spatial Accelerators
+2304.03890   # IPDPS 2023 High-impact (24 citations): An Optimized Error-controlled MPI Collective Framework Integrated with Lossy Compression
+2401.10852   # IPDPS 2024 High-impact (23 citations): Software Resource Disaggregation for HPC with Serverless Computing
+2210.01076   # IPDPS 2022 High-impact (23 citations): qTask: Task-parallel Quantum Circuit Simulation with Incrementality
+2408.05962   # IPDPS 2024 High-impact (22 citations): HiCCL: A Hierarchical Collective Communication Library
+2203.00611   # IPDPS 2022 High-impact (20 citations): Learning Intermediate Representations using Graph Neural Networks for NUMA and Prefetchers Optimization
+2102.07528   # IPDPS 2021 High-impact (20 citations): Byzantine Dispersion on Graphs
+2107.12958   # IPDPS 2021 High-impact (19 citations): Adaptive Verifiable Coded Computing: Towards Fast, Secure and Private Distributed Machine Learning
+2303.09655   # IPDPS 2023 High-impact (18 citations): RT-DBSCAN: Accelerating DBSCAN using Ray Tracing Hardware
+2203.07673   # IPDPS 2022 High-impact (18 citations): Distributed-Memory Sparse Kernels for Machine Learning
+2204.05959   # IPDPS 2022 High-impact (18 citations): “Smarter” NICs for faster molecular dynamics: a case study
+2512.02189   # IPDPS 2025 High-impact (18 citations): Microbenchmarking NVIDIA’s Blackwell Architecture: An in-depth Architectural Analysis
+2204.10768   # IPDPS 2022 High-impact (17 citations): nOS-V: Co-Executing HPC Applications Using System-Wide Task Scheduling
+2403.02694   # IPDPS 2024 High-impact (17 citations): MeanCache: User-Centric Semantic Caching for LLM Web Services
+2202.11655   # IPDPS 2022 High-impact (16 citations): TEE-based decentralized recommender systems: The raw data sharing redemption
+2302.07036   # IPDPS 2023 High-impact (15 citations): SCONNA: A Stochastic Computing Based Optical Accelerator for Ultra-Fast, Energy-Efficient Inference of Integer-Quantized CNNs
+2302.12811   # IPDPS 2023 High-impact (15 citations): k-Center Clustering with Outliers in the MPC and Streaming Model
+2102.10442   # IPDPS 2021 High-impact (15 citations): Byzantine Agreement with Unknown Participants and Failures
+2402.00691   # IPDPS 2024 High-impact (14 citations): Comparative Study of Large Language Model Architectures on Frontier
+2302.11443   # IPDPS 2023 High-impact (14 citations): Engineering a Distributed-Memory Triangle Counting Algorithm
+2506.22175   # IPDPS 2023 High-impact (14 citations): MPipeMoE: Memory Efficient MoE for Pre-trained Models with Adaptive Pipeline Parallelism
+2202.13976   # IPDPS 2022 High-impact (14 citations): Asynchronous Distributed-Memory Triangle Counting and LCC with RMA Caching
+2303.12901   # IPDPS 2023 High-impact (13 citations): Dynasparse: Accelerating GNN Inference through Dynamic Sparsity Exploitation
+2302.05045   # IPDPS 2023 High-impact (13 citations): Exploiting Sparsity in Pruned Neural Networks to Optimize Large Model Training
+2203.06871   # PPoPP 2022 High-impact (99 citations): Block-STM: Scaling Blockchain Execution by Turning Ordering Curse to a Performance Blessing
+2305.04359   # PPoPP 2023 High-impact (88 citations): ParlayANN: Scalable and Deterministic Parallel Graph-Based Approximate Nearest Neighbor Search Algorithms
+2201.07598   # PPoPP 2022 High-impact (79 citations): Near-optimal sparse allreduce for distributed deep learning
+2408.11743   # PPoPP 2024 High-impact (65 citations): MARLIN: Mixed-Precision Auto-Regressive Parallel Inference on Large Language Models
+2201.01366   # PPoPP 2022 High-impact (64 citations): RTNN: accelerating neighbor search using hardware ray tracing
+2201.01446   # PPoPP 2022 High-impact (64 citations): Extending the limit of molecular dynamics with ab initio accuracy to 10 billion atoms
+2111.09547   # PPoPP 2021 High-impact (53 citations): QGTC: accelerating quantized graph neural networks via GPU tensor core
+2301.03598   # PPoPP 2023 High-impact (49 citations): Stream-K: Work-Centric Parallel Decomposition for Dense Matrix-Matrix Multiplication on the GPU
+2203.00091   # PPoPP 2022 High-impact (44 citations): Dynamic N:M Fine-Grained Structured Sparse Attention Mechanism
+2112.12693   # PPoPP 2021 High-impact (40 citations): Deadlock-free asynchronous message reordering in rust with multiparty session types
+2301.00391   # PPoPP 2023 High-impact (32 citations): PiPAD: Pipelined and Parallel Dynamic GNN Training on GPUs
+2207.00257   # PPoPP 2022 High-impact (30 citations): High-Performance GPU-to-CPU Transpilation and Optimization via High-Level Parallel Constructs
+2501.09251   # PPoPP 2025 High-impact (28 citations): Acc-SpMM: Accelerating General-purpose Sparse Matrix-Matrix Multiplication with GPU Tensor Cores
+2412.11007   # PPoPP 2024 High-impact (28 citations): FlashSparse: Minimizing Computation Redundancy for Fast Sparse Matrix Multiplications on Tensor Cores
+2308.05869   # PPoPP 2023 High-impact (25 citations): Shared Memory-contention-aware Concurrent DNN Execution for Diversely Heterogeneous System-on-Chips
+2108.04202   # PPoPP 2021 High-impact (24 citations): FliT: a library for simple and efficient persistent algorithms
+2204.12835   # PPoPP 2022 High-impact (23 citations): Learning to Parallelize in a Shared-Memory Environment with Transformers
+2109.00657   # PPoPP 2021 High-impact (22 citations): Multi-queues can be state-of-the-art priority schedulers
+2105.07902   # PPoPP 2021 High-impact (20 citations): Advanced synchronization techniques for task-based runtime systems
+2407.13996   # PPoPP 2024 High-impact (19 citations): SGDRC: Software-Defined Dynamic Resource Control for Concurrent DNN Inference on NVIDIA GPUs
+2102.01044   # PPoPP 2021 High-impact (19 citations): Jiffy: a lock-free skip list with batch updates and snapshots
+2112.15259   # PPoPP 2021 High-impact (18 citations): Elimination (a,b)-trees with fast, durable updates
+2501.17944   # PPoPP 2025 High-impact (18 citations): WaterWise: Co-optimizing Carbon- and Water-Footprint Toward Environmentally Sustainable Cloud Computing
+2410.11720   # PPoPP 2024 High-impact (18 citations): ATTNChecker: Highly-Optimized Fault Tolerant Attention for Large Language Model Training
+2301.03982   # PPoPP 2023 High-impact (14 citations): Exploring the Use of WebAssembly in HPC
+2201.00813   # PPoPP 2022 High-impact (14 citations): Lock-free locks revisited
+2212.09005   # PPoPP 2022 High-impact (13 citations): High-Performance Filters for GPUs
+2111.09947   # PPoPP 2021 High-impact (13 citations): Parallel Algorithms for Masked Sparse Matrix-Matrix Products
+2301.01356   # PPoPP 2023 High-impact (13 citations): Provably Fast and Space-Efficient Parallel Biconnectivity
+2205.00393   # PPoPP 2022 High-impact (12 citations): Lifetime-Based Optimization for Simulating Quantum Circuits on a New Sunway Supercomputer
+2401.00710   # PPoPP 2024 High-impact (11 citations): Parallel Integer Sort: Theory and Practice
+2403.06478   # PPoPP 2024 High-impact (11 citations): AGAThA: Fast and Efficient GPU Acceleration of Guided Sequence Alignment for Long Read Mapping
+2301.06984   # PPoPP 2023 High-impact (11 citations): High-Performance and Scalable Agent-Based Simulation with BioDynaMo
+2301.04792   # PPoPP 2023 High-impact (11 citations): A Programming Model for GPU Load Balancing
+2412.05824   # PPoPP 2024 High-impact (10 citations): TurboFFT: Co-Designed High-Performance and Fault-Tolerant Fast Fourier Transform on GPUs
+2108.03355   # PPoPP 2021 High-impact (10 citations): Asymmetry-aware scalable locking
+2211.04351   # PPoPP 2022 High-impact (10 citations): The ERA Theorem for Safe Memory Reclamation
+2201.02179   # PPoPP 2022 High-impact (10 citations): wCQ: A Fast Wait-Free Queue with Bounded Memory Usage
+2402.19364   # PPoPP 2024 High-impact (10 citations): Arrow Matrix Decomposition: A Novel Approach for Communication-Efficient Sparse Matrix Multiplication
+2211.03715   # PPoPP 2022 High-impact (10 citations): TDC: Towards Extremely Efficient CNNs on GPUs via Hardware-Aware Tucker Decomposition
+2401.16445   # Euro-Par 2024 High-impact (36 citations): OMPGPT: A Generative Pre-trained Transformer Model for OpenMP
+2106.01726   # Euro-Par 2021 High-impact (19 citations): Exploiting co-execution with oneAPI: heterogeneity from a modern perspective
+2205.02895   # Euro-Par 2022 High-impact (18 citations): Cucumber: Renewable-Aware Admission Control for Delay-Tolerant Cloud and Edge Workloads
+2107.02426   # Euro-Par 2021 High-impact (17 citations): Sustaining Performance While Reducing Energy Consumption: A Control Theory Approach
+2407.11488   # Euro-Par 2024 High-impact (17 citations): Bringing Auto-tuning to HIP: Analysis of Tuning Impact and Difficulty on AMD and Nvidia GPUs
+2303.03848   # Euro-Par 2023 High-impact (16 citations): Parareal with a physics-informed neural network as coarse propagator
+2405.13599   # Euro-Par 2024 High-impact (13 citations): LogRCA: Log-based Root Cause Analysis for Distributed Services
+2112.12704   # Euro-Par 2021 High-impact (11 citations): Deterministic Parallel Hypergraph Partitioning
+2303.11733   # Euro-Par 2023 High-impact (9 citations): DIPPM: a Deep Learning Inference Performance Predictive Model using Graph Neural Networks
+2303.04906   # Euro-Par 2023 High-impact (9 citations): Model-Agnostic Federated Learning
+2204.02869   # Euro-Par 2022 High-impact (9 citations): Characterization of different user behaviors for demand response in data centers
+2505.02964   # Euro-Par 2025 High-impact (9 citations): ARC-V: Vertical Resource Adaptivity for HPC Workloads in Containerized Environments
+2203.06233   # Euro-Par 2022 High-impact (7 citations): Automatic Parallelization of Python Programs for Distributed Heterogeneous Computing
+2406.00988   # Euro-Par 2024 High-impact (7 citations): ADE-HGNN: Accelerating HGNNs through Attention Disparity Exploitation
+2303.01417   # Euro-Par 2023 High-impact (6 citations): Distributed Deep Multilevel Graph Partitioning
+2505.01968   # Euro-Par 2025 High-impact (6 citations): HAS-GPU: Efficient Hybrid Auto-scaling with Fine-grained GPU Allocation for SLO-aware Serverless Inferences
+2411.17887   # Euro-Par 2024 High-impact (6 citations): A Parallel Scan Algorithm in the Tensor Core Unit Model
+2405.06247   # Euro-Par 2024 High-impact (6 citations): Disttack: Graph Adversarial Attacks Toward Distributed GNN Training
+2306.14316   # Euro-Par 2023 High-impact (6 citations): Im2win: An Efficient Convolution Paradigm on GPU
+2107.02539   # Euro-Par 2021 High-impact (6 citations): An MPI-based Algorithm for Mapping Complex Networks onto Hierarchical Architectures
