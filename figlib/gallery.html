@@ -326,7 +326,13 @@ async function loadData() {
 (async function main() {
 const DATA = await loadData();
 const MODE = "__MODE__";
-let LANG = (location.search.includes('lang=en') || (() => { try { return localStorage.getItem('figlib-lang') === 'en'; } catch (e) { return false; } })()) ? 'en' : 'zh';
+let LANG = (() => {
+  const q = new URLSearchParams(location.search).get('lang');
+  if (q === 'en' || q === 'zh') return q;
+  try { const saved = localStorage.getItem('figlib-lang'); if (saved === 'en' || saved === 'zh') return saved; } catch (e) {}
+  if (window.SITE && window.SITE.lang) return window.SITE.lang;
+  return /^zh/i.test(navigator.language || '') ? 'zh' : 'en';
+})();
 const T = {
   zh: { search: '搜图注、论文题目、标签、arXiv 号', venue: '会议', all: '全部', sort: '排序', byPaper: '按论文', byYear: '年份新到旧', wide: '宽图优先', tall: '高图优先',
         filters: '筛选', closeSheet: '关闭 ✕', visits: '{p} 位访客 · {v} 次浏览', type: '图的类型', source: '来源', draw: '绘制方式', textbox: '文字框', more: '显示更多', empty: '没有符合条件的图。换个关键词或者放宽筛选。',
@@ -612,7 +618,7 @@ function buildRail() {
   const venues = {}, byArea = {};
   for (const f of FIGS) if (f.venue) { venues[f.venue] = (venues[f.venue] || 0) + 1; byArea[f.area || ''] = (byArea[f.area || ''] || 0) + 1; }
   const sel = $('venue');
-  const keep = sel.value;
+  const keep = sel.value || (state.area ? 'area:' + state.area : state.venue);   // state may come from the URL
   sel.innerHTML = `<option value="">${t('all')}</option>`;
   const areaOf = {}; for (const f of FIGS) if (f.venue) areaOf[f.venue] = f.area || '';
   const order = AREAS.map(a => a.id).concat(['']);
@@ -717,6 +723,12 @@ if (MODE === 'site') fetch('api/visits', { method: 'POST' }).then(r => r.json())
 // picking a filter on a phone closes the sheet so the result is visible at once
 document.querySelector('.rail-body').addEventListener('click', e => { if (e.target.closest('button') && !e.target.closest('#railClose') && window.matchMedia('(max-width: 760px)').matches) setSheet(false); });
 
+{ const u = new URLSearchParams(location.search);
+  for (const k of ['q', 'cat', 'chart', 'venue', 'area', 'source', 'draw', 'sort']) if (u.get(k)) state[k] = u.get(k);
+  if (u.get('textbox') === 'show') state.textbox = 'show';
+  if (u.get('style') === 'all') state.style = 'all';
+  if (state.q) $('q').value = state.q;
+  if (state.sort) $('sort').value = state.sort; }
 applyLang();
 if (location.search.includes('hoverdemo')) { const st = document.createElement('style'); st.textContent = '.card:nth-child(-n+3) .hover{opacity:1;transform:none}'; document.head.appendChild(st); }
 // deep link: #fig=<id> opens that figure
