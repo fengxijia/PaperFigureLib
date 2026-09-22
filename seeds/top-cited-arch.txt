@@ -1,0 +1,222 @@
+# Most cited 2021-2026 papers of the arch venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-21).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2311.18677   # ISCA 2023 High-impact (934 citations): Splitwise: Efficient Generative LLM Inference Using Phase Splitting
+2304.01433   # ISCA 2023 High-impact (738 citations): TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings
+2112.15479   # ISCA 2021 High-impact (238 citations): BTS: an accelerator for bootstrappable fully homomorphic encryption
+2304.07493   # ISCA 2023 High-impact (223 citations): OliVe: Accelerating Large Language Models via Hardware-friendly Outlier-Victim Pair Quantization
+2104.05158   # ISCA 2021 High-impact (215 citations): Software-hardware co-design for fast and scalable training of deep learning recommendation models
+2308.12066   # ISCA 2023 High-impact (156 citations): Pre-gated MoE: An Algorithm-System Co-Design for Fast and Scalable Mixture-of-Expert Inference
+2105.01898   # ISCA 2021 High-impact (150 citations): CoSA: Scheduling by Constrained Optimization for Spatial Accelerators
+2108.09373   # ISCA 2021 High-impact (121 citations): Understanding data storage and ingestion for large-scale deep recommendation model training: industrial product
+2304.12467   # ISCA 2023 High-impact (120 citations): Instant-3D: Instant Neural Radiance Field Training Towards On-Device AR/VR 3D Reconstruction
+2306.17061   # ISCA 2023 High-impact (118 citations): RowPress: Amplifying Read Disturbance in Modern DRAM Chips
+2505.09343   # ISCA 2025 High-impact (107 citations): Insights into DeepSeek-V3: Scaling Challenges and Reflections on Hardware for AI Architectures
+2105.09564   # ISCA 2021 High-impact (105 citations): Dual-side Sparse Tensor Core
+2105.01892   # ISCA 2021 High-impact (93 citations): TENET: A Framework for Modeling Tensor Dataflow Based on Relation-centric Notation
+2302.08007   # ISCA 2023 High-impact (92 citations): With Shared Microexponents, A Little Shifting Goes a Long Way
+2105.01585   # ISCA 2021 High-impact (88 citations): HASCO: Towards Agile HArdware and Software CO-design for Tensor Computation
+2105.08955   # ISCA 2021 High-impact (85 citations): QUAC-TRNG: High-Throughput True Random Number Generation Using Quadruple Row Activation in Commodity DRAM Chips
+2106.09144   # ISCA 2021 High-impact (85 citations): FORMS: Fine-grained Polarized ReRAM-based In-situ Computation for Mixed-signal DNN Accelerator
+2108.02099   # ISCA 2021 High-impact (84 citations): 2QAN: a quantum compiler for 2-local qubit hamiltonian simulation algorithms
+2205.04711   # ISCA 2022 High-impact (81 citations): SmartSAGE: training large-scale graph neural networks using in-storage processing architectures
+2403.17312   # ISCA 2024 High-impact (79 citations): ALISA: Accelerating Large Language Model Inference via Sparsity-Aware KV Caching
+2111.14940   # ISCA 2021 High-impact (75 citations): EQC: ensembled quantum computing for variational quantum algorithms
+2205.05883   # ISCA 2022 High-impact (70 citations): SeGraM: a universal hardware accelerator for genomic sequence-to-graph and sequence-to-sequence mapping
+2110.04478   # ISCA 2021 High-impact (64 citations): Themis: a network bandwidth-aware collective scheduling policy for distributed training of DL models
+2203.15981   # ISCA 2022 High-impact (61 citations): Spy in the GPU-box: Covert and Side Channel Attacks on Multi-GPU Systems
+2304.07935   # ISCA 2023 High-impact (60 citations): RAELLA: Reforming the Arithmetic for Efficient, Low-Resolution, and Low-Loss Analog PIM: No Retraining Required!
+2204.10707   # ISCA 2022 High-impact (60 citations): Crescent: taming memory irregularities for accelerating deep point cloud analytics
+2406.12930   # ISCA 2024 High-impact (57 citations): Tender: Accelerating Large Language Models via Tensor Decomposition and Runtime Requantization
+2111.06469   # ISCA 2021 High-impact (55 citations): Exploiting Long-Distance Interactions and Tolerating Atom Loss in Neutral Atom Quantum Architectures
+2505.15907   # ISCA 2025 High-impact (54 citations): Resource Analysis of Low-Overhead Transversal Architectures for Reconfigurable Atom Arrays
+2503.14649   # ISCA 2025 High-impact (53 citations): RAGO: Systematic Performance Optimization for Retrieval-Augmented Generation Serving
+2311.15123   # ISCA 2023 High-impact (52 citations): Atomique: A Quantum Compiler for Reconfigurable Neutral Atom Arrays
+2205.07394   # ISCA 2022 High-impact (49 citations): Sibyl: adaptive and extensible data placement in hybrid storage systems using online reinforcement learning
+2404.18369   # ISCA 2024 High-impact (47 citations): A SAT Scalpel for Lattice Surgery: Representation and Synthesis of Subroutines for Surface-Code Fault-Tolerant Quantum Computing
+2203.12758   # ISCA 2022 High-impact (46 citations): Mokey: enabling narrow fixed-point inference for out-of-the-box floating-point transformer models
+2304.11842   # ISCA 2023 High-impact (45 citations): Gen-NeRF: Efficient and Generalizable Neural Radiance Fields via Algorithm-Hardware Co-Design
+2105.07127   # ISCA 2021 High-impact (43 citations): Software-Hardware Co-Optimization for Computational Chemistry on Superconducting Quantum Processors
+2212.03895   # ISCA 2022 High-impact (40 citations): Scaling Qubit Readout with Hardware Efficient Machine Learning Architectures
+2106.05632   # ISCA 2021 High-impact (39 citations): CODIC: A Low-Cost Substrate for Enabling Custom In-DRAM Functionalities and Optimizations
+2312.03141   # ISCA 2023 High-impact (38 citations): NDSEARCH: Accelerating Graph-Traversal-Based Approximate Nearest Neighbor Search through Near Data Processing
+2405.13170   # ISCA 2024 High-impact (37 citations): FEATHER: A Reconfigurable Accelerator with Data Reordering Support for Low-Cost On-Chip Dataflow Switching
+2403.06852   # ISCA 2024 High-impact (37 citations): Suppressing Correlated Noise in Quantum Computers via Context-Aware Compiling
+2411.05282   # ISCA 2024 High-impact (36 citations): MicroScopiQ: Accelerating Foundational Models through Outlier-Aware Microscaling Quantization
+2303.05735   # ISCA 2023 High-impact (36 citations): Hardware Acceleration of Neural Graphics
+2106.15490   # ISCA 2021 High-impact (36 citations): Designing Calibration and Expressivity-Efficient Instruction Sets for Quantum Computing
+2303.10788   # ISCA 2023 High-impact (35 citations): Clifford-based Circuit Cutting for Quantum Simulation
+2408.06003   # ISCA 2024 High-impact (35 citations): LUT Tensor Core: A Software-Hardware Co-Design for LUT-Based Low-Bit LLM Inference
+2405.02499   # ISCA 2024 High-impact (35 citations): DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands
+2205.04702   # ISCA 2022 High-impact (35 citations): Training personalized recommendation systems from (GPU) scratch: look forward not backwards
+2209.01545   # ISCA 2022 High-impact (35 citations): OneQ: A Compilation Framework for Photonic One-Way Quantum Computation
+2305.07768   # ISCA 2023 High-impact (35 citations): Venice: Improving Solid-State Drive Parallelism at Low Cost via Conflict-Free Accesses
+2404.11852   # ISCA 2024 High-impact (34 citations): Cicero: Addressing Algorithmic and Architectural Bottlenecks in Neural Rendering by Radiance Warping and Memory Optimizations
+2503.18599   # ISCA 2025 High-impact (32 citations): Oaken: Fast and Efficient LLM Serving with Online-Offline Hybrid KV Cache Quantization
+2211.13324   # ISCA 2022 High-impact (31 citations): HAAC: A Hardware-Software Co-Design to Accelerate Garbled Circuits
+2504.08850   # ISCA 2025 High-impact (30 citations): SpecEE: Accelerating Large Language Model Inference with Speculative Early Exiting
+2309.01905   # ISCA 2023 High-impact (30 citations): Tetris: A Compilation Framework for VQA Applications in Quantum Computing
+2406.19113   # ISCA 2024 High-impact (29 citations): MegIS: High-Performance, Energy-Efficient, and Low-Cost Metagenomic Analysis with In-Storage Processing
+2406.10627   # ISCA 2024 High-impact (29 citations): Triangel: A High-Performance, Accurate, Timely On-Chip Temporal Prefetcher
+2306.08888   # ISCA 2023 High-impact (29 citations): ArchGym: An Open-Source Gymnasium for Machine Learning Assisted Architecture Design
+2204.05436   # ISCA 2022 High-impact (28 citations): Heterogeneous Acceleration Pipeline for Recommendation System Training
+2407.04292   # ISCA 2024 High-impact (27 citations): Dadu-Corki: Algorithm-Architecture Co-Design for Embodied AI-powered Robotic Manipulation
+2109.05371   # MICRO 2021 High-impact (402 citations): F1: A Fast and Programmable Accelerator for Fully Homomorphic Encryption
+2303.15375   # MICRO 2023 High-impact (205 citations): Demystifying CXL Memory with Genuine CXL-Ready Systems and Devices
+2205.00922   # MICRO 2022 High-impact (193 citations): ARK: Fully Homomorphic Encryption Accelerator with Runtime Data Generation and Inter-Operation Key Reuse
+2209.10797   # MICRO 2022 High-impact (150 citations): DFX: A Low-latency Multi-FPGA Appliance for Accelerating Transformer-based Text Generation
+2203.03606   # MICRO 2021 High-impact (146 citations): I-GCN: A Graph Convolutional Network Accelerator with Runtime Locality Enhancement through Islandization
+2110.10603   # MICRO 2021 High-impact (144 citations): Uncovering In-DRAM RowHammer Protection Mechanisms:A New Methodology, Custom RowHammer Patterns, and Implications
+2109.12021   # MICRO 2021 High-impact (143 citations): Pythia: A Customizable Hardware Prefetching Framework Using Online Reinforcement Learning
+2208.14286   # MICRO 2022 High-impact (134 citations): ANT: Exploiting Adaptive Numerical Data Type for Low-bit Deep Neural Network Quantization
+2107.08147   # MICRO 2021 High-impact (122 citations): AutoFL: Enabling Heterogeneity-Aware Energy Efficient Federated Learning
+2110.07600   # MICRO 2021 High-impact (120 citations): PointAcc: Efficient Point Cloud Accelerator
+2104.07582   # MICRO 2021 High-impact (118 citations): SISA: Set-Centric Instruction Set Architecture for Graph Mining on Processing-in-Memory Systems
+2110.10291   # MICRO 2021 High-impact (115 citations): A Deeper Look into RowHammer’s Sensitivities: Experimental Analysis of Real DRAM Chips and Implications on Future Attacks and Defenses
+2109.05309   # MICRO 2021 High-impact (98 citations): ADAPT: Mitigating Idling Errors in Qubits via Adaptive Dynamical Decoupling
+2205.05826   # MICRO 2022 High-impact (98 citations): Sparseloop: An Analytical Approach To Sparse Tensor Accelerator Modeling
+2210.10921   # MICRO 2022 High-impact (97 citations): Scaling Superconducting Quantum Computers with Chiplet Architectures
+2209.09570   # MICRO 2022 High-impact (92 citations): Adaptable Butterfly Accelerator for Attention-based NNs via Hardware and Algorithm Co-design
+2208.13679   # MICRO 2022 High-impact (88 citations): Qubit Mapping and Routing via MaxSAT
+2104.07699   # MICRO 2021 High-impact (81 citations): pLUTo: Enabling Massively Parallel Computation in DRAM via Lookup Tables
+2110.10857   # MICRO 2021 High-impact (79 citations): Vortex: Extending the RISC-V ISA for GPGPU and 3D-Graphics
+2207.00083   # MICRO 2021 High-impact (78 citations): DarKnight: An Accelerated Framework for Privacy and Integrity Preserving Deep Learning Using Trusted Hardware
+2409.01141   # MICRO 2024 High-impact (74 citations): Duplex: A Device for Large Language Models with Mixture of Experts, Grouped Query Attention, and Continuous Batching
+2207.11674   # MICRO 2022 High-impact (70 citations): AutoComm: A Framework for Enabling Efficient Communication in Distributed Quantum Programs
+2109.05314   # MICRO 2021 High-impact (67 citations): JigSaw: Boosting Fidelity of NISQ Programs via Measurement Subsetting
+2209.10198   # MICRO 2022 High-impact (64 citations): HiRA: Hidden Row Activation for Reducing Refresh Latency of Off-the-Shelf DRAM Chips
+2209.05566   # MICRO 2022 High-impact (63 citations): Flash-Cosmos: In-Flash Bulk Bitwise Operations Using Inherent Computation Capability of NAND Flash Memory
+2108.06610   # MICRO 2021 High-impact (62 citations): SquiggleFilter: An Accelerator for Portable Virus Detection
+2409.15654   # MICRO 2024 High-impact (62 citations): Cambricon-LLM: A Chiplet-Based Hybrid Architecture for On-Device Inference of 70B LLM
+2311.12862   # MICRO 2023 High-impact (61 citations): TorchSparse++: Efficient Training and Inference Framework for Sparse Convolution on GPUs
+2312.12391   # MICRO 2023 High-impact (56 citations): vTrain: A Simulation Framework for Evaluating Cost-Effective and Compute-Optimal Large Language Model Training
+2305.11423   # MICRO 2023 High-impact (53 citations): Strix: An End-to-End Streaming Architecture with Two-Level Ciphertext Batching for Fully Homomorphic Encryption with Programmable Bootstrapping
+2203.02676   # MICRO 2022 High-impact (53 citations): ReGraph: Scaling Graph Processing on HBM-enabled FPGAs with Heterogeneous Pipelines
+2209.00606   # MICRO 2022 High-impact (52 citations): Sparse Attention Acceleration with Synergistic In-Memory Pruning and On-Chip Recomputation
+2309.11001   # MICRO 2023 High-impact (52 citations): GME: GPU-based Microarchitectural Extensions to Accelerate Homomorphic Encryption
+2104.05532   # MICRO 2021 High-impact (51 citations): GhostMinion: A Strictness-Ordered Cache System for Spectre Mitigation
+2405.07518   # MICRO 2024 High-impact (50 citations): SambaNova SN40L: Scaling the AI Memory Wall with Dataflow and Composition of Experts
+2209.08600   # MICRO 2022 High-impact (48 citations): GenPIP: In-Memory Acceleration of Genome Analysis via Tight Integration of Basecalling and Read Mapping
+2310.09443   # MICRO 2023 High-impact (46 citations): G10: Enabling An Efficient Unified GPU Memory and Storage Architecture with Smart Tensor Migrations
+2410.13405   # MICRO 2024 High-impact (45 citations): Trinity: A General Purpose FHE Accelerator
+2104.12760   # MICRO 2021 High-impact (43 citations): Capstan: A Vector RDA for Sparsity
+2310.17752   # MICRO 2023 High-impact (43 citations): PockEngine: Sparse and Efficient Fine-tuning in a Pocket
+2109.03373   # MICRO 2021 High-impact (41 citations): IceClave: A Trusted Execution Environment for In-Storage Computing
+2407.16038   # MICRO 2024 High-impact (40 citations): MINT: Securely Mitigating Rowhammer with a Minimalist in-DRAM Tracker
+2202.09439   # MICRO 2021 High-impact (38 citations): ReplayCache: Enabling Volatile Cachesfor Energy Harvesting Systems
+2105.08820   # MICRO 2021 High-impact (37 citations): RecPipe: Co-designing Models and Hardware to Jointly Optimize Recommendation Quality and Performance
+2404.19381   # MICRO 2024 High-impact (36 citations): Low-Overhead General-Purpose Near-Data Processing in CXL Memory Expanders
+2306.03242   # MICRO 2023 High-impact (35 citations): Systems Architecture for Quantum Random Access Memory
+2209.10914   # MICRO 2022 High-impact (35 citations): Morpheus: Extending the Last Level Cache Capacity in GPU Systems Using Idle GPU Core Resources
+2304.05301   # MICRO 2023 High-impact (35 citations): TACOS: Topology-Aware Collective Algorithm Synthesizer for Distributed Machine Learning
+2304.07931   # MICRO 2023 High-impact (34 citations): TeAAL: A Declarative Framework for Modeling Sparse Tensor Accelerators
+2107.09245   # MICRO 2021 High-impact (34 citations): Revisiting Residue Codes for Modern Memories
+2305.09781   # ASPLOS 2023 High-impact (455 citations): SpecInfer: Accelerating Large Language Model Serving with Tree-based Speculative Inference and Verification
+2206.02878   # ASPLOS 2022 High-impact (376 citations): TPP: Transparent Page Placement for CXL-Enabled Tiered-Memory
+2101.09355   # ASPLOS 2021 High-impact (253 citations): Benchmarking, analysis, and optimization of serverless function snapshots
+2201.10036   # ASPLOS 2022 High-impact (226 citations): Carbon Explorer: A Holistic Framework for Designing Carbon Aware Datacenters
+https://arxiv.org/pdf/2012.11890   # ASPLOS 2021 High-impact (222 citations): SIMDRAM: a framework for bit-serial SIMD processing using DRAM
+2403.00579   # ASPLOS 2024 High-impact (182 citations): NeuPIMs: NPU-PIM Heterogeneous Acceleration for Batched LLM Inferencing
+2108.03492   # ASPLOS 2021 High-impact (174 citations): Clio: a hardware-software co-designed disaggregated memory system
+2311.15566   # ASPLOS 2023 High-impact (170 citations): SpotServe: Serving Generative Large Language Models on Preemptible Instances
+2207.04606   # ASPLOS 2022 High-impact (147 citations): SparseTIR: Composable Abstractions for Sparse Compilation in Deep Learning
+2405.04437   # ASPLOS 2024 High-impact (145 citations): vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention
+2102.00075   # ASPLOS 2021 High-impact (140 citations): RecSSD: near data processing for solid state drive based recommendation inference
+2207.13066   # ASPLOS 2022 High-impact (137 citations): NNSmith: Generating Diverse and Valid Test Cases for Deep Learning Compilers
+2207.04296   # ASPLOS 2022 High-impact (127 citations): TensorIR: An Abstraction for Automatic Tensorized Program Optimization
+2105.05720   # ASPLOS 2021 High-impact (126 citations): Breaking the computation and communication abstraction barrier in distributed machine learning workloads
+2109.03371   # ASPLOS 2021 High-impact (126 citations): Paulihedral: a generalized block-wise compiler optimization framework for Quantum simulation kernels
+2103.01489   # ASPLOS 2021 High-impact (122 citations): Mind mappings: enabling efficient algorithm-accelerator mapping space search
+2107.06419   # ASPLOS 2021 High-impact (118 citations): FLAT: An Optimized Dataflow for Mitigating Attention Bottlenecks
+2406.01566   # ASPLOS 2024 High-impact (113 citations): Helix: Serving Large Language Models over Heterogeneous GPUs and Network via Max-Flow
+2407.05858   # ASPLOS 2024 High-impact (110 citations): Fast On-device LLM Inference with NPUs
+2410.18038   # ASPLOS 2024 High-impact (99 citations): POD-Attention: Unlocking Full Prefill-Decode Overlap for Faster LLM Inference
+2411.11217   # ASPLOS 2024 High-impact (99 citations): MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs
+2210.04951   # ASPLOS 2022 High-impact (94 citations): Ecovisor: A Virtual Energy System for Carbon-Efficient Applications
+2404.07947   # ASPLOS 2024 High-impact (93 citations): ExeGPT: Constraint-Aware Resource Scheduling for LLM Inference
+2501.02600   # ASPLOS 2025 High-impact (85 citations): TAPAS: Thermal- and Power-Aware Scheduling for LLM Inference in Cloud Platforms
+2201.10095   # ASPLOS 2022 High-impact (84 citations): RecShard: statistical feature-based memory optimization for industry-scale neural recommendation
+2301.10852   # ASPLOS 2023 High-impact (81 citations): Flexagon: A Multi-dataflow Sparse-Sparse Matrix Multiplication Accelerator for Efficient DNN Processing
+2103.03500   # ASPLOS 2021 High-impact (78 citations): ShEF: shielded enclaves for cloud FPGAs
+2502.07578   # ASPLOS 2025 High-impact (75 citations): PIM Is All You Need: A CXL-Enabled GPU-Free System for Large Language Model Inference
+2102.09713   # ASPLOS 2021 High-impact (75 citations): A compiler infrastructure for accelerator generators
+2203.04910   # ASPLOS 2022 High-impact (74 citations): GPU-Initiated On-Demand High-Throughput Storage Access in the BaM System Architecture
+2410.15008   # ASPLOS 2024 High-impact (73 citations): IANUS: Integrated Accelerator based on NPU-PIM Unified Memory System
+2401.00563   # ASPLOS 2023 High-impact (71 citations): KernelGPT: Enhanced Kernel Fuzzing via Large Language Models
+2202.12924   # ASPLOS 2022 High-impact (66 citations): CAFQA: A Classical Simulation Bootstrap for Variational Quantum Algorithms
+2201.06212   # ASPLOS 2022 High-impact (64 citations): VELTAIR: towards high-performance multi-tenant deep learning services via adaptive compilation and scheduling
+2211.03578   # ASPLOS 2022 High-impact (64 citations): TLP: A Deep Learning-Based Cost Model for Tensor Program Tuning
+2312.08656   # ASPLOS 2023 High-impact (62 citations): MaxK-GNN: Extremely Fast GPU Kernel Design for Accelerating Graph Neural Networks Training
+2105.12842   # ASPLOS 2021 High-impact (62 citations): A full-stack search technique for domain optimized deep learning accelerators
+2502.15470   # ASPLOS 2025 High-impact (59 citations): PAPI: Exploiting Dynamic Parallelism in Large Language Model Decoding with a Processing-In-Memory-Enabled Computing System
+2407.13853   # ASPLOS 2024 High-impact (58 citations): Forecasting GPU Performance for Deep Learning Training and Inference
+2210.09603   # ASPLOS 2022 High-impact (53 citations): Hidet: Task-Mapping Programming Paradigm for Deep Learning Tensor Programs
+2412.15246   # ASPLOS 2024 High-impact (53 citations): Accelerating Retrieval-Augmented Generation
+2301.09830   # ASPLOS 2023 High-impact (49 citations): Optimus-CC: Efficient Large NLP Model Training with 3D Parallelism Aware Communication Compression
+2407.00326   # ASPLOS 2024 High-impact (49 citations): Towards End-to-End Optimization of LLM-based Applications with Ayo
+2208.14610   # ASPLOS 2022 High-impact (48 citations): The Sparse Abstract Machine
+2208.08547   # ASPLOS 2022 High-impact (48 citations): Better Than Worst-Case Decoding for Quantum Error Correction
+2202.07628   # ASPLOS 2022 High-impact (46 citations): Suppressing ZZ crosstalk of Quantum computers through pulse and scheduling co-optimization
+2112.06566   # ASPLOS 2021 High-impact (45 citations): FlexOS: towards flexible OS isolation
+2301.00072   # ASPLOS 2022 High-impact (44 citations): LeaFTL: A Learning-Based Flash Translation Layer for Solid-State Drives
+2401.16677   # ASPLOS 2024 High-impact (43 citations): T3: Transparent Tracking & Triggering for Fine-grained Overlap of Compute & Collectives
+2401.08156   # ASPLOS 2024 High-impact (42 citations): GMLake: Efficient and Transparent GPU Memory Defragmentation for Large-scale DNN Training with Virtual Memory Stitching
+2407.09995   # ASPLOS 2024 High-impact (41 citations): MOAT: Securely Mitigating Rowhammer with Per-Row Activation Counters
+2110.01556   # ASPLOS 2021 High-impact (41 citations): Design and Operation of Shared Machine Learning Clusters on Campus
+2312.01712   # ASPLOS 2023 High-impact (40 citations): JUNO: Optimizing High-Dimensional Approximate Nearest Neighbour Search with Sparsity-Aware Algorithm and Ray-Tracing Core Mapping
+2102.13191   # ASPLOS 2021 High-impact (40 citations): Q-VR: system-level design for future mobile collaborative virtual reality
+2305.00138   # ASPLOS 2023 High-impact (39 citations): Codesign of quantum error-correcting codes and modular chiplets in the presence of defects
+2208.09371   # ASPLOS 2022 High-impact (38 citations): HAMMER: boosting fidelity of noisy Quantum circuits by exploiting Hamming behavior of erroneous outcomes
+2305.02480   # ASPLOS 2023 High-impact (37 citations): A Quantitative Analysis and Guidelines of Data Streaming Accelerator in Modern Intel Xeon Scalable Processors
+2401.09393   # ASPLOS 2024 High-impact (37 citations): Elivagar: Efficient Quantum Circuit Search for Classification
+2507.10150   # ASPLOS 2025 High-impact (37 citations): Past-Future Scheduler for LLM Serving under SLA Guarantees
+2412.01523   # ASPLOS 2024 High-impact (37 citations): FlexSP: Accelerating Large Language Model Training via Flexible Sequence Parallelism
+2107.10845   # HPCA 2021 High-impact (306 citations): QuantumNAS: Noise-Adaptive Search for Robust Quantum Circuits
+2202.11045   # HPCA 2022 High-impact (207 citations): SupermarQ: A Scalable Quantum Benchmark Suite
+2102.05981   # HPCA 2021 High-impact (200 citations): BlockHammer: Preventing RowHammer at Low Cost by Blacklisting Rapidly-Accessed DRAM Rows
+2210.09573   # HPCA 2022 High-impact (160 citations): ViTCoD: Vision Transformer Acceleration via Dedicated Algorithm and Accelerator Co-Design
+2211.08110   # HPCA 2022 High-impact (146 citations): HeatViT: Hardware-Efficient Adaptive Token Pruning for Vision Transformers
+2207.11872   # HPCA 2022 High-impact (123 citations): FAB: An FPGA-based Accelerator for Bootstrappable Fully Homomorphic Encryption
+2107.07983   # HPCA 2021 High-impact (122 citations): S2TA: Exploiting Structured Sparsity for Energy-Efficient Mobile CNN Acceleration
+2107.11673   # HPCA 2021 High-impact (121 citations): ScaleHLS: A New Scalable High-Level Synthesis Framework on Multi-Level Intermediate Representation
+2110.15456   # HPCA 2021 High-impact (104 citations): FAST: DNN Training Under Variable Precision Block Floating Point with Stochastic Rounding
+2212.14191   # HPCA 2022 High-impact (102 citations): TensorFHE: Achieving Practical Computation on Encrypted Data Using GPGPU
+2101.07557   # HPCA 2021 High-impact (100 citations): SynCron: Efficient Synchronization Support for Near-Data-Processing Architectures
+2108.06703   # HPCA 2021 High-impact (96 citations): Mithril: Cooperative Row Hammer Protection on Commodity DRAM Leveraging Managed Refresh
+2211.05109   # HPCA 2022 High-impact (93 citations): ViTALiTy: Unifying Low-rank and Sparse Approximation for Vision Transformer Acceleration with a Linear Taylor Attention
+2312.16436   # HPCA 2023 High-impact (85 citations): Gemini: Mapping and Architecture Co-exploration for Large-scale DNN Chiplet Accelerators
+2410.21680   # HPCA 2024 High-impact (80 citations): Revisiting Reliability in Large-Scale Machine Learning Research Clusters
+2104.13997   # HPCA 2021 High-impact (79 citations): MAGMA: An Optimization Framework for Mapping Multiple DNNs on Multiple Accelerator Cores
+2112.11594   # HPCA 2021 High-impact (75 citations): GCoD: Graph Convolutional Network Acceleration via Dedicated Algorithm and Accelerator Co-Design
+2112.05821   # HPCA 2021 High-impact (69 citations): VAQEM: A Variational Approach to Quantum Error Mitigation
+2204.13103   # HPCA 2022 High-impact (61 citations): FlowGNN: A Dataflow Architecture for Real-Time Workload-Agnostic Graph Neural Network Inference
+2306.09434   # HPCA 2023 High-impact (60 citations): ECO-CHIP: Estimation of Carbon Footprint of Chiplet-based Architectures for Sustainable VLSI
+2205.10596   # HPCA 2022 High-impact (55 citations): Not All SWAPs Have the Same Cost: A Case for Optimization-Aware Qubit Routing
+2305.19533   # HPCA 2023 High-impact (55 citations): Lightening-Transformer: A Dynamically-Operated Optically-Interconnected Photonic Transformer Accelerator
+2507.12444   # HPCA 2024 High-impact (53 citations): BitWave: Exploiting Column-Based Bit-Level Sparsity for Deep Learning Acceleration
+2102.07511   # HPCA 2021 High-impact (51 citations): GradPIM: A Practical Processing-in-DRAM Architecture for Gradient Descent
+2212.05344   # HPCA 2022 High-impact (50 citations): DeFiNES: Enabling Fast Exploration of the Depth-first Scheduling Space for DNN Accelerators through Analytical Modeling
+2203.00158   # HPCA 2022 High-impact (49 citations): GROW: A Row-Stationary Sparse-Dense GEMM Accelerator for Memory-Efficient Graph Convolutional Neural Networks
+2506.04301   # HPCA 2025 High-impact (49 citations): The Cost of Dynamic Reasoning: Demystifying AI Agents and Test-Time Scaling from an AI Infrastructure Perspective
+2202.01407   # HPCA 2022 High-impact (48 citations): DigiQ: A Scalable Digital Controller for Quantum Computers Using SFQ Logic
+2302.08687   # HPCA 2023 High-impact (43 citations): VEGETA: Vertically-Integrated Extensions for Sparse/Dense GEMM Tile Acceleration on CPUs
+2410.12032   # HPCA 2024 High-impact (41 citations): MLPerf Power: Benchmarking the Energy Efficiency of Machine Learning Systems from μWatts to MWatts for Sustainable AI
+2305.05843   # HPCA 2023 High-impact (41 citations): MoCA: Memory-Centric, Adaptive Execution for Multi-Tenant Deep Neural Networks
+2411.11745   # HPCA 2024 High-impact (40 citations): BitMoD: Bit-serial Mixture-of-Datatype LLM Acceleration
+2402.18769   # HPCA 2024 High-impact (39 citations): CoMeT: Count-Min-Sketch-based Row Tracking to Mitigate RowHammer at Low Cost
+2402.18736   # HPCA 2024 High-impact (39 citations): Functionally-Complete Boolean Logic in Real DRAM Chips: Experimental Characterization and Analysis
+2411.11784   # HPCA 2024 High-impact (38 citations): Reuse-Aware Compilation for Zoned Quantum Architectures Based on Neutral Atoms
+2105.12224   # HPCA 2021 High-impact (36 citations): Leaky Frontends: Security Vulnerabilities in Processor Frontends
+2408.05235   # HPCA 2024 High-impact (35 citations): throttLL’eM: Predictive GPU Throttling for Energy Efficient LLM Inference Serving
+2301.10388   # HPCA 2023 High-impact (35 citations): SGCN: Exploiting Compressed-Sparse Features in Deep Graph Convolutional Network Accelerators
+2502.12650   # HPCA 2025 High-impact (35 citations): Chronus: Understanding and Securing the Cutting-Edge Industry Solutions to DRAM Read Disturbance
+2203.07424   # HPCA 2022 High-impact (34 citations): Hercules: Heterogeneity-Aware Inference Serving for At-Scale Personalized Recommendation
+2207.13219   # HPCA 2022 High-impact (34 citations): Dalorex: A Data-Local Program Execution and Architecture for Memory-bound Applications
+2201.01385   # HPCA 2022 High-impact (34 citations): DR-STRaNGe: End-to-End System Design for DRAM-based True Random Number Generators
+2503.23625   # HPCA 2025 High-impact (33 citations): Gaussian Blending Unit: An Edge GPU Plug-in for Real-Time Gaussian-Based Rendering in AR/VR
+2109.01188   # HPCA 2021 High-impact (33 citations): NVMExplorer: A Framework for Cross-Stack Comparisons of Embedded Non-Volatile Memories
+2402.18652   # HPCA 2024 High-impact (33 citations): Spatial Variation-Aware Read Disturbance Defenses: Experimental Analysis of Real DRAM Chips and Implications on Future Solutions
+2501.18861   # HPCA 2025 High-impact (31 citations): QPRAC: Towards Secure and Practical PRAC-based Rowhammer Mitigation using Priority Queues
+2502.18755   # HPCA 2025 High-impact (31 citations): M-ANT: Efficient Low-bit Group Quantization for LLMs via Mathematically Adaptive Numerical Type
+2311.09775   # HPCA 2023 High-impact (29 citations): MEGA: A Memory-Efficient GNN Accelerator Exploiting Degree-Aware Mixed-Precision Quantization
+2501.11211   # HPCA 2025 High-impact (28 citations): Ditto: Accelerating Diffusion Model via Temporal Value Similarity
+2502.16963   # HPCA 2025 High-impact (24 citations): Make LLM Inference Affordable to Everyone: Augmenting GPU Memory with NDP-DIMM

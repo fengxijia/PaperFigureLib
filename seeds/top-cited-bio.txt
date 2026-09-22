@@ -1,0 +1,32 @@
+# Most cited 2021-2026 papers of the bio venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-21).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2204.10286   # RECOMB 2022 High-impact (23 citations): ProTranslator: Zero-Shot Protein Function Prediction Using Textual Description
+2201.10372   # RECOMB 2022 High-impact (13 citations): Safety and Completeness in Flow Decompositions for RNA Assembly
+2408.13074   # RECOMB 2024 High-impact (12 citations): Hierarchical Spatio-Temporal State-Space Modeling for fMRI Analysis
+2201.10923   # RECOMB 2022 High-impact (11 citations): Fast, Flexible, and Exact Minimum Flow Decompositions via ILP
+2311.08339   # RECOMB 2023 High-impact (10 citations): Undesignable RNA Structure Identification via Rival Structure Generation and Structure Decomposition
+2503.03773   # RECOMB 2025 High-impact (9 citations): A Phylogenetic Approach to Genomic Language Modeling
+2402.09381   # RECOMB 2024 High-impact (9 citations): Graph-based self-supervised learning for repeat detection in metagenomic assembly
+2201.12454   # RECOMB 2022 High-impact (5 citations): The Complexity of Approximate Pattern Matching on De Bruijn Graphs
+2402.17206   # RECOMB 2024 High-impact (4 citations): Scalable and Interpretable Identification of Minimal Undesignable RNA Structure Motifs with Rotational Invariance
+2303.02162   # RECOMB 2023 High-impact (1 citations): T-Cell Receptor Optimization with Reinforcement Learning and Mutation Policies for Precesion Immunotherapy
+2507.19315   # Bioinformatics 2025 High-impact (10 citations): AutoPCR: automated phenotype concept recognition by prompting
+2505.08341   # Bioinformatics 2025 High-impact (8 citations): Benchmarking AI scientists for omics data–driven biological discovery
+2206.03242   # Bioinformatics 2022 High-impact (8 citations): Fast Exact String to D-Texts Alignments
+2504.05790   # Bioinformatics 2025 High-impact (4 citations): ViralQC: a tool for assessing completeness and contamination of predicted viral contigs
+2304.08534   # Bioinformatics 2023 High-impact (4 citations): Lossy Compressor Preserving Variant Calling through Extended BWT
+2601.15886   # Bioinformatics 2026 High-impact (2 citations): PhageMind: generalized strain-level phage host range prediction via meta-learning
+2601.20891   # Bioinformatics 2026 High-impact (1 citations): ATTNSOM: learning cross-isoform attention for cytochrome P450 site-of-metabolism prediction
+2507.08188   # Bioinformatics 2025 High-impact (1 citations): Unavailability of experimental 3D structural data on protein folding dynamics and necessity for a new generation of structure prediction methods in this context
+2601.14346   # Bioinformatics 2026 High-impact (1 citations): DiSPA: differential substructure-pathway attention for drug response prediction
+2602.13610   # Bioinformatics 2026 High-impact (1 citations): Probabilistic RNA designability via interpretable ensemble approximation and dynamic decomposition
+https://arxiv.org/pdf/2106.06877   # Bioinformatics 2021 High-impact (1 citations): OUP accepted manuscript
+2608.23293   # Bioinformatics 2026 High-impact (0 citations): Episode clustering in phylogenetic networks
+2603.16194   # Bioinformatics 2026 High-impact (0 citations): TPMM: three-component posterior mixture model enables robust inverton detection in low-depth metagenomes and suggests potential viral invertons
+2508.21649   # Bioinformatics 2025 High-impact (0 citations): NExON-Bayes: a Bayesian approach to network estimation informed by ordinal covariates
+2511.15330   # Bioinformatics 2025 High-impact (0 citations): BaGGLS: a Bayesian shrinkage framework for interpretable modeling of interactions in high-dimensional biological data
+2604.14796   # Bioinformatics 2026 High-impact (0 citations): PUFFIN: protein unit discovery with functional supervision
+2512.05247   # Bioinformatics 2025 High-impact (0 citations): Incorporating indel channels into average-case analysis of seed-chain-extend
+2601.04536   # Bioinformatics 2026 High-impact (0 citations): Identifying expanding TCR clonotypes with a longitudinal Bayesian mixture model and their associations with cancer patient prognosis, metastasis-directed therapy, and VJ gene enrichment.
+2509.21010   # Bioinformatics 2025 High-impact (0 citations): Bridging the phenotype-target gap for molecular generation via multi-objective reinforcement learning
+2603.26705   # Bioinformatics 2026 High-impact (0 citations): PI-Mamba: linear-time protein backbone generation via spectrally initialized flow matching

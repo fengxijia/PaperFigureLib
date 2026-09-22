@@ -1,0 +1,62 @@
+# Most cited 2021-2026 papers of the vis venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-21).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2406.06521   # TVCG 2024 High-impact (410 citations): PGSR: Planar-Based Gaussian Splatting for Efficient and High-Fidelity Surface Reconstruction
+2104.01431   # TVCG 2021 High-impact (336 citations): Aggregated Contextual Transformations for High-Resolution Image Inpainting
+2311.13384   # TVCG 2023 High-impact (278 citations): LucidDreamer: Domain-Free Generation of 3D Gaussian Splatting Scenes
+2402.07181   # TVCG 2024 High-impact (266 citations): 3D Gaussian Splatting as a New Era: A Survey
+2210.15947   # TVCG 2022 High-impact (237 citations): NeRFPlayer: A Streamable Dynamic Scene Representation with Decomposed Neural Radiance Fields
+2109.03506   # TVCG 2021 High-impact (228 citations): Towards Natural Language Interfaces for Data Visualization: A Survey
+2110.04406   # TVCG 2021 High-impact (211 citations): Accessible Visualization via Natural Language Descriptions: A Four-Level Model of Semantic Content
+2208.07852   # TVCG 2022 High-impact (205 citations): Interactive and Visual Prompt Engineering for Ad-hoc Task Adaptation with Large Language Models
+2103.16365   # TVCG 2021 High-impact (185 citations): FoV-NeRF: Foveated Neural Radiance Fields for Virtual Reality
+2311.01920   # TVCG 2023 High-impact (183 citations): ChartGPT: Leveraging LLMs to Generate Charts From Abstract Natural Language
+2102.01330   # TVCG 2021 High-impact (180 citations): AI4VIS: Survey on Artificial Intelligence Approaches for Data Visualization
+2212.08070   # TVCG 2022 High-impact (180 citations): NeRF-Art: Text-Driven Neural Radiance Fields Stylization
+2307.09036   # TVCG 2023 High-impact (173 citations): PromptMagician: Interactive Prompt Engineering for Text-to-Image Creation
+2111.05474   # TVCG 2021 High-impact (166 citations): Perceptual Quality Assessment of Colored 3D Point Clouds
+2306.00943   # TVCG 2023 High-impact (165 citations): Make-Your-Video: Customized Video Generation Using Textual and Structural Guidance
+2305.11588   # TVCG 2023 High-impact (159 citations): Text2NeRF: Text-Driven 3D Scene Generation With Neural Radiance Fields
+2305.03210   # TVCG 2023 High-impact (116 citations): AttentionViz: A Global View of Transformer Attention
+2102.04317   # TVCG 2021 High-impact (104 citations): Meta-PU: An Arbitrary-Scale Upsampling Network for Point Cloud
+2208.10947   # TVCG 2022 High-impact (103 citations): Towards Natural Language-Based Visualization Authoring
+2102.01770   # TVCG 2021 High-impact (102 citations): A privacy-preserving approach to streaming eye-tracking data
+2107.07477   # TVCG 2021 High-impact (98 citations): A Survey of Perception-Based Visualization Studies by Task
+2208.10925   # TVCG 2022 High-impact (97 citations): Vox-Surf: Voxel-Based Implicit Surface Representation
+2403.05816   # TVCG 2024 High-impact (94 citations): LEVA: Using Large Language Models to Enhance Visual Analytics
+2307.09157   # TVCG 2023 High-impact (92 citations): Design Patterns for Situated Visualization in Augmented Reality
+2111.12159   # TVCG 2021 High-impact (91 citations): Rhythm is a Dancer: Music-Driven Motion Synthesis With Global Structure
+2208.01780   # TVCG 2022 High-impact (86 citations): Striking a Balance: Reader Takeaways and Preferences when Integrating Text and Charts
+2110.02894   # TVCG 2021 High-impact (85 citations): Revisiting Dimensionality Reduction Techniques for Visual Cluster Analysis: An Empirical Study
+2108.04203   # TVCG 2021 High-impact (82 citations): Kori: Interactive Synthesis of Text and Charts in Data Documents
+2208.08880   # TVCG 2022 High-impact (82 citations): STTAR: Surgical Tool Tracking using Off-the-Shelf Augmented Reality Head-Mounted Displays
+2210.16478   # TVCG 2022 High-impact (80 citations): GPA-Net:No-Reference Point Cloud Quality Assessment With Multi-Task Graph Convolutional Network
+2206.12118   # TVCG 2022 High-impact (78 citations): How Does Automation Shape the Process of Narrative Visualization: A Survey of Tools
+2206.03189   # TVCG 2022 High-impact (77 citations): Quantifying the Effects of Working in VR for One Week
+2108.10299   # TVCG 2021 High-impact (76 citations): VizLinter: A Linter and Fixer Framework for Data Visualization
+2308.07703   # TVCG 2023 High-impact (74 citations): Challenges and Opportunities in Data Visualization Education: A Call to Action
+2107.07823   # TVCG 2021 High-impact (73 citations): MultiVision: Designing Analytical Dashboards with Deep Learning Based Recommendation
+2205.15410   # TVCG 2022 High-impact (71 citations): LiDAR-aid Inertial Poser: Large-scale Human Motion Capture by Sparse Inertial and LiDAR Sensors
+2409.14067   # TVCG 2024 High-impact (71 citations): SplatLoc: 3D Gaussian Splatting-based Visual Localization for Augmented Reality
+2205.14332   # TVCG 2022 High-impact (71 citations): V4D: Voxel for 4D Novel View Synthesis
+2208.07059   # TVCG 2022 High-impact (70 citations): UPST-NeRF: Universal Photorealistic Style Transfer of Neural Radiance Fields for 3D Scene
+2105.09103   # TVCG 2021 High-impact (69 citations): Recursive-NeRF: An Efficient and Dynamically Growing NeRF
+2112.08359   # TVCG 2021 High-impact (67 citations): 3D Question Answering
+2103.02071   # TVCG 2021 High-impact (66 citations): Sibyl: Understanding and Addressing the Usability Challenges of Machine Learning In High-Stakes Decision Making
+2204.06504   # TVCG 2022 High-impact (66 citations): DL4SciVis: A State-of-the-Art Survey on Deep Learning for Scientific Visualization
+2310.15072   # TVCG 2023 High-impact (66 citations): RD-VIO: Robust Visual-Inertial Odometry for Mobile Augmented Reality in Dynamic Environments
+2308.04703   # TVCG 2023 High-impact (65 citations): Data Player: Automatic Generation of Data Videos with Narration-Animation Interplay
+https://arxiv.org/pdf/2005.10547   # TVCG 2021 High-impact (65 citations): Perceptual Quality Assessment of Omnidirectional Images as Moving Camera Videos
+2108.07855   # TVCG 2021 High-impact (65 citations): Understanding Data Visualization Design Practice
+2304.14630   # TVCG 2023 High-impact (64 citations): Let the Chart Spark: Embedding Semantic Context into Chart with Text-to-Image Generative Model
+2103.03996   # TVCG 2021 High-impact (63 citations): ChartStory: Automated Partitioning, Layout, and Captioning of Charts into Comic-Style Narratives
+2102.02041   # TVCG 2021 High-impact (63 citations): InfoColorizer: Interactive Recommendation of Color Palettes for Infographics
+https://arxiv.org/pdf/1902.04394   # TVCG 2021 High-impact (62 citations): Net2Vis – A Visual Grammar for Automatically Generating Publication-Tailored CNN Architecture Visualizations
+2208.05126   # TVCG 2022 High-impact (62 citations): D-BIAS: A Causality-Based Human-in-the-Loop System for Tackling Algorithmic Bias
+2312.01632   # TVCG 2023 High-impact (62 citations): GaussianHead: High-Fidelity Head Avatars With Learnable Gaussian Derivation
+2209.02529   # TVCG 2022 High-impact (62 citations): Erato: Cooperative Data Story Editing via Fact Interpolation
+2202.08956   # TVCG 2022 High-impact (60 citations): GNN-Surrogate: A Hierarchical and Adaptive Graph Neural Network for Parameter Space Exploration of Unstructured-Mesh Ocean Simulations
+2107.07789   # TVCG 2021 High-impact (60 citations): Wasserstein Distances, Geodesies and Barycenters of Merge Trees
+2111.03545   # TVCG 2021 High-impact (60 citations): ActFloor-GAN: Activity-Guided Adversarial Networks for Human-Centric Floorplan Design
+2209.00798   # TVCG 2022 High-impact (59 citations): PCDNF: Revisiting Learning-Based Point Cloud Denoising via Joint Normal Filtering
+2501.16277   # TVCG 2025 High-impact (59 citations): Do LLMs Have Visualization Literacy? An Evaluation on Modified Visualizations to Test Generalization in Data Interpretation
+2303.13731   # TVCG 2023 High-impact (59 citations): How Does Attention Work in Vision Transformers? A Visual Analytics Attempt

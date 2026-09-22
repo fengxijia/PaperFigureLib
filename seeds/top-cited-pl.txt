@@ -1,0 +1,65 @@
+# Most cited 2021-2026 papers of the pl venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-21).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2104.07460   # PLDI 2021 High-impact (101 citations): Automated conformance testing for JavaScript engines via deep compiler fuzzing
+2104.04413   # PLDI 2021 High-impact (91 citations): Provable repair of deep neural networks
+2104.00250   # PLDI 2021 High-impact (80 citations): Retrofitting effect handlers onto OCaml
+2101.07841   # PLDI 2021 High-impact (55 citations): Porcupine: a synthesizing compiler for vectorized homomorphic encryption
+2203.08069   # PLDI 2022 High-impact (46 citations): DISTAL: the distributed tensor algebra compiler
+2205.00661   # PLDI 2022 High-impact (45 citations): Giallar: push-button verification for the qiskit Quantum compiler
+2104.07162   # PLDI 2021 High-impact (35 citations): Web question answering with neurosymbolic program synthesis
+2204.00764   # PLDI 2022 High-impact (34 citations): A study of real-world data races in Golang
+2103.10269   # PLDI 2021 High-impact (33 citations): Zooid: a DSL for certified multiparty computation: from mechanised metatheory to certified multiparty processes
+2203.09993   # PLDI 2022 High-impact (32 citations): WebRobot: web robotic process automation using interactive programming-by-demonstration
+2204.06077   # PLDI 2022 High-impact (29 citations): PaC-trees: supporting parallel and compressed purely-functional collections
+2104.04616   # PLDI 2021 High-impact (28 citations): Automatically enforcing fresh and consistent inputs in intermittent systems
+2104.06349   # PLDI 2021 High-impact (27 citations): Gleipnir: toward practical error analysis for Quantum programs
+2104.01270   # PLDI 2021 High-impact (27 citations): Demanded abstract interpretation
+2104.04043   # PLDI 2021 High-impact (26 citations): High performance correctly rounded math libraries for 32-bit floating point representations
+2209.05686   # PLDI 2022 High-impact (25 citations): Software-hardware codesign for efficient in-memory regular pattern matching
+2104.04463   # PLDI 2021 High-impact (23 citations): Beyond the elementary representations of program invariants over algebraic data types
+2203.11532   # PLDI 2022 High-impact (22 citations): Quickstrom: property-based acceptance testing with LTL specifications
+2104.01189   # PLDI 2021 High-impact (20 citations): Proving non-termination by program reversal
+2204.02948   # PLDI 2022 High-impact (20 citations): Guaranteed bounds for posterior inference in universal probabilistic programming
+2111.13662   # PLDI 2021 High-impact (19 citations): Modular information flow through ownership
+2202.13158   # PLDI 2022 High-impact (19 citations): Semantic soundness for language interoperability
+2203.16697   # PLDI 2022 High-impact (19 citations): Type-directed program synthesis for RESTful APIs
+2101.09783   # PLDI 2021 High-impact (18 citations): Termination analysis without the tears
+2104.04990   # PLDI 2021 High-impact (18 citations): On probabilistic termination of functional programs with continuous distributions
+https://arxiv.org/pdf/1810.00873v5   # PLDI 2021 High-impact (17 citations): Compiling Stan to generative probabilistic languages and extension to deep probabilistic programming
+2104.03598   # PLDI 2021 High-impact (16 citations): Sound probabilistic inference via guide types
+2204.05985   # PLDI 2022 High-impact (15 citations): Turning manual concurrent memory reclamation into automatic reference counting
+2205.08762   # PLDI 2022 High-impact (14 citations): Leapfrog: certified equivalence for protocol parsers
+2102.13183   # PLDI 2021 High-impact (14 citations): RbSyn: type- and effect-guided program synthesis
+2105.02856   # PLDI 2021 High-impact (12 citations): Hashing modulo alpha-equivalence
+2111.12553   # PLDI 2021 High-impact (12 citations): CycleQ: an efficient basis for cyclic equational reasoning
+2110.07018   # PLDI 2021 High-impact (11 citations): Algebraic reasoning of Quantum programs via non-idempotent Kleene algebra
+2203.14518   # PLDI 2022 High-impact (10 citations): Certified mergeable replicated data types
+2104.09583   # PLDI 2021 High-impact (7 citations): Vectorized secure evaluation of decision forests
+2103.05573   # PLDI 2021 High-impact (6 citations): Repairing serializability bugs in distributed database programs via automated schema refactoring
+https://arxiv.org/pdf/2004.14756   # PLDI 2021 High-impact (5 citations): Robustness certification with generative models
+2203.14845   # PLDI 2022 High-impact (4 citations): Warping cache simulation of polyhedral programs
+2204.00870   # PLDI 2022 High-impact (4 citations): Differential cost analysis with simultaneous potentials and anti-potentials
+2203.02340   # PLDI 2022 High-impact (4 citations): Deoptless: speculation with dispatched on-stack replacement and specialized continuations
+2204.03113   # PLDI 2022 High-impact (3 citations): P4BID: information flow control in p4
+2204.05021   # PLDI 2022 High-impact (3 citations): Landmarks and regions: a robust approach to data extraction
+2203.12069   # PLDI 2022 High-impact (2 citations): ANOSY: approximated knowledge synthesis with refinement types for declassification
+2109.08267   # CGO 2021 High-impact (123 citations): CompilerGym: Robust, Performant Compiler Optimization Environments for AI Research
+2305.12520   # CGO 2023 High-impact (59 citations): SLaDe: A Portable Small Language Model Decompiler for Optimized Assembly
+2406.04693   # CGO 2024 High-impact (43 citations): LLM-Vectorizer: LLM-Based Verified Loop Vectorizer
+2101.08458   # CGO 2021 High-impact (40 citations): UNIT: Unifying Tensorized Instruction Compilation
+2105.05398   # CGO 2021 High-impact (32 citations): Sound, Precise, and Fast Abstract Interpretation with Tristate Numbers
+2209.05250   # CGO 2022 High-impact (31 citations): Looplets: A Language for Structured Coiteration
+2301.01333   # CGO 2023 High-impact (30 citations): oneDNN Graph Compiler: A Hybrid Approach for High-Performance Deep Learning Compilation
+2211.03251   # CGO 2022 High-impact (21 citations): Stardust: Compiling Sparse Tensor Algebra to a Reconfigurable Dataflow Architecture
+2301.11586   # CGO 2023 High-impact (17 citations): Khaos: The Impact of Inter-procedural Code Obfuscation on Binary Diffing Techniques
+2409.03864   # CGO 2024 High-impact (15 citations): The MLIR Transform Dialect: Your Compiler Is More Powerful Than You Think
+2102.05081   # CGO 2021 High-impact (15 citations): NOELLE Offers Empowering LLVM Extensions
+2305.13450   # CGO 2023 High-impact (14 citations): A Framework for Fine-Grained Synchronization of Dependent GPU Kernels
+2501.08071   # CGO 2025 High-impact (13 citations): CuAsmRL: Optimizing GPU SASS Schedules via Deep Reinforcement Learning
+2312.15254   # CGO 2023 High-impact (13 citations): Ecmas: Efficient Circuit Mapping and Scheduling for Surface Code
+2502.04063   # CGO 2025 High-impact (13 citations): A Multi-level Compiler Backend for Accelerated Micro-kernels Targeting RISC-V ISA Extensions
+2310.17408   # CGO 2023 High-impact (11 citations): Tackling the Matrix Multiplication Micro-Kernel Generation with Exo
+2306.00366   # CGO 2023 High-impact (11 citations): Bridging Control-Centric and Data-Centric Optimization
+2510.14719   # CGO 2025 High-impact (11 citations): Tawa: Automatic Warp Specialization for Modern GPUs with Asynchronous References
+2104.03388   # CGO 2021 High-impact (11 citations): DJXPerf: Identifying Memory Inefficiencies via Object-Centric Profiling for Java
+2107.05681   # CGO 2021 High-impact (11 citations): DARM: Control-Flow Melding for SIMT Thread Divergence Reduction

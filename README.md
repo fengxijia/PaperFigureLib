@@ -1,4 +1,4 @@
-# PaperFigureLib
+# Paper Figure & Table Library
 
 **Live: <https://paperfigure.net/>** (English entry: <https://paperfigure.net/en/>)
 

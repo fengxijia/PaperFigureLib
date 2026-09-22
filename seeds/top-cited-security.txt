@@ -1,0 +1,232 @@
+# Most cited 2021-2026 papers of the security venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-21).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2112.03570   # IEEE S&P 2021 High-impact (1253 citations): Membership Inference Attacks From First Principles
+2302.00539   # IEEE S&P 2023 High-impact (433 citations): Analyzing Leakage of Personally Identifiable Information in Language Models
+2302.10149   # IEEE S&P 2023 High-impact (394 citations): Poisoning Web-Scale Training Datasets is Practical
+2101.05511   # IEEE S&P 2021 High-impact (393 citations): Quantifying Blockchain Extractable Value: How dark is the forest?
+2112.02125   # IEEE S&P 2021 High-impact (361 citations): Examining Zero-Shot Vulnerability Repair with Large Language Models
+2106.09249   # IEEE S&P 2021 High-impact (343 citations): Invisible for both Camera and LiDAR: Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks
+2108.10241   # IEEE S&P 2021 High-impact (341 citations): Back to the Drawing Board: A Critical Evaluation of Poisoning Attacks on Production Federated Learning
+2204.04008   # IEEE S&P 2022 High-impact (326 citations): SoK: Taxonomy of Attacks on Open-Source Software Supply Chains
+2101.04535   # IEEE S&P 2021 High-impact (314 citations): Adversary Instantiation: Lower Bounds for Differentially Private Machine Learning
+2104.10949   # IEEE S&P 2021 High-impact (258 citations): CryptGPU: Fast Privacy-Preserving Machine Learning on the GPU
+2305.12082   # IEEE S&P 2023 High-impact (244 citations): SneakyPrompt: Jailbreaking Text-to-image Generative Models
+2312.12575   # IEEE S&P 2023 High-impact (236 citations): LLMs Cannot Reliably Identify and Reason About Security Vulnerabilities (Yet?): A Comprehensive Evaluation, Framework, and Benchmarks
+2201.04845   # IEEE S&P 2022 High-impact (229 citations): Reconstructing Training Data with Informed Adversaries
+2108.00352   # IEEE S&P 2021 High-impact (226 citations): BadEncoder: Backdoor Attacks to Pre-trained Encoders in Self-Supervised Learning
+2208.13035   # IEEE S&P 2022 High-impact (194 citations): SoK: Decentralized Finance (DeFi) Attacks
+2308.05034   # IEEE S&P 2023 High-impact (185 citations): Kairos: Practical Intrusion Detection and Investigation using Whole-system Provenance
+2111.04625   # IEEE S&P 2021 High-impact (179 citations): DeepSteal: Advanced Model Extractions Leveraging Efficient Weight Stealing in Memories
+2105.04236   # IEEE S&P 2021 High-impact (172 citations): SiRnn: A Math Library for Secure RNN Inference
+2103.02228   # IEEE S&P 2021 High-impact (161 citations): On the Just-In-Time Discovery of Profit-Generating Transactions in DeFi Protocols
+2104.08638   # IEEE S&P 2021 High-impact (158 citations): SAILFISH: Vetting Smart Contract State-Inconsistency Bugs in Seconds
+2210.10936   # IEEE S&P 2022 High-impact (152 citations): FedRecover: Recovering from Poisoning Attacks in Federated Learning using Historical Information
+2103.05633   # IEEE S&P 2021 High-impact (147 citations): Proof-of-Learning: Definitions and Practice
+2106.09898   # IEEE S&P 2021 High-impact (144 citations): Bad Characters: Imperceptible NLP Attacks
+2310.13828   # IEEE S&P 2023 High-impact (141 citations): Nightshade: Prompt-Specific Poisoning Attacks on Text-to-Image Generative Models
+2108.04974   # IEEE S&P 2021 High-impact (141 citations): SoK: How Robust is Image Classification Deep Neural Network Watermarking?
+2108.06504   # IEEE S&P 2021 High-impact (140 citations): LINKTELLER: Recovering Private Edges from Graph Neural Networks via Influence Analysis
+2107.03311   # IEEE S&P 2021 High-impact (129 citations): RoFL: Robustness of Secure Federated Learning
+2101.07078   # IEEE S&P 2021 High-impact (125 citations): SoK: Fully Homomorphic Encryption Compilers
+2308.09883   # IEEE S&P 2023 High-impact (123 citations): Flamingo: Multi-Round Single-Server Secure Aggregation with Applications to Private Federated Learning
+2112.07047   # IEEE S&P 2021 High-impact (113 citations): SoK: A Framework for Unifying At-Risk User Research
+2109.04347   # IEEE S&P 2021 High-impact (107 citations): Clockwork Finance: Automated Analysis of Economic Security in Smart Contracts
+2112.07498   # IEEE S&P 2021 High-impact (107 citations): Phishing in Organizations: Findings from a Large-Scale and Long-Term Study
+2112.05588   # IEEE S&P 2021 High-impact (104 citations): Copy, Right? A Testing Framework for Copyright Protection of Deep Learning Models
+2101.11073   # IEEE S&P 2021 High-impact (102 citations): Property Inference from Poisoning
+2112.05224   # IEEE S&P 2021 High-impact (100 citations): Spinning Language Models: Risks of Propaganda-As-A-Service and Countermeasures
+2112.08331   # IEEE S&P 2021 High-impact (98 citations): Model Stealing Attacks Against Inductive Graph Neural Networks
+2205.06900   # IEEE S&P 2022 High-impact (97 citations): MM-BD: Post-Training Detection of Backdoor Attacks with Arbitrary Backdoor Pattern Types Using a Maximum Margin Statistic
+2301.02344   # IEEE S&P 2023 High-impact (92 citations): TrojanPuzzle: Covertly Poisoning Code-Suggestion Models
+2203.12064   # IEEE S&P 2022 High-impact (85 citations): Effective Seed Scheduling for Fuzzing with Graph Centrality Analysis
+2210.09421   # IEEE S&P 2022 High-impact (81 citations): Deepfake Text Detection: Limitations and Opportunities
+2308.05596   # IEEE S&P 2023 High-impact (80 citations): You Only Prompt Once: On the Capabilities of Prompt Learning on Large Language Models to Tackle Toxic Content
+2212.10986   # IEEE S&P 2022 High-impact (80 citations): SoK: Let the Privacy Games Begin! A Unified Treatment of Data Inference Privacy in Machine Learning
+2303.12233   # IEEE S&P 2023 High-impact (77 citations): Loki: Large-scale Data Reconstruction Attack against Federated Learning through Model Manipulation
+2404.03233   # IEEE S&P 2024 High-impact (76 citations): Learn What You Want to Unlearn: Unlearning Inversion Attacks against Machine Unlearning
+2310.07152   # IEEE S&P 2023 High-impact (75 citations): No Privacy Left Outside: On the (In-)Security of TEE-Shielded DNN Partition for On-Device ML
+2101.01917   # IEEE S&P 2021 High-impact (74 citations): SGUARD: Towards Fixing Vulnerable Smart Contracts Automatically
+2212.01042   # IEEE S&P 2022 High-impact (74 citations): AccEar: Accelerometer Acoustic Eavesdropping with Unconstrained Vocabulary
+2411.18479   # IEEE S&P 2024 High-impact (71 citations): SoK: Watermarking for AI-Generated Content
+2112.01967   # IEEE S&P 2021 High-impact (70 citations): IRShield: A Countermeasure Against Adversarial Physical-Layer Wireless Sensing
+2202.09470   # IEEE S&P 2022 High-impact (69 citations): Automated Attack Synthesis by Extracting Finite State Machines from Protocol Specification Documents
+2105.05801   # IEEE S&P 2021 High-impact (68 citations): SoK: Practical Foundations for Software Spectre Defenses
+2307.02106   # IEEE S&P 2023 High-impact (65 citations): SoK: Privacy-Preserving Data Synthesis
+2311.02324   # IEEE S&P 2023 High-impact (64 citations): Bounded and Unbiased Composite Differential Privacy
+2112.05307   # IEEE S&P 2021 High-impact (64 citations): Are We There Yet? Timing and Floating-Point Attacks on Differential Privacy Systems
+2309.00735   # IEEE S&P 2023 High-impact (63 citations): SoK: Safer Digital-Safety Research Involving At-Risk Users
+2103.16808   # IEEE S&P 2021 High-impact (62 citations): Self-Supervised Euphemism Detection and Identification for Content Moderation
+2301.09508   # IEEE S&P 2023 High-impact (62 citations): BayBFed: Bayesian Backdoor Defense for Federated Learning
+2405.01329   # IEEE S&P 2024 High-impact (58 citations): Decentralization of Ethereum's Builder Market
+2411.09217   # IEEE S&P 2024 High-impact (57 citations): SmartInv: Multimodal Learning for Smart Contract Invariant Inference
+2312.05976   # IEEE S&P 2023 High-impact (56 citations): A Representative Study on Human Detection of Artificially Generated Media Across Countries
+2308.03825   # CCS 2023 High-impact (732 citations): "Do Anything Now": Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models
+2211.03622   # CCS 2022 High-impact (451 citations): Do Users Write More Insecure Code with AI Assistants?
+2111.09679   # CCS 2021 High-impact (392 citations): Enhanced Membership Inference Attacks against Machine Learning Models
+2201.05677   # CCS 2022 High-impact (337 citations): Bullshark: DAG BFT Protocols Made Practical
+2210.06998   # CCS 2022 High-impact (284 citations): DE-FAKE: Detection and Attribution of Fake Images Generated by Text-to-Image Generation Models
+2204.05255   # CCS 2022 High-impact (281 citations): Narcissus: A Practical Clean-Label Backdoor Attack with Limited Information
+2106.14707   # CCS 2021 High-impact (261 citations): Realtime Robust Malicious Traffic Detection via Frequency Domain Analysis
+2103.03809   # CCS 2021 High-impact (243 citations): PalmTree: Learning an Assembly Language Model for Instruction Embedding
+2103.14991   # CCS 2021 High-impact (237 citations): Graph Unlearning
+2210.00264   # CCS 2022 High-impact (234 citations): zkBridge: Trustless Cross-chain Bridges Made Practical
+2305.13873   # CCS 2023 High-impact (234 citations): Unsafe Diffusion: On the Generation of Unsafe Images and Hateful Memes From Text-To-Image Models
+2403.17710   # CCS 2024 High-impact (224 citations): Optimization-based Prompt Injection Attack to LLM-as-a-Judge
+2410.05451   # CCS 2024 High-impact (221 citations): SecAlign: Defending Against Prompt Injection with Preference Optimization
+2111.08893   # CCS 2021 High-impact (208 citations): Understanding Security Issues in the NFT Ecosystem
+2105.05445   # CCS 2021 High-impact (189 citations): Snipuzz: Black-box Fuzzing of IoT Firmware via Message Snippet Inference
+2405.06823   # CCS 2024 High-impact (189 citations): PLeak: Prompt Leaking Attacks against Large Language Model Applications
+2208.14933   # CCS 2022 High-impact (178 citations): Membership Inference Attacks by Exploiting Loss Trajectory
+2111.07380   # CCS 2021 High-impact (165 citations): Eluding Secure Aggregation in Federated Learning via Model Inconsistency
+2204.00032   # CCS 2022 High-impact (160 citations): Truth Serum: Poisoning Machine Learning Models to Reveal Their Secrets
+2303.14822   # CCS 2023 High-impact (156 citations): MGTBench: Benchmarking Machine-Generated Text Detection
+2111.00197   # CCS 2021 High-impact (156 citations): Backdoor Pre-trained Models Can Transfer to All
+2109.08045   # CCS 2021 High-impact (136 citations): Membership Inference Attacks Against Recommender Systems
+2309.06746   # CCS 2023 High-impact (134 citations): DP-Forward: Fine-tuning and Inference on Language Models with Differential Privacy in Forward Pass
+2112.12727   # CCS 2021 High-impact (128 citations): EIFFeL: Ensuring Integrity for Federated Learning
+2109.11495   # CCS 2021 High-impact (127 citations): DeepAID: Interpreting and Improving Deep Learning-based Anomaly Detection in Security Applications
+2305.03807   # CCS 2023 High-impact (125 citations): Evading Watermark based Detection of AI-Generated Content
+2108.11023   # CCS 2021 High-impact (124 citations): EncoderMI: Membership Inference against Pre-trained Encoders in Contrastive Learning
+2209.00750   # CCS 2022 High-impact (124 citations): Dumbo-NG: Fast Asynchronous BFT Consensus with Throughput-Oblivious Latency
+2406.10416   # CCS 2024 High-impact (121 citations): Byzantine-Robust Decentralized Federated Learning
+2201.05574   # CCS 2022 High-impact (117 citations): Empirical Analysis of EIP-1559: Transaction Fees, Waiting Times, and Consensus Security
+2404.16109   # CCS 2024 High-impact (116 citations): zkLLM: Zero Knowledge Proofs for Large Language Models
+2211.01829   # CCS 2022 High-impact (115 citations): DriveFuzz: Discovering Autonomous Driving Bugs through Driving Quality-Guided Fuzzing
+2405.05175   # CCS 2024 High-impact (114 citations): AirGapAgent: Protecting Privacy-Conscious Conversational Agents
+2312.17677   # CCS 2023 High-impact (108 citations): Prompt Fuzzing for Fuzz Driver Generation
+2110.09714   # CCS 2021 High-impact (97 citations): Black-box Adversarial Attacks on Commercial Speech Platforms with Minimal Information
+2309.10147   # CCS 2023 High-impact (96 citations): Realistic Website Fingerprinting By Augmenting Network Traces
+2209.01292   # CCS 2022 High-impact (95 citations): Are Attribute Inference Attacks Just Imputation?
+2102.00918   # CCS 2021 High-impact (94 citations): Robust Adversarial Attacks Against DNN-Based Wireless Communication Systems
+2405.06371   # CCS 2024 High-impact (90 citations): Using AI Assistants in Software Development: A Qualitative Study on Security Practices and Concerns
+2201.11692   # CCS 2022 High-impact (81 citations): SSLGuard: A Watermarking Scheme for Self-supervised Learning Pre-trained Encoders
+2103.09425   # CCS 2021 High-impact (80 citations): Bolt-Dumbo Transformer: Asynchronous Consensus As Fast As the Pipelined BFT
+2309.02926   # CCS 2023 High-impact (79 citations): Demystifying RCE Vulnerabilities in LLM-Integrated Apps
+2102.02956   # CCS 2021 High-impact (78 citations): DetectorGuard: Provably Securing Object Detectors against Localized Patch Hiding Attacks
+2407.00918   # CCS 2024 High-impact (77 citations): Robust and Reliable Early-Stage Website Fingerprinting Attacks via Spatial-Temporal Distribution Analysis
+2103.11109   # CCS 2021 High-impact (77 citations): DataLens: Scalable Privacy Preserving Training via Gradient Compression and Aggregation
+2404.06666   # CCS 2024 High-impact (76 citations): SafeGen: Mitigating Sexually Explicit Content Generation in Text-to-Image Models
+2409.01380   # CCS 2024 High-impact (71 citations): Membership Inference Attacks Against In-Context Learning
+2309.03647   # CCS 2023 High-impact (69 citations): ProvG-Searcher: A Graph Representation Learning Approach for Efficient Provenance Graph Search
+2409.09272   # CCS 2024 High-impact (66 citations): SafeEar: Content Privacy-Preserving Audio Deepfake Detection
+2109.07986   # CCS 2021 High-impact (66 citations): Harnessing Perceptual Adversarial Patches for Crowd Counting
+2104.10749   # CCS 2021 High-impact (65 citations): Constantine: Automatic Side-Channel Resistance Using Efficient Control and Data Flow Linearization
+2312.01091   # CCS 2023 High-impact (65 citations): Demystifying DeFi MEV Activities in Flashbots Bundle
+2209.15091   # CCS 2022 High-impact (65 citations): L-SRR: Local Differential Privacy for Location-Based Services with Staircase Randomized Response
+2102.04140   # CCS 2021 High-impact (64 citations): Quantifying and Mitigating Privacy Risks of Contrastive Learning
+2310.15469   # CCS 2023 High-impact (64 citations): The Janus Interface: How Fine-Tuning in Large Language Models Amplifies the Privacy Risks
+2307.08349   # CCS 2023 High-impact (62 citations): Are we there yet? An Industrial Viewpoint on Provenance-based Endpoint Detection and Response Tools
+2307.14657   # CCS 2023 High-impact (60 citations): Decoding the Secrets of Machine Learning in Malware Classification: A Deep Dive into Datasets, Feature Extraction, and Model Performance
+2405.00138   # CCS 2024 High-impact (60 citations): Rolling in the Shadows: Analyzing the Extraction of MEV Across Layer-2 Rollups
+2405.03486   # CCS 2024 High-impact (59 citations): UnsafeBench: Benchmarking Image Safety Classifiers on Real-World and AI-Generated Images
+2306.05524   # CCS 2023 High-impact (59 citations): On the Detectability of ChatGPT Content: Benchmarking, Methodology, and Evaluation through the Lens of Academic Writing
+2301.13188   # USENIX Security 2023 High-impact (1035 citations): Extracting Training Data from Diffusion Models
+2310.12815   # USENIX Security 2023 High-impact (500 citations): Formalizing and Benchmarking Prompt Injection Attacks and Defenses
+2404.01833   # USENIX Security 2024 High-impact (440 citations): Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack
+2402.06363   # USENIX Security 2024 High-impact (431 citations): StruQ: Defending Against Prompt Injection with Structured Queries
+2402.07867   # USENIX Security 2024 High-impact (324 citations): PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models
+2110.11891   # USENIX Security 2021 High-impact (242 citations): On the Necessity of Auditable Algorithmic Definitions for Machine Unlearning
+2208.09727   # USENIX Security 2022 High-impact (201 citations): Lost at C: A User Study on the Security Implications of Large Language Model Code Assistants
+2102.03347   # USENIX Security 2021 High-impact (199 citations): Frontrunner Jones and the Raiders of the Dark Forest: An Empirical Study of Frontrunning on the Ethereum Blockchain
+2102.02551   # USENIX Security 2021 High-impact (172 citations): ML-Doctor: Holistic Risk Assessment of Inference Attacks Against Machine Learning Models
+2402.18104   # USENIX Security 2024 High-impact (147 citations): Making Them Ask and Answer: Jailbreaking Large Language Models in Few Queries via Disguise and Reconstruction
+2302.08927   # USENIX Security 2023 High-impact (146 citations): Unique Identification of 50, 000+ Virtual Reality Users from Head & Hand Motion Data
+2310.09831   # USENIX Security 2023 High-impact (137 citations): MAGIC: Detecting Advanced Persistent Threats via Masked Graph Representation Learning
+2310.12357   # USENIX Security 2023 High-impact (137 citations): Large Language Models for Code Analysis: Do LLMs Really Do Their Job?
+2103.03443   # USENIX Security 2021 High-impact (130 citations): Lord of the Ring(s): Side Channel Attacks on the CPU On-Chip Ring Interconnect Are Practical
+2102.02308   # USENIX Security 2021 High-impact (128 citations): Fuzzing Hardware Like Software
+2210.09482   # USENIX Security 2022 High-impact (128 citations): You Can't See Me: Physical Removal Attacks on LiDAR-based Autonomous Vehicles Driving Frameworks
+2110.08324   # USENIX Security 2021 High-impact (126 citations): Mitigating Membership Inference Attacks by Self-Distillation Through a Novel Ensemble Architecture
+2112.06872   # USENIX Security 2021 High-impact (125 citations): Efficient Differentially Private Secure Aggregation for Federated Learning via Hardness of Learning with Errors
+2203.00949   # USENIX Security 2022 High-impact (122 citations): GAP: Differentially Private Graph Neural Networks with Aggregation Perturbation
+2204.02545   # USENIX Security 2022 High-impact (121 citations): Stateful Greybox Fuzzing
+2406.05870   # USENIX Security 2024 High-impact (119 citations): Machine Against the RAG: Jamming Retrieval-Augmented Generation with Blocker Documents
+2201.09941   # USENIX Security 2022 High-impact (118 citations): TheHuzz: Instruction Fuzzing of Processors Using Golden-Reference Models for Finding Software-Exploitable Vulnerabilities
+2402.09179   # USENIX Security 2024 High-impact (112 citations): Instruction Backdoor Attacks Against Customized LLMs
+2108.09135   # USENIX Security 2021 High-impact (112 citations): PatchCleanser: Certifiably Robust Defense against Adversarial Patches for Any Image Classifier
+2310.12362   # USENIX Security 2023 High-impact (107 citations): REMARK-LLM: A Robust and Efficient Watermarking Framework for Generative Large Language Models
+2103.04264   # USENIX Security 2021 High-impact (104 citations): T-Miner: A Generative Approach to Defend Against Trojan Attacks on DNN-based Text Classification
+2302.09491   # USENIX Security 2023 High-impact (102 citations): X-Adv: Physical Adversarial Object Attacks against X-ray Prohibited Item Detection
+2105.13756   # USENIX Security 2021 High-impact (100 citations): The Unpatchable Silicon: A Full Break of the Bitstream Encryption of Xilinx 7-Series FPGAs
+2302.04332   # USENIX Security 2023 High-impact (100 citations): Continuous Learning for Android Malware Detection
+2106.07098   # USENIX Security 2021 High-impact (100 citations): Security Analysis of Camera-LiDAR Fusion Against Black-Box Attacks on Autonomous Vehicles
+2201.09370   # USENIX Security 2022 High-impact (98 citations): Are Your Sensitive Attributes Private? Novel Model Inversion Attribute Inference Attacks on Classification Models
+2103.03344   # USENIX Security 2021 High-impact (97 citations): WaveGuard: Understanding and Mitigating Audio Adversarial Examples
+2106.02167   # USENIX Security 2021 High-impact (94 citations): How Great is the Great Firewall? Measuring China's DNS Censorship
+2403.02253   # USENIX Security 2024 High-impact (90 citations): KnowPhish: Large Language Models Meet Multimodal Knowledge Graphs for Enhancing Reference-Based Phishing Detection
+2107.07759   # USENIX Security 2021 High-impact (89 citations): Automatic Firmware Emulation through Invalidity-guided Knowledge Inference (Extended Version)
+2206.08202   # USENIX Security 2022 High-impact (88 citations): Token Spammers, Rug Pulls, and Sniper Bots: An Analysis of the Ecosystem of Tokens in Ethereum and in the Binance Smart Chain (BNB)
+2205.13616   # USENIX Security 2022 High-impact (86 citations): Towards A Proactive ML Approach for Detecting Backdoor Poison Samples
+2206.04055   # USENIX Security 2022 High-impact (85 citations): Gradient Obfuscation Gives a False Sense of Security in Federated Learning
+2106.03470   # USENIX Security 2021 High-impact (81 citations): Osiris: Automated Discovery of Microarchitectural Side Channels
+2103.04952   # USENIX Security 2021 High-impact (81 citations): Prime+Probe 1, JavaScript 0: Overcoming Browser-based Side-Channel Defenses
+2406.05498   # USENIX Security 2024 High-impact (80 citations): SelfDefend: LLMs Can Defend Themselves against Jailbreaking in a Practical Manner
+2406.06822   # USENIX Security 2024 High-impact (79 citations): An LLM-Assisted Easy-to-Trigger Backdoor Attack on Code Completion Models: Injecting Disguised Vulnerabilities against Strong Detection
+2310.15007   # USENIX Security 2023 High-impact (78 citations): Did the Neurons Read your Book? Document-level Membership Inference for Large Language Models
+2102.12730   # USENIX Security 2021 High-impact (78 citations): Swivel: Hardening WebAssembly against Spectre
+2302.09923   # USENIX Security 2023 High-impact (78 citations): Prompt Stealing Attacks Against Text-to-Image Generation Models
+2106.05007   # USENIX Security 2021 High-impact (76 citations): LTrack: Stealthy Tracking of Mobile Phones in LTE
+2204.02675   # USENIX Security 2022 High-impact (75 citations): Rolling Colors: Adversarial Laser Exploits against Traffic Light Recognition
+2306.17193   # USENIX Security 2023 High-impact (75 citations): Uncovering the Limits of Machine Learning for Automatic Vulnerability Detection
+2301.04841   # USENIX Security 2023 High-impact (73 citations): LZR: Identifying Unexpected Internet Services
+2110.06904   # USENIX Security 2021 High-impact (72 citations): Poison Forensics: Traceback of Data Poisoning Attacks in Neural Networks
+2303.00738   # USENIX Security 2023 High-impact (71 citations): What Are the Chances? Explaining the Epsilon Parameter in Differential Privacy
+2502.07557   # USENIX Security 2025 High-impact (70 citations): JBShield: Defending Large Language Models from Jailbreak Attacks through Activated Concept Analysis and Manipulation
+2202.03335   # USENIX Security 2022 High-impact (69 citations): Membership Inference Attacks and Defenses in Neural Network Pruning
+2407.15847   # USENIX Security 2024 High-impact (67 citations): LLMmap: Fingerprinting For Large Language Models
+2403.03897   # USENIX Security 2024 High-impact (67 citations): Fuzzing BusyBox: Leveraging LLM and Crash Reuse for Embedded Bug Unearthing
+2302.11408   # USENIX Security 2023 High-impact (66 citations): ASSET: Robust Backdoor Data Detection Across a Multiplicity of Deep Learning Paradigms
+2311.06530   # USENIX Security 2023 High-impact (65 citations): Exploring ChatGPT's Capabilities on Vulnerability Management
+2202.07569   # USENIX Security 2022 High-impact (62 citations): Constant-weight PIR: Single-round Keyword PIR via Constant-weight Equality Operators
+2102.07869   # USENIX Security 2021 High-impact (62 citations): Expected Exploitability: Predicting the Development of Functional Vulnerability Exploits
+2510.24393   # USENIX Security 2025 High-impact (61 citations): Your Microphone Array Retains Your Identity: A Robust Voice Liveness Detection System for Smart Speakers
+2108.11577   # NDSS 2021 High-impact (342 citations): Machine Unlearning of Features and Labels
+2307.08715   # NDSS 2023 High-impact (271 citations): MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots
+2201.00763   # NDSS 2022 High-impact (261 citations): DeepSight: Mitigating Backdoor Attacks in Federated Learning Through Deep Model Inspection
+2504.19793   # NDSS 2025 High-impact (169 citations): Prompt Injection Attack to Tool Selection in LLM Agents
+2101.02644   # NDSS 2021 High-impact (159 citations): Data Poisoning Attacks to Deep Learning Based Recommender Systems
+2101.01341   # NDSS 2021 High-impact (151 citations): Practical Blind Membership Inference Attack via Differential Comparisons
+2301.13686   # NDSS 2023 High-impact (151 citations): Detecting Unknown Encrypted Malicious Traffic in Real Time via Flow Interaction Graph Analysis
+2403.04960   # NDSS 2024 High-impact (146 citations): IsolateGPT: An Execution Isolation Architecture for LLM-Based Agentic Systems
+2209.11715   # NDSS 2022 High-impact (133 citations): The "Beatrix" Resurrections: Robust Backdoor Detection via Gram Matrices
+2312.03410   # NDSS 2023 High-impact (100 citations): Detecting Voice Cloning Attacks via Timbre Watermarking
+2201.06192   # NDSS 2022 High-impact (90 citations): Fooling the Eyes of Autonomous Vehicles: Robust Physical Adversarial Examples Against Traffic Sign Recognition Systems
+2311.02331   # NDSS 2023 High-impact (86 citations): NODLINK: An Online System for Fine-Grained APT Attack Detection and Investigation
+2105.01827   # NDSS 2021 High-impact (77 citations): GALA: Greedy ComputAtion for Linear Algebra in Privacy-Preserved Neural Networks
+2312.04432   # NDSS 2023 High-impact (76 citations): FreqFed: A Frequency Analysis-Based Approach for Mitigating Poisoning Attacks in Federated Learning
+2111.07608   # NDSS 2021 High-impact (76 citations): Property Inference Attacks Against GANs
+2309.04798   # NDSS 2023 High-impact (72 citations): Low-Quality Training Data Only? A Robust Framework for Detecting Encrypted Malicious Network Traffic
+2102.09651   # NDSS 2021 High-impact (71 citations): Obfuscated Access and Search Patterns in Searchable Encryption
+2405.04825   # NDSS 2024 High-impact (65 citations): Explanation as a Watermark: Towards Harmless and Multi-bit Model Ownership Verification via Watermarking Feature Attribution
+2202.02104   # NDSS 2022 High-impact (62 citations): Brokenwire : Wireless Disruption of CCS Electric Vehicle Charging
+2210.07714   # NDSS 2022 High-impact (59 citations): CrowdGuard: Federated Backdoor Detection in Federated Learning
+2201.04610   # NDSS 2022 High-impact (57 citations): Too Afraid to Drive: Systematic Discovery of Semantic DoS Vulnerability in Autonomous Driving Planning under Physical-World Attacks
+2310.14821   # NDSS 2023 High-impact (57 citations): Mysticeti: Reaching the Latency Limits with Uncertified DAGs
+2504.21034   # NDSS 2025 High-impact (54 citations): SAGA: A Security Architecture for Governing AI Agentic Systems
+2504.20984   # NDSS 2025 High-impact (53 citations): ACE: A Security Architecture for LLM-Integrated App Systems
+2309.08230   # NDSS 2023 High-impact (52 citations): A Duty to Forget, a Right to be Assured? Exposing Vulnerabilities in Machine Unlearning Services
+2307.01610   # NDSS 2023 High-impact (51 citations): Overconfidence is a Dangerous Thing: Mitigating Membership Inference Attacks by Enforcing Less Confident Prediction
+2303.10555   # NDSS 2023 High-impact (50 citations): LiDAR Spoofing Meets the New-Gen: Capability Improvements, Broken Assumptions, and New Attack Strategies
+2312.08207   # NDSS 2023 High-impact (50 citations): Black-box Membership Inference Attacks against Fine-tuned Diffusion Models
+2202.02585   # NDSS 2022 High-impact (50 citations): GhostTalk: Interactive Attack on Smartphone Voice System Through Power Line
+2201.09956   # NDSS 2022 High-impact (49 citations): DRAWNAPART: A Device Identification Technique based on Remote GPU Fingerprinting
+2312.00374   # NDSS 2023 High-impact (48 citations): The Philosopher's Stone: Trojaning Plugins of Large Language Models
+2401.03582   # NDSS 2024 High-impact (47 citations): Invisible Reflections: Leveraging Infrared Laser Reflections to Target Traffic Sign Perception
+2210.07110   # NDSS 2022 High-impact (39 citations): POSE: Practical Off-chain Smart Contract Execution
+2301.01197   # NDSS 2023 High-impact (39 citations): Backdoor Attacks Against Dataset Distillation
+2401.15956   # NDSS 2024 High-impact (39 citations): MobFuzz: Adaptive Multi-objective Optimization in Gray-box Fuzzing
+2111.04394   # NDSS 2021 High-impact (39 citations): Get a Model! Model Hijacking Attack Against Machine Learning Models
+2407.13918   # NDSS 2024 High-impact (37 citations): Revisiting Concept Drift in Windows Malware Detection: Adaptation to Real Drifted Malware with Minimal Samples
+2501.17381   # NDSS 2025 High-impact (36 citations): Do We Really Need to Design New Byzantine-robust Aggregation Rules?
+2302.06279   # NDSS 2023 High-impact (35 citations): Sneaky Spikes: Uncovering Stealthy Backdoor Attacks in Spiking Neural Networks with Neuromorphic Data
+2202.04856   # NDSS 2022 High-impact (35 citations): PPA: Preference Profiling Attack Against Federated Learning
+2311.16024   # NDSS 2023 High-impact (35 citations): MadRadar: A Black-Box Physical Layer Attack Framework on mmWave Automotive FMCW Radars
+2404.04098   # NDSS 2024 High-impact (33 citations): You Can Use But Cannot Recognize: Preserving Visual Privacy in Deep Neural Networks
+2101.00328   # NDSS 2021 High-impact (33 citations): PHOENIX: Device-Centric Cellular Network Protocol Monitoring using Runtime Verification
+2208.13058   # NDSS 2022 High-impact (31 citations): Adversarial Robustness for Tabular Data through Cost and Utility Awareness
+2403.03655   # NDSS 2024 High-impact (30 citations): Kronos: A Secure and Generic Sharding Blockchain Consensus with Optimized Overhead
+2107.12867   # NDSS 2021 High-impact (30 citations): From Library Portability to Para-rehosting: Natively Executing Microcontroller Software on Commodity Hardware
+2101.10522   # NDSS 2021 High-impact (30 citations): PFirewall: Semantics-Aware Customizable Data Flow Control for Smart Home Privacy Protection
+2508.09442   # NDSS 2025 High-impact (30 citations): Shadow in the Cache: Unveiling and Mitigating Privacy Risks of KV-cache in LLM Inference
+2311.11225   # NDSS 2023 High-impact (30 citations): TextGuard: Provable Defense against Backdoor Attacks on Text Classification
+2212.12904   # NDSS 2022 High-impact (30 citations): Assessing the Impact of Interface Vulnerabilities in Compartmentalized Software

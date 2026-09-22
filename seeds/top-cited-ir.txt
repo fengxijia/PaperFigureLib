@@ -1,0 +1,222 @@
+# Most cited 2021-2026 papers of the ir venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-21).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2112.08679   # SIGIR 2021 High-impact (1059 citations): Are Graph Augmentations Necessary?: Simple Graph Contrastive Learning for Recommendation
+2309.07597   # SIGIR 2023 High-impact (907 citations): C-Pack: Packed Resources For General Chinese Embeddings
+2107.05720   # SIGIR 2021 High-impact (677 citations): SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking
+2104.06967   # SIGIR 2021 High-impact (537 citations): Efficiently Teaching an Effective Dense Retriever with Balanced Topic Aware Sampling
+2205.00976   # SIGIR 2022 High-impact (526 citations): Knowledge Graph Contrastive Learning for Recommendation
+2204.12200   # SIGIR 2022 High-impact (502 citations): Hypergraph Contrastive Collaborative Filtering
+2106.14226   # SIGIR 2021 High-impact (497 citations): Sequential Recommendation with Graph Neural Networks
+2401.14887   # SIGIR 2024 High-impact (491 citations): The Power of Noise: Redefining Retrieval for RAG Systems
+2104.10353   # SIGIR 2021 High-impact (468 citations): Temporal Knowledge Graph Reasoning Based on Evolutional Representation Learning
+2310.08319   # SIGIR 2023 High-impact (463 citations): Fine-Tuning LLaMA for Multi-Stage Text Retrieval
+2103.01913   # SIGIR 2021 High-impact (449 citations): WIT: Wikipedia-based Image Text Dataset for Multimodal Multilingual Machine Learning
+2310.13023   # SIGIR 2023 High-impact (403 citations): GraphGPT: Graph Instruction Tuning for Large Language Models
+2104.08051   # SIGIR 2021 High-impact (363 citations): Optimizing Dense Retrieval Model Training with Hard Negatives
+2303.13835   # SIGIR 2023 High-impact (361 citations): Where to Go Next for Recommender Systems? ID- vs. Modality-based Recommender Models Revisited
+2104.12259   # SIGIR 2021 High-impact (354 citations): User Preference-aware Fake News Detection
+2304.04971   # SIGIR 2023 High-impact (353 citations): Diffusion Recommender Model
+2309.10621   # SIGIR 2023 High-impact (294 citations): Large Language Models can Accurately Predict Searcher Preferences
+2303.04741   # SIGIR 2022 High-impact (291 citations): GETNext: Trajectory Flow Map Enhanced Transformer for Next POI Recommendation
+2301.13808   # SIGIR 2023 High-impact (282 citations): Large Language Models are Versatile Decomposers: Decomposing Evidence and Questions for Table-based Reasoning
+2401.17197   # SIGIR 2024 High-impact (278 citations): Data-efficient Fine-tuning for LLM-based Recommendation
+2404.17723   # SIGIR 2024 High-impact (267 citations): Retrieval-Augmented Generation with Knowledge Graphs for Customer Service Question Answering
+2110.03969   # SIGIR 2021 High-impact (261 citations): Graph Meta Network for Multi-Behavior Recommendation
+2105.04170   # SIGIR 2021 High-impact (258 citations): AutoDebias: Learning to Debias for Recommendation
+2205.02357   # SIGIR 2022 High-impact (256 citations): Hybrid Transformer with Multi-level Fusion for Multimodal Knowledge Graph Completion
+2204.08807   # SIGIR 2022 High-impact (256 citations): Multi-level Cross-view Contrastive Learning for Knowledge-aware Recommender System
+2302.03495   # SIGIR 2023 High-impact (255 citations): Can ChatGPT Write a Good Boolean Query for Systematic Review Literature Search?
+2106.01534   # SIGIR 2021 High-impact (242 citations): Deconfounded Video Moment Retrieval with Causal Intervention
+2210.10634   # SIGIR 2022 High-impact (236 citations): RankT5: Fine-Tuning T5 for Text Ranking with Ranking Losses
+2104.07413   # SIGIR 2021 High-impact (235 citations): Empowering News Recommendation with Pre-trained Language Models
+2205.04733   # SIGIR 2022 High-impact (235 citations): From Distillation to Hard Negative Sampling: Making Sparse Neural IR Models More Effective
+2304.09184   # SIGIR 2023 High-impact (225 citations): Frequency Enhanced Hybrid Attention Network for Sequential Recommendation
+2105.02254   # SIGIR 2021 High-impact (210 citations): ConsisRec: Enhancing GNN for Social Recommendation via Consistent Neighbor Aggregation
+2105.00522   # SIGIR 2021 High-impact (203 citations): Augmenting Sequential Recommendation with Pseudo-Prior Items via Reversely Pre-training Transformer
+2104.12016   # SIGIR 2021 High-impact (200 citations): Learning Passage Impacts for Inverted Indexes
+2204.12063   # SIGIR 2022 High-impact (190 citations): A Review-aware Graph Contrastive Learning Framework for Recommendation
+2204.11046   # SIGIR 2022 High-impact (189 citations): Decoupled Side Information Fusion for Sequential Recommendation
+2310.18339   # SIGIR 2023 High-impact (189 citations): When MOE Meets LLMs: Parameter Efficient Fine-tuning for Multi-task Medical Applications
+2205.00823   # SIGIR 2022 High-impact (181 citations): CenterCLIP: Token Clustering for Efficient Text-Video Retrieval
+2105.09829   # SIGIR 2021 High-impact (180 citations): Towards Personalized Fairness based on Causal Notion
+2109.05261   # SIGIR 2021 High-impact (178 citations): CauseRec: Counterfactual User Sequence Synthesis for Sequential Recommendation
+2312.02445   # SIGIR 2023 High-impact (174 citations): LLaRA: Large Language-Recommendation Assistant
+2310.10108   # SIGIR 2023 High-impact (173 citations): On Generative Agents in Recommendation
+2105.04790   # SIGIR 2021 High-impact (172 citations): Learning to Warm Up Cold Item Embeddings for Cold-start Recommendation with Meta Scaling and Shifting Networks
+2105.04166   # SIGIR 2021 High-impact (170 citations): Few-Shot Conversational Dense Retrieval
+2105.09710   # SIGIR 2021 High-impact (168 citations): Unified Conversational Recommendation Policy Learning via Graph-based Reinforcement Learning
+2305.02759   # SIGIR 2023 High-impact (167 citations): Disentangled Contrastive Collaborative Filtering
+2205.12487   # SIGIR 2022 High-impact (163 citations): End-to-End Multimodal Fact-Checking and Explanation Generation: A Challenging Dataset and Models
+2204.11067   # SIGIR 2022 High-impact (157 citations): CORE: Simple and Effective Session-based Recommendation within Consistent Representation Space
+2205.09626   # SIGIR 2022 High-impact (155 citations): BARS: Towards Open Benchmarking for Recommender Systems
+2404.05970   # SIGIR 2024 High-impact (153 citations): Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation
+2105.04785   # SIGIR 2021 High-impact (153 citations): Transfer-Meta Framework for Cross-domain Recommendation to Cold-Start Users
+2103.02590   # SIGIR 2021 High-impact (149 citations): Elliot: A Comprehensive and Rigorous Framework for Reproducible Recommender Systems Evaluation
+2304.11370   # SIGIR 2023 High-impact (149 citations): SAILER: Structure-aware Pre-trained Language Model for Legal Case Retrieval
+2105.06323   # SIGIR 2021 High-impact (147 citations): Bootstrapping User and Item Representations for One-Class Collaborative Filtering
+2103.02280   # SIGIR 2021 High-impact (145 citations): Simplified Data Wrangling with ir_datasets
+2204.08085   # SIGIR 2022 High-impact (143 citations): CPFair: Personalized Consumer and Producer Fairness Re-ranking for Recommender Systems
+2108.05552   # SIGIR 2021 High-impact (143 citations): Graph Trend Filtering Networks for Recommendation
+2202.11684   # SIGIR 2022 High-impact (142 citations): MuMiN: A Large-Scale Multilingual Multimodal Fact-Checked Misinformation Social Network Dataset
+2403.19021   # SIGIR 2024 High-impact (138 citations): IDGenRec: LLM-RecSys Alignment with Textual ID Learning
+2204.05125   # SIGIR 2022 High-impact (138 citations): ESCM2: Entire Space Counterfactual Multi-Task Model for Post-Click Conversion Rate Estimation
+2104.13095   # SIGIR 2021 High-impact (133 citations): Relational Learning with Gated and Attentive Neighbor Aggregator for Few-Shot Knowledge Graph Completion
+2307.05100   # SIGIR 2023 High-impact (127 citations): Generative-Contrastive Graph Learning for Recommendation
+2404.17591   # SIGIR 2024 High-impact (127 citations): Large Language Models for Next Point-of-Interest Recommendation
+2204.13707   # SIGIR 2022 High-impact (123 citations): Tag-assisted Multimodal Sentiment Analysis under Uncertain Missing Modalities
+2104.09024   # SIGIR 2021 High-impact (122 citations): TFROM: A Two-sided Fairness-Aware Recommendation Model for Both Customers and Providers
+2105.06247   # SIGIR 2021 High-impact (121 citations): Video Corpus Moment Retrieval with Contrastive Learning
+2411.01537   # SIGIR 2023 High-impact (120 citations): LinRec: Linear Attention Mechanism for Long-term Sequential Recommender Systems
+2402.15235   # SIGIR 2024 High-impact (117 citations): MACRec: A Multi-Agent Collaboration Framework for Recommendation
+2305.03324   # SIGIR 2023 High-impact (117 citations): Augmenting Low-Resource Text Classification with Graph-Grounded Pre-training and Prompting
+2209.14290   # SIGIR 2022 High-impact (116 citations): FiD-Light: Efficient and Effective Retrieval-Augmented Text Generation
+2202.06200   # WWW 2022 High-impact (684 citations): Improving Graph Collaborative Filtering with Neighborhood-enriched Contrastive Learning
+2202.06335   # WWW 2022 High-impact (641 citations): ET-BERT: A Contextualized Datagram Representation with Pre-training Transformers for Encrypted Traffic Classification
+2101.06448   # WWW 2021 High-impact (638 citations): Self-Supervised Multi-Channel Hypergraph Convolutional Network for Social Recommendation
+2102.07057   # WWW 2021 High-impact (635 citations): Learning Intents behind Interactions with Knowledge Graph for Recommendation
+2104.07650   # WWW 2021 High-impact (514 citations): KnowPrompt: Knowledge-aware Prompt-tuning with Synergistic Optimization for Relation Extraction
+2202.13556   # WWW 2022 High-impact (504 citations): Filter-enhanced MLP is All You Need for Sequential Recommendation
+2102.04095   # WWW 2021 High-impact (498 citations): STAN: Spatio-Temporal Attention Network for Next Location Recommendation
+2202.02519   # WWW 2022 High-impact (497 citations): Intent Contrastive Learning for Sequential Recommendation
+2202.03104   # WWW 2022 High-impact (472 citations): SimGRACE: A Simple Framework for Graph Contrastive Learning without Data Augmentation
+2310.15950   # WWW 2023 High-impact (468 citations): Representation Learning with Large Language Models for Recommendation
+2207.05969   # WWW 2022 High-impact (407 citations): Bootstrap Latent Representations for Multi-modal Recommendation
+2302.07736   # WWW 2023 High-impact (352 citations): Is ChatGPT better than Human Annotators? Potential and Limitations of ChatGPT in Explaining Implicit Hate Speech
+2102.10044   # WWW 2021 High-impact (341 citations): Interest-aware Message-Passing GCN for Recommendation
+2302.08043   # WWW 2023 High-impact (319 citations): GraphPrompt: Unifying Pre-Training and Downstream Tasks for Graph Neural Networks
+2104.10671   # WWW 2021 High-impact (309 citations): User-oriented Fairness in Recommendation
+2302.10632   # WWW 2023 High-impact (304 citations): Multi-Modal Self-Supervised Learning for Recommendation
+2210.12316   # WWW 2022 High-impact (297 citations): Learning Vector-Quantized Item Representation for Transferable Sequential Recommenders
+2201.06367   # WWW 2022 High-impact (292 citations): Towards Unsupervised Deep Graph Structure Learning
+2310.09751   # WWW 2023 High-impact (249 citations): UniTime: A Language-Empowered Unified Model for Cross-Domain Time Series Forecasting
+2110.11794   # WWW 2021 High-impact (241 citations): Federated Unlearning via Class-Discriminative Pruning
+2101.11859   # WWW 2021 High-impact (241 citations): Interpreting and Unifying Graph Neural Networks with An Optimization Framework
+2405.13576   # WWW 2024 High-impact (239 citations): FlashRAG: A Modular Toolkit for Efficient Retrieval-Augmented Generation Research
+2403.05440   # WWW 2024 High-impact (234 citations): Is Cosine-Similarity of Embeddings Really About Similarity?
+2304.04779   # WWW 2023 High-impact (234 citations): GraphMAE2: A Decoding-Enhanced Masked Self-Supervised Graph Learner
+2201.06035   # WWW 2022 High-impact (229 citations): Sequential Recommendation via Stochastic Self-Attention
+2102.07916   # WWW 2021 High-impact (226 citations): Few-Shot Graph Learning for Molecular Property Prediction
+2108.06040   # WWW 2021 High-impact (223 citations): Knowledge Graph Reasoning with Relational Digraph
+2303.11780   # WWW 2023 High-impact (219 citations): Debiased Contrastive Learning for Sequential Recommendation
+2310.09233   # WWW 2023 High-impact (219 citations): AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems
+2310.09242   # WWW 2023 High-impact (212 citations): A Multifaceted Look at Starlink Performance
+2102.07810   # WWW 2021 High-impact (208 citations): HDMI: High-order Deep Multiplex Infomax
+2101.08170   # WWW 2021 High-impact (202 citations): SUGAR: Subgraph Neural Network with Reinforcement Pooling and Self-Supervised Mutual Information Mechanism
+2309.13567   # WWW 2023 High-impact (202 citations): MentaLLaMA: Interpretable Mental Health Analysis on Social Media with Large Language Models
+2502.04413   # WWW 2025 High-impact (201 citations): MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot
+2102.09140   # WWW 2021 High-impact (188 citations): Learning Fair Representations for Recommendation: A Graph-based Perspective
+2108.05233   # WWW 2021 High-impact (187 citations): EDITS: Modeling and Mitigating Data Bias for Graph Neural Networks
+2308.11131   # WWW 2023 High-impact (185 citations): ReLLa: Retrieval-enhanced Large Language Models for Lifelong Sequential Behavior Comprehension in Recommendation
+2311.01343   # WWW 2023 High-impact (184 citations): Collaborative Large Language Model for Recommender Systems
+2202.08816   # WWW 2022 High-impact (175 citations): Learning and Evaluating Graph Neural Network Explanations based on Counterfactual and Factual Reasoning
+2204.13442   # WWW 2022 High-impact (170 citations): TTAGN: Temporal Transaction Aggregation Graph Network for Ethereum Phishing Scams Detection
+2103.02885   # WWW 2021 High-impact (168 citations): Extract the Knowledge of Graph Neural Networks and Go Beyond it: An Effective Knowledge Distillation Framework
+2307.16713   # WWW 2023 High-impact (168 citations): TFE-GNN: A Temporal Fusion Encoder Using Graph Neural Networks for Fine-grained Encrypted Traffic Classification
+2103.15452   # WWW 2021 High-impact (166 citations): Boosting the Speed of Entity Alignment 10 ×: Dual Attention Matching Network with Normalized Hard Sample Mining
+2102.11165   # WWW 2021 High-impact (166 citations): Few-shot Network Anomaly Detection via Cross-network Meta-learning
+2110.15777   # WWW 2021 High-impact (162 citations): GBK-GNN: Gated Bi-Kernel Graph Neural Networks for Modeling Both Homophily and Heterophily
+2202.06569   # WWW 2022 High-impact (162 citations): UniParser: A Unified Log Parser for Heterogeneous Log Data
+2310.13132   # WWW 2023 High-impact (162 citations): Better to Ask in English: Cross-Lingual Evaluation of Large Language Models for Healthcare Queries
+2202.06588   # WWW 2022 High-impact (159 citations): Conditional Generation Net for Medication Recommendation
+2303.07797   # WWW 2023 High-impact (159 citations): Automated Self-Supervised Learning for Recommendation
+2201.06820   # WWW 2022 High-impact (157 citations): Recommendation Unlearning
+2310.18340   # WWW 2023 High-impact (152 citations): UrbanCLIP: Learning Text-enhanced Urban Region Profiling with Contrastive Language-Image Pretraining from the Web
+2409.05591   # WWW 2024 High-impact (152 citations): MemoRAG: Boosting Long Context Processing with Global Memory-Enhanced Retrieval Augmentation
+2201.12271   # WWW 2022 High-impact (152 citations): An Empirical Investigation of Personalization Factors on TikTok
+2108.06952   # WWW 2021 High-impact (146 citations): DGCN: Diversified Recommendation with Graph Convolutional Networks
+2106.00615   # WWW 2021 High-impact (141 citations): Meta-HAR: Federated Representation Learning for Human Activity Recognition
+2301.11467   # WWW 2023 High-impact (140 citations): Cross-domain recommendation via user interest alignment
+2403.13325   # WWW 2024 High-impact (138 citations): Harnessing Large Language Models for Text-Rich Sequential Recommendation
+2405.03371   # WWW 2024 High-impact (138 citations): Explainable Fake News Detection with Large Language Model via Defense Among Competing Wisdom
+2201.06885   # WWW 2022 High-impact (138 citations): Evidence-aware Fake News Detection with Graph Neural Networks
+2402.12984   # WWW 2024 High-impact (137 citations): Can GNN be Good Adapter for LLMs?
+2405.06211   # KDD 2024 High-impact (1154 citations): A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models
+2205.10803   # KDD 2022 High-impact (1048 citations): GraphMAE: Self-Supervised Masked Graph Autoencoders
+2106.12931   # KDD 2021 High-impact (783 citations): Spatial-Temporal Graph ODE Networks for Traffic Flow Forecasting
+2303.17568   # KDD 2023 High-impact (612 citations): CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Benchmarking on HumanEval-X
+2105.09111   # KDD 2021 High-impact (567 citations): Self-supervised Heterogeneous Graph Neural Network with Co-contrastive Learning
+2112.14936   # KDD 2021 High-impact (510 citations): Are we really making much progress?: Revisiting, benchmarking and refining heterogeneous graph neural networks
+2403.14735   # KDD 2024 High-impact (480 citations): Foundation Models for Time Series Analysis: A Tutorial and Survey
+2306.09364   # KDD 2023 High-impact (436 citations): TSMixer: Lightweight MLP-Mixer Model for Multivariate Time Series Forecasting
+2306.10347   # KDD 2023 High-impact (426 citations): DCdetector: Dual Attention Contrastive Representation Learning for Time Series Anomaly Detection
+2207.09209   # KDD 2022 High-impact (424 citations): FLDetector: Defending Federated Learning Against Model Poisoning Attacks via Detecting Malicious Clients
+2305.13731   # KDD 2023 High-impact (405 citations): Text Is All You Need: Learning Language Representations for Sequential Recommendation
+2206.09113   # KDD 2022 High-impact (391 citations): Pre-training Enhanced Spatial-temporal Graph Neural Network for Multivariate Time Series Forecasting
+2206.05941   # KDD 2022 High-impact (383 citations): Towards Universal Sequence Representation Learning for Recommender Systems
+2312.14197   # KDD 2023 High-impact (356 citations): Benchmarking and Defending against Indirect Prompt Injection Attacks on Large Language Models
+2202.11176   # KDD 2022 High-impact (330 citations): A New Generation of Perspective API: Efficient Multilingual Character-level Transformers
+2208.07239   # KDD 2022 High-impact (306 citations): ROLAND: Graph Learning Framework for Dynamic Graphs
+2309.00363   # KDD 2023 High-impact (295 citations): FederatedScope-LLM: A Comprehensive Package for Fine-tuning Large Language Models in Federated Learning
+2307.01504   # KDD 2023 High-impact (291 citations): All in One: Multi-Task Prompting for Graph Neural Networks
+2206.12811   # KDD 2022 High-impact (269 citations): Towards Representation Alignment and Uniformity in Collaborative Filtering
+2403.00813   # KDD 2024 High-impact (265 citations): UrbanGPT: Spatio-Temporal Large Language Models
+2112.15089   # KDD 2021 High-impact (259 citations): Causal Attention for Interpretable and Generalizable Graph Classification
+2106.03569   # KDD 2021 High-impact (254 citations): Socially-Aware Self-Supervised Tri-Training for Recommendation
+2402.06954   # KDD 2024 High-impact (252 citations): OpenFedLLM: Training Large Language Models on Decentralized Private Data via Federated Learning
+2107.10670   # KDD 2021 High-impact (242 citations): Structure-aware Interactive Graph Neural Networks for the Prediction of Protein-Ligand Binding Affinity
+2404.11457   # KDD 2024 High-impact (241 citations): Bias and Unfairness in Information Retrieval Systems: New Challenges in the LLM Era
+2305.10837   # KDD 2023 High-impact (240 citations): Adaptive Graph Contrastive Learning for Recommendation
+2206.01062   # KDD 2022 High-impact (233 citations): DocLayNet: A Large Human-Annotated Dataset for Document-Layout Segmentation
+2107.00910   # KDD 2021 High-impact (232 citations): Learned Token Pruning for Transformers
+2105.10648   # KDD 2021 High-impact (232 citations): Deconfounded Recommendation for Alleviating Bias Amplification
+2206.09363   # KDD 2022 High-impact (228 citations): Towards Unified Conversational Recommender Systems via Knowledge-Enhanced Prompt Learning
+2402.18485   # KDD 2024 High-impact (212 citations): A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist
+2108.03348   # KDD 2021 High-impact (208 citations): Global Self-Attention as a Replacement for Graph Convolution
+2402.11838   # KDD 2024 High-impact (204 citations): UniST: A Prompt-Empowered Universal Model for Urban Spatio-Temporal Prediction
+2507.21504   # KDD 2025 High-impact (204 citations): Evaluation and Benchmarking of LLM Agents: A Survey
+2207.05584   # KDD 2022 High-impact (202 citations): Multi-Behavior Hypergraph-Enhanced Transformer for Sequential Recommendation
+2207.14338   # KDD 2022 High-impact (202 citations): Self-Supervised Hypergraph Transformer for Recommender Systems
+2404.00579   # KDD 2024 High-impact (201 citations): A Review of Modern Recommender Systems Using Generative Models (Gen-RecSys)
+2106.05223   # KDD 2021 High-impact (191 citations): Cross-Node Federated Graph Neural Network for Spatio-Temporal Data Modeling
+2307.02759   # KDD 2023 High-impact (190 citations): Knowledge Graph Self-Supervised Rationalization for Recommendation
+2205.10053   # KDD 2022 High-impact (187 citations): What's Behind the Mask: Understanding Masked Graph Modeling for Graph Autoencoders
+2412.10859   # KDD 2024 High-impact (178 citations): DUET: Dual Clustering Enhanced Multivariate Time Series Forecasting
+2106.06586   # KDD 2021 High-impact (177 citations): Breaking the Limit of Graph Neural Networks by Improving the Assortativity of Graphs with Local Mixing Patterns
+2310.10830   # KDD 2023 High-impact (176 citations): Fake News in Sheep's Clothing: Robust Fake News Detection Against LLM-Empowered Style Attacks
+2302.01115   # KDD 2023 High-impact (173 citations): PEPNet: Parameter and Embedding Personalized Network for Infusing with Personalized Prior Information
+2404.03648   # KDD 2024 High-impact (173 citations): AutoWebGLM: A Large Language Model-based Web Navigating Agent
+2106.04714   # KDD 2021 High-impact (172 citations): NRGNN: Learning a Label Noise Resistant Graph Neural Network on Sparsely and Noisily Labeled Graphs
+2107.03767   # KDD 2021 High-impact (169 citations): Discrete-time Temporal Network Embedding via Implicit Hierarchical Learning in Hyperbolic Space
+2402.08678   # KDD 2024 High-impact (166 citations): Graph Mamba: Towards Learning on Graphs with State Space Models
+2210.17292   # KDD 2022 High-impact (165 citations): M3Care: Learning with Missing Modalities in Multimodal Healthcare Data
+2206.07746   # KDD 2022 High-impact (164 citations): Condensing Graphs via One-Step Gradient Matching
+2405.08011   # KDD 2024 High-impact (163 citations): A Survey of Large Language Models for Graphs
+2206.13167   # KDD 2022 High-impact (163 citations): Local Evaluation of Time Series Anomaly Detection Algorithms
+2106.09297   # KDD 2021 High-impact (162 citations): Embedding-based Product Retrieval in Taobao Search
+2206.05871   # KDD 2022 High-impact (161 citations): Causal Inference-Based Root Cause Analysis for Online Service Systems with Intervention Recognition
+2106.04509   # KDD 2021 High-impact (161 citations): MoCL: Data-driven Molecular Fingerprint via Knowledge-aware Contrastive Learning from Molecular Graph
+2406.17706   # KDD 2024 High-impact (160 citations): FedBiOT: LLM Local Fine-tuning in Federated Learning without Full Model
+2206.04355   # KDD 2022 High-impact (160 citations): Graph Attention Multi-Layer Perceptron
+2401.17644   # KDD 2024 High-impact (158 citations): BurstGPT: A Real-World Workload Dataset to Optimize LLM Serving Systems
+2401.08508   # KDD 2024 High-impact (155 citations): EmoLLMs: A Series of Emotional Large Language Models and Annotation Tools for Comprehensive Affective Analysis
+2404.11343   # KDD 2024 High-impact (154 citations): Large Language Models meet Collaborative Filtering: An Efficient All-round LLM-based Recommender System
+2110.05730   # WSDM 2021 High-impact (615 citations): Contrastive Learning for Representation Degeneration Problem in Sequential Recommendation
+2103.08826   # WSDM 2021 High-impact (501 citations): GraphSMOTE: Imbalanced Node Classification on Graphs with Graph Neural Networks
+2311.00423   # WSDM 2023 High-impact (498 citations): LLMRec: Large Language Models with Graph Augmentation for Recommendation
+2101.03737   # WSDM 2021 High-impact (313 citations): Improving Multi-hop Knowledge Base Question Answering by Learning Intermediate Supervision Signals
+2303.00995   # WSDM 2023 High-impact (279 citations): Heterogeneous Graph Contrastive Learning for Recommendation
+2101.03584   # WSDM 2021 High-impact (265 citations): Towards Long-term Fairness in Recommendation
+2110.11154   # WSDM 2021 High-impact (260 citations): Personalized Transfer of User Preferences for Cross-domain Recommendation
+2202.08523   # WSDM 2022 High-impact (248 citations): Contrastive Meta Learning with Behavior Multiplicity for Recommendation
+2305.13062   # WSDM 2023 High-impact (247 citations): Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study
+2312.16890   # WSDM 2023 High-impact (203 citations): DiffKG: Knowledge Graph Diffusion Model for Recommendation
+2102.09267   # WSDM 2021 High-impact (187 citations): Sparse-Interest Network for Sequential Recommendation
+2211.10486   # WSDM 2022 High-impact (167 citations): DGRec: Graph Neural Network for Recommendation with Diversified Embedding Generation
+2210.10958   # WSDM 2022 High-impact (164 citations): Federated Unlearning for On-Device Recommendation
+2206.12781   # WSDM 2022 High-impact (157 citations): Efficiently Leveraging Multi-level User Intent for Session-based Recommendation via Atten-Mixer Network
+2305.06566   # WSDM 2023 High-impact (154 citations): ONCE: Boosting Content-based Recommendation with Both Open- and Closed-source Large Language Models
+2312.02913   # WSDM 2023 High-impact (152 citations): Let the LLMs Talk: Simulating Human-to-Human Conversational QA via Zero-Shot LLM-to-LLM Interactions
+2306.01951   # WSDM 2023 High-impact (148 citations): GAD-NR: Graph Anomaly Detection via Neighborhood Reconstruction
+2201.00232   # WSDM 2022 High-impact (145 citations): Towards Robust Graph Neural Networks for Noisy Graphs with Sparse Labels
+2107.03813   # WSDM 2021 High-impact (145 citations): Heterogeneous Global Graph Neural Networks for Personalized Session-based Recommendation
+2310.02367   # WSDM 2023 High-impact (141 citations): Linear Recurrent Units for Sequential Recommendation
+2306.05064   # WSDM 2023 High-impact (139 citations): K2: A Foundation Language Model for Geoscience Knowledge Understanding and Utilization
+2110.10926   # WSDM 2021 High-impact (138 citations): PipAttack: Poisoning Federated Recommender Systems for Manipulating Item Promotion
+2112.10063   # WSDM 2021 High-impact (135 citations): Deep Graph-level Anomaly Detection by Glocal Knowledge Distillation
+2202.07648   # WSDM 2022 High-impact (132 citations): EvoKG: Jointly Modeling Event Time and Network Structure for Reasoning over Temporal Knowledge Graphs
+2308.06077   # WSDM 2023 High-impact (122 citations): Fly-Swat or Cannon? Cost-Effective Language Model Choice via Meta-Modeling
+2201.03662   # WSDM 2022 High-impact (121 citations): Learning Fair Node Representations with Graph Counterfactual Fairness
+2301.05403   # WSDM 2023 High-impact (120 citations): Knowledge Enhancement for Contrastive Multi-Behavior Recommendation
+2108.06468   # WSDM 2021 High-impact (116 citations): Modeling Scale-free Graphs with Hyperbolic Geometry for Knowledge-aware Recommendation
+2101.01433   # WSDM 2021 High-impact (112 citations): Temporal Meta-path Guided Explainable Recommendation
+2111.06685   # WSDM 2021 High-impact (111 citations): DeepXML: A Deep Extreme Multi-Label Learning Framework Applied to Short Text Documents

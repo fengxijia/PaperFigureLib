@@ -1,0 +1,62 @@
+# Most cited 2021-2026 papers of the econ venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-21).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2301.07543   # EC 2023 High-impact (566 citations): Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?
+2106.01340   # EC 2021 High-impact (122 citations): Transaction Fee Mechanism Design
+2302.01989   # EC 2023 High-impact (105 citations): Robust and Verifiable Proportionality Axioms for Multiwinner Voting
+2103.04304   # EC 2021 High-impact (83 citations): Fair-Share Allocations for Agents with Arbitrary Entitlements
+2204.01120   # EC 2022 High-impact (79 citations): Learning-Augmented Mechanism Design: Leveraging Predictions for Facility Location
+2309.01291   # EC 2023 High-impact (74 citations): Generative Social Choice
+2211.05732   # EC 2022 High-impact (73 citations): The Sample Complexity of Online Contract Design
+2204.05238   # EC 2022 High-impact (70 citations): Optimal Routing for Constant Function Market Makers
+2102.01240   # EC 2021 High-impact (64 citations): Fair Dynamic Rationing
+2102.11050   # EC 2021 High-impact (63 citations): Online Learning via Offline Greedy Algorithms: Applications in Market Design and Optimization
+2111.09179   # EC 2021 High-impact (62 citations): Contracts with Private Cost per Unit-of-Effort
+2201.03968   # EC 2022 High-impact (61 citations): Optimal and Differentially Private Data Acquisition: Central and Local Mechanisms
+2205.15760   # EC 2022 High-impact (61 citations): Optimized Distortion and Proportional Fairness in Voting
+2106.00319   # EC 2021 High-impact (60 citations): Bayesian Agency: Linear versus Tractable Contracts
+2102.10261   # EC 2021 High-impact (57 citations): Online Stochastic Max-Weight Bipartite Matching: Beyond Prophet Inequalities
+2202.05947   # EC 2022 High-impact (56 citations): Artificial Intelligence and Auction Design
+2205.13026   # EC 2022 High-impact (55 citations): Preference Dynamics Under Personalized Recommendations
+2103.01628   # EC 2021 High-impact (52 citations): Improving EFX Guarantees through Rainbow Cycle Number
+2202.10678   # EC 2022 High-impact (51 citations): Sequential Information Design: Markov Persuasion Process and Its Efficient Reinforcement Learning
+2201.10483   # EC 2022 High-impact (50 citations): Multi-agent Performative Prediction: From Global Stability and Optimality to Chaos
+2103.13969   # EC 2021 High-impact (49 citations): The Complexity of Pacing for Second-Price Auctions
+2202.10966   # EC 2022 High-impact (49 citations): Designing Menus of Contracts Efficiently: The Power of Randomization
+2102.10156   # EC 2021 High-impact (47 citations): Learning to Persuade on the Fly: Robustness Against Ignorance
+2208.09407   # EC 2022 High-impact (47 citations): Learning in Stackelberg Games with Non-myopic Agents
+2105.13870   # EC 2021 High-impact (46 citations): Regret-Minimizing Bayesian Persuasion
+2106.12459   # EC 2021 High-impact (45 citations): Polarization in Geometric Opinion Dynamics
+2105.14388   # EC 2021 High-impact (42 citations): Dynamic Placement in Refugee Resettlement
+2406.12413   # EC 2024 High-impact (40 citations): Pushing the Frontier on Approximate EFX Allocations
+2103.06392   # EC 2021 High-impact (40 citations): Design and Analysis of Bipartite Experiments Under a Linear Exposure-response Model
+2302.04581   # EC 2023 High-impact (39 citations): A Reduction from Chores Allocation to Job Scheduling
+2301.13654   # EC 2023 High-impact (39 citations): Multi-Agent Contract Design: How to Commission Multiple Agents with Individual Outcomes
+2410.13580   # EC 2024 High-impact (39 citations): EFX Exists for Three Types of Agents
+2205.04252   # EC 2022 High-impact (38 citations): Improved Price of Anarchy via Predictions
+2108.12893   # EC 2021 High-impact (38 citations): Tight Guarantees for Static Threshold Policies in the Prophet Secretary Problem
+2103.05611   # EC 2021 High-impact (35 citations): Optimal Pricing with a Single Point
+2103.03238   # EC 2021 High-impact (34 citations): On the Complexity of Equilibrium Computation in First-Price Auctions
+2210.07502   # EC 2022 High-impact (33 citations): Liquid Welfare Guarantees for No-Regret Learning in Sequential Budgeted Auctions
+2301.08090   # EC 2023 High-impact (33 citations): Weighted EF1 Allocations for Indivisible Chores
+2105.12954   # EC 2021 High-impact (33 citations): Better Regularization for Sequential Decision Spaces: Fast Convergence Rates for Nash, Correlated, and Team Equilibria
+2205.08667   # EC 2022 High-impact (33 citations): Improved Online Contention Resolution for Matchings and Applications to the Gig Economy
+2104.04977   # WINE 2021 High-impact (108 citations): A tight negative example for MMS fair allocations
+2102.04909   # WINE 2021 High-impact (54 citations): Best-of-Both-Worlds Fair-Share Allocations
+2307.04175   # WINE 2023 High-impact (29 citations): Selling to Multiple No-Regret Buyers
+2107.05456   # WINE 2021 High-impact (28 citations): The Distortion of Distributed Metric Social Choice
+2109.08934   # WINE 2021 High-impact (26 citations): Fairness Maximization among Offline Agents in Online-Matching Markets
+2205.00140   # WINE 2022 High-impact (25 citations): Improved Approximation to First-Best Gains-from-Trade
+2310.03475   # WINE 2023 High-impact (21 citations): Fair Division with Allocator's Preference
+2108.01987   # WINE 2021 High-impact (21 citations): Core-Stable Committees under Restricted Domains
+2111.01566   # WINE 2021 High-impact (19 citations): Strategyproof and Proportionally Fair Facility Location
+2304.13917   # WINE 2023 High-impact (18 citations): Proportionally Representative Clustering
+2112.10199   # WINE 2021 High-impact (17 citations): Tractable Fragments of the Maximum Nash Welfare Problem
+2407.05139   # WINE 2024 High-impact (17 citations): Almost Envy-free Allocation of Indivisible Goods: A Tale of Two Valuations
+2106.02656   # WINE 2021 High-impact (17 citations): Approximating Nash Social Welfare under Binary XOS and Binary Subadditive Valuations
+2307.04411   # WINE 2023 High-impact (17 citations): One Quarter Each (on Average) Ensures Proportionality
+2209.14468   # WINE 2022 High-impact (17 citations): Auditing for Core Stability in Participatory Budgeting
+2111.04114   # WINE 2021 High-impact (15 citations): Formal Barriers to Simple Algorithms for the Matroid Secretary Problem
+2404.07707   # WINE 2024 High-impact (15 citations): Tree Splitting Based Rounding Scheme for Weighted Proportional Allocations with Subsidy
+2107.08153   # WINE 2021 High-impact (14 citations): A Consumer-Theoretic Characterization of Fisher Market Equilibria
+2507.03946   # WINE 2025 High-impact (14 citations): Fair and Efficient Allocation of Indivisible Mixed Manna
+2410.06877   # WINE 2024 High-impact (13 citations): Best-of-Both-Worlds Fair Allocation of Indivisible and Mixed Goods

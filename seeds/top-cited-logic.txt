@@ -1,0 +1,72 @@
+# Most cited 2021-2026 papers of the logic venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-21).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2303.04864   # CAV 2023 High-impact (152 citations): nl2spec: Interactively Translating Unstructured Natural Language to Temporal Logics with Large Language Models
+2404.00762   # CAV 2024 High-impact (131 citations): Enchanting Program Specification Synthesis by Large Language Models using Static Analysis and Program Verification
+2206.11366   # CAV 2022 High-impact (124 citations): From Spot 2.0 to Spot 2.10: What's New?
+2401.14461   # CAV 2024 High-impact (120 citations): Marabou 2.0: A Versatile Formal Analyzer of Neural Networks
+2303.10515   # CAV 2023 High-impact (63 citations): Ownership guided C to Rust translation
+2104.14025   # CAV 2021 High-impact (56 citations): A Temporal Logic for Asynchronous Hyperproperties
+2106.02628   # CAV 2021 High-impact (56 citations): Constraint-based Relational Verification
+2104.01396   # CAV 2021 High-impact (56 citations): Neural Network Robustness as a Verification Property: A Principled Case Study
+2103.12535   # CAV 2021 High-impact (53 citations): NNrepair: Constraint-based Repair of Neural Network Classifiers
+2302.04634   # CAV 2023 High-impact (43 citations): Closed-loop Analysis of Vision-based Autonomous Systems: A Case Study
+2105.12841   # CAV 2021 High-impact (41 citations): DNNV: A Framework for Deep Neural Network Verification
+2405.17304   # CAV 2024 High-impact (39 citations): Stochastic Omega-Regular Verification and Control with Supermartingales
+2105.13840   # CAV 2021 High-impact (39 citations): Gobra: Modular Specification and Verification of Go Programs (extended version)
+2103.07224   # CAV 2021 High-impact (30 citations): BDD4BNN: A BDD-based Quantitative Analysis Framework for Binarized Neural Networks
+2505.15796   # CAV 2025 High-impact (30 citations): Lean-SMT: An SMT tactic for discharging proof goals in Lean
+2105.06424   # CAV 2021 High-impact (30 citations): Stateless Model Checking under a Reads-Value-From Equivalence
+2305.17079   # CAV 2023 High-impact (29 citations): Complete Multiparty Session Type Projection with Automata
+2403.07197   # CAV 2024 High-impact (26 citations): Simulating Quantum Circuits by Model Counting
+2206.03537   # CAV 2022 High-impact (25 citations): Automated Expected Amortised Cost Analysis of Probabilistic Data Structures
+2205.01449   # CAV 2022 High-impact (24 citations): Does a Program Yield the Right Distribution? Verifying Probabilistic Programs via Generating Functions
+2310.17292   # CAV 2023 High-impact (23 citations): Boolean Abstractions for Realizability Modulo Theories
+2403.03997   # CAV 2024 High-impact (23 citations): Guiding Enumerative Program Synthesis with Large Language Models
+2305.14026   # CAV 2023 High-impact (23 citations): Synthesizing Permissive Winning Strategy Templates for Parity Games
+2505.14929   # CAV 2025 High-impact (23 citations): Lean-auto: An Interface between Lean 4 and Automated Theorem Provers
+2105.14381   # CAV 2021 High-impact (23 citations): Formally Validating a Practical Verification Condition Generator (extended version)
+2305.17115   # CAV 2023 High-impact (22 citations): Policy Synthesis and Reinforcement Learning for Discounted LTL
+2105.12326   # CAV 2021 High-impact (22 citations): Model Checking Finite-Horizon Markov Chains with Probabilistic Inference
+2104.11050   # CAV 2021 High-impact (21 citations): Cameleer: a Deductive Verification Tool for OCaml
+2404.01769   # CAV 2024 High-impact (21 citations): Unifying Qualitative and Quantitative Safety Verification of DNN-Controlled Systems
+2505.18833   # CAV 2025 High-impact (21 citations): Supermartingale Certificates for Quantitative Omega-regular Verification and Control
+2504.05065   # CAV 2025 High-impact (21 citations): Quantitative Supermartingale Certificates
+2105.14247   # CAV 2021 High-impact (21 citations): Causality-Based Game Solving
+2206.02653   # CAV 2022 High-impact (20 citations): Abstraction-Refinement for Hierarchical Probabilistic Models
+2301.08714   # CAV 2023 High-impact (20 citations): Verse: A Python library for reasoning about multi-agent hybrid system scenarios
+2109.00542   # CAV 2021 High-impact (19 citations): Shared Certificates for Neural Network Verification
+2212.02781   # CAV 2022 High-impact (19 citations): QEBVerif: Quantization Error Bound Verification of Neural Networks
+2105.14311   # CAV 2021 High-impact (19 citations): Synthesizing Invariant Barrier Certificates via Difference-of-Convex Programming
+2206.02074   # CAV 2022 High-impact (18 citations): Explaining Hyperproperty Violations
+2302.05745   # CAV 2023 High-impact (18 citations): Verifying Generalization in Deep Learning
+2208.03699   # CAV 2022 High-impact (17 citations): UCLID5: Multi-modal Formal Modeling, Verification, and Synthesis
+2104.14624   # LICS 2021 High-impact (128 citations): The Logic of Graph Neural Networks
+2101.11479   # LICS 2021 High-impact (50 citations): Normalization for Cubical Type Theory
+2105.03274   # LICS 2021 High-impact (47 citations): Lovász-Type Theorems and Game Comonads
+2303.04613   # LICS 2023 High-impact (43 citations): The Descriptive Complexity of Graph Neural Networks
+2301.11842   # LICS 2021 High-impact (42 citations): Normalization for Multimodal Type Theory
+2104.12886   # LICS 2021 High-impact (39 citations): Asynchronous Extensions of HyperLTL
+2107.03711   # LICS 2021 High-impact (38 citations): Stable graphs of bounded twin-width
+2305.05172   # LICS 2023 High-impact (37 citations): Logic for Explainable AI
+2206.10577   # LICS 2022 High-impact (34 citations): A Complete Equational Theory for Quantum Circuits
+2105.06908   # LICS 2021 High-impact (33 citations): From Multisets over Distributions to Distributions over Multisets
+2101.11351   # LICS 2021 High-impact (33 citations): Compositional Semantics for Probabilistic Programs with Exact Conditioning
+2105.07176   # LICS 2021 High-impact (32 citations): The Laplace Mechanism has optimal utility for differential privacy over continuous queries
+2301.05084   # LICS 2023 High-impact (29 citations): Local consistency as a reduction between constraint satisfaction problems
+2302.12135   # LICS 2023 High-impact (28 citations): Completeness for arbitrary finite dimensions of ZXW-calculus, a unifying calculus
+2102.00329   # LICS 2021 High-impact (27 citations): A Quantum Interpretation of Bunched Logic & Quantum Separation Logic
+https://arxiv.org/pdf/2007.01597   # LICS 2021 High-impact (26 citations): Living without Beth and Craig: Definitions and Interpolants in the Guarded and Two-Variable Fragments
+2102.06928   # LICS 2021 High-impact (25 citations): Strong Call-by-Value is Reasonable, Implosively
+2101.04238   # LICS 2021 High-impact (24 citations): Categories of Nets
+2104.14226   # LICS 2021 High-impact (24 citations): Assuming Just Enough Fairness to make Session Types Complete for Lock-freedom
+2102.00510   # LICS 2021 High-impact (23 citations): Commutative Monads for Probabilistic Programming Languages
+2301.13317   # LICS 2023 High-impact (23 citations): The Iteration Number of the Weisfeiler-Leman Algorithm
+2105.10164   # LICS 2021 High-impact (21 citations): Expressivity of Quantitative Modal Logics : Categorical Foundations via Codensity and Approximation
+2201.09361   # LICS 2022 High-impact (21 citations): Quantum Expectation Transformers for Cost Analysis
+2311.07476   # LICS 2023 High-impact (20 citations): Minimal Equational Theories for Quantum Circuits
+2303.14976   # LICS 2023 High-impact (19 citations): Semi-Simplicial Set Models for Distributed Knowledge
+2205.04309   # LICS 2022 High-impact (19 citations): Characterizing Positionality in Games of Infinite Duration over Infinite Graphs
+2104.15053   # LICS 2021 High-impact (19 citations): Some constructive variants of S4 with the finite model property
+2301.12989   # LICS 2023 High-impact (19 citations): Evidential Decision Theory via Partial Markov Categories
+2202.13014   # LICS 2022 High-impact (19 citations): Model Checking on Interpretations of Classes of Bounded Local Cliquewidth
+2203.03425   # LICS 2022 High-impact (18 citations): Zero-One Laws and Almost Sure Valuations of First-Order Logic in Semiring Semantics

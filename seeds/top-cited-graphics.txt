@@ -1,0 +1,211 @@
+# Most cited 2021-2026 papers of the graphics venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-21).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2111.05826   # SIGGRAPH 2021 High-impact (2393 citations): Palette: Image-to-Image Diffusion Models
+2403.17888   # SIGGRAPH 2024 High-impact (1616 citations): 2D Gaussian Splatting for Geometrically Accurate Radiance Fields
+2302.04264   # SIGGRAPH 2023 High-impact (1042 citations): Nerfstudio: A Modular Framework for Neural Radiance Field Development
+2202.00273   # SIGGRAPH 2022 High-impact (715 citations): StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets
+2302.03027   # SIGGRAPH 2023 High-impact (665 citations): Zero-shot Image-to-Image Translation
+2312.03641   # SIGGRAPH 2023 High-impact (638 citations): MotionCtrl: A Unified and Flexible Motion Controller for Video Generation
+2302.01721   # SIGGRAPH 2023 High-impact (393 citations): TEXTure: Text-Guided Texturing of 3D Shapes
+2305.10973   # SIGGRAPH 2023 High-impact (367 citations): Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold
+2302.14859   # SIGGRAPH 2023 High-impact (318 citations): BakedSDF: Meshing Neural SDFs for Real-Time View Synthesis
+2401.16663   # SIGGRAPH 2024 High-impact (304 citations): VR-GS: A Physical Dynamics-Aware Interactive Gaussian Splatting System in Virtual Reality
+2211.13752   # SIGGRAPH 2022 High-impact (298 citations): Sketch-Guided Text-to-Image Diffusion Models
+2402.03307   # SIGGRAPH 2024 High-impact (270 citations): 4D-Rotor Gaussian Splatting: Towards Efficient Novel View Synthesis for Dynamic Scenes
+2404.17774   # SIGGRAPH 2024 High-impact (257 citations): High-quality Surface Reconstruction using Gaussian Surfels
+2205.09542   # SIGGRAPH 2022 High-impact (254 citations): Domain Enhanced Arbitrary Image Style Transfer via Contrastive Learning
+2305.01644   # SIGGRAPH 2023 High-impact (250 citations): Key-Locked Rank One Editing for Text-to-Image Personalization
+2205.15278   # SIGGRAPH 2022 High-impact (246 citations): EAMM: One-Shot Emotional Talking Face via Audio-Based Emotion-Aware Motion Model
+2401.15977   # SIGGRAPH 2024 High-impact (242 citations): Motion-I2V: Consistent and Controllable Image-to-Video Generation with Explicit Motion Modeling
+2307.11410   # SIGGRAPH 2023 High-impact (230 citations): Subject-Diffusion: Open Domain Personalized Text-to-Image Generation without Test-time Fine-tuning
+2405.00666   # SIGGRAPH 2024 High-impact (206 citations): RGB↔X: Image decomposition and synthesis using material- and lighting-aware diffusion models
+2402.03162   # SIGGRAPH 2024 High-impact (194 citations): Direct-a-Video: Customized Video Generation with User-Directed Camera Movement and Object Motion
+2501.03847   # SIGGRAPH 2025 High-impact (189 citations): Diffusion as Shader: 3D-aware Video Diffusion for Versatile Video Generation Control
+2311.03335   # SIGGRAPH 2023 High-impact (178 citations): Cross-Image Attention for Zero-Shot Appearance Transfer
+2206.07707   # SIGGRAPH 2022 High-impact (162 citations): Variable Bitrate Neural Fields
+2305.02195   # SIGGRAPH 2023 High-impact (155 citations): CALM: Conditional Adversarial Latent Models  for Directable Virtual Characters
+2205.12955   # SIGGRAPH 2022 High-impact (150 citations): Neural 3D Reconstruction in the Wild
+2312.04558   # SIGGRAPH 2023 High-impact (141 citations): MonoGaussianAvatar: Monocular Gaussian Point-based Head Avatar
+2202.08345   # SIGGRAPH 2022 High-impact (141 citations): Learning Smooth Neural Functions via Lipschitz Regularization
+2302.00883   # SIGGRAPH 2023 High-impact (135 citations): Synthesizing Physical Character-Scene Interactions
+2304.13348   # SIGGRAPH 2023 High-impact (130 citations): TextDeformer: Geometry Manipulation using Text Guidance
+2205.10824   # SIGGRAPH 2022 High-impact (123 citations): ReLU Fields: The Little Non-linearity That Could
+2112.05219   # SIGGRAPH 2021 High-impact (121 citations): CLIP2StyleGAN: Unsupervised Extraction of StyleGAN Edit Directions
+2402.11929   # SIGGRAPH 2024 High-impact (120 citations): DiLightNet: Fine-grained Lighting Control for Diffusion-based Image Generation
+2403.15931   # SIGGRAPH 2024 High-impact (112 citations): X-Portrait: Expressive Portrait Animation with Hierarchical Motion Attention
+2205.02367   # SIGGRAPH 2022 High-impact (109 citations): Time-multiplexed Neural Holography: A Flexible Framework for Holographic Near-eye Displays with Fast Heavily-quantized Spatial Light Modulators
+2405.11126   # SIGGRAPH 2024 High-impact (103 citations): Flexible Motion In-betweening with Diffusion Models
+2211.13206   # SIGGRAPH 2022 High-impact (100 citations): AvatarMAV: Fast 3D Head Avatar Reconstruction Using Motion-Aware Neural Voxels
+2205.11733   # SIGGRAPH 2022 High-impact (97 citations): Single-View View Synthesis in the Wild with Learned Adaptive Multiplane Images
+2312.16693   # SIGGRAPH 2023 High-impact (94 citations): I2V-Adapter: A General Image-to-Video Adapter for Diffusion Models
+2404.19398   # SIGGRAPH 2024 High-impact (90 citations): 3D Gaussian Blendshapes for Head Avatar Animation
+2404.18454   # SIGGRAPH 2024 High-impact (89 citations): 3D Gaussian Splatting with Deferred Reflection
+2503.05639   # SIGGRAPH 2025 High-impact (89 citations): VideoPainter: Any-length Video Inpainting and Editing with Plug-and-Play Context Control
+2312.03079   # SIGGRAPH 2023 High-impact (84 citations): LOOSECONTROL: Lifting ControlNet for Generalized Depth Conditioning
+2212.01406   # SIGGRAPH 2022 High-impact (81 citations): ClipFace: Text-guided Editing of Textured 3D Morphable Models
+2404.15121   # SIGGRAPH 2024 High-impact (80 citations): Taming Diffusion Probabilistic Models for Character Control
+2207.09774   # SIGGRAPH 2022 High-impact (79 citations): Drivable Volumetric Avatars using Texel-Aligned Features
+2502.08639   # SIGGRAPH 2025 High-impact (77 citations): CineMaster: A 3D-Aware and Controllable Framework for Cinematic Text-to-Video Generation
+2311.10093   # SIGGRAPH 2023 High-impact (76 citations): The Chosen One: Consistent Characters in Text-to-Image Diffusion Models
+2305.00041   # SIGGRAPH 2023 High-impact (76 citations): ViP-NeRF: Visibility Prior for Sparse Input Neural Radiance Fields
+2308.13404   # SIGGRAPH 2023 High-impact (74 citations): Relighting Neural Radiance Fields with Shadow and Highlight Hints
+2401.15687   # SIGGRAPH 2024 High-impact (74 citations): Media2Face: Co-speech Facial Animation Generation With Multi-Modality Guidance
+2305.00942   # SIGGRAPH 2023 High-impact (73 citations): StyleAvatar: Real-time Photo-realistic Portrait Avatar from a Single Video
+2205.01355   # SIGGRAPH 2022 High-impact (72 citations): Predicting Loose-Fitting Garment Deformations Using Bone-Driven Motion Networks
+2405.16888   # SIGGRAPH 2024 High-impact (70 citations): Part123: Part-aware 3D Reconstruction from a Single-view Image
+2305.01190   # SIGGRAPH 2023 High-impact (70 citations): LatentAvatar: Learning Latent Expression Code for Expressive Neural Head Avatar
+2304.13006   # SIGGRAPH 2023 High-impact (70 citations): PoseVocab: Learning Joint-structured Pose Embeddings for Human Avatar Modeling
+2307.03441   # SIGGRAPH 2023 High-impact (66 citations): NOFA: NeRF-based One-shot Facial Avatar Reconstruction
+2408.13252   # SIGGRAPH 2024 High-impact (64 citations): LayerPano3D: Layered 3D Panorama for Hyper-Immersive Scene Generation
+2305.03486   # SIGGRAPH 2023 High-impact (63 citations): Iterative α -(de)Blending: a Minimalist Deterministic Diffusion Model
+2305.02627   # SIGGRAPH 2023 High-impact (62 citations): UrbanBIS: a Large-scale Benchmark for Fine-grained Urban Building Instance Segmentation
+2201.04873   # SIGGRAPH 2022 High-impact (60 citations): VoLux-GAN: A Generative Model for 3D Face Synthesis with HDRI Relighting
+2305.20041   # SIGGRAPH 2023 High-impact (59 citations): Simulation and Retargeting of Complex Multi-Character Interactions
+2305.03249   # SIGGRAPH 2023 High-impact (59 citations): PMP: Learning to Physically Interact with Environments using Part-wise Motion Priors
+2306.05666   # SIGGRAPH 2023 High-impact (57 citations): QuestEnvSim: Environment-Aware Simulated Motion Tracking from Sparse Sensors
+2307.15042   # SIGGRAPH 2023 High-impact (55 citations): TEDi: Temporally-Entangled Diffusion for Long-Term Motion Synthesis
+2204.01787   # SIGGRAPH 2022 High-impact (55 citations): GWA: A Large High-Quality Acoustic Dataset for Audio Processing
+2407.13759   # SIGGRAPH 2024 High-impact (54 citations): Streetscapes: Large-scale Consistent Street View Generation Using Autoregressive Video Diffusion
+2502.04299   # SIGGRAPH 2025 High-impact (53 citations): MotionCanvas: Cinematic Shot Design with Controllable Image-to-Video Generation
+2403.07764   # SIGGRAPH 2024 High-impact (50 citations): StableMakeup: When Real-World Makeup Transfer Meets Diffusion Model
+2501.18630   # SIGGRAPH 2025 High-impact (50 citations): Deformable Beta Splatting
+2405.03659   # SIGGRAPH 2024 High-impact (49 citations): A Construct-Optimize Approach to Sparse View Synthesis without Camera Pose
+2202.12211   # SIGGRAPH 2022 High-impact (49 citations): Self-Distilled StyleGAN: Towards Generation from Internet Photos
+2202.00948   # SIGGRAPH 2022 High-impact (49 citations): Eikonal Fields for Refractive Novel-View Synthesis
+2312.11538   # SIGGRAPH 2023 High-impact (48 citations): Iterative Motion Editing with Natural Language
+2501.01427   # SIGGRAPH 2025 High-impact (47 citations): VideoAnydoor: High-fidelity Video Object Insertion with Precise Motion Control
+2404.19541   # SIGGRAPH 2024 High-impact (47 citations): Ultra Inertial Poser: Scalable Motion Capture and Tracking from Sparse Inertial Sensors and Ultra-Wideband Ranging
+2502.17796   # SIGGRAPH 2025 High-impact (47 citations): LAM: Large Avatar Model for One-shot Animatable Gaussian Head
+2404.19619   # SIGGRAPH 2024 High-impact (46 citations): Physical Non-inertial Poser (PNP): Modeling Non-inertial Effects in Sparse-inertial Human Motion Capture
+2201.12044   # SIGGRAPH 2022 High-impact (45 citations): Generative GaitNet
+2207.02186   # SIGGRAPH 2022 High-impact (44 citations): NeuralPassthrough: Learned Real-Time View Synthesis for VR
+2305.08296   # SIGGRAPH 2023 High-impact (43 citations): Neural Face Rigging for Animating and Retargeting Facial Meshes in the Wild
+2401.12945   # SIGGRAPH Asia 2024 High-impact (554 citations): Lumiere: A Space-Time Diffusion Model for Video Generation
+2205.15285   # SIGGRAPH Asia 2022 High-impact (481 citations): Fast Dynamic Radiance Fields with Time-Aware Neural Voxels
+2203.13333   # SIGGRAPH Asia 2022 High-impact (365 citations): CLIP-Mesh: Generating textured meshes from text using pretrained image-text models
+2306.07954   # SIGGRAPH Asia 2023 High-impact (343 citations): Rerender A Video: Zero-Shot Text-Guided Video-to-Video Translation
+2403.12015   # SIGGRAPH Asia 2024 High-impact (311 citations): Fast High-Resolution Image Synthesis with Latent Adversarial Diffusion Distillation
+2406.15643   # SIGGRAPH Asia 2024 High-impact (290 citations): Taming 3DGS: High-Quality Radiance Fields with Limited Resources
+2305.16311   # SIGGRAPH Asia 2023 High-impact (284 citations): Break-A-Scene: Extracting Multiple Concepts from a Single Image
+2306.13455   # SIGGRAPH Asia 2023 High-impact (208 citations): DreamEditor: Text-Driven 3D Scene Editing with Neural Fields
+2112.01517   # SIGGRAPH Asia 2021 High-impact (195 citations): Efficient Neural Radiance Fields for Interactive Free-viewpoint Video
+2406.01900   # SIGGRAPH Asia 2024 High-impact (188 citations): Follow-Your-Emoji: Fine-Controllable and Expressive Freestyle Portrait Animation
+2211.14758   # SIGGRAPH Asia 2022 High-impact (184 citations): VideoReTalking: Audio-based Lip Synchronization for Talking Head Video Editing In the Wild
+2409.06662   # SIGGRAPH Asia 2024 High-impact (178 citations): World-Grounded Human Motion Recovery via Gravity-View Coordinates
+2209.08725   # SIGGRAPH Asia 2022 High-impact (177 citations): Neural Wavelet-domain Diffusion for 3D Shape Generation
+2209.09391   # SIGGRAPH Asia 2022 High-impact (164 citations): QuestSim: Human Motion Tracking from Sparse Sensors with Simulated Avatars
+2506.03141   # SIGGRAPH Asia 2025 High-impact (157 citations): Context as Memory: Scene-Consistent Interactive Long Video Generation with Memory Retrieval
+2306.08990   # SIGGRAPH Asia 2023 High-impact (147 citations): Emotional Speech-Driven Animation with Content-Emotion Disentanglement
+2203.15720   # SIGGRAPH Asia 2022 High-impact (140 citations): Transformer Inertial Poser: Real-time Human Motion Reconstruction from Sparse IMUs with Simultaneous Terrain Generation
+2311.02542   # SIGGRAPH Asia 2023 High-impact (132 citations): VR-NeRF: High-Fidelity Virtualized Walkable Spaces
+2210.01868   # SIGGRAPH Asia 2022 High-impact (125 citations): Capturing and Animation of Body and Clothing from Monocular Video
+2205.14330   # SIGGRAPH Asia 2022 High-impact (120 citations): Differentiable Point-Based Radiance Fields for Efficient View Synthesis
+2211.03017   # SIGGRAPH Asia 2022 High-impact (113 citations): Learning-based Inverse Rendering of Complex Indoor Scenes with Differentiable Monte Carlo Raytracing
+2406.18717   # SIGGRAPH Asia 2024 High-impact (112 citations): Dynamic Gaussian Marbles for Novel View Synthesis of Casual Monocular Videos
+2201.08361   # SIGGRAPH Asia 2022 High-impact (109 citations): Stitch it in Time: GAN-Based Facial Editing of Real Videos
+2307.06925   # SIGGRAPH Asia 2023 High-impact (107 citations): Domain-Agnostic Tuning-Encoder for Fast Personalization of Text-To-Image Models
+2306.06638   # SIGGRAPH Asia 2023 High-impact (103 citations): Face0: Instantaneously Conditioning a Text-to-Image Model on a Face
+2303.13495   # SIGGRAPH Asia 2023 High-impact (101 citations): ReVersion: Diffusion-Based Relation Inversion from Images
+2311.12891   # SIGGRAPH Asia 2023 High-impact (101 citations): Text-Guided Texturing by Synchronized Multi-View Diffusion
+2401.00896   # SIGGRAPH Asia 2023 High-impact (99 citations): TrailBlazer: Trajectory Control for Diffusion-Based Video Generation
+2211.00099   # SIGGRAPH Asia 2022 High-impact (96 citations): UmeTrack: Unified multi-view end-to-end hand tracking for VR
+2504.16915   # SIGGRAPH Asia 2025 High-impact (92 citations): DreamO: A Unified Framework for Image Customization
+2309.11351   # SIGGRAPH Asia 2023 High-impact (85 citations): C·ASE: Learning Conditional Adversarial Skill Embeddings for Physics-based Characters
+2504.14899   # SIGGRAPH Asia 2025 High-impact (81 citations): Uni3C: Unifying Precisely 3D-Enhanced Camera and Human Motion Controls for Video Generation
+2305.18247   # SIGGRAPH Asia 2023 High-impact (81 citations): Interactive Story Visualization with Multiple Characters
+2408.00735   # SIGGRAPH Asia 2024 High-impact (80 citations): TurboEdit: Text-Based Image Editing Using Few-Step Diffusion Models
+2403.17827   # SIGGRAPH Asia 2024 High-impact (78 citations): DiffH2O: Diffusion-Based Synthesis of Hand-Object Interactions from Textual Descriptions
+2409.08669   # SIGGRAPH Asia 2024 High-impact (77 citations): AdR-Gaussian: Accelerating Gaussian Splatting with Adaptive Radius
+2310.08585   # SIGGRAPH Asia 2023 High-impact (76 citations): High-Fidelity and Real-Time Novel View Synthesis for Dynamic Scenes
+2408.00712   # SIGGRAPH Asia 2024 High-impact (74 citations): MotionFix: Text-Driven 3D Human Motion Editing
+2410.03187   # SIGGRAPH Asia 2024 High-impact (72 citations): Autonomous Character-Scene Interaction Synthesis from Text Instruction
+2301.13868   # SIGGRAPH Asia 2022 High-impact (69 citations): PADL: Language-Directed Physics-Based Character Control
+2406.09377   # SIGGRAPH Asia 2024 High-impact (68 citations): GGHead: Fast and Generalizable 3D Gaussian Heads
+2405.16537   # SIGGRAPH Asia 2024 High-impact (65 citations): I2VEdit: First-Frame-Guided Video Editing via Image-to-Video Diffusion Models
+2209.01161   # SIGGRAPH Asia 2022 High-impact (64 citations): Reconstructing editable prismatic CAD from rounded voxel models
+2406.06539   # SIGGRAPH Asia 2023 High-impact (62 citations): MatFusion: A Generative Diffusion Model for SVBRDF Capture
+2410.11419   # SIGGRAPH Asia 2024 High-impact (62 citations): GS3: Efficient Relighting with Triple Gaussian Splatting
+2309.03955   # SIGGRAPH Asia 2023 High-impact (62 citations): SimpleNeRF: Regularizing Sparse Input Neural Radiance Fields with Simpler Solutions
+2405.19331   # SIGGRAPH Asia 2024 High-impact (61 citations): NPGA: Neural Parametric Gaussian Avatars
+2311.09221   # SIGGRAPH Asia 2023 High-impact (61 citations): Single-Image 3D Human Digitization with Shape-guided Diffusion
+2206.05649   # SIGGRAPH Asia 2022 High-impact (61 citations): TileGen: Tileable, Controllable Material Generation and Capture
+2507.06165   # SIGGRAPH Asia 2025 High-impact (60 citations): OmniPart: Part-Aware 3D Generation with Semantic Decoupling and Structural Cohesion
+2102.02766   # TOG 2021 High-impact (923 citations): Designing an encoder for StyleGAN image manipulation
+2301.13826   # TOG 2023 High-impact (899 citations): Attend-and-Excite: Attention-Based Semantic Guidance for Text-to-Image Diffusion Models
+2106.05744   # TOG 2021 High-impact (632 citations): Pivotal Tuning for Latent-based Editing of Real Images
+2206.02779   # TOG 2022 High-impact (586 citations): Blended Latent Diffusion
+2301.11445   # TOG 2023 High-impact (552 citations): 3DShape2VecSet: A 3D Shape Representation for Neural Fields and Generative Diffusion Models
+2406.13897   # TOG 2024 High-impact (534 citations): CLAY: A Controllable Large-scale Generative Model for Creating High-quality 3D Assets
+2103.01954   # TOG 2021 High-impact (373 citations): Mixture of volumetric primitives for efficient neural rendering
+2306.00306   # TOG 2023 High-impact (370 citations): Low-Light Image Enhancement with Wavelet-Based Diffusion Models
+2406.12080   # TOG 2024 High-impact (365 citations): A Hierarchical 3D Gaussian Representation for Real-Time Rendering of Very Large Datasets
+2106.13228   # TOG 2021 High-impact (351 citations): HyperNeRF
+2404.10772   # TOG 2024 High-impact (344 citations): Gaussian Opacity Fields: Efficient Adaptive Surface Reconstruction in Unbounded Scenes
+2108.00946   # TOG 2021 High-impact (322 citations): StyleGAN-NADA
+2302.12249   # TOG 2023 High-impact (304 citations): MERF: Memory-Efficient Radiance Fields for Real-time View Synthesis in Unbounded Scenes
+2211.09707   # TOG 2022 High-impact (290 citations): Listen, Denoise, Action! Audio-Driven Motion Synthesis with Diffusion Models
+2505.23716   # TOG 2025 High-impact (265 citations): AnySplat: Feed-forward 3D Gaussian Splatting from Unconstrained Views
+2302.12228   # TOG 2023 High-impact (262 citations): Encoder-based Domain Tuning for Fast Personalization of Text-to-Image Models
+2309.16237   # TOG 2023 High-impact (260 citations): Object Motion Guided Human Motion Synthesis
+2303.14613   # TOG 2023 High-impact (248 citations): GestureDiffuCLIP: Gesture Diffusion Model with CLIP Latents
+2305.03027   # TOG 2023 High-impact (241 citations): NeRSemble: Multi-view Radiance Field Reconstruction of Human Heads
+2305.17398   # TOG 2023 High-impact (241 citations): NeRO: Neural Geometry and BRDF Reconstruction of Reflective Objects from Multiview Images
+2305.06356   # TOG 2023 High-impact (239 citations): HumanRF: High-Fidelity Neural Radiance Fields for Humans in Motion
+2106.12372   # TOG 2021 High-impact (236 citations): Real-time neural radiance caching for path tracing
+2305.03045   # TOG 2023 High-impact (226 citations): OctFormer: Octree-based Transformers for 3D Point Clouds
+2106.01970   # TOG 2021 High-impact (215 citations): NeRFactor
+2104.14786   # TOG 2021 High-impact (210 citations): Editable free-viewpoint video using a layered neural representation
+2105.01794   # TOG 2021 High-impact (204 citations): Real-time deep dynamic characters
+2305.04461   # TOG 2023 High-impact (202 citations): Locally Attentional SDF Diffusion for Controllable 3D Shape Generation
+2109.11418   # TOG 2021 High-impact (196 citations): Layered neural atlases for consistent video editing
+2407.07090   # TOG 2024 High-impact (194 citations): 3D Gaussian Ray Tracing: Fast Tracing of Particle Scenes
+2406.16864   # TOG 2024 High-impact (193 citations): StableNormal: Reducing Diffusion Variance for Stable and Sharp Normal
+2308.05371   # TOG 2023 High-impact (192 citations): Flexible Isosurface Extraction for Gradient-Based Mesh Optimization
+2210.06108   # TOG 2022 High-impact (189 citations): Reconstructing Personalized Semantic Facial NeRF Models from Monocular Video
+2102.02754   # TOG 2021 High-impact (176 citations): Only a matter of style: age transformation using a style-based regression model
+2409.14393   # TOG 2024 High-impact (171 citations): MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting
+2106.02285   # TOG 2021 High-impact (167 citations): Subdivision-based Mesh Convolution Networks
+2101.05917   # TOG 2021 High-impact (167 citations): DiffPD: Differentiable Projective Dynamics
+2205.02961   # TOG 2022 High-impact (166 citations): Approximate convex decomposition for 3D meshes with collision-aware concavity and tree search
+2402.00525   # TOG 2024 High-impact (165 citations): StopThePop: Sorted Gaussian Splatting for View-Consistent Real-time Rendering
+2106.05306   # TOG 2021 High-impact (164 citations): DiffCloth: Differentiable Cloth Simulation with Dry Frictional Contact
+2401.15563   # TOG 2024 High-impact (161 citations): BrepGen: A B-rep Generative Diffusion Model with Structured Latent Geometry
+2402.03286   # TOG 2024 High-impact (156 citations): Training-Free Consistent Text-to-Image Generation
+2305.15391   # TOG 2023 High-impact (155 citations): A Neural Space-Time Representation for Text-to-Image Personalization
+2406.01467   # TOG 2024 High-impact (152 citations): RaDe-GS: Rasterizing Depth in Gaussian Splatting
+2106.02019   # TOG 2021 High-impact (145 citations): Neural actor
+2305.16225   # TOG 2023 High-impact (140 citations): ProSpect: Prompt Spectrum for Attribute-Aware Personalization of Diffusion Models
+2202.01999   # TOG 2022 High-impact (139 citations): Neural dual contouring
+2402.17113   # TOG 2024 High-impact (136 citations): Transparent Image Layer Diffusion using Latent Transparency
+2305.04789   # TOG 2023 High-impact (132 citations): AvatarReX: Real-time Expressive Full-body Avatars
+2310.00434   # TOG 2023 High-impact (131 citations): DiffPoseTalk: Speech-Driven Stylistic 3D Facial Animation and Head Pose Generation via Diffusion Models
+2404.00409   # TOG 2024 High-impact (131 citations): 3DGSR: Implicit Surface Reconstruction with 3D Gaussian Splatting
+2209.11482   # Eurographics 2022 High-impact (14 citations): AvatarGo: Plug and Play self-avatars for VR
+2104.10898   # Eurographics 2021 High-impact (13 citations): Soft Walks: Real-Time, Two-Ways Interaction between a Character and Loose Grounds
+2112.09728   # Eurographics 2021 High-impact (9 citations): Real-Time Path-Guiding Based on Parametric Mixture Models
+2302.07691   # Eurographics 2023 High-impact (9 citations): Project Elements: A computational entity-component-system in a scene-graph pythonic framework, for a neural, geometric computer graphics curriculum
+2312.16264   # Eurographics 2023 High-impact (8 citations): SPnet: Estimating Garment Sewing Patterns from a Single Image
+2201.01873   # Eurographics 2022 High-impact (8 citations): NeuralMLS: Geometry-Aware Control Point Deformation
+2208.04370   # Eurographics 2022 High-impact (8 citations): CLIP-based Neural Neighbor Style Transfer for 3D Assets
+2504.11003   # Eurographics 2025 High-impact (5 citations): 3D Gabor Splatting: Reconstruction of High-frequency Surface Texture using Gabor Noise
+2310.15447   # Eurographics 2023 High-impact (3 citations): DeepIron: Predicting Unwarped Garment Texture from a Single Image
+2507.08805   # Eurographics 2025 High-impact (3 citations): Non-linear, Team-based VR Training for Cardiac Arrest Care with enhanced CRM Toolkit
+2504.19718   # Eurographics 2025 High-impact (2 citations): Pixels2Points: Fusing 2D and 3D Features for Facial Skin Segmentation
+2110.10446   # Eurographics 2021 High-impact (2 citations): Interactive simulation for easy decision-making in fluid dynamics
+2305.06483   # Eurographics 2023 High-impact (2 citations): Towards L-System Captioning for Tree Reconstruction
+2604.19127   # Eurographics 2026 High-impact (2 citations): OT-UVGS: Revisiting UV Mapping for Gaussian Splatting as a Capacity Allocation Problem
+2502.11618   # Eurographics 2025 High-impact (1 citations): Real-time Neural Rendering of LiDAR Point Clouds
+2605.23994   # Eurographics 2026 High-impact (0 citations): RAW: Robust Avatar Watermarking - Benchmarking and Baseline
+2403.15902   # Eurographics 2024 High-impact (0 citations): Utilizing Motion Matching with Deep Reinforcement Learning for Target Location Tasks
+2104.04055   # Eurographics 2021 High-impact (0 citations): Generative Landmarks
+2605.30396   # Eurographics 2026 High-impact (0 citations): Smaller and Faster 3DGS via Post-Training Dictionary Learning
+2307.09480   # Eurographics 2023 High-impact (0 citations): FACTS: Facial Animation Creation using the Transfer of Styles
+2203.15587   # Eurographics 2022 High-impact (0 citations): RGB-D Neural Radiance Fields: Local Sampling for Faster Training
+2604.08411   # Eurographics 2026 High-impact (0 citations): What a Comfortable World: Ergonomic Principles Guided Apartment Layout Generation
+2604.04244   # Eurographics 2026 High-impact (0 citations): VisACD: Visibility-Based GPU-Accelerated Approximate Convex Decomposition
+2605.00569   # Eurographics 2026 High-impact (0 citations): 2D-SuGaR: Surface-Aware Gaussian Splatting for Geometrically Accurate Mesh Reconstruction
+2604.24666   # Eurographics 2026 High-impact (0 citations): Voxel Deformation-Aware Neural Intersection Function
+2603.26964   # Eurographics 2026 High-impact (0 citations): Neural Approximation of Generalized Voronoi Diagrams
+2605.00219   # Eurographics 2026 High-impact (0 citations): VkSplat: High-Performance 3DGS Training in Vulkan Compute
+2305.08628   # Eurographics 2023 High-impact (0 citations): Non-Separable Multi-Dimensional Network Flows for Visual Computing
+2604.09260   # Eurographics 2026 High-impact (0 citations): Beyond Segmentation: Structurally Informed Facade Parsing from Imperfect Images

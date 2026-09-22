@@ -1,0 +1,39 @@
+# Most cited 2021-2026 papers of the crypto venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-21).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2101.10836   # CRYPTO 2021 High-impact (47 citations): Separating Adaptive Streaming from Oblivious Streaming
+2210.03458   # CRYPTO 2022 High-impact (36 citations): PAC Privacy: Automatic Privacy Measurement and Control of Data Processing
+2304.02999   # CRYPTO 2023 High-impact (14 citations): Robust Quantum Public-Key Encryption with Applications to Quantum Key Distribution
+2303.01293   # CRYPTO 2023 High-impact (14 citations): Simple Tests of Quantumness Also Certify Qubits
+2211.05491   # CRYPTO 2022 High-impact (11 citations): Black-Hole Radiation Decoding is Quantum Cryptography
+2410.01369   # CRYPTO 2024 High-impact (8 citations): Quantum Cryptography and Meta-Complexity
+2502.07159   # CRYPTO 2025 High-impact (5 citations): Pseudorandomness Properties of Random Reversible Circuits
+2603.11437   # CRYPTO 2026 High-impact (4 citations): Unclonable Encryption in the Haar Random Oracle Model
+https://eprint.iacr.org/2022/819.pdf   # CRYPTO 2022 High-impact (3 citations): Moz$\mathbb {Z}_{2^k}$arella: Efficient Vector-OLE and Zero-Knowledge Proofs over $\mathbb {Z}_{2^k}$
+2510.04085   # CRYPTO 2025 High-impact (2 citations): Pseudorandom Unitaries in the Haar Random Oracle Model
+2502.15629   # CRYPTO 2025 High-impact (2 citations): Computationally Differentially Private Inner-Product Protocols Imply Oblivious Transfer
+2605.09957   # CRYPTO 2026 High-impact (1 citations): On Scalable Pseudorandom Unitaries and the Unitary Synthesis Problem
+2410.22303   # CRYPTO 2024 High-impact (1 citations): sfOPA: One-Shot Private Aggregation with Single Client Interaction and Its Applications to Federated Learning
+https://arxiv.org/pdf/2510.08079   # CRYPTO 2026 High-impact (0 citations): A Unified Approach to Quantum Key Leasing with a Classical Lessor
+https://arxiv.org/pdf/2411.05176   # CRYPTO 2026 High-impact (0 citations): How to Delete Without a Trace: Certified Deniability in a Quantum World
+2506.22089   # CRYPTO 2025 High-impact (0 citations): Pseudo-Equilibria, or: How to Stop Worrying About Crypto and Just Analyze the Game
+2603.19110   # CRYPTO 2026 High-impact (0 citations): Post-Quantum Cryptography from Quantum Stabilizer Decoding
+2608.14501   # CRYPTO 2026 High-impact (0 citations): Lower Bounds on Black-Box Constructions of Pseudorandom Functions
+https://arxiv.org/pdf/2507.22535   # CRYPTO 2026 High-impact (0 citations): Scalable, Quantum-Accessible, and Adaptive Pseudorandom Quantum State and Pseudorandom Function-Like Quantum State Generators
+https://arxiv.org/pdf/2510.05316   # CRYPTO 2026 High-impact (0 citations): A New Approach to Arguments of Quantum Knowledge
+2404.03295   # EUROCRYPT 2024 High-impact (22 citations): The power of a single Haar random state: constructing and separating quantum pseudorandomness
+2210.06693   # EUROCRYPT 2022 High-impact (13 citations): Non-uniformity and Quantum Advice in the Quantum Random Oracle Model
+https://eprint.iacr.org/2024/510   # EUROCRYPT 2025 High-impact (7 citations): Snake-Eye Resistant PKE from LWE for Oblivious Message Retrieval and Robust Encryption
+2205.11034   # EUROCRYPT 2022 High-impact (7 citations): Watermarking PRFs against Quantum Adversaries
+2304.06269   # EUROCRYPT 2023 High-impact (6 citations): Pauli Manipulation Detection Codes and Applications to Quantum Communication over Adversarial Channels
+2510.12112   # EUROCRYPT 2025 High-impact (2 citations): Tight Quantum Time-Space Tradeoffs for Permutation Inversion
+2211.01665   # EUROCRYPT 2022 High-impact (1 citations): Best-of-Both-Worlds Multiparty Quantum Computation with Publicly Verifiable Identifiable Abort
+2510.05055   # EUROCRYPT 2025 High-impact (1 citations): On the Cryptographic Futility of Non-collapsing Measurements
+https://arxiv.org/pdf/2510.07584   # EUROCRYPT 2026 High-impact (0 citations): A Minrank-Based Encryption Scheme à la Alekhnovich-Regev
+https://arxiv.org/pdf/2007.09556   # EUROCRYPT 2021 High-impact (0 citations): A 2n/2-Time Algorithm for $\sqrt{n}$-SVP and $\sqrt{n}$-Hermite SVP, and an Improved Time-Approximation Tradeoff for (H)SVP
+https://arxiv.org/pdf/2409.06317   # EUROCRYPT 2026 High-impact (0 citations): The Black-Box Simulation Barrier Persists in a Fully Quantum World
+2509.06549   # EUROCRYPT 2025 High-impact (0 citations): Super-Quadratic Quantum Speed-ups and Guessing Many Likely Keys
+2405.16539   # ASIACRYPT 2024 High-impact (8 citations): MinRank Gabidulin encryption scheme on matrix codes
+2406.10440   # ASIACRYPT 2024 High-impact (3 citations): Extending class group action attacks via sesquilinear pairings
+2509.09896   # ASIACRYPT 2025 High-impact (1 citations): Improved Quantum Lifting by Coherent Measure-and-Reprogram
+2507.19391   # ASIACRYPT 2025 High-impact (1 citations): Transcript Franking for Encrypted Messaging
+2506.17625   # ASIACRYPT 2025 High-impact (0 citations): List-Decodable Byzantine Robust PIR: Lower Communication Complexity, Higher Byzantine Tolerance, Smaller List Size

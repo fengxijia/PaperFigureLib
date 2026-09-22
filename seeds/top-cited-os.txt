@@ -1,0 +1,185 @@
+# Most cited 2021-2026 papers of the os venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-21).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2403.02310   # OSDI 2024 High-impact (810 citations): Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve
+2406.19707   # OSDI 2024 High-impact (331 citations): InfiniGen: Efficient Generative Inference of Large Language Models with Dynamic KV Cache Management
+2401.14351   # OSDI 2024 High-impact (199 citations): ServerlessLLM: Low-Latency Serverless Inference for Large Language Models
+2105.11118   # OSDI 2021 High-impact (184 citations): Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads
+2405.19888   # OSDI 2024 High-impact (155 citations): Parrot: Efficient Serving of LLM-based Applications with Semantic Variable
+2401.00588   # OSDI 2023 High-impact (129 citations): Fairness in Serving Large Language Models
+2203.10225   # OSDI 2022 High-impact (94 citations): No Provisioned Concurrency: Fast RDMA-codesigned Remote Fork for Serverless Computing
+2101.08358   # OSDI 2021 High-impact (79 citations): Learning Massive Graph Embeddings on a Single Machine
+2401.13154   # OSDI 2024 High-impact (78 citations): Nomad: Non-Exclusive Memory Tiering via Transactional Page Migration
+2212.07868   # OSDI 2022 High-impact (75 citations): Characterizing Off-path SmartNIC for Accelerating Distributed Systems
+2405.05751   # OSDI 2024 High-impact (67 citations): Mirage: A Multi-Level Superoptimizer for Tensor Programs
+2112.09761   # OSDI 2021 High-impact (64 citations): Efficient and Scalable Graph Pattern Mining on GPUs
+2205.14833   # OSDI 2022 High-impact (58 citations): Walle: An End-to-End, General-Purpose, and Large-Scale Production System for Device-Cloud Collaborative Machine Learning
+2209.06800   # OSDI 2022 High-impact (54 citations): MGG: Accelerating Graph Neural Networks with Fine-Grained Intra-Kernel Communication-Computation Pipelining on Multi-GPU Platforms
+2412.17246   # OSDI 2024 High-impact (43 citations): BlitzScale: Fast and Live Large Model Autoscaling with O(1) Host Caching
+2105.10329   # OSDI 2021 High-impact (42 citations): Polyjuice: High-Performance Transactions via Learned Concurrency Control
+2106.15335   # OSDI 2021 High-impact (38 citations): Privacy Budget Scheduling
+2107.03726   # OSDI 2021 High-impact (38 citations): Zeph: Cryptographic Enforcement of End-to-End Data Privacy
+2505.05713   # OSDI 2025 High-impact (37 citations): Understanding Stragglers in Large Model Training Using What-if Analysis
+2503.17924   # OSDI 2025 High-impact (37 citations): WLB-LLM: Workload-Balanced 4D Parallelism for Large Language Model Training
+2103.08191   # OSDI 2021 High-impact (33 citations): PACEMAKER: Avoiding HeART attacks in storage clusters with disk-adaptive redundancy
+2502.04563   # OSDI 2025 High-impact (32 citations): WaferLLM: Large Language Model Inference at Wafer Scale
+2506.03437   # OSDI 2025 High-impact (29 citations): Quake: Adaptive Indexing for Vector Search
+2305.17222   # OSDI 2023 High-impact (28 citations): Karma: Resource Allocation for Dynamic Demands
+2406.16005   # OSDI 2024 High-impact (24 citations): A Tale of Two Paths: Toward a Hybrid Data Plane for Efficient Far-Memory Applications
+2305.14270   # OSDI 2023 High-impact (18 citations): NCC: Natural Concurrency Control for Strictly Serializable Datastores by Avoiding the Timestamp-Inversion Pitfall
+2209.09459   # OSDI 2022 High-impact (17 citations): Replicating Persistent Memory Key-Value Stores with Efficient RDMA Abstraction
+2205.06911   # OSDI 2022 High-impact (15 citations): Blockaid: Data Access Policy Enforcement for Web Applications
+2506.14813   # OSDI 2025 High-impact (14 citations): Training with Confidence: Catching Silent Errors in Deep Learning Training with Automated Proactive Checks
+2406.02803   # OSDI 2024 High-impact (14 citations): DRust: Language-Guided Distributed Shared Memory with Fine Granularity, Full Transparency, and Ultra Efficiency
+2312.11742   # OSDI 2023 High-impact (13 citations): ACCL+: an FPGA-Based Collective Engine for Distributed Applications
+2412.20185   # OSDI 2024 High-impact (11 citations): DecDEC: A Systems Approach to Advancing Low-Bit LLM Quantization
+2304.07081   # OSDI 2023 High-impact (11 citations): Chop Chop: Byzantine Atomic Broadcast to the Network Limit
+2406.09649   # OSDI 2024 High-impact (8 citations): SquirrelFS: Using the Rust Compiler to Check File-System Crash Consistency
+2505.02146   # OSDI 2025 High-impact (7 citations): QiMeng-Xpiler: Transcompiling Tensor Programs for Deep Learning Systems with a Neural-Symbolic Approach
+2412.11447   # OSDI 2024 High-impact (7 citations): Decouple and Decompose: Scaling Resource Allocation with DeDe
+2305.19241   # OSDI 2023 High-impact (4 citations): Accountable authentication with privacy protection: The Larch system for universal login
+2506.00834   # OSDI 2025 High-impact (2 citations): Söze: One Network Telemetry Is All You Need for Per-flow Weighted Bandwidth Allocation at Scale
+2406.07215   # OSDI 2024 High-impact (2 citations): DSig: Breaking the Barrier of Signatures in Data Centers
+2312.11029   # OSDI 2023 High-impact (1 citations): Picsou: Enabling Replicated State Machines to Communicate Efficiently
+2312.12456   # SOSP 2023 High-impact (358 citations): PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU
+2404.09526   # SOSP 2024 High-impact (193 citations): LoongServe: Efficiently Serving Long-Context Large Language Models with Elastic Sequence Parallelism
+2410.14452   # SOSP 2023 High-impact (124 citations): SPFresh: Incremental In-Place Update for Billion-Scale Vector Search
+2309.08125   # SOSP 2023 High-impact (121 citations): Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates
+2107.00164   # SOSP 2021 High-impact (119 citations): MIND: In-Network Memory Management for Disaggregated Data Centers
+2110.11927   # SOSP 2021 High-impact (98 citations): Solving Large-Scale Granular Resource Allocation Problems Efficiently with POP
+2109.12443   # SOSP 2021 High-impact (83 citations): Basil: Breaking up BFT with ACID (transactions)
+2401.10369   # SOSP 2024 High-impact (66 citations): Autobahn: Seamless high speed BFT
+2503.09002   # SOSP 2025 High-impact (54 citations): KNighter: Transforming Static Analysis with LLM-Synthesized Checkers
+2312.06902   # SOSP 2023 High-impact (52 citations): Reducing Energy Bloat in Large Model Training
+2405.14009   # SOSP 2024 High-impact (48 citations): ReCycle: Resilient Training of Large DNNs using Pipeline Adaptation
+2301.10936   # SOSP 2023 High-impact (43 citations): PIT: Optimization of Dynamic Sparse Deep Learning Models via Permutation Invariant Transformation
+2505.07203   # SOSP 2025 High-impact (42 citations): PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language Model Applications
+2309.03046   # SOSP 2023 High-impact (40 citations): Grove: a Separation-Logic Library for Verifying Distributed Systems
+2309.10239   # SOSP 2023 High-impact (39 citations): Ditto: An Elastic and Adaptive Memory-Disaggregated Caching System
+2202.12429   # SOSP 2022 High-impact (38 citations): Bagpipe: Accelerating Deep Recommendation Model Training
+2504.17096   # SOSP 2025 High-impact (38 citations): Sailor: Automating Distributed Training over Dynamic, Heterogeneous, and Geo-distributed Clusters
+2109.12616   # SOSP 2021 High-impact (37 citations): Rabia: Simplifying State-Machine Replication Through Randomization
+2501.14794   # SOSP 2025 High-impact (36 citations): Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference
+2504.15465   # SOSP 2025 High-impact (36 citations): LithOS: An Operating System for Efficient Machine Learning on GPUs
+2312.05181   # SOSP 2023 High-impact (34 citations): Tenplex: Dynamic Parallelism for Deep Learning using Parallelizable Tensor Collections
+2503.18292   # SOSP 2025 High-impact (32 citations): Jenga: Effective Memory Management for Serving LLM with Heterogeneity
+2509.16293   # SOSP 2025 High-impact (28 citations): Robust LLM Training Infrastructure at ByteDance
+2312.05385   # SOSP 2023 High-impact (27 citations): Apparate: Rethinking Early Exits to Tame Latency-Throughput Tensions in ML Serving
+2412.03131   # SOSP 2024 High-impact (27 citations): DiffKV: Differentiated Memory Management for Large Language Models with Parallel KV Compaction
+2504.21538   # SOSP 2025 High-impact (25 citations): Coyote v2: Raising the Level of Abstraction for Data Center FPGAs
+2404.16393   # SOSP 2024 High-impact (23 citations): Dirigent: Lightweight Serverless Orchestration
+2412.10543   # SOSP 2024 High-impact (22 citations): METIS: Fast Quality-Aware RAG Systems with Configuration Adaptation
+2510.24051   # SOSP 2025 High-impact (21 citations): Pie: A Programmable Serving System for Emerging LLM Applications
+2201.09331   # SOSP 2021 High-impact (18 citations): Cuckoo Trie: Exploiting Memory-Level Parallelism for Efficient DRAM Indexing
+2405.12079   # SOSP 2024 High-impact (18 citations): PhoenixOS: Concurrent OS-level GPU Checkpoint and Restore with Validated Speculation
+2501.12689   # SOSP 2025 High-impact (17 citations): IC-Cache: Efficient Large Language Model Serving via In-context Caching
+2109.08930   # SOSP 2021 High-impact (15 citations): Regular Sequential Serializability and Regular Sequential Consistency
+2509.03018   # SOSP 2025 High-impact (15 citations): Mycroft: Tracing Dependencies in Collective Communication Towards Reliable LLM Training
+2505.01603   # SOSP 2025 High-impact (14 citations): Unlocking True Elasticity for the Cloud-Native Era with Dandelion
+2408.04808   # SOSP 2024 High-impact (11 citations): Scaling Deep Learning Computation over the Inter-Core Connected Intelligence Processor with T10
+2409.16258   # SOSP 2024 High-impact (11 citations): SWARM: Replicating Shared Disaggregated-Memory Data in No Time
+2510.10620   # SOSP 2025 High-impact (11 citations): DCP: Addressing Input Dynamism In Long-Context Training via Dynamic Context Parallelism
+2506.15961   # SOSP 2025 High-impact (10 citations): TrainVerify: Equivalence-Based Verification for Distributed LLM Training
+2309.06513   # SOSP 2023 High-impact (9 citations): RackBlox: A Software-Defined Rack-Scale Storage System with Network-Storage Co-Design
+2405.16719   # SOSP 2024 High-impact (8 citations): Cookie Monster: Efficient On-Device Budgeting for Differentially-Private Ad-Measurement Systems
+2509.05759   # SOSP 2025 High-impact (5 citations): Tiga: Accelerating Geo-Distributed Transactions with Synchronized Clocks
+2306.16163   # SOSP 2023 High-impact (4 citations): Turbo: Effective Caching in Differentially-Private Databases
+2202.06692   # SOSP 2022 High-impact (4 citations): TRIP: Coercion-resistant Registration for E-Voting with Verifiability and Usability in Votegral
+2501.05408   # SOSP 2025 High-impact (3 citations): Tempo: Compiled Dynamic Deep Learning with Symbolic Dependence Graphs
+2603.22585   # SOSP 2025 High-impact (3 citations): Tock: From Research To Securing 10 Million Computers
+2504.17984   # SOSP 2025 High-impact (2 citations): Proto: A Guided Journey through Modern OS Construction
+2509.09439   # SOSP 2025 High-impact (2 citations): μFork: Supporting POSIX fork Within a Single-Address-Space OS
+2409.19256   # EuroSys 2024 High-impact (2297 citations): HybridFlow: A Flexible and Efficient RLHF Framework
+2305.15778   # EuroSys 2023 High-impact (294 citations): Automatic Root Cause Analysis via Large Language Models for Cloud Incidents
+2111.03013   # EuroSys 2021 High-impact (108 citations): Nyx-net: network fuzzing with incremental snapshots
+2203.05681   # EuroSys 2022 High-impact (98 citations): State machine replication scalability made simple
+2306.06502   # EuroSys 2023 High-impact (94 citations): On the Limitations of Carbon-Aware Temporal and Spatial Workload Shifting in the Cloud
+2312.05516   # EuroSys 2023 High-impact (87 citations): Stateful Large Language Model Serving with Pensieve
+2407.00088   # EuroSys 2024 High-impact (86 citations): T-MAC: CPU Renaissance via Table Lookup for Low-Bit LLM Deployment on Edge
+2202.07896   # EuroSys 2022 High-impact (85 citations): Lyra: Elastic Scheduling for Deep Learning Clusters
+2111.01108   # EuroSys 2021 High-impact (84 citations): REFL: Resource-Efficient Federated Learning
+2201.06227   # EuroSys 2022 High-impact (73 citations): Egeria: Efficient DNN Training with Knowledge-Guided Layer Freezing
+2105.14845   # EuroSys 2021 High-impact (66 citations): With Great Freedom Comes Great Opportunity: Rethinking Resource Allocation for Serverless Functions
+2107.01427   # EuroSys 2021 High-impact (60 citations): Multi-objective congestion control
+2411.01438   # EuroSys 2024 High-impact (53 citations): SkyServe: Serving AI Models across Regions and Clouds with Spot Instances
+2202.02365   # EuroSys 2022 High-impact (53 citations): MariusGNN: Resource-Efficient Out-of-Core Training of Graph Neural Networks
+2410.05004   # EuroSys 2024 High-impact (50 citations): Fast State Restoration in LLM Serving with HCache
+2410.06145   # EuroSys 2024 High-impact (44 citations): Serverless Cold Starts and Where to Find Them
+2201.08413   # EuroSys 2022 High-impact (43 citations): Unicorn: reasoning about configurable system performance through the lens of causality
+2403.01798   # EuroSys 2024 High-impact (40 citations): Astraea: Towards Fair and Efficient Learning-based Congestion Control
+2505.11432   # EuroSys 2025 High-impact (39 citations): MegaScale-MoE: Large-Scale Communication-Efficient Training of Mixture-of-Experts Models in Production
+2510.12633   # EuroSys 2025 High-impact (36 citations): Laminar: A Scalable Asynchronous RL Post-Training Framework
+2407.21625   # EuroSys 2024 High-impact (33 citations): REPS: Recycled Entropy Packet Spraying for Adaptive Load Balancing and Failure Mitigation
+2104.01327   # EuroSys 2021 High-impact (32 citations): Zeus: locality-aware distributed transactions
+2110.08303   # EuroSys 2021 High-impact (31 citations): Minimum viable device drivers for ARM trustzone
+2104.01142   # EuroSys 2021 High-impact (30 citations): Efficient replication via timestamp stability
+2205.11458   # EuroSys 2022 High-impact (29 citations): Groundhog: Efficient Request Isolation in FaaS
+2401.05965   # EuroSys 2024 High-impact (29 citations): HAP: SPMD DNN Training on Heterogeneous GPU Clusters with Automated Program Synthesis
+2311.10418   # EuroSys 2023 High-impact (28 citations): DynaPipe: Optimizing Multi-task Training through Dynamic Pipelines
+2104.11324   # EuroSys 2021 High-impact (28 citations): Isolating functions at the hardware limit with virtines
+2502.05370   # EuroSys 2025 High-impact (26 citations): Taming Latency-Memory Trade-Off in MoE-Based LLM Serving via Fine-Grained Expert Offloading
+2312.05215   # EuroSys 2023 High-impact (26 citations): DeltaZip: Efficient Serving of Multiple Full-Model-Tuned LLMs
+2206.00789   # EuroSys 2022 High-impact (25 citations): Unikernel Linux (UKL)
+2209.12528   # EuroSys 2022 High-impact (22 citations): Dordis: Efficient Federated Learning with Dropout-Resilient Differential Privacy
+2503.11665   # EuroSys 2025 High-impact (20 citations): Towards Efficient Flash Caches with Emerging NVMe Flexible Data Placement SSDs
+2503.19050   # EuroSys 2025 High-impact (19 citations): Mist: Efficient Distributed Training of Large Language Models via Memory-Parallelism Co-Optimization
+2505.24095   # EuroSys 2025 High-impact (18 citations): SkyWalker: A Locality-Aware Cross-Region Load Balancer for LLM Inference
+2409.10954   # EuroSys 2024 High-impact (16 citations): Ladon: High-Performance Multi-BFT Consensus via Dynamic Global Ordering
+2312.12621   # EuroSys 2023 High-impact (16 citations): Blox: A Modular Toolkit for Deep Learning Schedulers
+2510.11938   # EuroSys 2025 High-impact (15 citations): FlexPipe: Adapting Dynamic LLM Serving Through Inflight Pipeline Refactoring in Fragmented Serverless Clusters
+2510.02758   # EuroSys 2025 High-impact (14 citations): TokenFlow: Responsive LLM Text Streaming Serving under Request Burst via Preemptive Scheduling
+2503.01801   # EuroSys 2025 High-impact (14 citations): TUNA: Tuning Unstable and Noisy Cloud Applications
+2410.03480   # EuroSys 2024 High-impact (14 citations): SeBS-Flow: Benchmarking Serverless Cloud Function Workflows
+2509.23324   # EuroSys 2025 High-impact (13 citations): Scaling LLM Test-Time Compute with Mobile NPU on Smartphones
+2409.14301   # EuroSys 2024 High-impact (12 citations): Multi-Grained Specifications for Distributed System Model Checking and Verification
+2311.06962   # EuroSys 2023 High-impact (12 citations): Atlas: Hybrid Cloud Migration Advisor for Interactive Microservices
+2311.09690   # EuroSys 2023 High-impact (12 citations): CDMPP: A Device-Model Agnostic Framework for Latency Prediction of Tensor Programs
+2504.19519   # EuroSys 2025 High-impact (11 citations): Efficient and Adaptable Overlapping for Computation and Communication via Signaling and Reordering
+2210.08934   # EuroSys 2022 High-impact (11 citations): RIO: Order-Preserving and CPU-Efficient Remote Storage Access
+2503.10725   # EuroSys 2025 High-impact (10 citations): Samoyeds: Accelerating MoE Models with Structured Sparsity Leveraging Sparse Tensor Cores
+2412.18169   # EuroSys 2024 High-impact (9 citations): KUNSERVE: Parameter-centric Memory Management for Efficient Memory Overloading Handling in LLM Serving
+2409.14252   # EuroSys 2024 High-impact (9 citations): Collaborative Text Editing with Eg-walker: Better, Faster, Smaller
+2101.06840   # USENIX ATC 2021 High-impact (650 citations): ZeRO-Offload: Democratizing Billion-Scale Model Training
+2403.19708   # USENIX ATC 2024 High-impact (251 citations): Cost-Efficient Large Language Model Serving for Multi-turn Conversations with CachedAttention
+2210.17223   # USENIX ATC 2022 High-impact (183 citations): Accelerating Distributed MoE Training and Inference with Lina
+2105.11229   # USENIX ATC 2021 High-impact (170 citations): FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes at Alibaba Cloud Function Compute
+2102.00527   # USENIX ATC 2021 High-impact (108 citations): Habitat: A Runtime-Based Computational Performance Predictor for Deep Neural Network Training
+2112.02052   # USENIX ATC 2021 High-impact (76 citations): TC-GNN: Bridging Sparse GNN Computation and Dense Tensor Cores on GPUs
+2102.10269   # USENIX ATC 2021 High-impact (62 citations): SoftTRR: Protect Page Tables Against RowHammer Attacks using Software-only Target Row Refresh
+2506.02634   # USENIX ATC 2025 High-impact (61 citations): KVCache Cache in the Wild: Characterizing and Optimizing KVCache Cache at a Large Cloud Provider
+2506.02847   # USENIX ATC 2025 High-impact (38 citations): CLONE: Customizing LLMs for Efficient Latency-Aware Inference at the Edge
+2306.03622   # USENIX ATC 2023 High-impact (38 citations): Torpor: GPU-Enabled Serverless Computing for Low-Latency, Resource-Efficient Inference
+2501.14417   # USENIX ATC 2025 High-impact (36 citations): DEEPSERVE: Serverless Large Language Model Serving at Scale
+2408.03505   # USENIX ATC 2024 High-impact (33 citations): Optimus: Accelerating Large-Scale Multi-Modal LLM Training by Bubble Exploitation
+2207.00588   # USENIX ATC 2022 High-impact (28 citations): CoVA: Exploiting Compressed-Domain Analysis to Accelerate Video Analytics
+2212.04197   # USENIX ATC 2022 High-impact (24 citations): HyperEnclave: An Open and Cross-platform Trusted Execution Environment
+2507.00217   # USENIX ATC 2025 High-impact (20 citations): CrossPipe: Towards Optimal Pipeline Schedules for Cross-Datacenter Training
+2406.18820   # USENIX ATC 2024 High-impact (19 citations): Universal Checkpointing: A Flexible and Efficient Distributed Checkpointing System for Large-Scale DNN Training with Reconfigurable Parallelism
+2201.11578   # USENIX ATC 2021 High-impact (15 citations): KRCORE: a microsecond-scale RDMA control plane for elastic computing
+2506.03876   # USENIX ATC 2025 High-impact (14 citations): Asterinas: A Linux ABI-Compatible, Rust-Based Framekernel OS with a Small and Sound TCB
+2309.03628   # USENIX ATC 2023 High-impact (14 citations): OSMOSIS: Enabling Multi-Tenancy in Datacenter SmartNICs
+2212.12842   # USENIX ATC 2022 High-impact (12 citations): More is Different: Prototyping and Analyzing a New Form of Edge Server with Massive Mobile SoCs
+2403.01862   # USENIX ATC 2024 High-impact (8 citations): MTS: Bringing Multi-Tenancy to Virtual Networking
+2210.00882   # USENIX ATC 2022 High-impact (8 citations): MSRL: Distributed Reinforcement Learning with Dataflow Fragments
+2506.02290   # USENIX ATC 2025 High-impact (8 citations): HEC: Equivalence Verification Checking for Code Transformation via Equality Saturation
+2106.00344   # USENIX ATC 2021 High-impact (7 citations): UniStore: A fault-tolerant marriage of causal and strong consistency (extended version)
+2411.00442   # USENIX ATC 2024 High-impact (5 citations): Revealing Floating-Point Accumulation Orders in Software/Hardware Implementations
+2106.01710   # USENIX ATC 2021 High-impact (4 citations): Optimistic Concurrency Control for Real-world Go Programs (Extended Version with Appendix)
+2507.18748   # USENIX ATC 2025 High-impact (4 citations): PPipe: Efficient Video Analytics Serving on Heterogeneous GPU Clusters via Pool-Based Pipeline Parallelism
+2306.04602   # USENIX ATC 2023 High-impact (4 citations): Prefix Siphoning: Exploiting LSM-Tree Range Filters For Information Disclosure (Full Version)
+2402.02070   # USENIX ATC 2024 High-impact (3 citations): HotRAP: Hot Record Retention and Promotion for LSM-trees with tiered storage
+2406.05962   # USENIX ATC 2024 High-impact (3 citations): Data Caching for Enterprise-Grade Petabyte-Scale OLAP
+2507.17094   # USENIX ATC 2025 High-impact (2 citations): PathWeaver: A High-Throughput Multi-GPU System for Graph-Based Approximate Nearest Neighbor Search
+2512.04096   # USENIX ATC 2025 High-impact (0 citations): Fast ACS: Low-Latency File-Based Ordered Message Delivery at Scale
+2209.12708   # USENIX ATC 2022 High-impact (0 citations): Faith: An Efficient Framework for Transformer Verification on GPUs
+2104.12425   # FAST 2021 High-impact (55 citations): Separating Data via Block Invalidation Time Inference for Write Amplification Reduction in Log-Structured Storage
+2202.10584   # FAST 2022 High-impact (39 citations): DeepSketch: A New Machine Learning-Based Reference Search Technique for Post-Deduplication Delta Compression
+2201.09189   # FAST 2022 High-impact (32 citations): Hardware/Software Co-Programmable Framework for Computational SSDs to Accelerate Deep Learning Service on Large-Scale Graphs
+2301.09839   # FAST 2023 High-impact (23 citations): FUSEE: A Fully Memory-Disaggregated Key-Value Store (Extended Version)
+2306.10739   # FAST 2023 High-impact (20 citations): COLE: A Column-based Learned Storage for Blockchain Systems
+2408.02911   # FAST 2024 High-impact (5 citations): Boosting File Systems Elegantly: A Transparent NVM Write-ahead Log for Disk File Systems
+2405.03830   # FAST 2024 High-impact (5 citations): On Scalable Integrity Checking for Secure Cloud Disks
+2511.19949   # FAST 2025 High-impact (4 citations): PolarStore: High-Performance Data Compression for Large-Scale Cloud-Native Databases
+2211.16735   # FAST 2022 High-impact (4 citations): Unsafe at Any Copy: Name Collisions from Mixing Case Sensitivities
+2511.13724   # FAST 2025 High-impact (3 citations): Preparation Meets Opportunity: Enhancing Data Preprocessing for ML Training With Seneca
+2512.03279   # FAST 2025 High-impact (1 citations): Getting the MOST out of your Storage Hierarchy with Mirror-Optimized Storage Tiering
+2601.14129   # FAST 2026 High-impact (0 citations): "Range as a Key" is the Key! Fast and Compact Cloud Block Store Index with RASK

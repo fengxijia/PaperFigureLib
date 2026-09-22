@@ -1,0 +1,92 @@
+# Most cited 2021-2026 papers of the eda venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-21).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2311.16543   # DAC 2023 High-impact (192 citations): RTLFixer: Automatically Fixing RTL Syntax Errors with Large Language Models
+2103.09301   # DAC 2021 High-impact (163 citations): Softermax: Hardware/Software Co-Design of an Efficient Softmax for Transformers
+2203.12268   # DAC 2022 High-impact (108 citations): Chiplet Actuary: A Quantitative Cost Model and Multi-Chiplet Architecture Exploration
+2102.06960   # DAC 2021 High-impact (101 citations): CrossLight: A Cross-Layer Optimized Silicon Photonic Neural Network Accelerator
+2110.00211   # DAC 2021 High-impact (100 citations): DNN-Opt: An RL Inspired Optimization for Analog Circuit Sizing using Deep Neural Networks
+2112.02191   # DAC 2021 High-impact (96 citations): NN-LUT: Neural Approximation of Non-Linear Operations for Efficient Transformer Inference
+2110.11331   # DAC 2021 High-impact (95 citations): QuantumNAT: Quantum Noise-Aware Training with Noise Injection, Quantization and Normalization
+2111.14616   # DAC 2021 High-impact (90 citations): DeepGate: Learning Neural Representations of Logic Gates
+2202.08814   # DAC 2022 High-impact (89 citations): MATCHA: A Fast and Energy-Efficient Accelerator for Fully Homomorphic Encryption over the Torusa
+2403.11202   # DAC 2024 High-impact (87 citations): Data is all you need: Finetuning LLMs for chip design via an automated design-data augmentation framework
+2103.14209   # DAC 2021 High-impact (83 citations): QECOOL: On-Line Quantum Error Correction with a Superconducting Decoder for Surface Code
+2201.06848   # DAC 2022 High-impact (82 citations): High-Level Synthesis Performance Prediction using GNNs: Benchmarking, Modeling, and Advancing
+2105.13258   # DAC 2021 High-impact (81 citations): NAAS: Neural Accelerator Architecture Search
+2208.03646   # DAC 2022 High-impact (74 citations): A Length Adaptive Algorithm-Hardware Co-design of Transformer on FPGA Through Sparse Attention and Dynamic Pipelining
+https://arxiv.org/pdf/1912.01684   # DAC 2021 High-impact (71 citations): Helios: Heterogeneity-Aware Federated Learning with Dynamically Balanced Collaboration
+2302.12949   # DAC 2023 High-impact (70 citations): DeepOHeat: Operator Learning-based Ultra-fast Thermal Simulation in 3D-IC Design
+2412.03213   # DAC 2024 High-impact (69 citations): ClusterKV: Manipulating LLM KV Cache in Semantic Space for Recallable Compression
+2111.12555   # DAC 2021 High-impact (67 citations): Serpens: A High Bandwidth Memory Based Accelerator for General-Purpose Sparse Matrix-Vector Multiplication
+2202.13239   # DAC 2022 High-impact (66 citations): QOC: Quantum On-Chip Training with Parameter Shift and Gradient Pruning
+2406.15758   # DAC 2024 High-impact (63 citations): EDGE-LLM: Enabling Efficient Large Language Model Adaptation on Edge Devices via Layerwise Unified Compression and Adaptive Layer Tuning & Voting
+2103.06242   # DAC 2021 High-impact (62 citations): CreativeGAN: Editing Generative Adversarial Networks for Creative Design Synthesis
+2203.12831   # DAC 2022 High-impact (62 citations): LHNN: Lattice Hypergraph Neural Network for VLSI Congestion Prediction
+2205.00097   # DAC 2022 High-impact (61 citations): Fast and Scalable Human Pose Estimation using mmWave Point Cloud
+2203.09680   # DAC 2022 High-impact (58 citations): LeHDC: Learning-Based Hyperdimensional Computing Classifier
+2107.09130   # DAC 2021 High-impact (57 citations): GNN4IP: Graph Neural Network for Hardware Intellectual Property Piracy Detection
+2402.14866   # DAC 2024 High-impact (53 citations): APTQ: Attention-aware Post-Training Mixed-Precision Quantization for Large Language Models
+2505.14646   # DAC 2025 High-impact (52 citations): CAD-Coder: An Open-Source Vision-Language Model for Computer-Aided Design Code Generation
+2205.07000   # DAC 2021 High-impact (51 citations): PrefixRL: Optimization of Parallel Prefix Circuits using Deep Reinforcement Learning
+2105.04104   # DAC 2021 High-impact (51 citations): AppealNet: An Efficient and Highly-Accurate Edge/Cloud Collaborative Architecture for DNN Inference
+2104.04003   # DAC 2021 High-impact (50 citations): AutoSVA: Democratizing Formal Verification of RTL Module Interactions
+2104.12339   # DAC 2021 High-impact (50 citations): TensorLib: A Spatial Accelerator Generation Framework for Tensor Algebra
+2105.09453   # DAC 2021 High-impact (50 citations): DeepStrike: Remotely-Guided Fault Injection Attacks on DNN Accelerator in Cloud-FPGA
+2203.08616   # DAC 2022 High-impact (49 citations): Generic Lithography Modeling with Dual-band Optics-Inspired Neural Networks
+2403.08055   # DAC 2024 High-impact (49 citations): DrivAerNet: A Parametric Car Dataset for Data-Driven Aerodynamic Design and Graph-Based Drag Prediction
+2303.13679   # DAC 2023 High-impact (48 citations): Primer: Fast Private Transformer Inference on Encrypted Data
+2206.14550   # DAC 2022 High-impact (48 citations): SALO: An Efficient Spatial Accelerator Enabling Hybrid Sparse Attention Mechanisms for Long Sequences
+2103.00424   # DAC 2021 High-impact (47 citations): SpikeDyn: A Framework for Energy-Efficient Spiking Neural Networks with Continual and Unsupervised Learning Capabilities in Dynamic Environments
+2203.05523   # DAC 2022 High-impact (45 citations): SoftSNN: Low-Cost Fault Tolerance for Spiking Neural Network Accelerators under Soft Errors
+2303.10583   # DAC 2023 High-impact (45 citations): Toward Artificial Empathy for Human-Centered Design: A Framework
+2104.06214   # DAC 2021 High-impact (44 citations): BlockGNN: Towards Efficient GNN Acceleration Using Block-Circulant Weight Matrices
+2212.04508   # DAC 2022 High-impact (43 citations): Compiler Optimization for Quantum Computing Using Reinforcement Learning
+2307.03290   # DAC 2023 High-impact (43 citations): OmniBoost: Boosting Throughput of Heterogeneous Embedded Devices under Multi-DNN Workload
+2311.12275   # DAC 2023 High-impact (41 citations): Enabling On-Device Large Language Model Personalization with Self-Supervised Data Selection and Synthesis
+2503.23315   # DAC 2025 High-impact (39 citations): AI Agents in Engineering Design: A Multi-Agent Framework for Aesthetic and Aerodynamic Car Design
+2103.12928   # DAC 2021 High-impact (38 citations): DIALED: Data Integrity Attestation for Low-end Embedded Devices
+2204.12948   # DAC 2022 High-impact (37 citations): Domain Knowledge-Infused Deep Learning for Automated Analog/Radio-Frequency Circuit Parameter Optimization
+2202.11330   # DAC 2022 High-impact (37 citations): EcoFusion: Energy-Aware Adaptive Sensor Fusion for Efficient Autonomous Vehicle Perception
+2411.16238   # DAC 2024 High-impact (37 citations): UVLLM: An Automated Universal RTL Verification Framework using LLMs
+2212.00661   # DAC 2022 High-impact (36 citations): Hybrid Gate-Pulse Model for Variational Quantum Algorithms
+2311.13166   # DAC 2023 High-impact (36 citations): AdaptiveFL: Adaptive Heterogeneous Federated Learning for Resource-Constrained AIoT Systems
+2407.16237   # ICCAD 2024 High-impact (89 citations): OriGen: Enhancing RTL Code Generation with Code-to-Code Augmentation and Self-Reflection
+2406.18770   # ICCAD 2024 High-impact (87 citations): ADO-LLM: Analog Design Bayesian Optimization with In-Context Learning of Large Language Models
+2405.06840   # ICCAD 2024 High-impact (72 citations): MEIC: Re-Thinking RTL Debug Automation Using LLMs
+2503.15112   # ICCAD 2024 High-impact (70 citations): OpenLLM-RTL: Open Dataset and Benchmark for LLM-Aided Design RTL Generation: Invited Paper
+2408.10284   # ICCAD 2024 High-impact (67 citations): AdapMoE: Adaptive Sensitivity-Based Expert Gating and Management for Efficient MoE Inference
+2409.11414   # ICCAD 2024 High-impact (55 citations): RTLRewriter: Methodologies for Large Models Aided RTL Code Optimization
+2408.06810   # ICCAD 2024 High-impact (48 citations): HLSPilot: LLM-Based High-Level Synthesis
+2407.15353   # ICCAD 2024 High-impact (44 citations): Customized Retrieval Augmented Generation and Benchmarking for EDA Tool Documentation QA
+2407.11095   # ICCAD 2024 High-impact (42 citations): DeepGate3: Towards Scalable Circuit Representation Learning
+2409.11440   # ICCAD 2024 High-impact (40 citations): MARCA: Mamba Accelerator with ReConfigurable Architecture
+2407.10810   # ICCAD 2024 High-impact (34 citations): FabGPT: An Efficient Large Multimodal Model for Complex Wafer Defect Knowledge Queries
+2402.10930   # ICCAD 2024 High-impact (28 citations): ConSmax: Hardware-Friendly Alternative Softmax with Learnable Parameters
+2409.08534   # ICCAD 2024 High-impact (26 citations): AnalogGym: An Open and Practical Testing Suite for Analog Circuit Synthesis (Invited)
+2409.03870   # ICCAD 2024 High-impact (25 citations): A Hardware-Aware Gate Cutting Framework for Practical Quantum Circuit Knitting
+2407.08473   # ICCAD 2024 High-impact (25 citations): Natural Language is Not Enough: Benchmarking Multi-Modal Generative AI for Verilog Generation
+2410.15489   # ICCAD 2024 High-impact (22 citations): Generative AI Agents in Autonomous Machines: A Safety Perspective
+2407.14274   # ICCAD 2024 High-impact (22 citations): Mixed-Precision Neural Networks on RISC-V Cores: ISA Extensions for Multi-Pumped Soft SIMD Operations
+2405.04700   # ICCAD 2024 High-impact (22 citations): Robust Implementation of Retrieval-Augmented Generation on Edge-Based Computing-in-Memory Architectures
+2408.11203   # ICCAD 2024 High-impact (19 citations): Detecting Fraudulent Services on Quantum Cloud Platforms via Dynamic Fingerprinting
+2311.16442   # ICCAD 2023 High-impact (19 citations): Fast and Efficient 2-Bit LLM Inference on GPU: 2/4/16-Bit in a Weight Matrix with Asynchronous Dequantization
+2408.09538   # ICCAD 2024 High-impact (19 citations): Parameter Setting Heuristics Make the Quantum Approximate Optimization Algorithm Suitable for the Early Fault-Tolerant Era (Invited Paper)
+2407.05633   # ICCAD 2024 High-impact (18 citations): Adapi: Facilitating DNN Model Adaptivity for Efficient Private Inference in Edge Computing
+2407.17879   # ICCAD 2024 High-impact (18 citations): HG-PIPE: Vision Transformer Acceleration with Hybrid-Grained Pipeline
+2402.13485   # ICCAD 2024 High-impact (15 citations): ProPD: Dynamic Token Tree Pruning and Generation for LLM Parallel Decoding
+2408.08969   # ICCAD 2024 High-impact (14 citations): Differentiable Edge-Based OPC
+2407.05510   # ICCAD 2024 High-impact (14 citations): SCATTER: Algorithm-Circuit Co-Sparse Photonic Accelerator with Thermal-Tolerant, Power-Efficient In-Situ Light Redistribution
+2411.06350   # ICCAD 2024 High-impact (13 citations): AMAZE: Accelerated MiMC Hardware Architecture for Zero-Knowledge Applications on the Edge
+2405.08183   # ICCAD 2024 High-impact (12 citations): Towards Energy-Aware Federated Learning via MARL: A Dual-Selection Approach for Model and Client
+2411.07397   # ICCAD 2024 High-impact (12 citations): Spiking Transformer Hardware Accelerators in 3D Integration
+2401.08925   # ICCAD 2024 High-impact (11 citations): RandOhm: Mitigating Impedance Side-Channel Attacks Using Randomized Circuit Configurations
+2405.05480   # ICCAD 2024 High-impact (11 citations): Floorset - A VLSI Floorplanning Dataset with Design Constraints of Real-World SoCs
+2408.07886   # ICCAD 2024 High-impact (11 citations): Physically Aware Synthesis Revisited: Guiding Technology Mapping with Primitive Logic Gate Placement
+2312.01674   # ICCAD 2023 High-impact (11 citations): EDALearn: A Comprehensive RTL-to-Signoff EDA Benchmark for Democratized and Reproducible ML for EDA Research
+2408.10428   # ICCAD 2024 High-impact (10 citations): (Invited Paper) Are Llms Any Good for High-Level Synthesis?
+2502.14884   # ICCAD 2024 High-impact (10 citations): SEM-CLIP: Precise Few-Shot Learning for Nanoscale Defect Detection in Scanning Electron Microscope Image
+2504.04223   # ICCAD 2024 High-impact (10 citations): Multi-Phase Coupled CMOS Ring Oscillator Based Potts Machine
+2405.03632   # ICCAD 2024 High-impact (10 citations): LaserEscape: Detecting and Mitigating Optical Probing Attacks
+2405.05286   # ICCAD 2024 High-impact (9 citations): Tiny Deep Ensemble: Uncertainty Estimation in Edge AI Accelerators via Ensembling Normalization Layers with Shared Weights
+2505.21046   # ICCAD 2025 High-impact (9 citations): A Domain Adaptation Neural Network for Digital Twin-Supported Fault Diagnosis
+2410.23537   # ICCAD 2024 High-impact (8 citations): ALISE: Accelerating Large Language Model Serving with Speculative Scheduling

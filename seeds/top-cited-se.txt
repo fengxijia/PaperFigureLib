@@ -1,0 +1,152 @@
+# Most cited 2021-2026 papers of the se venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-21).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2307.08177   # ICSE 2023 High-impact (675 citations): Using an LLM to Help with Code Understanding
+2403.17134   # ICSE 2024 High-impact (455 citations): RepairAgent: An Autonomous, LLM-Based Agent for Program Repair
+2103.00073   # ICSE 2021 High-impact (425 citations): CURE: Code-Aware Neural Machine Translation for Automatic Program Repair
+2210.14179   # ICSE 2022 High-impact (406 citations): Automated Program Repair in the Era of Large Pre-trained Language Models
+2308.04748   # ICSE 2023 High-impact (363 citations): Fuzz4ALL: Universal Fuzzing with Large Language Models
+2209.11515   # ICSE 2022 High-impact (339 citations): Large Language Models are Few-shot Testers: Exploring LLM-based General Bug Reproduction
+2308.03314   # ICSE 2023 High-impact (325 citations): GPTScan: Detecting Logic Vulnerabilities in Smart Contracts by Combining GPT with Program Analysis
+2403.18624   # ICSE 2024 High-impact (323 citations): Vulnerability Detection with Code Language Models: How Far are We?
+2202.04301   # ICSE 2022 High-impact (303 citations): Log-based Anomaly Detection with Deep Learning: How Far Are We?
+2102.02017   # ICSE 2021 High-impact (292 citations): Studying the Usage of Text-To-Text Transfer Transformer to Support Code-Related Tasks
+2303.17125   # ICSE 2023 High-impact (281 citations): A Large-Scale Survey on the Usability of AI Programming Assistants: Successes and Challenges
+2112.02969   # ICSE 2021 High-impact (264 citations): Jigsaw: Large Language Models meet Program Synthesis
+2302.05020   # ICSE 2023 High-impact (248 citations): Impact of Code Language Models on Automated Program Repair
+2201.06850   # ICSE 2022 High-impact (247 citations): Using Pre-Trained Models to Boost Code Review Automation
+2304.11384   # ICSE 2023 High-impact (245 citations): Large Language Models are Few-Shot Summarizers: Multi-Intent Comment Generation via In-Context Learning
+2105.04123   # ICSE 2021 High-impact (238 citations): Neural Program Repair with Execution-based Backpropagation
+2201.08698   # ICSE 2022 High-impact (238 citations): Natural Attack for Pre-trained Models of Code
+2310.01726   # ICSE 2023 High-impact (228 citations): Large Language Models for Test-Free Fault Localization
+2304.06815   # ICSE 2023 High-impact (224 citations): Automatic Semantic Augmentation of Language Model Prompts (for Code Summarization)
+2302.00438   # ICSE 2023 High-impact (219 citations): On the Robustness of Code Generation Techniques: An Empirical Study on GitHub Copilot
+2101.02518   # ICSE 2021 High-impact (215 citations): Towards Automating Code Review Activities
+2301.05456   # ICSE 2023 High-impact (214 citations): Data Quality for Software Vulnerability Datasets
+2205.10583   # ICSE 2022 High-impact (213 citations): Automated Repair of Programs from Large Language Models
+2310.15780   # ICSE 2023 High-impact (205 citations): Make LLM a Testing Expert: Bringing Human-Like Interaction to Mobile GUI Testing via Functionality-Aware Decisions
+2309.08221   # ICSE 2023 High-impact (194 citations): Exploring the Potential of ChatGPT in Automated Code Refinement: An Empirical Study
+2103.00270   # ICSE 2021 High-impact (186 citations): Fault Localization with Code Coverage Representation Learning
+2306.01987   # ICSE 2023 High-impact (180 citations): Prompting Is All You Need: Automated Android Bug Replay with Large Language Models
+2212.04732   # ICSE 2022 High-impact (177 citations): Fill in the Blank: Context-aware Automated Text Input Generation for Mobile GUI Testing
+2212.08109   # ICSE 2022 High-impact (175 citations): An Empirical Study of Deep Learning Models for Vulnerability Detection
+2201.06589   # ICSE 2022 High-impact (160 citations): Free Lunch for Testing: Fuzzing Deep-Learning Libraries from Open Source
+2201.01549   # ICSE 2022 High-impact (156 citations): SPT-Code: Sequence-to-Sequence Pre-Training for Learning Source Code Representations
+2203.02660   # ICSE 2022 High-impact (151 citations): MVD: Memory-Related Vulnerability Detection Based on Flow-Sensitive Graph Neural Networks
+2301.03797   # ICSE 2023 High-impact (145 citations): Recommending Root-Cause and Mitigation Steps for Cloud Incidents using Large Language Models
+2404.18001   # ICSE 2024 High-impact (142 citations): LLMParser: An Exploratory Study on Using Large Language Models for Log Parsing
+2201.03981   # ICSE 2022 High-impact (142 citations): Demystifying the Vulnerability Propagation and Its Evolution via Dependency Trees in the NPM Ecosystem
+2202.06840   # ICSE 2022 High-impact (139 citations): What Do They Capture? - A Structural Analysis of Pre-Trained Language Models for Source Code
+2302.05092   # ICSE 2023 High-impact (139 citations): Eadro: An End-to-End Troubleshooting Framework for Microservices on Multi-source Data
+2107.07112   # ICSE 2021 High-impact (134 citations): On the Evaluation of Neural Code Summarization
+2408.02232   # ICSE 2024 High-impact (133 citations): SpecRover: Code Intent Extraction via LLMs
+2205.01859   # ICSE 2022 High-impact (133 citations): DEAR: A Novel Deep Learning-based Approach for Automated Program Repair
+2202.06689   # ICSE 2022 High-impact (132 citations): CodeFill: Multi-token Code Completion by Jointly learning from Structure and Naming Sequences
+2102.08172   # ICSE 2021 High-impact (127 citations): ATVHunter: Reliable Version Detection of Third-Party Libraries for Vulnerability Identification in Android Applications
+2403.16073   # ICSE 2024 High-impact (127 citations): Combining Fine-Tuning and LLM-Based Agents for Intuitive Smart Contract Auditing with Justifications
+2103.00587   # ICSE 2021 High-impact (122 citations): PyCG: Practical Call Graph Generation in Python
+2303.02552   # ICSE 2023 High-impact (122 citations): An Empirical Study of Pre-Trained Model Reuse in the Hugging Face Deep Learning Model Registry
+2204.09274   # ICSE 2022 High-impact (121 citations): Causality-Based Neural Network Repair
+2208.08289   # ICSE 2022 High-impact (117 citations): CCTEST: Testing and Repairing Code Completion Systems
+2302.07435   # ICSE 2023 High-impact (116 citations): Log Parsing with Prompt-based Few-shot Learning
+2103.03376   # ICSE 2021 High-impact (116 citations): DeepLocalize: Fault Localization for Deep Neural Networks
+2202.13953   # ICSE 2022 High-impact (115 citations): Practical Automated Detection of Malicious npm Packages
+2302.04026   # ICSE 2023 High-impact (115 citations): An Empirical Comparison of Pre-Trained Models of Source Code
+2304.02981   # ICSE 2023 High-impact (112 citations): Smart Contract and DeFi Security Tools: Do They Meet the Needs of Practitioners?
+2212.08108   # ICSE 2022 High-impact (111 citations): Dataflow Analysis-Inspired Deep Learning for Efficient Vulnerability Detection
+2302.10166   # ICSE 2023 High-impact (110 citations): Learning Deep Semantics for Test Completion
+2302.06144   # ICSE 2023 High-impact (109 citations): SkCoder: A Sketch-based Approach for Automatic Code Generation
+2402.16197   # ICSE 2024 High-impact (109 citations): Language Models for Code Completion: A Practical Evaluation
+2301.05362   # ICSE 2023 High-impact (107 citations): An Empirical Study on Software Bill of Materials: Where We Stand and the Road Ahead
+2112.02268   # ICSE 2021 High-impact (107 citations): Bridging Pre-trained Models and Downstream Tasks for Source Code Understanding
+2101.10291   # ICSE 2021 High-impact (106 citations): The Shifting Sands of Motivation: Revisiting What Drives Contributors in Open Source
+2401.08807   # ICSE 2024 High-impact (104 citations): SpecGen: Automated Generation of Formal Program Specifications via Large Language Models
+2103.06018   # ICSE 2021 High-impact (103 citations): Automatic Web Testing Using Curiosity-Driven Reinforcement Learning
+2204.12148   # ICSE 2022 High-impact (102 citations): Morest: Model-based RESTful API Testing with Execution Feedback
+2101.06896   # ICSE 2021 High-impact (100 citations): DeepPayload: Black-box Backdoor Attack on Deep Learning Models through Neural Payload Injection
+2204.08734   # ICSE 2022 High-impact (98 citations): Muffin: Testing Deep Learning Libraries via Neural Architecture Fuzzing
+2112.02043   # ICSE 2021 High-impact (98 citations): Multilingual training for Software Engineering
+2201.04837   # ICSE 2022 High-impact (98 citations): Using Deep Learning to Generate Complete Log Statements
+2101.04930   # ICSE 2021 High-impact (97 citations): An Empirical Study on Deployment Faults of Deep Learning Based Mobile Applications
+2202.06649   # ICSE 2022 High-impact (97 citations): On the Importance of Building High-quality Training Datasets for Neural Code Search
+2302.04675   # ICSE 2023 High-impact (95 citations): Vulnerability Detection with Graph Simplification and Enhanced Graph Representation Learning
+2112.01590   # ICSE 2021 High-impact (94 citations): The Art and Practice of Data Science Pipelines: A Comprehensive Study of Data Science Pipelines In Theory, In-The-Small, and In-The-Large
+2207.04237   # ASE 2022 High-impact (371 citations): Few-shot training LLMs for project-specific code-summarization
+2108.01955   # ASE 2021 High-impact (339 citations): Log-based Anomaly Detection Without Log Parsing
+2304.07575   # ASE 2023 High-impact (157 citations): What Makes Good In-Context Demonstrations for Code Intelligence Tasks with LLMs?
+2408.11324   # ASE 2024 High-impact (143 citations): HITS: High-coverage LLM-based Unit Test Generation via Method Slicing
+2406.18181   # ASE 2024 High-impact (143 citations): On the Evaluation of Large Language Models in Unit Test Generation
+2203.12755   # ASE 2022 High-impact (134 citations): SelfAPR: Self-supervised Program Repair with Test Execution Diagnostics
+2208.05446   # ASE 2022 High-impact (130 citations): CoditT5: Pretraining for Source Code and Natural Language Editing
+2209.02235   # ASE 2022 High-impact (129 citations): Automatic Code Documentation Generation Using GPT-3
+2108.11308   # ASE 2021 High-impact (124 citations): What do pre-trained code models know about code?
+2304.08191   # ASE 2023 High-impact (116 citations): A study on prompt design, advantages and limitations of ChatGPT for deep learning program repair
+2108.00344   # ASE 2021 High-impact (112 citations): Groot: An Event-graph-based Approach for Root Cause Analysis in Industrial Settings
+2310.01765   # ASE 2023 High-impact (108 citations): Data cleaning and machine learning: a systematic literature review
+2309.11021   # ASE 2023 High-impact (102 citations): An Empirical Study of Malicious Code In PyPI Ecosystem
+2107.12045   # ASE 2021 High-impact (101 citations): How to certify machine learning based safety-critical systems? A systematic literature review
+2309.09308   # ASE 2023 High-impact (101 citations): Gamma: Revisiting Template-Based Automated Program Repair Via Mask Prediction
+2402.13521   # ASE 2024 High-impact (91 citations): Test-Driven Development and LLM-based Code Generation
+2308.13775   # ASE 2021 High-impact (90 citations): EditSum: A Retrieve-and-Edit Framework for Source Code Summarization
+2409.09030   # ASE 2024 High-impact (90 citations): Agents in software engineering: survey, landscape, and vision
+2208.14656   # ASE 2022 High-impact (88 citations): LawBreaker: An Approach for Specifying Traffic Laws and Fuzzing Autonomous Vehicles
+2310.01602   # ASE 2023 High-impact (88 citations): CAT-LM Training Language Models on Aligned Code And Tests
+2304.11686   # ASE 2023 High-impact (86 citations): Nuances are the Key: Unlocking ChatGPT to Find Failure-Inducing Tests with Differential Prompting
+2308.14731   # ASE 2023 High-impact (83 citations): Distilled GPT for source code summarization
+2108.08041   # ASE 2021 High-impact (78 citations): DeepCVA: Automated Commit-level Vulnerability Assessment with Deep Multi-task Learning
+2208.14613   # ASE 2022 High-impact (76 citations): How Readable is Model-generated Code? Examining Readability and Visual Inspection of GitHub Copilot
+2306.00108   # ASE 2023 High-impact (71 citations): Better Patching Using LLM Prompting, via Self-Consistency
+2108.06645   # ASE 2021 High-impact (71 citations): On Multi-Modal Learning of Editing Source Code
+2108.09744   # ASE 2021 High-impact (68 citations): Bugs4Q: A Benchmark of Real Bugs for Quantum Programs
+2306.01590   # ASE 2023 High-impact (65 citations): Log Parsing: How Far Can ChatGPT Go?
+2408.13729   # ASE 2024 High-impact (64 citations): Root Cause Analysis for Microservices based on Causal Inference: How Far Are We?
+2208.07120   # ASE 2022 High-impact (62 citations): Compressing Pre-trained Models of Code into 3 MB
+2308.08961   # ASE 2023 High-impact (62 citations): On the Evaluation of Neural Code Translation: Taxonomy and Benchmark
+2309.04583   # ASE 2023 High-impact (59 citations): Adaptive REST API Testing with Reinforcement Learning
+2208.05361   # ASE 2022 High-impact (58 citations): Prompt-tuned Code Language Model as a Neural Knowledge Base for Type Inference in Statically-Typed Partial Code
+2208.07119   # ASE 2022 High-impact (57 citations): Xscope: Hunting for Cross-Chain Bridge Attacks
+2411.07498   # ASE 2024 High-impact (56 citations): Semantic Sleuth: Identifying Ponzi Contracts via Large Language Models
+2109.07514   # ASE 2021 High-impact (56 citations): DeepMetis: Augmenting a Deep Learning Test Set to Increase its Mutation Score
+2409.15154   # ASE 2024 High-impact (54 citations): RMCBench: Benchmarking Large Language Models’ Resistance to Malicious Code
+2301.02412   # ASE 2023 High-impact (51 citations): Code Difference Guided Adversarial Example Generation for Deep Code Models
+2209.02575   # ASE 2022 High-impact (51 citations): Towards Understanding Third-party Library Dependency in C/C++ Ecosystem
+2309.15606   # ASE 2023 High-impact (50 citations): From Misuse to Mastery: Enhancing Code Generation with Knowledge-Driven AI Chaining
+2108.04639   # ASE 2021 High-impact (49 citations): PyNose: A Test Smell Detector For Python
+2411.03292   # ASE 2024 High-impact (48 citations): Interaction2Code: Benchmarking MLLM-based Interactive Webpage Code Generation from Interactive Prototyping
+2111.09533   # ASE 2021 High-impact (46 citations): DeepGuard: a framework for safeguarding autonomous driving systems from inconsistent behaviour
+2306.05152   # ASE 2023 High-impact (46 citations): Towards Autonomous Testing Agents via Conversational Large Language Models
+2310.04701   # ASE 2023 High-impact (46 citations): Twin Graph-Based Anomaly Detection via Attentive Multi-Modal Learning for Microservice System
+2510.00446   # ASE 2025 High-impact (46 citations): LongCodeZip: Compress Long Context for Code Language Models
+2409.09368   # ASE 2024 High-impact (46 citations): Models Are Codes: Towards Measuring Malicious Code Poisoning Attacks on Pre-trained Model Hubs
+2101.00135   # ASE 2021 High-impact (45 citations): Faults in deep reinforcement learning programs: a taxonomy and a detection approach
+2308.10523   # ASE 2023 High-impact (45 citations): When Less is Enough: Positive and Unlabeled Learning Model for Vulnerability Detection
+2205.14371   # ASE 2022 High-impact (44 citations): GLITCH: Automated Polyglot Security Smell Detection in Infrastructure as Code
+2404.05427   # ISSTA 2024 High-impact (424 citations): AutoCodeRover: Autonomous Program Improvement
+2212.14834   # ISSTA 2022 High-impact (419 citations): Large Language Models Are Zero-Shot Fuzzers: Fuzzing Deep-Learning Libraries via Large Language Models
+2304.00385   # ISSTA 2023 High-impact (387 citations): Automated Program Repair via Conversation: Fixing 162 out of 337 Bugs for $0.42 Each using ChatGPT
+2205.12713   # ISSTA 2022 High-impact (238 citations): jTrans: jump-aware transformer for binary code similarity detection
+2305.18607   # ISSTA 2023 High-impact (177 citations): How Effective Are Neural Networks for Fixing Security Vulnerabilities
+2109.01002   # ISSTA 2021 High-impact (122 citations): DocTer: documentation-guided fuzzing for testing deep learning API functions
+2308.10828   # ISSTA 2023 High-impact (120 citations): A Large-Scale Evaluation for Log Parsing Techniques: How Far Are We?
+2204.08348   # ISSTA 2022 High-impact (117 citations): Automated test generation for REST APIs: no time to rest yet
+2101.05102   # ISSTA 2021 High-impact (114 citations): ProFuzzBench: a benchmark for stateful protocol fuzzing
+2306.17135   # ISSTA 2023 High-impact (111 citations): ItyFuzz: Snapshot-Based Fuzzer for Smart Contract
+2407.20898   # ISSTA 2024 High-impact (110 citations): ThinkRepair: Self-Directed Automated Program Repair
+2107.06997   # ISSTA 2021 High-impact (103 citations): DeepHyperion: exploring the feature space of deep learning-based systems through illumination search
+2205.10956   # ISSTA 2022 High-impact (89 citations): CIRCLE: continual repair across programming languages
+2307.07493   # ISSTA 2023 High-impact (78 citations): BehAVExplor: Behavior Diversity Guided Testing for Autonomous Driving Systems
+2205.00664   # ISSTA 2022 High-impact (77 citations): Simple techniques work surprisingly well for neural network test prioritization and active learning (replicability study)
+2106.08890   # ISSTA 2021 High-impact (77 citations): ModelDiff: testing-based DNN similarity comparison for model reuse detection
+2307.12469   # ISSTA 2023 High-impact (77 citations): How Effective Are They? Exploring Large Language Model Based Fuzz Driver Generation
+2201.04048   # ISSTA 2022 High-impact (75 citations): SnapFuzz: high-throughput fuzzing of network applications
+2402.16928   # ISSTA 2024 High-impact (70 citations): CLAP: Learning Transferable Binary Code Representations with Natural Language Supervision
+2406.13972   # ISSTA 2024 High-impact (70 citations): CREF: An LLM-Based Conversational Software Repair Framework for Programming Tutors
+2304.05216   # ISSTA 2023 High-impact (68 citations): Towards Efficient Fine-Tuning of Pre-trained Code Models: An Experimental Study and Beyond
+2407.12241   # ISSTA 2024 High-impact (66 citations): An Empirical Study of Static Analysis Tools for Secure Code Review
+2404.00640   # ISSTA 2024 High-impact (55 citations): Face It Yourselves: An LLM-Based Two-Stage Strategy to Localize Configuration Errors via Logs
+2305.15829   # ISSTA 2023 High-impact (55 citations): Definition and Detection of Defects in NFT Smart Contracts
+2112.02807   # ISSTA 2021 High-impact (51 citations): MDPFuzz: testing models solving Markov decision processes
+2208.02193   # ISSTA 2022 High-impact (49 citations): Fuzzing Deep Learning Compilers with HirGen
+2403.19096   # ISSTA 2024 High-impact (48 citations): SCALE: Constructing Structured Natural Language Comment Trees for Software Vulnerability Detection
+2404.15687   # ISSTA 2024 High-impact (46 citations): Graph Neural Networks for Vulnerability Detection: A Counterfactual Explanation
+2305.11602   # ISSTA 2023 High-impact (45 citations): Latent Imitator: Generating Natural Individual Discriminatory Instances for Black-Box Fairness Testing
+2407.05165   # ISSTA 2024 High-impact (41 citations): Feedback-Driven Automated Whole Bug Report Reproduction for Android Apps

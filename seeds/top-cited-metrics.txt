@@ -1,0 +1,39 @@
+# Most cited 2021-2026 papers of the metrics venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-21).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2105.05308   # SIGMETRICS 2021 High-impact (46 citations): Sequential Fair Allocation: Achieving the Optimal Envy-Efficiency Tradeoff Curve
+2204.12709   # SIGMETRICS 2022 High-impact (38 citations): Toxicity in the Decentralized Web and the Potential for Model Sharing
+2210.00953   # SIGMETRICS 2022 High-impact (29 citations): Bias and Extrapolation in Markovian Linear Stochastic Approximation with Constant Stepsizes
+2406.02402   # SIGMETRICS 2023 High-impact (23 citations): Online Fair Allocation of Perishable Resources
+2206.13606   # SIGMETRICS 2022 High-impact (19 citations): Online Resource Allocation under Horizon Uncertainty
+2103.06212   # SIGMETRICS 2021 High-impact (18 citations): Real-time Approximate Routing for Smart Transit Systems
+2504.02174   # SIGMETRICS 2025 High-impact (16 citations): FastFlow: Early Yet Robust Network Flow Classification using the Minimal Number of Time-Series Packets
+2102.12975   # SIGMETRICS 2021 High-impact (16 citations): The Power of D-hops in Matching Power-Law Graphs
+https://arxiv.org/pdf/2004.02081   # SIGMETRICS 2021 High-impact (14 citations): Achieving Zero Asymptotic Queueing Delay for Parallel Jobs
+2206.02987   # SIGMETRICS 2022 High-impact (13 citations): A Formalism of DNN Accelerator Flexibility
+2501.05380   # SIGMETRICS 2025 High-impact (11 citations): Optimal Scheduling in a Quantum Switch: Capacity and Throughput Optimality
+2105.05821   # SIGMETRICS 2021 High-impact (11 citations): SimNet
+2412.14757   # SIGMETRICS 2024 High-impact (8 citations): Peer-to-Peer Distribution of Graph States Across Spacetime Quantum Networks of Arbitrary Topology
+https://arxiv.org/pdf/2204.08572   # SIGMETRICS 2022 High-impact (7 citations): Expert-Calibrated Learning for Online Optimization with Switching Costs
+2202.07971   # SIGMETRICS 2022 High-impact (7 citations): Large-System Insensitivity of Zero-Waiting Load Balancing Algorithms
+2504.10743   # SIGMETRICS 2025 High-impact (7 citations): Robust Gittins for Stochastic Scheduling
+https://arxiv.org/pdf/2004.00876   # SIGMETRICS 2021 High-impact (6 citations): Mean Waiting Time in Large-Scale and Critically Loaded Power of d Load Balancing Systems
+2102.11925   # SIGMETRICS 2021 High-impact (6 citations): Chasm in Hegemony: Explaining and Reproducing Disparities in Homophilous Networks
+2202.02975   # SIGMETRICS 2022 High-impact (5 citations): Competitive Online Optimization with Multiple Inventories
+https://arxiv.org/pdf/2104.14215   # SIGMETRICS 2022 High-impact (5 citations): Unleashing the Power of Paying Multiplexing Only Once in Stochastic Network Calculus
+2604.09611   # SIGMETRICS 2026 High-impact (5 citations): Characterizing Performance–Energy Trade-offs of Large Language Models in Multi-Request Workflows
+2504.08094   # SIGMETRICS 2024 High-impact (5 citations): Improving Multiresource Job Scheduling with Markovian Service Rate Policies
+2504.08178   # SIGMETRICS 2025 High-impact (4 citations): A Piecewise Lyapunov Analysis of Sub-quadratic SGD: Applications to Robust and Quantile Regression
+2203.08943   # SIGMETRICS 2022 High-impact (4 citations): CachePerf: A Unified Cache Miss Classifier via Hybrid Hardware Sampling
+2504.02207   # SIGMETRICS 2025 High-impact (4 citations): Finite-Time Behavior of Erlang-C Model: Mixing Time, Mean Queue Length and Tail Bounds
+2511.01062   # SIGMETRICS 2025 High-impact (3 citations): ECCentric: An Empirical Analysis of Quantum Error Correction Codes
+https://arxiv.org/pdf/2111.08621   # SIGMETRICS 2022 High-impact (2 citations): Real-time Bidding for Time Constrained Impression Contracts in First and Second Price Auctions - Theory and Algorithms
+https://arxiv.org/pdf/2111.01203   # SIGMETRICS 2022 High-impact (2 citations): One Proxy Device Is Enough for Hardware-Aware Neural Architecture Search
+2510.25963   # SIGMETRICS 2025 High-impact (2 citations): Outperforming Multiserver SRPT at All Loads
+https://arxiv.org/pdf/2201.07052   # SIGMETRICS 2022 High-impact (2 citations): Differentially Private Reinforcement Learning with Linear Function Approximation
+2505.23970   # SIGMETRICS 2025 High-impact (1 citations): Cache Your Prompt When It's Green - Carbon-aware Caching for Large Language Model Serving
+2505.11193   # SIGMETRICS 2025 High-impact (1 citations): Reducing Sensor Requirements by Relaxing the Network Metric Dimension
+2602.00351   # SIGMETRICS 2026 High-impact (1 citations): Efficiency-Reward Trade-Off in Queues with Dynamic Arrivals
+https://arxiv.org/pdf/2111.03772   # SIGMETRICS 2022 High-impact (0 citations): Dynamic Regret Minimization for Control of Non-stationary Linear Dynamical Systems
+2604.09423   # SIGMETRICS 2026 High-impact (0 citations): Offline Local Search for Online Stochastic Bandits
+2601.20653   # SIGMETRICS 2026 High-impact (0 citations): The Multiserver-Job Stochastic Recurrence Equation for Cloud Computing Performance Evaluation
+https://arxiv.org/pdf/2211.11382   # SIGMETRICS 2023 High-impact (0 citations): Bias and Refinement of Multiscale Mean Field Models

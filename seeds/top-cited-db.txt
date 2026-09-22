@@ -1,0 +1,72 @@
+# Most cited 2021-2026 papers of the db venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-21).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2102.02079   # ICDE 2021 High-impact (1541 citations): Federated Learning on Non-IID Data Silos: An Experimental Study
+https://arxiv.org/pdf/2010.14395   # ICDE 2022 High-impact (593 citations): Contrastive Learning for Sequential Recommendation
+2311.09049   # ICDE 2023 High-impact (437 citations): Adapting Large Language Models by Integrating Collaborative Semantics for Recommendation
+https://arxiv.org/pdf/1904.09483   # ICDE 2021 High-impact (178 citations): CleanML: A Study for Evaluating the Impact of Data Cleaning on ML Classification Tasks
+2302.09746   # ICDE 2023 High-impact (162 citations): PriSTI: A Conditional Diffusion Framework for Spatiotemporal Imputation
+2211.09510   # ICDE 2022 High-impact (154 citations): Self-supervised Trajectory Representation Learning with Temporal Regularities and Travel Semantics
+2203.15737   # ICDE 2022 High-impact (151 citations): Towards Spatio- Temporal Aware Traffic Time Series Forecasting
+2210.05155   # ICDE 2022 High-impact (116 citations): Contrastive Trajectory Similarity Learning with Dual-Feature Attention
+2308.15136   # ICDE 2023 High-impact (112 citations): CAGRA: Highly Parallel Graph Construction and Approximate Nearest Neighbor Search for GPUs
+2404.14999   # ICDE 2024 High-impact (112 citations): A Unified Replay-Based Continuous Learning Framework for Spatio-Temporal Prediction on Streaming Data
+2207.11088   # ICDE 2022 High-impact (108 citations): Layer-refined Graph Convolutional Networks for Recommendation
+2204.08587   # ICDE 2022 High-impact (108 citations): Spatial-Temporal Hypergraph Self-Supervised Learning for Crime Prediction
+2104.06608   # ICDE 2021 High-impact (106 citations): Search to aggregate neighborhood for graph neural network
+2203.16863   # ICDE 2022 High-impact (97 citations): Cross-Domain Recommendation to Cold-Start Users via Variational Information Bottleneck
+2204.01499   # ICDE 2022 High-impact (90 citations): FedRecAttack: Model Poisoning Attack to Federated Recommendation
+2109.02046   # ICDE 2021 High-impact (90 citations): Attentive Knowledge-aware Graph Convolutional Networks with Collaborative Guidance for Personalized Recommendation
+2403.20014   # ICDE 2024 High-impact (86 citations): PURPLE: Making a Large Language Model a Better SQL Writer
+2103.15860   # ICDE 2021 High-impact (85 citations): Twine: An Embedded Trusted Runtime for WebAssembly
+2211.13234   # ICDE 2022 High-impact (81 citations): RNTrajRec: Road Network Enhanced Trajectory Recovery with Spatial-Temporal Transformer
+2201.02307   # ICDE 2021 High-impact (77 citations): Multi-Behavior Enhanced Recommendation with Cross-Interaction Collaborative Relation Modeling
+2109.09046   # ICDE 2021 High-impact (74 citations): Improving Fairness for Data Valuation in Horizontal Federated Learning
+https://arxiv.org/pdf/2006.00888   # ICDE 2021 High-impact (73 citations): ValueNet: A Natural Language-to-SQL System that Learns from Database Information
+2309.12028   # ICDE 2023 High-impact (69 citations): Dynamic Hypergraph Structure Learning for Traffic Flow Forecasting
+2210.03994   # ICDE 2022 High-impact (68 citations): Relational Message Passing for Fully Inductive Knowledge Graph Completion
+2207.04122   # ICDE 2022 High-impact (68 citations): Sudowoodo: Contrastive Self-supervised Learning for Multi-purpose Data Integration and Preparation
+2206.12747   # ICDE 2022 High-impact (66 citations): HyGNN: Drug-Drug Interaction Prediction via Hypergraph Neural Network
+2204.03529   # ICDE 2022 High-impact (66 citations): FedADMM: A Robust Federated Deep Learning Framework with Adaptivity to System Heterogeneity
+2204.03341   # ICDE 2022 High-impact (66 citations): Robust and Explainable Autoencoders for Unsupervised Time Series Outlier Detection
+2212.11584   # ICDE 2022 High-impact (63 citations): TxAllo: Dynamic Transaction Allocation in Sharded Blockchain Systems
+2312.11935   # ICDE 2023 High-impact (63 citations): Parameterized Decision-Making with Multi-Modality Perception for Autonomous Driving
+2307.12810   # ICDE 2023 High-impact (61 citations): HeteFedRec: Federated Recommender Systems with Model Heterogeneity
+2104.10228   # ICDE 2021 High-impact (59 citations): Concept Drift Detection from Multi-Class Imbalanced Data Streams
+2210.08285   # ICDE 2022 High-impact (57 citations): FedCross: Towards Accurate Federated Learning via Multi-Model Cross-Aggregation
+2307.15967   # ICDE 2023 High-impact (57 citations): Graph Condensation for Inductive Node Representation Learning
+2102.12531   # ICDE 2021 High-impact (56 citations): SALSA: Self-Adjusting Lean Streaming Analytics
+2105.12899   # ICDE 2021 High-impact (54 citations): Learning to Optimize Industry-Scale Dynamic Pickup and Delivery Problems
+2301.02068   # ICDE 2023 High-impact (51 citations): Towards Long-Term Time-Series Forecasting: Feature, Pattern, and Distribution
+2209.01416   # ICDE 2022 High-impact (46 citations): MMKGR: Multi-hop Multi-modal Knowledge Graph Reasoning
+2303.06095   # ICDE 2023 High-impact (44 citations): HiNet: Novel Multi-Scenario & Multi-Task Learning with Hierarchical Information Extraction
+2208.05875   # ICDE 2022 High-impact (44 citations): Uncertainty Quantification for Traffic Forecasting: A Unified Approach
+2405.03409   # ICDE 2024 High-impact (43 citations): LightTR: A Lightweight Framework for Federated Trajectory Recovery
+2412.17603   # ICDE 2024 High-impact (43 citations): EasyTime: Time Series Forecasting Made Easy
+2505.02138   # ICDE 2025 High-impact (42 citations): Efficient Multivariate Time Series Forecasting via Calibrated Language Models with Privileged Knowledge Distillation
+2312.09602   # ICDE 2023 High-impact (42 citations): Multi-Modality is All You Need for Transferable Recommender Systems
+2204.04903   # ICDE 2022 High-impact (41 citations): PICASSO: Unleashing the Potential of GPU-centric Training for Wide-and-deep Recommender Systems
+2401.11750   # ICDE 2024 High-impact (41 citations): AdaFGL: A New Paradigm for Federated Node Classification with Topology Heterogeneity
+2108.03388   # ICDE 2021 High-impact (40 citations): Jointly Attacking Graph Neural Network and its Explanations
+2204.07197   # ICDE 2022 High-impact (40 citations): RobustScaler: QoS-Aware Autoscaling for Complex Workloads
+2311.13348   # ICDE 2023 High-impact (39 citations): MergeSFL: Split Federated Learning with Feature Merging and Batch Size Regulation
+2312.01601   # ICDE 2023 High-impact (39 citations): Local-Global History-Aware Contrastive Learning for Temporal Knowledge Graph Reasoning
+2107.11136   # PODS 2021 High-impact (64 citations): High Dimensional Differentially Private Stochastic Optimization with Heavy-tailed Data
+2105.14435   # PODS 2021 High-impact (51 citations): Convergence of Datalog over (Pre-) Semirings
+2210.16580   # PODS 2022 High-impact (44 citations): GPC: A Pattern Calculus for Property Graphs
+2204.09136   # PODS 2022 High-impact (32 citations): The White-Box Adversarial Data Stream Model
+2105.05443   # PODS 2021 High-impact (29 citations): A Nearly Instance-optimal Differentially Private Mechanism for Conjunctive Queries
+2212.10641   # PODS 2022 High-impact (26 citations): Coloring in Graph Streams via Deterministic and Adversarially Robust Algorithms
+2111.02598   # PODS 2021 High-impact (24 citations): Universal Private Estimators
+2101.10890   # PODS 2021 High-impact (21 citations): Spanner Evaluation over SLP-Compressed Documents
+2108.12017   # PODS 2021 High-impact (20 citations): Truly Perfect Samplers for Data Streams and Sliding Windows
+2204.10584   # PODS 2022 High-impact (19 citations): Non-Uniformly Terminating Chase: Size and Complexity
+2607.26997   # PODS 2021 High-impact (16 citations): Estimating the Size of Union of Sets in Streaming Models
+2206.05080   # PODS 2022 High-impact (16 citations): Extremal Fitting Problems for Conjunctive Queries
+2203.11561   # PODS 2021 High-impact (14 citations): Improved Differentially Private Euclidean Distance Approximation
+2201.00549   # PODS 2022 High-impact (13 citations): Efficient Enumeration for Annotated Grammars
+2309.15270   # PODS 2021 High-impact (12 citations): Consistent Query Answering for Primary Keys on Path Queries
+2304.06221   # PODS 2023 High-impact (12 citations): Space-Time Tradeoffs for Conjunctive Queries with Access Patterns
+2305.16525   # PODS 2023 High-impact (11 citations): Efficient Computation of Quantiles over Joins
+2102.12201   # PODS 2021 High-impact (11 citations): On the Parameterized Complexity of Learning First-Order Logic
+2304.05890   # PODS 2023 High-impact (11 citations): Node-Differentially Private Estimation of the Number of Connected Components
+2304.05070   # PODS 2023 High-impact (11 citations): Static Analysis of Graph Database Transformations

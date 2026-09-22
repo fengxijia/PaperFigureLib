@@ -324,13 +324,12 @@ async function loadData() {
   return { ...head, papers: parts.flatMap(p => p.papers) };
 }
 (async function main() {
-const DATA = await loadData();
 const MODE = "__MODE__";
 let LANG = (() => {
   const q = new URLSearchParams(location.search).get('lang');
   if (q === 'en' || q === 'zh') return q;
+  if (window.SITE && window.SITE.lang) return window.SITE.lang;          // /en/ is always English
   try { const saved = localStorage.getItem('figlib-lang'); if (saved === 'en' || saved === 'zh') return saved; } catch (e) {}
-  if (window.SITE && window.SITE.lang) return window.SITE.lang;
   return /^zh/i.test(navigator.language || '') ? 'zh' : 'en';
 })();
 const T = {
@@ -350,6 +349,20 @@ const T = {
         byWall: 'Newest first', byEdition: 'Grouped by edition', verified: 'checked by {m}', wholeArea: 'All', stats: '{p} top-venue papers · {f} figures · updated {d}', result: '<b>{n}</b> figures match, showing {k}', styleH: 'Same-style charts', oneStyle: 'One per paper', allStyle: 'Show all', figure: 'Figure {n}', panel: ', panel {k}/{n}' },
 };
 const t = (k, v = {}) => T[LANG][k].replace(/\{(\w+)\}/g, (_, x) => v[x]);
+const $ = (id) => document.getElementById(id);
+// static labels get their language before the data arrives, so an English visitor never sees Chinese first
+function applyStaticLang() {
+  document.documentElement.lang = LANG === 'zh' ? 'zh-CN' : 'en';
+  $('q').placeholder = t('search'); $('l-venue').textContent = t('venue'); $('o-allvenue').textContent = t('all'); $('l-sort').textContent = t('sort');
+  $('o-wall').textContent = t('byWall'); $('o-edition').textContent = t('byEdition'); $('o-paper').textContent = t('byPaper'); $('o-year').textContent = t('byYear'); $('o-wide').textContent = t('wide'); $('o-tall').textContent = t('tall');
+  $('h-type').textContent = t('type'); $('h-source').textContent = t('source'); $('h-draw').textContent = t('draw'); $('h-textbox').textContent = t('textbox'); $('h-style').textContent = t('styleH'); $('railToggle').textContent = t('filters') + ' ▾'; $('railClose').textContent = t('closeSheet');
+  $('more').textContent = t('more'); $('empty').textContent = t('empty'); $('footer').textContent = t('footer'); $('credit').innerHTML = t('credit'); $('lbClose').textContent = t('close');
+  $('k-num').textContent = t('num'); $('k-kind').textContent = t('kind'); $('k-venue').textContent = t('venue'); $('k-pos').textContent = t('pos'); $('k-file').textContent = t('file');
+  $('lbPrev').textContent = t('prev'); $('lbNext').textContent = t('next'); $('lbShare').textContent = t('share');
+  $('lang').textContent = LANG === 'zh' ? 'EN' : 'ZH';
+}
+applyStaticLang();
+const DATA = await loadData();
 const CAT_L = {
   zh: { background: '背景图', method: '方法图', data: '数据图', example: '样例图', prompt: '提示词', table: '表格', other: '其他' },
   en: { background: 'Background', method: 'Method', data: 'Data chart', example: 'Example', prompt: 'Prompt', table: 'Table', other: 'Other' } };
@@ -398,7 +411,6 @@ const state = { q: '', cat: '', chart: '', venue: '', area: '', source: '', draw
 const AREAS = DATA.areas || [];
 const areaLabel = (id) => { const a = AREAS.find(x => x.id === id); return a ? (LANG === 'zh' ? a.zh : a.en) : id; };
 const TEXTBOX_CATS = new Set(['prompt']);   // prompt templates and algorithm boxes
-const $ = (id) => document.getElementById(id);
 
 function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
 
@@ -680,6 +692,7 @@ function openLb(i) {
 }
 function closeLb() { $('lb').hidden = true; lbIndex = -1; history.replaceState(null, '', location.pathname + location.search); }
 function applyLang() {
+  document.documentElement.lang = LANG === 'zh' ? 'zh-CN' : 'en';
   CAT_ZH = CAT_L[LANG]; CHART_ZH = CHART_L[LANG];
   $('q').placeholder = t('search'); $('l-venue').textContent = t('venue'); $('o-allvenue').textContent = t('all'); $('l-sort').textContent = t('sort');
   $('o-wall').textContent = t('byWall'); $('o-edition').textContent = t('byEdition'); $('o-paper').textContent = t('byPaper'); $('o-year').textContent = t('byYear'); $('o-wide').textContent = t('wide'); $('o-tall').textContent = t('tall');
@@ -687,7 +700,7 @@ function applyLang() {
   $('more').textContent = t('more'); $('empty').textContent = t('empty'); $('footer').textContent = t('footer'); $('credit').innerHTML = t('credit'); showVisits(); $('lbClose').textContent = t('close');
   $('k-num').textContent = t('num'); $('k-kind').textContent = t('kind'); $('k-venue').textContent = t('venue'); $('k-pos').textContent = t('pos'); $('k-file').textContent = t('file');
   $('lbPrev').textContent = t('prev'); $('lbNext').textContent = t('next'); $('lbShare').textContent = t('share');
-  $('lang').textContent = LANG === 'zh' ? 'EN' : '中文';
+  $('lang').textContent = LANG === 'zh' ? 'EN' : 'ZH';
   document.documentElement.lang = LANG === 'zh' ? 'zh-CN' : 'en';
   $('stats').textContent = t('stats', { p: DATA.n_papers, f: DATA.n_figures, d: DATA.generated });
   buildRail(); render();

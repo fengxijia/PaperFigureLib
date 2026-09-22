@@ -1,0 +1,44 @@
+# Most cited 2021-2026 papers of the embedded venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-21).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2209.02193   # EMSOFT 2022 High-impact (2 citations): Programming Autonomous Machines : Special Session Paper
+2506.00251   # EMSOFT 2025 High-impact (0 citations): Frequency Automata: A novel formal model of hybrid systems in combined time and frequency domains
+2211.12049   # RTSS 2022 High-impact (31 citations): GitFL: Uncertainty-Aware Real-Time Asynchronous Federated Learning Using Version Control
+2210.04024   # RTSS 2022 High-impact (29 citations): Demand Layering for Real-Time DNN Inference with Minimized Memory Usage
+2309.06619   # RTSS 2023 High-impact (25 citations): RT-LM: Uncertainty-Aware Resource Management for Real-Time Inference of Language Models
+2210.11946   # RTSS 2022 High-impact (18 citations): RT-MOT: Confidence-Aware Real-Time Scheduling Framework for Multi-Object Tracking Tasks
+2101.11053   # RTSS 2021 High-impact (18 citations): Response-Time Analysis and Optimization for Probabilistic Conditional Parallel DAG Tasks
+2308.15039   # RTSS 2023 High-impact (17 citations): $\mathrm{R}^{3}$: On-Device Real-Time Deep Reinforcement Learning for Autonomous Robotics
+2308.15368   # RTSS 2023 High-impact (15 citations): RED: A Systematic Real-Time Scheduling Approach for Robotic Environmental Dynamics
+2103.02872   # RTSS 2021 High-impact (12 citations): Catch Me If You Learn: Real-Time Attack Detection and Mitigation in Learning Enabled CPS
+2111.09725   # RTSS 2021 High-impact (12 citations): EDF-Like Scheduling for Self-Suspending Real-Time Tasks
+2109.13211   # RTSS 2021 High-impact (10 citations): Composite Resource Scheduling for Networked Control Systems
+2410.13084   # RTSS 2024 High-impact (9 citations): BOXR: Body and head motion Optimization framework for eXtended Reality
+2409.14323   # RTSS 2021 High-impact (7 citations): Cluster-Based Network Time Synchronization for Resilience with Energy Efficiency
+2410.14003   # RTSS 2024 High-impact (7 citations): Per-Bank Bandwidth Regulation of Shared Last-Level Cache for Real-Time Systems
+2412.18104   # RTSS 2024 High-impact (6 citations): Interference-free Operating System: A 6 Years’ Experience in Mitigating Cross-Core Interference in Linux
+2506.12686   # RTSS 2024 High-impact (5 citations): Energy-Efficient Real-Time Job Mapping and Resource Management in Mobile-Edge Computing
+2511.05915   # RTSS 2025 High-impact (4 citations): CoEdge-RAG: Optimizing Hierarchical Scheduling for Retrieval-Augmented LLMs in Collaborative Edge Computing
+2509.21301   # RTSS 2025 High-impact (4 citations): Nova: Real-Time Agentic Vision-Language Model Serving With Adaptive Cross-Stage Parallelization
+2409.14837   # RTSS 2024 High-impact (4 citations): MESC: Re-thinking Algorithmic Priority and/or Criticality Inversions for Heterogeneous MCSs
+2310.02959   # RTSS 2023 High-impact (4 citations): Co-Optimizing Cache Partitioning and Multi-Core Task Scheduling: Exploit Cache Sensitivity or Not?
+2505.23317   # RTSS 2025 High-impact (2 citations): CF-DETR: Coarse-to-Fine Transformer for Real-Time Object Detection
+2310.04809   # RTSS 2023 High-impact (2 citations): Leveraging LLVM's ScalarEvolution for Symbolic Data Cache Analysis
+2510.07715   # RTSS 2025 High-impact (1 citations): Control Synthesis of Cyber-Physical Systems for Real-Time Specifications Through Causation-Guided Reinforcement Learning
+2508.13863   # RTSS 2025 High-impact (1 citations): Tight Cache Contention Analysis for WCET Estimation on Multicore Systems
+2509.06262   # RTSS 2025 High-impact (1 citations): On Synthesis of Timed Regular Expressions
+2512.14002   # RTSS 2025 High-impact (1 citations): Real-Time Service Subscription and Adaptive Offloading Control in Vehicular Edge Computing
+2409.14779   # RTSS 2024 High-impact (1 citations): ROTA-I/O: Hardware/Algorithm Co-design for Real-Time I/O Control with Improved Timing Accuracy and Robustness
+2408.08440   # RTAS 2023 High-impact (48 citations): Timing Analysis and Priority-driven Enhancements of ROS 2 Multi-threaded Executors
+2305.16772   # RTAS 2023 High-impact (48 citations): Real-Time Scheduling for 802.1Qbv Time-Sensitive Networking (TSN): A Systematic Review and Experimental Study
+2303.03561   # RTAS 2023 High-impact (28 citations): ISC-FLAT: On the Conflict Between Control Flow Attestation and Real-Time Operations
+2104.04528   # RTAS 2021 High-impact (16 citations): SchedGuard: Protecting against Schedule Leaks Using Linux Containers
+2403.10726   # RTAS 2024 High-impact (13 citations): Strict Partitioning for Sporadic Rigid Gang Tasks
+2207.00737   # RTAS 2022 High-impact (12 citations): Brief Industry Paper: The Necessity of Adaptive Data Fusion in Infrastructure-Augmented Autonomous Driving System
+2310.19699   # RTAS 2023 High-impact (9 citations): Optimizing Logical Execution Time Model for Both Determinism and Low Latency
+2203.10390   # RTAS 2022 High-impact (9 citations): RT-WiFi on Software-Defined Radio: Design and Implementation
+2503.17038   # RTAS 2025 High-impact (4 citations): Arm Dynamiq Shared Unit and Real-Time: An Empirical Evaluation
+2603.26054   # RTAS 2026 High-impact (1 citations): Per-Bank Memory Bandwidth Regulation for Predictable and Performant Real-Time Systems
+2604.01441   # RTAS 2026 High-impact (1 citations): Generative Profiling for Soft Real-Time Systems and its Applications to Resource Allocation
+2106.01034   # RTAS 2021 High-impact (1 citations): Deficit Round-Robin: A Second Network Calculus Analysis
+2603.16490   # RTAS 2026 High-impact (0 citations): ETM2: Empowering Traditional Memory Bandwidth Regulation using ETM
+2606.11886   # RTAS 2026 High-impact (0 citations): Real-Time Language Model Jamming: A Case Study for Live Music Accompaniment Generation

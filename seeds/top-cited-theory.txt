@@ -1,0 +1,142 @@
+# Most cited 2021-2026 papers of the theory venues with an open PDF, from Semantic Scholar (figlib seedgen, 2026-09-21).
+# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts.
+2206.07750   # STOC 2022 High-impact (212 citations): Good Quantum LDPC Codes with Linear Time Decoders
+2311.14648   # STOC 2023 High-impact (196 citations): Calibrated Language Models Must Hallucinate
+2211.03999   # STOC 2022 High-impact (181 citations): A Polynomial-Time Classical Algorithm for Noisy Random Circuit Sampling
+2102.03117   # STOC 2021 High-impact (119 citations): Twin-width IV: ordered graphs and matrices
+2206.13228   # STOC 2022 High-impact (108 citations): NLTS Hamiltonians from Good Quantum Codes
+2104.06133   # STOC 2021 High-impact (101 citations): A new coreset framework for clustering
+2111.09079   # STOC 2021 High-impact (83 citations): Dequantizing the Quantum singular value transformation: hardness and applications to Quantum chemistry and the Quantum PCP conjecture
+2103.05604   # STOC 2021 High-impact (78 citations): Flow time scheduling with uncertain processing time
+2111.12981   # STOC 2021 High-impact (74 citations): Efficient mean estimation with pure differential privacy via a sum-of-squares exponential mechanism
+2101.09054   # STOC 2021 High-impact (73 citations): Adversarial laws of large numbers and optimal regret in online classification
+2212.05015   # STOC 2022 High-impact (72 citations): Robustness Implies Privacy in Statistical Estimation
+2111.06008   # STOC 2021 High-impact (71 citations): Near-optimal no-regret learning for correlated equilibria in multi-player general-sum games
+2212.00879   # STOC 2022 High-impact (71 citations): Quantum Cryptography in Algorithmica
+2401.10095   # STOC 2024 High-impact (70 citations): Learning Shallow Quantum Circuits
+2111.03273   # STOC 2021 High-impact (69 citations): Distributed Quantum inner product estimation
+2201.08430   # STOC 2022 High-impact (69 citations): Reproducibility in learning
+2206.05256   # STOC 2022 High-impact (67 citations): Generic Reed-Solomon Codes Achieve List-Decoding Capacity
+2102.05163   # STOC 2021 High-impact (66 citations): Frozen 1‐RSB structure of the symmetric Ising perceptron
+2209.12313   # STOC 2022 High-impact (66 citations): Random Graph Matching at Otter’s Threshold via Counting Chandeliers
+2103.02492   # STOC 2021 High-impact (65 citations): An area law for 2d frustration-free spin systems
+2202.12793   # STOC 2022 High-impact (64 citations): Towards optimal lower bounds for k-median and k-means coresets
+2211.16886   # STOC 2022 High-impact (63 citations): A Unifying Theory of Distance from Calibration
+2206.06557   # STOC 2022 High-impact (62 citations): An Efficient Decoder for a Linear Distance Quantum LDPC Code
+2209.15569   # STOC 2022 High-impact (61 citations): Credible Decentralized Exchange Design via Verifiable Sequencing Rules
+2111.03980   # STOC 2021 High-impact (61 citations): Dynamic algorithms against an adaptive adversary: generic constructions and lower bounds
+2102.02708   # STOC 2021 High-impact (57 citations): Fractionally log-concave and sector-stable polynomials: counting planar matchings and more
+2310.02243   # STOC 2023 High-impact (56 citations): Learning Quantum Hamiltonians at Any Temperature in Polynomial Time
+2204.04828   # STOC 2022 High-impact (55 citations): Improved approximations for Euclidean k-means and k-median, via nested quasi-independent sets
+2104.00104   # STOC 2021 High-impact (54 citations): Vertex connectivity in poly-logarithmic max-flows
+2303.12921   # STOC 2023 High-impact (54 citations): Stability Is Stable: Connections between Replicability, Privacy, and Adaptive Generalization
+2106.05513   # STOC 2021 High-impact (53 citations): Deterministic mincut in almost-linear time
+2304.13915   # STOC 2023 High-impact (53 citations): Improved Stabilizer Estimation via Bell Difference Sampling
+2112.00604   # STOC 2021 High-impact (52 citations): Near-optimal distributed degree+1 coloring
+2110.10701   # STOC 2021 High-impact (51 citations): Optimizing strongly interacting fermionic Hamiltonians
+2103.13024   # STOC 2021 High-impact (50 citations): Online stochastic matching, poisson arrivals, and the natural linear program
+2111.03084   # STOC 2021 High-impact (49 citations): Binary perceptron: efficient algorithms can find solutions in a rare well-connected cluster
+2310.19647   # STOC 2023 High-impact (48 citations): Fast Swap Regret Minimization and Applications to Approximate Correlated Equilibria
+2104.03932   # STOC 2021 High-impact (47 citations): Universally-optimal distributed algorithms for known topologies
+2311.01129   # STOC 2023 High-impact (47 citations): Constrained Submodular Maximization via New Bounds for DR-Submodular Functions
+2109.04415   # STOC 2021 High-impact (46 citations): Algorithms and certificates for Boolean CSP refutation: smoothed is no harder than random
+https://arxiv.org/pdf/2004.07220   # STOC 2021 High-impact (45 citations): Log-concave polynomials IV: approximate exchange, tight mixing times, and near-optimal sampling of forests
+2203.02883   # STOC 2022 High-impact (45 citations): The power of multiple choices in online stochastic matching
+2408.09254   # STOC 2024 High-impact (45 citations): Asymptotically Good Quantum Codes with Transversal Non-Clifford Gates
+2211.07154   # STOC 2022 High-impact (43 citations): An Improved Parameterized Algorithm for Treewidth
+2111.09787   # STOC 2021 High-impact (43 citations): Near-optimal Quantum algorithms for multivariate mean estimation
+2211.07058   # STOC 2022 High-impact (42 citations): Stronger 3-SUM Lower Bounds for Approximate Distance Oracles via Additive Combinatorics
+2211.07048   # STOC 2022 High-impact (42 citations): Removing Additive Structure in 3SUM-Based Reductions
+2204.10465   # STOC 2022 High-impact (41 citations): Hardness of approximation in p via short cycle removal: cycle detection, distance oracles, and beyond
+2204.04500   # STOC 2022 High-impact (41 citations): Faster min-plus product for monotone instances
+2111.00602   # STOC 2021 High-impact (41 citations): On the optimal time/space tradeoff for hash tables
+2202.13641   # FOCS 2022 High-impact (323 citations): Quantum Tanner codes
+2111.05881   # FOCS 2021 High-impact (187 citations): Exponential Separations Between Learning With and Without Quantum Memory
+2210.10173   # FOCS 2022 High-impact (154 citations): Faster Matrix Multiplication via Asymmetric Hashing
+2104.07463   # FOCS 2021 High-impact (144 citations): A Single-Exponential Time 2-Approximation Algorithm for Treewidth
+2104.13866   # FOCS 2021 High-impact (119 citations): Reachability in Vector Addition Systems is Ackermann-complete
+2104.12695   # FOCS 2021 High-impact (115 citations): The Reachability Problem for Petri Nets is Not Primitive Recursive
+2203.05093   # FOCS 2022 High-impact (109 citations): Sampling from the Sherrington-Kirkpatrick Gibbs measure via algorithmic stochastic localization
+2303.13012   # FOCS 2023 High-impact (106 citations): Exponential quantum speedup in simulating coupled classical oscillators*
+2204.02063   # FOCS 2022 High-impact (104 citations): Verifiable Quantum Advantage without Structure
+2204.06974   # FOCS 2022 High-impact (102 citations): Planting Undetectable Backdoors in Machine Learning Models : [Extended Abstract]
+2309.16629   # FOCS 2023 High-impact (98 citations): A Deterministic Almost-Linear Time Algorithm for Minimum-Cost Flow
+https://arxiv.org/pdf/2108.04842   # FOCS 2022 High-impact (97 citations): Optimal learning of quantum Hamiltonians from high-temperature Gibbs states
+2203.01550   # FOCS 2022 High-impact (92 citations): A Characterization of Multiclass Learnability
+2111.01481   # FOCS 2021 High-impact (85 citations): The supersingular isogeny path and endomorphism ring problems are equivalent
+2403.16850   # FOCS 2024 High-impact (83 citations): High-Temperature Gibbs States are Unentangled and Efficiently Preparable
+2102.08446   # FOCS 2021 High-impact (82 citations): Smoothed Analysis with Adaptive Adversaries
+2107.08444   # FOCS 2021 High-impact (80 citations): A Theory of PAC Learnability of Partial Concept Classes
+2203.04989   # FOCS 2022 High-impact (80 citations): Generalised Entropy Accumulation
+2203.17207   # FOCS 2022 High-impact (77 citations): A Proof of the Kahn-Kalai Conjecture
+2302.14066   # FOCS 2023 High-impact (72 citations): Query-optimal estimation of unitary channels in diamond distance
+2207.10889   # FOCS 2022 High-impact (70 citations): Correlation Clustering with Sherali-Adams
+2101.07233   # FOCS 2021 High-impact (70 citations): Fully Dynamic Electrical Flows: Sparse Maxflow Faster Than Goldberg-Rao
+2101.08208   # FOCS 2021 High-impact (69 citations): Solving SDP Faster: A Robust IPM Framework and Efficient Implementation
+2203.04163   # FOCS 2022 High-impact (66 citations): Localization Schemes: A Framework for Proving Mixing Bounds for Markov Chains (extended abstract)
+2110.07847   # FOCS 2021 High-impact (65 citations): Tight Lipschitz Hardness for optimizing Mean Field Spin Glasses
+2404.12647   # FOCS 2024 High-impact (64 citations): Simple Constructions of Linear-Depth t-Designs and Pseudorandom Unitaries
+2302.10249   # FOCS 2023 High-impact (64 citations): Faster high-accuracy log-concave sampling via algorithmic warm starts
+2406.07478   # FOCS 2024 High-impact (62 citations): Incompressibility and Spectral Gaps of Random Circuits
+2101.07149   # FOCS 2021 High-impact (62 citations): Deterministic Decremental SSSP and Approximate Min-Cost Flow in Almost-Linear Time
+2102.13069   # FOCS 2021 High-impact (61 citations): Proof of the Contiguity Conjecture and Lognormal Limit for the Symmetric Perceptron
+2102.01738   # FOCS 2021 High-impact (60 citations): Noise and the Frontier of Quantum Supremacy
+2109.14260   # FOCS 2021 High-impact (60 citations): Combinatorial Contracts
+2404.07281   # FOCS 2024 High-impact (59 citations): Certifying Almost All Quantum States with Few Single-Qubit Measurements
+2106.02129   # FOCS 2021 High-impact (59 citations): The Algorithmic Phase Transition of Random k-SAT for Low Degree Polynomials
+2204.10306   # FOCS 2022 High-impact (54 citations): Performance and limitations of the QAOA at constant levels on large sparse hypergraphs and spin glass models
+2106.00875   # FOCS 2021 High-impact (54 citations): The Hardest Explicit Construction
+2206.05265   # FOCS 2022 High-impact (53 citations): When Does Adaptivity Help for Quantum State Learning?
+2209.01901   # FOCS 2022 High-impact (53 citations): The Power of Uniform Sampling for Coresets
+2105.15005   # FOCS 2021 High-impact (53 citations): Rapid mixing of Glauber dynamics via spectral independence for all degrees
+2203.15667   # FOCS 2022 High-impact (51 citations): Algorithms and Barriers in the Symmetric Binary Perceptron Model
+2412.02975   # FOCS 2024 High-impact (51 citations): Theoretical limitations of multi-layer Transformer
+2401.06240   # FOCS 2024 High-impact (51 citations): Quantum Eigenvalue Processing
+2211.10887   # FOCS 2022 High-impact (50 citations): Differential Privacy from Locally Adjustable Graph Algorithms: k-Core Decomposition, Low Out-Degree Ordering, and Densest Subgraphs
+2304.02509   # FOCS 2023 High-impact (49 citations): A proof that Reed-Muller codes achieve Shannon capacity on symmetric channels
+2404.19105   # FOCS 2024 High-impact (48 citations): Optimal Tradeoffs for Estimating Pauli Observables
+2204.02550   # FOCS 2022 High-impact (48 citations): Continuous LWE is as Hard as LWE & Applications to Learning Gaussian Mixtures
+2204.07155   # FOCS 2022 High-impact (46 citations): Tight Bounds for Quantum State Certification with Incoherent Measurements
+2304.01403   # FOCS 2023 High-impact (46 citations): Randomly Punctured Reed-Solomon Codes Achieve the List Decoding Capacity over Polynomial-Size Alphabets
+2104.07114   # FOCS 2021 High-impact (45 citations): A Better-Than-2 Approximation for Weighted Tree Augmentation
+2309.17243   # FOCS 2023 High-impact (45 citations): Handling Correlated Rounding Error via Preclustering: A 1.73-approximation for Correlation Clustering
+2512.12391   # SODA 2025 High-impact (335 citations): Efficiently approximating the minimum-volume bounding box of a point set in three dimensions
+2307.07970   # SODA 2023 High-impact (229 citations): New Bounds for Matrix Multiplication: from Alpha to Omega
+2404.16349   # SODA 2024 High-impact (185 citations): More Asymmetry Yields Faster Matrix Multiplication
+2103.07459   # SODA 2021 High-impact (101 citations): On Mixing of Markov Chains: Coupling, Spectral Independence, and Entropy Factorization
+2207.08800   # SODA 2022 High-impact (91 citations): Quantum tomography using state-preparation unitaries
+2208.04591   # SODA 2022 High-impact (74 citations): Stronger Privacy Amplification by Shuffling for Rényi and Approximate Differential Privacy
+2307.07304   # SODA 2023 High-impact (67 citations): Breaking the 3/4 Barrier for Approximate Maximin Share
+2112.11831   # SODA 2021 High-impact (66 citations): Online Graph Algorithms with Predictions
+2211.05006   # SODA 2022 High-impact (60 citations): Almost Tight Error Bounds on Differentially Private Continual Counting
+2107.02058   # SODA 2021 High-impact (57 citations): Tight Guarantees for Multi-unit Prophet Inequalities and Online Stochastic Knapsack
+2404.19211   # SODA 2024 High-impact (53 citations): Triply efficient shadow tomography
+2111.00282   # SODA 2021 High-impact (52 citations): Twin-width VI: the lens of contraction sequences
+2103.11669   # SODA 2021 High-impact (52 citations): Space Lower Bounds for Approximating Maximum Matching in the Edge Arrival Model
+2107.07403   # SODA 2021 High-impact (47 citations): Local Search for Weighted Tree Augmentation and Steiner Tree
+2111.03694   # SODA 2021 High-impact (47 citations): Metric Distortion Bounds for Randomized Social Choice
+2307.08999   # SODA 2023 High-impact (45 citations): Oracle Efficient Online Multicalibration and Omniprediction
+2111.03174   # SODA 2021 High-impact (45 citations): Single-Sample Prophet Inequalities via Greedy-Ordered Selection
+2206.00594   # SODA 2022 High-impact (40 citations): Sparse graphs with bounded induced cycle packing number have logarithmic treewidth
+2110.12499   # SODA 2021 High-impact (39 citations): Approximate Core for Committee Selection via Multilinear Extension and Market Clearing
+2104.05771   # SODA 2021 High-impact (38 citations): Online Weighted Matching with a Sample
+2209.11651   # SODA 2022 High-impact (38 citations): Local Distributed Rounding: Generalized to MIS, Matching, Set Cover, and Beyond
+2109.08424   # SODA 2021 High-impact (37 citations): Distortion-Oblivious Algorithms for Minimizing Flow Time
+2207.05898   # SODA 2022 High-impact (35 citations): Testing and Learning Quantum Juntas Nearly Optimally
+2111.04804   # SODA 2021 High-impact (35 citations): Approximating Fair Clustering with Cascaded Norm Objectives
+2207.10850   # SODA 2022 High-impact (35 citations): A simple and sharper proof of the hypergraph Moore bound
+2209.11669   # SODA 2022 High-impact (35 citations): Improved Distributed Network Decomposition, Hitting Sets, and Spanners, via Derandomization
+2303.11843   # SODA 2023 High-impact (35 citations): Optimal Fully Dynamic k-Center Clustering for Adaptive and Oblivious Adversaries
+2308.07473   # SODA 2023 High-impact (34 citations): On Supermodular Contracts and Dense Subgraphs
+2107.14327   # SODA 2021 High-impact (34 citations): Fixed-Price Approximations in Bilateral Trade
+2308.04795   # SODA 2023 High-impact (33 citations): Induced-Minor-Free Graphs: Separator Theorem, Subexponential Algorithms, and Improved Hardness of Recognition
+2107.05717   # SODA 2021 High-impact (33 citations): Sparsifying, Shrinking and Splicing for Minimum Path Cover in Parameterized Linear Time
+2201.01824   # SODA 2022 High-impact (33 citations): Testing matrix product states
+2111.04589   # SODA 2021 High-impact (32 citations): An Improved Local Search Algorithm for k-Median
+2107.09423   # SODA 2021 High-impact (31 citations): Combinatorial Gap Theorem and Reductions between Promise CSPs
+2109.03744   # SODA 2021 High-impact (31 citations): Approximately counting independent sets in bipartite graphs via graph containers
+2208.07544   # SODA 2022 High-impact (31 citations): Mean estimation when you have the source code; or, quantum Monte Carlo methods
+2107.05567   # SODA 2021 High-impact (31 citations): Strong recovery of geometric planted matchings
+2110.15944   # SODA 2021 High-impact (31 citations): Universally-Optimal Distributed Shortest Paths and Transshipment via Graph-Based L1-Oblivious Routing
+2107.05018   # SODA 2021 High-impact (30 citations): CLAP: A New Algorithm for Promise CSPs
+2207.08643   # SODA 2022 High-impact (29 citations): A Sublinear-Time Quantum Algorithm for Approximating Partition Functions
