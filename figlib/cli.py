@@ -634,12 +634,13 @@ def cmd_site(args):
     page = tpl.replace('<script id="data" type="application/json">__DATA__</script>',
                        f"<script>window.SITE = {site_cfg};</script>").replace("__MODE__", "site")
     (out / "index.html").write_text(page)
-    # /en/ starts in English regardless of the browser locale (for links shared abroad)
-    (out / "en").mkdir(exist_ok=True)
-    site_cfg_en = json.dumps({"img_base": args.img_base, "shards": ["../" + u for u in shard_urls], "lang": "en"})
-    (out / "en" / "index.html").write_text(page.replace(f"window.SITE = {site_cfg};", f"window.SITE = {site_cfg_en};")
-                                           .replace('href="favicon', 'href="../favicon').replace('href="apple-touch', 'href="../apple-touch').replace('src="favicon', 'src="../favicon')
-                                           .replace("fetch('api/visits'", "fetch('../api/visits'"))
+    # /en/ and /zh/ start in that language regardless of the browser locale (fixed entries for shared links)
+    for lang in ("en", "zh"):
+        (out / lang).mkdir(exist_ok=True)
+        cfg = json.dumps({"img_base": args.img_base, "shards": ["../" + u for u in shard_urls], "lang": lang})
+        (out / lang / "index.html").write_text(page.replace(f"window.SITE = {site_cfg};", f"window.SITE = {cfg};")
+                                               .replace('href="favicon', 'href="../favicon').replace('href="apple-touch', 'href="../apple-touch').replace('src="favicon', 'src="../favicon')
+                                               .replace("fetch('api/visits'", "fetch('../api/visits'"))
     (out / "robots.txt").write_text("User-agent: *\nAllow: /\n")
     for asset in (HERE / "assets").iterdir():
         shutil.copy2(asset, out / asset.name)

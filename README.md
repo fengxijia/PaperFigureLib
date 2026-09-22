@@ -1,6 +1,6 @@
 # Paper Figure & Table Library
 
-**Live: <https://paperfigure.net/>** (English entry: <https://paperfigure.net/en/>)
+**Live: <https://paperfigure.net/>** (follows your browser language; Chinese entry: <https://paperfigure.net/zh/>)
 
 Asked AI to turn your paper into a figure, only to get a complete mess? Want to learn from the figure styles of top-tier conference papers, but are not sure where to find enough good examples? The ultimate collection of figures from top CS conferences is here!
 
@@ -72,4 +72,4 @@ Code: MIT. Figures belong to the authors of the papers; every figure links to it
 
 那么，我们顶会论文图表大全来了。
 
-PaperFigureLib 收集并整理了计算机科学顶会论文中的优秀图表，按照方法图、模型架构图、流程图、数据图、实验结果图等类别进行归档。无论你是在寻找灵感、设计版式，还是为 AI 绘图挑选参考模板，都可以从这里快速找到真正经得起顶会审美检验的范例。中文入口：<https://paperfigure.net/>。
+PaperFigureLib 收集并整理了计算机科学顶会论文中的优秀图表，按照方法图、模型架构图、流程图、数据图、实验结果图等类别进行归档。无论你是在寻找灵感、设计版式，还是为 AI 绘图挑选参考模板，都可以从这里快速找到真正经得起顶会审美检验的范例。中文入口：<https://paperfigure.net/zh/>。
