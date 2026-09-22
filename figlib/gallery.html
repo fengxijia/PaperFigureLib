@@ -102,9 +102,11 @@ button { font: inherit; color: inherit; }
 .rail-body { flex: 1; min-height: 0; overflow: auto; }
 .rail-foot { flex: none; padding: 12px 0 6px; border-top: 1px solid var(--line); }
 .rail-foot .gh { color: var(--muted); font-size: 12px; gap: 8px; }
+.rail-foot .gh a { color: inherit; text-decoration: none; }
 .rail-foot .gh b { font-weight: 600; color: var(--ink); }
+.rail-foot .gh-name:hover b { text-decoration: underline; }
 .rail-foot .gh small { display: block; font-size: 10.5px; opacity: .85; }
-.rail-foot .gh:hover { color: var(--ink); }
+.rail-foot .gh-repo:hover small, .rail-foot .gh-icon:hover { color: var(--ink); opacity: 1; }
 .rail-foot .gh svg { width: 18px; height: 18px; }
 .rail-toggle, .rail-close { display: none; }   /* phone-only controls */
 /* phones: compact header that scrolls away, a sticky "filters" bar, and the filter panel as a full-screen sheet */
@@ -272,7 +274,7 @@ h3.group:first-child { margin-top: 4px; }
     <div class="chips" id="textbox"></div>
    </div>
    <div class="rail-foot">
-    <a class="gh" href="https://github.com/fengxijia/PaperFigureLib" target="_blank" rel="noopener" title="GitHub"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg><span><b>xixisphere</b><small>GitHub</small></span></a>
+    <span class="gh"><a class="gh-icon" href="https://github.com/fengxijia/PaperFigureLib" target="_blank" rel="noopener" title="GitHub"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a><span><a class="gh-name" href="https://fengxijia.github.io/" target="_blank" rel="noopener"><b>xixisphere</b></a><a class="gh-repo" href="https://github.com/fengxijia/PaperFigureLib" target="_blank" rel="noopener"><small>GitHub</small></a></span></span>
    </div>
   </aside>
   <main class="main">
