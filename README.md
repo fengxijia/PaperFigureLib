@@ -11,7 +11,7 @@ PaperFigureLib collects and organizes high-quality figures from top computer sci
 ## What is inside
 
 - **2,800+ papers, 38,000+ figures and tables**, from the best, outstanding and most cited papers of 2021 to 2026 at the top venues of every CSRankings area: ML, NLP, vision, AI, HCI, robotics, graphics, systems, networking, mobile, security, databases, PL, SE, HPC, theory, speech.
-- Every figure is cropped from the PDF at 300 dpi, labelled by type (method diagram, background, data chart by subtype: bar, line, scatter, pie, heatmap, box, violin, radar, histogram, area, confusion matrix; example, prompt, table), and linked to its paper, venue, year and award.
+- Every figure is cropped from the PDF at 300 dpi, labelled by type (method diagram, intro figure, data chart by subtype: bar, line, scatter, pie, heatmap, box, violin, radar, histogram, area, confusion matrix; example, prompt, table), and linked to its paper, venue, year and award.
 - Multi-panel charts are split into single panels; tables are extracted as their own category.
 - Filter by figure type, venue (grouped by area), award tier and drawing style; search captions, titles, tags and arXiv ids; every view has a shareable URL (`?cat=method&venue=CHI`, `#fig=<id>` opens one figure).
 
