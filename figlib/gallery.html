@@ -98,9 +98,9 @@ button { font: inherit; color: inherit; }
 
 /* ---------- layout */
 .wrap { display: grid; grid-template-columns: 200px 1fr; gap: 20px; padding-block: 14px 40px; }
-.rail { position: sticky; top: 74px; align-self: start; height: calc(100vh - 124px); display: flex; flex-direction: column; }
+.rail { position: sticky; top: 74px; align-self: start; height: calc(100vh - 90px); display: flex; flex-direction: column; }
 .rail-body { flex: 1; min-height: 0; overflow: auto; }
-.rail-foot { flex: none; padding: 12px 0 6px; border-top: 1px solid var(--line); display: flex; align-items: center; gap: 10px; }
+.rail-foot { flex: none; padding: 10px 0 2px; border-top: 1px solid var(--line); display: flex; align-items: center; gap: 10px; }
 .ai-btn { flex: none; font-size: 11.5px; padding: 4px 9px; }
 /* prompt dialog: a copyable block that tells any chatbot how to build gallery links for a topic */
 .pd { position: fixed; inset: 0; background: rgba(10,14,18,.7); z-index: 25; display: grid; place-items: center; padding: 16px; }
@@ -362,7 +362,7 @@ let LANG = (() => {
 const T = {
   zh: { search: '搜图注、论文题目、标签、arXiv 号', venue: '会议', all: '全部', sort: '排序', byPaper: '按论文', byYear: '年份新到旧', wide: '宽图优先', tall: '高图优先',
         filters: '筛选', closeSheet: '关闭 ✕',
-        aiBtn: '给 AI 用', aiTitle: '把这段话发给你的 AI', copy: '复制', copied: '已复制',
+        aiBtn: 'AI 接口', aiTitle: '把这段话发给你的 AI', copy: '复制', copied: '已复制',
         aiIntro: '你在写论文或者大作业时，把下面这段连同你的主题发给任何聊天 AI，它会把主题拆成英文关键词，给你几条能直接点开的图库链接。',
         aiHint: '技术细节和接口说明见 <a href="https://github.com/fengxijia/PaperFigureLib" target="_blank" rel="noopener">GitHub</a>。',
         aiPrompt: `我在写一篇关于「（在这里写你的主题）」的论文或课程作业，需要给自己的图找参考样式。
@@ -383,7 +383,7 @@ const T = {
         byWall: '新到旧', byEdition: '按届分组', verified: '{m} 复核过', wholeArea: '所有', stats: '{p} 篇顶会论文 · {f} 张图 · 更新于 {d}', result: '符合条件 <b>{n}</b> 张，显示前 {k} 张', styleH: '同款数据图', oneStyle: '每篇只留一张', allStyle: '全部显示', figure: 'Figure {n}', panel: '，子图 {k}/{n}' },
   en: { search: 'Search captions, titles, tags, arXiv id', venue: 'Venue', all: 'All', sort: 'Sort', byPaper: 'By paper', byYear: 'Newest first', wide: 'Wide first', tall: 'Tall first',
         filters: 'Filters', closeSheet: 'Close ✕',
-        aiBtn: 'Use with AI', aiTitle: 'Send this to your AI', copy: 'Copy', copied: 'Copied',
+        aiBtn: 'AI interface', aiTitle: 'Send this to your AI', copy: 'Copy', copied: 'Copied',
         aiIntro: 'Writing a paper or a class project? Send this together with your topic to any chatbot and it will turn the topic into keywords and hand you gallery links you can open.',
         aiHint: 'Endpoints and details on <a href="https://github.com/fengxijia/PaperFigureLib" target="_blank" rel="noopener">GitHub</a>.',
         aiPrompt: `I am writing a paper or class project about "(your topic here)" and I need reference styles for my own figures.
