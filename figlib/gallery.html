@@ -81,7 +81,7 @@ button { font: inherit; color: inherit; }
 .credit { margin-top: 6px; }
 .credit a { color: inherit; }
 .brand h1 { margin: 0; font-size: 18px; font-weight: 600; letter-spacing: -0.01em; }
-.bar .stats { color: var(--muted); font-size: 12px; margin-left: auto; }
+.bar .stats { color: var(--muted); font-size: 12px; margin-left: auto; display: flex; flex-wrap: wrap; gap: 4px 16px; }
 .bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; flex: 1 1 600px; }   /* search + filters share the title line */
 .search { flex: 1 1 260px; min-width: 200px; max-width: 520px; display: flex; }
 .search input {
@@ -380,7 +380,7 @@ const T = {
         prev: '上一张', next: '下一张', share: '复制链接', copied: '已复制', openPng: '在新窗口打开原图', none: '无', unknown: '未识别', pdf: '论文 PDF',
         award: '获奖论文（Best Paper 等）', seed: '顶会经典（种子清单）', local: '本地论文库', vector: '矢量图（可仿的线条）', raster: '含位图',
         hide: '隐藏提示词截图', show: '显示', heur: '（按图注粗分）', page: '第 {p} 页', bitmap: '含位图', vec: '矢量', full: '通栏', zoom: '点图看原尺寸',
-        byWall: '新到旧', byEdition: '按届分组', verified: '{m} 复核过', wholeArea: '所有', stats: '{p} 篇顶会论文 · {f} 张图 · 更新于 {d}', result: '符合条件 <b>{n}</b> 张，显示前 {k} 张', styleH: '同款数据图', oneStyle: '每篇只留一张', allStyle: '全部显示', figure: 'Figure {n}', panel: '，子图 {k}/{n}' },
+        byWall: '新到旧', byEdition: '按届分组', verified: '{m} 复核过', wholeArea: '所有', stats: '<span>{p} 篇顶会论文</span><span>{f} 张图</span><span>数据库更新于 {d}</span>', result: '符合条件 <b>{n}</b> 张，显示前 {k} 张', styleH: '同款数据图', oneStyle: '每篇只留一张', allStyle: '全部显示', figure: 'Figure {n}', panel: '，子图 {k}/{n}' },
   en: { search: 'Search captions, titles, tags, arXiv id', venue: 'Venue', all: 'All', sort: 'Sort', byPaper: 'By paper', byYear: 'Newest first', wide: 'Wide first', tall: 'Tall first',
         filters: 'Filters', closeSheet: 'Close ✕',
         aiBtn: 'AI interface', aiTitle: 'Send this to your AI', copy: 'Copy', copied: 'Copied',
@@ -401,7 +401,7 @@ Keep the keywords in English, the captions in the library are English.`, visits:
         prev: 'Previous', next: 'Next', share: 'Copy link', copied: 'Copied', openPng: 'Open full image', none: 'none', unknown: 'unknown', pdf: 'Paper PDF',
         award: 'Award papers (best paper etc.)', seed: 'Classic / high-impact', local: 'Local library', vector: 'Vector (line art)', raster: 'Contains bitmap',
         hide: 'Hide prompt screenshots', show: 'Show', heur: ' (caption-based guess)', page: 'page {p}', bitmap: 'bitmap', vec: 'vector', full: 'full width', zoom: 'click to zoom',
-        byWall: 'Newest first', byEdition: 'Grouped by edition', verified: 'checked by {m}', wholeArea: 'All', stats: '{p} top-venue papers · {f} figures · updated {d}', result: '<b>{n}</b> figures match, showing {k}', styleH: 'Same-style charts', oneStyle: 'One per paper', allStyle: 'Show all', figure: 'Figure {n}', panel: ', panel {k}/{n}' },
+        byWall: 'Newest first', byEdition: 'Grouped by edition', verified: 'checked by {m}', wholeArea: 'All', stats: '<span>{p} top-venue papers</span><span>{f} figures</span><span>database updated {d}</span>', result: '<b>{n}</b> figures match, showing {k}', styleH: 'Same-style charts', oneStyle: 'One per paper', allStyle: 'Show all', figure: 'Figure {n}', panel: ', panel {k}/{n}' },
 };
 const t = (k, v = {}) => T[LANG][k].replace(/\{(\w+)\}/g, (_, x) => v[x]);
 const $ = (id) => document.getElementById(id);
@@ -760,7 +760,7 @@ function applyLang() {
   $('lbPrev').textContent = t('prev'); $('lbNext').textContent = t('next'); $('lbShare').textContent = t('share');
   $('lang').textContent = LANG === 'zh' ? 'EN' : 'ZH';
   document.documentElement.lang = LANG === 'zh' ? 'zh-CN' : 'en';
-  $('stats').textContent = t('stats', { p: DATA.n_papers, f: DATA.n_figures, d: DATA.generated });
+  $('stats').innerHTML = t('stats', { p: DATA.n_papers.toLocaleString('en-US'), f: DATA.n_figures.toLocaleString('en-US'), d: DATA.updated || String(DATA.generated).slice(0, 10) });
   buildRail(); render();
 }
 

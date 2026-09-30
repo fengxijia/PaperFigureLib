@@ -93,7 +93,7 @@ def known_papers(data: Path):
     return ids, titles
 
 
-def pick(venue_query, short, want, years, known_ids, known_titles, log=print):
+def pick(venue_query, short, want, years, known_ids, known_titles, log=print, recent=False):
     """Top cited open papers of one venue, as seed lines."""
     lines, seen = [], set()
     token = None
@@ -122,7 +122,8 @@ def pick(venue_query, short, want, years, known_ids, known_titles, log=print):
             if not body:
                 continue
             seen.add(_norm(title))
-            note = f"{short} {p.get('year')} High-impact ({p.get('citationCount', 0)} citations): {title}"
+            tag = "Recent" if recent else "High-impact"      # periodic updates bring in new papers, not proven classics
+            note = f"{short} {p.get('year')} {tag} ({p.get('citationCount', 0)} citations): {title}"
             lines.append(f"{body}   # {note}")
             if len(lines) >= want:
                 break
@@ -134,13 +135,13 @@ def pick(venue_query, short, want, years, known_ids, known_titles, log=print):
     return lines
 
 
-def run(data: Path, area: str, out: Path, years="2021-2026", log=print):
+def run(data: Path, area: str, out: Path, years="2021-2026", log=print, cap=None):
     known_ids, known_titles = known_papers(data)
     log(f"seedgen {area}: {len(known_ids)} known ids, {len(known_titles)} known titles")
     lines = [f"# Most cited {years} papers of the {area} venues with an open PDF, from Semantic Scholar (figlib seedgen, {time.strftime('%Y-%m-%d')}).",
              "# Skips papers already in the library; ACM / IEEE links are left out because they refuse scripts."]
     for venue_query, short, want in VENUES[area]:
-        lines += pick(venue_query, short, want, years, known_ids, known_titles, log)
+        lines += pick(venue_query, short, min(want, cap) if cap else want, years, known_ids, known_titles, log, recent=bool(cap))
         time.sleep(4)
     out.write_text("\n".join(lines) + "\n")
     n = sum(1 for l in lines if not l.startswith("#"))

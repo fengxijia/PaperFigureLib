@@ -455,6 +455,8 @@ def award_of(note: str, source: str):
     for rank, zh, en, rx in AWARD_TIERS:
         if re.search(rx, n):
             return rank, zh, en
+    if re.search(r"\brecent \(", n):
+        return 5, "近期论文", "Recent"
     if source == "seed":
         return 4, "高影响力", "High impact"
     return 5, "", ""
@@ -588,6 +590,15 @@ def load_index(data: Path):
     return sorted(best.values(), key=lambda p: p["paper_key"])
 
 
+def _data_updated(data: Path):
+    """Date the library's content last changed: the newest per-paper index file (a page rebuild alone does not count)."""
+    try:
+        newest = max(p.stat().st_mtime for p in (data / "index").glob("*.json"))
+        return time.strftime("%Y-%m-%d", time.localtime(newest))
+    except ValueError:
+        return time.strftime("%Y-%m-%d")
+
+
 def slim_index(index):
     """The page only needs a slice of each record (index.json keeps everything)."""
     KEEP = ("fig_id", "num", "page", "caption", "kind", "has_raster", "full_width", "panel", "n_panels", "thumb", "full")
@@ -612,7 +623,7 @@ def cmd_site(args):
     papers = load_index(data)
     drop = set(x for x in args.exclude_source.split(",") if x)
     papers = [p for p in papers if p["meta"].get("source") not in drop]
-    index = {"generated": time.strftime("%Y-%m-%d %H:%M"), "n_papers": len(papers),
+    index = {"generated": time.strftime("%Y-%m-%d %H:%M"), "updated": _data_updated(data), "n_papers": len(papers),
              "n_figures": sum(len(p["figures"]) for p in papers)}
     from figlib.areas import areas_table
     index["areas"] = areas_table()
@@ -711,7 +722,7 @@ def cmd_seedgen(args):
     from figlib.seedgen import run, VENUES
     if args.area not in VENUES:
         raise SystemExit(f"unknown area {args.area}; choose from {', '.join(sorted(VENUES))}")
-    run(args.data, args.area, Path(args.out), args.years, log=log)
+    run(args.data, args.area, Path(args.out), args.years, log=log, cap=getattr(args, "cap", None))
 
 
 def cmd_build(args):
@@ -719,7 +730,7 @@ def cmd_build(args):
     papers = load_index(data)
     n_fig = sum(len(p["figures"]) for p in papers)
     from figlib.areas import areas_table
-    index = {"generated": time.strftime("%Y-%m-%d %H:%M"), "n_papers": len(papers), "n_figures": n_fig,
+    index = {"generated": time.strftime("%Y-%m-%d %H:%M"), "updated": _data_updated(data), "n_papers": len(papers), "n_figures": n_fig,
              "areas": areas_table(), "papers": papers}
     (data / "index.json").write_text(json.dumps(index, ensure_ascii=False))
     tpl = (HERE / "gallery.html").read_text()
@@ -785,6 +796,7 @@ def main(argv=None):
     sg.add_argument("--area", required=True)
     sg.add_argument("--out", required=True)
     sg.add_argument("--years", default="2021-2026")
+    sg.add_argument("--cap", type=int, default=None, help="at most this many papers per venue (periodic updates)")
     sg.set_defaults(fn=cmd_seedgen)
     en = sub.add_parser("enrich", help="fill authors / titles / citations from Semantic Scholar")
     en.add_argument("--force", action="store_true")
