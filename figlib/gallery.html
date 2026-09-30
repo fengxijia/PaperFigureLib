@@ -373,7 +373,7 @@ const T = {
    折线图 https://paperfigure.net/en/?q=<关键词>&cat=data&chart=line
    柱状图 https://paperfigure.net/en/?q=<关键词>&cat=data&chart=bar
    表格   https://paperfigure.net/en/?q=<关键词>&cat=table
-   （cat 还可以是 background 背景图、example 样例图；chart 还可以是 scatter、heatmap、box、radar、histogram、pie）
+   （cat 还可以是 background Intro 图、example 样例图；chart 还可以是 scatter、heatmap、box、radar、histogram、pie）
 3. 每条链接后面用一句话说明能在里面看到什么，并告诉我先看哪一条。
 关键词用英文，因为图库里的图注是英文的。`, visits: '{p} 位访客 · {v} 次浏览', type: '图的类型', source: '来源', draw: '绘制方式', textbox: '文字框', more: '显示更多', empty: '没有符合条件的图。换个关键词或者放宽筛选。',
         footer: '图片版权归各论文作者所有，本站仅供学术参考；每张图都标明了论文出处。', credit: '由 <a href="https://github.com/fengxijia" target="_blank" rel="noopener">xixisphere</a> 开发，代码开源在 <a href="https://github.com/fengxijia/PaperFigureLib" target="_blank" rel="noopener">GitHub</a>。', close: '关闭 Esc', num: '图号', kind: '类型', pos: '位置', file: '原图',
@@ -408,7 +408,7 @@ const $ = (id) => document.getElementById(id);
 // static labels get their language before the data arrives, so an English visitor never sees Chinese first
 function applyStaticLang() {
   document.documentElement.lang = LANG === 'zh' ? 'zh-CN' : 'en';
-  $('q').placeholder = t('search'); $('l-venue').textContent = t('venue'); $('o-allvenue').textContent = t('all'); $('l-sort').textContent = t('sort');
+  $('q').placeholder = t('search'); $('l-venue').textContent = t('venue'); if ($('o-allvenue')) if ($('o-allvenue')) $('o-allvenue').textContent = t('all'); $('l-sort').textContent = t('sort');   // the select is rebuilt later and loses that id
   $('o-wall').textContent = t('byWall'); $('o-edition').textContent = t('byEdition'); $('o-paper').textContent = t('byPaper'); $('o-year').textContent = t('byYear'); $('o-wide').textContent = t('wide'); $('o-tall').textContent = t('tall');
   $('h-type').textContent = t('type'); $('h-source').textContent = t('source'); $('h-draw').textContent = t('draw'); $('h-textbox').textContent = t('textbox'); $('h-style').textContent = t('styleH'); $('railToggle').textContent = t('filters') + ' ▾'; $('railClose').textContent = t('closeSheet');
   $('more').textContent = t('more'); $('empty').textContent = t('empty'); $('footer').textContent = t('footer'); $('credit').innerHTML = t('credit'); $('lbClose').textContent = t('close');
@@ -674,14 +674,15 @@ function buildRail() {
     if (c === 'data') for (const t of CHART_ORDER) if (chartCounts[t]) html += li('data', t, CHART_ZH[t], chartCounts[t], true);
   }
   tree.innerHTML = html;
-  if (tree.dataset.bound) return;
-  tree.dataset.bound = '1';
-  tree.addEventListener('click', e => {
-    const b = e.target.closest('button'); if (!b) return;
-    state.cat = b.dataset.cat; state.chart = b.dataset.chart; state.shown = 200;
-    tree.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b ? 'true' : 'false'));
-    render();
-  });
+  if (!tree.dataset.bound) {          // bind once; the rest of the rail is rebuilt on every language switch
+    tree.dataset.bound = '1';
+    tree.addEventListener('click', e => {
+      const b = e.target.closest('button'); if (!b) return;
+      state.cat = b.dataset.cat; state.chart = b.dataset.chart; state.shown = 200;
+      tree.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b ? 'true' : 'false'));
+      render();
+    });
+  }
 
   // venue select: one optgroup per CSRankings area, the group's own option filters the whole area
   const venues = {}, byArea = {};
@@ -739,7 +740,7 @@ function openLb(i) {
   $('lbFile').innerHTML = `<a href="${esc(f.full)}" target="_blank" rel="noopener">${t('openPng')}</a>`;
   history.replaceState(null, '', '#fig=' + encodeURIComponent(f.id));
   $('lbSummary').textContent = f.summary || '';
-  $('lbSummary').hidden = !f.summary;
+  $('lbSummary').hidden = !f.summary || LANG !== 'zh';
   $('lbCap').textContent = f.caption;
   $('lbTags').innerHTML = f.tags.map(t => `<span>${esc(t)}</span>`).join('');
   $('lbImg').parentElement.classList.remove('natural');
@@ -749,9 +750,9 @@ function openLb(i) {
 }
 function closeLb() { $('lb').hidden = true; lbIndex = -1; history.replaceState(null, '', location.pathname + location.search); }
 function applyLang() {
-  document.documentElement.lang = LANG === 'zh' ? 'zh-CN' : 'en';
+  applyStaticLang();
   CAT_ZH = CAT_L[LANG]; CHART_ZH = CHART_L[LANG];
-  $('q').placeholder = t('search'); $('l-venue').textContent = t('venue'); $('o-allvenue').textContent = t('all'); $('l-sort').textContent = t('sort');
+  $('q').placeholder = t('search'); $('l-venue').textContent = t('venue'); if ($('o-allvenue')) if ($('o-allvenue')) $('o-allvenue').textContent = t('all'); $('l-sort').textContent = t('sort');   // the select is rebuilt later and loses that id
   $('o-wall').textContent = t('byWall'); $('o-edition').textContent = t('byEdition'); $('o-paper').textContent = t('byPaper'); $('o-year').textContent = t('byYear'); $('o-wide').textContent = t('wide'); $('o-tall').textContent = t('tall');
   $('h-type').textContent = t('type'); $('h-source').textContent = t('source'); $('h-draw').textContent = t('draw'); $('h-textbox').textContent = t('textbox'); $('h-style').textContent = t('styleH'); $('railToggle').textContent = t('filters') + ' ▾'; $('railClose').textContent = t('closeSheet');
   $('more').textContent = t('more'); $('empty').textContent = t('empty'); $('footer').textContent = t('footer'); $('credit').innerHTML = t('credit'); showVisits(); $('lbClose').textContent = t('close');
