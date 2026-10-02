@@ -41,7 +41,7 @@ Every filter is a URL parameter, so an AI (or a script) can build any view:
 
 ## What is inside
 
-- **4,400+ papers, 55,000+ figures and tables** (updated weekly), from the best, outstanding and most cited papers of 2021 to 2026 at the top venues of every CSRankings area: ML, NLP, vision, AI, HCI, robotics, graphics, systems, networking, mobile, security, databases, PL, SE, HPC, theory, speech.
+- **4,400+ papers, 56,000+ figures and tables** (updated weekly; multi-panel charts are additionally split into single panels), from the best, outstanding and most cited papers of 2021 to 2026 at the top venues of every CSRankings area: ML, NLP, vision, AI, HCI, robotics, graphics, systems, networking, mobile, security, databases, PL, SE, HPC, theory, speech.
 - Every figure is cropped from the PDF at 300 dpi, labelled by type (method diagram, intro figure, data chart by subtype: bar, line, scatter, pie, heatmap, box, violin, radar, histogram, area, confusion matrix; example, prompt, table), and linked to its paper, venue, year and award.
 - Multi-panel charts are split into single panels; tables are extracted as their own category.
 - Filter by figure type, venue (grouped by area), award tier and drawing style; search captions, titles, tags and arXiv ids; every view has a shareable URL (`?cat=method&venue=CHI`, `#fig=<id>` opens one figure).

@@ -477,9 +477,14 @@ function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<':
 function matches(f) {
   // prompt / table boxes are screenshots of text: hidden unless asked for, or unless that type is selected
   if (state.textbox === 'hide' && TEXTBOX_CATS.has(f.cat) && !TEXTBOX_CATS.has(state.cat)) return false;
-  if (state.style === 'one' && f.dupStyle) return false;
   if (state.cat && f.cat !== state.cat) return false;
-  if (state.chart && f.chart !== state.chart) return false;
+  if (state.chart && (f.chart || 'other') !== state.chart) return false;
+  return matchesRest(f);
+}
+// every filter except the figure type: the sidebar counts are taken over this set, so a number in the sidebar is
+// exactly how many figures you get when you click it
+function matchesRest(f) {
+  if (state.style === 'one' && f.dupStyle) return false;
   if (state.venue && f.venue !== state.venue) return false;
   if (state.area && f.area !== state.area) return false;
   if (state.source && f.source !== state.source) return false;
@@ -617,6 +622,7 @@ function layoutAll() { document.querySelectorAll('.grid').forEach(layoutRows); }
 
 let current = [];
 function render() {
+  buildTree();
   current = sorted(FIGS.filter(matches));
   const grid = $('grid');
   grid.innerHTML = '';
@@ -662,30 +668,35 @@ function render() {
   $('empty').hidden = current.length > 0;
   $('more').hidden = current.length <= state.shown;
   const labeled = FIGS.filter(f => f.labeled).length;
-  $('resultLine').innerHTML = `<span>${t('result', { n: current.length, k: Math.min(state.shown, current.length) })}</span>`;
+  $('resultLine').innerHTML = `<span>${t('result', { n: current.length.toLocaleString('en-US'), k: Math.min(state.shown, current.length).toLocaleString('en-US') })}</span>`;
 }
 
-function buildRail() {
+function buildTree() {
+  const base = FIGS.filter(matchesRest);
   const counts = {}, chartCounts = {};
-  for (const f of FIGS) { counts[f.cat] = (counts[f.cat] || 0) + 1; if (f.cat === 'data') chartCounts[f.chart || 'other'] = (chartCounts[f.chart || 'other'] || 0) + 1; }
+  for (const f of base) { counts[f.cat] = (counts[f.cat] || 0) + 1; if (f.cat === 'data') chartCounts[f.chart || 'other'] = (chartCounts[f.chart || 'other'] || 0) + 1; }
+  const total = state.textbox === 'hide' ? base.filter(f => !TEXTBOX_CATS.has(f.cat)).length : base.length;
   const tree = $('tree');
-  const li = (cat, chart, label, n, sub) => `<li class="${sub ? 'sub' : ''}"><button data-cat="${cat}" data-chart="${chart}" aria-pressed="false"><i class="dot ${cat}"></i>${label}<span class="n mono">${n}</span></button></li>`;
-  let html = `<li><button data-cat="" data-chart="" aria-pressed="${state.cat ? 'false' : 'true'}">${t('all')}<span class="n mono">${FIGS.length}</span></button></li>`;
+  const num = n => n.toLocaleString('en-US');
+  const li = (cat, chart, label, n, sub) => `<li class="${sub ? 'sub' : ''}"><button data-cat="${cat}" data-chart="${chart}" aria-pressed="${state.cat === cat && (state.chart || '') === chart ? 'true' : 'false'}"><i class="dot ${cat}"></i>${label}<span class="n mono">${num(n)}</span></button></li>`;
+  let html = `<li><button data-cat="" data-chart="" aria-pressed="${state.cat ? 'false' : 'true'}">${t('all')}<span class="n mono">${num(total)}</span></button></li>`;
   for (const c of CAT_ORDER) {
-    if (!counts[c]) continue;
-    html += li(c, '', CAT_ZH[c], counts[c], false).replace('aria-pressed="false"', `aria-pressed="${state.cat === c && !state.chart ? 'true' : 'false'}"`);
-    if (c === 'data') for (const t of CHART_ORDER) if (chartCounts[t]) html += li('data', t, CHART_ZH[t], chartCounts[t], true);
+    if (!counts[c] && state.cat !== c) continue;
+    html += li(c, '', CAT_ZH[c], counts[c] || 0, false);
+    if (c === 'data') for (const ct of CHART_ORDER) if (chartCounts[ct] || state.chart === ct) html += li('data', ct, CHART_ZH[ct], chartCounts[ct] || 0, true);
   }
   tree.innerHTML = html;
-  if (!tree.dataset.bound) {          // bind once; the rest of the rail is rebuilt on every language switch
+  if (!tree.dataset.bound) {          // bind once; the tree itself is rebuilt on every render
     tree.dataset.bound = '1';
     tree.addEventListener('click', e => {
       const b = e.target.closest('button'); if (!b) return;
       state.cat = b.dataset.cat; state.chart = b.dataset.chart; state.shown = 200;
-      tree.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b ? 'true' : 'false'));
       render();
     });
   }
+}
+function buildRail() {
+  buildTree();
 
   // venue select: one optgroup per CSRankings area, the group's own option filters the whole area
   const venues = {}, byArea = {};

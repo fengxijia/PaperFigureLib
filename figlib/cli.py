@@ -687,10 +687,25 @@ def _site_numbers(papers, data: Path):
             if cat == "data" and v.get("chart_type"):
                 charts[v["chart_type"]] = charts.get(v["chart_type"], 0) + 1
     fmt = lambda n: f"{n:,}"
-    return {"N_FIGS": fmt(n_figs), "N_PAPERS": fmt(len(papers)), "N_VENUES": fmt(len(venues)), "N_AREAS": fmt(len(areas)),
+    return {"N_FIGS": fmt(_n_originals(papers)), "N_PAPERS": fmt(len(papers)), "N_VENUES": fmt(len(venues)), "N_AREAS": fmt(len(areas)),
             "N_TABLES": fmt(cats.get("table", 0)), "N_DATA": fmt(cats.get("data", 0)), "N_METHOD": fmt(cats.get("method", 0)),
             "N_HEATMAP": fmt(charts.get("heatmap", 0)), "N_LINE": fmt(charts.get("line", 0)), "N_BAR": fmt(charts.get("bar", 0)),
             "UPDATED": _data_updated(data)}
+
+
+def _n_originals(papers):
+    """Figures and tables as they appear in the papers: a figure that was split into panels counts once."""
+    n = 0
+    for p in papers:
+        parents = set()
+        for f in p["figures"]:
+            if f.get("parent"):
+                parents.add(f["parent"])
+            else:
+                n += 1
+        # load_index drops a split composite and keeps its panels: count each such composite once
+        n += len(parents - {f["fig_id"] for f in p["figures"]})
+    return n
 
 
 def _data_updated(data: Path):
@@ -727,7 +742,7 @@ def cmd_site(args):
     drop = set(x for x in args.exclude_source.split(",") if x)
     papers = [p for p in papers if p["meta"].get("source") not in drop]
     index = {"generated": time.strftime("%Y-%m-%d %H:%M"), "updated": _data_updated(data), "n_papers": len(papers),
-             "n_figures": sum(len(p["figures"]) for p in papers)}
+             "n_figures": _n_originals(papers), "n_entries": sum(len(p["figures"]) for p in papers)}
     from figlib.areas import areas_table
     index["areas"] = areas_table()
     slim = slim_index({**index, "papers": papers})
@@ -847,7 +862,7 @@ def cmd_build(args):
     papers = load_index(data)
     n_fig = sum(len(p["figures"]) for p in papers)
     from figlib.areas import areas_table
-    index = {"generated": time.strftime("%Y-%m-%d %H:%M"), "updated": _data_updated(data), "n_papers": len(papers), "n_figures": n_fig,
+    index = {"generated": time.strftime("%Y-%m-%d %H:%M"), "updated": _data_updated(data), "n_papers": len(papers), "n_figures": _n_originals(papers), "n_entries": n_fig,
              "areas": areas_table(), "papers": papers}
     (data / "index.json").write_text(json.dumps(index, ensure_ascii=False))
     tpl = (HERE / "gallery.html").read_text()
