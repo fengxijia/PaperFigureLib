@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paper Figure Library: a tour</title>
+<meta name="description" content="Figures and tables from top-venue CS papers, sorted by type. A nine-step tour of what the library does.">
+<meta property="og:title" content="Paper Figure Library">
+<meta property="og:description" content="Asked AI to draw your paper figure and got a mess? Show it how top-venue papers do it.">
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<style>
+/* A scroll tour in the Apple manner: each slide is pinned while you scroll through its track, and its motion is
+   scrubbed by the scroll position (--p runs 0 to 1 across the track, --in runs 0 to 1 while the slide arrives).
+   Nothing moves by itself: stop scrolling and the page is a still image. Driven by the script at the bottom. */
+:root {
+  --bg: #F4F5F3; --card: #FFFFFF; --ink: #1B1F24; --sub: #4B5563; --muted: #667079; --line: #D9DCD6;
+  --accent: #1F5F8B; --accent-ink: #FFFFFF; --shadow: 0 2px 4px rgba(20,30,40,.06), 0 20px 50px rgba(20,30,40,.14);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --bg: #14181D; --card: #1C2128; --ink: #E6E8EB; --sub: #B4BBC4; --muted: #8B949E; --line: #2E353D; --accent: #6FA8DC; --accent-ink: #0F1A24; --shadow: 0 2px 4px rgba(0,0,0,.3), 0 20px 50px rgba(0,0,0,.45); }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 "IBM Plex Sans", "PingFang SC", "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif; }
+a { color: var(--accent); }
+.nav { position: sticky; top: 0; z-index: 5; display: flex; align-items: center; gap: 12px; padding: 12px 20px; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+.nav .brand { display: flex; align-items: center; gap: 10px; font-weight: 600; font-size: 17px; margin-right: auto; color: inherit; text-decoration: none; }
+.nav .brand img { width: 26px; height: 26px; border-radius: 7px; }
+.btn { display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: var(--ink); font: inherit; font-size: 14px; font-weight: 500; text-decoration: none; cursor: pointer; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 600; }
+.btn.big { padding: 14px 26px; font-size: 18px; }
+.btn:hover { filter: brightness(1.06); }
+
+main { padding: 0 16px 6vh; }
+.track { height: 185vh; }                       /* the scroll distance one slide is pinned for */
+.track.short { height: 135vh; }
+.slide {
+  --p: 0; --in: 1;
+  position: sticky; top: 76px; max-width: 1040px; margin: 0 auto; padding: 36px 48px 40px; overflow: hidden;
+  background: var(--card); border: 1px solid var(--line); border-radius: 24px; box-shadow: var(--shadow);
+  opacity: calc(.3 + var(--in) * .7); transform: scale(calc(.93 + var(--in) * .07)); transform-origin: 50% 0; will-change: transform, opacity;
+}
+.count { font-size: 14px; color: var(--muted); font-weight: 500; float: right; }
+.pill { display: inline-flex; align-items: center; gap: 9px; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--bg); font-size: 14px; font-weight: 500; }
+.dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; background: var(--accent); }
+h1 { margin: 14px 0 0; font-size: clamp(28px, 4.6vw, 50px); line-height: 1.06; letter-spacing: -.03em; font-weight: 700; text-wrap: balance; }
+.sub { margin: 10px 0 0; font-size: clamp(15px, 1.9vw, 20px); color: var(--sub); max-width: 46em; }
+.url { font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 600; color: var(--accent); }
+.progress { position: absolute; left: 0; bottom: 0; height: 3px; width: calc(var(--p) * 100%); background: var(--accent); opacity: .6; }
+
+/* screenshot window: the tall wall image travels with the scroll */
+.shot { --h: min(44vh, 420px); margin-top: 22px; height: var(--h); border-radius: 16px; overflow: hidden; border: 1px solid var(--line); background: var(--bg); position: relative; }
+.shot img { display: block; width: 100%; transform: translateY(calc(var(--p) * (var(--h) - 100%))); will-change: transform; }
+.shot.wide { height: auto; }
+.shot.wide img { transform: scale(calc(1 + var(--p) * .09)); transform-origin: 28% 42%; }
+.shot::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 56px; background: linear-gradient(transparent, var(--bg)); pointer-events: none; }
+.shot.wide::after { display: none; }
+.mess { display: inline-block; color: var(--accent); transform-origin: 50% 80%; }
+
+/* three steps: scrolling walks the highlight through the cards */
+.steps { display: grid; gap: 14px; margin-top: 24px; }
+.step { display: flex; gap: 20px; align-items: flex-start; padding: 20px 24px; border: 1px solid var(--line); border-radius: 18px; background: var(--bg); transition: border-color .25s, box-shadow .25s, transform .25s, opacity .25s; opacity: .55; }
+.step.on { border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent); transform: translateX(8px); opacity: 1; }
+.step .n { font-size: 22px; padding-top: 2px; }
+.step b { display: block; font-size: clamp(18px, 2.2vw, 24px); letter-spacing: -.01em; }
+.step span { color: var(--sub); font-size: clamp(14px, 1.6vw, 17px); }
+
+/* prompt card: each scroll step writes the next line */
+.prompt { margin-top: 20px; padding: 20px 24px; border: 1px solid var(--line); border-radius: 18px; background: var(--bg); font-size: clamp(13.5px, 1.6vw, 17px); line-height: 1.5; }
+.prompt .ln { margin-top: 7px; transition: opacity .3s, transform .3s; }
+.prompt .ln:first-child { margin-top: 0; }
+.js .prompt .ln { opacity: 0; transform: translateY(10px); }
+.js .prompt .ln.on { opacity: 1; transform: none; }
+.prompt .links { margin-left: 22px; display: grid; gap: 3px; }
+.prompt .links div { display: grid; grid-template-columns: 9.5em 1fr; gap: 12px; }
+.prompt .links .url { font-size: .92em; overflow-wrap: anywhere; }
+
+/* area pills arrive one after another */
+.areas { margin-top: 18px; display: grid; gap: 12px; }
+.areas .row { display: grid; grid-template-columns: 10.5em 1fr; gap: 12px; align-items: start; }
+.areas .g { font-weight: 600; font-size: 16px; padding-top: 5px; display: flex; align-items: center; gap: 9px; }
+.areas .ps { display: flex; flex-wrap: wrap; gap: 7px; }
+.areas .pill { font-size: 14.5px; background: var(--card); transition: opacity .25s, transform .3s cubic-bezier(.2, 1.4, .4, 1); }
+.js .areas .pill { opacity: 0; transform: scale(.6); }
+.js .areas .pill.on { opacity: 1; transform: none; }
+
+/* closing slide */
+.cta { text-align: center; padding-block: 52px 50px; }
+.cta .big-url { display: inline-block; margin-top: 14px; font-size: clamp(32px, 6.5vw, 72px); letter-spacing: -.03em; text-decoration: none; background: linear-gradient(var(--accent), var(--accent)) no-repeat 0 100% / calc(var(--p) * 100%) 4px; }
+.cta .row { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 28px; }
+.cta .small { margin-top: 22px; color: var(--muted); font-size: 14px; }
+.stats { display: flex; flex-wrap: wrap; gap: 12px 40px; margin-top: 22px; }
+.stats b { display: block; font-size: clamp(24px, 3.6vw, 38px); letter-spacing: -.02em; }
+.stats span { color: var(--muted); font-size: 14px; }
+.foot { text-align: center; color: var(--muted); font-size: 13px; padding: 0 16px 40px; }
+
+/* phones and short windows: no pinning, the same motion follows each slide's trip through the screen */
+@media (max-width: 700px), (max-height: 700px) {
+  .track, .track.short { height: auto; padding: 5vh 0; }
+  .slide { position: relative; top: 0; padding: 26px 20px 30px; border-radius: 18px; }
+  .shot { --h: 300px; }
+  .areas .row { grid-template-columns: 1fr; gap: 6px; }
+  .prompt .links div { grid-template-columns: 1fr; gap: 0; }
+  .nav .hide-s { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .track, .track.short { height: auto; padding: 5vh 0; }
+  .slide { position: relative; top: 0; opacity: 1; transform: none; }
+  .shot img, .shot.wide img { transform: none; }
+  .js .prompt .ln, .js .areas .pill { opacity: 1; transform: none; }
+  .step { opacity: 1; }
+}
+</style>
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="../"><img src="../favicon.svg" alt="">Paper Figure Library</a>
+  <a class="btn hide-s" href="https://github.com/fengxijia/PaperFigureLib" target="_blank" rel="noopener">GitHub</a>
+  <button class="btn" id="lang" type="button">ZH</button>
+  <a class="btn primary" data-gallery href="../" data-en="Open the gallery" data-zh="打开图库">Open the gallery</a>
+</header>
+
+<main>
+  <div class="track short"><section class="slide" id="s1">
+    <i class="progress"></i><span class="count">1 / 9</span>
+    <span class="pill"><span class="dot"></span><span data-en="Figures from top-venue CS papers" data-zh="计算机顶会论文里的图和表">Figures from top-venue CS papers</span></span>
+    <h1><span data-en="Asked AI to draw your paper figure. Got " data-zh="把论文丢给 AI 画图，结果">Asked AI to draw your paper figure. Got </span><span class="mess" data-en="a mess" data-zh="一团糟">a mess</span>?</h1>
+    <p class="sub" data-en="Show it how top-venue papers do it: {{N_FIGS}} reference figures and tables, sorted by type." data-zh="给它看看顶会论文是怎么画的：{{N_FIGS}} 张参考图表，按类型归档。"></p>
+    <div class="shot"><img src="assets/background.webp" alt="" loading="eager"></div>
+  </section></div>
+
+  <div class="track"><section class="slide" id="s2">
+    <i class="progress"></i><span class="count">2 / 9</span>
+    <h1 data-en="AI can draw. It just hasn't seen good ones." data-zh="AI 不是不会画，是没见过好的。"></h1>
+    <p class="sub" data-en="Three steps to figures that look like they belong in a paper." data-zh="三步，让你的图看起来就该出现在论文里。"></p>
+    <div class="steps">
+      <div class="step" data-i="0"><span class="n url">01</span><div><b data-en="Find by type" data-zh="按类型找范例"></b><span data-en="Method diagrams, data charts, qualitative examples, tables. Charts drill down to heatmap, bar, line, radar…" data-zh="方法图、数据图、样例图、表格。数据图还能细分到热力图、柱状图、折线图、雷达图……"></span></div></div>
+      <div class="step" data-i="1"><span class="n url">02</span><div><b data-en="Pick the ones you like" data-zh="挑出心仪的几张"></b><span data-en="Full resolution, with caption, venue, award and a link back to the paper." data-zh="每张都有高清原图、图注、会议、奖项，以及回到原论文的链接。"></span></div></div>
+      <div class="step" data-i="2"><span class="n url">03</span><div><b data-en="Hand them to your AI" data-zh="交给你的 AI"></b><span data-en="Give the references to your AI figure tool with your content and say: draw it in this style." data-zh="把参考图连同你的内容一起给 AI 绘图工具，告诉它：照这个风格画。"></span></div></div>
+    </div>
+  </section></div>
+
+  <div class="track"><section class="slide" id="s3">
+    <i class="progress"></i><span class="count">3 / 9</span>
+    <span class="pill"><span class="dot"></span><span data-en="AI interface, one prompt" data-zh="AI 接口，一句提示词"></span></span>
+    <h1 data-en="Or let your AI do the searching." data-zh="或者，让你的 AI 替你找。"></h1>
+    <p class="sub" data-en="Copy one prompt, add your topic, paste it into any chatbot. It comes back with links to the matching figures." data-zh="复制一段提示词，写上你的主题，发给任何聊天 AI。它会回你几条直达对应图表的链接。"></p>
+    <div class="prompt">
+      <div class="ln" data-i="0" data-en='I am writing a paper about "(your topic here)" and I need reference styles for my own figures. Use the figure library paperfigure.net to help me:' data-zh="我在写一篇关于「（你的主题）」的论文，需要给自己的图找参考样式。请用图库 paperfigure.net 帮我："></div>
+      <div class="ln" data-i="1" data-en="1. turn my topic into 3 to 5 English keywords;" data-zh="1. 把我的主题拆成 3 到 5 个英文关键词；"></div>
+      <div class="ln" data-i="2" data-en="2. give me links in this format, one per keyword:" data-zh="2. 按这个格式给我链接，每个关键词一条："></div>
+      <div class="ln links" data-i="3">
+        <div><span data-en="method diagrams" data-zh="方法图"></span><span class="url">paperfigure.net/en/?q=&lt;keyword&gt;&amp;cat=method</span></div>
+        <div><span data-en="line charts" data-zh="折线图"></span><span class="url">paperfigure.net/en/?q=&lt;keyword&gt;&amp;cat=data&amp;chart=line</span></div>
+        <div><span data-en="tables" data-zh="表格"></span><span class="url">paperfigure.net/en/?q=&lt;keyword&gt;&amp;cat=table</span></div>
+      </div>
+      <div class="ln" data-i="4" data-en="3. say what I will see in each, and which one to open first." data-zh="3. 说明每条链接里能看到什么，并告诉我先看哪一条。"></div>
+    </div>
+    <p style="margin:18px 0 0"><a class="btn primary" data-ai href="../?ai=1" data-en="Copy the full prompt" data-zh="复制完整提示词"></a></p>
+  </section></div>
+
+  <div class="track"><section class="slide" id="s4">
+    <i class="progress"></i><span class="count">4 / 9</span>
+    <span class="pill"><span class="dot" style="background:#2F8F5B"></span><span data-en="Data chart → Heatmap" data-zh="数据图 → 热力图"></span></span>
+    <h1><span data-en="Need a heatmap? Here are " data-zh="想画热力图？这里有 "></span><span class="num" data-n="{{N_HEATMAP}}">{{N_HEATMAP}}</span><span data-en="." data-zh=" 张。"></span></h1>
+    <p class="sub" data-en="Also {{N_LINE}} line charts, {{N_BAR}} bar charts, scatter, box, radar… {{N_DATA}} data charts in total." data-zh="还有 {{N_LINE}} 张折线图、{{N_BAR}} 张柱状图，以及散点、箱线、雷达……数据图一共 {{N_DATA}} 张。"></p>
+    <div class="shot"><img src="assets/heatmap.webp" alt="" loading="lazy"></div>
+  </section></div>
+
+  <div class="track"><section class="slide" id="s5">
+    <i class="progress"></i><span class="count">5 / 9</span>
+    <span class="pill"><span class="dot" style="background:#2E6DB4"></span><span data-en="Method" data-zh="方法图"></span></span>
+    <h1 data-en="Stuck on your architecture figure?" data-zh="方法图不知道怎么画？"></h1>
+    <p class="sub"><span class="num" data-n="{{N_METHOD}}">{{N_METHOD}}</span> <span data-en="method diagrams: architectures, pipelines, system overviews." data-zh="张方法图：模型架构、流程、系统总览。"></span></p>
+    <div class="shot"><img src="assets/method.webp" alt="" loading="lazy"></div>
+  </section></div>
+
+  <div class="track"><section class="slide" id="s6">
+    <i class="progress"></i><span class="count">6 / 9</span>
+    <span class="pill"><span class="dot" style="background:#8C5A3C"></span><span data-en="Table" data-zh="表格"></span></span>
+    <h1><span data-en="Yes, tables too. " data-zh="表格也有，"></span><span class="num" data-n="{{N_TABLES}}">{{N_TABLES}}</span><span data-en=" of them." data-zh=" 张。"></span></h1>
+    <p class="sub" data-en="See how top papers lay out results, ablations and comparisons." data-zh="看看顶会论文怎么排实验结果、消融和对比。"></p>
+    <div class="shot"><img src="assets/table.webp" alt="" loading="lazy"></div>
+  </section></div>
+
+  <div class="track"><section class="slide" id="s7">
+    <i class="progress"></i><span class="count">7 / 9</span>
+    <span class="pill"><span data-en="{{N_AREAS}} CSRankings areas, {{N_VENUES}} venues" data-zh="{{N_AREAS}} 个方向，{{N_VENUES}} 个会议和期刊"></span></span>
+    <h1 data-en="Not only ML." data-zh="不只是机器学习。"></h1>
+    <p class="sub" data-en="A systems paper doesn't look like a vision paper. Find figures from your community: SOSP, CCS, SIGMOD, PLDI, CHI, SIGGRAPH, ICRA…" data-zh="系统论文和视觉论文长得不一样。从你自己的圈子里找图：SOSP、CCS、SIGMOD、PLDI、CHI、SIGGRAPH、ICRA……"></p>
+    <div class="areas" id="areas"></div>
+  </section></div>
+
+  <div class="track"><section class="slide" id="s8">
+    <i class="progress"></i><span class="count">8 / 9</span>
+    <span class="pill"><span class="dot" style="background:#2F8F5B"></span><span data-en="Every figure keeps its source" data-zh="每张图都带着出处"></span></span>
+    <h1 data-en="One click back to the paper." data-zh="一键回到原论文。"></h1>
+    <p class="sub" data-en="Full-resolution image, caption, venue, award and the arXiv link, for every figure." data-zh="每张图都有高清原图、图注、会议、奖项和 arXiv 链接。"></p>
+    <div class="shot wide"><img src="assets/lightbox.webp" alt="" loading="lazy"></div>
+  </section></div>
+
+  <div class="track short"><section class="slide cta" id="s9">
+    <i class="progress"></i><span class="count">9 / 9</span>
+    <h1 data-en="Go find your references" data-zh="去找你的参考图吧"></h1>
+    <a class="url big-url" data-gallery href="../">paperfigure.net</a>
+    <div class="stats" style="justify-content:center">
+      <div><b class="num" data-n="{{N_FIGS}}">{{N_FIGS}}</b><span data-en="figures and tables" data-zh="张图和表"></span></div>
+      <div><b class="num" data-n="{{N_PAPERS}}">{{N_PAPERS}}</b><span data-en="papers" data-zh="篇论文"></span></div>
+      <div><b class="num" data-n="{{N_VENUES}}">{{N_VENUES}}</b><span data-en="venues" data-zh="个会议和期刊"></span></div>
+      <div><b class="num" data-n="{{N_AREAS}}">{{N_AREAS}}</b><span data-en="CS areas" data-zh="个方向"></span></div>
+    </div>
+    <div class="row">
+      <a class="btn primary big" data-gallery href="../" data-en="Open the gallery" data-zh="打开图库"></a>
+      <a class="btn big" data-ai href="../?ai=1" data-en="Copy the AI prompt" data-zh="复制 AI 提示词"></a>
+      <a class="btn big" href="https://github.com/fengxijia/PaperFigureLib" target="_blank" rel="noopener" data-en="Star on GitHub" data-zh="去 GitHub 点星"></a>
+    </div>
+    <p class="small" data-en="Free, open source, no sign-up. Updated {{UPDATED}}." data-zh="免费、开源、无需注册。数据更新于 {{UPDATED}}。"></p>
+  </section></div>
+</main>
+<p class="foot" data-en="Figures belong to their papers' authors; every figure links to its source paper." data-zh="图片版权归各论文作者所有，每张图都标明了论文出处。"></p>
+
+<script>
+// language: ?lang, then the saved choice, then the browser
+let LANG = (() => {
+  const q = new URLSearchParams(location.search).get('lang');
+  if (q === 'en' || q === 'zh') return q;
+  try { const s = localStorage.getItem('figlib-lang'); if (s === 'en' || s === 'zh') return s; } catch (e) {}
+  return /^zh/i.test(navigator.language || '') ? 'zh' : 'en';
+})();
+const AREAS = [
+  { en: 'AI', zh: '人工智能', c: '#2E6DB4', xs: [['Machine learning', '机器学习'], ['Artificial intelligence', '人工智能'], ['Computer vision', '计算机视觉'], ['NLP', '自然语言处理'], ['Web & IR', 'Web 与信息检索']] },
+  { en: 'Systems', zh: '系统', c: '#2F8F5B', xs: [['Security', '安全'], ['Operating systems', '操作系统'], ['Architecture', '体系结构'], ['Networks', '网络'], ['Databases', '数据库'], ['Programming languages', '编程语言'], ['Software engineering', '软件工程'], ['HPC', '高性能计算'], ['Mobile', '移动计算'], ['Measurement', '测量与性能'], ['Design automation', '设计自动化'], ['Embedded', '嵌入式']] },
+  { en: 'Theory', zh: '理论', c: '#8C5A3C', xs: [['Algorithms & complexity', '算法与复杂性'], ['Cryptography', '密码学'], ['Logic & verification', '逻辑与验证']] },
+  { en: 'Interdisciplinary', zh: '交叉方向', c: '#8452B5', xs: [['HCI', '人机交互'], ['Graphics', '图形学'], ['Visualization & VR', '可视化与 VR'], ['Robotics', '机器人'], ['Comp. biology', '计算生物学'], ['Econ & computation', '经济与计算']] },
+  { en: 'Also', zh: '另有', c: '#7A7F85', xs: [['Speech & signal', '语音与信号'], ['Preprints & journals', '预印本与期刊']] },
+];
+function applyLang() {
+  document.documentElement.lang = LANG === 'zh' ? 'zh-CN' : 'en';
+  document.querySelectorAll('[data-en]').forEach(el => { el.textContent = el.dataset[LANG]; });
+  document.getElementById('lang').textContent = LANG === 'zh' ? 'EN' : 'ZH';
+  document.querySelectorAll('[data-gallery]').forEach(a => { a.href = '../' + LANG + '/'; });
+  document.querySelectorAll('[data-ai]').forEach(a => { a.href = '../' + LANG + '/?ai=1'; });
+  let i = 0;
+  document.getElementById('areas').innerHTML = AREAS.map(g => `<div class="row"><div class="g"><span class="dot" style="background:${g.c}"></span>${g[LANG]}</div><div class="ps">${g.xs.map(x => `<span class="pill" data-i="${i++}">${x[LANG === 'zh' ? 1 : 0]}</span>`).join('')}</div></div>`).join('');
+}
+applyLang();
+
+// Scroll-scrubbed motion. For every pinned slide: --in is how far it has arrived (0 at the bottom edge of the
+// screen, 1 once pinned) and --p how far the scroll has gone through its track. CSS reads the two variables;
+// the discrete bits (step highlight, prompt lines, pills, counters, the wobbling word) are set here.
+document.documentElement.classList.add('js');
+const clamp = x => Math.max(0, Math.min(1, x));
+const tracks = [...document.querySelectorAll('.track')];
+const PIN = 76;
+function drive() {
+  const vh = innerHeight;
+  const pinned = getComputedStyle(tracks[0].firstElementChild).position === 'sticky';
+  for (const t of tracks) {
+    const s = t.firstElementChild, r = t.getBoundingClientRect();
+    if (r.bottom < -vh || r.top > 2 * vh) continue;                        // far away: leave it as it is
+    let p, inn;
+    if (pinned) {
+      p = clamp((PIN - r.top) / Math.max(1, t.offsetHeight - s.offsetHeight));
+      inn = clamp((vh - r.top) / (vh - PIN));
+    } else {
+      const sr = s.getBoundingClientRect();
+      p = clamp((vh * .9 - sr.top) / (vh * .9 + sr.height * .6));
+      inn = clamp((vh - sr.top) / (vh * .5));
+    }
+    s.style.setProperty('--p', p.toFixed(4)); s.style.setProperty('--in', inn.toFixed(4));
+    const steps = s.querySelectorAll('.step');
+    steps.forEach(el => el.classList.toggle('on', Math.min(steps.length - 1, Math.floor(p * steps.length * .999)) === +el.dataset.i));
+    const lines = s.querySelectorAll('.prompt .ln');
+    lines.forEach(el => el.classList.toggle('on', inn >= 1 ? p >= +el.dataset.i * .15 - .02 : +el.dataset.i === 0 && inn > .6));
+    const pills = s.querySelectorAll('.areas .pill');
+    pills.forEach(el => el.classList.toggle('on', (inn - .45) * 1.2 + p * 1.6 >= (+el.dataset.i + 1) / pills.length));
+    s.querySelectorAll('.num').forEach(el => {
+      const target = parseInt(String(el.dataset.n).replace(/,/g, ''), 10);
+      if (target) el.textContent = Math.round(target * (1 - Math.pow(1 - clamp((inn - .35) / .65), 3))).toLocaleString('en-US');
+    });
+    const mess = s.querySelector('.mess');
+    if (mess) mess.style.transform = `rotate(${(Math.sin(p * Math.PI * 5) * 5 - 2).toFixed(2)}deg) translateY(${(Math.cos(p * Math.PI * 5) * 3).toFixed(1)}px)`;
+  }
+}
+let queued = false;
+const onScroll = () => { if (!queued) { queued = true; requestAnimationFrame(() => { queued = false; drive(); }); } };
+addEventListener('scroll', onScroll, { passive: true }); addEventListener('resize', onScroll);
+document.getElementById('lang').addEventListener('click', () => { LANG = LANG === 'zh' ? 'en' : 'zh'; try { localStorage.setItem('figlib-lang', LANG); } catch (e) {} applyLang(); drive(); });
+drive();
+</script>
+</body>
+</html>

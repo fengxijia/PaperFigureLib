@@ -590,6 +590,33 @@ def load_index(data: Path):
     return sorted(best.values(), key=lambda p: p["paper_key"])
 
 
+_HEUR_CAT = {"teaser": "background", "method": "method", "result": "data", "example": "example", "prompt": "prompt", "table": "table"}
+
+
+def _site_numbers(papers, data: Path):
+    """Counts shown on the tour page, formatted with thousands separators (same categories as the gallery sidebar)."""
+    cats, charts = {}, {}
+    venues, areas = set(), set()
+    n_figs = 0
+    for p in papers:
+        if p["meta"].get("venue"):
+            venues.add(p["meta"]["venue"])
+        if p["meta"].get("area"):
+            areas.add(p["meta"]["area"])
+        for f in p["figures"]:
+            n_figs += 1
+            v = f.get("vision") or {}
+            cat = v.get("category") or _HEUR_CAT.get(f.get("kind"), "other")
+            cats[cat] = cats.get(cat, 0) + 1
+            if cat == "data" and v.get("chart_type"):
+                charts[v["chart_type"]] = charts.get(v["chart_type"], 0) + 1
+    fmt = lambda n: f"{n:,}"
+    return {"N_FIGS": fmt(n_figs), "N_PAPERS": fmt(len(papers)), "N_VENUES": fmt(len(venues)), "N_AREAS": fmt(len(areas)),
+            "N_TABLES": fmt(cats.get("table", 0)), "N_DATA": fmt(cats.get("data", 0)), "N_METHOD": fmt(cats.get("method", 0)),
+            "N_HEATMAP": fmt(charts.get("heatmap", 0)), "N_LINE": fmt(charts.get("line", 0)), "N_BAR": fmt(charts.get("bar", 0)),
+            "UPDATED": _data_updated(data)}
+
+
 def _data_updated(data: Path):
     """Date the library's content last changed: the newest per-paper index file (a page rebuild alone does not count)."""
     try:
@@ -601,7 +628,7 @@ def _data_updated(data: Path):
 
 def slim_index(index):
     """The page only needs a slice of each record (index.json keeps everything)."""
-    KEEP = ("fig_id", "num", "page", "caption", "kind", "has_raster", "full_width", "panel", "n_panels", "thumb", "full")
+    KEEP = ("fig_id", "num", "page", "caption", "kind", "has_raster", "full_width", "panel", "n_panels", "thumb", "full", "chart_guess")
     return {**index, "papers": [
         {"paper_key": p["paper_key"], "meta": {**{k: v for k, v in p["meta"].items() if k != "authors"}, "authors": (p["meta"].get("authors") or [])[:6]},
          "figures": [{**{k: f[k] for k in KEEP if k in f},
@@ -652,6 +679,15 @@ def cmd_site(args):
         (out / lang / "index.html").write_text(page.replace(f"window.SITE = {site_cfg};", f"window.SITE = {cfg};")
                                                .replace('href="favicon', 'href="../favicon').replace('href="apple-touch', 'href="../apple-touch').replace('src="favicon', 'src="../favicon')
                                                .replace("fetch('api/visits'", "fetch('../api/visits'"))
+    # /welcome/: the scroll tour, with its numbers filled in from the data that is being published
+    wsrc = HERE / "welcome"
+    if wsrc.is_dir():
+        wout = out / "welcome"
+        shutil.copytree(wsrc, wout, dirs_exist_ok=True)
+        page_w = (wsrc / "index.html").read_text()
+        for k, v in _site_numbers(papers, data).items():
+            page_w = page_w.replace("{{" + k + "}}", v)
+        (wout / "index.html").write_text(page_w)
     (out / "robots.txt").write_text("User-agent: *\nAllow: /\n")
     for asset in (HERE / "assets").iterdir():
         shutil.copy2(asset, out / asset.name)

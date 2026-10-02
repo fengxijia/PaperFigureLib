@@ -29,7 +29,7 @@ import httpx
 from PIL import Image
 
 CATEGORIES = ["background", "method", "data", "example", "prompt", "table", "other"]
-CHART_TYPES = ["bar", "line", "scatter", "pie", "heatmap", "box", "violin", "radar",
+CHART_TYPES = ["bar", "line", "scatter", "pie", "heatmap", "contour", "box", "violin", "radar",
                "histogram", "area", "confusion_matrix", "mixed", "other"]
 
 SYSTEM = """You label figures cut out of machine-learning / HCI / graphics research papers.
@@ -41,7 +41,7 @@ Return ONLY a JSON object with these keys:
     example: qualitative samples: generated images, screenshots, case studies, rendered scenes
     prompt: a text box showing a prompt or template
     table: a table rendered as a figure
-- chart_type: only when category is data; one of bar | line | scatter | pie | heatmap | box | violin | radar | histogram | area | confusion_matrix | mixed | other. Otherwise "".
+- chart_type: only when category is data; one of bar | line | scatter | pie | heatmap | contour (contour, density or 3D surface plots) | box | violin | radar | histogram | area | confusion_matrix | mixed | other. Otherwise "".
 - tags: 2 to 6 short lowercase style descriptors, e.g. "error bars", "log scale", "2x3 panels", "annotated arrows", "icons", "color-coded modules", "legend inside", "dual y-axis", "hand-drawn style".
 - summary_zh: one Chinese sentence (<= 40 chars) saying what the figure shows and how it is drawn.
 Use the caption for context but judge the category from the picture."""
@@ -160,7 +160,7 @@ guessed it; you see a larger image and decide. Return ONLY JSON {"category": ...
 category: background (motivation / concept illustration, teaser), method (architecture, pipeline, framework, system diagram),
 data (any quantitative chart: axes, bars, curves, points, heatmaps, distributions, even when the caption talks about our method),
 example (qualitative samples, screenshots, rendered scenes, image grids), prompt (text box), table, other.
-chart_type only when category is data: bar | line | scatter | pie | heatmap | box | violin | radar | histogram | area | confusion_matrix | mixed | other, else ""."""
+chart_type only when category is data: bar | line | scatter | pie | heatmap | contour (contour, density or 3D surface plots) | box | violin | radar | histogram | area | confusion_matrix | mixed | other, else ""."""
 
 
 def effective(f):

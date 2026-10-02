@@ -412,7 +412,7 @@ function applyStaticLang() {
   $('q').placeholder = t('search'); $('l-venue').textContent = t('venue'); if ($('o-allvenue')) if ($('o-allvenue')) $('o-allvenue').textContent = t('all'); $('l-sort').textContent = t('sort');   // the select is rebuilt later and loses that id
   $('o-wall').textContent = t('byWall'); $('o-edition').textContent = t('byEdition'); $('o-paper').textContent = t('byPaper'); $('o-year').textContent = t('byYear'); $('o-wide').textContent = t('wide'); $('o-tall').textContent = t('tall');
   $('h-type').textContent = t('type'); $('h-source').textContent = t('source'); $('h-draw').textContent = t('draw'); $('h-textbox').textContent = t('textbox'); $('h-style').textContent = t('styleH'); $('railToggle').textContent = t('filters') + ' ▾'; $('railClose').textContent = t('closeSheet');
-  $('more').textContent = t('more'); $('empty').textContent = t('empty'); $('footer').textContent = t('footer'); $('credit').innerHTML = t('credit'); $('lbClose').textContent = t('close');
+  $('more').textContent = t('more'); $('empty').textContent = t('empty'); $('footer').textContent = t('footer'); $('credit').innerHTML = t('credit') + (MODE === 'site' ? ` <a href="/welcome/">${LANG === 'zh' ? '导览' : 'Take the tour'}</a>` : ''); $('lbClose').textContent = t('close');
   $('k-num').textContent = t('num'); $('k-kind').textContent = t('kind'); $('k-venue').textContent = t('venue'); $('k-pos').textContent = t('pos'); $('k-file').textContent = t('file');
   $('lbPrev').textContent = t('prev'); $('lbNext').textContent = t('next'); $('lbShare').textContent = t('share');
   $('aiBtn').textContent = t('aiBtn'); $('pdTitle').textContent = t('aiTitle'); $('pdIntro').textContent = t('aiIntro');
@@ -425,11 +425,12 @@ const CAT_L = {
   zh: { background: 'Intro 图', method: '方法图', data: '数据图', example: '样例图', prompt: '提示词', table: '表格', other: '其他' },
   en: { background: 'Intro', method: 'Method', data: 'Data chart', example: 'Example', prompt: 'Prompt', table: 'Table', other: 'Other' } };
 const CHART_L = {
-  zh: { bar: '柱状图', line: '曲线图', scatter: '散点图', pie: '饼图', heatmap: '热力图', box: '箱线图', violin: '小提琴图', radar: '雷达图', histogram: '直方图', area: '面积图', confusion_matrix: '混淆矩阵', mixed: '组合图', other: '其他图表' },
-  en: { bar: 'Bar', line: 'Line', scatter: 'Scatter', pie: 'Pie', heatmap: 'Heatmap', box: 'Box plot', violin: 'Violin', radar: 'Radar', histogram: 'Histogram', area: 'Area', confusion_matrix: 'Confusion matrix', mixed: 'Mixed', other: 'Other chart' } };
+  zh: { bar: '柱状图', line: '曲线图', scatter: '散点图', pie: '饼图', heatmap: '热力图', box: '箱线 / 小提琴图', contour: '等高线 / 地形图', radar: '雷达图', histogram: '直方图', area: '面积图', confusion_matrix: '混淆矩阵', mixed: '组合图', other: '其他图表' },
+  en: { bar: 'Bar', line: 'Line', scatter: 'Scatter', pie: 'Pie', heatmap: 'Heatmap', box: 'Box & violin', contour: 'Contour & surface', radar: 'Radar', histogram: 'Histogram', area: 'Area', confusion_matrix: 'Confusion matrix', mixed: 'Mixed', other: 'Other chart' } };
 let CAT_ZH = CAT_L[LANG], CHART_ZH = CHART_L[LANG];
 const CAT_ORDER = ['method', 'background', 'data', 'example', 'table', 'prompt', 'other'];
-const CHART_ORDER = ['bar', 'line', 'scatter', 'pie', 'heatmap', 'histogram', 'box', 'violin', 'radar', 'area', 'confusion_matrix', 'other'];
+const CHART_ORDER = ['bar', 'line', 'scatter', 'pie', 'heatmap', 'contour', 'histogram', 'box', 'radar', 'area', 'confusion_matrix', 'other'];
+const CHART_ALIAS = { mixed: 'other', violin: 'box' };      // classes shown together
 const HEUR = { teaser: 'background', method: 'method', result: 'data', example: 'example', prompt: 'prompt', table: 'table', other: 'other' };
 
 // flatten
@@ -441,7 +442,7 @@ for (const p of DATA.papers) {
     FIGS.push({
       id: f.fig_id, num: f.num, page: f.page, caption: f.caption,
       cat: v ? v.category : (HEUR[f.kind] || 'other'),
-      chart: v ? ((v.chart_type === 'mixed' ? 'other' : v.chart_type) || '') : '',
+      chart: v ? ((CHART_ALIAS[v.chart_type] || v.chart_type) || '') : (f.chart_guess ? (CHART_ALIAS[f.chart_guess] || f.chart_guess) : ''),
       panel: f.panel || 0, nPanels: f.n_panels || 0,
       tags: v ? v.tags : [], summary: v ? v.summary_zh : '', labeled: !!v, verified: v ? (v.verified || '') : '',
       raster: f.has_raster, wide: !!f.full_width,
@@ -756,7 +757,7 @@ function applyLang() {
   $('q').placeholder = t('search'); $('l-venue').textContent = t('venue'); if ($('o-allvenue')) if ($('o-allvenue')) $('o-allvenue').textContent = t('all'); $('l-sort').textContent = t('sort');   // the select is rebuilt later and loses that id
   $('o-wall').textContent = t('byWall'); $('o-edition').textContent = t('byEdition'); $('o-paper').textContent = t('byPaper'); $('o-year').textContent = t('byYear'); $('o-wide').textContent = t('wide'); $('o-tall').textContent = t('tall');
   $('h-type').textContent = t('type'); $('h-source').textContent = t('source'); $('h-draw').textContent = t('draw'); $('h-textbox').textContent = t('textbox'); $('h-style').textContent = t('styleH'); $('railToggle').textContent = t('filters') + ' ▾'; $('railClose').textContent = t('closeSheet');
-  $('more').textContent = t('more'); $('empty').textContent = t('empty'); $('footer').textContent = t('footer'); $('credit').innerHTML = t('credit'); showVisits(); $('lbClose').textContent = t('close');
+  $('more').textContent = t('more'); $('empty').textContent = t('empty'); $('footer').textContent = t('footer'); $('credit').innerHTML = t('credit') + (MODE === 'site' ? ` <a href="/welcome/">${LANG === 'zh' ? '导览' : 'Take the tour'}</a>` : ''); showVisits(); $('lbClose').textContent = t('close');
   $('k-num').textContent = t('num'); $('k-kind').textContent = t('kind'); $('k-venue').textContent = t('venue'); $('k-pos').textContent = t('pos'); $('k-file').textContent = t('file');
   $('lbPrev').textContent = t('prev'); $('lbNext').textContent = t('next'); $('lbShare').textContent = t('share');
   $('lang').textContent = LANG === 'zh' ? 'EN' : 'ZH';
@@ -811,6 +812,11 @@ document.querySelector('.rail-body').addEventListener('click', e => { if (e.targ
   if (u.get('textbox') === 'show') state.textbox = 'show';
   if (u.get('style') === 'all') state.style = 'all';
   if (u.get('ai')) $('pd').hidden = false;
+  if (u.get('bare')) {     // figure wall only (no header, rail or footer): for screenshots and embeds
+    const st = document.createElement('style');
+    st.textContent = '.top,.rail,.result-line,#more,#footer,#credit,#visits{display:none!important}.wrap{grid-template-columns:1fr!important;padding-block:0!important}';
+    document.head.appendChild(st);
+  }
   if (state.q) $('q').value = state.q;
   if (state.sort) $('sort').value = state.sort; }
 applyLang();
