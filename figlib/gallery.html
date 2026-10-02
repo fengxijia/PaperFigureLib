@@ -101,8 +101,9 @@ button { font: inherit; color: inherit; }
 .rail { position: sticky; top: 74px; align-self: start; height: calc(100vh - 90px); display: flex; flex-direction: column; }
 .rail-body { flex: 1; min-height: 0; overflow: auto; }
 .rail-foot { flex: none; padding: 10px 0 2px; border-top: 1px solid var(--line); display: flex; align-items: center; gap: 10px; }
-.ai-btn { flex: none; font-size: 11.5px; padding: 4px 10px; background: var(--accent); color: var(--accent-ink, #fff); border-color: var(--accent); font-weight: 600; }
-.ai-btn:hover { filter: brightness(1.08); }
+/* two classes so the plain .chip rule further down cannot reset the fill (that made the label invisible) */
+.chip.ai-btn { flex: none; font-size: 11.5px; padding: 4px 10px; background: var(--accent); color: var(--accent-ink, #fff); border-color: var(--accent); font-weight: 600; }
+.chip.ai-btn:hover { filter: brightness(1.08); }
 /* prompt dialog: a copyable block that tells any chatbot how to build gallery links for a topic */
 .pd { position: fixed; inset: 0; background: rgba(10,14,18,.7); z-index: 25; display: grid; place-items: center; padding: 16px; }
 .pd[hidden] { display: none; }
@@ -425,11 +426,11 @@ const CAT_L = {
   zh: { background: 'Intro 图', method: '方法图', data: '数据图', example: '样例图', prompt: '提示词', table: '表格', other: '其他' },
   en: { background: 'Intro', method: 'Method', data: 'Data chart', example: 'Example', prompt: 'Prompt', table: 'Table', other: 'Other' } };
 const CHART_L = {
-  zh: { bar: '柱状图', line: '曲线图', scatter: '散点图', pie: '饼图', heatmap: '热力图', box: '箱线 / 小提琴图', contour: '等高线 / 地形图', radar: '雷达图', histogram: '直方图', area: '面积图', confusion_matrix: '混淆矩阵', mixed: '组合图', other: '其他图表' },
-  en: { bar: 'Bar', line: 'Line', scatter: 'Scatter', pie: 'Pie', heatmap: 'Heatmap', box: 'Box & violin', contour: 'Contour & surface', radar: 'Radar', histogram: 'Histogram', area: 'Area', confusion_matrix: 'Confusion matrix', mixed: 'Mixed', other: 'Other chart' } };
+  zh: { bar: '柱状图', line: '曲线图', scatter: '散点图', point: '点图 / 误差棒', pie: '饼图', heatmap: '热力图', box: '箱线 / 小提琴图', contour: '等高线 / 地形图', radar: '雷达图', histogram: '直方图', area: '面积图', confusion_matrix: '混淆矩阵', mixed: '组合图', other: '其他图表' },
+  en: { bar: 'Bar', line: 'Line', scatter: 'Scatter', point: 'Point & interval', pie: 'Pie', heatmap: 'Heatmap', box: 'Box & violin', contour: 'Contour & surface', radar: 'Radar', histogram: 'Histogram', area: 'Area', confusion_matrix: 'Confusion matrix', mixed: 'Mixed', other: 'Other chart' } };
 let CAT_ZH = CAT_L[LANG], CHART_ZH = CHART_L[LANG];
 const CAT_ORDER = ['method', 'background', 'data', 'example', 'table', 'prompt', 'other'];
-const CHART_ORDER = ['bar', 'line', 'scatter', 'pie', 'heatmap', 'contour', 'histogram', 'box', 'radar', 'area', 'confusion_matrix', 'other'];
+const CHART_ORDER = ['bar', 'line', 'scatter', 'point', 'pie', 'heatmap', 'contour', 'histogram', 'box', 'radar', 'area', 'confusion_matrix', 'other'];
 const CHART_ALIAS = { mixed: 'other', violin: 'box' };      // classes shown together
 const HEUR = { teaser: 'background', method: 'method', result: 'data', example: 'example', prompt: 'prompt', table: 'table', other: 'other' };
 
@@ -442,7 +443,7 @@ for (const p of DATA.papers) {
     FIGS.push({
       id: f.fig_id, num: f.num, page: f.page, caption: f.caption,
       cat: v ? v.category : (HEUR[f.kind] || 'other'),
-      chart: v ? ((CHART_ALIAS[v.chart_type] || v.chart_type) || '') : (f.chart_guess ? (CHART_ALIAS[f.chart_guess] || f.chart_guess) : ''),
+      chart: (() => { const a = x => CHART_ALIAS[x] || x || ''; const c0 = v ? a(v.chart_type) : ''; return (!c0 || c0 === 'other') && f.chart_guess ? a(f.chart_guess) : c0; })(),
       panel: f.panel || 0, nPanels: f.n_panels || 0,
       tags: v ? v.tags : [], summary: v ? v.summary_zh : '', labeled: !!v, verified: v ? (v.verified || '') : '',
       raster: f.has_raster, wide: !!f.full_width,

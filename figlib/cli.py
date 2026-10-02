@@ -425,7 +425,7 @@ def cmd_split(args):
 
 def cmd_classify(args):
     from figlib.classify import run
-    usage = run(args.data, args.model, jobs=min(args.jobs, 4), limit=args.limit, force=args.force, log=log)
+    usage = run(args.data, args.model, jobs=min(args.jobs, 4), limit=args.limit, force=args.force, log=log, only_charts=args.only_charts)
     log(f"classify: done, usage {usage}")
 
 
@@ -519,6 +519,7 @@ def _save_hash_cache(data: Path):
 
 
 def load_index(data: Path):
+    overrides = load_overrides(data)
     papers = []
     for jp in sorted((data / "index").glob("*.json")):
         rec = json.loads(jp.read_text())
@@ -566,10 +567,32 @@ def load_index(data: Path):
                                            width_pt=f["width_pt"], height_pt=f["height_pt"]))
                 except Exception:
                     pass
-            v2 = f.get("vision2")
+            manual = apply_override(f, overrides)
+            v2 = None if manual else f.get("vision2")
             if v2:
                 base = f.get("vision") or {"tags": [], "summary_zh": ""}
                 f["vision"] = {**base, "category": v2["category"], "chart_type": v2.get("chart_type", ""), "verified": v2["model"]}
+            if f.get("parent") and "[子图" in f.get("caption", ""):      # older panel records carried a Chinese suffix
+                f["caption"] = re.sub(r"\s*\[子图 (\d+)/(\d+)\]", r" [\1/\2]", f["caption"])
+            v_ = f.get("vision") or {}
+            cp = (f.get("chart_pred") or {}).get("label", "")
+            is_panel = bool(f.get("parent"))
+            _XKIND = {"x:method": "method", "x:background": "teaser", "x:example": "example", "x:table": "table", "x:prompt": "prompt"}
+            if not v_ and cp:
+                # the picture overrides the caption: a panel takes whatever the classifier saw; a whole figure that the
+                # caption sorted as a chart moves out of "data" when it is clearly a diagram, a photo or a table
+                if is_panel:
+                    f["kind"] = _XKIND.get(cp, "result")
+                elif cp in _XKIND and f.get("kind") == "result":
+                    f["kind"] = _XKIND[cp]
+            f.pop("chart_guess", None)
+            if (v_.get("category") == "data" and v_.get("chart_type") in ("", "other", "mixed", None)) or (not v_ and f.get("kind") == "result"):
+                # a panel shares its parent's caption, which may name several chart kinds: there the picture decides first
+                g = "" if (is_panel and cp) else _chart_from_text(" ; ".join(v_.get("tags") or []), f.get("caption", ""))
+                if not g and cp and cp not in _XKIND and cp != "other":
+                    g = cp
+                if g:
+                    f["chart_guess"] = g
             ver = f.get("extra", {}).get("v")
             q = f"?v={ver}" if ver else ""
             f["thumb"] = "figs/" + fig_path(data / "figs", f["fig_id"], thumb=True).name + q
@@ -588,6 +611,59 @@ def load_index(data: Path):
         log(f"dedupe: {dropped} duplicate copies folded by title")
     _save_hash_cache(data)
     return sorted(best.values(), key=lambda p: p["paper_key"])
+
+
+def load_overrides(data: Path):
+    """Manual label corrections: figlib/overrides.json (versioned) plus an optional data/overrides.json."""
+    out = {}
+    for p in (HERE / "overrides.json", data / "overrides.json"):
+        try:
+            out.update({k: v for k, v in json.loads(p.read_text()).items() if not k.startswith("_")})
+        except Exception:
+            pass
+    return out
+
+
+def apply_override(f, ov):
+    """Put a manual correction on a figure record (wins over the model and the caption guess)."""
+    o = ov.get(f["fig_id"]) or ov.get(f.get("parent") or "")
+    if not o:
+        return False
+    base = f.get("vision") or {"tags": [], "summary_zh": ""}
+    f["vision"] = {**base, "category": o.get("category", base.get("category", "data")),
+                   "chart_type": o.get("chart_type", base.get("chart_type", "")), "verified": "manual"}
+    f.pop("vision2", None)
+    return True
+
+
+_CHART_WORDS = [      # first match wins; checked on the model's style tags first, then on the caption
+    ("confusion_matrix", r"confusion matri"),
+    ("heatmap", r"heat ?map|attention map|saliency map|similarity matri|correlation matri|attention weights? (matrix|visuali)"),
+    ("contour", r"contour|loss landscape|loss surface|3d surface|surface plot|density plot|level sets?|energy landscape"),
+    ("point", r"forest plot|dot plot|point-?range plot|interval plot|dumbbell plot"),
+    ("violin", r"violin"),
+    ("box", r"box ?plot|box-and-whisker|boxplot"),
+    ("radar", r"radar (chart|plot)|spider (chart|plot)"),
+    ("pie", r"pie chart|donut chart|pie plot"),
+    ("histogram", r"histogram"),
+    ("scatter", r"scatter ?plot|scatter chart|t-?sne|umap|pca (projection|plot|visuali)|pareto front"),
+    ("bar", r"bar (chart|plot|graph)|stacked bars?|grouped bars?|bar charts?"),
+    ("area", r"area chart|stacked area"),
+    ("line", r"line (chart|plot|graph)|learning curves?|training curves?|loss curves?|roc curves?|precision-recall curves?|convergence curves?|scaling curves?|cdf\b|cumulative distribution"),
+]
+_CHART_RX = [(k, re.compile(rx, re.I)) for k, rx in _CHART_WORDS]
+
+
+def _chart_from_text(*texts):
+    """Chart class named in the tags or the caption ('' if none): fills in figures the model left as other / mixed
+    and charts that were only sorted by caption."""
+    for t in texts:
+        if not t:
+            continue
+        for k, rx in _CHART_RX:
+            if rx.search(t):
+                return k
+    return ""
 
 
 _HEUR_CAT = {"teaser": "background", "method": "method", "result": "data", "example": "example", "prompt": "prompt", "table": "table"}
@@ -754,6 +830,11 @@ def cmd_tables(args):
         log(f"  [{i}/{len(todo)}] {ip.stem}: {len(tabs)} tables")
 
 
+def cmd_chartclf(args):
+    from figlib.chartclf import run
+    run(args.data, log=log, min_p=args.min_p)
+
+
 def cmd_seedgen(args):
     from figlib.seedgen import run, VENUES
     if args.area not in VENUES:
@@ -828,6 +909,9 @@ def main(argv=None):
     tb = sub.add_parser("tables", help="backfill tables for papers extracted before the table locator (PDFs must be on disk)")
     tb.add_argument("--force", action="store_true")
     tb.set_defaults(fn=cmd_tables)
+    cc = sub.add_parser("chartclf", help="local CLIP probe: chart classes for figures the vision model has not labelled")
+    cc.add_argument("--min-p", type=float, default=0.8)
+    cc.set_defaults(fn=cmd_chartclf)
     sg = sub.add_parser("seedgen", help="write a seed list of the most cited open papers of an area's venues (Semantic Scholar)")
     sg.add_argument("--area", required=True)
     sg.add_argument("--out", required=True)
@@ -874,6 +958,7 @@ def main(argv=None):
     c.add_argument("--jobs", type=int, default=3)
     c.add_argument("--limit", type=int)
     c.add_argument("--force", action="store_true")
+    c.add_argument("--only-charts", action="store_true", help="only chart candidates (panels and caption-sorted charts), unsure and best papers first")
     c.set_defaults(fn=cmd_classify)
 
     a = sub.add_parser("all")
@@ -886,9 +971,9 @@ def main(argv=None):
         cmd_fetch(argparse.Namespace(data=args.data, seeds=seeds, ids=None, delay=3.0, no_api=True, min_free_gb=2.0, refetch=False))
         cmd_extract(argparse.Namespace(data=args.data, pdf_dir=args.pdf_dir, dpi=300, jobs=2, force=False))
         model = os.environ.get("FIGLIB_VISION_MODEL", "gpt-4.1-mini")
-        cmd_classify(argparse.Namespace(data=args.data, model=model, jobs=3, limit=None, force=False))
+        cmd_classify(argparse.Namespace(data=args.data, model=model, jobs=3, limit=None, force=False, only_charts=False))
         cmd_split(argparse.Namespace(data=args.data, force=False))
-        cmd_classify(argparse.Namespace(data=args.data, model=model, jobs=3, limit=None, force=False))
+        cmd_classify(argparse.Namespace(data=args.data, model=model, jobs=3, limit=None, force=False, only_charts=False))
         cmd_build(argparse.Namespace(data=args.data, prune=True))
     else:
         args.fn(args)

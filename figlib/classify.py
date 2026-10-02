@@ -29,7 +29,7 @@ import httpx
 from PIL import Image
 
 CATEGORIES = ["background", "method", "data", "example", "prompt", "table", "other"]
-CHART_TYPES = ["bar", "line", "scatter", "pie", "heatmap", "contour", "box", "violin", "radar",
+CHART_TYPES = ["bar", "line", "scatter", "point", "pie", "heatmap", "contour", "box", "violin", "radar",
                "histogram", "area", "confusion_matrix", "mixed", "other"]
 
 SYSTEM = """You label figures cut out of machine-learning / HCI / graphics research papers.
@@ -41,7 +41,7 @@ Return ONLY a JSON object with these keys:
     example: qualitative samples: generated images, screenshots, case studies, rendered scenes
     prompt: a text box showing a prompt or template
     table: a table rendered as a figure
-- chart_type: only when category is data; one of bar | line | scatter | pie | heatmap | contour (contour, density or 3D surface plots) | box | violin | radar | histogram | area | confusion_matrix | mixed | other. Otherwise "".
+- chart_type: only when category is data; one of bar | line | scatter | point (point estimates with error bars, dot or interval plots; not bars) | pie | heatmap | contour (contour, density or 3D surface plots) | box | violin | radar | histogram | area | confusion_matrix | mixed | other. Otherwise "".
 - tags: 2 to 6 short lowercase style descriptors, e.g. "error bars", "log scale", "2x3 panels", "annotated arrows", "icons", "color-coded modules", "legend inside", "dual y-axis", "hand-drawn style".
 - summary_zh: one Chinese sentence (<= 40 chars) saying what the figure shows and how it is drawn.
 Use the caption for context but judge the category from the picture."""
@@ -160,7 +160,7 @@ guessed it; you see a larger image and decide. Return ONLY JSON {"category": ...
 category: background (motivation / concept illustration, teaser), method (architecture, pipeline, framework, system diagram),
 data (any quantitative chart: axes, bars, curves, points, heatmaps, distributions, even when the caption talks about our method),
 example (qualitative samples, screenshots, rendered scenes, image grids), prompt (text box), table, other.
-chart_type only when category is data: bar | line | scatter | pie | heatmap | contour (contour, density or 3D surface plots) | box | violin | radar | histogram | area | confusion_matrix | mixed | other, else ""."""
+chart_type only when category is data: bar | line | scatter | point (point estimates with error bars, dot or interval plots; not bars) | pie | heatmap | contour (contour, density or 3D surface plots) | box | violin | radar | histogram | area | confusion_matrix | mixed | other, else ""."""
 
 
 def effective(f):
@@ -275,11 +275,20 @@ def _write_back_key(jp: Path, labels: dict, key: str):
     return n
 
 
-def run(data: Path, model: str, jobs=3, limit=None, force=False, log=print):
+def run(data: Path, model: str, jobs=3, limit=None, force=False, log=print, only_charts=False):
+    """only_charts: label just the chart candidates (panels, and figures a caption sorted as charts), in the order
+    that helps the page most: figures the local classifier is unsure about first, best papers first."""
     idx_dir = data / "index"
     figs_dir = data / "figs"
     clf = Classifier(model)
     jobs = max(1, min(jobs, 3))         # shared relay key: never more than 3 in flight
+    rank = {}
+    if only_charts:
+        try:                            # award tier per paper from the last build
+            for p in json.loads((data / "index.json").read_text())["papers"]:
+                rank[p["paper_key"]] = p["meta"].get("award_rank", 5)
+        except Exception:
+            pass
     todo = []
     for jp in sorted(idx_dir.glob("*.json")):
         rec = json.loads(jp.read_text())
@@ -290,10 +299,16 @@ def run(data: Path, model: str, jobs=3, limit=None, force=False, log=print):
                 continue
             if f.get("panels"):
                 continue                # composite already split: only its panels get labels
+            if only_charts and not (f.get("parent") or f.get("kind") == "result"):
+                continue
             from figlib.extract import fig_path
             png = fig_path(figs_dir, f["fig_id"], thumb=True)
             if png.exists():
-                todo.append((jp, f["fig_id"], png, f["caption"]))
+                sure = 1 if (f.get("chart_pred") or {}).get("p", 0) >= 0.8 else 0
+                todo.append((sure, rank.get(jp.stem, 6), jp, f["fig_id"], png, f["caption"]))
+    if only_charts:
+        todo.sort(key=lambda t: (t[0], t[1], t[2].name))
+    todo = [t[2:] for t in todo]
     if limit:
         todo = todo[:limit]
     log(f"classify: {len(todo)} figures with {model}, {jobs} workers")

@@ -4,3 +4,5 @@ httpx>=0.27
 fastapi>=0.110
 uvicorn>=0.29
 numpy>=2
+onnxruntime>=1.17      # chartclf (local chart-type classifier)
+scikit-learn>=1.4      # chartclf

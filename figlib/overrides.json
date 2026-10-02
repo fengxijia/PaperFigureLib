@@ -1,0 +1,7 @@
+{
+  "_comment": "Manual corrections of figure labels (reported by users). Keys are figure ids; a split figure's panels inherit its entry unless they have their own.",
+  "2110.01691__p11__fig5": {
+    "category": "data",
+    "chart_type": "point"
+  }
+}
