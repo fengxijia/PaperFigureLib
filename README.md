@@ -8,9 +8,40 @@ PaperFigureLib collects and organizes high-quality figures from top computer sci
 
 [![The figure wall](docs/img/wall.webp)](https://paperfigure.net/en/)
 
+## Use it from your AI: one prompt
+
+Paste this into any chatbot together with your topic. It turns the topic into keywords and hands you gallery links you can open. The same text sits behind the **AI interface** button on the site, and <https://paperfigure.net/en/?ai=1> opens it directly.
+
+```text
+I am writing a paper or class project about "(your topic here)" and I need reference styles for my own figures.
+Use the figure library https://paperfigure.net to help me:
+1. turn my topic into 3 to 5 English keywords;
+2. give me links in this format, one per keyword:
+   method diagrams https://paperfigure.net/en/?q=<keyword>&cat=method
+   line charts     https://paperfigure.net/en/?q=<keyword>&cat=data&chart=line
+   bar charts      https://paperfigure.net/en/?q=<keyword>&cat=data&chart=bar
+   tables          https://paperfigure.net/en/?q=<keyword>&cat=table
+   (cat can also be background or example; chart can also be scatter, heatmap, box, radar, histogram, pie)
+3. after each link, say in one sentence what I will see there, and tell me which one to open first.
+Keep the keywords in English, the captions in the library are English.
+```
+
+Every filter is a URL parameter, so an AI (or a script) can build any view:
+
+| Parameter | Values |
+|---|---|
+| `q` | keywords matched against captions, paper titles, tags and arXiv ids |
+| `cat` | `method`, `background` (intro figures), `data`, `example`, `table`, `prompt` |
+| `chart` | with `cat=data`: `bar`, `line`, `scatter`, `pie`, `heatmap`, `histogram`, `box`, `violin`, `radar`, `area` |
+| `venue` / `area` | a venue name (`CHI`, `NeurIPS`, `SOSP`, …) or a CSRankings area id (`ml`, `nlp`, `vision`, `hci`, `robotics`, `os`, `db`, …) |
+| `lang` | `en` or `zh` |
+| `#fig=<id>` | opens one figure with its paper details |
+
+[![The AI interface dialog](docs/img/ai.webp)](https://paperfigure.net/en/?ai=1)
+
 ## What is inside
 
-- **2,800+ papers, 38,000+ figures and tables**, from the best, outstanding and most cited papers of 2021 to 2026 at the top venues of every CSRankings area: ML, NLP, vision, AI, HCI, robotics, graphics, systems, networking, mobile, security, databases, PL, SE, HPC, theory, speech.
+- **4,400+ papers, 55,000+ figures and tables** (updated weekly), from the best, outstanding and most cited papers of 2021 to 2026 at the top venues of every CSRankings area: ML, NLP, vision, AI, HCI, robotics, graphics, systems, networking, mobile, security, databases, PL, SE, HPC, theory, speech.
 - Every figure is cropped from the PDF at 300 dpi, labelled by type (method diagram, intro figure, data chart by subtype: bar, line, scatter, pie, heatmap, box, violin, radar, histogram, area, confusion matrix; example, prompt, table), and linked to its paper, venue, year and award.
 - Multi-panel charts are split into single panels; tables are extracted as their own category.
 - Filter by figure type, venue (grouped by area), award tier and drawing style; search captions, titles, tags and arXiv ids; every view has a shareable URL (`?cat=method&venue=CHI`, `#fig=<id>` opens one figure).
@@ -73,3 +104,5 @@ Code: MIT. Figures belong to the authors of the papers; every figure links to it
 那么，我们顶会论文图表大全来了。
 
 PaperFigureLib 收集并整理了计算机科学顶会论文中的优秀图表，按照方法图、模型架构图、流程图、数据图、实验结果图等类别进行归档。无论你是在寻找灵感、设计版式，还是为 AI 绘图挑选参考模板，都可以从这里快速找到真正经得起顶会审美检验的范例。中文入口：<https://paperfigure.net/zh/>。
+
+**一句话让你的 AI 帮你找图**：点网站左下角的「AI 接口」，复制那段提示词，连同你的主题发给任何聊天 AI，它会把主题拆成英文关键词，给你几条能直接点开的图库链接。直达：<https://paperfigure.net/zh/?ai=1>。

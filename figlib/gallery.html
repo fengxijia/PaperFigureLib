@@ -101,7 +101,8 @@ button { font: inherit; color: inherit; }
 .rail { position: sticky; top: 74px; align-self: start; height: calc(100vh - 90px); display: flex; flex-direction: column; }
 .rail-body { flex: 1; min-height: 0; overflow: auto; }
 .rail-foot { flex: none; padding: 10px 0 2px; border-top: 1px solid var(--line); display: flex; align-items: center; gap: 10px; }
-.ai-btn { flex: none; font-size: 11.5px; padding: 4px 9px; }
+.ai-btn { flex: none; font-size: 11.5px; padding: 4px 10px; background: var(--accent); color: var(--accent-ink, #fff); border-color: var(--accent); font-weight: 600; }
+.ai-btn:hover { filter: brightness(1.08); }
 /* prompt dialog: a copyable block that tells any chatbot how to build gallery links for a topic */
 .pd { position: fixed; inset: 0; background: rgba(10,14,18,.7); z-index: 25; display: grid; place-items: center; padding: 16px; }
 .pd[hidden] { display: none; }
@@ -809,6 +810,7 @@ document.querySelector('.rail-body').addEventListener('click', e => { if (e.targ
   for (const k of ['q', 'cat', 'chart', 'venue', 'area', 'source', 'draw', 'sort']) if (u.get(k)) state[k] = u.get(k);
   if (u.get('textbox') === 'show') state.textbox = 'show';
   if (u.get('style') === 'all') state.style = 'all';
+  if (u.get('ai')) $('pd').hidden = false;
   if (state.q) $('q').value = state.q;
   if (state.sort) $('sort').value = state.sort; }
 applyLang();
